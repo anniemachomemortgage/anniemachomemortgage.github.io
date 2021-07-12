@@ -1,9 +1,10 @@
 /* AnnieMac Home Mortgage - Recruitment Wireframe */
 
 * {
-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-html, body {
-  
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li, section, main, header, nav, footer {
+    margin: 0;
+    padding: 0;
 }
