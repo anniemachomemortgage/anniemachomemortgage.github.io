@@ -39,7 +39,7 @@ header {
     justify-content: flex-start;
     align-items: center;
     min-height: 555px;
-    background: #7fc24a1f;
+    background: #c24a981f;
     position: relative;
 }
 
@@ -128,7 +128,7 @@ detailblock {
 }
 
 detailblockimage {
-    background: #7fc24a1f;
+    background: #c24a981f;
     max-height: 65px;
     max-width: 65px;
     display: block;
@@ -147,7 +147,7 @@ typeheaderlist {
     display: flex;
     flex-direction: column;
     width: 900px;
-    margin: 80px auto 0;
+    margin: 80px auto 40px;
 }
 
 typeheaderlist h2 {
@@ -156,7 +156,7 @@ typeheaderlist h2 {
     font-weight: 700;
     font-size: 30px;
     margin-top: 0px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 typeheader {
@@ -192,7 +192,7 @@ calloutcontainer {
 }
 
 section#secondaryblock {
-    background: #7fc24a1f;
+    background: #c24a981f;
     padding: 20px 0;
     margin: 25px 0 10px;
 }
@@ -200,7 +200,7 @@ section#secondaryblock {
 secondaryblock {
     display: flex;
     flex-direction: column;
-    margin: 30px auto;
+    margin: 27px auto;
     width: 900px;
     border-radius: 5px;
 }
