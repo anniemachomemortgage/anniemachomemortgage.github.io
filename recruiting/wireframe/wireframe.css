@@ -56,6 +56,15 @@ ul {
     background: orange;
 }
 
+verticalrow {
+    display: flex;
+}
+
+blockingcolumn {
+    display: flex;
+    flex-direction: column;
+}
+
 footer {
     background: pink;
 }
