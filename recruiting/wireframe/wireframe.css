@@ -10,7 +10,7 @@
 
 html, body, h1, h2, h3, h4, h5, h6, p, ul, li, section, main, header, nav, footer {
     font-family: 'inter', sans-serif;
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 300;
 }
 
@@ -19,7 +19,8 @@ body {
 }
 
 p {
-    line-height: 32px;
+    line-height: 30px;
+    margin: 0;
 }
 
 header {
@@ -74,16 +75,35 @@ textcontainer button {
 }
 
 detailsummary {
-    padding: 50px 0;
+    padding: 70px 0;
     display: flex;
     flex-wrap: wrap;
     width: 900px;
     margin: 0 auto;
+    justify-content: space-between;
+}
+
+detailsummary h2 {
+    min-width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+detailsummary h2 {
+    min-width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 40px;
 }
 
 detailblock {
-    width: 50%;
-    padding: 20px 15px;
+    width: 45%;
+    padding: 30px 0;
 }
 
 detailblock h3 {
@@ -91,6 +111,7 @@ detailblock h3 {
     font-size: 20px;
     margin-top: 0;
 }
+
 typeheaderlist {
     display: flex;
     flex-direction: column;
@@ -99,16 +120,25 @@ typeheaderlist {
     padding: 0 15px;
 }
 
-typeheader {
-    display: flex;
-    margin: 30px 0;
-}
-
-typeheader h2 {
+typeheaderlist h2 {
+    min-width: 100%;
+    text-align: center;
     font-weight: 700;
     font-size: 30px;
-    margin-top: 0;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+typeheader {
+    display: flex;
+    padding: 30px 0;
+}
+
+typeheader h3 {
+    font-weight: 700;
+    font-size: 30px;
     min-width: 40%;
+    border-right: 1px solid red;
 }
 
 typeheader p {
