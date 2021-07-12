@@ -127,6 +127,16 @@ detailblock {
     padding: 30px 0;
 }
 
+detailblockimage {
+    background: #7fc24a1f;
+    max-height: 65px;
+    max-width: 65px;
+    display: block;
+    min-width: 65px;
+    min-height: 65px;
+    margin: 0 0 25px;
+}
+
 detailblock h3 {
     font-weight: 700;
     font-size: 20px;
@@ -176,29 +186,84 @@ calloutcontainer {
     background: #7FC24A;
     margin: 0 auto;
     display: block;
-    padding: 20px;
+    padding: 5px 20px;
     border-radius: 3px;
-    margin: -20px auto 40px;
+    margin: 40px auto;
+}
+
+section#secondaryblock {
+    background: #7fc24a1f;
+    padding: 20px 0;
+    margin: 25px 0 10px;
 }
 
 secondaryblock {
     display: flex;
     flex-direction: column;
-    margin: 30px auto 10px;
-    background: #7fc24a1f;
+    margin: 30px auto;
     width: 900px;
-    padding: 20px 30px;
     border-radius: 5px;
 }
 
 secondaryblock h4 {
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 24px;
     margin: 10px 0px;
 }
 
 secondaryblock p {
     margin: 5px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: 0 auto;
+}
+
+form h2 {
+    min-width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+form label {
+    font-weight: 600;
+    margin: 8px 0 20px;
+    font-size: 15px;
+}
+
+form input {
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 2px 3px rgb(0 0 0 / 2%);
+    padding: 16px;
+    color: rgba(0, 0, 0, .85);
+    font-weight: 400;
+    margin-bottom: 15px;
+    letter-spacing: .6px;
+    width: auto;
+    margin-top: -3px;
+    opacity: 1;
+    font-size: 15px;
+}
+
+form button {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background: #7fc24a;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 20px;
+    margin: 25px 0 60px;
+    text-align: left;
 }
 
 calloutcontainer h2 {
