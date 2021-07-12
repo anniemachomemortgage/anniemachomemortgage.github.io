@@ -14,26 +14,55 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, li, section, main, header, nav, foote
     font-weight: 300;
 }
 
+body {
+    margin: 0;
+}
+
+p {
+    line-height: 32px;
+}
+
 header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    min-height: 400px;
+    min-height: 525px;
+    background: #fff5eb;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+    right: 40px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
 }
 
 textcontainer {
-    width: 800px;
+    margin-top: 80px;
+    width: 900px;
+    text-align: center;
 }
 
 textcontainer h1 {
     font-size: 54px;
-    text-align: center;
+    
     font-weight: 800; 
 }
 
 textcontainer button {
-    margin: 0 auto;
+    margin: 40px auto;
     display: block;
     padding: 15px 20px;
     font-size: 18px;
@@ -44,10 +73,28 @@ textcontainer button {
     color: #fff;
 }
 
+detailsummary {
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    margin: 0 auto;
+}
+
+detailblock {
+    width: 50%;
+    padding: 20px 15px;
+}
+
+detailblock h3 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 0;
+}
 typeheaderlist {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 900px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -65,23 +112,5 @@ typeheader h2 {
 }
 
 typeheader p {
-    margin-top: 0;
-}
-
-detailsummary {
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    margin: 0 auto;
-}
-
-detailblock {
-    width: 50%;
-    padding: 20px 15px;
-}
-
-detailblock h3 {
-    font-weight: 700;
-    font-size: 20px;
     margin-top: 0;
 }
