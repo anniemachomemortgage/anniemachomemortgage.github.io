@@ -8,3 +8,27 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, li, section, main, header, nav, foote
     margin: 0;
     padding: 0;
 }
+
+.header {
+    background: red;
+}
+
+.header-navigation {
+    background: blue;
+}
+
+.section-1 {
+    background: green;
+}
+
+.section-2 {
+    background: purple;
+}
+
+.section-3 {
+    background: orange;
+}
+
+footer {
+    background: pink;
+}
