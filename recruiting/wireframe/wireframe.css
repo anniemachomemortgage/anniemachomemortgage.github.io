@@ -18,6 +18,16 @@ body {
     margin: 0;
 }
 
+a {
+    color: #006fa9;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    border-bottom: 1px solid #006fa9;
+}
+
 p {
     line-height: 30px;
     margin: 0;
@@ -28,15 +38,25 @@ header {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    min-height: 525px;
-    background: #fff5eb;
+    min-height: 555px;
+    background: #35353524;
+    position: relative;
+}
+
+section#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: #4c4c4c;
+    color: #fff;
     position: relative;
 }
 
 nav {
     position: absolute;
     top: 30px;
-    right: 0;
+    width: 900px;
 }
 
 nav ul {
@@ -44,21 +64,21 @@ nav ul {
     padding: 0;
     list-style-type: none;
     position: absolute;
-    right: 40px;
     width: 500px;
+    right: 0;
     display: flex;
     justify-content: space-between;
 }
 
 textcontainer {
-    margin-top: 80px;
+    margin-top: 90px;
     width: 900px;
     text-align: center;
 }
 
 textcontainer h1 {
     font-size: 54px;
-    
+    margin-top: 60px;
     font-weight: 800; 
 }
 
@@ -73,6 +93,18 @@ textcontainer button {
     background: #7FC24A;
     color: #fff;
 }
+
+calloutcontainer {
+    padding: 40px 0 60px;
+    width: 900px;
+    text-align: center;
+}
+
+calloutcontainer h4 {
+    font-size: 26px;
+    font-weight: 600; 
+}
+
 
 detailsummary {
     padding: 70px 0;
@@ -116,7 +148,7 @@ typeheaderlist {
     display: flex;
     flex-direction: column;
     width: 900px;
-    margin: 0 auto;
+    margin: 80px auto 0;
     padding: 0 15px;
 }
 
@@ -132,15 +164,34 @@ typeheaderlist h2 {
 typeheader {
     display: flex;
     padding: 30px 0;
+    align-items: center;
 }
 
 typeheader h3 {
     font-weight: 700;
     font-size: 30px;
-    min-width: 40%;
-    border-right: 1px solid red;
+    min-width: 30%;
+}
+
+typeheader h3 span {
+    display: block;
+    font-size: 20px;
+    margin: 10px 0;
 }
 
 typeheader p {
     margin-top: 0;
+}
+
+contact {
+    border-radius: 100%;
+    min-width: 60px;
+    min-height: 60px;
+    background: #7FC24A;
+    margin-right: 80px;
+}
+
+contactcontainer {
+    padding: 40px 0;
+    width: 900px;
 }
