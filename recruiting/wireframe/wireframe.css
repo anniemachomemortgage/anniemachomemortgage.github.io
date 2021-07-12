@@ -30,6 +30,10 @@ main {
     flex-direction: column;
 }
 
+.header {
+    background: red;
+}
+
 .header-navigation ul {
     display: flex;
     margin: 15px 40px;
@@ -38,10 +42,15 @@ main {
     width: 300px;
     justify-content: space-between;
     float: right;
+    background: #01ff2c;
 }
 
-.header {
-    background: red;
+headercontent {
+    background: #00ff2b;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 10%;
 }
 
 .header-navigation {
