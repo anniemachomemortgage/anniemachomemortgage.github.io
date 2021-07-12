@@ -94,17 +94,6 @@ textcontainer button {
     color: #fff;
 }
 
-calloutcontainer {
-    padding: 40px 0 60px;
-    width: 900px;
-    text-align: center;
-}
-
-calloutcontainer h4 {
-    font-size: 26px;
-    font-weight: 600; 
-}
-
 
 detailsummary {
     padding: 70px 0;
@@ -190,7 +179,16 @@ contact {
     margin-right: 80px;
 }
 
-contactcontainer {
-    padding: 40px 0;
+calloutcontainer {
     width: 900px;
+    background: #7FC24A;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+calloutcontainer h2 {
+    font-weight: 700;
+    font-size: 30px;
 }
