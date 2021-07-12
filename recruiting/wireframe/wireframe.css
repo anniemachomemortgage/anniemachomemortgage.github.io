@@ -30,10 +30,14 @@ main {
     flex-direction: column;
 }
 
-ul {
+.header-navigation ul {
     display: flex;
-    margin: 0;
+    margin: 15px 40px;
     list-style-type: none;
+    padding: 0;
+    width: 300px;
+    justify-content: space-between;
+    float: right;
 }
 
 .header {
