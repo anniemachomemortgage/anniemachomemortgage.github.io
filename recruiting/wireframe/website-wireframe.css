@@ -73,10 +73,12 @@ button {
 	font-weight: 600;
 	letter-spacing: .05em;
 	margin: 5px 0;
+	width: fit-content;
 }
 
 .image {
 	background: #dee2e6;
+	border-radius: 6px;
 }
 
 .half-width {
@@ -105,6 +107,10 @@ button {
 
 .row-display {
 	display: flex;
+}
+
+.space-between {
+	justify-content: space-between;
 }
 
 .column-display {
