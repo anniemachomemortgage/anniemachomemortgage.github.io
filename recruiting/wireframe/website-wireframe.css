@@ -9,15 +9,19 @@
 html, body, h1, h2, h3, h4, h5, h6, p, ul, li, section, main, header, nav, footer {
 	font-family: 'inter', sans-serif;
 	font-size: 16px;
-	font-weight: 300;
+	line-height: 30px;
+	font-weight: 400;
+	color: #798088;
 }
 
 body {
 	margin: 0;
+	display: flex;
+	flex-direction: column;
 }
 
 a {
-	color: #006fa9;
+	color: #0495f4;
 	text-decoration: none;
 	font-weight: 600;
 }
@@ -26,7 +30,89 @@ a:hover {
 	border-bottom: 1px solid #006fa9;
 }
 
-p {
+h1, h2, h3, h4, h5, h6 {
+	color: #333a40;
+	margin: 0;
+	font-weight: 600;
+	padding: 0;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+h4, h5, h6 {
+	font-size: 18px;
+}
+
+p, ul, li {
 	line-height: 30px;
 	margin: 0;
 }
+
+header {
+	background: #f5f7fa;
+}
+
+button {
+	background: #333a40;
+	color: #fff;
+	border: none;
+	outline: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	font-size: inherit;
+	font-weight: 600;
+	letter-spacing: .05em;
+	margin: 5px 0;
+}
+
+.image {
+	background: #dee2e6;
+}
+
+.half-width {
+	width: 50%;
+}
+
+.full-width {
+	width: 100%;
+}
+
+#join-annie-mac-callout {
+	background: #333a40;
+	color: #fff;
+}
+
+#join-annie-mac-callout button {
+	background: #fff;
+	color: #333a40;
+}
+
+.contain {
+	width: 900px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.row-display {
+	display: flex;
+}
+
+.column-display {
+	display: flex;
+	flex-direction: column;
+}
+
+footer {
+	background: #f5f7fa;
+}
+
