@@ -38,11 +38,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 50px;
+	font-size: 46px;
+	font-weight: 900;
 }
 
 h2 {
 	font-size: 28px;
+	font-weight: 800;
 }
 
 h3 {
@@ -87,8 +89,6 @@ initalcallout {
 }
 
 textsectional h1 {
-	font-size: 46px;
-	font-weight: 900;
 	line-height: 50px;
 	width: 90%;
 	margin: 20px 0 25px;
@@ -133,6 +133,10 @@ button {
 	width: 100%;
 }
 
+#join-annie-mac {
+	padding: 30px 0;
+}
+
 #join-annie-mac-callout {
 	background: #333a40;
 	color: #fff;
@@ -143,6 +147,16 @@ button {
 	color: #333a40;
 }
 
+cardfeaturettes {
+	margin: 35px 0;
+}
+cardfeaturette {
+	width: 32%;
+}
+
+imagefeaturette {
+	margin-bottom: 20px;
+}
 .contain {
 	width: 1100px;
 	margin: 0 auto;
