@@ -231,6 +231,10 @@ testimonialdetail {
 	margin-top: 20px;
 	padding-top: 18px;
 }
+testimonial h4 {
+	margin: 5px 0 10px;
+	font-size: 20px;
+}
 testimonialportrait {
 	display: inline-block;
 	min-width: 60px;
