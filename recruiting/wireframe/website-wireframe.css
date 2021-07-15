@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
 html, body, h1, h2, h3, h4, h5, h6, p, ul, li, section, main, header, nav, footer {
 	font-family: 'inter', sans-serif;
 	font-size: 16px;
@@ -13,61 +11,50 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, li, section, main, header, nav, foote
 	font-weight: 400;
 	color: #798088;
 }
-
 body {
 	margin: 0;
 	display: flex;
 	flex-direction: column;
 }
-
 a {
 	color: #0495f4;
 	text-decoration: none;
 	font-weight: 600;
 }
-
 a:hover {
 	border-bottom: 1px solid #006fa9;
 }
-
 h1, h2, h3, h4, h5, h6 {
 	color: #333a40;
 	margin: 0;
 	font-weight: 600;
 	padding: 0;
 }
-
 h1 {
 	font-size: 46px;
 	font-weight: 900;
 }
-
 h2 {
 	font-size: 28px;
 	font-weight: 800;
 }
-
 h3 {
 	font-size: 22px;
+	font-weight: 700;
 }
-
 h4, h5, h6 {
 	font-size: 18px;
 }
-
 p, ul, li {
 	line-height: 30px;
 	margin: 0;
 }
-
 header {
 	background: #f5f7fa;
 }
-
 nav {
 	align-items: center;
 }
-
 nav ul {
 	list-style-type: none;
 	margin: 0;
@@ -76,28 +63,23 @@ nav ul {
 	justify-content: space-between;
 	align-items: center;
 }
-
 navigation {
 	width: 200px;
 	justify-content: space-between;
 	align-items: center;
 } 
-
 initalcallout {
 	margin: 35px 0;
 	justify-content: space-between;
 }
-
 textsectional h1 {
 	line-height: 50px;
 	width: 90%;
 	margin: 20px 0 25px;
 }
-
 textsectional button {
 	margin: 30px 0;
 }
-
 imagesectional {
 	background: #dee2e6;
 	min-width: 300px;
@@ -105,7 +87,6 @@ imagesectional {
 	display: block;
 	border-radius: 6px;
 }
-
 button {
 	background: #333a40;
 	color: #fff;
@@ -119,63 +100,107 @@ button {
 	margin: 5px 0;
 	width: fit-content;
 }
-
 .image {
 	background: #dee2e6;
 	border-radius: 6px;
 }
-
 .half-width {
 	width: 50%;
 }
-
 .full-width {
 	width: 100%;
 }
-
 #join-annie-mac {
 	padding: 30px 0;
 }
-
+#join-annie-mac h2 {
+	margin: 0 0 13px;
+}
 #join-annie-mac-callout {
 	background: #333a40;
 	color: #fff;
+	border-radius: 6px;
+	padding: 20px 30px;
+	text-align: center;
+	margin: 20px 0;
 }
-
+#join-annie-mac-callout h2 {
+	color: #fff;
+	margin: 10px 0;
+}
 #join-annie-mac-callout button {
 	background: #fff;
 	color: #333a40;
 }
-
 cardfeaturettes {
 	margin: 35px 0;
 }
 cardfeaturette {
 	width: 32%;
 }
-
+cardfeaturette p {
+	margin: 10px 0;
+}
+cardfeaturette button {
+	margin: 10px 0;
+}
 imagefeaturette {
-	margin-bottom: 20px;
+	margin-bottom: 30px;
+}
+#featured-call-outs h2 {
+	margin-bottom: 50px;
+}
+articlefeaturette {
+	margin: 35px 0 45px;
+	width: 100%;
+	justify-content: space-between;
+}
+articlefeaturetteimage {
+	min-width: 350px;
+}
+articlefeaturettecontentblock {
+	margin: 15px 0 20px;
+}
+commentgridcontainer {
+	margin: 45px 0 20px;
+	width: 100%;
+	justify-content: space-between;
+}
+commentcontainer {
+	width: 32%;
+}
+.mini-portrait {
+	background: #dee2e6;
+	border-radius: 10%;
+	min-width: 100px;
+	min-height: 100px;
+	max-width: 100px;
+	max-height: 100px;
+}
+.reg-padding-class {
+	margin-left: 30px;
+}
+.flip-padding-class {
+	margin-right: 30px;
 }
 .contain {
 	width: 1100px;
 	margin: 0 auto;
 	padding: 20px 0;
 }
-
 .row-display {
 	display: flex;
 }
-
+.reverse-row {
+	flex-direction: row-reverse;
+}
 .space-between {
 	justify-content: space-between;
 }
-
 .column-display {
 	display: flex;
 	flex-direction: column;
 }
-
 footer {
 	background: #f5f7fa;
 }
