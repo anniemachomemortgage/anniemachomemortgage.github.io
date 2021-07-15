@@ -60,6 +60,7 @@ logo {
 }
 nav {
 	align-items: center;
+	margin: 30px 0 0;
 }
 nav ul {
 	list-style-type: none;
@@ -78,7 +79,7 @@ navigation {
 	align-items: center;
 } 
 initalcallout {
-	margin: 35px 0;
+	margin: 40px 0 35px;
 	justify-content: space-between;
 }
 textsectional h1 {
@@ -143,7 +144,7 @@ button {
 	color: #333a40;
 }
 cardfeaturettes {
-	margin: 40px 0 35px;
+	margin: 40px 0 30px;
 }
 cardfeaturette {
 	width: 28%;
