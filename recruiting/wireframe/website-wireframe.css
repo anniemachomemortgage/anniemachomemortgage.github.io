@@ -142,10 +142,10 @@ button {
 #join-annie-mac-callout {
 	background: #333a40;
 	color: #fff;
-	border-radius: 6px;
-	padding: 20px 30px;
+	/* border-radius: 6px; */
+	padding: 30px;
 	text-align: center;
-	margin: 10px 0 20px;
+	margin: 35px 0;
 }
 #join-annie-mac-callout h2 {
 	color: #fff;
