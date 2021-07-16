@@ -83,6 +83,23 @@ navigation {
 	justify-content: space-between;
 	align-items: center;
 } 
+#menu-toggle {
+	position: relative;
+}
+#menu-toggle ul {
+	position: absolute;
+	background: #dee2e6;
+	width: 120px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	box-shadow: 1px 4px 36px rgb(0 0 0 / 14%);
+	top: 35px;
+	right: 0;
+	text-align: right;
+}
+navigation li ul li:nth-of-type(1) {
+	font-weight: initial;
+}
 initalcallout {
 	margin: 40px 0 35px;
 	justify-content: space-between;
