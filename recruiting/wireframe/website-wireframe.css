@@ -105,7 +105,7 @@ navigation {
 	font-size: 15px;
 	top: 35px;
 	right: 0;
-	background: #f7f7f7;
+	background: #fbfbfb;
 	border-radius: 5px;
 	box-shadow: 1px 4px 36px rgb(0 0 0 / 14%);
 	border: 1px solid #c3c5c75e;
@@ -271,10 +271,12 @@ testimonial {
 	display: flex;
 	flex-direction: column;
 	margin: 0 0 45px 0;
-	background: #f5f6f7;
+	background: #fbfbfb;
 	border-radius: 5px;
 	margin-bottom: 20px;
 	padding: 20px;
+	box-shadow: 1px 4px 6px rgb(0 0 0 / 6%);
+	border: 1px solid #c3c5c72b;
 }
 testimonialdetail {
 	border-top: 2px solid rgba(0,0,0,.04);
