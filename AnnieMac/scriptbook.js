@@ -843,4 +843,9 @@ $(function() {
 		$("#product-type-conventional").removeAttr('checked');
 		$("#product-type-fha").removeAttr('checked');
 	});
+	const $primaryTitle = $(document).find("title:eq(0)");
+	const $replaceTitle = $(document).find("title:eq(1)");
+	const newTitle = `${$primaryTitle.text()} | ${$replaceTitle.text()}`;
+	$primaryTitle.empty().append(newTitle);
+	$replaceTitle.remove();
 })
