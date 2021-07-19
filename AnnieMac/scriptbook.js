@@ -848,4 +848,5 @@ $(function() {
 	const newTitle = `${$primaryTitle.text()} | ${$replaceTitle.text()}`;
 	$primaryTitle.empty().append(newTitle);
 	$replaceTitle.remove();
+	$('script[src*="navigation.js"]').remove();
 })
