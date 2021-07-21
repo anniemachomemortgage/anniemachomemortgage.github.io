@@ -582,19 +582,21 @@ footer ul li,
 
 #annie-mac-2021-redesign-header-section {
 	display: flex;
-	height: 55em;
+	display: flex;
 	position: relative;
 	overflow-y: hidden;
+	background: url(https://annie-mac.com/uploads/sites/10713/public/happy-family-header.jpeg);
+	background-size: cover;
 }
 
-#annie-mac-2021-header-background-right {
+/* #annie-mac-2021-header-background-right {
 	flex: 1;
 	padding: 60px;
 	border-radius: 0 0 0 100%;
 	min-height: 500px;
 	background: url('https://annie-mac.com/uploads/sites/10713/public/happy-family-header.jpeg') top;
 	background-size: cover;
-}
+} */
 
 #annie-mac-2021-redesign-header-section #nested-container-text {
 	padding: 60px 0 60px 90px;
@@ -1130,7 +1132,7 @@ footer ul li,
 }
 
 #calculator-section {
-	background: linear-gradient(900deg, #0a699a 0%, #15506fe8 100%), url(https://images.pexels.com/photos/4386327/pexels-photo-4386327.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	background: #0e6a9c;
 	color: white;
 	padding: 40px 90px 95px;
 	margin-bottom: 100px;
@@ -1224,7 +1226,7 @@ footer ul li,
 #resource-section {
 	padding: 75px 90px 55px;
 	color: white;
-	background: linear-gradient(900deg, #087ca7f5 0%, #0a699a 100%), url(https://images.pexels.com/photos/167682/pexels-photo-167682.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	background: linear-gradient(900deg, #087ca7f5 0%, #0a699a 100%);
 	margin-bottom: -18px;
 	background-size: cover;
 	background-position-y: 75%;
