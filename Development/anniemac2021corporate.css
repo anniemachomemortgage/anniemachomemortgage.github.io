@@ -584,7 +584,7 @@ footer ul li,
 	display: flex;
 	position: relative;
 	overflow-y: hidden;
-	background: url(https://annie-mac.com/uploads/sites/10713/public/happy-family-header.jpeg);
+	/* background: url(https://annie-mac.com/uploads/sites/10713/public/happy-family-header.jpeg); */
 	background-size: cover;
 	justify-content: center;
 	min-height: 700px;
@@ -634,7 +634,7 @@ footer ul li,
 	margin-top: 40px;
 	font-weight: 500;
 	line-height: 30px;
-	color: #fff;
+	/* color: #fff; */
 }
 
 #annie-mac-2021-redesign-header-section #nested-container-text h3 {
@@ -652,7 +652,7 @@ footer ul li,
 	font-size: 18px;
 	margin-bottom: 15px;
 	line-height: 30px;
-	color: #fff;
+	/* color: #fff; */
 }
 
 #annie-mac-2021-redesign-header-section #nested-container-text a {
