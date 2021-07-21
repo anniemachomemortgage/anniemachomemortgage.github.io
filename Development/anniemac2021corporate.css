@@ -582,11 +582,11 @@ footer ul li,
 
 #annie-mac-2021-redesign-header-section {
 	display: flex;
-	display: flex;
 	position: relative;
 	overflow-y: hidden;
-	background: url(https://annie-mac.com/uploads/sites/10713/public/happy-family-header.jpeg);
+	background: linear-gradient(rgb(95 95 95 / 18%) 0%, rgb(95 95 95 / 56%) 72%, rgb(255 255 255) 100%), url(https://annie-mac.com/uploads/sites/10713/public/happy-family-header.jpeg);
 	background-size: cover;
+	justify-content: center;
 }
 
 /* #annie-mac-2021-header-background-right {
