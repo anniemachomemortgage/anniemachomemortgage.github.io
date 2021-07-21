@@ -584,7 +584,7 @@ footer ul li,
 	display: flex;
 	position: relative;
 	overflow-y: hidden;
-	background: linear-gradient(rgb(95 95 95 / 18%) 0%, rgb(95 95 95 / 56%) 72%, rgb(255 255 255) 100%), url(https://annie-mac.com/uploads/sites/10713/public/happy-family-header.jpeg);
+	background: url(https://annie-mac.com/uploads/sites/10713/public/happy-family-header.jpeg);
 	background-size: cover;
 	justify-content: center;
 	min-height: 700px;
