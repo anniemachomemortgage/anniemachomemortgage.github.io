@@ -269,7 +269,7 @@ $(function() {
 	};
 	// For new pages and the blog, remove old stylesheets and add the new 2021 stylesheet.
 	if ((window.location.href.indexOf("credit-score-basics") != -1) || (window.location.href.indexOf("blog") != -1) || (window.location.href.indexOf("prequal-vs-preapproval") != -1)) {
-		$('head').append('<link rel="stylesheet" href="https://githopkins.github.io/anniemac2021corporate.css" type="text/css" />');
+		$('head').append('<link rel="stylesheet" href="https://anniemachomemortgage.github.io/Development/anniemac2021corporate.css" type="text/css" />');
 		if ($('body').hasClass('site-type-loan_officer')) {
 			$("head > link:nth-child(42)").remove();
 			$("head > link:nth-child(41)").remove();

@@ -2464,7 +2464,7 @@ summary {
 
 @media only screen and (max-width: 1483px) {
 	.page-blog-list article {
-		width: calc((93vw - 400px) / 3);
+		width: calc((93vw - 459px) / 3);
 	}
 }
 
