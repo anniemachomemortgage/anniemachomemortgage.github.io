@@ -81,6 +81,7 @@ $(function() {
 		};
 	};
 	if ($('body').hasClass('site-type-loan_officer')) {
+		$("#list_11537").remove();
 		if (document.cookie.indexOf("noshowlastoriginator=") < 0) {
 			if (document.cookie.indexOf("visitedloanoriginator=") < 0) {
 			  const value = window.location.host.split('.')[0];
@@ -117,6 +118,7 @@ $(function() {
 		console.log('covid warning hidden');
 	};
 	if ($('body').hasClass('site-type-branch')) {	
+		$("#list_11537").remove();
 		$("#team-display > h3:nth-child(1)").text("Branch Management");
 	};
 	// if (window.location.href.indexOf("annie-mac.com") > -1) {
@@ -258,6 +260,7 @@ $(function() {
 	};
 	// Hide team members if no team members are present on team page.
 	if ($('body').hasClass('site-type-team')) {
+		$("#list_11537").remove();
 		if ($('.team-member-section > .team-member').length < 1) {
 			$("body > div.main-content > h3").remove();
 			$('.team-member-section').remove();
