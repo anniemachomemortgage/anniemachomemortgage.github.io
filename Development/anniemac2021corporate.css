@@ -587,6 +587,7 @@ footer ul li,
 	background: linear-gradient(rgb(95 95 95 / 18%) 0%, rgb(95 95 95 / 56%) 72%, rgb(255 255 255) 100%), url(https://annie-mac.com/uploads/sites/10713/public/happy-family-header.jpeg);
 	background-size: cover;
 	justify-content: center;
+	min-height: 700px;
 }
 
 /* #annie-mac-2021-header-background-right {
@@ -599,9 +600,8 @@ footer ul li,
 } */
 
 #annie-mac-2021-redesign-header-section #nested-container-text {
-	padding: 60px 0 60px 90px;
 	text-align: left;
-	width: 815px;
+	width: 70%;
 	align-self: center;
 }
 
