@@ -270,20 +270,16 @@ $(function() {
 	if ((window.location.href.indexOf("credit-score-basics") != -1) || (window.location.href.indexOf("blog") != -1) || (window.location.href.indexOf("prequal-vs-preapproval") != -1)) {
 		$('head').append('<link rel="stylesheet" href="https://anniemachomemortgage.github.io/Development/anniemac2021corporate.css" type="text/css" />');
 		if ($('body').hasClass('site-type-loan_officer')) {
-			$("head > link:nth-child(42)").remove();
-			$("head > link:nth-child(41)").remove();
-			$("head > link:nth-child(40)").remove();
-			$("head > link:nth-child(39)").remove();
-			$("head > link:nth-child(38)").remove();
-			$("head > link:nth-child(37)").remove();
+			$("head > link:nth-child(24)").remove();
+			$("head > link:nth-child(23)").remove();
+			$("head > link:nth-child(22)").remove();
+			$("head > link:nth-child(21)").remove();
 		};  
 		if ($('body').hasClass('site-type-branch')){
-			$("head > link:nth-child(42)").remove();
-			$("head > link:nth-child(41)").remove();
-			$("head > link:nth-child(40)").remove();
-			$("head > link:nth-child(39)").remove();
-			$("head > link:nth-child(38)").remove();
-			$("head > link:nth-child(37)").remove();
+			$("head > link:nth-child(24)").remove();
+			$("head > link:nth-child(23)").remove();
+			$("head > link:nth-child(22)").remove();
+			$("head > link:nth-child(21)").remove();
 		};
 		if ($('body').hasClass('site-type-corporate')) {
 			$("head > link:nth-child(37)").remove();
