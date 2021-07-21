@@ -653,7 +653,7 @@ footer ul li,
 	font-size: 18px;
 	margin-bottom: 15px;
 	line-height: 30px;
-	/* color: #fff; */
+	opacity: .8;
 }
 
 #annie-mac-2021-redesign-header-section #nested-container-text a {
