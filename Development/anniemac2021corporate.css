@@ -208,7 +208,7 @@ body {
 }
 
 .navigation-sectional:nth-of-type(3) ul li a {
-	background: #7FC24A;
+	background: #5db118;
 	padding: 12px 20px;
 	border-radius: 3px;
 	color: white;
@@ -269,7 +269,7 @@ body {
 }
 
 #apply-now-sidebar {
-	background: #7FC24A;
+	background: #5db118;
 	padding: 4px;
 	border-radius: 3px;
 	color: white;
@@ -657,7 +657,7 @@ footer ul li,
 #readable-section button,
 #lead-capture-reno-construction input[type="submit"],
 #lead-capture-reno-construction input[type="button"] {
-	background: #7FC24A;
+	background: #5db118;
 	padding: 28px 35px;
 	border-radius: 6px;
 	color: white;
@@ -1351,7 +1351,7 @@ footer ul li,
 }
 
 #annie-mac-2021-review-container button {
-	background: #7FC24A;
+	background: #5db118;
 	border-radius: 6px;
 	color: white;
 	margin-top: 30px;
@@ -1674,7 +1674,7 @@ form label {
 }
 
 .filtered-active {
-	background: #7FC24A;
+	background: #5db118;
 }
 
 .filtered-active:hover {
@@ -1698,7 +1698,7 @@ form label {
 	box-shadow: 1px 1px 3px rgb(0 0 0 / 12%);
 	text-transform: capitalize;
 	text-align: center;
-	background: #7FC24A;
+	background: #5db118;
 	order: 2;
 	margin-left: 20px;
 	min-width: 90px;
@@ -2416,7 +2416,7 @@ summary {
 }
 
 #login-form button {
-	background: #7FC24A;
+	background: #5db118;
 	padding: 15px 35px;
 	border-radius: 3px;
 	color: white;
@@ -3307,7 +3307,7 @@ textarea#textarea-comments {
 }
 
 .page-content-2021 h2 {
-	color: #7FC24A;
+	color: #5db118;
 	font-weight: 700;
 	margin-bottom: 20px;
 }
@@ -3627,7 +3627,7 @@ textarea#textarea-comments {
 }
 
 #branch-content button {
-	background: #7FC24A;
+	background: #5db118;
 	padding: 28px 35px;
 	border-radius: 6px;
 	color: white;
@@ -3753,7 +3753,7 @@ textarea#textarea-comments {
 }
 
 #annie-mac-2021-content-container .team-member-information button:first-of-type {
-	background: #7FC24A;
+	background: #5db118;
 }
 
 #annie-mac-2021-content-container .team-member-information button:hover {
