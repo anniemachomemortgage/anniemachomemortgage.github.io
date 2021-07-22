@@ -584,14 +584,16 @@ footer ul li,
 	display: flex;
 	position: relative;
 	overflow-y: hidden;
-	justify-content: center;
 	min-height: 700px;
+	background: url(https://annie-mac.com/uploads/sites/10713/public/flat-house.png) no-repeat bottom right;
+	background-position: 145%;
 }
 
 #annie-mac-2021-redesign-header-section #nested-container-text {
 	text-align: left;
 	align-self: center;
 	padding: 50px 90px 0;
+	width: 70%;
 }
 
 #reno-logo {
