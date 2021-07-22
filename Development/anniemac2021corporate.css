@@ -1166,6 +1166,10 @@ footer ul li,
 	font-weight: 300;
 }
 
+.annie-mac-2021-resource-option:nth-of-type(2) {
+	padding-top: 90px;
+}
+
 #vacation-section {
 	background: #fefefe;
 	padding: 30px 90px;
