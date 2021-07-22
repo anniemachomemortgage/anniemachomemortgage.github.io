@@ -1223,6 +1223,7 @@ footer ul li,
 
 #resource-section {
 	padding: 90px;
+	margin-bottom: 120px;
 	color: #ffffff;
 	background: #1d7aa9;
 }
@@ -1274,7 +1275,7 @@ footer ul li,
 
 #annie-mac-review-now-section {
 	background: #fefefe;
-	margin-top: -80px;
+	margin-top: -20px;
 }
 
 #annie-mac-review-now-section #annie-mac-2021-content-container h3 {
