@@ -1218,12 +1218,12 @@ footer ul li,
 }
 
 #resource-section {
-	padding: 75px 90px;
+	padding: 90px;
 	color: white;
-	background: linear-gradient(900deg, #044963f5 0%, #087ca7f5 100%);
+	background: linear-gradient(900deg, #328daff5 0%, #328daf 32%, #148ebb00 100%), url(https://annie-mac.com/uploads/sites/10713/public/cloud-background.jpeg) no-repeat;
 	margin-bottom: 60px;
-	background-size: cover;
-	background-position-y: 75%;
+	background-size: 100%;
+	background-position-y: -259%;
 }
 
 #resource-section h3,
@@ -1238,7 +1238,8 @@ footer ul li,
 }
 
 .annie-mac-2021-calculator-option {
-	margin-top: 60px;
+	margin-top: 100px;
+	padding-bottom: 127px;
 }
 
 #vacational-section {
