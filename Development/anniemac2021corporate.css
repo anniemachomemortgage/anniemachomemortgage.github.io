@@ -1297,9 +1297,9 @@ footer ul li,
 }
 
 #annie-mac-2021-review-container {
-	background: linear-gradient(rgb(255 255 255) 0%, rgb(249 248 248) 31%, rgb(255 255 255 / 50%) 61%, rgb(117 109 109 / 82%) 88%, rgb(95 95 95) 100%), url(https://annie-mac.com/uploads/sites/10713/public/review-happy-family.jpeg) top center;
+	background: linear-gradient(rgb(255 255 255) 0%, rgb(249 248 248) 31%, rgb(255 255 255 / 50%) 61%, rgb(117 109 109 / 82%) 88%, rgb(95 95 95) 100%), url(https://annie-mac.com/uploads/sites/10713/public/neighbrohood.jpeg) no-repeat bottom center;
 	height: 690px;
-	background-size: 100%;
+	background-size: 153%;
 	padding-top: 125px;
 	position: relative;
 	background-position-y: 52%;
