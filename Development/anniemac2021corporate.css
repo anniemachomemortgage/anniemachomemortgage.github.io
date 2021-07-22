@@ -1260,14 +1260,13 @@ footer ul li,
 }
 
 #vacational-section-background-left {
-	border-radius: 2%;
-	background: url('https://images.pexels.com/photos/4473315/pexels-photo-4473315.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') top;
+	background: url('https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/family-vacation.jpg') top;
 	min-width: 285px;
 	margin-right: 65px;
 	background-size: cover;
-	box-shadow: 1px 1px 20px rgb(0 0 0 / 22%);
 	max-height: 290px;
-	max-width: 285px;
+	max-width: 300px;
+	background-size: 115%;
 }
 
 #annie-mac-review-now-section {
