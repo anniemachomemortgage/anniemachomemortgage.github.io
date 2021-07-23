@@ -199,6 +199,7 @@ $(function() {
 		});
 		var dropapplynowbranch = '<a href="/loan/apply"><button id="apply-now-branch">Apply Now</button></a>';
 		$( dropapplynowbranch ).prependTo( $( "#branch-content > a" ) );
+		$('#text-based-branch').remove();
 		var teammeet = '<h3 style="color: #006fa9; text-align: center; font-size: 46px;">Our Team</h3>';
 		$( teammeet ).prependTo( $( "#team-display" ) );
 		$('#branch-steps').remove();
