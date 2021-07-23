@@ -23,6 +23,12 @@
   color: white !important;
   background: #7fc24a !important;
 }
+#annie_mac-branch > #team-display {
+  order: 1;
+}
+.site-type-branch #deserve-more-container-master {
+  display: none;
+}
 #submit-overlayment {
   position: absolute;
   width: 100%;
