@@ -37,7 +37,7 @@ body {
   background: #7fc24a !important;
 }
 #annie_mac-branch > #team-display {
-  order: 1;
+  order: 1 !important;
   margin-bottom: -103px;
   margin-top: -60px;
 }
