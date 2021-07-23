@@ -770,6 +770,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
     padding: 14px 25px;
     line-height: 1.6;
     margin: 15px auto !important;
+    display: none !important;
 }
 #covid-warning h4 {
     font-size: 24px;
