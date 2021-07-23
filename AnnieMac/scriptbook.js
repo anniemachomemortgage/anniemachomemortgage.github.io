@@ -905,6 +905,7 @@ $(function() {
 	$primaryTitle.empty().append(newTitle);
 	$replaceTitle.remove();
 	$('script[src*="navigation.js"]').remove();
+	$('script[src*="scriptbook.js"]').remove();
 	$("#scriptbook-js").remove();
 	$("#react1-js").remove();
 	$("#react2-js").remove();
