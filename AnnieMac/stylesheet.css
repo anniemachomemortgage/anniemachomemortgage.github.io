@@ -2361,10 +2361,7 @@ footer #list_11344 > a, footer  #list_11343 > a, footer  #list_11350 > a {
     z-index: 1000;
 }
 #branch-banner {
-    background: linear-gradient(177deg, rgb(23 16 5 / 21%) 30%, rgb(29 27 18 / 60%) 80%), url(https://www.annie-mac.com/uploads/sites/10713/public/House-at-Dusk.jpeg) top left no-repeat !important;
-    max-height: 450px !important;
-    background-position-y: 68% !important;
-    background-size: 101% !important;
+    background: linear-gradient(177deg, rgb(23 16 5 / 52%) 30%, rgb(29 27 18 / 54%) 80%), url('https://annie-mac.com/dev/themes/annie_mac/img/indexbg.jpeg') top left no-repeat !important;
 }
 #branch-overlay {
     background: transparent;
