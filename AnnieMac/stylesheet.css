@@ -10,6 +10,10 @@ body {
   background: #fff;
 }
 
+#branch-content {
+  margin-top: 0;
+}
+
 #branch-content > a:nth-of-type(1) {
   display: flex;
 }
