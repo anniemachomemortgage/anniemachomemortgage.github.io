@@ -23,14 +23,14 @@ $(function() {
 			$( ".team-member-section" ).appendTo( $( "#annie-mac-2021-content-container" ) );
 			$( "#team-display" ).appendTo( $( ".team-member-section" ) );
 		};
-		$('*').contents().each(function() {
-			if(this.nodeType === Node.COMMENT_NODE) {
-				$(this).remove();
-			}
-		});
 	};
 	
 	// Begin live site code
+	$('*').contents().each(function() {
+		if(this.nodeType === Node.COMMENT_NODE) {
+			$(this).remove();
+		}
+	});
 	$("#copyrights > img").attr('src', 'https://annie-mac.com/dev/themes/annie_mac/img/equalhousingwhite.png');
 	var annieMacLogo = $("#navigation_new_upper > div:nth-child(1) > li > a > img").attr('src');
 	if (annieMacLogo === "/uploads/sites/10713/public/AMLogoTEST_2_1.png") {
