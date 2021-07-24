@@ -2403,7 +2403,7 @@ footer #list_11344 > a, footer  #list_11343 > a, footer  #list_11350 > a {
 }
 }
 #annie-mac-2021-redesign-container, .annie-mac-2021-redesign-section {
-  width: initial;
+  width: initial !important;
 }
 
 
