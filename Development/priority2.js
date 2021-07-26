@@ -2,7 +2,7 @@ $(function() {
 	$("#menu-toggle").click(function(event) {
 		$("#sub-menu").fadeToggle("slow");
 	});
-	function leadCaptureProcess(pagenumber, togglepageback, togglepageforward) {
+	function formLeadPaginationToggles(pagenumber, togglepageback, togglepageforward) {
 		const $currentPage = $('#page-' + pagenumber);
 		const $togglepageforward = $('#toggle-page-' + togglepageforward);
 		const $togglepageback = $('#toggle-page-back-' + togglepageback);
@@ -15,11 +15,11 @@ $(function() {
 			$pagenumber.find('section').toggleClass('active-page');
 		});
 	}
-	leadCaptureProcess('1', 'start', '2');
-	leadCaptureProcess('2', '1', '3');
-	leadCaptureProcess('3', '2', '4');
-	leadCaptureProcess('4', '3', '5');
-	leadCaptureProcess('5', '4', 'finish');	
+	formLeadPaginationToggles('1', 'start', '2');
+	formLeadPaginationToggles('2', '1', '3');
+	formLeadPaginationToggles('3', '2', '4');
+	formLeadPaginationToggles('4', '3', '5');
+	formLeadPaginationToggles('5', '4', 'finish');	
 });
 
 
