@@ -64,7 +64,7 @@ p, ul, li {
 	margin: 0;
 }
 header {
-	background: repeating-linear-gradient(135deg, #dfdfdf, #dfdfdf 15em, #eeeeee 0, #eeeeee 60em);
+	background: repeating-linear-gradient(135deg, #e0e0e0, #e0e0e0 15em, #eeeeee 0, #eeeeee 61em);
 	display: flex;
 	flex-direction: column;
 	height: 330px;
