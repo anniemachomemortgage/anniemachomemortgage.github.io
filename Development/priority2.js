@@ -3,7 +3,9 @@ $(function() {
 		$("#sub-menu").fadeToggle("slow");
 	});
 	function leadCaptureProcess(pagenumber, togglepageback, togglepageforward) {
-		const $togglepageforward = $('#' + togglepageforward);
+		const $currentPage = $('#page-' + pagenumber);
+		const $togglepageforward = $('#toggle-page-' + togglepageforward);
+		const $togglepageback = $('#toggle-page-back-' + togglepageback);
 		$('#toggle-page-' + togglepageforward).on('click', function() {
 			if($("section").hasClass("inactive")) {
 				$("section").addClass("active-page");
