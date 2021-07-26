@@ -39,12 +39,24 @@
 				</ul>
 			</nav>
 			<h1>Priority 2 Project</h1>
-			<h2>Brought to you by AnnieMac Home Morgage</h2>
+			<h2>Brought to you by AnnieMac Home Mortgage</h2>
 		</headercontainer>
 	</header>
 	<main>
-		<section id="page-1" class="active-page">
-			<h3>Page 1</h3>
+		<section id="summary">
+			<form>
+				<textarea id="summary-field"></textarea>
+			</form>
+		</section>
+		<section id="page-0" class="active-page">
+			<h3>Are you a homebuyer or a real estate agent?</h3>
+			<div class="button-selection">
+				<button id="homebuyer-track" value="I'm a homebuyer">I'm a homebuyer</button>
+				<button id="estate-track">I'm a real estate agent</button>
+			</div>
+		</section>
+		<section id="page-1" class="inactive">
+			<h3>Where are you in the process?</h3>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ratione earum culpa sint eaque! Ullam accusantium iure libero enim suscipit repellendus nesciunt accusamus facilis aliquam? Mollitia modi atque animi ducimus?</p>
 			<form>
 				<label>Label</label>
@@ -54,13 +66,13 @@
 				<label>Label</label>
 				<input type="text" placeholder="input">
 				<div class="pagination">
-					<button id="toggle-back-page-0" class="invisible">Previous</button>
-					<button id="toggle-page-2">Next</button>
+					<button id="toggle-back-page-0" class=" previous-button">Previous</button>
+					<button id="toggle-page-2" class="next-button">Next</button>
 				</div>
 			</form>
 		</section>
 		<section id="page-2" class="inactive">
-			<h3>Page 2</h3>
+			<h3>What address are you "researching/viewing/making offer/in contract"?</h3>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ratione earum culpa sint eaque! Ullam accusantium iure libero enim suscipit repellendus nesciunt accusamus facilis aliquam? Mollitia modi atque animi ducimus?</p>
 			<form>
 				<label>Label</label>
@@ -70,13 +82,13 @@
 				<label>Label</label>
 				<input type="text" placeholder="input">
 				<div class="pagination">
-					<button id="toggle-back-page-1">Previous</button>
-					<button id="toggle-page-3">Next</button>
+					<button id="toggle-back-page-1" class="previous-button">Previous</button>
+					<button id="toggle-page-3" class="next-button">Next</button>
 				</div>
 			</form>
 		</section>
 		<section id="page-3" class="inactive">
-			<h3>Page 3</h3>
+			<h3>What price range are you looking in?</h3>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ratione earum culpa sint eaque! Ullam accusantium iure libero enim suscipit repellendus nesciunt accusamus facilis aliquam? Mollitia modi atque animi ducimus?</p>
 			<form>
 				<label>Label</label>
@@ -86,13 +98,13 @@
 				<label>Label</label>
 				<input type="text" placeholder="input">
 				<div class="pagination">
-					<button id="toggle-back-page-2">Previous</button>
-					<button id="toggle-page-4">Next</button>
+					<button id="toggle-back-page-2" class="previous-button">Previous</button>
+					<button id="toggle-page-4" class="next-button">Next</button>
 				</div>
 			</form>
 		</section>
 		<section id="page-4" class="inactive">
-			<h3>Page 4</h3>
+			<h3>What's the address of the home you're selling?</h3>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ratione earum culpa sint eaque! Ullam accusantium iure libero enim suscipit repellendus nesciunt accusamus facilis aliquam? Mollitia modi atque animi ducimus?</p>
 			<form>
 				<label>Label</label>
@@ -102,13 +114,13 @@
 				<label>Label</label>
 				<input type="text" placeholder="input">
 				<div class="pagination">
-					<button id="toggle-back-page-3">Previous</button>
-					<button id="toggle-page-5">Next</button>
+					<button id="toggle-back-page-3" class="previous-button">Previous</button>
+					<button id="toggle-page-5" class="next-button">Next</button>
 				</div>
 			</form>
 		</section>
 		<section id="page-5" class="inactive">
-			<h3>Page 5</h3>
+			<h3>Tell us about yourself.</h3>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ratione earum culpa sint eaque! Ullam accusantium iure libero enim suscipit repellendus nesciunt accusamus facilis aliquam? Mollitia modi atque animi ducimus?</p>
 			<form>
 				<label>Label</label>
@@ -118,7 +130,7 @@
 				<label>Label</label>
 				<input type="text" placeholder="input">
 				<div class="pagination">
-					<button id="toggle-back-page-4">Previous</button>
+					<button id="toggle-back-page-4" class="previous-button">Previous</button>
 					<button id="toggle-page-6">Submit</button>
 				</div>
 			</form>
