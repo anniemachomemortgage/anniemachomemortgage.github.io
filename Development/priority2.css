@@ -38,7 +38,8 @@ section p {
 	
 }
 section form {
-	
+	display: flex;
+	flex-direction: column;
 }
 section form label {
 	
