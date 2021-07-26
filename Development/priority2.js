@@ -3,24 +3,21 @@ $(function() {
 		$("#sub-menu").fadeToggle("slow");
 	});
 	function leadCaptureProcess(pagenumber, togglepageback, togglepageforward) {
-		const $pagenumber = $('#' + pagenumber);
-		$('#toggle-' + pagenumber).on('click', function() {
-			if(!$(".sectional-team-members").hasClass("isolated-biography")) {
-				$(".sectional-team-members").addClass("isolated-biography");
+		const $togglepageforward = $('#' + togglepageforward);
+		$('#toggle-page-' + togglepageforward).on('click', function() {
+			if($("section").hasClass("inactive")) {
+				$("section").addClass("active-page");
 			};
-			$(".detached-editity").remove();
-			$('.toggled-text-header').text(name);
-			$('.team-member').hide();
 			$pagenumber.show();
-			$pagenumber.find('div.team-member-portrait > div').addClass('detached-editity');
-			$pagenumber.find('div.team-member-portrait > div').detach().appendTo( $selector.parent() );
+			$pagenumber.find('section').removeClass('inactive');
+			$pagenumber.find('section').addClass('active-page');
 		});
 	}
-	leadCaptureProcess('1', 'toggle-page-back-start', 'toggle-page-2');
-	leadCaptureProcess('2', 'toggle-page-back-1', 'toggle-page-3');
-	leadCaptureProcess('3', 'toggle-page-back-2', 'toggle-page-4');
-	leadCaptureProcess('4', 'toggle-page-back-3', 'toggle-page-5');
-	leadCaptureProcess('5', 'toggle-page-back-4', 'toggle-page-finish');	
+	leadCaptureProcess('1', 'start', '2');
+	leadCaptureProcess('2', '1', '3');
+	leadCaptureProcess('3', '2', '4');
+	leadCaptureProcess('4', '3', '5');
+	leadCaptureProcess('5', '4', 'finish');	
 });
 
 
