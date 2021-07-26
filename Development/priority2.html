@@ -6,18 +6,42 @@
 		<link id="priority2-stylesheet" href="priority2.css" rel="stylesheet">
 		<script id="jquery-link" src="https://code.jquery.com/jquery-latest.min.js"></script>
 		<script id="priority2-script" src="priority2.js"></script>
+		<script src="https://kit.fontawesome.com/5ef689e183.js" crossorigin="anonymous"></script>
 		<script id="google-maps-api" async
 		src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
+		
 	</script>
 	</head>
 <body>
 	<header>
 		<headercontainer>
 			<nav>
-				<ul>
-					<a href=""><li>Link</li></a>
-					<a href=""><li>Link</li></a>
-					<a href=""><li>Link</li></a>
+				<ul class="row-display">
+					<logo>
+						<li>Logo</li>
+					</logo>
+					<navigation class="row-display">
+						<li id="menu-toggle">Menu <span><i class="fas fa-caret-down"></i></span>
+							<ul>
+								<submenu>
+									<menu-division>
+										<strong><i class="fas fa-user"></i> Recruitment</strong>
+										<li>Sales</li>
+										<li>Operations</li>
+										<li>Wholesale</li>
+										<li>JV Recruits</li>
+										<li>Insurance</li>
+									</menu-division>
+									<menu-division>
+										<strong><i class="fas fa-address-card"></i> Other</strong>
+										<li>About Us</li>
+										<li>Leadership</li>
+									</menu-division>
+								</submenu>
+							</ul>
+						</li>
+						<li><button>Contact</button></li>
+					</navigation>
 				</ul>
 			</nav>
 			<h1>Title</h1>
