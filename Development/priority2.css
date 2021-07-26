@@ -67,6 +67,8 @@ header {
 	background: repeating-linear-gradient(135deg, #dfdfdf, #dfdfdf 15em, #eeeeee 0, #eeeeee 60em);
 	display: flex;
 	flex-direction: column;
+	height: 330px;
+	flex: 0 1 auto;
 }
 headercontainer {
 	margin: 0 auto;
@@ -122,6 +124,7 @@ button {
 	letter-spacing: .05em;
 	margin: 5px 0;
 	width: fit-content;
+	min-width: 110px;
 }
 #menu-toggle {
 	position: relative;
@@ -178,14 +181,21 @@ main {
 	margin: 0 auto;
 	min-width: 1000px;
 	max-width: 1000px;
+	display: flex;
 }
 section {
 	padding: 50px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-width: 100%;
 }
 section h3 {
 	margin: 0 0 30px;
 	font-size: 35px;
 	line-height: 45px;
+	align-self: flex-start;
 }
 section p {
 	margin: -15px 0 20px;
@@ -193,6 +203,7 @@ section p {
 section form {
 	display: flex;
 	flex-direction: column;
+	width: 100%;
 }
 section form label {
 	font-size: 15px;
@@ -219,4 +230,19 @@ section form input {
 	padding: 10px;
 	margin: 20px 0 -40px;
 	border-radius: 4px;
+}
+.inactive {
+	display: none;
+}
+.active {
+	display: block;
+}
+.invisible {
+	visibility: hidden;
+}
+.pagination {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin: 15px 0 0;
 }
