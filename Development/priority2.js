@@ -9,8 +9,8 @@ $(function() {
 				$("section").addClass("active-page");
 			};
 			$pagenumber.show();
-			$pagenumber.find('section').removeClass('inactive');
-			$pagenumber.find('section').addClass('active-page');
+			$pagenumber.find('section').toggleClass('inactive');
+			$pagenumber.find('section').toggleClass('active-page');
 		});
 	}
 	leadCaptureProcess('1', 'start', '2');
