@@ -236,6 +236,9 @@ section form input {
 .active {
 	display: block;
 }
+.active-page {
+	display: block;
+}
 .invisible {
 	visibility: hidden;
 }
