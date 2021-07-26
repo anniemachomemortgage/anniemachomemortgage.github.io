@@ -22,6 +22,9 @@ body {
 	display: flex;
 	flex-direction: column;
 }
+.row-display {
+	display: flex;
+}
 a {
 	color: #0495f4;
 	text-decoration: none;
@@ -61,11 +64,9 @@ p, ul, li {
 	margin: 0;
 }
 header {
-	background: #f5f7fa;
+	background: repeating-linear-gradient(135deg, #dfdfdf, #dfdfdf 15em, #eeeeee 0, #eeeeee 60em);
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-start;
 }
 headercontainer {
 	margin: 0 auto;
@@ -83,10 +84,15 @@ header h2 {
 	font-weight: 700;
 	margin: 10px 0;
 }
+logo {
+	background: #dee2e6;
+	width: 250px;
+	padding: 10px 30px;
+	border-radius: 2px;
+}
 nav {
-	display: none;
 	align-items: center;
-	margin: 30px 0 0;
+	margin: 0 0 50px;
 }
 nav ul {
 	list-style-type: none;
@@ -96,11 +102,77 @@ nav ul {
 	justify-content: space-between;
 	align-items: center;
 }
-nav ul a {
-	
+navigation li:nth-of-type(1) {
+	font-weight: 700;
 }
-nav ul a li {
-	
+navigation {
+	width: 225px;
+	justify-content: space-between;
+	align-items: center;
+} 
+button {
+	background: #333a40;
+	color: #fff;
+	border: none;
+	outline: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	font-size: inherit;
+	font-weight: 600;
+	letter-spacing: .05em;
+	margin: 5px 0;
+	width: fit-content;
+}
+#menu-toggle {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+#menu-toggle span {
+	width: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 2px;
+}
+#menu-toggle span i {
+	font-size: 15px;
+	color: #565b61;
+	font-weight: bolder;
+}
+#menu-toggle ul {
+	position: absolute;
+	min-width: 185px;
+	font-size: 15px;
+	top: 35px;
+	right: 0;
+	background: #fbfbfb;
+	border-radius: 5px;
+	box-shadow: 1px 4px 36px rgb(0 0 0 / 14%);
+	border: 1px solid #c3c5c75e;
+}
+#menu-toggle li {
+	font-size: 15px;
+}
+menu-division {
+	border-top: 1px solid #c3c5c75e;
+	display: block;
+	flex-direction: column;
+	width: 100%;
+	text-align: left;
+	padding: 13px 15px;
+}
+menu-division:first-of-type {
+	border-top: none;
+}
+navigation li ul li:nth-of-type(1) {
+	font-weight: initial;
+}
+menu-division strong {
+	margin-top: -2px;
+}
+menu-division strong i {
+	margin-right: 4px;
 }
 main {
 	margin: 0 auto;
