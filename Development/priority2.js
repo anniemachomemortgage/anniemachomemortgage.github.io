@@ -2,24 +2,25 @@ $(function() {
 	$("#menu-toggle").click(function(event) {
 		$("#sub-menu").fadeToggle("slow");
 	});
-	function leadCaptureProcess(selector, name) {
-		const $selector = $('#' + selector);
-		$('#toggle-' + selector).on('click', function() {
+	function leadCaptureProcess(pagenumber, togglepageback, togglepageforward) {
+		const $pagenumber = $('#' + pagenumber);
+		$('#toggle-' + pagenumber).on('click', function() {
 			if(!$(".sectional-team-members").hasClass("isolated-biography")) {
 				$(".sectional-team-members").addClass("isolated-biography");
 			};
 			$(".detached-editity").remove();
 			$('.toggled-text-header').text(name);
 			$('.team-member').hide();
-			$selector.show();
-			$selector.find('div.team-member-portrait > div').addClass('detached-editity');
-			$selector.find('div.team-member-portrait > div').detach().appendTo( $selector.parent() );
+			$pagenumber.show();
+			$pagenumber.find('div.team-member-portrait > div').addClass('detached-editity');
+			$pagenumber.find('div.team-member-portrait > div').detach().appendTo( $selector.parent() );
 		});
 	}
-	leadCaptureProcess('1', '');
-	leadCaptureProcess('2', '');
-	leadCaptureProcess('3', '');
-	leadCaptureProcess('4', '');	
+	leadCaptureProcess('1', 'toggle-page-back-start', 'toggle-page-2');
+	leadCaptureProcess('2', 'toggle-page-back-1', 'toggle-page-3');
+	leadCaptureProcess('3', 'toggle-page-back-2', 'toggle-page-4');
+	leadCaptureProcess('4', 'toggle-page-back-3', 'toggle-page-5');
+	leadCaptureProcess('5', 'toggle-page-back-4', 'toggle-page-finish');	
 });
 
 
@@ -52,7 +53,7 @@ $(function() {
 // 	<label>Label</label>
 // 	<input type="text" placeholder="input">
 // 	<div class="pagination">
-// 		<button class="invisible">Previous</button>
+// 		<button id="toggle-back-page-start" class="invisible">Previous</button>
 // 		<button id="toggle-page-2">Next</button>
 // 	</div>
 // </form>
