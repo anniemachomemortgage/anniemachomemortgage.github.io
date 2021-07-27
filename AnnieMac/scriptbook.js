@@ -314,7 +314,7 @@ $(function() {
 	
 	// Jennifer Lombardo
 	if (window.location.href.indexOf("/get-elevated?r=jennifer") != -1) {
-		// $("#bdm-avatar").css('background', 'url("https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/jessicahelwig.jpeg")');
+		// $("#bdm-avatar").css('background', 'url("https://annie-mac.com/uploads/sites/10713/public/jessicahelwig.jpeg")');
 		// $("#bdm-avatar").css('background-size', 'cover');
 		$("#bdm-title-name").text("Jennifer Lombardo");
 		$("#bdm-title-email").text("jlombardo@Annie-Mac.com");
@@ -335,7 +335,7 @@ $(function() {
 		$("#booking-id").attr("href", "https://anmac.me/3ibfmjb");
 	};
 	if (window.location.href.indexOf("/get-more-thanks?r=jennifer") != -1) {
-		// $("#bdm-avatar").css('background', 'url("https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/jessicahelwig.jpeg")');
+		// $("#bdm-avatar").css('background', 'url("https://annie-mac.com/uploads/sites/10713/public/jessicahelwig.jpeg")');
 		// $("#bdm-avatar").css('background-size', 'cover');
 		$("#bdm-title-name").text("Jennifer Lombardo");
 		$("#bdm-title-email").text("jlombardo@Annie-Mac.com");
@@ -352,7 +352,7 @@ $(function() {
 	
 	// Rose Vu
 	if (window.location.href.indexOf("/get-elevated?r=rose") != -1) {
-		// $("#bdm-avatar").css('background', 'url("https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/jessicahelwig.jpeg")');
+		// $("#bdm-avatar").css('background', 'url("https://annie-mac.com/uploads/sites/10713/public/jessicahelwig.jpeg")');
 		// $("#bdm-avatar").css('background-size', 'cover');
 		$("#bdm-title-name").text("Rose Vu");
 		$("#bdm-title-email").text("rvu@Annie-Mac.com");
@@ -373,7 +373,7 @@ $(function() {
 		$("#booking-id").attr("href", "https://outlook.office365.com/owa/calendar/rvu1@annie-mac.com/bookings/");
 	};
 	if (window.location.href.indexOf("/get-more-thanks?r=rose") != -1) {
-		// $("#bdm-avatar").css('background', 'url("https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/jessicahelwig.jpeg")');
+		// $("#bdm-avatar").css('background', 'url("https://annie-mac.com/uploads/sites/10713/public/jessicahelwig.jpeg")');
 		// $("#bdm-avatar").css('background-size', 'cover');
 		$("#bdm-title-name").text("Rose Vu");
 		$("#bdm-title-email").text("rvu@Annie-Mac.com");
