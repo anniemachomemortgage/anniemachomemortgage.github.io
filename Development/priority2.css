@@ -67,23 +67,26 @@ header {
 	background: repeating-linear-gradient(135deg, #e0e0e0, #e0e0e0 15em, #eeeeee 0, #eeeeee 61em);
 	display: flex;
 	flex-direction: column;
-	height: 330px;
+	/* height: 330px; */
 	flex: 0 1 auto;
 }
 headercontainer {
 	margin: 0 auto;
 	min-width: 1000px;
 	max-width: 1000px;
-	padding: 50px 0;
+	/* padding: 50px 0; */
+	padding: 50px 0 0;
 }
 header h1 {
 	font-size: 50px;
 	line-height: 45px;
+	display: none;
 }
 header h2 {
 	font-size: 18px;
 	font-weight: 700;
 	margin: 10px 0;
+	display: none;
 }
 logo {
 	padding: 0;
