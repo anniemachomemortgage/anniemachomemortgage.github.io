@@ -264,27 +264,27 @@ $(function() {
 	$("#broker-first-name").on("keyup change", function(e) {
 		var brokerfirstname = $("#broker-first-name").val();
 		brokerfirstname = btoa(brokerfirstname).replace('-', '+', '_', '/');
-		$("#broker-first-name-lead").val(brokerfirstname).val();
+		$("#broker-first-name-lead").val(brokerfirstname);
 	});
 	$("#broker-last-name").on("keyup change", function(e) {
 		var brokerlastname = $("#broker-last-name").val();
 		brokerlastname = btoa(brokerlastname).replace('-', '+', '_', '/');
-		$("#broker-last-name-lead").val(brokerlastname).val();
+		$("#broker-last-name-lead").val(brokerlastname);
 	});
 	$("#broker-phone-number").on("keyup change", function(e) {
 		var brokerphonenumber = $("#broker-phone-number").val();
 		brokerphonenumber = btoa(brokerphonenumber).replace('-', '+', '_', '/');
-		$("#broker-phone-number-lead").val(brokerphonenumber).val();
+		$("#broker-phone-number-lead").val(brokerphonenumber);
 	});
 	$("#broker-email-address").on("keyup change", function(e) {
 		var brokeremailaddress = $("#broker-email-address").val();
 		brokeremailaddress = btoa(brokeremailaddress).replace('-', '+', '_', '/');
-		$("#broker-email-address-lead").val(brokeremailaddress).val();
+		$("#broker-email-address-lead").val(brokeremailaddress);
 	});
 	$("#broker-brokerage").on("keyup change", function(e) {
 		var brokerbrokerage = $("#broker-brokerage").val();
 		brokerbrokerage = btoa(brokerbrokerage).replace('-', '+', '_', '/');
-		$("#broker-brokerage-lead").val(brokerbrokerage).val();
+		$("#broker-brokerage-lead").val(brokerbrokerage);
 	});
 	$("#menu-toggle").click(function(event) {
 		$("#sub-menu").toggleClass("inactive");
