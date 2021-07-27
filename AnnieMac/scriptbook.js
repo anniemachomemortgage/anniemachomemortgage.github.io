@@ -317,8 +317,8 @@ $(function() {
 		// $("#bdm-avatar").css('background', 'url("https://annie-mac.com/uploads/sites/10713/public/jessicahelwig.jpeg")');
 		// $("#bdm-avatar").css('background-size', 'cover');
 		$("#bdm-title-name").text("Jennifer Lombardo");
-		$("#bdm-title-email").text("jlombardo@Annie-Mac.com");
-		$("#bdm-title-email").attr("href", "mailto:jlombardo@Annie-Mac.com");
+		$("#bdm-title-email").text("JAdkins@Annie-Mac.com");
+		$("#bdm-title-email").attr("href", "mailto:JAdkins@Annie-Mac.com");
 		$("#bdm-title-phone").text("(856) 454-3144");
 		$("#bdm-title-phone").attr("href", "tel:856-454-3144");
 		$("#number-id").attr("href", "tel:856-454-3144");
@@ -338,8 +338,8 @@ $(function() {
 		// $("#bdm-avatar").css('background', 'url("https://annie-mac.com/uploads/sites/10713/public/jessicahelwig.jpeg")');
 		// $("#bdm-avatar").css('background-size', 'cover');
 		$("#bdm-title-name").text("Jennifer Lombardo");
-		$("#bdm-title-email").text("jlombardo@Annie-Mac.com");
-		$("#bdm-title-email").attr("href", "mailto:jlombardo@Annie-Mac.com");
+		$("#bdm-title-email").text("JAdkins@Annie-Mac.com");
+		$("#bdm-title-email").attr("href", "mailto:JAdkins@Annie-Mac.com");
 		$("#bdm-title-phone").text("(856) 454-3144");
 		$("#bdm-title-phone").attr("href", "tel:856-454-3144");
 		$("#number-id").attr("href", "tel:856-454-3144");
