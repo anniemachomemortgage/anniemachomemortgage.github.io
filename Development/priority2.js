@@ -1,13 +1,16 @@
 $(function() {
-	$("#menu-toggle").click(function(event) {
-		$("#sub-menu").fadeToggle("slow");
-	});
-	
 	// Page navigation
 	$("#toggle-page-1").click(function(event) {
 		event.preventDefault();
 		$("#page-0").removeClass("active-page");
 		$("#page-0").addClass("inactive");
+		$("#page-1").removeClass("inactive");
+		$("#page-1").addClass("active-page");
+	});
+	$("#toggle-page-1b").click(function(event) {
+		event.preventDefault();
+		$("#page-0b").removeClass("active-page");
+		$("#page-0b").addClass("inactive");
 		$("#page-1").removeClass("inactive");
 		$("#page-1").addClass("active-page");
 	});
@@ -81,15 +84,13 @@ $(function() {
 		$("#page-4").addClass("active-page");
 		$("#page-4").removeClass("inactive");
 	});
-	$("#homebuyer-track").click(function(event) {
-		event.preventDefault();
-		$("#homebuyer-or-agent").val($("#homebuyer-track").val());
-		$("#page-0").removeClass("active-page");
-		$("#page-0").addClass("inactive");
-		$("#page-1").removeClass("inactive");
-		$("#page-1").addClass("active-page");
+	$("#toggle-back-page-0b").click(function(event) {
+		$("#page-0b").removeClass("active-page");
+		$("#page-0b").addClass("inactive");
+		$("#page-0").addClass("active-page");
+		$("#page-0").removeClass("inactive");
 	});
-	$("#go-back-0").click(function(event) {
+	$(".go-back-0").click(function(event) {
 		$("#page-0").addClass("active-page");
 		$("#summary").removeClass("active-page");
 		$("#summary").addClass("inactive");
@@ -173,7 +174,78 @@ $(function() {
 		$("#page-4").removeClass("inactive");
 		$("#page-4").addClass("active-page");
 	});
-	
+	$("#homebuyer-track").click(function(event) {
+		event.preventDefault();
+		$("#page-0").removeClass("active-page");
+		$("#page-0").addClass("inactive");
+		$("#page-1").removeClass("inactive");
+		$("#page-1").addClass("active-page");
+		$("#homebuyer-or-agent").val($("#homebuyer-track").val());
+		$("#page-1 > h3 > span").text("are you");
+		$("#page-2 > h3 > span").text("you are");
+		$("#page-3 > h3 > span").text("you are");
+		$("#page-4 > h3 > span").text("are you");
+		$("#page-5 > h3 > span").text("yourself");
+		$("#researching-selected").click(function(event) {
+			$("#page-2 > h3").text("What is the zip code of the area you are researching?");
+		});
+		$("#viewing-selected").click(function(event) {
+			$("#page-2 > h3").text("What is the zip code of the area you are viewing?");
+		});
+		$("#offer-selected").click(function(event) {
+			$("#page-2 > h3").text("What address are you making an offer on?");
+		});
+		$("#contract-selected").click(function(event) {
+			$("#page-2 > h3").text("What address are you in contract with?");
+		});
+		$("#researching-selected").text("I'm researching");
+		$("#researching-selected").val("I'm researching");
+		$("#viewing-selected").text("I'm viewing listings");
+		$("#viewing-selected").val("I'm viewing listings");
+		$("#offer-selected").text("I'm making an offer");
+		$("#offer-selected").val("I'm making an offer");
+		$("#contract-selected").text("I'm in a contract");
+		$("#contract-selected").val("I'm in a contract");
+		$("#not-selling").text("I'm not selling");
+		$("#not-selling").val("I'm not selling");
+		$("#broker-information").hide();
+	});
+	$("#estate-track").click(function(event) {
+		event.preventDefault();
+		$("#page-0").removeClass("active-page");
+		$("#page-0").addClass("inactive");
+		$("#page-0b").removeClass("inactive");
+		$("#page-0b").addClass("active-page");
+		$("#homebuyer-or-agent").val($("#estate-track").val());
+		$("#page-1 > h3 > span").text("is your client");
+		$("#page-2 > h3 > span").text("your client is");
+		$("#page-3 > h3 > span").text("your client is");
+		$("#page-4 > h3 > span").text("is your client");
+		$("#page-5 > h3 > span").text("your client");
+		$("#researching-selected").click(function(event) {
+			$("#page-2 > h3").text("What is the zip code of the area your client is researching?");
+		});
+		$("#viewing-selected").click(function(event) {
+			$("#page-2 > h3").text("What is the zip code of the area your client is viewing?");
+		});
+		$("#offer-selected").click(function(event) {
+			$("#page-2 > h3").text("What address is your client making an offer on?");
+		});
+		$("#contract-selected").click(function(event) {
+			$("#page-2 > h3").text("What address is your client in contract with?");
+		});
+		$("#researching-selected").text("My client is researching");
+		$("#researching-selected").val("My client is researching");
+		$("#viewing-selected").text("My client is viewing listings");
+		$("#viewing-selected").val("My client is viewing listings");
+		$("#offer-selected").text("My client is making an offer");
+		$("#offer-selected").val("My client is making an offer");
+		$("#contract-selected").text("My client is in a contract");
+		$("#contract-selected").val("My client is in a contract");
+		$("#not-selling").text("My client is not selling");
+		$("#not-selling").val("My client is not selling");
+		$("#broker-information").show();
+	});
 	// Value updates
 	$("#page-2 > form > input").on("keyup change", function(e) {
 		$("#address-seeking").val($("#page-2 > form > input").val());
@@ -198,5 +270,23 @@ $(function() {
 	});
 	$("#email-address").on("keyup change", function(e) {
 		$("#email-address-lead").val($("#email-address").val());
+	});
+	$("#broker-first-name").on("keyup change", function(e) {
+		$("#broker-first-name-lead").val($("#broker-first-name").val());
+	});
+	$("#broker-last-name").on("keyup change", function(e) {
+		$("#broker-last-name-lead").val($("#broker-last-name").val());
+	});
+	$("#broker-phone-number").on("keyup change", function(e) {
+		$("#broker-phone-number-lead").val($("#broker-phone-number").val());
+	});
+	$("#broker-email-address").on("keyup change", function(e) {
+		$("#broker-email-address-lead").val($("#broker-email-address").val());
+	});
+	$("#broker-brokerage").on("keyup change", function(e) {
+		$("#broker-brokerage-lead").val($("#broker-brokerage").val());
+	});
+	$("#menu-toggle").click(function(event) {
+		$("#sub-menu").toggleClass("inactive");
 	});
 });

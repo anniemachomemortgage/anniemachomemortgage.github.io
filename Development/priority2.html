@@ -47,11 +47,30 @@
 			<h3>Are you a homebuyer or a real estate agent?</h3>
 			<div class="button-selection">
 				<button id="homebuyer-track" value="I'm a homebuyer">I'm a homebuyer</button>
-				<button id="estate-track" value="I'm a real estate agent">I'm a real estate agent (not functioning)</button>
+				<button id="estate-track" value="I'm a real estate agent">I'm a real estate agent</button>
 			</div>
 		</section>
+		<section id="page-0b" class="inactive">
+			<h3>What's your broker information?</h3>
+			<form>
+				<label>First Name</label>
+				<input type="text" id="broker-first-name" placeholder="input">
+				<label>Last Name</label>
+				<input type="text" id="broker-last-name" placeholder="input">
+				<label>Phone Number</label>
+				<input type="text" id="broker-phone-number" placeholder="input">
+				<label>Email Address</label>
+				<input type="text" id="broker-email-address" placeholder="input">
+				<label>Brokerage</label>
+				<input type="text" id="broker-brokerage" placeholder="input">
+				<div class="pagination">
+					<button id="toggle-back-page-0b" class="previous-button">Previous</button>
+					<button id="toggle-page-1b" class="next-button">Next</button>
+				</div>
+			</form>
+		</section>
 		<section id="page-1" class="inactive">
-			<h3>Where are you in the process?</h3>
+			<h3>Where <span class="client-text-toggle">are you</span> in the process?</h3>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ratione earum culpa sint eaque! Ullam accusantium iure libero enim suscipit repellendus nesciunt accusamus facilis aliquam? Mollitia modi atque animi ducimus?</p>
 			<div class="button-selection">
 				<button id="researching-selected" value="I'm researching">I'm researching</button>
@@ -61,7 +80,7 @@
 			</div>
 		</section>
 		<section id="page-2" class="inactive">
-			<h3>What address of the home you are interested in?</h3>
+			<h3>What address of the home <span class="client-text-toggle">you are</span> interested in?</h3>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ratione earum culpa sint eaque! Ullam accusantium iure libero enim suscipit repellendus nesciunt accusamus facilis aliquam? Mollitia modi atque animi ducimus?</p>
 			<form>
 				<label>Address</label>
@@ -73,12 +92,12 @@
 			</form>
 		</section>
 		<section id="page-3" class="inactive">
-			<h3>What's the address of the home you're selling?</h3>
+			<h3>What's the address of the home <span class="client-text-toggle">you are</span> selling?</h3>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ratione earum culpa sint eaque! Ullam accusantium iure libero enim suscipit repellendus nesciunt accusamus facilis aliquam? Mollitia modi atque animi ducimus?</p>
 			<form>
 				<label>Address</label>
 				<input type="text" placeholder="input">
-				<button id="not-selling" value="I'm not selling">I'm not selling.</button>
+				<button id="not-selling" value="I'm not selling">I'm not selling</button>
 				<div class="pagination">
 					<button id="toggle-back-page-2" class="previous-button">Previous</button>
 					<button id="toggle-page-4" class="next-button">Next</button>
@@ -86,7 +105,7 @@
 			</form>
 		</section>
 		<section id="page-4" class="inactive">
-			<h3>What price range are you looking in?</h3>
+			<h3>What price range <span class="client-text-toggle">are you</span> looking at?</h3>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ratione earum culpa sint eaque! Ullam accusantium iure libero enim suscipit repellendus nesciunt accusamus facilis aliquam? Mollitia modi atque animi ducimus?</p>
 			<form>
 				<label>Minimum Price</label>
@@ -100,7 +119,7 @@
 			</form>
 		</section>
 		<section id="page-5" class="inactive">
-			<h3>Tell us about yourself.</h3>
+			<h3>Tell us about <span class="client-text-toggle">yourself</span>.</h3>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ratione earum culpa sint eaque! Ullam accusantium iure libero enim suscipit repellendus nesciunt accusamus facilis aliquam? Mollitia modi atque animi ducimus?</p>
 			<form>
 				<label>First Name</label>
@@ -160,6 +179,28 @@
 				<div class="summary-row">
 					<label>Email Address <span class="go-back-5">Edit</span></label>
 					<input type="text" id="email-address-lead" disabled>
+				</div>
+				<div id="broker-information">
+					<div class="summary-row">
+						<label>Broker First Name <span class="go-back-0">Edit</span></label>
+						<input type="text" id="broker-first-name-lead" disabled>
+					</div>
+					<div class="summary-row">
+						<label>Broker Last Name <span class="go-back-0">Edit</span></label>
+						<input type="text" id="broker-last-name-lead" disabled>
+					</div>
+					<div class="summary-row">
+						<label>Broker Phone Number <span class="go-back-0">Edit</span></label>
+						<input type="text" id="broker-phone-number-lead" disabled>
+					</div>
+					<div class="summary-row">
+						<label>Broker Email Address <span class="go-back-0">Edit</span></label>
+						<input type="text" id="broker-email-address-lead" disabled>
+					</div>
+					<div class="summary-row">
+						<label>Broker Brokerage <span class="go-back-0">Edit</span></label>
+						<input type="text" id="broker-brokerage-lead" disabled>
+					</div>
 				</div>
 				<input type="button" id="submit-form" value="Submit">
 			</form>
