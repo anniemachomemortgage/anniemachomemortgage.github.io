@@ -96,7 +96,8 @@ logo li img {
 }
 nav {
 	align-items: center;
-	margin: 0 0 50px;
+	/* margin: 0 0 50px; */
+	margin: 0 0 30px;
 }
 nav ul {
 	list-style-type: none;
