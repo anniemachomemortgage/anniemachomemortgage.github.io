@@ -350,11 +350,11 @@ $(function() {
 	};
 	
 	
-	// Jennifer Lombardo
+	// Rose Vu
 	if (window.location.href.indexOf("/get-elevated?r=rose") != -1) {
 		// $("#bdm-avatar").css('background', 'url("https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/jessicahelwig.jpeg")');
 		// $("#bdm-avatar").css('background-size', 'cover');
-		$("#bdm-title-name").text("Jennifer Lombardo");
+		$("#bdm-title-name").text("Rose Vu");
 		$("#bdm-title-email").text("rvu@Annie-Mac.com");
 		$("#bdm-title-email").attr("href", "mailto:rvu@Annie-Mac.com");
 		$("#bdm-title-phone").text("(856) 326-1305");
