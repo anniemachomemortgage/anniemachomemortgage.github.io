@@ -43,43 +43,28 @@
 		</headercontainer>
 	</header>
 	<main>
-		<section id="summary">
-			<form>
-				<textarea id="summary-field"></textarea>
-			</form>
-		</section>
 		<section id="page-0" class="active-page">
 			<h3>Are you a homebuyer or a real estate agent?</h3>
 			<div class="button-selection">
 				<button id="homebuyer-track" value="I'm a homebuyer">I'm a homebuyer</button>
-				<button id="estate-track">I'm a real estate agent</button>
+				<button id="estate-track" value="I'm a real estate agent">I'm a real estate agent (not functioning)</button>
 			</div>
 		</section>
 		<section id="page-1" class="inactive">
 			<h3>Where are you in the process?</h3>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ratione earum culpa sint eaque! Ullam accusantium iure libero enim suscipit repellendus nesciunt accusamus facilis aliquam? Mollitia modi atque animi ducimus?</p>
-			<form>
-				<label>Label</label>
-				<input type="text" placeholder="input">
-				<label>Label</label>
-				<input type="text" placeholder="input">
-				<label>Label</label>
-				<input type="text" placeholder="input">
-				<div class="pagination">
-					<button id="toggle-back-page-0" class=" previous-button">Previous</button>
-					<button id="toggle-page-2" class="next-button">Next</button>
-				</div>
-			</form>
+			<div class="button-selection">
+				<button id="researching-selected" value="I'm researching">I'm researching</button>
+				<button id="viewing-selected" value="I'm viewing listings">I'm viewing listings</button>
+				<button id="offer-selected" value="I'm making an offer">I'm making an offer</button>
+				<button id="contract-selected" value="I'm in a contract">I'm in a contract</button>
+			</div>
 		</section>
 		<section id="page-2" class="inactive">
-			<h3>What address are you "researching/viewing/making offer/in contract"?</h3>
+			<h3>What address of the home you are interested in?</h3>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ratione earum culpa sint eaque! Ullam accusantium iure libero enim suscipit repellendus nesciunt accusamus facilis aliquam? Mollitia modi atque animi ducimus?</p>
 			<form>
-				<label>Label</label>
-				<input type="text" placeholder="input">
-				<label>Label</label>
-				<input type="text" placeholder="input">
-				<label>Label</label>
+				<label>Address</label>
 				<input type="text" placeholder="input">
 				<div class="pagination">
 					<button id="toggle-back-page-1" class="previous-button">Previous</button>
@@ -88,15 +73,12 @@
 			</form>
 		</section>
 		<section id="page-3" class="inactive">
-			<h3>What price range are you looking in?</h3>
+			<h3>What's the address of the home you're selling?</h3>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ratione earum culpa sint eaque! Ullam accusantium iure libero enim suscipit repellendus nesciunt accusamus facilis aliquam? Mollitia modi atque animi ducimus?</p>
 			<form>
-				<label>Label</label>
+				<label>Address</label>
 				<input type="text" placeholder="input">
-				<label>Label</label>
-				<input type="text" placeholder="input">
-				<label>Label</label>
-				<input type="text" placeholder="input">
+				<button id="not-selling" value="I'm not selling">I'm not selling.</button>
 				<div class="pagination">
 					<button id="toggle-back-page-2" class="previous-button">Previous</button>
 					<button id="toggle-page-4" class="next-button">Next</button>
@@ -104,15 +86,13 @@
 			</form>
 		</section>
 		<section id="page-4" class="inactive">
-			<h3>What's the address of the home you're selling?</h3>
+			<h3>What price range are you looking in?</h3>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ratione earum culpa sint eaque! Ullam accusantium iure libero enim suscipit repellendus nesciunt accusamus facilis aliquam? Mollitia modi atque animi ducimus?</p>
 			<form>
-				<label>Label</label>
-				<input type="text" placeholder="input">
-				<label>Label</label>
-				<input type="text" placeholder="input">
-				<label>Label</label>
-				<input type="text" placeholder="input">
+				<label>Minimum Price</label>
+				<input type="text" id="price-min" placeholder="input">
+				<label>Maximum Price</label>
+				<input type="text" id="price-max" placeholder="input">
 				<div class="pagination">
 					<button id="toggle-back-page-3" class="previous-button">Previous</button>
 					<button id="toggle-page-5" class="next-button">Next</button>
@@ -123,17 +103,68 @@
 			<h3>Tell us about yourself.</h3>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ratione earum culpa sint eaque! Ullam accusantium iure libero enim suscipit repellendus nesciunt accusamus facilis aliquam? Mollitia modi atque animi ducimus?</p>
 			<form>
-				<label>Label</label>
-				<input type="text" placeholder="input">
-				<label>Label</label>
-				<input type="text" placeholder="input">
-				<label>Label</label>
-				<input type="text" placeholder="input">
+				<label>First Name</label>
+				<input type="text" id="first-name" placeholder="input">
+				<label>Last Name</label>
+				<input type="text" id="last-name" placeholder="input">
+				<label>Phone Number</label>
+				<input type="text" id="phone-number" placeholder="input">
+				<label>Email Address</label>
+				<input type="text" id="email-address" placeholder="input">
 				<div class="pagination">
 					<button id="toggle-back-page-4" class="previous-button">Previous</button>
-					<button id="toggle-page-6">Submit</button>
+					<button id="toggle-page-6" class="next-button">Review</button>
 				</div>
 			</form>
+		</section>
+		<section id="summary" class="inactive">
+			<h3>Summary</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem expedita accusantium perferendis aperiam quibusdam iure et vero fuga itaque, ab qui nam ratione, corporis quia atque totam dolorem. Ut, quis!</p>
+			<form>
+				<div class="summary-row">
+					<label>Status <span id="go-back-0">Edit</span></label>
+					<input type="text" id="homebuyer-or-agent" disabled>
+				</div>
+				<div class="summary-row">
+					<label>Current Step <span id="go-back-1">Edit</span></label>
+					<input type="text" id="process-step" disabled>
+				</div>
+				<div class="summary-row">
+					<label>Address Seeking <span id="go-back-2">Edit</span></label>
+					<input type="text" id="address-seeking" disabled>
+				</div>
+				<div class="summary-row">
+					<label>Current Address <span id="go-back-3">Edit</span></label>
+					<input type="text" id="address-current" disabled>
+				</div>
+				<div class="summary-row">
+					<label>Minimum Price <span id="go-back-4">Edit</span></label>
+					<input type="text" id="price-range-minimum" disabled>
+				</div>
+				<div class="summary-row">
+					<label>Maximum Price <span id="go-back-4">Edit</span></label>
+					<input type="text" id="price-range-maximum" disabled>
+				</div>
+				<div class="summary-row">
+					<label>First Name <span class="go-back-5">Edit</span></label>
+					<input type="text" id="first-name-lead" disabled>
+				</div>
+				<div class="summary-row">
+					<label>Last Name <span class="go-back-5">Edit</span></label>
+					<input type="text" id="last-name-lead" disabled>
+				</div>
+				<div class="summary-row">
+					<label>Phone Number <span class="go-back-5">Edit</span></label>
+					<input type="text" id="phone-number-lead" disabled>
+				</div>
+				<div class="summary-row">
+					<label>Email Address <span class="go-back-5">Edit</span></label>
+					<input type="text" id="email-address-lead" disabled>
+				</div>
+				<input type="button" id="submit-form" value="Submit">
+			</form>
+			</form>
+			<small><strong>Disclaimer:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem expedita accusantium perferendis aperiam quibusdam iure et vero fuga itaque, ab qui nam ratione, corporis quia atque totam dolorem. Ut, quis!</small>
 		</section>
 	<main>
 </body>

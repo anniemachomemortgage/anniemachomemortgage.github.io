@@ -191,11 +191,6 @@ section {
 	flex-direction: column;
 	min-width: 100%;
 }
-#summary {
-	width: 100%;
-	flex: 1;
-	margin: -35px 0 -100px;
-}
 textarea#summary-field {
 	border: 0;
 	display: block;
@@ -241,18 +236,6 @@ section form input {
 	margin: 20px 0 -40px;
 	border-radius: 4px;
 }
-.inactive {
-	display: none;
-}
-.active {
-	display: block;
-}
-.active-page {
-	display: block;
-}
-.invisible {
-	visibility: hidden;
-}
 .pagination {
 	display: flex;
 	width: 100%;
@@ -265,4 +248,74 @@ section form input {
 }
 #menu-toggle:hover, button:hover {
 	cursor: pointer;
+}
+#summary {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	flex: 1;
+	margin: 15px 0;
+}
+#summary form {
+	margin-top: 15px;
+}
+.summary-row label {
+	min-width: 225px;
+	margin: 0 10px 0 0;
+	font-size: 16px;
+	background: #333a3f;
+	padding: 5px 0 5px 17px;
+	color: #fff;
+	border-radius: 2px;
+	align-items: center;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+	margin-right: 10px;
+}
+.summary-row {
+	display: flex;
+	align-items: center;
+}
+.summary-row input {
+	flex: 1;
+	border: 0;
+	background: transparent;
+	box-shadow: none;
+	font-weight: 600;
+	margin: 5px 0px;
+}
+.summary-row label span {
+	margin: 0 13px 0 0;
+	font-size: 10px;
+	float: left;
+	opacity: 0.6;
+}
+.summary-row label span:hover {
+	cursor: pointer;
+}
+input#submit-form {
+	background: #75c151;
+	color: white;
+	width: 243px;
+	border: none;
+	box-shadow: 1px 2px 2px rgb(0 0 0 / 10%);
+	margin: 40px auto 25px;
+	padding: 15px;
+	font-weight: 800;
+	font-size: 21px;
+	letter-spacing: .04em;
+	outline: none;
+}
+.inactive {
+	display: none !important;
+}
+.active {
+	display: block;
+}
+.active-page {
+	display: block;
+}
+.invisible {
+	visibility: hidden;
 }
