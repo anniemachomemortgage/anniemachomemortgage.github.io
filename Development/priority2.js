@@ -49,12 +49,8 @@ $(function() {
 		$("#page-5").addClass("inactive");
 		$("#page-5").removeClass("active-page");
 	});
-	$("#toggle-back-page-0").click(function(event) {
-		event.preventDefault();
-		$("#page-1").addClass("inactive");
-		$("#page-1").removeClass("active-page");
-		$("#page-0").addClass("active-page");
-		$("#page-0").removeClass("inactive");
+	$("#toggle-back-page-0b").click(function(event) {
+		location.reload();
 	});
 	$("#toggle-back-page-1").click(function(event) {
 		event.preventDefault();
@@ -83,12 +79,6 @@ $(function() {
 		$("#page-5").removeClass("active-page");
 		$("#page-4").addClass("active-page");
 		$("#page-4").removeClass("inactive");
-	});
-	$("#toggle-back-page-0b").click(function(event) {
-		$("#page-0b").removeClass("active-page");
-		$("#page-0b").addClass("inactive");
-		$("#page-0").addClass("active-page");
-		$("#page-0").removeClass("inactive");
 	});
 	$(".go-back-0").click(function(event) {
 		$("#page-0").addClass("active-page");
