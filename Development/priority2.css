@@ -33,7 +33,7 @@ a {
 a:hover {
 	border-bottom: 1px solid #006fa9;
 }
-h1, h2, h3, h4, h5, h6, label {
+h1, h2, h3, h4, h5, h6, label, strong {
 	color: #333a40;
 	margin: 0;
 	font-weight: 600;
@@ -205,6 +205,12 @@ section h3 {
 	line-height: 45px;
 	align-self: flex-start;
 }
+section h4 {
+	margin: 0 0 25px;
+	font-size: 28px;
+	line-height: 40px;
+	align-self: flex-start;
+}
 section p {
 	margin: -15px 0 20px;
 }
@@ -321,4 +327,63 @@ input#submit-form {
 }
 .invisible {
 	visibility: hidden;
+}
+
+/* FAQ` */
+main#faq {
+	display: flex;
+	align-items: flex-start;
+}
+section#faq-heading {
+	margin-bottom: -70px;
+}
+section#faq-heading h3 {
+	margin-bottom: 10px;
+}
+section#faq-navigation {
+	width: 200px;
+	min-width: initial;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+section#faq-navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.secondary-faq {
+	margin-top: 20px;
+}
+section#faq-content {
+	flex: 1;
+	min-width: initial;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.faq-topic-list {
+	
+}
+.faq-topic-list ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 0;
+	margin: 0;
+}
+.faq-topic-list ul li {
+	border: 1px solid;
+	padding: 5px 10px;
+	border-radius: 4px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+}
+.cash {
+	background: blue;
+}
+.cash-out {
+	background: red;
 }

@@ -1,4 +1,11 @@
 $(function() {
+	$(window).scroll(function(e){ 
+		  var $el = $('#faq-navigation'); 
+		  var isPositionFixed = ($el.css('position') == 'sticky');
+		  if ($(this).scrollTop() > 200 && !isPositionFixed){ 
+			$el.css({'position': 'sticky', 'top': '0px'}); 
+		  }
+		});
 	// Page navigation
 	$("#toggle-page-1").click(function(event) {
 		event.preventDefault();

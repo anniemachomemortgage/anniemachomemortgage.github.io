@@ -42,170 +42,99 @@
 			<h2>Brought to you by AnnieMac Home Mortgage</h2>
 		</headercontainer>
 	</header>
-	<main>
-		<section id="page-0" class="active-page">
-			<h3>Are you a homebuyer or a real estate agent?</h3>
-			<div class="button-selection">
-				<button id="homebuyer-track" value="I'm a homebuyer">I'm a homebuyer</button>
-				<button id="estate-track" value="I'm a real estate agent">I'm a real estate agent</button>
+	<main id="faq">
+		<section id="faq-heading">
+			<h3>FAQ</h3>
+			<form>
+				<label>Search our FAQ</label>
+				<input type="text">
+			</form>
+		</section>
+		<section id="faq-navigation" class="">
+			<ul>
+				<li><strong>Cash</strong>
+				<ul>
+					<li>link</li>
+					<li>link</li>
+					<li>link</li>
+					<li>link</li>
+				</ul>
+				</li>
+				<li class="secondary-faq"><strong>Cash Out</strong>
+				<ul>
+					<li>link</li>
+					<li>link</li>
+					<li>link</li>
+					<li>link</li>
+				</ul>
+				</li>
+			</ul>
+		</section>
+		<section id="faq-content" class="">
+			<div class="faq-question-container">
+				<div class="faq-question">
+					<h4>Quisquam adipisci nisi in numquam?</h4>
+					<div class="faq-topic-list">
+						<ul>
+							<li class="cash">Topic</li>
+							<li class="cash-out">Topic</li>
+						</ul>
+					</div>
+				</div>
+				<div class="faq-answer">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam adipisci nisi in numquam, ab, rerum fugit earum quia iure, magni quam. Nisi impedit dolorum nemo esse quasi, aspernatur suscipit asperiores.</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, quis!</p>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus assumenda molestiae delectus ratione reiciendis debitis minus consequuntur! Placeat eveniet, eligendi id sapiente rem sed mollitia quidem impedit in voluptatum distinctio molestiae amet, ipsum temporibus modi accusantium fugit earum ex numquam?</p>
+				</div>
 			</div>
-		</section>
-		<section id="page-0b" class="inactive">
-			<h3>What's your broker information?</h3>
-			<form>
-				<label>First Name</label>
-				<input type="text" id="broker-first-name" placeholder="input">
-				<label>Last Name</label>
-				<input type="text" id="broker-last-name" placeholder="input">
-				<label>Phone Number</label>
-				<input type="text" id="broker-phone-number" placeholder="input">
-				<label>Email Address</label>
-				<input type="text" id="broker-email-address" placeholder="input">
-				<label>Brokerage</label>
-				<input type="text" id="broker-brokerage" placeholder="input">
-				<div class="pagination">
-					<button id="toggle-back-page-0b" class="previous-button">Previous</button>
-					<button id="toggle-page-1b" class="next-button">Next</button>
+			<div class="faq-question-container">
+				<div class="faq-question">
+					<h4>Quisquam adipisci nisi in numquam?</h4>
+					<div class="faq-topic-list">
+						<ul>
+							<li class="cash">Topic</li>
+							<li class="cash-out">Topic</li>
+						</ul>
+					</div>
 				</div>
-			</form>
-		</section>
-		<section id="page-1" class="inactive">
-			<h3>Where <span class="client-text-toggle">are you</span> in the process?</h3>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ratione earum culpa sint eaque! Ullam accusantium iure libero enim suscipit repellendus nesciunt accusamus facilis aliquam? Mollitia modi atque animi ducimus?</p>
-			<div class="button-selection">
-				<button id="researching-selected" value="I'm researching">I'm researching</button>
-				<button id="viewing-selected" value="I'm viewing listings">I'm viewing listings</button>
-				<button id="offer-selected" value="I'm making an offer">I'm making an offer</button>
-				<button id="contract-selected" value="I'm in a contract">I'm in a contract</button>
+				<div class="faq-answer">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam adipisci nisi in numquam, ab, rerum fugit earum quia iure, magni quam. Nisi impedit dolorum nemo esse quasi, aspernatur suscipit asperiores.</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, quis!</p>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus assumenda molestiae delectus ratione reiciendis debitis minus consequuntur! Placeat eveniet, eligendi id sapiente rem sed mollitia quidem impedit in voluptatum distinctio molestiae amet, ipsum temporibus modi accusantium fugit earum ex numquam?</p>
+				</div>
 			</div>
-		</section>
-		<section id="page-2" class="inactive">
-			<h3>What address of the home <span class="client-text-toggle">you are</span> interested in?</h3>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ratione earum culpa sint eaque! Ullam accusantium iure libero enim suscipit repellendus nesciunt accusamus facilis aliquam? Mollitia modi atque animi ducimus?</p>
-			<form>
-				<label>Address</label>
-				<input type="text" placeholder="input">
-				<div class="pagination">
-					<button id="toggle-back-page-1" class="previous-button">Previous</button>
-					<button id="toggle-page-3" class="next-button">Next</button>
-				</div>
-			</form>
-		</section>
-		<section id="page-3" class="inactive">
-			<h3>What's the address of the home <span class="client-text-toggle">you are</span> selling?</h3>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ratione earum culpa sint eaque! Ullam accusantium iure libero enim suscipit repellendus nesciunt accusamus facilis aliquam? Mollitia modi atque animi ducimus?</p>
-			<form>
-				<label>Address</label>
-				<input type="text" placeholder="input">
-				<button id="not-selling" value="I'm not selling">I'm not selling</button>
-				<div class="pagination">
-					<button id="toggle-back-page-2" class="previous-button">Previous</button>
-					<button id="toggle-page-4" class="next-button">Next</button>
-				</div>
-			</form>
-		</section>
-		<section id="page-4" class="inactive">
-			<h3>What price range <span class="client-text-toggle">are you</span> looking at?</h3>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ratione earum culpa sint eaque! Ullam accusantium iure libero enim suscipit repellendus nesciunt accusamus facilis aliquam? Mollitia modi atque animi ducimus?</p>
-			<form>
-				<label>Minimum Price</label>
-				<input type="text" id="price-min" placeholder="input">
-				<label>Maximum Price</label>
-				<input type="text" id="price-max" placeholder="input">
-				<div class="pagination">
-					<button id="toggle-back-page-3" class="previous-button">Previous</button>
-					<button id="toggle-page-5" class="next-button">Next</button>
-				</div>
-			</form>
-		</section>
-		<section id="page-5" class="inactive">
-			<h3>Tell us about <span class="client-text-toggle">yourself</span>.</h3>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ratione earum culpa sint eaque! Ullam accusantium iure libero enim suscipit repellendus nesciunt accusamus facilis aliquam? Mollitia modi atque animi ducimus?</p>
-			<form>
-				<label>First Name</label>
-				<input type="text" id="first-name" placeholder="input">
-				<label>Last Name</label>
-				<input type="text" id="last-name" placeholder="input">
-				<label>Phone Number</label>
-				<input type="text" id="phone-number" placeholder="input">
-				<label>Email Address</label>
-				<input type="text" id="email-address" placeholder="input">
-				<div class="pagination">
-					<button id="toggle-back-page-4" class="previous-button">Previous</button>
-					<button id="toggle-page-6" class="next-button">Review</button>
-				</div>
-			</form>
-		</section>
-		<section id="summary" class="inactive">
-			<h3>Summary</h3>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem expedita accusantium perferendis aperiam quibusdam iure et vero fuga itaque, ab qui nam ratione, corporis quia atque totam dolorem. Ut, quis!</p>
-			<form>
-				<div class="summary-row">
-					<label>Status <span id="go-back-0">Edit</span></label>
-					<input type="text" id="homebuyer-or-agent" disabled>
-				</div>
-				<div class="summary-row">
-					<label>Current Step <span id="go-back-1">Edit</span></label>
-					<input type="text" id="process-step" disabled>
-				</div>
-				<div class="summary-row">
-					<label>Address Seeking <span id="go-back-2">Edit</span></label>
-					<input type="text" id="address-seeking" disabled>
-				</div>
-				<div class="summary-row">
-					<label>Current Address <span id="go-back-3">Edit</span></label>
-					<input type="text" id="address-current" disabled>
-				</div>
-				<div class="summary-row">
-					<label>Minimum Price <span id="go-back-4">Edit</span></label>
-					<input type="text" id="price-range-minimum" disabled>
-				</div>
-				<div class="summary-row">
-					<label>Maximum Price <span id="go-back-4">Edit</span></label>
-					<input type="text" id="price-range-maximum" disabled>
-				</div>
-				<div class="summary-row">
-					<label>First Name <span class="go-back-5">Edit</span></label>
-					<input type="text" id="first-name-lead" disabled>
-				</div>
-				<div class="summary-row">
-					<label>Last Name <span class="go-back-5">Edit</span></label>
-					<input type="text" id="last-name-lead" disabled>
-				</div>
-				<div class="summary-row">
-					<label>Phone Number <span class="go-back-5">Edit</span></label>
-					<input type="text" id="phone-number-lead" disabled>
-				</div>
-				<div class="summary-row">
-					<label>Email Address <span class="go-back-5">Edit</span></label>
-					<input type="text" id="email-address-lead" disabled>
-				</div>
-				<div id="broker-information">
-					<div class="summary-row">
-						<label>Broker First Name <span class="go-back-0">Edit</span></label>
-						<input type="text" id="broker-first-name-lead" disabled>
-					</div>
-					<div class="summary-row">
-						<label>Broker Last Name <span class="go-back-0">Edit</span></label>
-						<input type="text" id="broker-last-name-lead" disabled>
-					</div>
-					<div class="summary-row">
-						<label>Broker Phone Number <span class="go-back-0">Edit</span></label>
-						<input type="text" id="broker-phone-number-lead" disabled>
-					</div>
-					<div class="summary-row">
-						<label>Broker Email Address <span class="go-back-0">Edit</span></label>
-						<input type="text" id="broker-email-address-lead" disabled>
-					</div>
-					<div class="summary-row">
-						<label>Broker Brokerage <span class="go-back-0">Edit</span></label>
-						<input type="text" id="broker-brokerage-lead" disabled>
+			<div class="faq-question-container">
+				<div class="faq-question">
+					<h4>Quisquam adipisci nisi in numquam?</h4>
+					<div class="faq-topic-list">
+						<ul>
+							<li class="cash">Topic</li>
+							<li class="cash-out">Topic</li>
+						</ul>
 					</div>
 				</div>
-				<input type="button" id="submit-form" value="Submit">
-			</form>
-			</form>
-			<small><strong>Disclaimer:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem expedita accusantium perferendis aperiam quibusdam iure et vero fuga itaque, ab qui nam ratione, corporis quia atque totam dolorem. Ut, quis!</small>
+				<div class="faq-answer">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam adipisci nisi in numquam, ab, rerum fugit earum quia iure, magni quam. Nisi impedit dolorum nemo esse quasi, aspernatur suscipit asperiores.</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, quis!</p>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus assumenda molestiae delectus ratione reiciendis debitis minus consequuntur! Placeat eveniet, eligendi id sapiente rem sed mollitia quidem impedit in voluptatum distinctio molestiae amet, ipsum temporibus modi accusantium fugit earum ex numquam?</p>
+				</div>
+			</div>
+			<div class="faq-question-container">
+				<div class="faq-question">
+					<h4>Quisquam adipisci nisi in numquam?</h4>
+					<div class="faq-topic-list">
+						<ul>
+							<li class="cash">Topic</li>
+							<li class="cash-out">Topic</li>
+						</ul>
+					</div>
+				</div>
+				<div class="faq-answer">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam adipisci nisi in numquam, ab, rerum fugit earum quia iure, magni quam. Nisi impedit dolorum nemo esse quasi, aspernatur suscipit asperiores.</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, quis!</p>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus assumenda molestiae delectus ratione reiciendis debitis minus consequuntur! Placeat eveniet, eligendi id sapiente rem sed mollitia quidem impedit in voluptatum distinctio molestiae amet, ipsum temporibus modi accusantium fugit earum ex numquam?</p>
+				</div>
+			</div>
 		</section>
 	<main>
 </body>
