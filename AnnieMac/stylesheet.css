@@ -47,6 +47,27 @@ body.front.site-type-branch .main-content, body.front.site-type-branch #site-nav
 .site-type-branch #deserve-more-container-master {
   display: none;
 }
+
+.calc-group {
+  display: flex;
+  margin: 20px auto;
+  width: 90%;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.calc-group .item {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  padding: 10px;
+}
+
+.calc-group .item h6 a {
+  font-weight: bold;
+}
+
 #submit-overlayment {
   position: absolute;
   width: 100%;
