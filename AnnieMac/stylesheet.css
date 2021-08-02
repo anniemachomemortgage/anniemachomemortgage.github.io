@@ -54,6 +54,7 @@ body.front.site-type-branch .main-content, body.front.site-type-branch #site-nav
   width: 90%;
   align-items: flex-start;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .calc-group .item {
