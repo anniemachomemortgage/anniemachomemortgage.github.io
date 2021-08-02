@@ -67,7 +67,14 @@ body.front.site-type-branch .main-content, body.front.site-type-branch #site-nav
 .calc-group .item h6 a {
   font-weight: bold;
 }
-
+.page-mortgage-calculator h2 {
+  font-size: 26px;
+  text-align: center;
+  margin: 15px 0 30px;
+}
+.page-mortgage-calculator header {
+  display: none;
+}
 #submit-overlayment {
   position: absolute;
   width: 100%;
