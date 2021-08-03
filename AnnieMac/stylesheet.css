@@ -66,6 +66,13 @@ body.front.site-type-branch .main-content, body.front.site-type-branch #site-nav
   margin: 0 0px;
 }
 
+.calc-group .item img {
+  opacity: 0;
+  visibility: hidden;
+  max-height: 1px;
+  max-width: 1px;
+}
+
 .calc-group .item h6 a {
   font-weight: bold;
 }
