@@ -303,6 +303,13 @@ $(function() {
 			$("#stylesheet-git").remove();
 		};
 	};
+	if($('body').hasClass('page-blog-list') || $('body').hasClass('page-blog-detail')) {
+		$('img').each(function() {
+			if(! $(this).attr('alt')) {
+				$(this).attr('alt', 'Blog image');
+				}
+		});
+	};
 	// BEGIN BDM PAGES
 	// ALL BDM PAGES
 	if ((window.location.href.indexOf("get-elevated") != -1) || (window.location.href.indexOf("elevate-career") != -1) || (window.location.href.indexOf("elevate-branch-2") != -1) || (window.location.href.indexOf("page/kelsey") != -1)) {
