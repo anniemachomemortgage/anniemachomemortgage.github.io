@@ -910,11 +910,11 @@ $(function() {
 		$("#product-type-fha").removeAttr('checked');
 	});
 	$(".calc-group .item img").remove();
-	const $primaryTitle = $(document).find("title:eq(0)");
-	const $replaceTitle = $(document).find("title:eq(1)");
-	const newTitle = `${$primaryTitle.text()} | ${$replaceTitle.text()}`;
-	$primaryTitle.empty().append(newTitle);
-	$replaceTitle.remove();
+	// const $primaryTitle = $(document).find("title:eq(0)");
+	// const $replaceTitle = $(document).find("title:eq(1)");
+	// const newTitle = `${$primaryTitle.text()} | ${$replaceTitle.text()}`;
+	// $primaryTitle.empty().append(newTitle);
+	// $replaceTitle.remove();
 	$('script[src*="navigation.js"]').remove();
 	$('script[src*="scriptbook.js"]').remove();
 	$("#scriptbook-js").remove();
