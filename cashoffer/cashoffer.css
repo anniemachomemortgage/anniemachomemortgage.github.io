@@ -1,4 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+Temporarily hide other forms 
+form[data-role="homebuyer-buy-now-sell-later-form"], form[data-role="agent-lead-cash-offer-form"], form[data-role="agent-lead-buy-now-sell-later-form"] {
+	display: none;
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li, section, main, header, nav, footer {
+	font-family: 'inter', sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #3d3d3d;
+}
+
 header, main, section, form, form div, footer {
 	display: flex;
 	flex-direction: column;
+}
+
+form, section[data-role="mapping-agent"], section[data-role="secondary-mapping-agent"] {
+	width: 600px;
+	margin: 0 auto;
+}
+
+label {
+	font-weight: 800;
+	line-height: 25px;
+	margin: 15px 0 20px;
+}
+
+button {
+	max-width: 200px;
+	max-width: 200px;
+	margin: 0 0 4px;
+}
+select, option {
+	max-width: 300px;
+	max-width: 300px;
+	margin: 0 0 4px;
+}
+input, select, button, option {
+	text-align: left;
+	font-size: 16px;
+	padding: 12px 15px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border: 1px solid rgba(0,0,0,.3);
+	box-shadow: 1px 1px 1px rgba(0,0,0,.03);
+	outline: none;
+	border-radius: 4px;
+}
+
+.button-group {
+	display: flex;
+	width: 425px;
+	justify-content: space-between;
+}
+
+.button-group button {
+	min-width: 200px;
 }
