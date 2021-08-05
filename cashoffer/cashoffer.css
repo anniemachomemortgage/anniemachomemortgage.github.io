@@ -1,0 +1,4 @@
+header, main, section, form, form div, footer {
+	display: flex;
+	flex-direction: column;
+}
