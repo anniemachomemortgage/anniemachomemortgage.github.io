@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-Temporarily hide other forms 
-form[data-role="homebuyer-buy-now-sell-later-form"], form[data-role="agent-lead-cash-offer-form"], form[data-role="agent-lead-buy-now-sell-later-form"] {
-	display: none;
-}
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -28,15 +24,28 @@ form, section[data-role="mapping-agent"], section[data-role="secondary-mapping-a
 	margin: 0 auto;
 }
 
+form h3 {
+	font-size: 24px;
+	font-weight: 700;
+	margin: 40px 0 -00px;
+}
+
+form p {
+	margin: 0;
+	line-height: 25px;
+	font-weight: 400;
+	margin: 15px 0;
+}
+
 label {
-	font-weight: 800;
+	font-weight: 600;
 	line-height: 25px;
 	margin: 15px 0 20px;
 }
 
 button {
-	max-width: 200px;
-	max-width: 200px;
+	max-width: 100px;
+	max-width: 100px;
 	margin: 0 0 4px;
 }
 select, option {
@@ -44,7 +53,7 @@ select, option {
 	max-width: 300px;
 	margin: 0 0 4px;
 }
-input, select, button, option {
+input[type="text"], select, button, option {
 	text-align: left;
 	font-size: 16px;
 	padding: 12px 15px;
@@ -56,12 +65,40 @@ input, select, button, option {
 	border-radius: 4px;
 }
 
-.button-group {
+.radio-group {
 	display: flex;
-	width: 425px;
-	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+	margin: 0 0 9px;
+}
+
+.radio-group input[type="radio"] {
+	margin: 0;
+	width: 15px;
+	height: 15px;
+}
+
+.radio-group label {
+	margin: 0 0 0 10px;
+	font-weight: 300;
+}
+
+.hidden-content {
+	display: none;
+}
+
+.toggle-form {
+	display: none;
+}
+
+.button-group {
+	margin: 20px 0 0;
 }
 
 .button-group button {
 	min-width: 200px;
+}
+
+.visited-only {
+	display: none;
 }
