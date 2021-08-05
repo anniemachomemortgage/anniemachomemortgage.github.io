@@ -28,17 +28,18 @@ $(function() {
 	}
 	localStorage.setItem('visited', 'true');
 	$("#form-decision").click(function(event) {
-		localStorage.setItem('selected', 'true');
 		event.preventDefault();
 		if($('#cash-offer').is(':checked')) {
 			localStorage.setItem('cashoffer', 'true');
 			if($('#home-buyer').is(':checked')) {
 				localStorage.setItem('homebuyer', 'true');
+				localStorage.setItem('selected', 'true');
 				$("main[data-role='mapping-agent']").addClass("hidden-content");
 				$("main[data-role='homebuyer-cash-offer-form']").toggleClass("hidden-content");
 			}
 			if($('#estate-agent').is(':checked')) {
 				localStorage.setItem('estateagent', 'true');
+				localStorage.setItem('selected', 'true');
 				$("main[data-role='mapping-agent']").addClass("hidden-content");
 				$("main[data-role='homebuyer-buy-now-sell-later-form']").toggleClass("hidden-content");
 			}
@@ -48,11 +49,13 @@ $(function() {
 			$("main[data-role='mapping-agent']").addClass("hidden-content");
 			if($('#home-buyer').is(':checked')) {
 				localStorage.setItem('homebuyer', 'true');
+				localStorage.setItem('selected', 'true');
 				$("main[data-role='mapping-agent']").addClass("hidden-content");
 				$("main[data-role='agent-lead-cash-offer-form']").toggleClass("hidden-content");
 			}
 			if($('#estate-agent').is(':checked')) {
 				localStorage.setItem('estateagent', 'true');
+				localStorage.setItem('selected', 'true');
 				$("main[data-role='mapping-agent']").addClass("hidden-content");
 				$("main[data-role='agent-lead-buy-now-sell-later-form']").toggleClass("hidden-content");
 			}
