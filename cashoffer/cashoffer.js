@@ -61,6 +61,40 @@ $(function() {
 			}
 		};
 	});
+	$("#working-with-agent").change(function() {
+		if($("#real-estate-toggle-form").is(":selected")) {
+			$("div[data-role='real-estate-agent-toggle']").removeClass("toggle-form");
+		} 
+		if($("#real-estate-untoggle-form").is(":selected")) {
+			$("div[data-role='real-estate-agent-toggle']").addClass("toggle-form");
+		}
+	});
+	$("#area-selection").change(function() {
+		if($("#unsupported-area-toggle-form").is(":selected")) {
+			$("div[data-role='unsupported-area-type-lead']").removeClass("toggle-form");
+			$("div[data-role='homeowner-application']").addClass("toggle-form");
+		}
+		if($("#burlington-county").is(":selected")) {
+			$("div[data-role='unsupported-area-type-lead']").addClass("toggle-form");
+			$("div[data-role='homeowner-application']").removeClass("toggle-form");
+		}
+		if($("#gloucester-county").is(":selected")) {
+			$("div[data-role='unsupported-area-type-lead']").addClass("toggle-form");
+			$("div[data-role='homeowner-application']").removeClass("toggle-form");
+		}
+		if($("#camden-county").is(":selected")) {
+			$("div[data-role='unsupported-area-type-lead']").addClass("toggle-form");
+			$("div[data-role='homeowner-application']").removeClass("toggle-form");
+		}
+	});
+	$("#apply-or-learn").change(function() {
+		if($("#learn-more-toggle-form").is(":selected")) {
+			$("div[data-role='learn-more-information']").removeClass("toggle-form");
+		}
+		if($("#apply-now-untoggle").is(":selected")) {
+			$("div[data-role='learn-more-information']").addClass("toggle-form");
+		}
+	});
 	$("select").click(function(event) {
 		$("option[name='placeholder']").attr('disabled','disabled');
 	});

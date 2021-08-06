@@ -91,10 +91,10 @@
 					<input type="hidden" id="Picklist" xml-data-note="Processing.Picklist4" value="Cash Offer (CO)">
 					<label for="">Are you working with an agent? (Selecting 'I am working with an agent' toggles real-estate-agent-toggle group.)</label>
 					<input type="hidden" name="agent-declaration" value="">
-					<select>
+					<select id="working-with-agent">
 						<option name="placeholder">Select Option</option>
 						<option id="real-estate-toggle-form" name="" value="">I am working with an agent</option>
-						<option name="" value="">I am not working with an agent</option>
+						<option id="real-estate-untoggle-form" name="" value="">I am not working with an agent</option>
 					</select>
 					<div class="toggle-form" data-role="real-estate-agent-toggle">	
 						<label for="">Real Estate Agent Name</label>
@@ -105,12 +105,11 @@
 						<input type="text" name="" xml-data-node="">
 					</div>
 					<label for="">Where are you looking to buy? (Selecting 'None of the above' toggles unsupported-area-type-lead. The others toggles homeowner-application group.)</label>
-					<input type="hidden" name="county-declaration" value="">
-					<select>
+					<select id="area-selection">
 						<option name="placeholder">Select Option</option>
-						<option name="" value="">Burlington County</option>
-						<option name="" value="">Gloucester County</option>
-						<option name="" value="">Camden County</option>
+						<option id="burlington-county" name="" value="">Burlington County</option>
+						<option id="gloucester-county" name="" value="">Gloucester County</option>
+						<option id="camden-county" name="" value="">Camden County</option>
 						<option id="unsupported-area-toggle-form" name="" value="">None of the above</option>
 					</select>
 					<div class="toggle-form" data-role="unsupported-area-type-lead">
@@ -127,10 +126,10 @@
 					<div class="" data-role="homeowner-application">
 						<label for="">Are you looking to apply now or learn more? (Selecting 'Learn More' toggles learn-more-information.)</label>
 						<input type="hidden" name="interst-declaration" value="">
-						<select>
+						<select id="apply-or-learn">
 							<option name="placeholder">Select Option</option>
 							<option id="learn-more-toggle-form" name="" value="">Learn More</option>
-							<option name="" value="">Apply Now</option>
+							<option id="apply-now-untoggle" name="" value="">Apply Now</option>
 						</select>
 						<div class="toggle-form" data-role="learn-more-information">
 							<label for="">What's the address of the home you're looking to buy?</label>
@@ -166,10 +165,10 @@
 					<input type="hidden" id="Picklist" xml-data-note="Processing.Picklist4" value="Buy Now, Sell Later (BNSL)">
 					<label for="">Are you working with an agent? (Selecting 'I am working with an agent' toggles real-estate-agent-toggle group.)</label>
 					<input type="hidden" name="agent-declaration" value="">
-					<select>
+					<select id="working-with-agent">
 						<option name="placeholder">Select Option</option>
 						<option id="real-estate-toggle-form" name="" value="">I am working with an agent</option>
-						<option name="" value="">I am not working with an agent</option>
+						<option id="real-estate-untoggle-form" name="" value="">I am not working with an agent</option>
 					</select>
 					<div class="toggle-form" data-role="real-estate-agent-toggle">	
 						<label for="">Real Estate Agent Name</label>
@@ -180,12 +179,11 @@
 						<input type="text" name="" xml-data-node="">
 					</div>
 					<label for="">Where are you looking to buy? (Selecting 'None of the above' toggles unsupported-area-type-lead. The others toggles homeowner-application group.)</label>
-					<input type="hidden" name="county-declaration" value="">
-					<select>
+					<select id="area-selection">
 						<option name="placeholder">Select Option</option>
-						<option name="" value="">Burlington County</option>
-						<option name="" value="">Gloucester County</option>
-						<option name="" value="">Camden County</option>
+						<option id="burlington-county" name="" value="">Burlington County</option>
+						<option id="gloucester-county" name="" value="">Gloucester County</option>
+						<option id="camden-county" name="" value="">Camden County</option>
 						<option id="unsupported-area-toggle-form" name="" value="">None of the above</option>
 					</select>
 					<div class="toggle-form" data-role="unsupported-area-type-lead">
@@ -202,10 +200,10 @@
 					<div class="" data-role="homeowner-application">
 						<label for="">Are you looking to apply now or learn more? (Selecting 'Learn More' toggles learn-more-information.)</label>
 						<input type="hidden" name="interest-declaration" value="">
-						<select>
+						<select id="apply-or-learn">
 							<option name="placeholder">Select Option</option>
 							<option id="learn-more-toggle-form" name="" value="">Learn More</option>
-							<option name="" value="">Apply Now</option>
+							<option id="apply-now-untoggle" name="" value="">Apply Now</option>
 						</select>
 						<div class="toggle-form" data-role="learn-more-information">
 							<label for="">What's the address of the home you're looking to buy?</label>
@@ -261,12 +259,11 @@
 					</div>
 					<div class="toggle-form" data-role="client-application">
 						<label for="">Where are is your client looking to buy? (Selecting 'None of the above' toggles unsupported-area-type-lead. The others toggle learn-more-information group.)</label>
-						<input type="hidden" name="county-declaration" value="">
-						<select>
+						<select id="area-selection">
 							<option name="placeholder">Select Option</option>
-							<option name="" value="">Burlington County</option>
-							<option name="" value="">Gloucester County</option>
-							<option name="" value="">Camden County</option>
+							<option id="burlington-county" name="" value="">Burlington County</option>
+							<option id="gloucester-county" name="" value="">Gloucester County</option>
+							<option id="camden-county" name="" value="">Camden County</option>
 							<option id="unsupported-area-toggle-form" name="" value="">None of the above</option>
 						</select>
 						<div class="toggle-form" data-role="unsupported-area-type-lead">
@@ -332,12 +329,11 @@
 					</div>
 					<div class="toggle-form" data-role="client-application">
 						<label for="">Where are is your client looking to buy? (Selecting 'None of the above' toggles unsupported-area-type-lead. The others toggle learn-more-information group.)</label>
-						<input type="hidden" name="county-declaration" value="">
-						<select>
+						<select id="area-selection">
 							<option name="placeholder">Select Option</option>
-							<option name="" value="">Burlington County</option>
-							<option name="" value="">Gloucester County</option>
-							<option name="" value="">Camden County</option>
+							<option id="burlington-county" name="" value="">Burlington County</option>
+							<option id="gloucester-county" name="" value="">Gloucester County</option>
+							<option id="camden-county" name="" value="">Camden County</option>
 							<option id="unsupported-area-toggle-form" name="" value="">None of the above</option>
 						</select>
 						<div class="toggle-form" data-role="unsupported-area-type-lead">
