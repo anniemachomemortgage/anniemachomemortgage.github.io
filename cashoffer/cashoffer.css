@@ -83,22 +83,10 @@ input[type="text"], select, button, option {
 	font-weight: 300;
 }
 
-.hidden-content {
-	display: none;
-}
-
-.toggle-form {
-	display: none;
-}
-
 .button-group {
 	margin: 20px 0 0;
 }
 
 .button-group button {
 	min-width: 200px;
-}
-
-.visited-only {
-	display: none;
 }
