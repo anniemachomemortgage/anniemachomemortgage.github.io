@@ -6,6 +6,10 @@ body.front.site-type-branch {
   background: #e2e2e2;
 }
 
+.site-type-branch .branch-manager-section {
+  margin-bottom: 40px;
+}
+
 body.front.site-type-branch .main-content, body.front.site-type-branch #site-navigation {
   background: #fff;
 }
