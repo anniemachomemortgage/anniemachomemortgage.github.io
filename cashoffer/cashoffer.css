@@ -91,6 +91,10 @@ input[type="text"], select, button, option {
 	display: none;
 }
 
+.toggle-form {
+	display: none;
+}
+
 .button-group {
 	margin: 20px 0 0;
 }

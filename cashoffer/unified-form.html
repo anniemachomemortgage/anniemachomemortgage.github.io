@@ -79,7 +79,7 @@
 					<input type="hidden" id="LeadSourceID" data-xml-node="LeadSourceId" value="">
 					<input type="hidden" id="Picklist" xml-data-note="Processing.Picklist4" value="">
 					<div class="homebuyer-question">
-						<label for="">Are you working with an agent? (Selecting 'I am working with an agent' toggles real-estate-agent-toggle group.)</label>
+						<label for="">Are you working with an agent?</label>
 						<input type="hidden" name="agent-declaration" value="">
 						<select id="working-with-agent">
 							<option name="placeholder">Select Option</option>
@@ -116,7 +116,7 @@
 						</div>
 					</div>
 					<div class="homebuyer-question">
-						<label for="">Where are you looking to buy? (Selecting 'None of the above' toggles unsupported-area-type-lead. The others toggles homeowner-application group.)</label>
+						<label for="">Where are you looking to buy?</label>
 						<select id="area-selection">
 							<option name="placeholder">Select Option</option>
 							<option id="burlington-county" name="" value="">Burlington County</option>
@@ -135,17 +135,9 @@
 							<label for="">Address</label>
 							<input type="text" name="" xml-data-node="">
 						</div>
-						<div class="" data-role="homeowner-application">
-							<label for="">Are you looking to apply now or learn more? (Selecting 'Learn More' toggles learn-more-information.)</label>
+						<div class="toggle-form" data-role="homeowner-application">
+							<label for="">Are you looking to apply now or learn more?</label>
 							<input type="hidden" name="interest-declaration" value="">
-							<select id="apply-or-learn">
-								<option name="placeholder">Select Option</option>
-								<option id="learn-more-toggle-form" name="" value="">Learn More</option>
-								<option id="apply-now-untoggle" name="" value="">Apply Now</option>
-							</select>
-							<div class="toggle-form" data-role="learn-more-information">
-							<label for="">Are you looking to apply now or learn more? (Selecting 'Learn More' toggles learn-more-information.)</label>
-							<input type="hidden" name="interst-declaration" value="">
 							<select id="apply-or-learn">
 								<option name="placeholder">Select Option</option>
 								<option id="learn-more-toggle-form" name="" value="">Learn More</option>
