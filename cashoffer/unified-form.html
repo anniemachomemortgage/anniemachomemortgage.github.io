@@ -33,7 +33,7 @@
 		<meta name="ahrefs-site-verification" content="ffeb962f4d4cd6a9f1ec079aaaa33c8f41bbc18e587a1c42f5afaffa8b46afa5">
 		<link rel='stylesheet' id='cashoffer-css' href='cashoffer.css' type='text/css' media='all' />
 		<script id="jquery-link" src="https://code.jquery.com/jquery-latest.min.js"></script>
-		<script id="page-specific-functionality-script" src="cashoffer.js"></script>
+		<script id="page-specific-functionality-script" src="cashoffer-fixed.js"></script>
 	</head>
 	<body class="">
 		<!-- Cash Offer or Buy Now Sell Later -->
@@ -41,16 +41,7 @@
 			<section class="" data-role="mapping-agent">
 				<form method="post" data-role="preliminary">
 					<h3>Preliminary Questions</h3>
-					<p><span class="visited-only">Welcome back!</span> Before we can begin, we have two quick questions to help better understand your goals.</p>
-					<label for="">Cash Offer or Buy Now, Sell Later</label>
-					<div class="radio-group">
-						<input type="radio" id="cash-offer" name="cash-or-buy" value="cash-offer">
-						<label for="cash-offer">Cash Offer</label>
-					</div>
-					<div class="radio-group">
-						<input type="radio" id="buy-now" name="cash-or-buy" value="buy-now">
-						<label for="buy-now">Buy Now, Sell Later</label>
-					</div>
+					<p>Before we can begin, we have two quick questions to help better understand your goals.</p>
 					<label for="">Are you a homebuyer or a real estate agent?</label>
 					<div class="radio-group">
 						<input type="radio" id="home-buyer" name="buyer-or-agent" value="home-buyer">
@@ -60,8 +51,17 @@
 						<input type="radio" id="estate-agent" name="buyer-or-agent" value="estate-agent">
 						<label for="estate-agent">Real Estate Agent</label>
 					</div>
+					<label for="">Cash Offer or Buy Now, Sell Later</label>
+					<div class="radio-group">
+						<input type="radio" id="cash-offer" name="cash-or-buy" value="cash-offer">
+						<label for="cash-offer">Cash Offer</label>
+					</div>
+					<div class="radio-group">
+						<input type="radio" id="buy-now" name="cash-or-buy" value="buy-now">
+						<label for="buy-now">Buy Now, Sell Later</label>
+					</div>
 					<div class="button-group" data-role="">
-						<button id="form-decision">Begin</button>
+						<button id="form-decision" disabled>Begin</button>
 					</div>
 				</form>
 			</section>
@@ -69,15 +69,15 @@
 		<main data-role="form-content-container" class="content-container hidden-content">
 			<section class="" data-role="sub-source-agent">
 				<form method="post" data-role="homebuyer-cash-offer-form">
-					<h3>Form for <span id="product-type"></span> - <span id="profile-type"></span></h3>
+					<h3><span id="product-type"></span><span id="profile-type"></span></h3>
 					<input type="hidden" id="TargetURL" value="https://anniemac.mortgageiqcrm.com/client">
 					<input type="hidden" id="Filter" value="CostCenter">
 					<input type="hidden" id="Entity" value="PreQual">
 					<input type="hidden" id="Lead Import" value="true">
 					<input type="hidden" id="Notification" value="New Lead">
 					<input type="hidden" id="UserID" name="UserID" value="">
-					<input type="text" id="LeadSourceID" data-xml-node="LeadSourceId" value="">
-					<input type="text" id="Picklist" xml-data-note="Processing.Picklist4" value="">
+					<input type="hidden" id="LeadSourceID" data-xml-node="LeadSourceId" value="">
+					<input type="hidden" id="Picklist" xml-data-note="Processing.Picklist4" value="">
 					<div class="homebuyer-question">
 						<label for="">Are you working with an agent? (Selecting 'I am working with an agent' toggles real-estate-agent-toggle group.)</label>
 						<input type="hidden" name="agent-declaration" value="">

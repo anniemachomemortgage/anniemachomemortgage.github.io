@@ -83,11 +83,11 @@ input[type="text"], select, button, option {
 	font-weight: 300;
 }
 
-.hidden-content {
+.homebuyer-question {
 	display: none;
 }
 
-.toggle-form {
+.agent-question {
 	display: none;
 }
 
