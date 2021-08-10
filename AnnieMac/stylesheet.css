@@ -6,6 +6,10 @@ body.front.site-type-branch {
   background: #e2e2e2;
 }
 
+#questionThree .text-muted small, .text-info i.fas.fa-arrow-right {
+  display: none;
+}
+
 .site-type-branch .branch-manager-section {
   margin-bottom: 40px;
 }
