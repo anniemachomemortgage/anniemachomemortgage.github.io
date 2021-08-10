@@ -2,8 +2,8 @@ $(function() {
 	$('input[name=buyer-or-agent], input[name=cash-or-buy]').change(function() { 
 		if ($('input[name=buyer-or-agent]:checked') && $('input[name=cash-or-buy]:checked')) {
 			$("#form-decision").removeAttr("disabled")
-		})
-	});
+		}
+	})
 	$("#form-decision").click(function(event) {
 		event.preventDefault();
 		if($('#home-buyer').is(':checked')) {
@@ -35,5 +35,5 @@ $(function() {
 			$("#profile-type").text("Real Estate Agents");
 		}
 		$('section[data-role="mapping-agent"]').remove();
-	});
+	})
 })
