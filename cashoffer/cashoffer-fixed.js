@@ -1,6 +1,6 @@
 $(function() {
 	$('input[name=buyer-or-agent], input[name=cash-or-buy]').change(function() { 
-		if ($('input[name=buyer-or-agent]:checked') && $('input[name=cash-or-buy]:checked')) {
+		if ( $('input[name=buyer-or-agent]').is(':checked') && $('input[name=cash-or-buy]').is(':checked') ) {
 			$("#form-decision").removeAttr("disabled")
 		}
 	})
