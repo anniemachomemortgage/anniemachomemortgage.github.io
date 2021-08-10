@@ -16,6 +16,7 @@ $(function() {
 				$("#LeadSourceID").attr('value', 'Q6UJ9A1PQKN8');
 				$("#Picklist").attr('value', 'Buy Now, Sell Later (BNSL)');
 				$("#product-type").text("Form for Buy Now, Sell Later ");
+				$('.buy-now-sell-later').css('display','flex');
 			}
 			$('.homebuyer-question').css('display','flex');
 			$("#profile-type").text("Homebuyers");
@@ -30,6 +31,7 @@ $(function() {
 				$("#LeadSourceID").attr('value', 'Q6UJ9A1PQKN7');
 				$("#Picklist").attr('value', 'Buy Now, Sell Later (BNSL)');
 				$("#product-type").text("Form for Buy Now, Sell Later ");
+				$('.buy-now-sell-later').css('display','flex');
 			}
 			$('.agent-question').css('display','flex');
 			$("#profile-type").text("Real Estate Agents");
