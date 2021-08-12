@@ -83,21 +83,21 @@ input[type="text"], select, button, option {
 	font-weight: 300;
 }
 
-.homebuyer-question {
+/* .homebuyer-question {
 	display: none;
-}
+} */
 
-.agent-question {
+/* .agent-question {
 	display: none;
-}
+} */
 
-.toggle-form {
+/* .toggle-form {
 	display: none;
-}
+} */
 
-.buy-now-sell-later {
+/* .buy-now-sell-later {
 	display: none;
-}
+} */
 
 .button-group {
 	margin: 20px 0 0;
