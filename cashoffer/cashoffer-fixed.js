@@ -112,6 +112,9 @@ $(function() {
 			$('input[data-role="agent-unsupported-verification"]').each(function() {
 				$(this).prop('required', false);
 			});
+			$('input[data-role="agent-submission-verification"]').each(function() {
+				$(this).prop('required', true);
+			});
 		}
 		if($("#agent-unsupported-area-toggle-form").is(":selected")) {
 			$("div[data-role='agent-unsupported-area-type-lead']").removeClass("toggle-form");
@@ -119,7 +122,7 @@ $(function() {
 			$('input[data-role="agent-unsupported-verification"]').each(function() {
 				$(this).prop('required', true);
 			});
-			$('input[data-role="client-submission-verification"]').each(function() {
+			$('input[data-role="agent-submission-verification"]').each(function() {
 				$(this).prop('required', false);
 			});
 			$('input[data-role="client-selling-later-verification"]').each(function() {
