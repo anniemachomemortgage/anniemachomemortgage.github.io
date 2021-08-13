@@ -11,12 +11,18 @@ $(function() {
 				$("#LeadSourceID").attr('value', 'Q6UJ9A1PQKN6');
 				$("#Picklist").attr('value', 'Cash Offer (CO)');
 				$("#product-type").text("Form for Cash Offer ");
+				$('input[data-role="client-selling-later-verification"]').each(function() {
+					$(this).prop('required', false);
+				});
 			}
 			if($('#buy-now').is(':checked')) {
 				$("#LeadSourceID").attr('value', 'Q6UJ9A1PQKN8');
 				$("#Picklist").attr('value', 'Buy Now, Sell Later (BNSL)');
 				$("#product-type").text("Form for Buy Now, Sell Later ");
 				$('.buy-now-sell-later').css('display','flex');
+				$('input[data-role="client-selling-later-verification"]').each(function() {
+					$(this).prop('required', true);
+				});
 			}
 			$('.homebuyer-question').css('display','flex');
 			$("#profile-type").text("Homebuyers");
@@ -26,12 +32,18 @@ $(function() {
 				$("#LeadSourceID").attr('value', 'Q6UJ9A1PQKN5');
 				$("#Picklist").attr('value', 'Cash Offer (CO)');
 				$("#product-type").text("Form for Cash Offer ");
+				$('input[data-role="realtor-selling-later-verification"]').each(function() {
+					$(this).prop('required', false);
+				});
 			}
 			if($('#buy-now').is(':checked')) {
 				$("#LeadSourceID").attr('value', 'Q6UJ9A1PQKN7');
 				$("#Picklist").attr('value', 'Buy Now, Sell Later (BNSL)');
 				$("#product-type").text("Form for Buy Now, Sell Later ");
 				$('.buy-now-sell-later').css('display','flex');
+				$('input[data-role="realtor-selling-later-verification"]').each(function() {
+					$(this).prop('required', true);
+				});
 			}
 			$('.agent-question').css('display','flex');
 			$("#profile-type").text("Real Estate Agents");
@@ -41,28 +53,67 @@ $(function() {
 	$("#working-with-agent").change(function() {
 		if($("#real-estate-toggle-form").is(":selected")) {
 			$("div[data-role='real-estate-agent-toggle']").removeClass("toggle-form");
+			$('input[data-role="working-with-agent-verification"]').each(function() {
+				$(this).prop('required', true);
+			});
 		} 
 		if($("#real-estate-untoggle-form").is(":selected")) {
 			$("div[data-role='real-estate-agent-toggle']").addClass("toggle-form");
+			$('input[data-role="working-with-agent-verification"]').each(function() {
+				$(this).prop('required', false);
+			});
 		}
 	})
 	$("#area-selection").change(function() {
 		if ( $('#burlington-county').is(':selected') || $('#gloucester-county').is(':selected') || $('#camden-county').is(':selected') ) {
 			$("div[data-role='unsupported-area-type-lead']").addClass("toggle-form");
 			$("div[data-role='homeowner-application']").removeClass("toggle-form");
+			$('input[data-role="unsupported-verification"]').each(function() {
+				$(this).prop('required', false);
+			});
 		}
 		if($("#unsupported-area-toggle-form").is(":selected")) {
 			$("div[data-role='unsupported-area-type-lead']").removeClass("toggle-form");
 			$("div[data-role='homeowner-application']").addClass("toggle-form");
+			$('input[data-role="unsupported-verification"]').each(function() {
+				$(this).prop('required', true);
+			});
+			$('input[data-role="client-submission-verification"]').each(function() {
+				$(this).prop('required', false);
+			});
+			$('input[data-role="client-selling-later-verification"]').each(function() {
+				$(this).prop('required', false);
+			});
+			$('input[data-role="realtor-selling-later-verification"]').each(function() {
+				$(this).prop('required', false);
+			});
 		}
 	});
 	$("#apply-or-learn").change(function() {
 		if($("#learn-more-toggle-form").is(":selected")) {
 			$("div[data-role='learn-more-information']").removeClass("toggle-form");
+			$('input[data-role="client-submission-verification"]').each(function() {
+				$(this).prop('required', true);
+			});
 		}
 		if($("#apply-now-untoggle").is(":selected")) {
+			$('input[data-role="client-submission-verification"]').each(function() {
+				$(this).prop('required', false);
+			});
 			$("div[data-role='learn-more-information']").addClass("toggle-form");
 			window.open('./loan/apply', '_blank');
 		}
+	});
+	$("#area-selection").on("keyup change", function(e) {
+		var selectedValue = $("#area-selection").val();
+		$("input[data-xml-node='PropertyCounty']").attr('value', selectedValue);
+	});
+	$("#state-selection").on("keyup change", function(e) {
+		var selectedValue = $("#state-selection").val();
+		$("input[data-xml-node='State']").attr('value', selectedValue);
+	});
+	$("#property-state-selection").on("keyup change", function(e) {
+		var selectedValue = $("#property-state-selection").val();
+		$("input[data-xml-node='PropertyState']").attr('value', selectedValue);
 	});
 })

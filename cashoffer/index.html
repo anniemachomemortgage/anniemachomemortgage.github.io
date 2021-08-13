@@ -41,7 +41,7 @@
 			<section class="" data-role="mapping-agent">
 				<form method="post" data-role="preliminary">
 					<h3>Preliminary Questions</h3>
-					<p>Before we can begin, we have two quick questions to help better understand your goals.</p>
+					<p>Before we can begin, please answer two quick questions to help better understand your goals.</p>
 					<label for="">Are you a homebuyer or a real estate agent?</label>
 					<div class="radio-group">
 						<input type="radio" id="home-buyer" name="buyer-or-agent" value="home-buyer">
@@ -51,7 +51,7 @@
 						<input type="radio" id="estate-agent" name="buyer-or-agent" value="estate-agent">
 						<label for="estate-agent">Real Estate Agent</label>
 					</div>
-					<label for="">Cash Offer or Buy Now, Sell Later</label>
+					<label for="">Which program are you interested in?</label>
 					<div class="radio-group">
 						<input type="radio" id="cash-offer" name="cash-or-buy" value="cash-offer">
 						<label for="cash-offer">Cash Offer</label>
@@ -60,7 +60,7 @@
 						<input type="radio" id="buy-now" name="cash-or-buy" value="buy-now">
 						<label for="buy-now">Buy Now, Sell Later</label>
 					</div>
-					<div class="button-group" data-role="">
+					<div class="button-group">
 						<button id="form-decision" disabled>Begin</button>
 					</div>
 				</form>
@@ -88,13 +88,13 @@
 						</select>
 						<div class="toggle-form" data-role="real-estate-agent-toggle">	
 							<label for="">Real Estate Agent First Name</label>
-							<input type="text" placeholder="Data XML Node: AgentFirstName" data-xml-node="AgentFirstName">
+							<input type="text" placeholder="Data XML Node: AgentFirstName" data-role="working-with-agent-verification" data-xml-node="AgentFirstName">
 							<label for="">Real Estate Agent Last Name</label>
-							<input type="text" placeholder="Data XML Node: AgentLastName" data-xml-node="AgentLastName">
+							<input type="text" placeholder="Data XML Node: AgentLastName" data-role="working-with-agent-verification" data-xml-node="AgentLastName">
 							<label for="">Real Estate Agent Email</label>
-							<input type="text" placeholder="Data XML Node: AgentEmail" data-xml-node="AgentEmail">
+							<input type="text" placeholder="Data XML Node: AgentEmail" data-role="working-with-agent-verification" data-xml-node="AgentEmail">
 							<label for="">Real Estate Agent Phone</label>
-							<input type="text" placeholder="Data XML Node: AgentMobilePhone" data-xml-node="AgentMobilePhone">
+							<input type="text" placeholder="Data XML Node: AgentMobilePhone" data-role="working-with-agent-verification" data-xml-node="AgentMobilePhone">
 						</div>
 					</div>
 					<div class="agent-question">
@@ -107,40 +107,40 @@
 						</select>
 						<div class="toggle-form" data-role="real-estate-learn-more">	
 							<label for="">Real Estate Agent First Name</label>
-							<input type="text" placeholder="Data XML Node: AgentFirstName" data-xml-node="AgentFirstName">
+							<input type="text" placeholder="Data XML Node: AgentFirstName" data-role="verification" data-xml-node="AgentFirstName">
 							<label for="">Real Estate Agent Last Name</label>
-							<input type="text" placeholder="Data XML Node: AgentLastName" data-xml-node="AgentLastName">
+							<input type="text" placeholder="Data XML Node: AgentLastName" data-role="verification" data-xml-node="AgentLastName">
 							<label for="">Real Estate Agent Email</label>
-							<input type="text" placeholder="Data XML Node: AgentEmail" data-xml-node="AgentEmail">
+							<input type="text" placeholder="Data XML Node: AgentEmail" data-role="verification" data-xml-node="AgentEmail">
 							<label for="">Real Estate Agent Phone</label>
-							<input type="text" placeholder="Data XML Node: AgentMobilePhone" data-xml-node="AgentMobilePhone">
-							<div class="button-group" data-role="">
+							<input type="text" placeholder="Data XML Node: AgentMobilePhone" data-role="verification" data-xml-node="AgentMobilePhone">
+							<div class="button-group">
 								<button id="real-estate-learn-more" disabled>Submit [Agent Information Lead]</button>
 							</div>
 						</div>
 					</div>
 					<div class="homebuyer-question">
 						<label for="">Where are you looking to buy?</label>
-						<input type="text" placeholder="Data XML Node: PropertyCounty" data-xml-node="PropertyCounty">
+						<input type="text" placeholder="Data XML Node: PropertyCounty" data-role="verification" data-xml-node="PropertyCounty">
 						<select id="area-selection">
 							<option name="placeholder">Select Option</option>
-							<option id="burlington-county" value="NEEDVALUE">Burlington County, New Jersey</option>
-							<option id="gloucester-county" value="NEEDVALUE">Gloucester County, New Jersey</option>
-							<option id="camden-county" value="NEEDVALUE">Camden County, New Jersey</option>
+							<option id="burlington-county" value="Burlington County NJ">Burlington County, New Jersey</option>
+							<option id="gloucester-county" value="Gloucester County NJ">Gloucester County, New Jersey</option>
+							<option id="camden-county" value="Camden County NJ">Camden County, New Jersey</option>
 							<option id="unsupported-area-toggle-form">None of the above</option>
 						</select>
 						<div class="toggle-form" data-role="unsupported-area-type-lead">
 							<p>Unfortunately, we are currently only available in Burlington County, Gloucester County and Camden County. If you leave us some information, we can notify you when we are available in your area.</p>
 							<label for="">First Name</label>
-							<input type="text" placeholder="Data XML Node: FirstName" data-xml-node="FirstName">
+							<input type="text" placeholder="Data XML Node: FirstName" data-role="unsupported-verification" data-xml-node="FirstName">
 							<label for="">Last Name</label>
-							<input type="text" placeholder="Data XML Node: LastName" data-xml-node="LastName">
+							<input type="text" placeholder="Data XML Node: LastName" data-role="unsupported-verification" data-xml-node="LastName">
 							<label for="">Email Address</label>
-							<input type="text" placeholder="Data XML Node: MobilePhone" data-xml-node="MobilePhone">
+							<input type="text" placeholder="Data XML Node: MobilePhone" data-role="unsupported-verification" data-xml-node="MobilePhone">
 							<label for="">Phone Number</label>
-							<input type="text" placeholder="Data XML Node: Email" data-xml-node="Email">
+							<input type="text" placeholder="Data XML Node: Email" data-role="unsupported-verification" data-xml-node="Email">
 							<label for="">State</label>
-							<input type="text" placeholder="Data XML Node: State" data-xml-node="State">
+							<input type="text" placeholder="Data XML Node: State" data-role="unsupported-verification" data-xml-node="State">
 							<select id="state-selection">
 								<option>select a state from below</option>
 								<option value="AL">Alabama</option>
@@ -195,7 +195,7 @@
 								<option value="WI">Wisconsin</option>
 								<option value="WY">Wyoming</option>
 							</select>
-							<div class="button-group" data-role="">
+							<div class="button-group">
 								<button id="not-supported" disabled>Submit [Buyer Unsupported Area Lead]</button>
 							</div>
 						</div>
@@ -209,20 +209,20 @@
 							</select>
 							<div class="toggle-form" data-role="learn-more-information">
 								<label for="">Your First Name</label>
-								<input type="text" placeholder="Data XML Node: FirstName" data-xml-node="FirstName">
+								<input type="text" placeholder="Data XML Node: FirstName" data-role="client-submission-verification" data-xml-node="FirstName">
 								<label for="">Your Last Name</label>
-								<input type="text" placeholder="Data XML Node: LastName" data-xml-node="LastName">
+								<input type="text" placeholder="Data XML Node: LastName" data-role="client-submission-verification" data-xml-node="LastName">
 								<label for="">Email Address</label>
-								<input type="text" placeholder="Data XML Node: Email" data-xml-node="Email">
+								<input type="text" placeholder="Data XML Node: Email" data-role="client-submission-verification" data-xml-node="Email">
 								<label for="">Your Phone Number</label>
-								<input type="text" placeholder="Data XML Node: MobilePhone" data-xml-node="MobilePhone">
+								<input type="text" placeholder="Data XML Node: MobilePhone" data-role="client-submission-verification" data-xml-node="MobilePhone">
 								<label for="">What's the street address of the home you're looking to buy?</label>
-								<input type="text" placeholder="Data XML Node: StreetAddress" data-xml-node="PropetyStreetAddress">
+								<input type="text" placeholder="Data XML Node: StreetAddress" data-role="client-submission-verification" data-xml-node="PropetyStreetAddress">
 								<label for="">What's the city of the home you're looking to buy?</label>
-								<input type="text" placeholder="Data XML Node: City" data-xml-node="PropertyCity">
+								<input type="text" placeholder="Data XML Node: City" data-role="client-submission-verification" data-xml-node="PropertyCity">
 								<label for="">What is the state of the home you're looking to buy?</label>
-								<input type="text" placeholder="Data XML Node: State" data-xml-node="PropertyState">
-								<select id="state-selection">
+								<input type="text" placeholder="Data XML Node: State" data-role="client-submission-verification" data-xml-node="PropertyState">
+								<select id="property-state-selection">
 									<option>select a state from below</option>
 									<option value="AL">Alabama</option>
 									<option value="AK">Alaska</option>
@@ -277,18 +277,18 @@
 									<option value="WY">Wyoming</option>
 								</select>
 								<label for="">What's the zip code of the home you're looking to buy?</label>
-								<input type="text" placeholder="Data XML Node: Zip Code" data-xml-node="PropertyZipCode">
+								<input type="text" placeholder="Data XML Node: Zip Code" data-role="client-submission-verification" data-xml-node="PropertyZipCode">
 								<label for="">What's the price of the home you're looking to buy?</label>
-								<input type="text" placeholder="Data XML Node: DesiredLoanAmount" data-xml-node="DesiredLoanAmount">
+								<input type="text" placeholder="Data XML Node: DesiredLoanAmount" data-role="client-submission-verification" data-xml-node="DesiredLoanAmount">
 								<div class="buy-now-sell-later">
 									<label for="">What's the street address of the home you're looking to sell?</label>
-									<input type="text" placeholder="Data XML Node: StreetAddress" data-xml-node="StreetAddress">
+									<input type="text" placeholder="Data XML Node: StreetAddress" data-role="client-selling-later-verification" data-xml-node="StreetAddress">
 									<label for="">What's the city of the home you're looking to sell?</label>
-									<input type="text" placeholder="Data XML Node: City" data-xml-node="City">
+									<input type="text" placeholder="Data XML Node: City" data-role="client-selling-later-verification" data-xml-node="City">
 									<label for="">What is the state of the home you're looking to sell?</label>
-									<input type="text" placeholder="Data XML Node: State" data-xml-node="State">
+									<input type="text" placeholder="Data XML Node: State" data-role="client-selling-later-verification" data-xml-node="State">
 									<label for="">What is the zip code of the home you're looking to sell?</label>
-									<input type="text" placeholder="Data XML Node: ZipCode" data-xml-node="ZipCode">
+									<input type="text" placeholder="Data XML Node: ZipCode" data-role="client-selling-later-verification" data-xml-node="ZipCode">
 									<select id="state-selection">
 										<option>select a state from below</option>
 										<option value="AL">Alabama</option>
@@ -344,35 +344,35 @@
 										<option value="WY">Wyoming</option>
 									</select>
 									<label for="">What's the estimated value of the home you are looking to sell?</label>
-									<input type="text" placeholder="Data XML Node: EstimatedPropertyValue" data-xml-node="EstimatedPropertyValue">
+									<input type="text" placeholder="Data XML Node: EstimatedPropertyValue" data-role="client-selling-later-verification" data-xml-node="EstimatedPropertyValue">
 								</div>
-								<div class="button-group" data-role="">
+								<div class="button-group">
 									<button id="submit-borrower" disabled>Submit [Homebuyer Application Lead]</button>
 								</div>
 							</div>
 					</div>
 					<div class="agent-question" data-role="client-application">
 						<label for="">Where is your client looking to buy?</label>
-						<input type="text" placeholder="Data XML Node: PropertyCounty" data-xml-node="PropertyCounty">
+						<input type="text" placeholder="Data XML Node: PropertyCounty" data-role="verification" data-xml-node="PropertyCounty">
 						<select id="area-selection">
 							<option name="placeholder">Select Option</option>
-							<option id="burlington-county" value="NEEDVALUE">Burlington County, New Jersey</option>
-							<option id="gloucester-county" value="NEEDVALUE">Gloucester County, New Jersey</option>
-							<option id="camden-county" value="NEEDVALUE">Camden County, New Jersey</option>
+							<option id="burlington-county" value="Burlington County NJ">Burlington County, New Jersey</option>
+							<option id="gloucester-county" value="Gloucester County NJ">Gloucester County, New Jersey</option>
+							<option id="camden-county" value="Camden County NJ">Camden County, New Jersey</option>
 							<option id="unsupported-area-toggle-form">None of the above</option>
 						</select>
 						<div class="toggle-form" data-role="unsupported-area-type-lead">
 							<p>Unfortunately, we are currently only available in Burlington County, Gloucester County and Camden County. If you leave us some information, we can notify you when we are available in your area.</p>
 							<label for="">Client First Name</label>
-							<input type="text" placeholder="Data XML Node: FirstName" data-xml-node="FirstName">
+							<input type="text" placeholder="Data XML Node: FirstName" data-role="verification" data-xml-node="FirstName">
 							<label for="">Client Last Name</label>
-							<input type="text" placeholder="Data XML Node: LastName" data-xml-node="LastName">
+							<input type="text" placeholder="Data XML Node: LastName" data-role="verification" data-xml-node="LastName">
 							<label for="">Client Email</label>
-							<input type="text" placeholder="Data XML Node: Email" data-xml-node="Email">
+							<input type="text" placeholder="Data XML Node: Email" data-role="verification" data-xml-node="Email">
 							<label for="">Client Phone Number</label>
-							<input type="text" placeholder="Data XML Node: MobilePhone" data-xml-node="MobilePhone">
+							<input type="text" placeholder="Data XML Node: MobilePhone" data-role="verification" data-xml-node="MobilePhone">
 							<label for="">Client State</label>
-							<input type="text" placeholder="Data XML Node: State" data-xml-node="State">
+							<input type="text" placeholder="Data XML Node: State" data-role="verification" data-xml-node="State">
 							<select id="state-selection">
 								<option>select a state from below</option>
 								<option value="AL">Alabama</option>
@@ -427,26 +427,26 @@
 								<option value="WI">Wisconsin</option>
 								<option value="WY">Wyoming</option>
 							</select>
-							<div class="button-group" data-role="">
+							<div class="button-group">
 								<button id="not-supported" disabled>Submit [Agent Unsupported Area Lead]</button>
 							</div>
 						</div>
 						<div class="toggle-form" data-role="learn-more-information">
 							<label for="">Client First Name</label>
-							<input type="text" placeholder="Data XML Node: FirstName" data-xml-node="FirstName">
+							<input type="text" placeholder="Data XML Node: FirstName" data-role="verification" data-xml-node="FirstName">
 							<label for="">Client Last Name</label>
-							<input type="text" placeholder="Data XML Node: LastName" data-xml-node="LastName">
+							<input type="text" placeholder="Data XML Node: LastName" data-role="verification" data-xml-node="LastName">
 							<label for="">Client Email Address</label>
-							<input type="text" placeholder="Data XML Node: Email" data-xml-node="Email">
+							<input type="text" placeholder="Data XML Node: Email" data-role="verification" data-xml-node="Email">
 							<label for="">Client Phone Number</label>
-							<input type="text" placeholder="Data XML Node: MobilePhone" data-xml-node="MobilePhone">
+							<input type="text" placeholder="Data XML Node: MobilePhone" data-role="verification" data-xml-node="MobilePhone">
 							<label for="">What's the street address of the home your client is looking to buy?</label>
-							<input type="text" placeholder="Data XML Node: StreetAddress" data-xml-node="PropetyStreetAddress">
+							<input type="text" placeholder="Data XML Node: StreetAddress" data-role="verification" data-xml-node="PropetyStreetAddress">
 							<label for="">What's the city of the home your client is looking to buy?</label>
-							<input type="text" placeholder="Data XML Node: City" data-xml-node="PropertyCity">
+							<input type="text" placeholder="Data XML Node: City" data-role="verification" data-xml-node="PropertyCity">
 							<label for="">What is the state of the home your client is looking to buy?</label>
-							<input type="text" placeholder="Data XML Node: State" data-xml-node="PropertyState">
-							<select id="state-selection">
+							<input type="text" placeholder="Data XML Node: State" data-role="verification" data-xml-node="PropertyState">
+							<select id="property-state-selection">
 								<option>select a state from below</option>
 								<option value="AL">Alabama</option>
 								<option value="AK">Alaska</option>
@@ -501,18 +501,18 @@
 								<option value="WY">Wyoming</option>
 							</select>
 							<label for="">What's the zip code of the home your client is looking to buy?</label>
-							<input type="text" placeholder="Data XML Node: Zip Code" data-xml-node="PropertyZipCode">
+							<input type="text" placeholder="Data XML Node: Zip Code" data-role="verification" data-xml-node="PropertyZipCode">
 							<label for="">What's the price of the home your client is looking to buy?</label>
-							<input type="text" placeholder="Data XML Node: DesiredLoanAmount" data-xml-node="DesiredLoanAmount">
+							<input type="text" placeholder="Data XML Node: DesiredLoanAmount" data-role="verification" data-xml-node="DesiredLoanAmount">
 							<div class="buy-now-sell-later">
 								<label for="">What's the street address of the home your client is looking to sell?</label>
-								<input type="text" placeholder="Data XML Node: StreetAddress" data-xml-node="StreetAddress">
+								<input type="text" placeholder="Data XML Node: StreetAddress" data-role="realtor-selling-later-verification" data-xml-node="StreetAddress">
 								<label for="">What's the city of the home your client is looking to sell?</label>
-								<input type="text" placeholder="Data XML Node: City" data-xml-node="City">
+								<input type="text" placeholder="Data XML Node: City" data-role="realtor-selling-later-verification" data-xml-node="City">
 								<label for="">What is the state of the home your client is looking to sell?</label>
-								<input type="text" placeholder="Data XML Node: State" data-xml-node="State">
+								<input type="text" placeholder="Data XML Node: State" data-role="realtor-selling-later-verification" data-xml-node="State">
 								<label for="">What is the zip code of the home your client is looking to sell?</label>
-								<input type="text" placeholder="Data XML Node: ZipCode" data-xml-node="ZipCode">
+								<input type="text" placeholder="Data XML Node: ZipCode" data-role="realtor-selling-later-verification" data-xml-node="ZipCode">
 								<select id="state-selection">
 									<option>select a state from below</option>
 									<option value="AL">Alabama</option>
@@ -568,8 +568,8 @@
 									<option value="WY">Wyoming</option>
 								</select>
 								<label for="">What's the estimated value of the home your client is looking to sell?</label>
-								<input type="text" placeholder="Data XML Node: EstimatedPropertyValue" data-xml-node="EstimatedPropertyValue">
-								<div class="button-group" data-role="">
+								<input type="text" placeholder="Data XML Node: EstimatedPropertyValue" data-role="realtor-selling-later-verification" data-xml-node="EstimatedPropertyValue">
+								<div class="button-group">
 									<button id="submit-agent" disabled>Submit [Agent Application Lead]</button>
 								</div>
 							</div>
