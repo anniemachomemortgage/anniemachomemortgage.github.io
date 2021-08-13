@@ -64,6 +64,16 @@ $(function() {
 			});
 		}
 	})
+	$("#agent-prequalifier-select").change(function() {
+		if($("#client-behalf").is(":selected")) {
+			$("div[data-role='real-estate-learn-more']").addClass("toggle-form");
+			$("div[data-role='real-estate-agent-toggle-form']").removeClass("toggle-form");
+		}
+		if($("#informational-agent").is(":selected")) {
+			$("div[data-role='real-estate-learn-more']").removeClass("toggle-form");
+			$("div[data-role='real-estate-agent-toggle-form']").addClass("toggle-form");
+		}
+	});
 	$("#area-selection").change(function() {
 		if ( $('#burlington-county').is(':selected') || $('#gloucester-county').is(':selected') || $('#camden-county').is(':selected') ) {
 			$("div[data-role='unsupported-area-type-lead']").addClass("toggle-form");
@@ -75,6 +85,31 @@ $(function() {
 		if($("#unsupported-area-toggle-form").is(":selected")) {
 			$("div[data-role='unsupported-area-type-lead']").removeClass("toggle-form");
 			$("div[data-role='homeowner-application']").addClass("toggle-form");
+			$('input[data-role="unsupported-verification"]').each(function() {
+				$(this).prop('required', true);
+			});
+			$('input[data-role="client-submission-verification"]').each(function() {
+				$(this).prop('required', false);
+			});
+			$('input[data-role="client-selling-later-verification"]').each(function() {
+				$(this).prop('required', false);
+			});
+			$('input[data-role="realtor-selling-later-verification"]').each(function() {
+				$(this).prop('required', false);
+			});
+		}
+	});
+	$("#agent-area-selection").change(function() {
+		if ( $('#agent-burlington-county').is(':selected') || $('#agent-gloucester-county').is(':selected') || $('#agent-camden-county').is(':selected') ) {
+			$("div[data-role='agent-unsupported-area-type-lead']").addClass("toggle-form");
+			$("div[data-role='agent-learn-more-information']").removeClass("toggle-form");
+			$('input[data-role="unsupported-verification"]').each(function() {
+				$(this).prop('required', false);
+			});
+		}
+		if($("#agent-unsupported-area-toggle-form").is(":selected")) {
+			$("div[data-role='agent-unsupported-area-type-lead']").removeClass("toggle-form");
+			$("div[data-role='agent-learn-more-information']").addClass("toggle-form");
 			$('input[data-role="unsupported-verification"]').each(function() {
 				$(this).prop('required', true);
 			});
@@ -112,8 +147,16 @@ $(function() {
 		var selectedValue = $("#state-selection").val();
 		$("input[data-xml-node='State']").attr('value', selectedValue);
 	});
+	$("#agent-state-selection").on("keyup change", function(e) {
+		var selectedValue = $("#agent-state-selection").val();
+		$("input[data-xml-node='State']").attr('value', selectedValue);
+	});
 	$("#property-state-selection").on("keyup change", function(e) {
 		var selectedValue = $("#property-state-selection").val();
+		$("input[data-xml-node='PropertyState']").attr('value', selectedValue);
+	});
+	$("#agent-property-state-selection").on("keyup change", function(e) {
+		var selectedValue = $("#agent-property-state-selection").val();
 		$("input[data-xml-node='PropertyState']").attr('value', selectedValue);
 	});
 })
