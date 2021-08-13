@@ -1,4 +1,22 @@
 $(function() {
+	// var BUYnosupport = []; unsupported-verification-submit / unsupported-verification
+	// var BUYsubmit = []; client-submission-verification-submit / client-submission-verification
+	// var REinfo = []; agent-information-verification-submit / agent-information-verification
+	// var REsubmit = []; agent-submission-verification-submit / agent-submission-verification
+	// var REunsup = []; agent-unsupported-verification-submit / agent-unsupported-verification
+	var BUYnosupport = [];
+	var BUYsubmit = [];
+	var REinfo = [];
+	var REsubmit = [];
+	var REunsup = [];
+	// var REsellLater = [];
+	// var BUYsellLater = [];
+	// if (REsellLater.length == 5) {
+	// 	$('button[data-role="agent-unsupported-verification-submit"]').removeAttr('disabled');
+	// };
+	// if (BUYsellLater.length == 5) {
+	// 	$('button[data-role="agent-unsupported-verification-submit"]').removeAttr('disabled');
+	// };
 	$('input[name=buyer-or-agent], input[name=cash-or-buy]').change(function() { 
 		if ( $('input[name=buyer-or-agent]').is(':checked') && $('input[name=cash-or-buy]').is(':checked') ) {
 			$("#form-decision").removeAttr("disabled")
@@ -168,4 +186,19 @@ $(function() {
 		var selectedValue = $("#agent-property-state-selection").val();
 		$("input[data-xml-node='PropertyState']").attr('value', selectedValue);
 	});
+	if (BUYnosupport.length == 5) {
+		$('button[data-role="unsupported-verification-submit"]').removeAttr('disabled');
+	};
+	if (BUYsubmit.length == 9) {
+		$('button[data-role="client-submission-verification-submit"]').removeAttr('disabled');
+	};
+	if (REinfo.length == 4) {
+		$('button[data-role="agent-information-verification-submit"]').removeAttr('disabled');
+	};
+	if (REsubmit.length == 9) {
+		$('button[data-role="agent-submission-verification-submit"]').removeAttr('disabled');
+	};
+	if (REunsup.length == 5) {
+		$('button[data-role="agent-unsupported-verification-submit"]').removeAttr('disabled');
+	};
 })

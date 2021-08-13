@@ -61,7 +61,7 @@
 						<label for="buy-now">Buy Now, Sell Later</label>
 					</div>
 					<div class="button-group">
-						<button id="form-decision" disabled>Begin</button>
+						<button id="form-decision" data-role="submit-to-miq">Begin</button>
 					</div>
 				</form>
 			</section>
@@ -142,7 +142,7 @@
 								</div>
 							</div>
 							<label for="">State</label>
-							<input type="text" placeholder="Data XML Node: State" data-role="unsupported-verification" data-xml-node="State">
+							<input type="hidden" placeholder="Data XML Node: State" data-role="unsupported-verification" data-xml-node="State">
 							<select id="state-selection">
 								<option>select a state from below</option>
 								<option value="AL">Alabama</option>
@@ -198,7 +198,7 @@
 								<option value="WY">Wyoming</option>
 							</select>
 							<div class="button-group">
-								<button id="not-supported" disabled>Submit [Buyer Unsupported Area Lead]</button>
+								<button id="not-supported" data-role="unsupported-verification-submit">Submit</button>
 							</div>
 						</div>
 						<div class="toggle-form" data-role="homeowner-application">
@@ -373,7 +373,7 @@
 									<input type="text" placeholder="Data XML Node: EstimatedPropertyValue" data-role="client-selling-later-verification" data-xml-node="EstimatedPropertyValue">
 								</div>
 								<div class="button-group">
-									<button id="submit-borrower" disabled>Submit [Homebuyer Application Lead]</button>
+									<button id="submit-borrower" data-role="client-submission-verification-submit">Submit</button>
 								</div>
 							</div>
 						</div>
@@ -408,7 +408,7 @@
 								</div>
 							</div>
 							<div class="button-group">
-								<button id="real-estate-learn-more" disabled>Submit [Agent Information Lead]</button>
+								<button id="real-estate-learn-more" data-role="agent-information-verification-submit">Submit</button>
 							</div>
 						</div>
 					</div>
@@ -447,7 +447,7 @@
 									</div>
 								</div>
 								<label for="">Client State</label>
-								<input type="text" placeholder="Data XML Node: State" data-role="agent-unsupported-verification" data-xml-node="State">
+								<input type="hidden" placeholder="Data XML Node: State" data-role="agent-unsupported-verification" data-xml-node="State">
 								<select id="state-selection">
 									<option>select a state from below</option>
 									<option value="AL">Alabama</option>
@@ -503,7 +503,7 @@
 									<option value="WY">Wyoming</option>
 								</select>
 								<div class="button-group">
-									<button id="not-supported" disabled>Submit [Agent Unsupported Area Lead]</button>
+									<button id="agent-not-supported" data-role="agent-unsupported-verification-submit">Submit</button>
 								</div>
 							</div>
 						<div class="toggle-form" data-role="agent-learn-more-information">
@@ -669,7 +669,7 @@
 								<label for="">What's the estimated value of the home your client is looking to sell?</label>
 								<input type="text" placeholder="Data XML Node: EstimatedPropertyValue" data-role="realtor-selling-later-verification" data-xml-node="EstimatedPropertyValue">
 								<div class="button-group">
-									<button id="submit-agent" disabled>Submit [Agent Application Lead]</button>
+									<button id="submit-agent" data-role="agent-submission-verification-submit">Submit</button>
 								</div>
 							</div>
 						</div>
