@@ -25,6 +25,7 @@ $(function() {
 	$("#form-decision").click(function(event) {
 		event.preventDefault();
 		if($('#home-buyer').is(':checked')) {
+			$('.agent-question').remove();
 			if($('#cash-offer').is(':checked')) {
 				$("#LeadSourceID").attr('value', 'Q6UJ9A1PQKN6');
 				$("#Picklist").attr('value', 'Cash Offer (CO)');
@@ -46,6 +47,7 @@ $(function() {
 			$("#profile-type").text("Homebuyers");
 		}
 		if($('#estate-agent').is(':checked')) {
+			$('.homebuyer-question').remove();
 			if($('#cash-offer').is(':checked')) {
 				$("#LeadSourceID").attr('value', 'Q6UJ9A1PQKN5');
 				$("#Picklist").attr('value', 'Cash Offer (CO)');
