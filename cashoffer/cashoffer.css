@@ -132,3 +132,7 @@ div[data-role='real-estate-agent-toggle'], div[data-role='real-estate-learn-more
 	box-shadow: 1px 1px 4px rgb(0 0 0 / 4%);
 	border: 1px solid rgba(0,0,0,13%);
 }
+
+footer {
+	display: none !important;
+}
