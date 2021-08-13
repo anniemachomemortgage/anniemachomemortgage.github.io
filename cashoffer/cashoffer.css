@@ -84,7 +84,7 @@ input[type="text"], select, button, option {
 	font-weight: 300;
 }
 
-/* .homebuyer-question {
+.homebuyer-question {
 	display: none;
 }
 
@@ -94,11 +94,11 @@ input[type="text"], select, button, option {
 
 .toggle-form {
 	display: none;
-} */
+}
 
-/* .buy-now-sell-later {
+.buy-now-sell-later {
 	display: none;
-} */
+}
 
 .button-group {
 	margin: 20px 0 0;
@@ -108,9 +108,9 @@ input[type="text"], select, button, option {
 	min-width: 200px;
 }
 
-/* .visited-only {
+.visited-only {
 	display: none;
-} */
+}
 
 .grouped-input-container {
 	display: flex;
