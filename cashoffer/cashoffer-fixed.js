@@ -68,10 +68,16 @@ $(function() {
 		if($("#client-behalf").is(":selected")) {
 			$("div[data-role='real-estate-learn-more']").addClass("toggle-form");
 			$("div[data-role='real-estate-agent-toggle-form']").removeClass("toggle-form");
+			$('input[data-role="agent-information-verification"]').each(function() {
+				$(this).prop('required', false);
+			});
 		}
 		if($("#informational-agent").is(":selected")) {
 			$("div[data-role='real-estate-learn-more']").removeClass("toggle-form");
 			$("div[data-role='real-estate-agent-toggle-form']").addClass("toggle-form");
+			$('input[data-role="agent-information-verification"]').each(function() {
+				$(this).prop('required', true);
+			});
 		}
 	});
 	$("#area-selection").change(function() {
@@ -103,14 +109,14 @@ $(function() {
 		if ( $('#agent-burlington-county').is(':selected') || $('#agent-gloucester-county').is(':selected') || $('#agent-camden-county').is(':selected') ) {
 			$("div[data-role='agent-unsupported-area-type-lead']").addClass("toggle-form");
 			$("div[data-role='agent-learn-more-information']").removeClass("toggle-form");
-			$('input[data-role="unsupported-verification"]').each(function() {
+			$('input[data-role="agent-unsupported-verification"]').each(function() {
 				$(this).prop('required', false);
 			});
 		}
 		if($("#agent-unsupported-area-toggle-form").is(":selected")) {
 			$("div[data-role='agent-unsupported-area-type-lead']").removeClass("toggle-form");
 			$("div[data-role='agent-learn-more-information']").addClass("toggle-form");
-			$('input[data-role="unsupported-verification"]').each(function() {
+			$('input[data-role="agent-unsupported-verification"]').each(function() {
 				$(this).prop('required', true);
 			});
 			$('input[data-role="client-submission-verification"]').each(function() {
