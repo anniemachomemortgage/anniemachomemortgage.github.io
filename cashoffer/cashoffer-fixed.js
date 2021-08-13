@@ -91,6 +91,7 @@ $(function() {
 			$('input[data-role="agent-information-verification"]').each(function() {
 				$(this).prop('required', false);
 			});
+			$('div[data-role="agent-learn-more-information"]').remove();
 		}
 		if($("#informational-agent").is(":selected")) {
 			$("div[data-role='real-estate-learn-more']").removeClass("toggle-form");
@@ -98,6 +99,7 @@ $(function() {
 			$('input[data-role="agent-information-verification"]').each(function() {
 				$(this).prop('required', true);
 			});
+			$('div[data-role="real-estate-agent-toggle-form"]').remove();
 		}
 	});
 	$("#area-selection").change(function() {
@@ -107,8 +109,11 @@ $(function() {
 			$('input[data-role="unsupported-verification"]').each(function() {
 				$(this).prop('required', false);
 			});
+			$('div[data-role="unsupported-area-type-lead"]').remove();
 		}
 		if($("#unsupported-area-toggle-form").is(":selected")) {
+			$('div[data-role="agent-learn-more-information"]').remove();
+			$('div[data-role="homeowner-application"]').remove();
 			$("div[data-role='unsupported-area-type-lead']").removeClass("toggle-form");
 			$("div[data-role='homeowner-application']").addClass("toggle-form");
 			$('input[data-role="unsupported-verification"]').each(function() {
@@ -135,6 +140,7 @@ $(function() {
 			$('input[data-role="agent-submission-verification"]').each(function() {
 				$(this).prop('required', true);
 			});
+			$('div[data-role="agent-unsupported-area-type-lead"]').remove();
 		}
 		if($("#agent-unsupported-area-toggle-form").is(":selected")) {
 			$("div[data-role='agent-unsupported-area-type-lead']").removeClass("toggle-form");
