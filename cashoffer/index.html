@@ -33,13 +33,13 @@
 		<meta name="ahrefs-site-verification" content="ffeb962f4d4cd6a9f1ec079aaaa33c8f41bbc18e587a1c42f5afaffa8b46afa5">
 		<link rel='stylesheet' id='cashoffer-css' href='https://anniemachomemortgage.github.io/cashoffer/cashoffer.css' type='text/css' media='all' />
 		<script id="jquery-link" src="https://code.jquery.com/jquery-latest.min.js"></script>
-		<script id="page-specific-functionality-script" src="https://anniemachomemortgage.github.io/cashoffer/cashoffer-fixed.js"></script>
+		<script id="page-specific-functionality-script" src="cashoffer-fixed.js"></script>
 	</head>
 	<body class="">
 		<!-- Cash Offer or Buy Now Sell Later -->
-		<main data-role="mapping-agent" class="content-container hidden-content">
-			<section class="" data-role="mapping-agent">
-				<form method="post" data-role="preliminary">
+		<main id="mapping-agent" class="content-container hidden-content">
+			<section class="" id="mapping-agent">
+				<form method="post" class="preliminary">
 					<h3>Preliminary Questions</h3>
 					<p>Before we can begin, please answer two quick questions to help better understand your goals.</p>
 					<label for="">Are you a homebuyer or a real estate agent?</label>
@@ -61,14 +61,14 @@
 						<label for="buy-now">Buy Now, Sell Later</label>
 					</div>
 					<div class="button-group">
-						<button id="form-decision" data-role="submit-to-miq">Begin</button>
+						<button id="form-decision" data-role="submit-to-miq" disabled>Begin</button>
 					</div>
 				</form>
 			</section>
 		</main>
-		<main data-role="form-content-container" class="content-container hidden-content">
-			<section class="" data-role="sub-source-agent">
-				<form method="post" data-role="homebuyer-cash-offer-form">
+		<main id="form-content-container" class="content-container hidden-content">
+			<section class="" id="sub-source-agent">
+				<form method="post" id="homebuyer-cash-offer-form">
 					<h3><span id="product-type"></span><span id="profile-type"></span></h3>
 					<input type="hidden" id="TargetURL" value="https://anniemac.mortgageiqcrm.com/client">
 					<input type="hidden" id="Filter" value="CostCenter">
@@ -86,7 +86,7 @@
 							<option id="real-estate-toggle-form">I am working with an agent</option>
 							<option id="real-estate-untoggle-form">I am not working with an agent</option>
 						</select>
-						<div class="toggle-form" data-role="real-estate-agent-toggle">
+						<div class="toggle-form" id="real-estate-agent-toggle">
 							<div class="grouped-input-container">
 								<div class="grouped-input">	
 									<label for="">Real Estate Agent First Name</label>
@@ -119,7 +119,7 @@
 							<option id="camden-county" value="Camden County NJ">Camden County, New Jersey</option>
 							<option id="unsupported-area-toggle-form">None of the above</option>
 						</select>
-						<div class="toggle-form" data-role="unsupported-area-type-lead">
+						<div class="toggle-form" id="unsupported-area-type-lead">
 							<p>Unfortunately, we are currently only available in Burlington County, Gloucester County and Camden County. If you leave us some information, we can notify you when we are available in your area.</p>
 							<div class="grouped-input-container">
 								<div class="grouped-input">	
@@ -201,7 +201,7 @@
 								<button data-qlf-submit id="not-supported" data-role="unsupported-verification-submit">Submit</button>
 							</div>
 						</div>
-						<div class="toggle-form" data-role="homeowner-application">
+						<div class="toggle-form" id="homeowner-application">
 							<label for="">Are you looking to apply now or learn more?</label>
 							<input type="hidden" name="interest-declaration">
 							<select id="apply-or-learn">
@@ -209,7 +209,7 @@
 								<option id="learn-more-toggle-form">Learn More</option>
 								<option id="apply-now-untoggle">Apply Now</option>
 							</select>
-							<div class="toggle-form" data-role="learn-more-information">
+							<div class="toggle-form" id="learn-more-information">
 								<div class="grouped-input-container">
 									<div class="grouped-input">
 										<label for="">Your First Name</label>
@@ -379,7 +379,7 @@
 						</div>
 					</div>
 					<div class="agent-question">
-						<div data-role="preliminary-agent-question">
+						<div id="preliminary-agent-question">
 							<label for="">Are you applying on behalf of a client?</label>
 							<input type="hidden" name="interest-declaration">
 							<select id="agent-prequalifier-select">
@@ -388,7 +388,7 @@
 								<option id="informational-agent">I am just looking for information</option>
 							</select>
 						</div>
-						<div class="toggle-form" data-role="real-estate-learn-more">
+						<div class="toggle-form" id="real-estate-learn-more">
 							<div class="grouped-input-container">
 								<div class="grouped-input">		
 									<label for="">Real Estate Agent First Name</label>
@@ -413,8 +413,8 @@
 								<button data-qlf-submit id="real-estate-learn-more" data-role="agent-information-verification-submit">Submit</button>
 							</div>
 						</div>
-						<div class="toggle-form" data-role="real-estate-apply">
-							<div data-role="real-estate-agent-toggle-form">
+						<div class="toggle-form" id="real-estate-apply">
+							<div id="real-estate-agent-toggle-form">
 								<label for="">Where is your client looking to buy?</label>
 								<input type="hidden" placeholder="Data XML Node: PropertyCounty" data-xml-node="PropertyCounty">
 								<select id="agent-area-selection">
@@ -425,7 +425,7 @@
 									<option id="agent-unsupported-area-toggle-form">None of the above</option>
 								</select>
 							</div>
-							<div class="toggle-form" data-role="agent-unsupported-area-type-lead">
+							<div class="toggle-form" id="agent-unsupported-area-type-lead">
 									<p>Unfortunately, we are currently only available in Burlington County, Gloucester County and Camden County. If you leave us some information, we can notify you when we are available in your area.</p>
 									<div class="grouped-input-container">
 										<div class="grouped-input">
@@ -507,7 +507,7 @@
 										<button data-qlf-submit id="agent-not-supported" data-role="agent-unsupported-verification-submit">Submit</button>
 									</div>
 								</div>
-							<div class="toggle-form" data-role="agent-learn-more-information">
+							<div class="toggle-form" id="agent-learn-more-information">
 								<div class="grouped-input-container">
 									<div class="grouped-input">
 										<label for="">Client First Name</label>
@@ -681,14 +681,14 @@
 		</main>
 		<script src='https://anniemac.mortgageiqcrm.com/client/Libraries/MortgageIQ/jscript/qlf.core.js'></script>
 		<!-- Frequently Asked Questions -->
-		<!-- <main class="" data-role="content-container">
-			<section class="" data-role="faq">
+		<!-- <main class="" id="content-container">
+			<section class="" id="faq">
 				
 			</section>
 		</main> -->
 		
 		<!-- End Content-Based Sectional -->
-		<!-- <footer class="" data-role="navigation-footer">
+		<!-- <footer class="" id="navigation-footer">
 		</footer> -->
 	</body>
 </html>

@@ -50,16 +50,17 @@ $(function() {
 			$('.agent-question').css('display','flex');
 			$("#profile-type").text("Real Estate Agents");
 		}
+		$("#mapping-agent").remove();
 	})
 	$("#working-with-agent").change(function() {
 		if($("#real-estate-toggle-form").is(":selected")) {
-			$("div[data-role='real-estate-agent-toggle']").removeClass("toggle-form");
+			$("#real-estate-agent-toggle").removeClass("toggle-form");
 			$('input[data-role="working-with-agent-verification"]').each(function() {
 				$(this).prop('required', true);
 			});
 		} 
 		if($("#real-estate-untoggle-form").is(":selected")) {
-			$("div[data-role='real-estate-agent-toggle']").addClass("toggle-form");
+			$("#real-estate-agent-toggle").addClass("toggle-form");
 			$('input[data-role="working-with-agent-verification"]').each(function() {
 				$(this).prop('required', false);
 			});
@@ -67,31 +68,33 @@ $(function() {
 	})
 	$("#agent-prequalifier-select").change(function() {
 		if($("#client-behalf").is(":selected")) {
-			$("div[data-role='preliminary-agent-question']").remove();
+			$("#preliminary-agent-question").remove();
+			$("#real-estate-apply").removeClass("toggle-form");
 			$('input[data-role="agent-information-verification"]').each(function() {
 				$(this).prop('required', false);
 			});
-			$("div[data-role='real-estate-learn-more']").remove();
+			$("#real-estate-learn-more").remove();
 		}
 		if($("#informational-agent").is(":selected")) {
-			$("div[data-role='preliminary-agent-question']").remove();
+			$("#preliminary-agent-question").remove();
+			$("#real-estate-learn-more").removeClass("toggle-form");
 			$('input[data-role="agent-information-verification"]').each(function() {
 				$(this).prop('required', true);
 			});
-			$("div[data-role='real-estate-apply']").remove();
+			$("#real-estate-apply").remove();
 		}
 	});
 	$("#area-selection").change(function() {
 		if ( $('#burlington-county').is(':selected') || $('#gloucester-county').is(':selected') || $('#camden-county').is(':selected') ) {
-			$("div[data-role='unsupported-area-type-lead']").addClass("toggle-form");
-			$("div[data-role='homeowner-application']").removeClass("toggle-form");
+			$("#unsupported-area-type-lead").addClass("toggle-form");
+			$("#homeowner-application").removeClass("toggle-form");
 			$('input[data-role="unsupported-verification"]').each(function() {
 				$(this).prop('required', false);
 			});
 		}
 		if($("#unsupported-area-toggle-form").is(":selected")) {
-			$("div[data-role='unsupported-area-type-lead']").removeClass("toggle-form");
-			$("div[data-role='homeowner-application']").addClass("toggle-form");
+			$("#unsupported-area-type-lead").removeClass("toggle-form");
+			$("#homeowner-application").addClass("toggle-form");
 			$('input[data-role="unsupported-verification"]').each(function() {
 				$(this).prop('required', true);
 			});
@@ -108,8 +111,8 @@ $(function() {
 	});
 	$("#agent-area-selection").change(function() {
 		if ( $('#agent-burlington-county').is(':selected') || $('#agent-gloucester-county').is(':selected') || $('#agent-camden-county').is(':selected') ) {
-			$("div[data-role='agent-unsupported-area-type-lead']").addClass("toggle-form");
-			$("div[data-role='agent-learn-more-information']").removeClass("toggle-form");
+			$("#agent-unsupported-area-type-lead").addClass("toggle-form");
+			$("#agent-learn-more-information").removeClass("toggle-form");
 			$('input[data-role="agent-unsupported-verification"]').each(function() {
 				$(this).prop('required', false);
 			});
@@ -118,8 +121,8 @@ $(function() {
 			});
 		}
 		if($("#agent-unsupported-area-toggle-form").is(":selected")) {
-			$("div[data-role='agent-unsupported-area-type-lead']").removeClass("toggle-form");
-			$("div[data-role='agent-learn-more-information']").addClass("toggle-form");
+			$("#agent-unsupported-area-type-lead").removeClass("toggle-form");
+			$("#agent-learn-more-information").addClass("toggle-form");
 			$('input[data-role="agent-unsupported-verification"]').each(function() {
 				$(this).prop('required', true);
 			});
@@ -136,7 +139,7 @@ $(function() {
 	});
 	$("#apply-or-learn").change(function() {
 		if($("#learn-more-toggle-form").is(":selected")) {
-			$("div[data-role='learn-more-information']").removeClass("toggle-form");
+			$("#learn-more-information").removeClass("toggle-form");
 			$('input[data-role="client-submission-verification"]').each(function() {
 				$(this).prop('required', true);
 			});
@@ -145,7 +148,7 @@ $(function() {
 			$('input[data-role="client-submission-verification"]').each(function() {
 				$(this).prop('required', false);
 			});
-			$("div[data-role='learn-more-information']").addClass("toggle-form");
+			$("#learn-more-information").addClass("toggle-form");
 			window.open('./loan/apply', '_blank');
 		}
 	});
@@ -169,19 +172,4 @@ $(function() {
 		var selectedValue = $("#agent-property-state-selection").val();
 		$("input[data-xml-node='PropertyState']").attr('value', selectedValue);
 	});
-	if (BUYnosupport.length == 5) {
-		$('button[data-role="unsupported-verification-submit"]').removeAttr('disabled');
-	};
-	if (BUYsubmit.length == 9) {
-		$('button[data-role="client-submission-verification-submit"]').removeAttr('disabled');
-	};
-	if (REinfo.length == 4) {
-		$('button[data-role="agent-information-verification-submit"]').removeAttr('disabled');
-	};
-	if (REsubmit.length == 9) {
-		$('button[data-role="agent-submission-verification-submit"]').removeAttr('disabled');
-	};
-	if (REunsup.length == 5) {
-		$('button[data-role="agent-unsupported-verification-submit"]').removeAttr('disabled');
-	};
 })
