@@ -9,6 +9,8 @@
 
 // fieldList=PERCENTAGE_ENCODING, THEN BASE64
 
+// <!-- UPDATED -->
+
 $(function() {
 	$('input[name=buyer-or-agent], input[name=cash-or-buy]').change(function() { 
 		if ( $('input[name=buyer-or-agent]').is(':checked') && $('input[name=cash-or-buy]').is(':checked') ) {
