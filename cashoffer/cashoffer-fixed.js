@@ -163,7 +163,15 @@ $(function() {
 			});
 			$("#learn-more-information").addClass("toggle-form");
 			var linktoApplyt = 'https://annie-mac.com/loan/apply?fieldList=';
-			// linktoApplyt = linktoApplyt + 'hi';
+			// GRAB WHETHER IT IS A BUY NOW, SELL LATER OR IF IT IS A CASHBUYER SELECTION
+			// ADD THAT TO THE PARAMETER IN 
+			// {
+				// 	"fieldList":{''
+				// 	"facts.COBNSL":"Cash Offer (CO) OOOOR Buy Now, Sell Later (BNSL)"
+				// 	}
+				// }
+			// CONVERT THE JSON TO A BASE64
+			// ADD THE CONVERTED BASE64 TO AFTER FIELDLIST=
 			window.open(linktoApplyt, '_blank');
 		}
 	});
