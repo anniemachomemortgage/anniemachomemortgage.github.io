@@ -27,6 +27,11 @@ form h3 {
 	font-weight: 700;
 	margin: 40px 0 -00px;
 }
+form h4 {
+	font-size: 18px;
+	font-weight: 600;
+	margin: 15px 0 4px 0;
+}
 form p {
 	margin: 0;
 	line-height: 25px;
@@ -72,12 +77,6 @@ input[type="text"], select, button, option {
 .radio-group label {
 	margin: 0 0 0 10px;
 	font-weight: 300;
-}
-.homebuyer-question {
-	display: none;
-}
-.agent-question {
-	display: none;
 }
 .toggle-form {
 	display: none;
@@ -125,6 +124,59 @@ div[data-role='real-estate-agent-toggle'], div[data-role='real-estate-learn-more
 	border: 1px solid;
 	border-radius: 3px;
 	padding: 2px 6px;
+}
+.grouping-options {
+	font-size: 16px;
+	border: 1px solid rgba(0,0,0,.33);
+	box-shadow: 1px 1px 3px rgb(0 0 0 / 1%);
+	border-radius: 4px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 600px;
+	margin: 15px 0 35px;
+}
+.grouping-options > * {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	padding: 30px 15px;
+	font-weight: 600;
+}
+.group-option:first-of-type {
+	border-right: 1px solid rgba(0,0,0,.53);
+	padding-right: 5px;
+	width: 50.1%;
+}
+.group-option:last-of-type {
+	margin-left: -5px;
+	width: 49.9%;
+}
+.group-option:hover {
+	cursor: pointer;
+	background: #f3f3f3;
+}
+.selected {
+	background: #efeeee;
+}
+#verified-link {
+	background: #004575;
+	color: white;
+	border-radius: 5px;
+	padding: 10px 10px;
+	font-weight: 700;
+	text-decoration: none;
+	width: 200px;
+	margin: 20px 0 0;
+	text-align: center;
+	font-size: 18px;
+	letter-spacing: .03em;
+}
+#verified-link:hover {
+	cursor: pointer;
+}
+form #logo {
+	margin: 20px 0 -20px;
 }
 footer {
 	display: none !important;
