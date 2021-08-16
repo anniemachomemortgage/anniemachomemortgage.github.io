@@ -167,7 +167,9 @@ $(function() {
 			// ADD THAT TO THE PARAMETER IN 
 			// {
 			// 	"fieldList":{
+					// FOR CASH OFFER
 			// 		"facts.COBNSL":"Cash Offer (CO)",
+					// FOR BUY NOW SELL LATER
 			// 		"facts.COBNSL":"OOOOR Buy Now, Sell Later (BNSL)",
 			// 		"loanParty.buyersAgent.name":"TESTING PHASE",
 			// 		"loanParty.buyersAgent.phoneCell":"5555555555",
