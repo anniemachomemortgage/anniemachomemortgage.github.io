@@ -1,22 +1,4 @@
 $(function() {
-	// var BUYnosupport = []; unsupported-verification-submit / unsupported-verification
-	// var BUYsubmit = []; client-submission-verification-submit / client-submission-verification
-	// var REinfo = []; agent-information-verification-submit / agent-information-verification
-	// var REsubmit = []; agent-submission-verification-submit / agent-submission-verification
-	// var REunsup = []; agent-unsupported-verification-submit / agent-unsupported-verification
-	var BUYnosupport = [];
-	var BUYsubmit = [];
-	var REinfo = [];
-	var REsubmit = [];
-	var REunsup = [];
-	// var REsellLater = [];
-	// var BUYsellLater = [];
-	// if (REsellLater.length == 5) {
-	// 	$('button[data-role="agent-unsupported-verification-submit"]').removeAttr('disabled');
-	// };
-	// if (BUYsellLater.length == 5) {
-	// 	$('button[data-role="agent-unsupported-verification-submit"]').removeAttr('disabled');
-	// };
 	$('input[name=buyer-or-agent], input[name=cash-or-buy]').change(function() { 
 		if ( $('input[name=buyer-or-agent]').is(':checked') && $('input[name=cash-or-buy]').is(':checked') ) {
 			$("#form-decision").removeAttr("disabled")
@@ -68,7 +50,6 @@ $(function() {
 			$('.agent-question').css('display','flex');
 			$("#profile-type").text("Real Estate Agents");
 		}
-		$('section[data-role="mapping-agent"]').remove();
 	})
 	$("#working-with-agent").change(function() {
 		if($("#real-estate-toggle-form").is(":selected")) {
@@ -86,20 +67,18 @@ $(function() {
 	})
 	$("#agent-prequalifier-select").change(function() {
 		if($("#client-behalf").is(":selected")) {
-			$("div[data-role='real-estate-learn-more']").addClass("toggle-form");
-			$("div[data-role='real-estate-agent-toggle-form']").removeClass("toggle-form");
+			$("div[data-role='preliminary-agent-question']").remove();
 			$('input[data-role="agent-information-verification"]').each(function() {
 				$(this).prop('required', false);
 			});
-			$('div[data-role="agent-learn-more-information"]').remove();
+			$("div[data-role='real-estate-learn-more']").remove();
 		}
 		if($("#informational-agent").is(":selected")) {
-			$("div[data-role='real-estate-learn-more']").removeClass("toggle-form");
-			$("div[data-role='real-estate-agent-toggle-form']").addClass("toggle-form");
+			$("div[data-role='preliminary-agent-question']").remove();
 			$('input[data-role="agent-information-verification"]').each(function() {
 				$(this).prop('required', true);
 			});
-			$('div[data-role="real-estate-agent-toggle-form"]').remove();
+			$("div[data-role='real-estate-apply']").remove();
 		}
 	});
 	$("#area-selection").change(function() {
@@ -109,11 +88,8 @@ $(function() {
 			$('input[data-role="unsupported-verification"]').each(function() {
 				$(this).prop('required', false);
 			});
-			$('div[data-role="unsupported-area-type-lead"]').remove();
 		}
 		if($("#unsupported-area-toggle-form").is(":selected")) {
-			$('div[data-role="agent-learn-more-information"]').remove();
-			$('div[data-role="homeowner-application"]').remove();
 			$("div[data-role='unsupported-area-type-lead']").removeClass("toggle-form");
 			$("div[data-role='homeowner-application']").addClass("toggle-form");
 			$('input[data-role="unsupported-verification"]').each(function() {
@@ -140,7 +116,6 @@ $(function() {
 			$('input[data-role="agent-submission-verification"]').each(function() {
 				$(this).prop('required', true);
 			});
-			$('div[data-role="agent-unsupported-area-type-lead"]').remove();
 		}
 		if($("#agent-unsupported-area-toggle-form").is(":selected")) {
 			$("div[data-role='agent-unsupported-area-type-lead']").removeClass("toggle-form");
