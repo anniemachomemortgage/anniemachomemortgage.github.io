@@ -28,16 +28,16 @@ $(function() {
 			if (verifiedProduct != 0) {
 				$("#verification-method").removeClass("toggle-form");
 				if ((verifiedBuyer == "homebuyer") && (verifiedProduct == "cashoffer")) {
-					$("#verified-link").attr('href', 'amhbco-start.html?verified=true&hb=true&pt=co');
+					$("#verified-link").attr('href', './amhbco-start?verified=true&hb=true&pt=co');
 				};
 				if ((verifiedBuyer == "homebuyer") && (verifiedProduct == "buynow")) {
-					$("#verified-link").attr('href', 'hbbnsl-start.html?verified=true&hb=true&pt=bn');
+					$("#verified-link").attr('href', './hbbnsl-start?verified=true&hb=true&pt=bn');
 				};
 				if ((verifiedBuyer == "agent") && (verifiedProduct == "cashoffer")) {
-					$("#verified-link").attr('href', 'amreco-start.html?verified=true&re=true&pt=co');
+					$("#verified-link").attr('href', './amreco-start?verified=true&re=true&pt=co');
 				};
 				if ((verifiedBuyer == "agent") && (verifiedProduct == "buynow")) {
-					$("#verified-link").attr('href', 'rebnsl-start.html?verified=true&re=true&pt=bn');
+					$("#verified-link").attr('href', './rebnsl-start?verified=true&re=true&pt=bn');
 				};
 			}
 		}
@@ -53,16 +53,16 @@ $(function() {
 			if (verifiedProduct != 0) {
 				$("#verification-method").removeClass("toggle-form");
 				if ((verifiedBuyer == "homebuyer") && (verifiedProduct == "cashoffer")) {
-					$("#verified-link").attr('href', 'amhbco-start.html?verified=true&hb=true&pt=co');
+					$("#verified-link").attr('href', './amhbco-start?verified=true&hb=true&pt=co');
 				};
 				if ((verifiedBuyer == "homebuyer") && (verifiedProduct == "buynow")) {
-					$("#verified-link").attr('href', 'hbbnsl-start.html?verified=true&hb=true&pt=bn');
+					$("#verified-link").attr('href', './hbbnsl-start?verified=true&hb=true&pt=bn');
 				};
 				if ((verifiedBuyer == "agent") && (verifiedProduct == "cashoffer")) {
-					$("#verified-link").attr('href', 'amreco-start.html?verified=true&re=true&pt=co');
+					$("#verified-link").attr('href', './amreco-start?verified=true&re=true&pt=co');
 				};
 				if ((verifiedBuyer == "agent") && (verifiedProduct == "buynow")) {
-					$("#verified-link").attr('href', 'rebnsl-start.html?verified=true&re=true&pt=bn');
+					$("#verified-link").attr('href', './rebnsl-start?verified=true&re=true&pt=bn');
 				};
 			}
 		}
@@ -78,16 +78,16 @@ $(function() {
 			if (verifiedBuyer != 0) {
 				$("#verification-method").removeClass("toggle-form");
 				if ((verifiedBuyer == "homebuyer") && (verifiedProduct == "cashoffer")) {
-					$("#verified-link").attr('href', 'amhbco-start.html?verified=true&hb=true&pt=co');
+					$("#verified-link").attr('href', './amhbco-start?verified=true&hb=true&pt=co');
 				};
 				if ((verifiedBuyer == "homebuyer") && (verifiedProduct == "buynow")) {
-					$("#verified-link").attr('href', 'hbbnsl-start.html?verified=true&hb=true&pt=bn');
+					$("#verified-link").attr('href', './hbbnsl-start?verified=true&hb=true&pt=bn');
 				};
 				if ((verifiedBuyer == "agent") && (verifiedProduct == "cashoffer")) {
-					$("#verified-link").attr('href', 'amreco-start.html?verified=true&re=true&pt=co');
+					$("#verified-link").attr('href', './amreco-start?verified=true&re=true&pt=co');
 				};
 				if ((verifiedBuyer == "agent") && (verifiedProduct == "buynow")) {
-					$("#verified-link").attr('href', 'rebnsl-start.html?verified=true&re=true&pt=bn');
+					$("#verified-link").attr('href', './rebnsl-start?verified=true&re=true&pt=bn');
 				};
 			}
 		}
@@ -103,16 +103,16 @@ $(function() {
 			if (verifiedBuyer != 0) {
 				$("#verification-method").removeClass("toggle-form");
 				if ((verifiedBuyer == "homebuyer") && (verifiedProduct == "cashoffer")) {
-					$("#verified-link").attr('href', 'amhbco-start.html?verified=true&hb=true&pt=co');
+					$("#verified-link").attr('href', './amhbco-start?verified=true&hb=true&pt=co');
 				};
 				if ((verifiedBuyer == "homebuyer") && (verifiedProduct == "buynow")) {
-					$("#verified-link").attr('href', 'hbbnsl-start.html?verified=true&hb=true&pt=bn');
+					$("#verified-link").attr('href', './hbbnsl-start?verified=true&hb=true&pt=bn');
 				};
 				if ((verifiedBuyer == "agent") && (verifiedProduct == "cashoffer")) {
-					$("#verified-link").attr('href', 'amreco-start.html?verified=true&re=true&pt=co');
+					$("#verified-link").attr('href', './amreco-start?verified=true&re=true&pt=co');
 				};
 				if ((verifiedBuyer == "agent") && (verifiedProduct == "buynow")) {
-					$("#verified-link").attr('href', 'rebnsl-start.html?verified=true&re=true&pt=bn');
+					$("#verified-link").attr('href', './rebnsl-start?verified=true&re=true&pt=bn');
 				};
 			}
 		}
