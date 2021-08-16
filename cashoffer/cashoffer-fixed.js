@@ -187,7 +187,7 @@ $(function() {
 		$("input[data-xml-node='PropertyState']").attr('value', selectedValue);
 	});
 	$("button[data-qlf-submit]").click(function(event) {
-		$('input').each(function() {
+		$('input[type="text"]').each(function() {
 			if ($(this).val() == "") {
 				$(this).remove();
 			}
