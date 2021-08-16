@@ -167,7 +167,8 @@ $(function() {
 			// ADD THAT TO THE PARAMETER IN 
 			// {
 			// 	"fieldList":{
-			// 		"facts.COBNSL":"Cash Offer (CO) OOOOR Buy Now, Sell Later (BNSL)",
+			// 		"facts.COBNSL":"Cash Offer (CO)",
+			// 		"facts.COBNSL":"OOOOR Buy Now, Sell Later (BNSL)",
 			// 		"loanParty.buyersAgent.name":"TESTING PHASE",
 			// 		"loanParty.buyersAgent.phoneCell":"5555555555",
 			// 		"loanParty.buyersAgent.emailAddress":"TESTPHASE@ANNIE-MAC.COM"
