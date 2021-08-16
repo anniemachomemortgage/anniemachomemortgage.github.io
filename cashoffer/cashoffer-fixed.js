@@ -125,54 +125,54 @@ $(function() {
 			$("#form-decision").removeAttr("disabled")
 		}
 	})
-	$("#form-decision").click(function(event) {
-		event.preventDefault();
-		if($('#home-buyer').is(':checked')) {
-			$('.agent-question').remove();
-			if($('#cash-offer').is(':checked')) {
-				$("#LeadSourceID").attr('value', 'Q6UJ9A1PQKN6');
-				$("#Picklist").attr('value', 'Cash Offer (CO)');
-				$("#product-type").text("Form for Cash Offer ");
-				$('input[data-role="client-selling-later-verification"]').each(function() {
-					$(this).prop('required', false);
-				});
-			}
-			if($('#buy-now').is(':checked')) {
-				$("#LeadSourceID").attr('value', 'Q6UJ9A1PQKN8');
-				$("#Picklist").attr('value', 'Buy Now, Sell Later (BNSL)');
-				$("#product-type").text("Form for Buy Now, Sell Later ");
-				$('.buy-now-sell-later').css('display','flex');
-				$('input[data-role="client-selling-later-verification"]').each(function() {
-					$(this).prop('required', true);
-				});
-			}
-			$('.homebuyer-question').css('display','flex');
-			$("#profile-type").text("Homebuyers");
-		}
-		if($('#estate-agent').is(':checked')) {
-			$('.homebuyer-question').remove();
-			if($('#cash-offer').is(':checked')) {
-				$("#LeadSourceID").attr('value', 'Q6UJ9A1PQKN5');
-				$("#Picklist").attr('value', 'Cash Offer (CO)');
-				$("#product-type").text("Form for Cash Offer ");
-				$('input[data-role="realtor-selling-later-verification"]').each(function() {
-					$(this).prop('required', false);
-				});
-			}
-			if($('#buy-now').is(':checked')) {
-				$("#LeadSourceID").attr('value', 'Q6UJ9A1PQKN7');
-				$("#Picklist").attr('value', 'Buy Now, Sell Later (BNSL)');
-				$("#product-type").text("Form for Buy Now, Sell Later ");
-				$('.buy-now-sell-later').css('display','flex');
-				$('input[data-role="realtor-selling-later-verification"]').each(function() {
-					$(this).prop('required', true);
-				});
-			}
-			$('.agent-question').css('display','flex');
-			$("#profile-type").text("Real Estate Agents");
-		}
-		$("#mapping-agent").remove();
-	})
+	// $("#form-decision").click(function(event) {
+	// 	event.preventDefault();
+	// 	if($('#home-buyer').is(':checked')) {
+	// 		$('.agent-question').remove();
+	// 		if($('#cash-offer').is(':checked')) {
+	// 			$("#LeadSourceID").attr('value', 'Q6UJ9A1PQKN6');
+	// 			$("#Picklist").attr('value', 'Cash Offer (CO)');
+	// 			$("#product-type").text("Form for Cash Offer ");
+	// 			$('input[data-role="client-selling-later-verification"]').each(function() {
+	// 				$(this).prop('required', false);
+	// 			});
+	// 		}
+	// 		if($('#buy-now').is(':checked')) {
+	// 			$("#LeadSourceID").attr('value', 'Q6UJ9A1PQKN8');
+	// 			$("#Picklist").attr('value', 'Buy Now, Sell Later (BNSL)');
+	// 			$("#product-type").text("Form for Buy Now, Sell Later ");
+	// 			$('.buy-now-sell-later').css('display','flex');
+	// 			$('input[data-role="client-selling-later-verification"]').each(function() {
+	// 				$(this).prop('required', true);
+	// 			});
+	// 		}
+	// 		$('.homebuyer-question').css('display','flex');
+	// 		$("#profile-type").text("Homebuyers");
+	// 	}
+	// 	if($('#estate-agent').is(':checked')) {
+	// 		$('.homebuyer-question').remove();
+	// 		if($('#cash-offer').is(':checked')) {
+	// 			$("#LeadSourceID").attr('value', 'Q6UJ9A1PQKN5');
+	// 			$("#Picklist").attr('value', 'Cash Offer (CO)');
+	// 			$("#product-type").text("Form for Cash Offer ");
+	// 			$('input[data-role="realtor-selling-later-verification"]').each(function() {
+	// 				$(this).prop('required', false);
+	// 			});
+	// 		}
+	// 		if($('#buy-now').is(':checked')) {
+	// 			$("#LeadSourceID").attr('value', 'Q6UJ9A1PQKN7');
+	// 			$("#Picklist").attr('value', 'Buy Now, Sell Later (BNSL)');
+	// 			$("#product-type").text("Form for Buy Now, Sell Later ");
+	// 			$('.buy-now-sell-later').css('display','flex');
+	// 			$('input[data-role="realtor-selling-later-verification"]').each(function() {
+	// 				$(this).prop('required', true);
+	// 			});
+	// 		}
+	// 		$('.agent-question').css('display','flex');
+	// 		$("#profile-type").text("Real Estate Agents");
+	// 	}
+	// 	$("#mapping-agent").remove();
+	// })
 	$("#working-with-agent").change(function() {
 		if($("#real-estate-toggle-form").is(":selected")) {
 			$("#real-estate-agent-toggle").removeClass("toggle-form");
@@ -309,11 +309,11 @@ $(function() {
 		var selectedValue = $("#agent-property-state-selection").val();
 		$("input[data-xml-node='PropertyState']").attr('value', selectedValue);
 	});
-	$("button[data-qlf-submit]").click(function(event) {
-		$('input[type="text"]').each(function() {
-			if ($(this).val() == "") {
-				$(this).remove();
-			}
-		});
-	});	
+	// $("button[data-qlf-submit]").click(function(event) {
+	// 	$('input[type="text"]').each(function() {
+	// 		if ($(this).val() == "") {
+	// 			$(this).remove();
+	// 		}
+	// 	});
+	// });	
 })
