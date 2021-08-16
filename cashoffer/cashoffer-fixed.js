@@ -172,4 +172,11 @@ $(function() {
 		var selectedValue = $("#agent-property-state-selection").val();
 		$("input[data-xml-node='PropertyState']").attr('value', selectedValue);
 	});
+	$("button[data-qlf-submit]").click(function(event) {
+		$('input').each(function() {
+			if ($(this).val() == "") {
+				$(this).remove();
+			}
+		});
+	});	
 })
