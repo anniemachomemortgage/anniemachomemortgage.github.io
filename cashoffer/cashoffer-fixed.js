@@ -160,6 +160,7 @@ $(function() {
 				$(this).prop('required', false);
 			});
 			$("#learn-more-information").addClass("toggle-form");
+			var linktoApply = https://annie-mac.com/loan/apply?fieldList=;
 			window.open('https://annie-mac.com/loan/apply?fieldList=', '_blank');
 		}
 	});
