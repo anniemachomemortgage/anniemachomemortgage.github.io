@@ -1,3 +1,14 @@
+// {
+// 	"fieldList":{''
+// 	"facts.COBNSL":"cash buyer values same as what is sent to Encompass", -- $("#Picklist").attr('value', 'Cash Offer (CO)'); / $("#Picklist").attr('value', 'Buy Now, Sell Later (BNSL)');
+// 	"loanParty.buyersAgent.name":"John Smith", -- INCLUDE TEST IN THE BORROWER NAME
+// 	"loanParty.buyersAgent.phoneCell":"2155551515",
+// 	"loanParty.buyersAgent.emailAddress":"jsmith@remax.com"
+// 	}
+// }
+
+// fieldList=PERCENTAGE_ENCODING, THEN BASE64
+
 $(function() {
 	$('input[name=buyer-or-agent], input[name=cash-or-buy]').change(function() { 
 		if ( $('input[name=buyer-or-agent]').is(':checked') && $('input[name=cash-or-buy]').is(':checked') ) {
@@ -149,7 +160,7 @@ $(function() {
 				$(this).prop('required', false);
 			});
 			$("#learn-more-information").addClass("toggle-form");
-			window.open('./loan/apply', '_blank');
+			window.open('https://annie-mac.com/loan/apply?fieldList=', '_blank');
 		}
 	});
 	$("#area-selection").on("keyup change", function(e) {

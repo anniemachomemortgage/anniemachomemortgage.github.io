@@ -5,7 +5,6 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
 html, body, h1, h2, h3, h4, h5, h6, p, ul, li, section, main, header, nav, footer {
 	font-family: 'inter', sans-serif;
 	font-size: 16px;
@@ -13,38 +12,32 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, li, section, main, header, nav, foote
 	font-weight: 400;
 	color: #3d3d3d;
 }
-
 header, main, section, form, form div, footer {
 	display: flex;
 	flex-direction: column;
 }
-
 form, section[data-role="mapping-agent"], section[data-role="secondary-mapping-agent"] {
 	width: 80vw;
 	max-width: 920px;
 	min-width: 600px;
 	margin: 0 auto;
 }
-
 form h3 {
 	font-size: 24px;
 	font-weight: 700;
 	margin: 40px 0 -00px;
 }
-
 form p {
 	margin: 0;
 	line-height: 25px;
 	font-weight: 400;
 	margin: 15px 0;
 }
-
 label {
 	font-weight: 600;
 	line-height: 25px;
 	margin: 15px 0 20px;
 }
-
 button {
 	max-width: 100px;
 	max-width: 100px;
@@ -65,65 +58,52 @@ input[type="text"], select, button, option {
 	outline: none;
 	border-radius: 4px;
 }
-
 .radio-group {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	margin: 0 0 9px;
 }
-
 .radio-group input[type="radio"] {
 	margin: 0;
 	width: 15px;
 	height: 15px;
 }
-
 .radio-group label {
 	margin: 0 0 0 10px;
 	font-weight: 300;
 }
-
 .homebuyer-question {
 	display: none;
 }
-
 .agent-question {
 	display: none;
 }
-
 .toggle-form {
 	display: none;
 }
-
 .buy-now-sell-later {
 	display: none;
 }
-
 .button-group {
 	margin: 20px 0 0;
 }
-
 .button-group button {
 	min-width: 200px;
 }
-
 .visited-only {
 	display: none;
 }
-
 .grouped-input-container {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
-
 .grouped-input {
 	display: flex;
 	flex-direction: column;
 	width: 48%;
 }
-
 div[data-role='real-estate-agent-toggle'], div[data-role='real-estate-learn-more'] {
 	background: #fbfbfb;
 	padding: 10px 20px 35px;
@@ -132,7 +112,20 @@ div[data-role='real-estate-agent-toggle'], div[data-role='real-estate-learn-more
 	box-shadow: 1px 1px 4px rgb(0 0 0 / 4%);
 	border: 1px solid rgba(0,0,0,13%);
 }
-
+.toggles ul {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	justify-content: space-between;
+	width: 500px;
+	margin: 40px 0;
+	padding: 0;
+}
+.toggles ul li {
+	border: 1px solid;
+	border-radius: 3px;
+	padding: 2px 6px;
+}
 footer {
 	display: none !important;
 }
