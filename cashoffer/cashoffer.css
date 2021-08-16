@@ -81,9 +81,6 @@ input[type="text"], select, button, option {
 .toggle-form {
 	display: none;
 }
-.buy-now-sell-later {
-	display: none;
-}
 .button-group {
 	margin: 20px 0 0;
 }
