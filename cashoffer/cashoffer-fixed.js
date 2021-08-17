@@ -263,28 +263,43 @@ $(function() {
 		var cobase = '{"fieldList":{"facts.COBNSL":"Cash Offer (CO)","loanParty.buyersAgent.name":"TESTING PHASE","loanParty.buyersAgent.phoneCell":"5555555555","loanParty.buyersAgent.emailAddress":"TESTPHASE@ANNIE-MAC.COM"}}';
 		cobase = btoa(cobase);
 		linktoApplyt = linktoApplyt + cobase;
+		$("#apply-or-learn").change(function() {
+			if($("#learn-more-toggle-form").is(":selected")) {
+				$("#learn-more-information").removeClass("toggle-form");
+				$('input[data-role="client-submission-verification"]').each(function() {
+					$(this).prop('required', true);
+				});
+			}
+			if($("#apply-now-untoggle").is(":selected")) {
+				$('input[data-role="client-submission-verification"]').each(function() {
+					$(this).prop('required', false);
+				});
+				$("#learn-more-information").addClass("toggle-form");
+				window.open(linktoApplyt, '_blank');
+			}
+		});
 	}
 	if ((window.location.href.indexOf("rebnsl-start") != -1) || (window.location.href.indexOf("hbbnsl-start") != -1)) {
 		var linktoApplyt = 'https://annie-mac.com/loan/apply?fieldList=';
 		var bnslbase = '{"fieldList":{"facts.COBNSL":"Buy Now, Sell Later (BNSL)","loanParty.buyersAgent.name":"TESTING PHASE","loanParty.buyersAgent.phoneCell":"5555555555","loanParty.buyersAgent.emailAddress":"TESTPHASE@ANNIE-MAC.COM"}}';
 		bnslbase = btoa(bnslbase);
 		linktoApplyt = linktoApplyt + bnslbase;
+		$("#apply-or-learn").change(function() {
+			if($("#learn-more-toggle-form").is(":selected")) {
+				$("#learn-more-information").removeClass("toggle-form");
+				$('input[data-role="client-submission-verification"]').each(function() {
+					$(this).prop('required', true);
+				});
+			}
+			if($("#apply-now-untoggle").is(":selected")) {
+				$('input[data-role="client-submission-verification"]').each(function() {
+					$(this).prop('required', false);
+				});
+				$("#learn-more-information").addClass("toggle-form");
+				window.open(linktoApplyt, '_blank');
+			}
+		});
 	}
-	$("#apply-or-learn").change(function() {
-		if($("#learn-more-toggle-form").is(":selected")) {
-			$("#learn-more-information").removeClass("toggle-form");
-			$('input[data-role="client-submission-verification"]').each(function() {
-				$(this).prop('required', true);
-			});
-		}
-		if($("#apply-now-untoggle").is(":selected")) {
-			$('input[data-role="client-submission-verification"]').each(function() {
-				$(this).prop('required', false);
-			});
-			$("#learn-more-information").addClass("toggle-form");
-			window.open(linktoApplyt, '_blank');
-		}
-	});
 	$("#area-selection").on("keyup change", function(e) {
 		var selectedValue = $("#area-selection").val();
 		$("input[data-xml-node='PropertyCounty']").attr('value', selectedValue);
