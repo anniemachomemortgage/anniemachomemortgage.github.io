@@ -178,3 +178,6 @@ form #logo {
 footer {
 	display: none !important;
 }
+div#verification-method {
+	margin-top: -10px;
+}
