@@ -935,4 +935,5 @@ $(function() {
 	$("#react2-js").remove();
 	$("#react3-js").remove();
 	$("#scriptbook-react-js").remove();
+	$("#flash-message").remove();
 })
