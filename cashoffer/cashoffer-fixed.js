@@ -201,6 +201,16 @@ $(function() {
 				});
 			}
 			if($("#unsupported-area-toggle-form").is(":selected")) {
+				$(":input").on("keyup change", function(e) {
+					var UnsupportedFirstName = $('input[type="text"][data-role="unsupported-verification"][data-xml-node="FirstName"]').val();
+					var UnsupportedLastName = $('input[type="text"][data-role="unsupported-verification"][data-xml-node="LastName"]').val();
+					var UnsupportedEmail = $('input[type="text"][data-role="unsupported-verification"][data-xml-node="Email"]').val();
+					var UnsupportedPhone = $('input[type="text"][data-role="unsupported-verification"][data-xml-node="MobilePhone"]').val();
+					$('input[type="text"][data-role="client-submission-verification"][data-xml-node="FirstName"]').val(UnsupportedFirstName);
+					$('input[type="text"][data-role="client-submission-verification"][data-xml-node="LastName"]').val(UnsupportedLastName);
+					$('input[type="text"][data-role="client-submission-verification"][data-xml-node="Email"]').val(UnsupportedEmail);
+					$('input[type="text"][data-role="client-submission-verification"][data-xml-node="MobilePhone"]').val(UnsupportedPhone);
+				});
 				$("#unsupported-area-type-lead").removeClass("toggle-form");
 				$("#homeowner-application").addClass("toggle-form");
 				$('input[data-role="unsupported-verification"]').each(function() {
@@ -352,15 +362,5 @@ $(function() {
 		$("#agent-property-state-selection").on("keyup change", function(e) {
 			var selectedValue = $("#agent-property-state-selection").val();
 			$("input[data-xml-node='PropertyState']").attr('value', selectedValue);
-		});
-		$(":input").on("keyup change", function(e) {
-			var UnsupportedFirstName = $('input[type="text"][data-role="unsupported-verification"][data-xml-node="FirstName"]').val();
-			var UnsupportedLastName = $('input[type="text"][data-role="unsupported-verification"][data-xml-node="LastName"]').val();
-			var UnsupportedEmail = $('input[type="text"][data-role="unsupported-verification"][data-xml-node="Email"]').val();
-			var UnsupportedPhone = $('input[type="text"][data-role="unsupported-verification"][data-xml-node="MobilePhone"]').val();
-			$('input[type="text"][data-role="client-submission-verification"][data-xml-node="FirstName"]').val(UnsupportedFirstName);
-			$('input[type="text"][data-role="client-submission-verification"][data-xml-node="LastName"]').val(UnsupportedLastName);
-			$('input[type="text"][data-role="client-submission-verification"][data-xml-node="Email"]').val(UnsupportedEmail);
-			$('input[type="text"][data-role="client-submission-verification"][data-xml-node="MobilePhone"]').val(UnsupportedPhone);
 		});
 	})
