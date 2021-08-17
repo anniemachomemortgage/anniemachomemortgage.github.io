@@ -258,6 +258,7 @@ $(function() {
 			});
 		}
 	});
+	// Apply now link adjustment for realtor agent referral BNSL
 	if (window.location.href.indexOf("rebnsl-start") != -1) {
 		var linktoApplyt = 'https://annie-mac.com/loan/apply?source=AnnieMac%20Private%20Equity&subsource=BNSL%20-%20Agent%20Referral&fieldList=';
 		var bnslbase = '{"fieldList":{"facts.COBNSL":"Buy Now, Sell Later (BNSL)"}}';
@@ -279,6 +280,7 @@ $(function() {
 			}
 		});
 	}
+	// Apply now link adjustment for homebuyer BNSL
 	if (window.location.href.indexOf("hbbnsl-start") != -1) {
 		var linktoApplyt = 'https://annie-mac.com/loan/apply?source=AnnieMac%20Private%20Equity&subsource=BNSL&fieldList=';
 		var bnslbase = '{"fieldList":{"facts.COBNSL":"Buy Now, Sell Later (BNSL)"}}';
@@ -300,6 +302,7 @@ $(function() {
 			}
 		});
 	}
+	// Apply now link adjustment for homebuyer CO
 	if (window.location.href.indexOf("amhbco-start") != -1) {
 		var linktoApplyt = 'https://annie-mac.com/loan/apply?source=AnnieMac%20Private%20Equity&subsource=CO&fieldList=';
 		var cobase = '{"fieldList":{"facts.COBNSL":"Cash Offer (CO)"}}';
@@ -321,6 +324,7 @@ $(function() {
 			}
 		});
 	}
+	// Apply now link adjustment for realtor agent referral CO
 	if (window.location.href.indexOf("amreco-start") != -1) {
 		var linktoApplyt = 'https://annie-mac.com/loan/apply?source=AnnieMac%20Private%20Equity&subsource=CO%20-%20Agent%20Referral&fieldList=';
 		var cobase = '{"fieldList":{"facts.COBNSL":"Cash Offer (CO)"}}';
