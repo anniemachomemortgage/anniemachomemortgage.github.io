@@ -357,12 +357,10 @@ $(function() {
 			var UnsupportedFirstName = $('input[type="text"][data-role="unsupported-verification"][data-xml-node="FirstName"]').val();
 			var UnsupportedLastName = $('input[type="text"][data-role="unsupported-verification"][data-xml-node="LastName"]').val();
 			var UnsupportedEmail = $('input[type="text"][data-role="unsupported-verification"][data-xml-node="Email"]').val();
-			var UnsupportedState = $('input[type="text"][data-role="unsupported-verification"][data-xml-node="State"]').val();
 			var UnsupportedPhone = $('input[type="text"][data-role="unsupported-verification"][data-xml-node="MobilePhone"]').val();
 			$('input[type="text"][data-role="client-submission-verification"][data-xml-node="FirstName"]').val(UnsupportedFirstName);
 			$('input[type="text"][data-role="client-submission-verification"][data-xml-node="LastName"]').val(UnsupportedLastName);
 			$('input[type="text"][data-role="client-submission-verification"][data-xml-node="Email"]').val(UnsupportedEmail);
-			$('input[type="text"][data-role="client-submission-verification"][data-xml-node="PropertyState"]').val(UnsupportedState);
 			$('input[type="text"][data-role="client-submission-verification"][data-xml-node="MobilePhone"]').val(UnsupportedPhone);
 		});
 	})
