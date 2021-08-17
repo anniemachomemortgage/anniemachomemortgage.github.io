@@ -269,14 +269,15 @@ $(function() {
 					$(this).prop('required', false);
 				});
 				$("#learn-more-information").addClass("toggle-form");
-				var linktoApplyt = 'https://annie-mac.com/loan/apply?fieldList=';
 				if ((window.location.href.indexOf("amhbco-start") != -1) || (window.location.href.indexOf("amreco-start") != -1)) {
+					var linktoApplyt = 'https://annie-mac.com/loan/apply?fieldList=';
 					var cobase = '{"fieldList":{"facts.COBNSL":"Cash Offer (CO)","loanParty.buyersAgent.name":"TESTING PHASE","loanParty.buyersAgent.phoneCell":"5555555555","loanParty.buyersAgent.emailAddress":"TESTPHASE@ANNIE-MAC.COM"}}';
 					cobase = btoa(cobase);
 					linktoApplyt = linktoApplyt + cobase;
 					window.open(linktoApplyt, '_blank');
 				}
 				if ((window.location.href.indexOf("rebnsl-start") != -1) || (window.location.href.indexOf("hbbnsl-start") != -1)) {
+					var linktoApplyt = 'https://annie-mac.com/loan/apply?fieldList=';
 					var bnslbase = '{"fieldList":{"facts.COBNSL":"Buy Now, Sell Later (BNSL)","loanParty.buyersAgent.name":"TESTING PHASE","loanParty.buyersAgent.phoneCell":"5555555555","loanParty.buyersAgent.emailAddress":"TESTPHASE@ANNIE-MAC.COM"}}';
 					bnslbase = btoa(bnslbase);
 					linktoApplyt = linktoApplyt + bnslbase;
