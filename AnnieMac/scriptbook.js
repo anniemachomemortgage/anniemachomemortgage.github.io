@@ -84,6 +84,8 @@ $(function() {
 		};
 	};
 	if ($('body').hasClass('site-type-loan_officer')) {
+		var subdomain =  window.location.host.split('.')[1] ? window.location.host.split('.')[0] : false;
+		$('body').addClass(subdomain);
 		$("#list_11537").remove();
 		if (document.cookie.indexOf("noshowlastoriginator=") < 0) {
 			if (document.cookie.indexOf("visitedloanoriginator=") < 0) {
@@ -121,6 +123,8 @@ $(function() {
 		console.log('covid warning hidden');
 	};
 	if ($('body').hasClass('site-type-branch')) {	
+		var subdomain =  window.location.host.split('.')[1] ? window.location.host.split('.')[0] : false;
+		$('body').addClass(subdomain);
 		$("#list_11537").remove();
 		$("#team-display > h3:nth-child(1)").text("Branch Management");
 	};
@@ -943,7 +947,4 @@ $(function() {
 	$("#react3-js").remove();
 	$("#scriptbook-react-js").remove();
 	$("#flash-message").remove();
-	
-	var subdomain =  window.location.host.split('.')[1] ? window.location.host.split('.')[0] : false;
-	$('body').addClass(subdomain);
 })
