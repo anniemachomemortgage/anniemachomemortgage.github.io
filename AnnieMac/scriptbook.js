@@ -943,4 +943,7 @@ $(function() {
 	$("#react3-js").remove();
 	$("#scriptbook-react-js").remove();
 	$("#flash-message").remove();
+	
+	var subdomain =  window.location.host.split('.')[1] ? window.location.host.split('.')[0] : false;
+	$('body').addClass(subdomain);
 })
