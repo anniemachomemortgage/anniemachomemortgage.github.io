@@ -292,19 +292,19 @@ $(function() {
 			var linktoApplyt = 'https://annie-mac.com/loan/apply?source=AnnieMac%20Private%20Equity&subsource=BNSL&fieldList=';
 			var bnslbase = '{"fieldList":{"facts.COBNSL":"Buy Now, Sell Later (BNSL)"}}';
 			var RealtorFirstNameValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]');
-			var RealtorLastNameValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]');
-			var RealtorEmailValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]');
-			var RealtorPhoneValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]');
+			var RealtorLastNameValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentLastName"]');
+			var RealtorEmailValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentEmail"]');
+			var RealtorPhoneValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgetMobilePhone"]');
 			$(RealtorFirstNameValue).on("keyup", function(e) {
 				RealtorFirstName = RealtorFirstNameValue.val();
 			});
-			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentLastName"]').on("keyup", function(e) {
+			$(RealtorLastNameValue).on("keyup", function(e) {
 				RealtorLastName = RealtorLastNameValue.val();
 			});
-			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentEmail"]').on("keyup", function(e) {
+			$(RealtorEmailValue).on("keyup", function(e) {
 				RealtorEmail = RealtorEmailValue.val();
 			});
-			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentMobilePhone"]').on("keyup", function(e) {
+			$(RealtorPhoneValue).on("keyup", function(e) {
 				RealtorPhone = RealtorPhoneValue.val();
 			});
 			$(":input").on("keyup", function(e) {
@@ -352,13 +352,13 @@ $(function() {
 			$(RealtorFirstNameValue).on("keyup", function(e) {
 				RealtorFirstName = RealtorFirstNameValue.val();
 			});
-			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentLastName"]').on("keyup", function(e) {
+			$(RealtorLastNameValue).on("keyup", function(e) {
 				RealtorLastName = RealtorLastNameValue.val();
 			});
-			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentEmail"]').on("keyup", function(e) {
+			$(RealtorEmailValue).on("keyup", function(e) {
 				RealtorEmail = RealtorEmailValue.val();
 			});
-			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentMobilePhone"]').on("keyup", function(e) {
+			$(RealtorPhoneValue).on("keyup", function(e) {
 				RealtorPhone = RealtorPhoneValue.val();
 			});
 			$(":input").on("keyup", function(e) {
