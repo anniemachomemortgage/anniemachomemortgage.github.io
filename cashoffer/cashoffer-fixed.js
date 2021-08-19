@@ -318,10 +318,10 @@ $(function() {
 			var RealtorEmail = null;
 			var RealtorPhone = null;
 			$(":input").on("keyup change", function(e) {
-				RealtorFirstName = $('input[type="text"][data-role="unsupported-verification"][data-xml-node="FirstName"]').val();
-				RealtorLastName = $('input[type="text"][data-role="unsupported-verification"][data-xml-node="LastName"]').val();
-				RealtorEmail = $('input[type="text"][data-role="unsupported-verification"][data-xml-node="Email"]').val();
-				RealtorPhone = $('input[type="text"][data-role="unsupported-verification"][data-xml-node="MobilePhone"]').val();
+				RealtorFirstName = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
+				RealtorLastName = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentLastName"]').val();
+				RealtorEmail = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentEmail"]').val();
+				RealtorPhone = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentMobilePhone"]').val();
 			});
 			cobase = btoa(cobase);
 			linktoApplyt = linktoApplyt + cobase;
