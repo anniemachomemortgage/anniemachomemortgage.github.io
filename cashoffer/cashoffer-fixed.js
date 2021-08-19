@@ -333,16 +333,18 @@ $(function() {
 				RealtorPhone = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
 				console.log(RealtorPhone);
 			});
-			if(RealtorFirstName != null) {
-				if(RealtorLastName != null) {
-					RealtorFullName = RealtorFirstName + " " + RealtorLastName;
+			$(":input").on("keyup change", function(e) {
+				if(RealtorFirstName != null) {
+					if(RealtorLastName != null) {
+						RealtorFullName = RealtorFirstName + " " + RealtorLastName;
+					}
 				}
-			}
-			if(RealtorFirstName == null) {
-				if(RealtorLastName == null) {
-					RealtorFullName = RealtorFirstName + " " + RealtorLastName;
+				if(RealtorFirstName == null) {
+					if(RealtorLastName == null) {
+						RealtorFullName = RealtorFirstName + " " + RealtorLastName;
+					}
 				}
-			}
+			});
 			$("#apply-or-learn").change(function() {
 				if($("#learn-more-toggle-form").is(":selected")) {
 					$("#learn-more-information").removeClass("toggle-form");
