@@ -282,8 +282,7 @@ $(function() {
 				}
 			});
 		}
-		// Apply now link adjustment for homebuyer BNSL
-		if (window.location.href.indexOf("hbbnsl-start") != -1) {
+		if (window.location.href.indexOf("amhbco-start") != -1) {
 			var linktoApplyt = 'https://annie-mac.com/loan/apply?source=AnnieMac%20Private%20Equity&subsource=CO&fieldList=';
 			var cobase = '{"fieldList":{"facts.COBNSL":"Cash Offer (CO)"}}';
 			var RealtorFirstNameValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]');
@@ -336,8 +335,7 @@ $(function() {
 				}
 			});
 		}
-		// Apply now link adjustment for homebuyer CO
-		if (window.location.href.indexOf("amhbco-start") != -1) {
+		if (window.location.href.indexOf("hbbnsl-start") != -1) {
 			var linktoApplyt = 'https://annie-mac.com/loan/apply?source=AnnieMac%20Private%20Equity&subsource=BNSL&fieldList=';
 			var cobase = '{"fieldList":{"facts.COBNSL":"Buy Now, Sell Later (BNSL)"}}';
 			var RealtorFirstNameValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]');
