@@ -312,21 +312,21 @@ $(function() {
 		// Apply now link adjustment for homebuyer CO
 		if (window.location.href.indexOf("amhbco-start") != -1) {
 			var linktoApplyt = 'https://annie-mac.com/loan/apply?source=AnnieMac%20Private%20Equity&subsource=CO&fieldList=';
-			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').on("change", function(e) {
-				var RealtorFirstName = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
-				console.log(RealtorFirstName);
+			var RealtorFirstName;
+			var RealtorLastName;
+			var RealtorEmail;
+			var RealtorPhone
+			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').on("keyup", function(e) {
+				RealtorFirstName = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
 			});
-			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentLastName"]').on("change", function(e) {
-				var RealtorLastName = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
-				console.log(RealtorLastName);
+			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentLastName"]').on("keyup", function(e) {
+				RealtorLastName = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
 			});
-			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentEmail"]').on("change", function(e) {
-				var RealtorEmail = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
-				console.log(RealtorEmail);
+			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentEmail"]').on("keyup", function(e) {
+				RealtorEmail = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
 			});
-			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentMobilePhone"]').on("change", function(e) {
-				var RealtorPhone = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
-				console.log(RealtorPhone);
+			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentMobilePhone"]').on("keyup", function(e) {
+				RealtorPhone = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
 			});
 			$(":input").on("keyup", function(e) {
 				if(RealtorFirstName != null) {
