@@ -364,7 +364,7 @@ $(function() {
 			});
 			$(":input").on("keyup", function(e) {
 				if ((RealtorFullName != null) && (RealtorEmail != null) && (RealtorPhone != null)) {
-					cobase = '{"fieldList":{"facts.COBNSL":"Cash Offer (CO)", "loanParty.buyersAgent.name":"' + RealtorFullName + '", "loanParty.buyersAgent.phoneCell":"' + RealtorPhone + '", "loanParty.buyersAgent.emailAddress":"' + RealtorEmail + '"}}'
+					cobase = '{"fieldList":{"facts.COBNSL":"Buy Now, Sell Later (BNSL)", "loanParty.buyersAgent.name":"' + RealtorFullName + '", "loanParty.buyersAgent.phoneCell":"' + RealtorPhone + '", "loanParty.buyersAgent.emailAddress":"' + RealtorEmail + '"}}'
 				} 
 				else {
 					cobase = cobase;
