@@ -312,20 +312,37 @@ $(function() {
 		// Apply now link adjustment for homebuyer CO
 		if (window.location.href.indexOf("amhbco-start") != -1) {
 			var linktoApplyt = 'https://annie-mac.com/loan/apply?source=AnnieMac%20Private%20Equity&subsource=CO&fieldList=';
-			var cobase = '{"fieldList":{"facts.COBNSL":"Cash Offer (CO)"}}';
 			var RealtorFirstName = null;
 			var RealtorLastName = null;
+			var RealtorFullName = null;
 			var RealtorEmail = null;
 			var RealtorPhone = null;
-			$(":input").on("keyup change", function(e) {
+			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').on("change", function(e) {
 				RealtorFirstName = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
-				RealtorLastName = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentLastName"]').val();
-				RealtorEmail = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentEmail"]').val();
-				RealtorPhone = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentMobilePhone"]').val();
 				console.log(RealtorFirstName);
 			});
-			cobase = btoa(cobase);
-			linktoApplyt = linktoApplyt + cobase;
+			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentLastName"]').on("change", function(e) {
+				RealtorLastName = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
+				console.log(RealtorLastName);
+			});
+			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentEmail"]').on("change", function(e) {
+				RealtorEmail = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
+				console.log(RealtorEmail);
+			});
+			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentMobilePhone"]').on("change", function(e) {
+				RealtorPhone = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
+				console.log(RealtorPhone);
+			});
+			if(RealtorFirstName != null) {
+				if(RealtorLastName != null) {
+					RealtorFullName = RealtorFirstName + " " + RealtorLastName;
+				}
+			}
+			if(RealtorFirstName == null) {
+				if(RealtorLastName == null) {
+					RealtorFullName = RealtorFirstName + " " + RealtorLastName;
+				}
+			}
 			$("#apply-or-learn").change(function() {
 				if($("#learn-more-toggle-form").is(":selected")) {
 					$("#learn-more-information").removeClass("toggle-form");
@@ -338,6 +355,14 @@ $(function() {
 						$(this).prop('required', false);
 					});
 					$("#learn-more-information").addClass("toggle-form");
+					if((RealtorFullName == null) && (RealtorEmail == null) && (RealtorPhone == null)) {
+						var cobase = '{"fieldList":{"facts.COBNSL":"Cash Offer (CO)"}}';
+					}
+					if((RealtorFullName != null) && (RealtorEmail != null) && (RealtorPhone != null)) {
+						var cobase = '{"fieldList":{"facts.COBNSL":"Cash Offer (CO)", "loanParty.buyersAgent.name":"' + RealtorFullName + '", "loanParty.buyersAgent.phoneCell":"' + RealtorPhone + '", "loanParty.buyersAgent.emailAddress":"' + RealtorEmail + '"}}'
+					}
+					cobase = btoa(cobase);
+					linktoApplyt = linktoApplyt + cobase;
 					window.open(linktoApplyt, '_blank');
 				}
 			});
