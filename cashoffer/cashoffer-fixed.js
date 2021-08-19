@@ -333,7 +333,7 @@ $(function() {
 				RealtorPhone = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
 				console.log(RealtorPhone);
 			});
-			$(":input").on("keyup change", function(e) {
+			$(":input").on("change", function(e) {
 				if(RealtorFirstName != null) {
 					if(RealtorLastName != null) {
 						RealtorFullName = RealtorFirstName + " " + RealtorLastName;
