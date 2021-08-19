@@ -313,6 +313,16 @@ $(function() {
 		if (window.location.href.indexOf("amhbco-start") != -1) {
 			var linktoApplyt = 'https://annie-mac.com/loan/apply?source=AnnieMac%20Private%20Equity&subsource=CO&fieldList=';
 			var cobase = '{"fieldList":{"facts.COBNSL":"Cash Offer (CO)"}}';
+			var RealtorFirstName = null;
+			var RealtorLastName = null;
+			var RealtorEmail = null;
+			var RealtorPhone = null;
+			$(":input").on("keyup change", function(e) {
+				RealtorFirstName = $('input[type="text"][data-role="unsupported-verification"][data-xml-node="FirstName"]').val();
+				RealtorLastName = $('input[type="text"][data-role="unsupported-verification"][data-xml-node="LastName"]').val();
+				RealtorEmail = $('input[type="text"][data-role="unsupported-verification"][data-xml-node="Email"]').val();
+				RealtorPhone = $('input[type="text"][data-role="unsupported-verification"][data-xml-node="MobilePhone"]').val();
+			});
 			cobase = btoa(cobase);
 			linktoApplyt = linktoApplyt + cobase;
 			$("#apply-or-learn").change(function() {
