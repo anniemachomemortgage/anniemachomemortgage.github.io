@@ -291,6 +291,38 @@ $(function() {
 		if (window.location.href.indexOf("hbbnsl-start") != -1) {
 			var linktoApplyt = 'https://annie-mac.com/loan/apply?source=AnnieMac%20Private%20Equity&subsource=BNSL&fieldList=';
 			var bnslbase = '{"fieldList":{"facts.COBNSL":"Buy Now, Sell Later (BNSL)"}}';
+			var RealtorFirstNameValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]');
+			var RealtorLastNameValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]');
+			var RealtorEmailValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]');
+			var RealtorPhoneValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]');
+			$(RealtorFirstNameValue).on("keyup", function(e) {
+				RealtorFirstName = RealtorFirstNameValue.val();
+			});
+			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentLastName"]').on("keyup", function(e) {
+				RealtorLastName = RealtorLastNameValue.val();
+			});
+			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentEmail"]').on("keyup", function(e) {
+				RealtorEmail = RealtorEmailValue.val();
+			});
+			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentMobilePhone"]').on("keyup", function(e) {
+				RealtorPhone = RealtorPhoneValue.val();
+			});
+			$(":input").on("keyup", function(e) {
+				if ((RealtorFirstName != null) && (RealtorLastName != null)) {
+					RealtorFullName = RealtorFirstName + " " + RealtorLastName;
+				} 
+				else {
+					RealtorFullName = RealtorFirstName
+				}
+			});
+			$(":input").on("keyup", function(e) {
+				if ((RealtorFullName != null) && (RealtorEmail != null) && (RealtorPhone != null)) {
+					bnslbase = '{"fieldList":{"facts.COBNSL":"Cash Offer (CO)", "loanParty.buyersAgent.name":"' + RealtorFullName + '", "loanParty.buyersAgent.phoneCell":"' + RealtorPhone + '", "loanParty.buyersAgent.emailAddress":"' + RealtorEmail + '"}}'
+				} 
+				else {
+					bnslbase = bnslbase;
+				}
+			});
 			bnslbase = btoa(bnslbase);
 			linktoApplyt = linktoApplyt + bnslbase;
 			$("#apply-or-learn").change(function() {
