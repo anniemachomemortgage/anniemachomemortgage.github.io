@@ -284,8 +284,8 @@ $(function() {
 		}
 		// Apply now link adjustment for homebuyer BNSL
 		if (window.location.href.indexOf("hbbnsl-start") != -1) {
-			var linktoApplyt = 'https://annie-mac.com/loan/apply?source=AnnieMac%20Private%20Equity&subsource=BNSL&fieldList=';
-			var bnslbase = '{"fieldList":{"facts.COBNSL":"Buy Now, Sell Later (BNSL)"}}';
+			var linktoApplyt = 'https://annie-mac.com/loan/apply?source=AnnieMac%20Private%20Equity&subsource=CO&fieldList=';
+			var cobase = '{"fieldList":{"facts.COBNSL":"Cash Offer (CO)"}}';
 			var RealtorFirstNameValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]');
 			var RealtorLastNameValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentLastName"]');
 			var RealtorEmailValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentEmail"]');
@@ -312,14 +312,12 @@ $(function() {
 			});
 			$(":input").on("keyup", function(e) {
 				if ((RealtorFullName != null) && (RealtorEmail != null) && (RealtorPhone != null)) {
-					bnslbase = '{"fieldList":{"facts.COBNSL":"Buy Now, Sell Later (BNSL)", "loanParty.buyersAgent.name":"' + RealtorFullName + '", "loanParty.buyersAgent.phoneCell":"' + RealtorPhone + '", "loanParty.buyersAgent.emailAddress":"' + RealtorEmail + '"}}'
+					cobase = '{"fieldList":{"facts.COBNSL":"Cash Offer (CO)", "loanParty.buyersAgent.name":"' + RealtorFullName + '", "loanParty.buyersAgent.phoneCell":"' + RealtorPhone + '", "loanParty.buyersAgent.emailAddress":"' + RealtorEmail + '"}}'
 				} 
 				else {
-					bnslbase = bnslbase;
+					cobase = cobase;
 				}
 			});
-			bnslbase = btoa(bnslbase);
-			linktoApplyt = linktoApplyt + bnslbase;
 			$("#apply-or-learn").change(function() {
 				if($("#learn-more-toggle-form").is(":selected")) {
 					$("#learn-more-information").removeClass("toggle-form");
@@ -332,14 +330,16 @@ $(function() {
 						$(this).prop('required', false);
 					});
 					$("#learn-more-information").addClass("toggle-form");
+					cobase = btoa(cobase);
+					linktoApplyt = linktoApplyt + cobase;
 					window.open(linktoApplyt, '_blank');
 				}
 			});
 		}
 		// Apply now link adjustment for homebuyer CO
 		if (window.location.href.indexOf("amhbco-start") != -1) {
-			var linktoApplyt = 'https://annie-mac.com/loan/apply?source=AnnieMac%20Private%20Equity&subsource=CO&fieldList=';
-			var cobase = '{"fieldList":{"facts.COBNSL":"Cash Offer (CO)"}}';
+			var linktoApplyt = 'https://annie-mac.com/loan/apply?source=AnnieMac%20Private%20Equity&subsource=BNSL&fieldList=';
+			var cobase = '{"fieldList":{"facts.COBNSL":"Buy Now, Sell Later (BNSL)"}}';
 			var RealtorFirstNameValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]');
 			var RealtorLastNameValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentLastName"]');
 			var RealtorEmailValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentEmail"]');
