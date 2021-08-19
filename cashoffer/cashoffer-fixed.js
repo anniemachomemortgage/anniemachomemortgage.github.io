@@ -313,21 +313,21 @@ $(function() {
 		if (window.location.href.indexOf("amhbco-start") != -1) {
 			var linktoApplyt = 'https://annie-mac.com/loan/apply?source=AnnieMac%20Private%20Equity&subsource=CO&fieldList=';
 			var cobase;
-			var RealtorFirstName;
-			var RealtorLastName;
-			var RealtorEmail;
-			var RealtorPhone;
-			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').on("keyup", function(e) {
-				RealtorFirstName = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
+			var RealtorFirstNameValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]');
+			var RealtorLastNameValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]');
+			var RealtorEmailValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]');
+			var RealtorPhoneValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]');
+			$(RealtorFirstNameValue).on("keyup", function(e) {
+				RealtorFirstName = RealtorFirstNameValue.val();
 			});
 			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentLastName"]').on("keyup", function(e) {
-				RealtorLastName = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
+				RealtorLastName = RealtorLastNameValue.val();
 			});
 			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentEmail"]').on("keyup", function(e) {
-				RealtorEmail = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
+				RealtorEmail = RealtorEmailValue.val();
 			});
 			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentMobilePhone"]').on("keyup", function(e) {
-				RealtorPhone = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
+				RealtorPhone = RealtorPhoneValue.val();
 			});
 			$(":input").on("keyup", function(e) {
 				if ((RealtorFirstName != null) && (RealtorLastName != null)) {
