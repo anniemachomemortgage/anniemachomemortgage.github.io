@@ -267,10 +267,6 @@ $(function() {
 					$("#LeadSourceID").val("Q6UJ9A1PQKN7");
 				}
 			});
-			var linktoApplyt = 'https://annie-mac.com/loan/apply?source=AnnieMac%20Private%20Equity&subsource=BNSL%20-%20Agent%20Referral&fieldList=';
-			var bnslbase = '{"fieldList":{"facts.COBNSL":"Buy Now, Sell Later (BNSL)"}}';
-			bnslbase = btoa(bnslbase);
-			linktoApplyt = linktoApplyt + bnslbase;
 			$("#apply-or-learn").change(function() {
 				if($("#learn-more-toggle-form").is(":selected")) {
 					$("#learn-more-information").removeClass("toggle-form");
@@ -283,7 +279,6 @@ $(function() {
 						$(this).prop('required', false);
 					});
 					$("#learn-more-information").addClass("toggle-form");
-					window.open(linktoApplyt, '_blank');
 				}
 			});
 		}
@@ -294,7 +289,7 @@ $(function() {
 			var RealtorFirstNameValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]');
 			var RealtorLastNameValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentLastName"]');
 			var RealtorEmailValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentEmail"]');
-			var RealtorPhoneValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgetMobilePhone"]');
+			var RealtorPhoneValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentMobilePhone"]');
 			$(RealtorFirstNameValue).on("keyup", function(e) {
 				RealtorFirstName = RealtorFirstNameValue.val();
 			});
@@ -407,10 +402,6 @@ $(function() {
 					$("#LeadSourceID").val("Q6UJ9A1PQKN7");
 				}
 			});
-			var linktoApplyt = 'https://annie-mac.com/loan/apply?source=AnnieMac%20Private%20Equity&subsource=CO%20-%20Agent%20Referral&fieldList=';
-			var cobase = '{"fieldList":{"facts.COBNSL":"Cash Offer (CO)"}}';
-			cobase = btoa(cobase);
-			linktoApplyt = linktoApplyt + cobase;
 			$("#apply-or-learn").change(function() {
 				if($("#learn-more-toggle-form").is(":selected")) {
 					$("#learn-more-information").removeClass("toggle-form");
@@ -423,7 +414,6 @@ $(function() {
 						$(this).prop('required', false);
 					});
 					$("#learn-more-information").addClass("toggle-form");
-					window.open(linktoApplyt, '_blank');
 				}
 			});
 		}
