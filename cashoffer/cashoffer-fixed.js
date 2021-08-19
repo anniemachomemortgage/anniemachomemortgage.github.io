@@ -346,9 +346,9 @@ $(function() {
 			var linktoApplyt = 'https://annie-mac.com/loan/apply?source=AnnieMac%20Private%20Equity&subsource=CO&fieldList=';
 			var cobase = '{"fieldList":{"facts.COBNSL":"Cash Offer (CO)"}}';
 			var RealtorFirstNameValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]');
-			var RealtorLastNameValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]');
-			var RealtorEmailValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]');
-			var RealtorPhoneValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]');
+			var RealtorLastNameValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentLastName"]');
+			var RealtorEmailValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentEmail"]');
+			var RealtorPhoneValue = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentMobilePhone"]');
 			$(RealtorFirstNameValue).on("keyup", function(e) {
 				RealtorFirstName = RealtorFirstNameValue.val();
 			});
