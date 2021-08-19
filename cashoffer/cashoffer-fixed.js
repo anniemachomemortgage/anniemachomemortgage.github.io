@@ -312,6 +312,7 @@ $(function() {
 		// Apply now link adjustment for homebuyer CO
 		if (window.location.href.indexOf("amhbco-start") != -1) {
 			var linktoApplyt = 'https://annie-mac.com/loan/apply?source=AnnieMac%20Private%20Equity&subsource=CO&fieldList=';
+			var cobase;
 			var RealtorFirstName;
 			var RealtorLastName;
 			var RealtorEmail;
@@ -335,10 +336,10 @@ $(function() {
 					}
 				}
 				if((RealtorFullName == null) && (RealtorEmail == null) && (RealtorPhone == null)) {
-					var cobase = '{"fieldList":{"facts.COBNSL":"Cash Offer (CO)"}}';
+					cobase = '{"fieldList":{"facts.COBNSL":"Cash Offer (CO)"}}';
 				}
 				if((RealtorFullName != null) && (RealtorEmail != null) && (RealtorPhone != null)) {
-					var cobase = '{"fieldList":{"facts.COBNSL":"Cash Offer (CO)", "loanParty.buyersAgent.name":"' + RealtorFullName + '", "loanParty.buyersAgent.phoneCell":"' + RealtorPhone + '", "loanParty.buyersAgent.emailAddress":"' + RealtorEmail + '"}}'
+					cobase = '{"fieldList":{"facts.COBNSL":"Cash Offer (CO)", "loanParty.buyersAgent.name":"' + RealtorFullName + '", "loanParty.buyersAgent.phoneCell":"' + RealtorPhone + '", "loanParty.buyersAgent.emailAddress":"' + RealtorEmail + '"}}'
 				}
 			});
 			$("#apply-or-learn").change(function() {
