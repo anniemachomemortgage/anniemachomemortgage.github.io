@@ -316,7 +316,7 @@ $(function() {
 			var RealtorFirstName;
 			var RealtorLastName;
 			var RealtorEmail;
-			var RealtorPhone
+			var RealtorPhone;
 			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').on("keyup", function(e) {
 				RealtorFirstName = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
 			});
