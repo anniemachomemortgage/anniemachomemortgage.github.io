@@ -2482,6 +2482,10 @@ margin: auto;
   background: #fff;
 }
 
+#hannahkatz .team-member-portrait {
+  background-position-y: 12% !important;
+}
+
 #mattmiller .team-member-portrait {
   background-position-y: 19% !important;
 }
