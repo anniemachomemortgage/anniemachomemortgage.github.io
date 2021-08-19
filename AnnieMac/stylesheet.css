@@ -2487,7 +2487,7 @@ margin: auto;
 }
 
 #mattmiller .team-member-portrait {
-  background-position-y: 19% !important;
+  background-position-y: -1% !important;
 }
 
 #aaronjacobson .team-member-portrait {
