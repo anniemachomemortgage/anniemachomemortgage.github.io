@@ -330,16 +330,19 @@ $(function() {
 				RealtorPhone = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
 			});
 			$(":input").on("keyup", function(e) {
-				if(RealtorFirstName != null) {
-					if(RealtorLastName != null) {
-						RealtorFullName = RealtorFirstName + " " + RealtorLastName;
-					}
+				if ((RealtorFirstName != null) && (RealtorLastName != null)) {
+					RealtorFullName = RealtorFirstName + " " + RealtorLastName;
+				} 
+				else {
+					RealtorFullName = RealtorFirstName
 				}
-				if((RealtorFullName == null) && (RealtorEmail == null) && (RealtorPhone == null)) {
-					cobase = '{"fieldList":{"facts.COBNSL":"Cash Offer (CO)"}}';
-				}
-				if((RealtorFullName != null) && (RealtorEmail != null) && (RealtorPhone != null)) {
+			});
+			$(":input").on("keyup", function(e) {
+				if ((RealtorFullName != null) && (RealtorEmail != null) && (RealtorPhone != null)) {
 					cobase = '{"fieldList":{"facts.COBNSL":"Cash Offer (CO)", "loanParty.buyersAgent.name":"' + RealtorFullName + '", "loanParty.buyersAgent.phoneCell":"' + RealtorPhone + '", "loanParty.buyersAgent.emailAddress":"' + RealtorEmail + '"}}'
+				} 
+				else {
+					cobase = '{"fieldList":{"facts.COBNSL":"Cash Offer (CO)"}}';
 				}
 			});
 			$("#apply-or-learn").change(function() {
