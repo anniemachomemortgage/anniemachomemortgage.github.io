@@ -312,28 +312,23 @@ $(function() {
 		// Apply now link adjustment for homebuyer CO
 		if (window.location.href.indexOf("amhbco-start") != -1) {
 			var linktoApplyt = 'https://annie-mac.com/loan/apply?source=AnnieMac%20Private%20Equity&subsource=CO&fieldList=';
-			var RealtorFirstName = null;
-			var RealtorLastName = null;
-			var RealtorFullName = null;
-			var RealtorEmail = null;
-			var RealtorPhone = null;
 			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').on("change", function(e) {
-				RealtorFirstName = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
+				var RealtorFirstName = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
 				console.log(RealtorFirstName);
 			});
 			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentLastName"]').on("change", function(e) {
-				RealtorLastName = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
+				var RealtorLastName = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
 				console.log(RealtorLastName);
 			});
 			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentEmail"]').on("change", function(e) {
-				RealtorEmail = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
+				var RealtorEmail = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
 				console.log(RealtorEmail);
 			});
 			$('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentMobilePhone"]').on("change", function(e) {
-				RealtorPhone = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
+				var RealtorPhone = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();
 				console.log(RealtorPhone);
 			});
-			$(":input").on("change", function(e) {
+			$(":input").on("keyup", function(e) {
 				if(RealtorFirstName != null) {
 					if(RealtorLastName != null) {
 						RealtorFullName = RealtorFirstName + " " + RealtorLastName;
