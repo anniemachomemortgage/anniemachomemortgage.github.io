@@ -257,6 +257,16 @@ $(function() {
 		});
 		// Apply now link adjustment for realtor agent referral BNSL
 		if (window.location.href.indexOf("rebnsl-start") != -1) {
+			$("#working-with-agent").change(function() {
+				if($("#real-estate-toggle-form").is(":selected")) {
+					$("#Entity").val("Contact");
+					$("#LeadSourceID").val("");
+				}
+				if($("#real-estate-untoggle-form").is(":selected")) {
+					$("#Entity").val("PreQual");
+					$("#LeadSourceID").val("Q6UJ9A1PQKN7");
+				}
+			});
 			var linktoApplyt = 'https://annie-mac.com/loan/apply?source=AnnieMac%20Private%20Equity&subsource=BNSL%20-%20Agent%20Referral&fieldList=';
 			var bnslbase = '{"fieldList":{"facts.COBNSL":"Buy Now, Sell Later (BNSL)"}}';
 			bnslbase = btoa(bnslbase);
@@ -323,6 +333,16 @@ $(function() {
 		}
 		// Apply now link adjustment for realtor agent referral CO
 		if (window.location.href.indexOf("amreco-start") != -1) {
+			$("#working-with-agent").change(function() {
+				if($("#real-estate-toggle-form").is(":selected")) {
+					$("#Entity").val("Contact");
+					$("#LeadSourceID").val("");
+				}
+				if($("#real-estate-untoggle-form").is(":selected")) {
+					$("#Entity").val("PreQual");
+					$("#LeadSourceID").val("Q6UJ9A1PQKN7");
+				}
+			});
 			var linktoApplyt = 'https://annie-mac.com/loan/apply?source=AnnieMac%20Private%20Equity&subsource=CO%20-%20Agent%20Referral&fieldList=';
 			var cobase = '{"fieldList":{"facts.COBNSL":"Cash Offer (CO)"}}';
 			cobase = btoa(cobase);
