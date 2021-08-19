@@ -322,6 +322,7 @@ $(function() {
 				RealtorLastName = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentLastName"]').val();
 				RealtorEmail = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentEmail"]').val();
 				RealtorPhone = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentMobilePhone"]').val();
+				console.log(RealtorFirstName);
 			});
 			cobase = btoa(cobase);
 			linktoApplyt = linktoApplyt + cobase;
