@@ -266,7 +266,7 @@ $(function() {
 			var workingAgentPhone = null;
 			$("#working-with-agent").change(function() {
 				if($("#real-estate-toggle-form").is(":selected")) {
-					$(":input").on("keyup change", function(e) {
+					$(":input").on("change", function(e) {
 						workingAgentFirstName = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentFirstName"]').val();;
 						workingAgentLastName = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentLastName"]').val();;
 						workingAgentEmail = $('input[type="text"][data-role="working-with-agent-verification"][data-xml-node="AgentEmail"]').val();;
@@ -275,6 +275,8 @@ $(function() {
 						console.log(workingAgentLastName);
 						console.log(workingAgentEmail);
 						console.log(workingAgentPhone);
+						cobase = '{"fieldList":{"facts.COBNSL":"Cash Offer (CO)", "loanParty.buyersAgent.name":"' + workingAgentFirstName + workingAgentLastName '","loanParty.buyersAgent.phoneCell":"' + workingAgentPhone + '","loanParty.buyersAgent.emailAddress":"' + workingAgentEmail + '"}};"';
+						console.log(cobase);
 					})
 				}
 			});
