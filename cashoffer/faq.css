@@ -1,0 +1,40 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#hero-sidekick {
+	background: red;
+	min-height: 300px;
+	position: relative;
+}
+
+#search-section {
+	position: absolute;
+	background: orange;
+	padding: 20px 40px 50px;
+	width: 60%;
+	bottom: 0;
+	top: 50%; 
+	right: 50%;
+	transform: translate(50%,20%);
+}
+
+.toggles {
+	background: blue;
+}
+
+.toggles ul {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	justify-content: space-between;
+	width: 60%;
+	margin: 40px auto;
+	padding: 60px 0 0 0;
+}
+
+.toggles ul li {
+	background: purple;
+	padding: 15px;
+}
