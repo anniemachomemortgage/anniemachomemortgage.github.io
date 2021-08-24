@@ -1,40 +1,116 @@
 body {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 #hero-sidekick {
-	background: red;
-	min-height: 300px;
+	background: radial-gradient(circle, #16265a 0%, #010432 100%);
+	color: #53c9db;
+	min-height: 335px;
 	position: relative;
 }
 
 #search-section {
 	position: absolute;
-	background: orange;
 	padding: 20px 40px 50px;
-	width: 60%;
-	bottom: 0;
+	bottom: 50%;
 	top: 50%; 
+	right: 50%;
+	transform: translate(50%,-50%);
+}
+
+section#faq-selection-declarations {
+	position: absolute;
+	bottom: 20%;
 	right: 50%;
 	transform: translate(50%,20%);
 }
 
-.toggles {
-	background: blue;
+#search-section form {
+	width: initial;
+	max-width: initial;
+	min-width: 800px;
+	margin: 0 auto;
 }
 
-.toggles ul {
+#search-functionality input {
+	text-align: left;
+	font-size: 20px;
+	padding: 18px 15px 5px;
+	border: initial;
+	border-bottom: 1px solid rgb(255 255 255 / 30%);
+	box-shadow: initial;
+	outline: none;
+	border-radius: 0;
+	letter-spacing: 1.35px;
+	background: transparent;
+}
+
+#search-functionality input::placeholder {
+	  color: white;
+	  opacity: 1; 
+	}
+	
+#search-functionality input:-ms-input-placeholder {
+	  color: white;
+	}
+	
+#search-functionality input::-ms-input-placeholder { 
+	  color: white;
+	}
+
+.search-toggles ul {
 	display: flex;
 	flex-direction: row;
 	list-style-type: none;
-	justify-content: space-between;
-	width: 60%;
-	margin: 40px auto;
-	padding: 60px 0 0 0;
+	justify-content: center;
+	margin: 60px auto 10px;
+	padding: 0;
+	width: 800px;
 }
 
-.toggles ul li {
-	background: purple;
-	padding: 15px;
+.search-toggles ul li {
+	border: 1px solid rgb(255 255 255 / 30%);
+	border-radius: 4px;
+	margin-right: 15px;
+	padding: 6px 14px;
+	color: white;
+}
+
+li#topic-point {
+	border: none;
+}
+
+#faq-contained-section {
+	width: 800px;
+	margin: 30px auto;
+}
+
+/* #faq-contained-section section {
+	margin: 30px 0;
+} */
+
+#faq-contained-section h3 {
+	display: none;
+}
+
+details > summary {
+	list-style: none;
+	font-weight: 700;
+	margin: 10px 0;
+	border-bottom: 1px solid rgba(0,0,0,.0);
+	padding-bottom: 6px;
+}
+
+details[open] summary {
+	border-bottom: 1px solid rgba(0,0,0,.13);
+}
+
+details > summary::-webkit-details-marker {
+	display: none;
+}
+
+abbr {
+	font-weight: 600;
 }
