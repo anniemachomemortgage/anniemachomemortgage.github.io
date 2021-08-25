@@ -2490,6 +2490,10 @@ margin: auto;
   background-position-y: -1% !important;
 }
 
+#andrewquinn .team-member-portrait {
+  background-position-y: 24% !important;
+}
+
 #aaronjacobson .team-member-portrait {
   background-position-y: 10% !important;
 }
