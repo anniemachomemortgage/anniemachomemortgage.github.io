@@ -11,7 +11,7 @@ body {
 	position: relative;
 	background-size: cover;
 	background-position-y: 51%;
-	box-shadow: rgb(149 157 165 / 84%) 0px 8px 70px;
+	box-shadow: rgb(149 157 165 / 10%) 0px 8px 20px;
 }
 
 #hero-sidekick nav {
