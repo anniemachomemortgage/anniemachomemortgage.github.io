@@ -151,6 +151,7 @@ li#topic-point {
 
 #faq-contained-section {
 	padding: 50px 0;
+	margin-right: 20px;
 }
 
 #informational-sectional {
@@ -276,6 +277,7 @@ li#topic-point {
 
 details {
 	padding: 20px 30px 0 0;
+	/* background: red; */
 }
 
 details summary {
@@ -296,7 +298,9 @@ details[open] summary {
 }
 
 details[open] {
-	
+	background: #f8f8f8;
+	border-left: 20px solid #3e8d65;
+	margin: 12px 0;
 }
 
 details > summary::-webkit-details-marker {
@@ -307,8 +311,10 @@ abbr {
 	font-weight: 600;
 }
 
-section details:first-of-type {
-	padding-top: 0;
+section details {
+	padding: 27px;
+	/* border-left: 20px solid #3e8d65; */
+	/* margin: 12px 0; */
 }
 
 #faq_footer {
