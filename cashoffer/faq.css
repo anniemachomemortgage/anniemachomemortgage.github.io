@@ -301,7 +301,7 @@ li#topic-point {
 	min-height: 300px;
 }
 
-#sidebar-faq-static #identified-realtor-selection {
+#sidebar-faq-static #identified-realtor-selection, #sidebar-general-selection {
 	background: linear-gradient(180deg, #524c9ce3, #4d3784), url(https://anniemachomemortgage.github.io/cashoffer/general-question.jpeg) bottom center no-repeat;
 	border-radius: 4px;
 	margin-bottom: 25px;
@@ -313,10 +313,9 @@ li#topic-point {
 	flex-direction: column;
 	justify-content: flex-end;
 	background-size: cover;
-	background-position-y: 600%;
 }
 
-#sidebar-faq-static #identified-buy-now-selection {
+#sidebar-faq-static #identified-buy-now-selection, #sidebar-buy-now-sell-later-selection {
 	background: linear-gradient(180deg, #9c4c99d6, #6b2c6df7), url(https://anniemachomemortgage.github.io/cashoffer/buy-now.jpeg) bottom center no-repeat;
 	border-radius: 4px;
 	margin-bottom: 25px;
@@ -328,10 +327,9 @@ li#topic-point {
 	flex-direction: column;
 	justify-content: flex-end;
 	background-size: cover;
-	background-position-y: 220%;
 }
 
-#sidebar-faq-static #identified-homebuyer-selection {
+#sidebar-faq-static #identified-homebuyer-selection, #sidebar-start-selection {
 	background: linear-gradient(180deg, #4c7a9cd6, #263d77), url(https://anniemachomemortgage.github.io/cashoffer/cash-offer.jpeg) bottom center no-repeat;
 	border-radius: 4px;
 	margin-bottom: 25px;
@@ -343,10 +341,9 @@ li#topic-point {
 	flex-direction: column;
 	justify-content: flex-end;
 	background-size: cover;
-	background-position-y: 400%;
 }
 
-#sidebar-faq-static #identified-cash-offer-selection {
+#sidebar-faq-static #identified-cash-offer-selection, #sidebar-cash-offer-selection {
 	background: linear-gradient(180deg, #22945bbd, #38865f), url(https://anniemachomemortgage.github.io/cashoffer/start-now.jpeg) bottom center no-repeat;
 	border-radius: 4px;
 	margin-bottom: 25px;
@@ -358,7 +355,6 @@ li#topic-point {
 	flex-direction: column;
 	justify-content: flex-end;
 	background-size: cover;
-	background-position-y: 400%;
 }
 
 #contained-static ul > * {
