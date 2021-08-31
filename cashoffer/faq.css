@@ -213,6 +213,7 @@ li#topic-point {
 }
 
 #redirect-sectional {
+	order: -1 !important;
 	color: #f8f8f8 !important;
 	padding: 10px 0px !important;
 	min-height: 150px !important; 
@@ -271,6 +272,8 @@ li#topic-point {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
+	display: flex;
+	flex-direction: column;
 }
 
 #contained-static ul {
