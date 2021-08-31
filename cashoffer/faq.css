@@ -212,18 +212,18 @@ li#topic-point {
 	border-radius: 3px;
 }
 
-#informational-sectional h3 {
+#informational-sectional div h3 {
 	color: #f8f8f8 !important;
 	font-size: 19px;
 	font-weight: 800;
 	margin-bottom: -10px;
 }
 
-#informational-sectional p {
+#informational-sectional div p {
 	color: #f8f8f8 !important;
 }
 
-#informational-sectional button {
+#informational-sectional div button {
 	border: none;
 	background: #f8f8f8;
 	margin: 0 0 15px;
