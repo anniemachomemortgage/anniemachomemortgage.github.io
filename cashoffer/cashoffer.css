@@ -18,7 +18,7 @@ header, main, section, form, form div, footer {
 }
 form, section[data-role="mapping-agent"], section[data-role="secondary-mapping-agent"] {
 	width: 80vw;
-	max-width: 920px;
+	max-width: 840px;
 	min-width: 600px;
 	margin: 0 auto;
 }
