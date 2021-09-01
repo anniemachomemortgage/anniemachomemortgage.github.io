@@ -162,6 +162,7 @@ $(function() {
 			if ($(this).text().search(new RegExp(filter, "i")) < 0) {
 				$(this).hide();
 			} else {
+				$(this).attr('open', '');
 				$(this).show();
 				count++;
 			}
