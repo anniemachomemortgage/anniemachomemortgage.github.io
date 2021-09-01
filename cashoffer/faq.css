@@ -57,10 +57,6 @@ body {
 	height: auto;
 }
 
-#logo-container img:hover, #logo-container-b img:hover {
-	cursor: pointer;
-}
-
 #action-button button {
 	display: none;
 	background: linear-gradient(45deg, #4c9c74, #37845d);
@@ -536,4 +532,8 @@ abbr {
 
 .hide-me {
 	display: none !important;
+}
+
+#logo-container img:hover, #logo-container-b img:hover, #begin-button:hover, #informational-sectional div button:hover {
+	cursor: pointer;
 }
