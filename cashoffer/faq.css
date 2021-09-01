@@ -538,7 +538,7 @@ abbr {
 	cursor: default;
 }
 
-#logo-container img:hover, #logo-container-b img:hover, #begin-button:hover, #informational-sectional div button:hover, #question-callout-sectional div button:hover, .search-toggles ul li:hover {
+#logo-container img:hover, #logo-container-b img:hover, #informational-sectional div button:hover, #question-callout-sectional div button:hover, .search-toggles ul li:hover {
 	cursor: pointer;
 }
 
