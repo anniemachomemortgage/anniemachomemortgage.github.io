@@ -538,7 +538,7 @@ abbr {
 	cursor: default;
 }
 
-#logo-container img:hover, #logo-container-b img:hover, #informational-sectional div button:hover, #question-callout-sectional div button:hover, .search-toggles ul li:hover {
+#logo-container img:hover, #logo-container-b img:hover, #begin-button:hover, #informational-sectional div button:hover, #question-callout-sectional div button:hover, .search-toggles ul li:hover {
 	cursor: pointer;
 }
 
@@ -546,11 +546,11 @@ abbr {
 	cursor: pointer !important;
 }
 
-.no-click {
+#begin-button.no-click {
 	background-color: #403e3e !important;
 	opacity: .4;
 }
 
-.no-click:hover {
+#begin-button.no-click:hover {
 	cursor: not-allowed !important;
 }
