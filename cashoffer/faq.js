@@ -28,14 +28,11 @@ $(function() {
 						window.location.href = './rebnsl-start';
 					});
 				};
-				else if($('#identified-cash-offer-selection').hasClass('active-cash-offer')) {
+				if($('#identified-cash-offer-selection').hasClass('active-cash-offer')) {
 					$("#begin-button").removeClass('no-click');
 					$("#begin-button").click(function(){
 						window.location.href = './amreco-start';
 					});
-				};
-				else {
-					$("#begin-button").addClass('no-click');
 				};
 			};
 			if($('#identified-homebuyer-selection').hasClass('active-homebuyer')) {
@@ -45,14 +42,11 @@ $(function() {
 						window.location.href = './hbbnsl-start';
 					});
 				};
-				else if($('#identified-cash-offer-selection').hasClass('active-cash-offer')) {
+				if($('#identified-cash-offer-selection').hasClass('active-cash-offer')) {
 					$("#begin-button").removeClass('no-click');
 					$("#begin-button").click(function(){
 						window.location.href = './amhbco-start';
 					});
-				};
-				else {
-					$("#begin-button").addClass('no-click');
 				};
 			};
 		});
@@ -66,14 +60,11 @@ $(function() {
 						window.location.href = './rebnsl-start';
 					});
 				};
-				else if($('#identified-cash-offer-selection').hasClass('active-cash-offer')) {
+				if($('#identified-cash-offer-selection').hasClass('active-cash-offer')) {
 					$("#begin-button").removeClass('no-click');
 					$("#begin-button").click(function(){
 						window.location.href = './amreco-start';
 					});
-				};
-				else {
-					$("#begin-button").addClass('no-click');
 				};
 			};
 			if($('#identified-homebuyer-selection').hasClass('active-homebuyer')) {
@@ -83,14 +74,11 @@ $(function() {
 						window.location.href = './hbbnsl-start';
 					});
 				};
-				else if($('#identified-cash-offer-selection').hasClass('active-cash-offer')) {
+				if($('#identified-cash-offer-selection').hasClass('active-cash-offer')) {
 					$("#begin-button").removeClass('no-click');
 					$("#begin-button").click(function(){
 						window.location.href = './amhbco-start';
 					});
-				};
-				else {
-					$("#begin-button").addClass('no-click');
 				};
 			};
 		});
