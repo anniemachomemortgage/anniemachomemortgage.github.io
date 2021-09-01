@@ -8,4 +8,7 @@ $(function() {
 	$("#redirect-sectional").click(function(){
 		window.location.href = './amcbp-start';
 	});
+	$("#question-callout-sectional > div > button").click(function(){
+		window.location.href = './cash2keys';
+	});
 });
