@@ -173,14 +173,14 @@ li#topic-point {
 }
 
 #informational-sectional, #question-callout-sectional {
-	width: 1000px;
+	width: 1200px;
 	/* max-width: 1275px;
 	min-width: 980px; */
 	margin: 30px auto 5px;
 }
 
 #begin-again {
-	width: 1000px;
+	width: 1200px;
 	/* max-width: 1275px;
 	min-width: 980px; */
 	margin: 1px auto 15px;
@@ -253,7 +253,7 @@ li#topic-point {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 1000px;
+	width: 1200px;
 	/* max-width: 1275px;
 	min-width: 980px; */
 	margin: 0 auto;
@@ -263,7 +263,7 @@ li#topic-point {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	width: 1000px;
+	width: 1200px;
 	/* max-width: 1275px;
 	min-width: 980px; */
 	margin: 20px auto;
