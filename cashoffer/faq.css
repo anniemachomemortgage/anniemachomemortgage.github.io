@@ -545,3 +545,12 @@ abbr {
 #redirect-sectional:hover {
 	cursor: pointer !important;
 }
+
+.no-click {
+	background-color: #403e3e !important;
+	opacity: .4;
+}
+
+.no-click:hover {
+	pointer: not-allowed;
+}
