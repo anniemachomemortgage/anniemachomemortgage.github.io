@@ -534,6 +534,10 @@ abbr {
 	display: none !important;
 }
 
-#logo-container img:hover, #logo-container-b img:hover, #begin-button:hover, #informational-sectional div button:hover, .search-toggles ul li:hover {
+#sidebar-faq-static ul li:hover {
+	cursor: default;
+}
+
+#logo-container img:hover, #logo-container-b img:hover, #begin-button:hover, #informational-sectional div button:hover, .search-toggles ul li:hover, #redirect-sectional:hover {
 	cursor: pointer;
 }
