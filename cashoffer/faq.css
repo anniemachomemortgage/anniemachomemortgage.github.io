@@ -57,6 +57,10 @@ body {
 	height: auto;
 }
 
+#logo-container img:hover, #logo-container-b img:hover {
+	cursor: pointer;
+}
+
 #action-button button {
 	display: none;
 	background: linear-gradient(45deg, #4c9c74, #37845d);
