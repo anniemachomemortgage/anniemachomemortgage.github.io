@@ -489,7 +489,7 @@ details {
 }
 
 details:first-of-type {
-	padding-top: 0;
+	margin-top: -20px;
 }
 
 details summary {
