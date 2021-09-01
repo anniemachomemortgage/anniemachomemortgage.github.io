@@ -17,6 +17,20 @@ $(function() {
 	$("#question-callout-sectional > div > button").click(function(){
 		window.location.href = './cash2keys';
 	});
+	if (window.location.href.indexOf("/cash2keys") != -1) {
+		$("#search-faq").keyup(function() {
+			var filter = $(this).val(),
+			count = 0;
+			$('details').each(function() {
+				if ($(this).text().search(new RegExp(filter, "i")) < 0) {
+					$(this).hide();
+				} else {
+					$(this).show();
+					count++;
+				}
+			});
+		});
+	}
 	if (window.location.href.indexOf("/amcbp-start") != -1) {
 		$("#contained-static #identified-homebuyer-selection").click(function(){
 			$("#contained-static #identified-realtor-selection").removeClass('active-realtor');
