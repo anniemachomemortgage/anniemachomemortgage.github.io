@@ -3,12 +3,14 @@ $(function() {
 		window.location.href = './cash2keys';
 	});
 	$("#cash-offer-selection").click(function(){
-		$(this).toggleClass('active_search');
+		$(this).addClass('active_search');
+		$("#buy-now-selection").removeClass('active_search');
 		$("#borrower-bnsl").hide();
 		$("#borrower-cash").show();
 	});
 	$("#buy-now-selection").click(function(){
-		$(this).toggleClass('active_search');
+		$(this).addClass('active_search');
+		$("#cash-offer-selection").removeClass('active_search');
 		$("#borrower-cash").hide();
 		$("#borrower-bnsl").show();
 	});
@@ -17,10 +19,10 @@ $(function() {
 	});
 	$("#redirect-sectional").click(function(){
 		window.location.href = './amcbp-start';
-	});
+	}); 
 	$("#question-callout-sectional > div > button").click(function(){
 		window.location.href = './cash2keys';
-	});
+	}); 
 	if (window.location.href.indexOf("/amcbp-start") != -1) {
 		$("#contained-static #identified-homebuyer-selection").click(function(){
 			$("#contained-static #identified-realtor-selection").removeClass('active-realtor');
