@@ -20,7 +20,7 @@ $(function() {
 		$(this).toggleClass('active-realtor');
 	});
 	$("#contained-static #identified-buy-now-selection").click(function(){
-		$("#contained-static #identified-cash-offer-selection").removeClass('active-cash-offer-now');
+		$("#contained-static #identified-cash-offer-selection").removeClass('active-cash-offer');
 		$(this).toggleClass('active-buy-now');
 	});
 	$("#contained-static #identified-cash-offer-selection").click(function(){
