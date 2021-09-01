@@ -23,6 +23,8 @@ $(function() {
 	});
 	if (window.location.href.indexOf("/cash2keys") != -1) {
 		$("#search-faq").keyup(function() {
+			$("#borrower-bnsl").show();
+			$("#borrower-cash").show();
 			var filter = $(this).val(),
 			count = 0;
 			$('details').each(function() {
