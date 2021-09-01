@@ -534,6 +534,6 @@ abbr {
 	display: none !important;
 }
 
-#logo-container img:hover, #logo-container-b img:hover, #begin-button:hover, #informational-sectional div button:hover {
+#logo-container img:hover, #logo-container-b img:hover, #begin-button:hover, #informational-sectional div button:hover, .search-toggles ul li:hover {
 	cursor: pointer;
 }
