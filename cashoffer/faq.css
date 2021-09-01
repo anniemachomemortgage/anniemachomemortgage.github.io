@@ -488,6 +488,10 @@ details {
 	padding: 20px 30px 0 0;
 }
 
+details:first-of-type {
+	padding-top: 0;
+}
+
 details summary {
 	color: #3e8d65;
 	font-size: 18px;
