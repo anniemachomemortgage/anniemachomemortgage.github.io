@@ -538,6 +538,10 @@ abbr {
 	cursor: default;
 }
 
-#logo-container img:hover, #logo-container-b img:hover, #begin-button:hover, #informational-sectional div button:hover, .search-toggles ul li:hover, #redirect-sectional:hover {
+#logo-container img:hover, #logo-container-b img:hover, #begin-button:hover, #informational-sectional div button:hover, .search-toggles ul li:hover {
 	cursor: pointer;
+}
+
+#redirect-sectional:hover {
+	cursor: pointer !important;
 }
