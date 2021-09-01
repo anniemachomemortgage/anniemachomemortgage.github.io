@@ -4,9 +4,13 @@ $(function() {
 	});
 	$("#cash-offer-selection").click(function(){
 		$(this).toggleClass('active_search');
+		$("#borrower-bnsl").hide();
+		$("#borrower-cash").show();
 	});
 	$("#buy-now-selection").click(function(){
 		$(this).toggleClass('active_search');
+		$("#borrower-cash").hide();
+		$("#borrower-bnsl").show();
 	});
 	$("#informational-sectional > div > button").click(function(){
 		window.location.href = './amcbp-start';
