@@ -173,13 +173,13 @@ li#topic-point {
 }
 
 #informational-sectional {
-	width: 78vw;
+	width: 69vw;
 	min-width: 980px;
 	margin: 30px auto 5px;
 }
 
 #begin-again {
-	width: 78vw;
+	width: 69vw;
 	min-width: 980px;
 	margin: 1px auto 15px;
 	display: flex;
@@ -251,7 +251,7 @@ li#topic-point {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 78vw;
+	width: 69vw;
 	min-width: 980px;
 	margin: 0 auto;
 }
@@ -260,7 +260,7 @@ li#topic-point {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	width: 78vw;
+	width: 69vw;
 	min-width: 980px;
 	margin: 20px auto;
 }
