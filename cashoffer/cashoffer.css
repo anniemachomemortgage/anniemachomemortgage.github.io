@@ -50,12 +50,12 @@ button {
 }
 select, option {
 	max-width: 435px;
-	margin: 0 0 4px;
+	margin: -7px 0 8px;
 }
 input[type="text"], input[type="tel"], input[type="email"], select, button, option {
 	text-align: left;
 	font-size: 16px;
-	padding: 12px 15px;
+	padding: 14px 15px;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	border: 1px solid rgba(0,0,0,.3);
