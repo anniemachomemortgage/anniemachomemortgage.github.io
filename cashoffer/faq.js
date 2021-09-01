@@ -28,8 +28,5 @@ $(function() {
 			$("#contained-static #identified-buy-now-selection").removeClass('active-buy-now');
 			$(this).toggleClass('active-cash-offer');
 		});
-		$(function() {
-			$("#begin-button").addClass('no-click');
-		});
 	}
 });
