@@ -20,7 +20,7 @@ $(function() {
 	if (window.location.href.indexOf("/amcbp-start") != -1) {
 		$("#contained-static #identified-homebuyer-selection").click(function(){
 			$("#contained-static #identified-realtor-selection").removeClass('active-realtor');
-			$(this).toggleClass('active-homebuyer');
+			$(this).addClass('active-homebuyer');
 			if($('#identified-realtor-selection').hasClass('active-realtor')) {
 				if($('#identified-buy-now-selection').hasClass('active-buy-now')) {
 					$("#begin-button").removeClass('no-click');
@@ -52,7 +52,7 @@ $(function() {
 		});
 		$("#contained-static #identified-realtor-selection").click(function(){
 			$("#contained-static #identified-homebuyer-selection").removeClass('active-homebuyer');
-			$(this).toggleClass('active-realtor');
+			$(this).addClass('active-realtor');
 			if($('#identified-realtor-selection').hasClass('active-realtor')) {
 				if($('#identified-buy-now-selection').hasClass('active-buy-now')) {
 					$("#begin-button").removeClass('no-click');
@@ -84,7 +84,7 @@ $(function() {
 		});
 		$("#contained-static #identified-buy-now-selection").click(function(){
 			$("#contained-static #identified-cash-offer-selection").removeClass('active-cash-offer');
-			$(this).toggleClass('active-buy-now');
+			$(this).addClass('active-buy-now');
 			if($('#identified-realtor-selection').hasClass('active-realtor')) {
 				if($('#identified-buy-now-selection').hasClass('active-buy-now')) {
 					$("#begin-button").removeClass('no-click');
@@ -116,7 +116,7 @@ $(function() {
 		});
 		$("#contained-static #identified-cash-offer-selection").click(function(){
 			$("#contained-static #identified-buy-now-selection").removeClass('active-buy-now');
-			$(this).toggleClass('active-cash-offer');
+			$(this).addClass('active-cash-offer');
 			if($('#identified-realtor-selection').hasClass('active-realtor')) {
 				if($('#identified-buy-now-selection').hasClass('active-buy-now')) {
 					$("#begin-button").removeClass('no-click');
