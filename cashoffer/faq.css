@@ -325,6 +325,10 @@ li#topic-point {
 	display: flex;
 }
 
+#contained-static:last-of-type {
+	margin-top: 20px;
+}
+
 #contained-static  ul li {
 	min-height: 300px;
 }
