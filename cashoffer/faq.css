@@ -425,23 +425,23 @@ li#topic-point {
 }
 
 .select-cash-program #identified-homebuyer-selection {
-	background: linear-gradient(180deg, #95926cd6, #64614e), url(https://anniemachomemortgage.github.io/cashoffer/cash-offer.jpeg) bottom center no-repeat;
+	background: linear-gradient(180deg, #2c857dd6, #734c94), url(https://anniemachomemortgage.github.io/cashoffer/cash-offer.jpeg) bottom center no-repeat;
 	background-size: cover;
 }
 
 .select-cash-program #identified-realtor-selection {
-	background: linear-gradient(180deg, #95926cd6, #64614e), url(https://anniemachomemortgage.github.io/cashoffer/general-question.jpeg) bottom center no-repeat;
+	background: linear-gradient(180deg, #2c857dd6, #734c94), url(https://anniemachomemortgage.github.io/cashoffer/general-question.jpeg) bottom center no-repeat;
 	background-position-y: 30%;
 	background-size: cover;
 }
 
 .select-cash-program #identified-cash-offer-selection {
-	background: linear-gradient(180deg, #959595d6, #444), url(https://anniemachomemortgage.github.io/cashoffer/start-now.jpeg) bottom center no-repeat;
+	background: linear-gradient(180deg, #4c9479cc, #146d88), url(https://anniemachomemortgage.github.io/cashoffer/start-now.jpeg) bottom center no-repeat;
 	background-size: cover;
 }
 
 .select-cash-program #identified-buy-now-selection {	
-	background: linear-gradient(180deg, #959595d6, #444), url(https://anniemachomemortgage.github.io/cashoffer/buy-now.jpeg) bottom center no-repeat;
+	background: linear-gradient(180deg, #4c9479cc, #146d88), url(https://anniemachomemortgage.github.io/cashoffer/buy-now.jpeg) bottom center no-repeat;
 	background-size: cover;
 }
 
