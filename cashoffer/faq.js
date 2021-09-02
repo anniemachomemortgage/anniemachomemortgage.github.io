@@ -158,12 +158,20 @@ $(function() {
 			if (!$(this).hasClass("refined-homeowner")) {
 				$(this).hide();
 			};
+			if ($(this).hasClass("refined-homeowner")) {
+				$(this).show();
+				$(this).attr('open', '');
+			};
 		});
 	});
 	$("#sidebar-general-selection").click(function(){
 		$('details').each(function() {
 			if (!$(this).hasClass("refined-realtor")) {
 				$(this).hide();
+			};
+			if ($(this).hasClass("refined-realtor")) {
+				$(this).show();
+				$(this).attr('open', '');
 			};
 		});
 	});
@@ -172,12 +180,20 @@ $(function() {
 			if (!$(this).hasClass("refined-cash")) {
 				$(this).hide();
 			};
+			if ($(this).hasClass("refined-cash")) {
+				$(this).show();
+				$(this).attr('open', '');
+			};
 		});
 	});
 	$("#sidebar-buy-now-sell-later-selection").click(function(){
 		$('details').each(function() {
 			if (!$(this).hasClass("refined-bnsl")) {
 				$(this).hide();
+			};
+			if ($(this).hasClass("refined-bnsl")) {
+				$(this).show();
+				$(this).attr('open', '');
 			};
 		});
 	});
