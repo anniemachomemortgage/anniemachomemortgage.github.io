@@ -22,7 +22,7 @@ $(function() {
 	}); 
 	// $('button[data-qlf-submit]').click(function() {
 	// 	$(body).delay(5000).fadeOut(2000, function() { 
-	// 		window.location = './cash2keys; 
+	// 		window.location = './cash2keys-submitted?lead=abcdefg; 
 	// 	});
 	// });
 	$("#question-callout-sectional > div > button").click(function(){
