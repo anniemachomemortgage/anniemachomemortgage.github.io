@@ -153,6 +153,34 @@ $(function() {
 			};
 		});
 	}
+	$("#sidebar-start-selection").click(function(){
+		$('details').each(function() {
+			if (!$(this).hasClass("refined-homeowner")) {
+				$(this).hide();
+			};
+		});
+	});
+	$("#sidebar-general-selection").click(function(){
+		$('details').each(function() {
+			if (!$(this).hasClass("refined-realtor")) {
+				$(this).hide();
+			};
+		});
+	});
+	$("#sidebar-cash-offer-selection").click(function(){
+		$('details').each(function() {
+			if (!$(this).hasClass("refined-cash")) {
+				$(this).hide();
+			};
+		});
+	});
+	$("#sidebar-buy-now-sell-later-selection").click(function(){
+		$('details').each(function() {
+			if (!$(this).hasClass("refined-bnsl")) {
+				$(this).hide();
+			};
+		});
+	});
 	$("#search-faq").keyup(function() {
 		$("#borrower-bnsl").show();
 		$("#borrower-cash").show();
