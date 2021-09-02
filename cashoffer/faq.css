@@ -546,6 +546,11 @@ abbr {
 	cursor: pointer;
 }
 
+#informational-sectional div button:hover, #question-callout-sectional div button:hover {
+	background: #ddffee;
+	color: #387757;
+}
+
 #redirect-sectional:hover {
 	cursor: pointer !important;
 }
