@@ -416,6 +416,15 @@ li#topic-point {
 	background-position-y: 30%;
 }
 
+.select-cash-program #identified-homebuyer-selection {
+	background: linear-gradient(180deg, #4c7a9cd6, #263d77), url(https://anniemachomemortgage.github.io/cashoffer/cash-offer.jpeg) bottom center no-repeat;
+}
+
+.select-cash-program #identified-realtor-selection {
+	background: linear-gradient(180deg, #524c9ce3, #4d3784), url(https://anniemachomemortgage.github.io/cashoffer/general-question.jpeg) bottom center no-repeat;
+	background-position-y: 30%;
+}
+
 #identified-cash-offer-selection {
 	background: linear-gradient(180deg, #22945bbd, #38865f), url(https://anniemachomemortgage.github.io/cashoffer/start-now.jpeg) bottom center no-repeat;
 }
