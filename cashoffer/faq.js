@@ -20,6 +20,11 @@ $(function() {
 	$("#redirect-sectional").click(function(){
 		window.location.href = './amcbp-start';
 	}); 
+	// $('button[data-qlf-submit]').click(function() {
+	// 	$(body).delay(5000).fadeOut(2000, function() { 
+	// 		window.location = './cash2keys; 
+	// 	});
+	// });
 	$("#question-callout-sectional > div > button").click(function(){
 		window.location.href = './cash2keys';
 	}); 
