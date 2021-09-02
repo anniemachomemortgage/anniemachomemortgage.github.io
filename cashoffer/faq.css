@@ -555,6 +555,10 @@ abbr {
 	opacity: .4;
 }
 
+#begin-button:hover {
+	background-color: #24418c;
+}
+
 #begin-button.no-click:hover {
 	cursor: not-allowed !important;
 }
