@@ -437,10 +437,12 @@ li#topic-point {
 
 .select-cash-program #identified-cash-offer-selection {
 	background: linear-gradient(180deg, #22945bbd, #38865f), url(https://anniemachomemortgage.github.io/cashoffer/start-now.jpeg) bottom center no-repeat;
+	background-size: cover;
 }
 
 .select-cash-program #identified-buy-now-selection {	
 	background: linear-gradient(180deg, #22945bbd, #38865f), url(https://anniemachomemortgage.github.io/cashoffer/buy-now.jpeg) bottom center no-repeat;
+	background-size: cover;
 }
 
 #contained-static #identified-homebuyer-selection:hover {
