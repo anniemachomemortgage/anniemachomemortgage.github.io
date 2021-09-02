@@ -418,11 +418,13 @@ li#topic-point {
 
 .select-cash-program #identified-homebuyer-selection {
 	background: linear-gradient(180deg, #4c7a9cd6, #263d77), url(https://anniemachomemortgage.github.io/cashoffer/cash-offer.jpeg) bottom center no-repeat;
+	background-size: cover;
 }
 
 .select-cash-program #identified-realtor-selection {
-	background: linear-gradient(180deg, #524c9ce3, #4d3784), url(https://anniemachomemortgage.github.io/cashoffer/general-question.jpeg) bottom center no-repeat;
+	background: linear-gradient(180deg, #4c7a9cd6, #263d77), url(https://anniemachomemortgage.github.io/cashoffer/general-question.jpeg) bottom center no-repeat;
 	background-position-y: 30%;
+	background-size: cover;
 }
 
 #identified-cash-offer-selection {
