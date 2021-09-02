@@ -553,6 +553,7 @@ abbr {
 
 #redirect-sectional:hover {
 	cursor: pointer !important;
+	background-color: #24418c;
 }
 
 #begin-button.no-click {
