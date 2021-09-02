@@ -217,7 +217,7 @@ li#topic-point {
 #instruction-sectional div {
 	box-shadow: rgb(0 0 0 / 5%) 0px 4px 6px;
 	color: #f8f8f8 !important;
-	background-color: #c66060;
+	background-color: #2c857dd6;
 	padding: 10px 27px;
 	border-radius: 3px;
 }
@@ -425,12 +425,12 @@ li#topic-point {
 }
 
 .select-cash-program #identified-homebuyer-selection {
-	background: linear-gradient(180deg, #2c857dd6, #734c94), url(https://anniemachomemortgage.github.io/cashoffer/cash-offer.jpeg) bottom center no-repeat;
+	background: linear-gradient(180deg, #2c5785d6, #734c94), url(https://anniemachomemortgage.github.io/cashoffer/cash-offer.jpeg) bottom center no-repeat;
 	background-size: cover;
 }
 
 .select-cash-program #identified-realtor-selection {
-	background: linear-gradient(180deg, #2c857dd6, #734c94), url(https://anniemachomemortgage.github.io/cashoffer/general-question.jpeg) bottom center no-repeat;
+	background: linear-gradient(180deg, #2c5785d6, #734c94), url(https://anniemachomemortgage.github.io/cashoffer/general-question.jpeg) bottom center no-repeat;
 	background-position-y: 30%;
 	background-size: cover;
 }
