@@ -155,6 +155,7 @@ $(function() {
 	}
 	$("#sidebar-start-selection").click(function(){
 		$('details').each(function() {
+			$(this).show();
 			if (!$(this).hasClass("refined-homeowner")) {
 				$(this).hide();
 			};
@@ -162,6 +163,7 @@ $(function() {
 	});
 	$("#sidebar-general-selection").click(function(){
 		$('details').each(function() {
+			$(this).show();
 			if (!$(this).hasClass("refined-realtor")) {
 				$(this).hide();
 			};
@@ -169,6 +171,7 @@ $(function() {
 	});
 	$("#sidebar-cash-offer-selection").click(function(){
 		$('details').each(function() {
+			$(this).show();
 			if (!$(this).hasClass("refined-cash")) {
 				$(this).hide();
 			};
@@ -176,6 +179,7 @@ $(function() {
 	});
 	$("#sidebar-buy-now-sell-later-selection").click(function(){
 		$('details').each(function() {
+			$(this).show();
 			if (!$(this).hasClass("refined-bnsl")) {
 				$(this).hide();
 			};
