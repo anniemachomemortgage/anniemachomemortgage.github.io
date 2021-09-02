@@ -551,7 +551,7 @@ abbr {
 	color: #387757;
 }
 
-#redirect-sectional:hover {
+#redirect-sectional:hover, .button-group button:hover {
 	cursor: pointer !important;
 	background-color: #24418c !important;
 }
