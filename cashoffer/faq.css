@@ -265,6 +265,7 @@ li#topic-point {
 	box-shadow: none;
 	padding: 0 0 3px;
 	border-bottom: 1px solid rgba(255,255,255,.15);
+	border-radius: 0px;
 }
 
 #contained-faq-sidebar {
