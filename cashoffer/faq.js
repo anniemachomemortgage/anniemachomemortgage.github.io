@@ -28,7 +28,6 @@ $(function() {
 	$("#question-callout-sectional > div > button").click(function(){
 		window.location.href = './cash2keys';
 	}); 
-	
 	if (window.location.href.indexOf("c2k-submitted?type=homebuyer&product=cash") != -1) {
 		$("#information-type-text-convert").text("for our Homebuyer Cash Now program");
 	};
