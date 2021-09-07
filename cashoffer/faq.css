@@ -613,7 +613,7 @@ abbr {
 	cursor: not-allowed !important;
 }
 
-main {
+main section:not(:first-of-type) {
 	width: 80vw;
 	max-width: 1425px;
 	min-width: 980px;
