@@ -21,7 +21,7 @@ form, section[data-role="mapping-agent"], section[data-role="secondary-mapping-a
 	max-width: 785px;
 	min-width: 600px;
 	margin: 0 auto; */
-	padding: 30px 0;
+	/* padding: 30px 0; */
 }
 form h3 {
 	font-size: 24px;
