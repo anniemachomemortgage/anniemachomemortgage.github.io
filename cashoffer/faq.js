@@ -28,6 +28,19 @@ $(function() {
 	$("#question-callout-sectional > div > button").click(function(){
 		window.location.href = './cash2keys';
 	}); 
+	
+	if (window.location.href.indexOf("c2k-submitted?type=homebuyer&product=cash") != -1) {
+		$("#information-type-text-convert").text("for our Homebuyer Cash Now program");
+	};
+	if (window.location.href.indexOf("c2k-submitted?type=agent&product=cash") != -1) {
+		$("#information-type-text-convert").text("for our Real Estate Agent Cash Now program");
+	};
+	if (window.location.href.indexOf("c2k-submitted?type=homebuyer&product=buynow") != -1) {
+		$("#information-type-text-convert").text("for our Homebuyer Buy Now, Sell Later program");
+	};
+	if (window.location.href.indexOf("c2k-submitted?type=agent&product=buynow") != -1) {
+		$("#information-type-text-convert").text("for our Real Estate Agent Buy Now, Sell Later program");
+	};
 	if (window.location.href.indexOf("/amcbp-start") != -1) {
 		$("#contained-static #identified-homebuyer-selection").click(function(){
 			$("#contained-static #identified-realtor-selection").removeClass('active-realtor');
