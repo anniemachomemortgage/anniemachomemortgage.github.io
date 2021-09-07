@@ -617,3 +617,14 @@ main > section:not(:first-of-type) {
 	max-width: 1425px;
 	min-width: 980px;
 }
+
+body {
+	flex: 1;
+	display: flex;
+}
+
+@media only screen and (max-width: 990px) {
+	body {
+		background-color: lightblue;
+	}
+}
