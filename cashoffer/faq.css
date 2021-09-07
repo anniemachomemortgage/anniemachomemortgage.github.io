@@ -615,6 +615,6 @@ abbr {
 
 section:not(:first-of-type) {
 	width: 80vw;
-	max-width: 1275px;
+	max-width: 1425px;
 	min-width: 980px;
 }
