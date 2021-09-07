@@ -290,7 +290,6 @@ li#topic-point {
 #sidebar-faq-static {
 	order: 2;
 	padding: 50px 0;
-	min-width: 420px;
 	max-width: 420px;
 }
 
