@@ -17,10 +17,11 @@ header, main, section, form, form div, footer {
 	flex-direction: column;
 }
 form, section[data-role="mapping-agent"], section[data-role="secondary-mapping-agent"] {
-	width: 80vw;
+	/* width: 80vw;
 	max-width: 785px;
 	min-width: 600px;
-	margin: 0 auto;
+	margin: 0 auto; */
+	padding: 30px 0;
 }
 form h3 {
 	font-size: 24px;
