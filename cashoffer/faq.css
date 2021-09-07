@@ -91,10 +91,9 @@ section#faq-selection-declarations {
 }
 
 #search-section form {
-	width: initial;
-	max-width: initial;
-	min-width: 800px;
+	max-width: 600px;
 	margin: 0 auto;
+	width: 70vw;
 }
 
 #search-functionality input {
