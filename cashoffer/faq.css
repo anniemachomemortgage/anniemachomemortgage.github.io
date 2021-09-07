@@ -618,3 +618,8 @@ section:not(:first-of-type) {
 	max-width: 1425px;
 	min-width: 980px;
 }
+
+section > div, section > section {
+	max-width: initial !important;
+	min-width: initial !important;
+}
