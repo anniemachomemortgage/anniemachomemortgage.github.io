@@ -625,7 +625,12 @@ main > section:not(:first-of-type) {
 		justify-content: center;
 	}
 	main > section:not(:first-of-type) {
-		min-width: 990px;
+		width: 100%;
+		max-width: initial;
+		min-width: initial;
+	}
+	header, main, section, form, form div, footer {
+		width: 100%;
 	}
 }
 
