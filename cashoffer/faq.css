@@ -648,6 +648,9 @@ main > section:not(:first-of-type) {
 	#contained-faq-sidebar {
 		flex-direction: column;
 	}
+	#faq-contained-section {
+		margin-right: 0;
+	}
 	main > section:not(:first-of-type) {
 		min-width: initial;
 	}
