@@ -632,6 +632,12 @@ main > section:not(:first-of-type) {
 	header, main, section, form, form div, footer {
 		width: 100%;
 	}
+	#informational-sectional, #question-callout-sectional, #instruction-sectional {
+		margin: 0px auto 5px;
+	}
+	#informational-sectional div, #question-callout-sectional div {
+		border-radius: 0;
+	}
 }
 
 @media only screen and (max-width: 964px) {
@@ -646,9 +652,6 @@ main > section:not(:first-of-type) {
 	}
 	#search-functionality input {
 		font-size: 18px;
-	}
-	#informational-sectional div, #question-callout-sectional div {
-		border-radius: 0;
 	}
 	#contained-faq-sidebar {
 		flex-direction: column;
