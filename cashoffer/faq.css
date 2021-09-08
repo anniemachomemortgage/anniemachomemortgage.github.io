@@ -644,6 +644,9 @@ main > section:not(:first-of-type) {
 	details[open] summary {
 		margin-left: 0;
 	}
+	#contained-static ul li strong {
+		font-size: 25px;
+	}
 }
 
 @media only screen and (max-width: 964px) {
