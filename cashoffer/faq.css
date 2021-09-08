@@ -624,4 +624,38 @@ main > section:not(:first-of-type) {
 		display: flex;
 		justify-content: center;
 	}
+	main > section:not(:first-of-type) {
+		min-width: 990px;
+	}
+}
+
+@media only screen and (max-width: 964px) {
+	#hero-sidekick {
+		min-height: 230px;
+	}
+	#logo-container, #logo-container img {
+		width: 300px;
+	}
+	#search-section {
+		padding: 10px 40px 0px;
+	}
+	#search-functionality input {
+		font-size: 18px;
+	}
+	#informational-sectional div, #question-callout-sectional div, #sidebar-faq-static #identified-realtor-selection, #sidebar-general-selection {
+		border-radius: 0;
+	}
+	#contained-faq-sidebar {
+		flex-direction: column;
+	}
+	main > section:not(:first-of-type) {
+		min-width: initial;
+	}
+	#sidebar-faq-static {
+		width: 100%;
+		order: -1;
+	}
+	#sidebar-faq-static ul {
+		width: 100%;
+	}
 }
