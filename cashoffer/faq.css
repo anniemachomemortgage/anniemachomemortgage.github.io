@@ -642,7 +642,7 @@ main > section:not(:first-of-type) {
 	#search-functionality input {
 		font-size: 18px;
 	}
-	#informational-sectional div, #question-callout-sectional div, #sidebar-faq-static #identified-realtor-selection, #sidebar-general-selection {
+	#informational-sectional div, #question-callout-sectional div {
 		border-radius: 0;
 	}
 	#contained-faq-sidebar {
@@ -652,10 +652,6 @@ main > section:not(:first-of-type) {
 		min-width: initial;
 	}
 	#sidebar-faq-static {
-		width: 100%;
-		order: -1;
-	}
-	#sidebar-faq-static ul {
-		width: 100%;
+		display: none;
 	}
 }
