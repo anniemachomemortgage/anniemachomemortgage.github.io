@@ -638,6 +638,12 @@ main > section:not(:first-of-type) {
 	#informational-sectional div, #question-callout-sectional div {
 		border-radius: 0;
 	}
+	details summary {
+		margin-left: 30px;
+	}
+	details[open] summary {
+		margin-left: 0;
+	}
 }
 
 @media only screen and (max-width: 964px) {
