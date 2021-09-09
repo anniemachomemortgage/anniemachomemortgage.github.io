@@ -664,13 +664,14 @@ main > section:not(:first-of-type) {
 		display: none;
 	}
 	#redirect-sectional {
-		width: 400px;
 		margin: -50px auto;
 	}
 	.selected-containers ul li strong {
 		font-size: 28px !important;
 	}
-	
+	#sidebar-faq-static ul {
+		padding: 0 25px;
+	}
 }
 
 @media only screen and (max-width: 964px) {
