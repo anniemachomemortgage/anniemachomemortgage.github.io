@@ -664,8 +664,11 @@ main > section:not(:first-of-type) {
 		display: none;
 	}
 	#redirect-sectional {
-		width: 500px;
+		width: 400px;
 		margin: -50px auto;
+	}
+	.selected-containers ul li strong {
+		font-size: 28px !important;
 	}
 	
 }
