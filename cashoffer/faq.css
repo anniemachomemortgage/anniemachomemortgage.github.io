@@ -653,6 +653,12 @@ main > section:not(:first-of-type) {
 	#sidebar-faq-static {
 		max-width: 100%;
 	}
+	form {
+		margin-right: 0;
+		padding: 0 25px;
+		margin-top: -30px;
+	}
+	
 }
 
 @media only screen and (max-width: 964px) {
