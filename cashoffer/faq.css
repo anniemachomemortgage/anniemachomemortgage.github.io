@@ -647,13 +647,19 @@ main > section:not(:first-of-type) {
 	#contained-static ul li strong {
 		font-size: 25px;
 	}
+	#begin-again {
+		align-items: center;
+	}
+	#sidebar-faq-static {
+		max-width: 100%;
+	}
 }
 
 @media only screen and (max-width: 964px) {
-	#hero-sidekick {
+	#hero-sidekick, #hero-sidekick-b {
 		min-height: 230px;
 	}
-	#logo-container, #logo-container img {
+	#logo-container, #logo-container-b, #logo-container img, #logo-container-b img {
 		width: 300px;
 	}
 	#search-section {
@@ -670,8 +676,5 @@ main > section:not(:first-of-type) {
 	}
 	main > section:not(:first-of-type) {
 		min-width: initial;
-	}
-	#sidebar-faq-static {
-		display: none;
 	}
 }
