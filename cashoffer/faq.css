@@ -659,19 +659,7 @@ main > section:not(:first-of-type) {
 		padding: 0 25px;
 		margin-top: -30px;
 	}
-	#sidebar-faq-static #identified-realtor-selection, #sidebar-general-selection {
-		display: none;
-	}
-	
-	#sidebar-faq-static #identified-buy-now-selection, #sidebar-buy-now-sell-later-selection {
-		display: none;
-	}
-	
-	#sidebar-faq-static #identified-homebuyer-selection, #sidebar-start-selection {
-		display: none;
-	}
-	
-	#sidebar-faq-static #identified-cash-offer-selection, #sidebar-cash-offer-selection {
+	#sidebar-faq-static #identified-realtor-selection, #sidebar-faq-static #identified-buy-now-selection, #sidebar-faq-static #identified-homebuyer-selection, #sidebar-faq-static #identified-cash-offer-selection {
 		display: none;
 	}
 	#redirect-sectional {
