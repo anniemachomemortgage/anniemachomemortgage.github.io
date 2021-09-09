@@ -653,6 +653,7 @@ main > section:not(:first-of-type) {
 	#sidebar-faq-static {
 		max-width: 100%;
 		order: 2;
+		width: 100%;
 	}
 	form {
 		margin-right: 0;
@@ -663,8 +664,8 @@ main > section:not(:first-of-type) {
 		display: none;
 	}
 	#redirect-sectional {
-		margin-top: -50px;
-		border-radius: 0px;
+		width: 500px;
+		margin: -50px auto;
 	}
 	
 }
