@@ -673,6 +673,10 @@ main > section:not(:first-of-type) {
 	#sidebar-faq-static #identified-cash-offer-selection, #sidebar-cash-offer-selection {
 		display: none;
 	}
+	#redirect-sectional {
+		margin-top: -50px;
+		border-radius: 0px;
+	}
 	
 }
 
