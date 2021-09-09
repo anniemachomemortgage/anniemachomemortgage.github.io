@@ -652,6 +652,7 @@ main > section:not(:first-of-type) {
 	}
 	#sidebar-faq-static {
 		max-width: 100%;
+		order: 2;
 	}
 	form {
 		margin-right: 0;
