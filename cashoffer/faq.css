@@ -541,7 +541,7 @@ details summary {
 	font-weight: 800;
 	list-style: none;
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 }
 
 summary i {
@@ -549,6 +549,8 @@ summary i {
 	color: #808080;
 	text-align: center;
 	order: -1;
+	padding-top: 5px;
+	float: left;
 }
 
 details summary:hover {
