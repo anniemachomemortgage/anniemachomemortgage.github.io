@@ -639,6 +639,7 @@ main > section:not(:first-of-type) {
 .page-faq-cash-program #sidebar-faq-static section#informational-sectional {
 	margin: 0 auto 30px;
 	width: initial;
+	order: -1;
 }
 
 @media only screen and (max-width: 990px) {
