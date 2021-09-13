@@ -219,10 +219,6 @@ $(function() {
 		});
 	});
 	$("#search-faq").keyup(function() {
-		if (e.keyCode == 13) {
-			e.preventDefault();
-			return false;
-		}
 		$("#borrower-bnsl").show();
 		$("#borrower-cash").show();
 		var filter = $(this).val(),
@@ -237,4 +233,10 @@ $(function() {
 			}
 		});
 	});
+	$("#search-faq").keypress(function(e) {
+		  if (e.which == 13) {
+			e.preventDefault();
+			return false;
+		  }
+		});
 });
