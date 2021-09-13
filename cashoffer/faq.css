@@ -550,7 +550,7 @@ summary i {
 	text-align: center;
 	order: -1;
 	padding-top: 5px;
-	float: left;
+	float: left; 
 }
 
 details summary:hover {
@@ -565,6 +565,8 @@ details[open] summary {
 
 details[open] summary i {
 	transform: rotate(180deg);
+	margin-top: 5px;
+	padding-top: 0;
 }
 
 details[open] {
