@@ -219,6 +219,10 @@ $(function() {
 		});
 	});
 	$("#search-faq").keyup(function() {
+		if (e.keyCode == 13) {
+			e.preventDefault();
+			return false;
+		}
 		$("#borrower-bnsl").show();
 		$("#borrower-cash").show();
 		var filter = $(this).val(),
