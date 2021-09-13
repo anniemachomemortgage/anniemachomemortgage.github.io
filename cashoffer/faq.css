@@ -540,6 +540,15 @@ details summary {
 	font-size: 18px;
 	font-weight: 800;
 	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+summary i {
+	margin-right: 11px;
+	color: #808080;
+	text-align: center;
+	order: -1;
 }
 
 details summary:hover {
@@ -550,6 +559,10 @@ details[open] summary {
 	padding-bottom: 6px;
 	margin-bottom: -15px;
 	/* border-bottom: 1px solid rgba(0,0,0,.13); */
+}
+
+details[open] summary i {
+	transform: rotate(180deg);
 }
 
 details[open] {
