@@ -49,8 +49,8 @@ header h2 {
 nav ul {
 	list-style-type: none;
 	display: flex;
-	margin: 10px 0 15px;
-	width: 820px;
+	margin: 13px 0 10px;
+	width: 750px;
 	justify-content: space-between;
 }
 nav ul a {
@@ -58,10 +58,9 @@ nav ul a {
 	color: inherit;
 }
 nav ul a li {
-	background: whitesmoke;
+	background: white;
 	padding: 10px 20px;
 	border-radius: 5px;
-	box-shadow: rgb(0 0 0 / 10%) 0px 1px 1px;
 	font-weight: 500;
 }
 main {
