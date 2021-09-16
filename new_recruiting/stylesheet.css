@@ -47,13 +47,13 @@ header h2 {
 	margin: 10px 0 0;
 }
 nav {
-	margin-top: -82px;
+	margin-top: -83px;
 	z-index: 1;
 }
 nav ul {
 	list-style-type: none;
 	display: flex;
-	margin: 5px ​0 ;
+	margin: 13px 0 10px;
 	width: 750px;
 	justify-content: space-between;
 }
@@ -63,16 +63,13 @@ nav ul a {
 }
 nav ul a li {
 	background: white;
-	padding: 10px 20px;
-	border-radius: 5px 5px 0 0;
+	padding: 0px 20px 10px;
+	border-radius: 5px;
 	font-weight: 500;
 	border-top: 7px solid transparent;
 }
-nav ul a li:hover {
-	background: whitesmoke;
-}
 .active {
-	border-top: 7px ​solid #97ec9;
+	border-top: 7px solid rgb(160 255 169);
 }
 main {
 	padding: 25px 20px;
