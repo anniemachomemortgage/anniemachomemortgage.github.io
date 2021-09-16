@@ -31,7 +31,7 @@ header {
 	background-position-y: 75%;
 }
 header h1 {
-	font-size: 52px;
+	font-size: 48px;
 	font-weight: 500;
 	text-shadow: -3px -1px 6px #00000066;
 	letter-spacing: .0025em;
@@ -85,4 +85,8 @@ main h3 {
 	font-size: 25px;
 	margin: 10px 0;
 	color: rgb(42 85 123);
+}
+
+section ul {
+	margin-left: 25px;
 }
