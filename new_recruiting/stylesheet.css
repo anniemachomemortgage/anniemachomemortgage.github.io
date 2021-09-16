@@ -67,16 +67,19 @@ main {
 	color: #3d3d3d;
 }
 blockquote {
-	background: linear-gradient(40deg, rgb(42 85 123), rgb(0 25 45) 104%);
+	background: linear-gradient(40deg, rgb(42 123 73), rgb(2 84 93) 104%);
 	padding: 20px;
+	float: right;
 	width: 900px;
+	font-size: 16px;
 	margin: 20px 0;
 	color: #fff;
-	border-bottom: 15px solid rgb(42 85 123);
+	border-bottom: 15px solid rgb(27 107 90);
 }
 blockquote span {
 	display: block;
-	margin: 10px 0;
+	font-size: 16px;
+	margin: 10px 0 0;
 }
 main h3 {
 	font-weight: 800;
