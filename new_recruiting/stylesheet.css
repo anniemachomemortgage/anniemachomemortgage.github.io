@@ -119,3 +119,17 @@ section ul {
 main p {
 	padding-bottom: 8px;
 }
+.list-overview {
+	list-style-type: none;
+	display: flex;
+	margin: 0;
+	width: 800px;
+	justify-content: space-between;
+}
+.list-overview li {
+	background: whitesmoke;
+	padding: 10px 20px;
+	border-radius: 5px;
+	box-shadow: rgb(0 0 0 / 10%) 0px 1px 1px;
+	font-weight: 500;
+}
