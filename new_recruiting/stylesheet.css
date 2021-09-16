@@ -54,7 +54,7 @@ nav ul {
 	list-style-type: none;
 	display: flex;
 	margin: 13px 0 10px;
-	width: 750px;
+	width: 740px;
 	justify-content: space-between;
 }
 nav ul a {
@@ -63,13 +63,13 @@ nav ul a {
 }
 nav ul a li {
 	background: white;
-	padding: 0px 20px 10px;
-	border-radius: 5px;
+	padding: 2px 20px 10px;
+	border-radius: 5px 5px 0 0;
 	font-weight: 500;
-	border-top: 7px solid transparent;
+	border-top: 6px solid transparent;
 }
 .active {
-	border-top: 7px solid rgb(160 255 169);
+	border-top: 6px solid rgb(220 237 255);
 }
 main {
 	padding: 25px 20px;
