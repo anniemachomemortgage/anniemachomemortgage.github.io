@@ -65,6 +65,9 @@ main {
 	/* background: linear-gradient(180deg, rgba(0,0,0,0.116646782) 0%, rgba(0,0,0,0) 6%); */
 	padding: 20px;
 	color: #3d3d3d;
+	width: 90vw;
+	margin: 0 auto;
+	max-width: 1500px;
 }
 blockquote {
 	background: linear-gradient(40deg, rgb(42 85 123), rgb(0 25 45) 104%);
