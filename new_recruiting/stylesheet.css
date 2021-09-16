@@ -86,7 +86,9 @@ main h3 {
 	margin: 10px 0;
 	color: rgb(42 85 123);
 }
-
+section {
+	margin: 15px 0 5px;
+}
 section ul {
 	margin-left: 25px;
 }
