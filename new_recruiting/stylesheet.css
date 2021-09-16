@@ -46,20 +46,23 @@ header h2 {
 	word-spacing: 0.15em;
 	margin: 10px 0 0;
 }
-nav {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	padding: 15px 20px;
-	display: none;
-}
 nav ul {
-	display: flex;
-	flex-direction: row;
 	list-style-type: none;
+	display: flex;
+	margin: 10px 0 15px;
+	width: 950px;
 	justify-content: space-between;
-	width: 1200px;
+}
+nav ul a {
+	text-decoration: none;
+	color: inherit;
+}
+nav ul a li {
+	background: whitesmoke;
+	padding: 10px 20px;
+	border-radius: 5px;
+	box-shadow: rgb(0 0 0 / 10%) 0px 1px 1px;
+	font-weight: 500;
 }
 main {
 	padding: 20px;
@@ -69,9 +72,8 @@ main {
 	max-width: 1500px;
 }
 blockquote {
-	background: radial-gradient(circle, rgb(6 41 79 / 48%), rgb(0 25 45) 144%), url(https://images.pexels.com/photos/3760093/pexels-photo-3760093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-	padding: 40px 30px;
-	float: right;
+	background: radial-gradient(circle, rgb(6 41 79 / 66%), rgb(0 25 45) 144%), url(https://images.pexels.com/photos/3760093/pexels-photo-3760093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	padding: 30px;
 	max-width: 500px;
 	font-size: 16px;
 	margin: 20px 0;
@@ -83,6 +85,7 @@ blockquote {
 blockquote span {
 	display: block;
 	font-size: 16px;
+	font-weight: 600;
 	margin: 10px 0 0;
 }
 main h3 {
@@ -114,22 +117,8 @@ section ul {
 .side-text-container {
 	display: flex;
 	flex-direction: column;
-	margin-right: 20px;
+	margin-right: 35px;
 }
 main p {
 	padding-bottom: 8px;
-}
-.list-overview {
-	list-style-type: none;
-	display: flex;
-	margin: 0;
-	width: 800px;
-	justify-content: space-between;
-}
-.list-overview li {
-	background: whitesmoke;
-	padding: 10px 20px;
-	border-radius: 5px;
-	box-shadow: rgb(0 0 0 / 10%) 0px 1px 1px;
-	font-weight: 500;
 }
