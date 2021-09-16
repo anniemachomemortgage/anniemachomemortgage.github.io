@@ -36,7 +36,7 @@ header h1 {
 	text-shadow: -3px -1px 6px #00000066;
 	letter-spacing: .0025em;
 	word-spacing: 0.15em;
-	margin: 20px 0;
+	margin: -25px 0 20px;
 }
 header h2 {
 	font-size: 30px;
