@@ -92,7 +92,8 @@ main h3 {
 	font-weight: 800;
 	font-size: 25px;
 	margin: 10px 0;
-	color: rgb(42 85 123);
+	/* color: rgb(42 85 123); */
+	color: rgb(16 51 82);
 }
 section {
 	margin: 15px 0 5px;
