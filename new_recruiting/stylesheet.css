@@ -67,7 +67,7 @@ main {
 	color: #3d3d3d;
 }
 blockquote {
-	background: linear-gradient(40deg, rgb(42 123 73), rgb(2 84 93) 104%);
+	background: linear-gradient(40deg, rgb(42 85 123), rgb(0 25 45) 104%);
 	padding: 20px;
 	float: right;
 	width: 900px;
