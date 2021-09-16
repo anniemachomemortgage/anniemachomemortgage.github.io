@@ -22,13 +22,13 @@ body {
 header {
 	background: radial-gradient(circle, rgb(6 41 79 / 48%), rgb(0 25 45) 104%), url(https://images.pexels.com/photos/2833037/pexels-photo-2833037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
 	color: #fff;
-	min-height: 450px;
+	min-height: 400px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	position: relative;
 	background-size: cover;
-	background-position-y: 75%;
+	background-position-y: 65%;
 }
 header h1 {
 	font-size: 48px;
@@ -62,7 +62,6 @@ nav ul {
 	width: 1200px;
 }
 main {
-	/* background: linear-gradient(180deg, rgba(0,0,0,0.116646782) 0%, rgba(0,0,0,0) 6%); */
 	padding: 20px;
 	color: #3d3d3d;
 	width: 90vw;
@@ -70,14 +69,16 @@ main {
 	max-width: 1500px;
 }
 blockquote {
-	background: linear-gradient(40deg, rgb(42 85 123), rgb(0 25 45) 104%);
-	padding: 20px;
+	background: radial-gradient(circle, rgb(6 41 79 / 48%), rgb(0 25 45) 144%), url(https://images.pexels.com/photos/3760093/pexels-photo-3760093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	padding: 40px 30px;
 	float: right;
-	width: 900px;
+	max-width: 500px;
 	font-size: 16px;
 	margin: 20px 0;
 	color: #fff;
-	box-shadow: rgb(0 0 0 / 5%) 0px 4px 6px;
+	box-shadow: rgb(0 0 0 / 2.5%) 0px 4px 6px;
+	background-size: cover;
+	background-position-y: 75%;
 }
 blockquote span {
 	display: block;
@@ -108,9 +109,13 @@ section ul {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	margin-top: -15px;
 }
 .side-text-container {
 	display: flex;
 	flex-direction: column;
 	margin-right: 20px;
+}
+main p {
+	padding-bottom: 8px;
 }
