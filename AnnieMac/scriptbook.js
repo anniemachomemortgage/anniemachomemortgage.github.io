@@ -235,6 +235,7 @@ $(function() {
 			$(teamMemberReassignedBranchManager[i]).removeClass("team-member");
 			$(teamMemberReassignedBranchManager[i]).prependTo(".branch-manager-section");
 		}
+		$( '<h3 class="text-center">Additional Staff</h3><div id="" class="team-member-section"></div>' ).appendTo( $( "#team-display" ) );
 	};
 	if (window.location.href.indexOf("scottsynovic") != -1) {
 		$("#list_12148 > a:nth-child(1)").attr("href", "tel:303-668-3350");
