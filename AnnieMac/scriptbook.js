@@ -310,6 +310,13 @@ $(function() {
 			$('.team-member-section').remove();
 		};
 	};
+	if (window.location.href.indexOf("/branch") != -1) {
+		$("h3:contains('Wisconsin')").remove();
+		$("#locations > div:nth-child(52)").hide();
+		$('#coloradosprings-branch-listing').hide();
+		$('#towson-branch-listing').hide();
+		$("#\\#-branch-listing").hide();
+	};
 	// For new pages and the blog, remove old stylesheets and add the new 2021 stylesheet.
 	if ((window.location.href.indexOf("credit-score-basics") != -1) || (window.location.href.indexOf("blog") != -1) || (window.location.href.indexOf("prequal-vs-preapproval") != -1)) {
 		$('head').append('<link rel="stylesheet" id="new-stylesheet" href="https://anniemachomemortgage.github.io/Development/anniemac2021corporate.css" type="text/css" />');
