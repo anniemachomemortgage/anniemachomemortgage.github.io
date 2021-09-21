@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 html, body, h1, h2, h3, h4, h5, h6, p, ul, li, section, main, header, nav, blockquote, footer {
-	font-family: 'inter', sans-serif;
+	font-family: -apple-system,BlinkMacSystemFont, 'inter', sans-serif;
 	font-size: 16px;
 	line-height: 30px;
 	font-weight: 400;
