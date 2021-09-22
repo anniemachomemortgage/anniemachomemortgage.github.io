@@ -61,6 +61,13 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 }
+nav span {
+	text-indent: -1000vw;
+	width: 222px;
+	height: 39px;
+	background-image: url(./white-logo.png);
+	background-size: cover;
+}
 nav ul {
 	display: flex;
 	margin: 10px 0;
