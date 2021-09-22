@@ -4,7 +4,7 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-html, body, h1, h2, h3, h4, h5, h6, p, ul, li, section, main, header, nav, blockquote, footer {
+html, body, h1, h2, h4, h4, h5, h6, p, ul, li, section, main, header, nav, blockquote, footer {
 	font-family: -apple-system,BlinkMacSystemFont, 'inter', sans-serif;
 	font-size: 16px;
 	line-height: 30px;
@@ -19,13 +19,13 @@ header, main, section, form, form div, footer {
 header {
 	background: radial-gradient(circle, rgb(6 41 79 / 48%), rgb(0 25 45) 104%), url(https://images.pexels.com/photos/2833037/pexels-photo-2833037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
 	color: #fff;
-	min-height: 400px;
+	min-height: 450px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	position: relative;
 	background-size: cover;
-	background-position-y: 65%;
+	background-position-y: 75%;
 }
 .navigation-container {
 	position: absolute;
@@ -55,6 +55,11 @@ nav, main {
 	width: 90vw;
 	margin: 0 auto;
 	max-width: 1500px;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 nav ul {
 	display: flex;
@@ -89,7 +94,7 @@ blockquote span {
 	font-weight: 600;
 	margin: 10px 0 0;
 }
-main h3 {
+main h4 {
 	font-weight: 800;
 	font-size: 25px;
 	margin: 10px 0;
@@ -102,7 +107,7 @@ section {
 	flex-direction: row;
 	flex-wrap: wrap;
 }
-section h3 {
+section h4 {
 	flex: 1;
 	min-width: 100%;
 }
