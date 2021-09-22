@@ -94,6 +94,12 @@ blockquote span {
 	font-weight: 600;
 	margin: 10px 0 0;
 }
+main h3 {
+	margin: 10px 0;
+	font-weight: 800;
+	font-size: 28px;
+	color: rgb(42 85 123);
+}
 main h4 {
 	font-weight: 800;
 	font-size: 25px;
