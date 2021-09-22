@@ -16,9 +16,6 @@ header, main, section, form, form div, footer {
 	display: flex;
 	flex-direction: column;
 }
-body {
-
-}
 header {
 	background: radial-gradient(circle, rgb(6 41 79 / 48%), rgb(0 25 45) 104%), url(https://images.pexels.com/photos/2833037/pexels-photo-2833037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
 	color: #fff;
@@ -30,13 +27,21 @@ header {
 	background-size: cover;
 	background-position-y: 65%;
 }
+.navigation-container {
+	position: absolute;
+	top: 10px;
+	left: 0;
+	width: 100%;
+	background: transparent;
+	color: #fff;
+}
 header h1 {
 	font-size: 48px;
 	font-weight: 500;
 	text-shadow: -3px -1px 6px #00000066;
 	letter-spacing: .0025em;
 	word-spacing: 0.15em;
-	margin: -25px 0 20px;
+	margin: 45px 0 20px;
 }
 header h2 {
 	font-size: 30px;
@@ -46,37 +51,26 @@ header h2 {
 	word-spacing: 0.15em;
 	margin: 10px 0 0;
 }
-nav {
-	margin-top: -83px;
-	z-index: 1;
+nav, main {
+	width: 90vw;
+	margin: 0 auto;
+	max-width: 1500px;
 }
 nav ul {
-	list-style-type: none;
 	display: flex;
-	margin: 13px 0 10px;
-	width: 740px;
-	justify-content: space-between;
+	margin: 10px 0;
+	list-style-type: none;
+	justify-content: space-around;
+	width: 650px;
+	float: right;
 }
 nav ul a {
+	color: #fff;
 	text-decoration: none;
-	color: inherit;
-}
-nav ul a li {
-	background: white;
-	padding: 2px 20px 10px;
-	border-radius: 5px 5px 0 0;
-	font-weight: 500;
-	border-top: 6px solid transparent;
-}
-.active {
-	border-top: 6px solid rgb(220 237 255);
 }
 main {
 	padding: 25px 20px;
 	color: #3d3d3d;
-	width: 90vw;
-	margin: 0 auto;
-	max-width: 1500px;
 }
 blockquote {
 	background: radial-gradient(circle, rgb(6 41 79 / 66%), rgb(0 25 45) 144%), url(https://images.pexels.com/photos/3760093/pexels-photo-3760093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
