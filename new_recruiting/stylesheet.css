@@ -115,6 +115,11 @@ section ul {
 	justify-content: space-between;
 	align-items: stretch;
 	margin-top: -10px;
+	width: 100%;
+}
+.side-by-side .long-quote {
+	max-width: 47.5%;
+	margin-bottom: 35px;
 }
 .side-text-container {
 	display: flex;
