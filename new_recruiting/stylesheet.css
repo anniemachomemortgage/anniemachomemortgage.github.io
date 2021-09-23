@@ -186,3 +186,20 @@ section.operations-page.section-b {
 .list-cards li h5 {
 	font-weight: 500;
 }
+ul.list-cards.two-row {
+	margin-top: 25px;
+	justify-content: space-between;
+}
+ul.list-cards.two-row li {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 48.5%;
+	min-height: 200px;
+	justify-content: flex-start;
+	text-align: left;
+}
+.list-cards.two-row li i {
+	font-size: 35px;
+	margin: 15px 40px 15px 20px;
+}
