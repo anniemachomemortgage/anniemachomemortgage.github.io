@@ -63,8 +63,8 @@ nav {
 }
 nav span {
 	text-indent: -1000vw;
-	width: 236px;
-	height: 50px;
+	width: 235px;
+	height: 39px;
 	background-image: url(./white-logo.png);
 	background-size: cover;
 	margin-top: -5px;
@@ -172,12 +172,16 @@ section.operations-page.section-b {
 	flex-direction: column;
 	width: 19.5%;
 	background: #1a3a56;
-	margin: 0 2px 4px;
+	margin: 0 8px 4px;
 	justify-content: center;
 	align-items: center;
 	padding: 20px;
 	text-align: center;
 	color: #fff;
+}
+.list-cards li i {
+	font-size: 30px;
+	margin: 15px;
 }
 .list-cards li h5 {
 	font-weight: 500;
