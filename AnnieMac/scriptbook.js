@@ -312,7 +312,6 @@ $(function() {
 	};
 	if (window.location.href.indexOf("/branch") != -1) {
 		$("h3:contains('Wisconsin')").hide();
-		$("h3:contains('South Carolina')").hide();
 		$('#coloradosprings-branch-listing').hide();
 		$('#towson-branch-listing').hide();
 		$("#wausau-branch-listing").hide();
