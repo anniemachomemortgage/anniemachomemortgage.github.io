@@ -158,4 +158,27 @@ main p {
 }
 section.operations-page.section-b {
 	flex-direction: column;
+} 
+.list-cards {
+	margin-left: 0;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+.list-cards li {
+	display: flex;
+	flex-direction: column;
+	width: 19.5%;
+	background: #1a3a56;
+	margin: 0 2px 4px;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	text-align: center;
+	color: #fff;
+}
+.list-cards li h5 {
+	font-weight: 500;
 }
