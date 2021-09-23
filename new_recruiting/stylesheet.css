@@ -207,3 +207,7 @@ ul.list-cards.two-row li {
 .blocked-content {
 	width: 48%;
 }
+h4 span {
+	display: block;
+	font-size: 19px;
+}
