@@ -142,8 +142,11 @@ section ul {
 	margin-bottom: 35px;
 }
 .side-by-side .three-quote {
-	max-width: 30%;
+	min-width: 31%;
 	margin-bottom: 35px;
+	display: flex;
+	flex-direction: column;
+	min-height: 150px;
 }
 .side-text-container {
 	display: flex;
