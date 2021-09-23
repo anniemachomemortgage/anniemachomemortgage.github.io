@@ -194,10 +194,11 @@ ul.list-cards.two-row li {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	width: 48.5%;
+	width: 49.5%;
 	min-height: 200px;
 	justify-content: flex-start;
 	text-align: left;
+	margin: 5px 0;
 }
 .list-cards.two-row li i {
 	font-size: 35px;
