@@ -156,3 +156,6 @@ section ul {
 main p {
 	padding-bottom: 8px;
 }
+section.operations-page.section-b {
+	flex-direction: column;
+}
