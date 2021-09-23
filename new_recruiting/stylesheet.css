@@ -195,10 +195,10 @@ ul.list-cards.two-row li {
 	flex-direction: row;
 	align-items: center;
 	width: 49.5%;
-	min-height: 200px;
+	min-height: 160px;
 	justify-content: flex-start;
 	text-align: left;
-	margin: 5px 0;
+	margin: 7px 0;
 }
 .list-cards.two-row li i {
 	font-size: 35px;
