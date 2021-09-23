@@ -12,6 +12,9 @@ html, body, h1, h2, h4, h4, h5, h6, p, ul, li, section, main, header, nav, block
 	margin: 0;
 	padding: 0;
 }
+p {
+	font-size: 14px;
+}
 header, main, section, form, form div, footer {
 	display: flex;
 	flex-direction: column;
