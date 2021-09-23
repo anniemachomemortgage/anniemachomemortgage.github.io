@@ -210,4 +210,5 @@ ul.list-cards.two-row li {
 h4 span {
 	display: block;
 	font-size: 19px;
+	text-transform: none;
 }
