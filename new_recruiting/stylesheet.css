@@ -211,4 +211,6 @@ h4 span {
 	display: block;
 	font-size: 19px;
 	text-transform: none;
+	color: #000;
+	opacity: .7;
 }
