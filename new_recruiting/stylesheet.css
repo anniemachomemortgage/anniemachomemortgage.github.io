@@ -215,3 +215,35 @@ h4 span {
 	margin-top: 4px;
 	opacity: .65;
 }
+.leadership-container {
+	display: flex;
+	margin-bottom: 70px;
+}
+.leadership-headshot-container {
+}
+.leadership-headshot {
+	width: 280px;
+	height: 280px;
+}
+#ungaro {
+	background-image: url(./ungaro-hs.jpg);
+	background-size: cover;
+	background-position-x: 57%;
+}
+
+.leadership-information {
+	margin-left: 50px;
+	margin-top: -10px;
+}
+.leadership-information h4 {
+	
+}
+.leadership-information h4 span {
+	
+}
+.leadership-biography {
+	
+}
+.leadership-biography p {
+	
+}
