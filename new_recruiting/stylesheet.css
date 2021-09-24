@@ -257,6 +257,7 @@ h4 span {
 .leadership-headshot {
 	width: 280px;
 	height: 280px;
+	box-shadow: rgb(0 0 0 / 4%) 1px 5px 16px 5px;
 }
 #ungaro {
 	background-image: url(./ungaro-hs.jpg);
@@ -271,7 +272,7 @@ h4 span {
 #joe {
 	background-image: url(./joe-hs.jpg);
 	background-size: cover;
-	background-position-x: 57%;
+	background-position-x: 50%;
 }
 #ives {
 	background: #ced8da;
