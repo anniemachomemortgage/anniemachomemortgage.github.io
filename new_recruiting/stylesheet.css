@@ -211,10 +211,14 @@ section.operations-page.section-b, section.culture-page.section-c, section.cultu
 }
 .smaller {
 	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 .smaller li {
-	width: 12.5%;
-	margin: 0 8px 10px;
+	width: 18.65%;
+	margin: 0 8px 14px;
 	justify-content: flex-start;
 }
 .list-cards li i {
