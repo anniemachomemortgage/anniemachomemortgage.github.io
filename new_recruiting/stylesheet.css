@@ -167,6 +167,7 @@ section ul {
 }
 .side-by-side .three-quote {
 	min-width: 31%;
+	max-width: 33%;
 	margin-bottom: 35px;
 	display: flex;
 	flex-direction: column;
@@ -180,7 +181,12 @@ section ul {
 main p {
 	padding-bottom: 8px;
 }
-section.operations-page.section-b {
+main p strong {
+	color: #000;
+	opacity: .7;
+	font-weight: 800;
+}
+section.operations-page.section-b, section.culture-page.section-c, section.culture-page.section-g {
 	flex-direction: column;
 } 
 .list-cards {
@@ -203,12 +209,27 @@ section.operations-page.section-b {
 	text-align: center;
 	color: #fff;
 }
+.smaller {
+	margin-top: 20px;
+}
+.smaller li {
+	width: 12.5%;
+	margin: 0 8px 10px;
+	justify-content: flex-start;
+}
 .list-cards li i {
 	font-size: 30px;
 	margin: 15px;
 }
 .list-cards li h5 {
 	font-weight: 500;
+}
+.smaller li h5 {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	margin-top: 5px;
+	margin-bottom: 7px;
 }
 ul.list-cards.two-row {
 	margin-top: 25px;
