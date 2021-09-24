@@ -219,6 +219,9 @@ h4 span {
 	display: flex;
 	margin-bottom: 70px;
 }
+.leadership-container:first-of-type {
+	margin-top: 35px;
+}
 .leadership-headshot-container {
 }
 .leadership-headshot {
