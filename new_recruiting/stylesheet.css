@@ -230,7 +230,21 @@ h4 span {
 	background-size: cover;
 	background-position-x: 57%;
 }
-
+#kube {
+	background-image: url(./kube-hs.jpg);
+	background-size: cover;
+	background-position-x: 57%;
+}
+#joe {
+	background-image: url(./joe-hs.jpg);
+	background-size: cover;
+	background-position-x: 57%;
+}
+#ungaro {
+	background-image: url(./ungaro-hs.jpg);
+	background-size: cover;
+	background-position-x: 57%;
+}
 .leadership-information {
 	margin-left: 50px;
 	margin-top: -10px;
