@@ -265,6 +265,11 @@ h4 span {
 	margin-top: 4px;
 	opacity: .65;
 }
+.side-sectionals {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
 .leadership-page.section-a blockquote {
 	max-width: 100%;
 	background: #1a3a56;
