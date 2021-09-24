@@ -81,6 +81,30 @@ nav ul a {
 	color: #fff;
 	text-decoration: none;
 }
+/* Originators */
+.main-navigation a:nth-of-type(1) {
+	order: 1;
+}
+/* Technology */
+.main-navigation a:nth-of-type(2) {
+	order: 2;
+}
+/* Leadership */
+.main-navigation a:nth-of-type(3) {
+	order: 5;
+}
+/* Operations */
+.main-navigation a:nth-of-type(4) {
+	order: 4;
+}
+/* Culture */
+.main-navigation a:nth-of-type(5) {
+	order: 6;
+}
+/* Marketing */
+.main-navigation a:nth-of-type(6) {
+	order: 3;
+}
 main {
 	padding: 25px 20px;
 	color: #3d3d3d;
