@@ -219,6 +219,7 @@ section.operations-page.section-b, section.culture-page.section-c, section.cultu
 .smaller li {
 	width: 18.65%;
 	margin: 0 8px 14px;
+	padding: 30px 0;
 	justify-content: flex-start;
 }
 .list-cards li i {
