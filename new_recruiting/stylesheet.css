@@ -197,6 +197,10 @@ section.operations-page.section-b, section.marketing-page.section-b, section.mar
 	flex-wrap: wrap;
 	margin-bottom: 20px;
 }
+section.marketing-page.section-d ul.list-cards {
+	margin-top: 20px;
+	margin-bottom: 0;
+}
 .list-cards li {
 	display: flex;
 	flex-direction: column;
