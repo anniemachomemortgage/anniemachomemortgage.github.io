@@ -265,7 +265,7 @@ h4 span {
 	margin-top: 4px;
 	opacity: .65;
 }
-.leadership-page.section-a blockquote {
+.leadership-page.section-a blockquote, .marketing-page.section-a blockquote {
 	max-width: 100%;
 	background: #1a3a56;
 	margin: 0;
