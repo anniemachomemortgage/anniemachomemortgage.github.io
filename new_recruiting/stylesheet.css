@@ -240,6 +240,9 @@ ul.list-cards.two-row {
 	margin-top: 25px;
 	justify-content: space-between;
 }
+.marketing-page.section-b ul.list-cards.two-row {
+	margin-top: 0;
+}
 ul.list-cards.two-row li {
 	display: flex;
 	flex-direction: row;
