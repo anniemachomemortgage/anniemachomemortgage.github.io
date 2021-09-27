@@ -186,7 +186,7 @@ main p strong {
 	opacity: .7;
 	font-weight: 800;
 }
-section.operations-page.section-b, section.marketing-page.section-b, section.marketing-page.section-e, section.culture-page.section-c, section.culture-page.section-g {
+section.operations-page.section-b, section.marketing-page.section-b, section.marketing-page.section-d, section.culture-page.section-c, section.culture-page.section-g {
 	flex-direction: column;
 } 
 .list-cards {
