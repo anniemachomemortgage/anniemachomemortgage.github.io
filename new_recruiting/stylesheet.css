@@ -140,6 +140,9 @@ main h4 {
 	margin: 10px 0;
 	color: rgb(16 51 82);
 }
+section.marketing-page.section-c h4 {
+	text-transform: none;
+}
 section {
 	margin: 15px 0 5px;
 	display: flex;
