@@ -413,7 +413,7 @@ select {
     margin-right: 10px;
 }
 #home-banner {
-    background: linear-gradient(14deg, rgb(72 47 4 / 51%) 30%, rgb(159 102 16 / 28%) 80%), url(https://www.annie-mac.com/uploads/sites/10713/public/fall-image-reduced.jpg) top left no-repeat;
+    background: linear-gradient(14deg, rgb(72 47 4 / 51%) 30%, rgb(84 77 65 / 28%) 80%), url(https://www.annie-mac.com/uploads/sites/10713/public/fall-image-reduced.jpg) top left no-repeat;
     background-size: cover !important;
     background-position-y: 14% !important;
     height: 560px;
