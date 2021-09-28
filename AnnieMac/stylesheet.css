@@ -2477,8 +2477,8 @@ div#flash-message {
   display: none !important;
 }
 #text-based {
-width: -webkit-fill-available;
-margin: auto;
+  width: -webkit-fill-available;
+  margin: auto;
   background: #fff;
 }
 
