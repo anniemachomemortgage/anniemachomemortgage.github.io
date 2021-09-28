@@ -413,10 +413,10 @@ select {
     margin-right: 10px;
 }
 #home-banner {
-    background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url('https://www.annie-mac.com/uploads/sites/10713/public/fall-image-reduced.jpg') top left no-repeat;
+    background: linear-gradient(14deg, rgb(72 47 4 / 51%) 30%, rgb(159 102 16 / 28%) 80%), url(https://www.annie-mac.com/uploads/sites/10713/public/fall-image-reduced.jpg) top left no-repeat;
     background-size: cover !important;
     background-position-y: 14% !important;
-    height: 580px;
+    height: 560px;
 }
 .review h4 {
     font-size: 20px;
@@ -467,8 +467,8 @@ select {
     font-weight: bold;
 }
 #home-reviews {
-  width: initial;
-  margin-top: -10px;
+    width: initial;
+    margin-top: -10px;
 }
 #sitemap li#list_11563 {
     display: none;
