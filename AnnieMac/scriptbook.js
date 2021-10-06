@@ -244,6 +244,9 @@ $(function() {
 	if (window.location.href.indexOf("kevinhulsey") != -1) {
 		$("#loan-officer-header-call").attr("href", "tel:502-773-1236");
 	};
+	if (window.location.href.indexOf("derekmcgowan") != -1) {
+		$('<a href="https://loanofficers.lendingtree.com/derek-mcgowan/1478470" target="_blank"><li><i class="fas fa-leaf"></i>Lending Tree</li></a>').appendTo("#originator-social-details > ul");
+	}
 	if (window.location.href.indexOf("newsmyrna.annie-mac.com") != -1) {
 		$("#susiebruner > div > button.go.flex.space-between.align-center").hide();
 		$("#susiebruner > div > h5:nth-child(3)").text("Non-Originating");
