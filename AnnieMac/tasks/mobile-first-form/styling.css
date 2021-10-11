@@ -53,6 +53,15 @@ input, select {
 	opacity: 1;
 }
 
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	text-indent: 1px;
+	background: url('images/dropdown-arrow.jpeg') no-repeat right;
+	background-size: 6%;
+	background-position-x: calc(100% - 10px);
+}
+
 input[type="submit"] {
 	background: #7FC24A;
 	padding: 28px 35px;
