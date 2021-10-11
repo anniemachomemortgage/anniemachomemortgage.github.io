@@ -69,6 +69,31 @@ label {
 	opacity: 1;
 }
 
+.pagination {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.pagination button {
+	padding: 9px 12px;
+	border-radius: 3px;
+	color: white;
+	outline: none;
+	border: none;
+	font-weight: 400;
+	font-size: 15px;
+	box-shadow: 1px 1px 3px rgb(0 0 0 / 2%);
+	text-transform: capitalize;
+}
+
+.back {
+	background: #A2A2A2;
+}
+.next {
+	background: #076fa6;
+}
+
 input, select {
 	margin: -3px 0 15px 0;
 	padding: 18px;
