@@ -16,3 +16,8 @@ header, main, section, form, form div, footer {
 	display: flex;
 	flex-direction: column;
 }
+
+.mobile-first-lead-capture-main {
+	width: 460px;
+	margin: 0 auto;
+}
