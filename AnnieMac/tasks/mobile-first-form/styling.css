@@ -60,6 +60,7 @@ select {
 	background: url('images/dropdown-arrow.jpeg') no-repeat right;
 	background-size: 6%;
 	background-position-x: calc(100% - 10px);
+	color: #454545ba;
 }
 
 input[type="submit"] {
