@@ -30,15 +30,15 @@ h3 {
 }
 
 label {
-	font-weight: 500 !important;
+	/* font-weight: 500 !important;
 	margin: 10px 0;
 	letter-spacing: .8px;
-	color: rgba(0, 0, 0, .85);
+	color: rgba(0, 0, 0, .85); */
 	
-	/* font-size: 25px;
+	font-size: 23px;
 	margin: 25px 0 12px;
 	color: #076fa6;
-	font-weight: 400; */
+	font-weight: 300;
 }
 
 .initial-options {
@@ -61,16 +61,12 @@ label {
 	font-size: 1rem;
 	outline: none;
 	font-family: 'neue-haas-unica', sans-serif;
-	background: #076fa6;
+	background: white;
 	border: 1px solid rgba(0, 0, 0, .2);
-	color: #fff;
+	color: rgba(0, 0, 0, .85);
 	font-weight: 400;
 	letter-spacing: .8px;
 	opacity: 1;
-}
-
-.initial-option:first-of-type {
-	border-right: none;
 }
 
 input, select {
