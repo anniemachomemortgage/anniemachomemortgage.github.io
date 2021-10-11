@@ -19,14 +19,14 @@ header, main, section, form, form div, footer {
 
 .mobile-first-lead-capture-main {
 	width: 460px;
-	margin: 0 auto;
+	margin: 60px auto;
 }
 
 h3 {
-		font-size: 25px;
-		margin: 25px 0 12px;
-		color: #076fa6;
-		font-weight: 400;
+	font-size: 25px;
+	margin: 25px 0 12px;
+	color: #076fa6;
+	font-weight: 400;
 }
 
 label {
@@ -34,6 +34,43 @@ label {
 	margin: 10px 0;
 	letter-spacing: .8px;
 	color: rgba(0, 0, 0, .85);
+	
+	/* font-size: 25px;
+	margin: 25px 0 12px;
+	color: #076fa6;
+	font-weight: 400; */
+}
+
+.initial-options {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 120px;
+	box-shadow: 0 1px 2px 3px rgb(0 0 0 / 2%);
+}
+
+.initial-option {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 120px;
+	width: 225px;
+	margin: -3px 0 0px 0;
+	padding: 18px;
+	border-radius: 4px;
+	font-size: 1rem;
+	outline: none;
+	font-family: 'neue-haas-unica', sans-serif;
+	background: #076fa6;
+	border: 1px solid rgba(0, 0, 0, .2);
+	color: #fff;
+	font-weight: 400;
+	letter-spacing: .8px;
+	opacity: 1;
+}
+
+.initial-option:first-of-type {
+	border-right: none;
 }
 
 input, select {
@@ -73,4 +110,9 @@ input[type="submit"] {
 	font-size: 20px;
 	box-shadow: 1px 1px 3px rgb(0 0 0 / 12%);
 	text-transform: capitalize;
+}
+
+small {
+	margin: -2px 0 10px;
+	line-height: 22px;
 }
