@@ -22,6 +22,20 @@ header, main, section, form, form div, footer {
 	margin: 0 auto;
 }
 
+h3 {
+		font-size: 25px;
+		margin: 25px 0 12px;
+		color: #076fa6;
+		font-weight: 400;
+}
+
+label {
+	font-weight: 500 !important;
+	margin: 10px 0;
+	letter-spacing: .8px;
+	color: rgba(0, 0, 0, .85);
+}
+
 input, select {
 	margin: -3px 0 15px 0;
 	padding: 18px;
@@ -37,4 +51,16 @@ input, select {
 	letter-spacing: .8px;
 	width: auto;
 	opacity: 1;
+}
+
+input[type="submit"] {
+	background: #7FC24A;
+	padding: 28px 35px;
+	border-radius: 6px;
+	color: white;
+	font-weight: 400;
+	margin-top: 45px;
+	font-size: 20px;
+	box-shadow: 1px 1px 3px rgb(0 0 0 / 12%);
+	text-transform: capitalize;
 }
