@@ -86,7 +86,9 @@ $(function() {
 			$("#purchase-form").addClass("inactive");
 			$("#refinance-form > .question-1").removeClass("inactive");
 			$("#refinance-zip").attr('data-xml-node', 'PropertyZipCode');
+			// NEED
 			$("#refinance-remaining").attr('data-xml-node', '');
+			
 			$("#refinance-credit").attr('data-xml-node', 'CreditScore');
 			$("#refinance-first-name").attr('data-xml-node', 'FirstName');
 			$("#refinance-last-name").attr('data-xml-node', 'LastName');
