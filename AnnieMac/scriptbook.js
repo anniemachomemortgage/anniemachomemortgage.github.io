@@ -904,6 +904,16 @@ $(function() {
 		$("#contractor-acceptance-blurb").show();
 		$("#both-acceptance-blurb").hide();
 	};
+	if (window.location.href.indexOf("/to-homeownership") != -1) {
+		$("#agent-status-only").hide();
+		$("select#agent-selection").change(function () {
+			if( $("option#agent-trigger:selected").length ) {
+				$("#agent-status-only").show();
+			} else {
+				$("#agent-status-only").hide();
+			}
+		});
+	};
 	if (window.location.href.indexOf("/professional-onboarding?profession=builder") != -1) {
 		$("#builder-acceptance-blurb").show();
 		$("#both-acceptance-blurb").hide();
