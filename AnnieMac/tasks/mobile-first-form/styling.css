@@ -162,6 +162,7 @@ input[type="submit"] {
 small {
 	margin: -2px 0 10px;
 	line-height: 22px;
+	font-size:  14px;
 }
 
 .inactive {
