@@ -25,7 +25,7 @@ header, main, section, form, form div, footer {
 img {
 	width: 300px;
 	height: auto;
-	margin: -20px auto 30px;
+	margin: -20px 0 30px;
 }
 
 h3 {
@@ -68,6 +68,10 @@ label {
 	letter-spacing: .8px;
 	opacity: 1;
 	min-height: 146px;
+}
+
+.initial-option:first-of-type {
+	margin-top: 0;
 }
 
 .initial-option:hover {
