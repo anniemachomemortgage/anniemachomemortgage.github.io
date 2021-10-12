@@ -12,6 +12,11 @@ body.front.site-type-branch {
   display: none;
 }
 
+textarea {
+  letter-spacing: .8px;
+  margin-top: 1px !important;
+}
+
 .site-type-branch .branch-manager-section {
   margin-bottom: 40px;
 }
