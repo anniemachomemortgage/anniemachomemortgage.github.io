@@ -53,6 +53,7 @@ $(function() {
 		}
 		return null;
 	};
+	$("#navigation-sidebar > div:nth-child(2) > a:nth-child(4)").remove();
 	if (document.cookie.indexOf("visitedloanoriginator=") >= 0) {
 		if (document.cookie.indexOf("visitedloanoriginatorname=") < 0) {
 			document.cookie = "noshowlastoriginator=true; path=/; max-age=1; domain=.annie-mac.com";
