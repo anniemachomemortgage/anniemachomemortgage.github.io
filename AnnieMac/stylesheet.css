@@ -21,6 +21,11 @@ textarea {
   margin-bottom: 40px;
 }
 
+/*Renovation photos width.*/
+.node-124158 #text-based {
+    width: 100%;
+}
+
 body.front.site-type-branch .main-content, body.front.site-type-branch #site-navigation {
   background: #fff;
 }
