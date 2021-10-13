@@ -18,8 +18,15 @@ header, main, section, form, form div, footer {
 }
 
 .mobile-first-lead-capture-main {
-	width: 460px;
+	width: 400px;
 	margin: 60px auto;
+}
+
+@media screen and (min-width: 600px) {
+	.mobile-first-lead-capture-main {
+		width: 80%;
+		max-width: 650px;
+	}
 }
 
 img {
