@@ -321,6 +321,9 @@ $(function() {
 		$("#wausau-branch-listing").hide();
 		$("#hannahstaging\\.wmmortgageware\\.com-branch-listing").remove();
 	};
+	if (window.location.href.indexOf("/forms/lead/b2b-broker") != -1) {
+		$('#product-banner').hide();
+	};
 	// For new pages and the blog, remove old stylesheets and add the new 2021 stylesheet.
 	if ((window.location.href.indexOf("credit-score-basics") != -1) || (window.location.href.indexOf("blog") != -1) || (window.location.href.indexOf("prequal-vs-preapproval") != -1)) {
 		$('head').append('<link rel="stylesheet" id="new-stylesheet" href="https://anniemachomemortgage.github.io/Development/anniemac2021corporate.css" type="text/css" />');
