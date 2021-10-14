@@ -2563,6 +2563,15 @@ div#flash-message {
   text-transform: capitalize;
 }
 
+#form_builder .error_label {
+  margin-top: -32px;
+}
+
+#form_builder .next-contaner {
+  margin-top: 30px;
+  margin-bottom: -10px;
+}
+
 #form_builder input:focus, #form_builder input:active, #form_builder input:hover, #form_builder select:focus, #form_builder select:active, #form_builder select:hover {
   border: 1px solid #4d9fcb;
 }
