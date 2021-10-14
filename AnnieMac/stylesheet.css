@@ -2516,6 +2516,10 @@ div#flash-message {
   max-width: 1000px;
 }
 
+#form_builder label {
+  margin-top: 20px;
+}
+
 #form_builder .text {
   background: red;
   padding: 20px 30px;
