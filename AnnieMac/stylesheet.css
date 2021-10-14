@@ -2510,7 +2510,7 @@ div#flash-message {
 }
 
 #form_builder {
-  margin: -20px auto 60px;
+  margin: 30px auto 60px;
   min-width: 500px;
   width: 90%;
   max-width: 1000px;
