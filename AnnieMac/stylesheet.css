@@ -2517,7 +2517,8 @@ div#flash-message {
 }
 
 #form_builder label {
-  margin-top: 20px;
+  margin-top: 40px;
+  font-weight: 300;
 }
 
 #form_builder .text {
