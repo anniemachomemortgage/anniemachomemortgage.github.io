@@ -2508,3 +2508,61 @@ div#flash-message {
 #aaronjacobson .team-member-portrait {
   background-position-y: 10% !important;
 }
+
+
+#form_builder {
+  margin: -20px auto 60px;
+  min-width: 500px;
+  width: 90%;
+  max-width: 1000px;
+  }
+  #form_builder .text {
+  background: red;
+  padding: 20px 30px;
+  margin: 35px 0;
+  background: #0f4879;
+  color: #ffffff;
+  box-shadow: 0 1px 2px 3px rgb(0 0 0 / 7%);
+  }
+  #form_builder input, #form_builder select, #form_builder textarea {
+  margin: 20px 0 15px 0 !important;
+  padding: 18px;
+  border-radius: 4px;
+  font-size: 1rem;
+  outline: none;
+  font-family: 'neue-haas-unica', sans-serif;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, .3);
+  box-shadow: 0 1px 2px 3px rgb(0 0 0 / 2%);
+  color: rgba(0, 0, 0, .85);
+  font-weight: 400;
+  letter-spacing: .8px;
+  min-width: 100%;
+  opacity: 1;
+  }
+  
+  #form_builder select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  background: url('images/dropdown-arrow.jpeg') no-repeat right;
+  background-size: 6%;
+  background-position-x: calc(100% - 10px);
+  color: #454545ba;
+  }
+  
+  #form_builder input[type="submit"], #form_builder input[type="button"] {
+  background: #7FC24A;
+  padding: 28px 35px;
+  border-radius: 6px;
+  color: white;
+  font-weight: 400;
+  margin-top: 45px;
+  font-size: 20px;
+  box-shadow: 1px 1px 3px rgb(0 0 0 / 12%);
+  text-transform: capitalize;
+  }
+  
+  #form_builder input:focus, #form_builder input:active, #form_builder input:hover, #form_builder select:focus, #form_builder select:active, #form_builder select:hover {
+  border: 1px solid #4d9fcb;
+  }
