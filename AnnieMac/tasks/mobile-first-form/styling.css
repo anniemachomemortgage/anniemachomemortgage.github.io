@@ -158,7 +158,7 @@ select {
 	-moz-appearance: none;
 	text-indent: 1px;
 	background: url('images/dropdown-arrow.jpeg') no-repeat right;
-	background-size: 6%;
+	background-size: 20px;
 	background-position-x: calc(100% - 10px);
 	color: #454545ba;
 }
