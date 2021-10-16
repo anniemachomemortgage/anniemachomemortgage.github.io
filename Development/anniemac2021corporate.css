@@ -81,6 +81,17 @@ p {
 	line-height: 30px;
 }
 
+.inner-layout ul li li {
+	margin: 20px 0;
+}
+
+.inner-layout li {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;
+	margin: 5px 0;
+}
+
 h1,
 h2,
 h3,
@@ -3622,6 +3633,7 @@ textarea#textarea-comments {
 	max-width: 600px;
 	margin-right: 0;
 	margin-bottom: 0;
+	display: none;
 }
 
 .content-detail .media-body .content h3 {
@@ -3629,4 +3641,9 @@ textarea#textarea-comments {
 	font-weight: 700;
 	color: #5db118;
 	margin-bottom: 10px;
+}
+
+.content-detail .media-body .content a {
+	color: #5db118;
+	font-weight: 800;
 }
