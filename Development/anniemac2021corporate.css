@@ -3752,6 +3752,16 @@ textarea#textarea-comments {
 	padding: 0px;
 }
 
+.share-bar ul .facebook {
+	background: #3c5998;
+	color: #fff;
+}
+
+.share-bar ul .twitter {
+	background: #45ccf6;
+	color: #fff;
+}
+
 .share-bar .google-plus, .share-bar .pinterest {
 	display: none !important;
 }

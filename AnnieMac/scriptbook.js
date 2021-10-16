@@ -88,6 +88,10 @@ $(function() {
 		var imageCover = $('.blog-image-detail').attr('src');
 		$('#product-banner').css('background', 'linear-gradient(14deg, rgb(0 0 0 / 62%) 30%, rgb(98 90 75 / 28%) 80%), url(' + imageCover + ') no-repeat');
 		$('#product-banner').css('background-size', 'cover !important');
+		$('.facebook a img').remove();
+		$('.twitter a img').remove();
+		$('.twitter a').text("Twitter");
+		$('.facebook a').text("Facebook");
 	};
 	$( "article > header > h3:contains('test')" ).closest('article').remove();
 	if ($('body').hasClass('site-type-loan_officer')) {
