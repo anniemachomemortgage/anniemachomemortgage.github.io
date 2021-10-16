@@ -3560,6 +3560,10 @@ textarea#textarea-comments {
 	background: #016fa8;
 }
 
+.blog-index .sidebar_items div ul li a:hover {
+	color: #016fa8;	
+}
+
 .page-blog-list .content-list .pagination {
 	width: 100%;
 	background: #f7f7f7;
