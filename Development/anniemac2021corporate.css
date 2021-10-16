@@ -3610,6 +3610,10 @@ textarea#textarea-comments {
 	order: -1;
 }
 
+.page-blog-detail .content-list .inner .clearfix {
+	margin: 15px 0 10px;
+}
+
 .content-detail .pull-left {
 	float: none;
 }
