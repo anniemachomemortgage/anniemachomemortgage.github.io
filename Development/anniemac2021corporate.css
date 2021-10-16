@@ -3488,6 +3488,8 @@ textarea#textarea-comments {
 	display: flex;
 	flex-direction: column;
 	width: 30%;
+	min-height: 400px;
+	margin: 0 0 15px;
 }
 
 .content-list.blog .inner > * hr {
@@ -3508,8 +3510,12 @@ textarea#textarea-comments {
 }
 
 .content-list.blog .inner > * summary {
-	display: block;
-	line-height: 24px;
+	line-height: 23px;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	min-height: 175px;
+	justify-content: space-between;
 }
 
 .content-list.blog .inner > * header h3 {
