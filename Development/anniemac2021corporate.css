@@ -448,7 +448,7 @@ footer #sitemap ul {
 
 footer #sitemap ul:first-of-type li {
 	width: 185px;
-	line-height: 35px;
+	line-height: 28px;
 }
 
 footer #sitemap ul li ul {
@@ -478,7 +478,7 @@ footer ul li,
 .footer-directory-listing p {
 	font-weight: 300;
 	font-size: 15px;
-	line-height: 30px;
+	line-height: 25px;
 }
 
 #product-banner {
