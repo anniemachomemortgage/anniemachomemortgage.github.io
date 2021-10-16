@@ -3496,11 +3496,15 @@ textarea#textarea-comments {
 
 .content-list.blog .inner > * .pull-left {
 	float: none;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
 }
 
 .content-list.blog .inner > * .pull-left img {
-	width: 100%;
-	margin-right: 0;
+	width: auto;
+	margin: 0 auto;
+	max-height: 300px;
 }
 
 .content-list.blog .inner > * summary {
