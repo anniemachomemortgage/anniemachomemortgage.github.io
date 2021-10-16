@@ -3705,6 +3705,10 @@ textarea#textarea-comments {
 	font-weight: 600;
 }
 
+.content-detail .media-body .content a:hover {
+	text-decoration: underline;
+}
+
 .page-blog-detail .blog-index .sidebar_items {
 	flex-wrap: wrap;
 	width: 92vw;
