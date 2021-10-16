@@ -3502,3 +3502,28 @@ textarea#textarea-comments {
 	width: 100%;
 	margin-right: 0;
 }
+
+.content-list.blog .inner > * summary {
+	display: block;
+	line-height: 24px;
+}
+
+.content-list.blog .inner > * .media-body header h3 {
+	font-size: 23px;
+	font-weight: 500;
+	margin-bottom: 9px;
+}
+
+.content-list.blog .inner > * summary a {
+	display: block;
+	margin: 10px 0 25px;
+	max-width: 200px;
+	background: #5db118;
+	padding: 12px 20px;
+	border-radius: 3px;
+	color: white;
+	font-weight: 600;
+	font-size: 16px;
+	letter-spacing: .8px;
+	text-align: center;
+}
