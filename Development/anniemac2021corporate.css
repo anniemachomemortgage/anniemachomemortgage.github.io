@@ -3592,9 +3592,9 @@ textarea#textarea-comments {
 
 .page-blog-list .content-list .pagination {
 	width: 100%;
-	background: #f7f7f78a;
+	background: #016fa7;
 	padding: 0px 30px;
-	margin: -25px auto 0;
+	margin: -25px auto -25px;
 	border-radius: 3px;
 }
 
@@ -3603,6 +3603,14 @@ textarea#textarea-comments {
 	width: 100%;
 	margin: 0 auto 40px;
 	justify-content: center;
+	color: #fff;
+}
+
+.page-blog-list .content-list .pagination ul li {
+	font-weight: 400;
+}
+.page-blog-list .content-list .pagination ul li.active {
+	font-weight: 900; 
 }
 
 .blog-index .sidebar_items {
@@ -3614,6 +3622,7 @@ textarea#textarea-comments {
 	position: relative;
 	display: flex;
 	margin-bottom: 55px;
+	overflow-x: clip;
 }
 
 .blog-index .sidebar_items div h3 {
