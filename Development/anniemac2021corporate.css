@@ -3549,24 +3549,24 @@ textarea#textarea-comments {
 	justify-content: center;
 }
 
-.blog-index .sidebar_items {
+.page-blog-list .sidebar_items {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 50px;
 }
 
-.blog-index .sidebar_items div h3 {
+.page-blog-list .sidebar_items div h3 {
 	font-size: 23px;
 	font-weight: 500;
 	margin-bottom: 10px;
 	color: #016fa8;
 }
 
-.blog-index .sidebar_items div ul li {
+.page-blog-list .sidebar_items div ul li {
 	line-height: 30px;
 }
 
-.blog-index .sidebar_items div:first-of-type {
+.page-blog-list .sidebar_items div:first-of-type {
 	width: 350px;
 }
 
@@ -3575,15 +3575,19 @@ textarea#textarea-comments {
 	order: -1;
 }
 
-.blog-index .sidebar_items div:last-of-type {
+.page-blog-list .sidebar_items div:last-of-type {
 	width: 400px;
 }
 
-.blog-index .sidebar_items div:last-of-type > ul {
+.page-blog-list .sidebar_items div:last-of-type > ul {
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.blog-index .sidebar_items div:last-of-type > ul li {
+.page-blog-list .sidebar_items div:last-of-type > ul li {
 	width: 50%;
+}
+
+.page-blog-detail #product-banner {
+	display: block;
 }
