@@ -89,6 +89,7 @@ $(function() {
 		$('#product-banner').css('background', 'linear-gradient(14deg, rgb(0 0 0 / 62%) 30%, rgb(98 90 75 / 28%) 80%), url(' + imageCover + ') no-repeat');
 		$('#product-banner').css('background-size', 'cover !important');
 	};
+	$( "article > header > h3:contains('test')" ).closest('article').remove();
 	if ($('body').hasClass('site-type-loan_officer')) {
 		var subdomain =  window.location.host.split('.')[1] ? window.location.host.split('.')[0] : false;
 		$('body').addClass(subdomain);
