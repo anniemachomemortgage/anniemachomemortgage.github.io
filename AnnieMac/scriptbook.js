@@ -86,8 +86,8 @@ $(function() {
 	};
 	if ($('body').hasClass('page-blog-detail')) {
 		var imageCover = $('.blog-image-detail').attr('src');
-		$('#product-banner').css('background', 'linear-gradient(14deg, rgb(72 47 4 / 51%) 30%, rgb(84 77 65 / 28%) 80%), url(' + imageCover + ')');
-		$('#product-banner').css('background-size', 'cover');
+		$('#product-banner').css('background', 'linear-gradient(14deg, rgb(72 47 4 / 51%) 30%, rgb(84 77 65 / 28%) 80%), url(' + imageCover + ') no-repeat');
+		$('#product-banner').css('background-size', 'cover !important');
 	};
 	if ($('body').hasClass('site-type-loan_officer')) {
 		var subdomain =  window.location.host.split('.')[1] ? window.location.host.split('.')[0] : false;

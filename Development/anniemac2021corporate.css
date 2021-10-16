@@ -3603,6 +3603,7 @@ textarea#textarea-comments {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-size: cover !important;
 	height: 350px;
 	margin-bottom: 20px;
 }
