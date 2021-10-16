@@ -3510,6 +3510,7 @@ textarea#textarea-comments {
 }
 
 .content-list.blog .inner > * summary {
+	line-height: 24px;
 	display: flex;
 	flex-direction: column;
 	align-items: stretch;
