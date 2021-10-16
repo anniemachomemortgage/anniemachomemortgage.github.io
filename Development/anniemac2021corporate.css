@@ -3619,7 +3619,7 @@ textarea#textarea-comments {
 }
 
 .page-blog-detail .blog-image-detail {
-	max-width: initial;
+	max-width: 600px;
 	margin-right: 0;
 	margin-bottom: 0;
 }
