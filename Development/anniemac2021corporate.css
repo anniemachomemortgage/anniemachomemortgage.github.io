@@ -3615,7 +3615,7 @@ textarea#textarea-comments {
 .blog-index .sidebar_items div:last-of-type > ul {
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: -8px;
+	margin-top: -6px;
 }
 
 .blog-index .sidebar_items div:last-of-type > ul li {
@@ -3704,11 +3704,11 @@ textarea#textarea-comments {
 }
 
 .page-blog-detail .sidebar_items div:first-of-type {
-	width: 50%;
+	flex: 2;
 }
 
 .page-blog-detail .sidebar_items div:last-of-type {
-	width: 50%;
+	flex: 1;
 }
 
 .media-body .content h4 {
