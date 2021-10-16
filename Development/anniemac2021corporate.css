@@ -3511,7 +3511,8 @@ textarea#textarea-comments {
 .content-list.blog .inner > * .media-body header h3 {
 	font-size: 23px;
 	font-weight: 500;
-	margin-bottom: 9px;
+	margin-bottom: 10px;
+	color: #016fa8;
 }
 
 .content-list.blog .inner > * summary a {
