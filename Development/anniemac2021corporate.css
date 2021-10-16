@@ -3522,6 +3522,8 @@ textarea#textarea-comments {
 	width: 100%;
 	margin: 0 auto;
 	height: 235px;
+	box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 13%);
+	border-radius: 2px;
 }
 
 .page-blog-list .content-list.blog .inner > * summary {
