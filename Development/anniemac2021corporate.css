@@ -3562,6 +3562,7 @@ textarea#textarea-comments {
 
 .blog-index .sidebar_items div ul li a:hover {
 	color: #016fa8;	
+	text-decoration: underline;
 }
 
 .page-blog-list .content-list .pagination {
