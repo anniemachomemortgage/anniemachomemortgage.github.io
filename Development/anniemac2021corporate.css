@@ -3541,6 +3541,30 @@ textarea#textarea-comments {
 	justify-content: space-between;
 }
 
-.blog-index .sidebar_items > * {
-	width: 30%;
+.blog-index .sidebar_items div h3 {
+	font-size: 23px;
+	font-weight: 500;
+	margin-bottom: 10px;
+	color: #016fa8;
+}
+
+.blog-index .sidebar_items div:first-of-type {
+	width: 350px;
+}
+
+.blog-index .sidebar_items .recent-blogs {
+	flex: 1;
+}
+
+.blog-index .sidebar_items div:last-of-type {
+	width: 400px;
+}
+
+.blog-index .sidebar_items div:last-of-type > ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.blog-index .sidebar_items div:last-of-type > ul li {
+	width: 50%;
 }
