@@ -3473,3 +3473,8 @@ textarea#textarea-comments {
 	display: flex;
 	flex-wrap: wrap;
 }
+
+/* BLOG */
+.content-list.blog .inner {
+	display: flex;
+}
