@@ -3494,11 +3494,6 @@ textarea#textarea-comments {
 	position: relative;
 }
 
-.content-list.blog .inner > * .media-body {
-	padding: 14px;
-	margin-top: -14px;
-}
-
 .content-list.blog .inner > * hr {
 	display: none;
 }
