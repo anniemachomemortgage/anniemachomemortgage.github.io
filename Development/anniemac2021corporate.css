@@ -3600,11 +3600,18 @@ textarea#textarea-comments {
 }
 
 .page-blog-detail #product-banner {
-	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .page-blog-detail #product-banner h2 {
-	display: none;
+	font-size: 60px;
+	color: white;
+	font-weight: 800;
+	text-align: center;
+	width: 800px;
+	text-shadow: 1px 3px 10px rgb(0 0 0 / 94%);
 }
 
 .page-blog-detail .content-list.blog {
