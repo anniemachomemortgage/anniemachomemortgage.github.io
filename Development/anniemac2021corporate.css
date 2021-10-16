@@ -3531,6 +3531,7 @@ textarea#textarea-comments {
 	position: relative;
 	z-index: -1;
 	display: block;
+	object-fit: cover;
 }
 
 .page-blog-list .content-list.blog .inner > * summary {
