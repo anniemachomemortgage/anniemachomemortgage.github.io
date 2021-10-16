@@ -3495,6 +3495,20 @@ textarea#textarea-comments {
 	margin: 20px auto;
 }
 
+.page-blog-list #product-banner {
+	display: block;
+	width: 92vw;
+	max-width: 1240px;
+	margin: 20px auto;
+}
+
+.page-blog-list #product-banner h2 {
+	font-size: 54px;
+	font-weight: 800;
+	margin: 10px 0 -20px;
+	color: #006fa9;
+}
+
 .page-blog-list .content-list.blog .inner > * {
 	display: flex;
 	flex-direction: column;
