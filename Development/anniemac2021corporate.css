@@ -3556,6 +3556,14 @@ textarea#textarea-comments {
 	bottom: 0;
 }
 
+.page-blog-list .content-list .pagination {
+	width: 100%;
+	background: #f7f7f7;
+	padding: 0px 30px;
+	margin: 0 auto;
+	border-radius: 3px;
+}
+
 .page-blog-list .content-list .pagination ul {
 	display: flex;
 	width: 100%;
