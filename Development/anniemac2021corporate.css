@@ -3490,6 +3490,13 @@ textarea#textarea-comments {
 	width: 30%;
 	min-height: 400px;
 	margin: 20px 0;
+	background: #fdfcfc;
+	position: relative;
+}
+
+.content-list.blog .inner > * .media-body {
+	padding: 14px;
+	margin-top: -14px;
 }
 
 .content-list.blog .inner > * hr {
@@ -3527,7 +3534,7 @@ textarea#textarea-comments {
 
 .content-list.blog .inner > * summary a {
 	display: block;
-	margin: 10px 0 25px;
+	margin: 0 0 0;
 	max-width: 200px;
 	background: #5db118;
 	padding: 12px 20px;
@@ -3537,6 +3544,8 @@ textarea#textarea-comments {
 	font-size: 16px;
 	letter-spacing: .8px;
 	text-align: center;
+	position: absolute;
+	bottom: 0;
 }
 
 .content-list .pagination ul {
