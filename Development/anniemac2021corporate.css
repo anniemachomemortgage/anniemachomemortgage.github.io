@@ -3556,6 +3556,10 @@ textarea#textarea-comments {
 	bottom: 0;
 }
 
+.page-blog-list .content-list.blog .inner > * summary a:hover {
+	background: #016fa8;
+}
+
 .page-blog-list .content-list .pagination {
 	width: 100%;
 	background: #f7f7f7;
