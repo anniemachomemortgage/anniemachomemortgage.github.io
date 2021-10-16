@@ -3677,3 +3677,7 @@ textarea#textarea-comments {
 .page-blog-detail .sidebar_items div:last-of-type {
 	width: 50%;
 }
+
+.share-bar .google-plus, .share-bar .pinterest {
+	display: none !important;
+}
