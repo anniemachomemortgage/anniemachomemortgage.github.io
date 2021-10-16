@@ -3539,6 +3539,7 @@ textarea#textarea-comments {
 .blog-index .sidebar_items {
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 50px;
 }
 
 .blog-index .sidebar_items div h3 {
