@@ -3638,7 +3638,7 @@ textarea#textarea-comments {
 	align-items: flex-start;
 	background-size: cover !important;
 	height: 400px;
-	margin: 45px auto 25px;
+	margin: 45px auto 10px;
 	width: 92vw;
 	max-width: 1240px;
 	box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 15%);
