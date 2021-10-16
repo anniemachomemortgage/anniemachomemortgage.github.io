@@ -3549,24 +3549,24 @@ textarea#textarea-comments {
 	justify-content: center;
 }
 
-.page-blog-list .sidebar_items {
+.blog-index .sidebar_items {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 50px;
 }
 
-.page-blog-list .sidebar_items div h3 {
+.blog-index .sidebar_items div h3 {
 	font-size: 23px;
 	font-weight: 500;
 	margin-bottom: 10px;
 	color: #016fa8;
 }
 
-.page-blog-list .sidebar_items div ul li {
+.blog-index .sidebar_items div ul li {
 	line-height: 30px;
 }
 
-.page-blog-list .sidebar_items div:first-of-type {
+.blog-index .sidebar_items div:first-of-type {
 	width: 350px;
 }
 
@@ -3575,16 +3575,16 @@ textarea#textarea-comments {
 	order: -1;
 }
 
-.page-blog-list .sidebar_items div:last-of-type {
+.blog-index .sidebar_items div:last-of-type {
 	width: 400px;
 }
 
-.page-blog-list .sidebar_items div:last-of-type > ul {
+.blog-index .sidebar_items div:last-of-type > ul {
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.page-blog-list .sidebar_items div:last-of-type > ul li {
+.blog-index .sidebar_items div:last-of-type > ul li {
 	width: 50%;
 }
 
