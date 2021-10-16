@@ -3591,3 +3591,21 @@ textarea#textarea-comments {
 .page-blog-detail #product-banner {
 	display: block;
 }
+
+.page-blog-detail .content-list.blog {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 92vw;
+	max-width: 1400px;
+	margin: 20px auto;
+}
+
+.page-blog-detail .content-list .inner {
+	display: flex;
+	flex-direction: column;
+}
+
+.page-blog-detail .content-list .inner .content-detail {
+	order: -1;
+}
