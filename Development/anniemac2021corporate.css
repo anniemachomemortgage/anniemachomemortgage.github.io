@@ -3711,6 +3711,7 @@ textarea#textarea-comments {
 	max-width: 1240px;
 	border-top: 1px solid rgba(0,0,0,.15);
 	padding-top: 20px;
+	position: relative;
 }
 
 .page-blog-detail .block.recent-blogs {
@@ -3724,7 +3725,8 @@ textarea#textarea-comments {
 
 .page-blog-detail .sidebar_items div:last-of-type {
 	flex: 1;
-	margin-top: -212px;
+	position: absolute;
+	right: 0;
 }
 
 .media-body .content h4 {
