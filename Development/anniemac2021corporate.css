@@ -3504,7 +3504,7 @@ textarea#textarea-comments {
 .content-list.blog .inner > * .pull-left img {
 	width: auto;
 	margin: 0 auto;
-	max-height: 300px;
+	max-height: 150px;
 }
 
 .content-list.blog .inner > * summary {
