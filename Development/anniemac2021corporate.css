@@ -3499,6 +3499,7 @@ textarea#textarea-comments {
 	display: flex;
 	flex-direction: column;
 	width: 30%;
+	max-width: 400px;
 	min-height: 213px;
 	margin: 20px 0 50px;
 	position: relative;
@@ -3553,6 +3554,23 @@ textarea#textarea-comments {
 	text-align: center;
 	position: absolute;
 	bottom: 0;
+}
+
+.page-blog-list .content-list.blog .inner > * summary a:hover {
+	background: #016fa8;
+}
+
+.blog-index .sidebar_items div ul li a:hover {
+	color: #016fa8;	
+	text-decoration: underline;
+}
+
+.page-blog-list .content-list .pagination {
+	width: 100%;
+	background: #f7f7f7;
+	padding: 0px 30px;
+	margin: 0 auto;
+	border-radius: 3px;
 }
 
 .page-blog-list .content-list .pagination ul {
