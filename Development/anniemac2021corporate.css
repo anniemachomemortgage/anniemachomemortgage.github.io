@@ -3603,6 +3603,10 @@ textarea#textarea-comments {
 	display: block;
 }
 
+.page-blog-detail #product-banner h2 {
+	display: none;
+}
+
 .page-blog-detail .content-list.blog {
 	display: flex;
 	flex-wrap: wrap;
