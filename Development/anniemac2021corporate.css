@@ -3499,6 +3499,7 @@ textarea#textarea-comments {
 	display: flex;
 	flex-direction: column;
 	width: 30%;
+	max-width: 400px;
 	min-height: 213px;
 	margin: 20px 0 50px;
 	position: relative;
