@@ -3661,3 +3661,22 @@ textarea#textarea-comments {
 	color: #5db118;
 	font-weight: 800;
 }
+
+.page-blog-detail .blog-index .sidebar_items {
+	flex-wrap: wrap;
+	width: 92vw;
+	max-width: 1400px;
+}
+
+.page-blog-detail .block.recent-blogs {
+	min-width: 100%;
+	margin-bottom: 20px;
+}
+
+.page-blog-detail .sidebar_items div:first-of-type {
+	width: 50%;
+}
+
+.page-blog-detail .sidebar_items div:last-of-type {
+	width: 50%;
+}
