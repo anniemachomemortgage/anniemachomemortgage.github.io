@@ -3635,10 +3635,6 @@ textarea#textarea-comments {
 	order: -1;
 }
 
-.page-blog-detail .content-list .inner .clearfix {
-	display: none;
-}
-
 .content-detail .pull-left {
 	float: none;
 }
@@ -3666,7 +3662,7 @@ textarea#textarea-comments {
 	flex-wrap: wrap;
 	width: 92vw;
 	max-width: 1400px;
-	margin-top: 60px;
+	margin-top: 15px;
 }
 
 .page-blog-detail .block.recent-blogs {
