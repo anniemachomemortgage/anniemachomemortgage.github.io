@@ -3663,6 +3663,11 @@ textarea#textarea-comments {
 	order: -1;
 }
 
+.content-detail .media-body .content ul {
+	list-style: number;
+	margin-left: 22px;
+}
+
 .content-detail .pull-left {
 	float: none;
 }
