@@ -3495,20 +3495,6 @@ textarea#textarea-comments {
 	margin: 20px auto;
 }
 
-.page-blog-list #product-banner {
-	display: block;
-	width: 92vw;
-	max-width: 1240px;
-	margin: 20px auto;
-}
-
-.page-blog-list #product-banner h2 {
-	font-size: 54px;
-	font-weight: 800;
-	margin: 10px 0 -20px;
-	color: #5db118;
-}
-
 .page-blog-list .content-list.blog .inner > * {
 	display: flex;
 	flex-direction: column;
@@ -3605,9 +3591,13 @@ textarea#textarea-comments {
 }
 
 .blog-index .sidebar_items {
+	flex-wrap: wrap;
+	width: 92vw;
+	max-width: 1240px;
+	border-top: 1px solid rgba(0,0,0,.15);
+	padding-top: 22px;
+	position: relative;
 	display: flex;
-	justify-content: space-between;
-	margin-bottom: 50px;
 }
 
 .blog-index .sidebar_items div h3 {
@@ -3623,16 +3613,22 @@ textarea#textarea-comments {
 }
 
 .blog-index .sidebar_items div:first-of-type {
-	width: 350px;
+	flex: 1;
+	order: 2;
+	width: 50%;
 }
 
 .block.recent-blogs {
-	flex: 1;
 	order: -1;
-	margin-right: 80px;
+	min-width: 100vw;
+	margin-bottom: 40px;
 }
 
 .blog-index .sidebar_items div:last-of-type {
+	flex: 1;
+	position: absolute;
+	right: 0;
+	top: 20px;
 	width: 380px;
 }
 
