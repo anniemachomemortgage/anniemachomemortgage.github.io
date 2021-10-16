@@ -3489,7 +3489,7 @@ textarea#textarea-comments {
 	flex-direction: column;
 	width: 30%;
 	min-height: 413px;
-	margin: 20px 0;
+	margin: 20px 0 50px;
 	position: relative;
 }
 
