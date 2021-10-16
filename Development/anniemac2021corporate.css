@@ -3508,7 +3508,7 @@ textarea#textarea-comments {
 	line-height: 24px;
 }
 
-.content-list.blog .inner > * .media-body header h3 {
+.content-list.blog .inner > * header h3 {
 	font-size: 23px;
 	font-weight: 500;
 	margin-bottom: 10px;
@@ -3527,4 +3527,16 @@ textarea#textarea-comments {
 	font-size: 16px;
 	letter-spacing: .8px;
 	text-align: center;
+}
+
+.content-list .pagination ul {
+	display: flex;
+	width: 100%;
+	margin: 0 auto 40px;
+	justify-content: center;
+}
+
+.blog-index .sidebar_items {
+	display: flex;
+	justify-content: space-between;
 }
