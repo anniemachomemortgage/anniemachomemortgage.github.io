@@ -3489,3 +3489,16 @@ textarea#textarea-comments {
 	flex-direction: column;
 	width: 30%;
 }
+
+.content-list.blog .inner > * hr {
+	display: none;
+}
+
+.content-list.blog .inner > * .pull-left {
+	float: none;
+}
+
+.content-list.blog .inner > * .pull-left img {
+	width: 100%;
+	margin-right: 0;
+}
