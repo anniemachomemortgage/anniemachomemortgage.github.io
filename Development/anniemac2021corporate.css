@@ -3594,7 +3594,8 @@ textarea#textarea-comments {
 }
 
 .blog-index .sidebar_items div ul li {
-	line-height: 30px;
+	line-height: 22px;
+	font-size: 16px;
 }
 
 .blog-index .sidebar_items div:first-of-type {
@@ -3614,6 +3615,7 @@ textarea#textarea-comments {
 .blog-index .sidebar_items div:last-of-type > ul {
 	display: flex;
 	flex-wrap: wrap;
+	margin-top: -8px;
 }
 
 .blog-index .sidebar_items div:last-of-type > ul li {
