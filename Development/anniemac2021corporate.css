@@ -3511,6 +3511,10 @@ textarea#textarea-comments {
 
 .page-blog-list .content-list.blog .inner > * .pull-left {
 	float: none;
+	display: inline-block;
+	background: linear-gradient(14deg, rgba(0, 0, 0, 0.62) 30%, rgba(98, 90, 75, 0.28) 80%);
+	width: 100%;
+	margin-bottom: 10px;
 }
 
 .page-blog-list img.blog-image-index {
@@ -3524,6 +3528,9 @@ textarea#textarea-comments {
 	height: 235px;
 	box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 13%);
 	border-radius: 2px;
+	position: relative;
+	z-index: -1;
+	display: block;
 }
 
 .page-blog-list .content-list.blog .inner > * summary {
