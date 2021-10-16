@@ -3505,6 +3505,20 @@ textarea#textarea-comments {
 	position: relative;
 }
 
+.page-blog-list #product-banner {
+	display: block;
+	width: 92vw;
+	max-width: 1240px;
+	margin: 20px auto;
+}
+
+.page-blog-list #product-banner h2 {
+	font-size: 54px;
+	font-weight: 800;
+	margin: 10px 0 -20px;
+	color: #5db118;
+}
+
 .page-blog-list .content-list.blog .inner > * hr {
 	display: none;
 }
@@ -3598,6 +3612,7 @@ textarea#textarea-comments {
 	padding-top: 22px;
 	position: relative;
 	display: flex;
+	margin-bottom: 55px;
 }
 
 .blog-index .sidebar_items div h3 {
