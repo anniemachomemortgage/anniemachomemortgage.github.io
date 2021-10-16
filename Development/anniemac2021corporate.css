@@ -3477,4 +3477,15 @@ textarea#textarea-comments {
 /* BLOG */
 .content-list.blog .inner {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 92vw;
+	max-width: 1400px;
+	margin: 20px auto;
+}
+
+.content-list.blog .inner > * {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
 }
