@@ -3549,6 +3549,10 @@ textarea#textarea-comments {
 	color: #016fa8;
 }
 
+.blog-index .sidebar_items div ul li {
+	line-height: 30px;
+}
+
 .blog-index .sidebar_items div:first-of-type {
 	width: 350px;
 }
