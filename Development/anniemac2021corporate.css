@@ -3609,3 +3609,19 @@ textarea#textarea-comments {
 .page-blog-detail .content-list .inner .content-detail {
 	order: -1;
 }
+
+.content-detail .pull-left {
+	float: none;
+}
+
+.page-blog-detail .blog-image-detail {
+	max-width: initial;
+	margin-right: 0;
+	margin-bottom: 0;
+}
+
+.content-detail .media-body .content h3 {
+	font-size: 33px;
+	font-weight: 700;
+	color: #5db118;
+}
