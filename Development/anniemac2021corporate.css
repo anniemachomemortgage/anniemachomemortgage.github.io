@@ -3755,11 +3755,21 @@ textarea#textarea-comments {
 .share-bar ul .facebook {
 	background: #3c5998;
 	color: #fff;
+	width: 120px;
+	font-weight: 800;
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 4px;
 }
 
 .share-bar ul .twitter {
-	background: #45ccf6;
+	background: #3dbae1;
 	color: #fff;
+	width: 120px;
+	font-weight: 800;
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 4px;
 }
 
 .share-bar .google-plus, .share-bar .pinterest {
