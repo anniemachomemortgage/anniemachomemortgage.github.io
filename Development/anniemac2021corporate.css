@@ -3678,6 +3678,10 @@ textarea#textarea-comments {
 	width: 50%;
 }
 
+.media-body .content strong {
+	font-weight: 600;
+}
+
 .share-bar .google-plus, .share-bar .pinterest {
 	display: none !important;
 }
