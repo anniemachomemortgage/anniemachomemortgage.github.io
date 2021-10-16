@@ -3714,6 +3714,7 @@ textarea#textarea-comments {
 
 .page-blog-detail .sidebar_items div:last-of-type {
 	flex: 1;
+	margin-top: -212px;
 }
 
 .media-body .content h4 {
