@@ -3590,6 +3590,8 @@ textarea#textarea-comments {
 	text-align: center;
 	position: absolute;
 	bottom: 0;
+	-webkit-background-clip: initial;
+	-webkit-text-fill-color: white;
 }
 
 .page-blog-list .content-list.blog .inner > * summary a:hover {
