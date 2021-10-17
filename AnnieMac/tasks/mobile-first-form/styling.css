@@ -42,12 +42,31 @@ ol {
 	list-style: none;
 }
 
+<<<<<<< HEAD
 h1 {
 	font-size: 42px;
 }
 
 h2 {
 	font-size: 36px;
+=======
+.mobile-first-lead-capture-main {
+	width: 400px;
+	margin: 60px auto;
+}
+
+@media screen and (min-width: 600px) {
+	.mobile-first-lead-capture-main {
+		width: 80%;
+		max-width: 650px;
+	}
+}
+
+img {
+	width: 300px;
+	height: auto;
+	margin: -20px 0 30px;
+>>>>>>> 8e0a4250b696b3eb373bee2da56e893552237164
 }
 
 h3 {
@@ -62,9 +81,15 @@ h4 {
 	font-weight: 400;
 }
 
+<<<<<<< HEAD
 h5 {
 	font-size: 20px;
 	margin: 20px 0 12px;
+=======
+label {
+	font-size: 23px;
+	margin: 25px 0 16px;
+>>>>>>> 8e0a4250b696b3eb373bee2da56e893552237164
 	color: #076fa6;
 	font-weight: 400;
 }
@@ -337,6 +362,7 @@ body {
 	margin: 0px 0 10px !important;
 }
 
+<<<<<<< HEAD
 #navigation-sidebar .navigation-sidebar-sectional a h4 span {
 	display: none;
 }
@@ -348,6 +374,31 @@ body {
 }
 
 .navigation-sidebar-sectional ul li h4 a {
+=======
+.pagination button:first-of-type:hover {
+    background: #899ba5;
+}
+
+.pagination button:last-of-type {
+	background: #076fa6;
+}
+
+.pagination button:last-of-type:hover {
+    background: #075d8b;
+}
+
+input, select {
+	margin: -3px 0 15px 0;
+	padding: 18px;
+	border-radius: 4px;
+	font-size: 1rem;
+	outline: none;
+	font-family: 'neue-haas-unica', sans-serif;
+	background: #fff;
+	border: 1px solid rgba(0, 0, 0, .2);
+	box-shadow: 0 1px 2px 3px rgb(0 0 0 / 2%);
+	color: rgba(0, 0, 0, .85);
+>>>>>>> 8e0a4250b696b3eb373bee2da56e893552237164
 	font-weight: 400;
 	display: block;
 	margin-bottom: -5px;
@@ -512,8 +563,19 @@ footer ul li,
 	margin: auto;
 }
 
+<<<<<<< HEAD
 .site-type-branch .content-block-list .row-item:nth-of-type(1) {
 	display: none !important;
+=======
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	text-indent: 1px;
+	background: url('images/dropdown-arrow.jpeg') no-repeat right;
+	background-size: 20px;
+	background-position-x: calc(100% - 10px);
+	color: #454545ba;
+>>>>>>> 8e0a4250b696b3eb373bee2da56e893552237164
 }
 
 .site-type-corporate .content-block-list .row-item:nth-of-type(2) {
@@ -584,10 +646,21 @@ footer ul li,
 	margin-bottom: 9px;
 }
 
+<<<<<<< HEAD
 #annie-mac-2021-redesign-container p {
 	font-size: 16px;
 	margin: 0;
 	color: inherit;
+=======
+input:focus, input:active, input:hover, select:focus, select:active, select:hover {
+    border: 1px solid #4d9fcb;
+}
+
+small {
+	margin: -2px 0 10px;
+	line-height: 22px;
+	font-size:  14px;
+>>>>>>> 8e0a4250b696b3eb373bee2da56e893552237164
 }
 
 #annie-mac-2021-redesign-container ul {

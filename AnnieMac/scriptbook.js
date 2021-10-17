@@ -53,6 +53,7 @@ $(function() {
 		}
 		return null;
 	};
+	$("#navigation-sidebar > div:nth-child(2) > a:nth-child(4)").remove();
 	if (document.cookie.indexOf("visitedloanoriginator=") >= 0) {
 		if (document.cookie.indexOf("visitedloanoriginatorname=") < 0) {
 			document.cookie = "noshowlastoriginator=true; path=/; max-age=1; domain=.annie-mac.com";
@@ -83,6 +84,16 @@ $(function() {
 			};
 		};
 	};
+	if ($('body').hasClass('page-blog-detail')) {
+		var imageCover = $('.blog-image-detail').attr('src');
+		$('#product-banner').css('background', 'linear-gradient(14deg, rgb(0 0 0 / 62%) 30%, rgb(98 90 75 / 28%) 80%), url(' + imageCover + ') no-repeat');
+		$('#product-banner').css('background-size', 'cover !important');
+		$('.facebook a img').remove();
+		$('.twitter a img').remove();
+		$('.twitter a').text("Twitter");
+		$('.facebook a').text("Facebook");
+	};
+	$( "article > header > h3:contains('test')" ).closest('article').remove();
 	if ($('body').hasClass('site-type-loan_officer')) {
 		var subdomain =  window.location.host.split('.')[1] ? window.location.host.split('.')[0] : false;
 		$('body').addClass(subdomain);
@@ -156,8 +167,8 @@ $(function() {
 		};
 		var fullwidthsidebarlinks = '<div id="links-sidebar-full-width"><div id="sidebar-apply-now"><a href="/loan/apply" id="loan-officer-sidebar-apply">Apply Now</a></div><h4>Important Links</h4><ul><a href="/page/buyer-guide"><li>First Time Home Buyer</li></a><a href="/page/faq"><li>Frequent Questions</li></a><a href="/mortgage/calculator/affordability"><li>Mortgage Affordability Calculator</li></a><a href="/mortgage/calculator/refinance"><li>Should I Refinance?</li></a><a href="/contact"><li>Contact Me</li></a></ul></div>';
 		$(fullwidthsidebarlinks).appendTo( $( "#loan-originator-backdrop" ) );
-		var loanoriginatornumber = document.querySelector("#navigation-sidebar > div:nth-child(2) > a:nth-child(4) > h4").innerText;
-		loanoriginatornumber = loanoriginatornumber.substring(1);
+		var loanoriginatornumber = document.querySelector("#footer-phone-number").innerText;
+		loanoriginatornumber = loanoriginatornumber.replaceAll("[()\\s-]+", "");
 		$('#list_11409').addClass('hide');
 		var loanoriginatorname = document.querySelector("#footer-branchlo-name").innerText;
 		var loanoriginatornmls = document.querySelector("#footer-nmls").innerText;
@@ -318,6 +329,10 @@ $(function() {
 		$('#coloradosprings-branch-listing').hide();
 		$('#towson-branch-listing').hide();
 		$("#wausau-branch-listing").hide();
+		$("#hannahstaging\\.wmmortgageware\\.com-branch-listing").remove();
+	};
+	if (window.location.href.indexOf("/forms/lead/b2b-broker") != -1) {
+		$('#product-banner').hide();
 	};
 	// For new pages and the blog, remove old stylesheets and add the new 2021 stylesheet.
 	if ((window.location.href.indexOf("credit-score-basics") != -1) || (window.location.href.indexOf("blog") != -1) || (window.location.href.indexOf("prequal-vs-preapproval") != -1)) {
