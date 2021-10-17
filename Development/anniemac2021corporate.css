@@ -3564,9 +3564,9 @@ textarea#textarea-comments {
 	justify-content: space-between;
 	max-height: 197px;
 	overflow: hidden;
-	background: -webkit-linear-gradient(90deg, #fff, #333);
+	/*background: -webkit-linear-gradient(90deg, #fff, #333);
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: transparent;*/
 }
 
 .page-blog-list .content-list.blog .inner > * header h3 {
@@ -3590,8 +3590,8 @@ textarea#textarea-comments {
 	text-align: center;
 	position: absolute;
 	bottom: 0;
-	-webkit-background-clip: initial;
-	-webkit-text-fill-color: white;
+	/*-webkit-background-clip: initial;
+	-webkit-text-fill-color: white;*/
 }
 
 .page-blog-list .content-list.blog .inner > * summary a:hover {
