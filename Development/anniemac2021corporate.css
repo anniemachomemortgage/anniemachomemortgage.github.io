@@ -3783,6 +3783,7 @@ textarea#textarea-comments {
 
 .page-blog-category .content-list.blog .inner > * summary {
     min-height: 253px;
+    max-height: initial;
 }
 
 .page-blog-category .content-list.blog .inner > * summary a {
