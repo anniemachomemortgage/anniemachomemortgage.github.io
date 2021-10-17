@@ -3797,7 +3797,7 @@ textarea#textarea-comments {
     display: flex;
     flex-direction: row;
     width: 50%;
-    max-width: initial;
+    max-width: 600px;
 }
 
 .media-body .content h4 {
