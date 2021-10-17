@@ -3792,12 +3792,6 @@ textarea#textarea-comments {
     -webkit-text-fill-color: white;
 }
 
-.page-blog-category .content-list.blog article header {
-    max-height: 27px !important;
-    overflow: hidden;
-    margin-bottom: 10px;
-}
-
 .page-blog-category .content-list.blog .inner > * {
     display: flex;
     flex-direction: column;
