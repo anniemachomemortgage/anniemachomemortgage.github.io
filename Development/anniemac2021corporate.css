@@ -3562,6 +3562,11 @@ textarea#textarea-comments {
 	align-items: stretch;
 	min-height: 185px;
 	justify-content: space-between;
+	max-height: 197px;
+	overflow: hidden;
+	background: -webkit-linear-gradient(90deg, #fff, #333);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .page-blog-list .content-list.blog .inner > * header h3 {
@@ -3653,6 +3658,22 @@ textarea#textarea-comments {
 	order: -1;
 	min-width: 100vw;
 	margin-bottom: 40px;
+}
+
+.page-blog-category .content-list.blog .inner > * .pull-left {
+    display: none;
+}
+
+.page-blog-category .content-list.blog .inner > * summary a {
+    z-index: 1;
+    margin: 20px 0 0;
+    -webkit-text-fill-color: white;
+}
+
+.page-blog-category .content-list.blog article header {
+    max-height: 27px !important;
+    overflow: hidden;
+    margin-bottom: 10px;
 }
 
 .blog-index .sidebar_items div:last-of-type {
