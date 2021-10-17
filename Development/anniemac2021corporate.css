@@ -3797,6 +3797,13 @@ textarea#textarea-comments {
 	right: 0;
 }
 
+.page-blog-category .content-list.blog .inner > * {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    max-width: initial;
+}
+
 .media-body .content h4 {
 	font-weight: 600;
 	margin-top: 38px;
