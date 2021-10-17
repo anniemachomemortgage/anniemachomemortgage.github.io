@@ -3795,7 +3795,7 @@ textarea#textarea-comments {
 
 .page-blog-category .content-list.blog .inner > * {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 50%;
     max-width: 600px;
 }
