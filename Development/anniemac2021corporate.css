@@ -439,9 +439,10 @@ footer img {
 footer #sitemap,
 footer #copyrights {
 	display: flex;
-	width: 90%;
 	margin: 0 auto;
 	justify-content: space-between;
+	width: 92vw;
+	max-width: 1240px;
 }
 
 footer #sitemap ul {
