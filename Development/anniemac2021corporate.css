@@ -3662,22 +3662,6 @@ textarea#textarea-comments {
 	margin-bottom: 40px;
 }
 
-.page-blog-category .content-list.blog .inner > * .pull-left {
-    display: none;
-}
-
-.page-blog-category .content-list.blog .inner > * summary a {
-    z-index: 1;
-    margin: 20px 0 0;
-    -webkit-text-fill-color: white;
-}
-
-.page-blog-category .content-list.blog article header {
-    max-height: 27px !important;
-    overflow: hidden;
-    margin-bottom: 10px;
-}
-
 .blog-index .sidebar_items div:last-of-type {
 	flex: 1;
 	position: absolute;
@@ -3795,6 +3779,18 @@ textarea#textarea-comments {
 	flex: 1;
 	position: absolute;
 	right: 0;
+}
+
+.page-blog-category .content-list.blog .inner > * summary a {
+    z-index: 1;
+    margin: 20px 0 0;
+    -webkit-text-fill-color: white;
+}
+
+.page-blog-category .content-list.blog article header {
+    max-height: 27px !important;
+    overflow: hidden;
+    margin-bottom: 10px;
 }
 
 .page-blog-category .content-list.blog .inner > * {
