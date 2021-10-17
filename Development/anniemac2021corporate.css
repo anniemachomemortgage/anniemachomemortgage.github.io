@@ -3781,6 +3781,10 @@ textarea#textarea-comments {
 	right: 0;
 }
 
+.page-blog-category .content-list.blog .inner > * summary {
+    min-height: 253px;
+}
+
 .page-blog-category .content-list.blog .inner > * summary a {
     z-index: 1;
     margin: 20px 0 0;
