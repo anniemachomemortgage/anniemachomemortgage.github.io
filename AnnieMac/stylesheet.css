@@ -2571,6 +2571,11 @@ div#flash-message {
   border: none;
 }
 
+#form_builder input[type="submit"]:hover, #form_builder input[type="button"]:hover {
+  border: none;
+  outline: none;
+}
+
 #form_builder .error_label {
   margin-top: -32px;
 }
