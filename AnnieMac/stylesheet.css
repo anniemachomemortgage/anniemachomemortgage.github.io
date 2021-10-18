@@ -2577,6 +2577,10 @@ div#flash-message {
   outline: none;
 }
 
+#form_builder .g-recaptcha {
+  margin-top: 45px;
+}
+
 #form_builder .error_label {
   margin-top: -32px;
 }
