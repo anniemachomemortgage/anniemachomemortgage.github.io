@@ -2573,6 +2573,7 @@ div#flash-message {
 
 #form_builder input[type="submit"]:hover, #form_builder input[type="button"]:hover {
   border: none;
+  background: #016fa8;
   outline: none;
 }
 
