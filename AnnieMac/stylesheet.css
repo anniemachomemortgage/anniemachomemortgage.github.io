@@ -2567,6 +2567,8 @@ div#flash-message {
   font-size: 20px;
   box-shadow: 1px 1px 3px rgb(0 0 0 / 12%);
   text-transform: capitalize;
+  outline: none;
+  border: none;
 }
 
 #form_builder .error_label {
