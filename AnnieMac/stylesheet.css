@@ -2530,6 +2530,16 @@ div#flash-message {
   box-shadow: 0 1px 2px 3px rgb(0 0 0 / 7%);
 }
 
+#form_builder input.btn.button-main.previous {
+  background: #8d8d8d !important;
+  order: 3;
+}
+
+#form_builder .next-contaner {
+  display: flex;
+  flex-direction: column;
+}
+
 #form_builder input, #form_builder select, #form_builder textarea {
   margin: 20px 0 15px 0 !important;
   padding: 18px;
