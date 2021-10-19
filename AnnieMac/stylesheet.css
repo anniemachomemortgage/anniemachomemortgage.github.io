@@ -2528,6 +2528,12 @@ div#flash-message {
   background: #0f4879;
   color: #ffffff;
   box-shadow: 0 1px 2px 3px rgb(0 0 0 / 7%);
+  display: none;
+}
+
+#form_builder .form-wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
 #form_builder input.btn.button-main.previous {
