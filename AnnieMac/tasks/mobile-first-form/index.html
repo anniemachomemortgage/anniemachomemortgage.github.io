@@ -60,8 +60,7 @@
 							<label>What is the estimated purchase price?</label>
 							<input type="text" id="purchase-price" data-xml-node="" placeholder="Estimated price">
 							<label>How much will you pay as your downpayment?</label>
-							<input type="text" id="purchase-downpayment" data-xml-node="" placeholder="Downpayment"> <!-- In percentage. -->
-							<small>Estimated loan amount: X</small>
+							<input type="text" id="purchase-downpayment" data-xml-node="" placeholder="Downpayment">
 							<div class="pagination">
 								<button class="back-1">Back</button>
 								<button class="next-2">Continue</button>
@@ -71,10 +70,10 @@
 							<label>How is your credit?</label>
 							<input type="hidden" id="purchase-credit" data-xml-node="">
 							<select id="purchase-credit-dropdown" class="credit-score-dropdown">
-								<option>Poor < 619</option>
-								<option>Fair 620-279</option>
-								<option>Good 680-719</option>
-								<option>Excellent 720+</option>
+								<option value="Poor">Poor < 619</option>
+								<option value="Fair">Fair 620-679</option>
+								<option value="Good">Good 680-719</option>
+								<option value="Excellent">Excellent 720+</option>
 							</select>
 							<small>Estimating your score will not harm your credit and will help us provide a range of available rates.</small>
 							<div class="pagination">
@@ -130,10 +129,10 @@
 							<label>How is your credit?</label>
 							<input type="hidden" id="refinance-credit" data-xml-node="">
 							<select id="refinance-credit-dropdown" class="credit-score-dropdown">
-								<option>Poor < 619</option>
-								<option>Fair 620-279</option>
-								<option>Good 680-719</option>
-								<option>Excellent 720+</option>
+								<option value="Poor">Poor < 619</option>
+								<option value="Fair">Fair 620-679</option>
+								<option value="Good">Good 680-719</option>
+								<option value="Excellent">Excellent 720+</option>
 							</select>
 							<small>Estimating your score will not harm your credit and will help us provide a range of available rates.</small>
 							<div class="pagination">

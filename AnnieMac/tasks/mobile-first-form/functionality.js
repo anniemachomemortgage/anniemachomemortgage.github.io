@@ -74,6 +74,10 @@ $(function() {
 			$("#refinance-last-name").removeAttr('data-xml-node');
 			$("#refinance-phone").removeAttr('data-xml-node');
 			$("#refinance-email").removeAttr('data-xml-node');
+			$("select#purchase-credit-dropdown").change(function () {
+				var selectedCredit = $("#purchase-credit-dropdown").val();
+				$('input[id=purchase-credit]').val(selectedCredit);
+			});
 		};
 	});
 	$("#b-option").click(function(){
@@ -102,6 +106,10 @@ $(function() {
 			$("#purchase-last-name").removeAttr('data-xml-node');
 			$("#purchase-phone").removeAttr('data-xml-node');
 			$("#purchase-email").removeAttr('data-xml-node');
+			$("select#refinance-credit-dropdown").change(function () {
+				var selectedCredit = $("#refinance-credit-dropdown").val();
+				$('input[id=refinance-credit]').val(selectedCredit);
+			});
 		};
 	});
 });
