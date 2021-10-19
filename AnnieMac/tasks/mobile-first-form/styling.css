@@ -113,19 +113,19 @@ label {
 	box-shadow: 1px 1px 3px rgb(0 0 0 / 6.5%);
 }
 
-.pagination button:first-of-type {
+.pagination button:last-of-type {
 	background: #A2A2A2;
 }
 
-.pagination button:first-of-type:hover {
+.pagination button:last-of-type:hover {
 	background: #899ba5;
 }
 
-.pagination button:last-of-type {
+.pagination button:first-of-type {
 	background: #076fa6;
 }
 
-.pagination button:last-of-type:hover {
+.pagination button:first-of-type:hover {
 	background: #075d8b;
 }
 
