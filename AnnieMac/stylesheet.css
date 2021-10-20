@@ -2607,3 +2607,9 @@ div#flash-message {
 #form_builder input:focus, #form_builder input:active, #form_builder input:hover, #form_builder select:focus, #form_builder select:active, #form_builder select:hover {
   border: 1px solid #4d9fcb;
 }
+
+#site-navigation ul .navigation-sectional li img {
+    width: auto;
+    height: 40px;
+    margin: -8px 0 -4px;
+}
