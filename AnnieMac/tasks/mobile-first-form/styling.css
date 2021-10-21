@@ -27,7 +27,8 @@ header, main, section, form, form div, footer {
 img {
 	width: 300px;
 	height: auto;
-	margin: -30px ​0 30px;
+	margin-top: -30px;
+	margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 421px) {
