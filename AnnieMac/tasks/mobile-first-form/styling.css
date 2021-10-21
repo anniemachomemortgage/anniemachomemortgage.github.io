@@ -22,7 +22,7 @@ header, main, section, form, form div, footer {
 	margin: 60px auto;
 }
 
-@media only screen and (device-width : 375px) {
+@media only screen and (max-width: 421px) {
 	.mobile-first-lead-capture-main {
 		width: 90vw;
 		margin: 60px auto;
