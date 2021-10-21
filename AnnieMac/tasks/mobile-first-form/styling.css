@@ -121,11 +121,11 @@ label {
 	background: #899ba5;
 }
 
-.pagination button:first-of-type {
+.pagination button:last-of-type {
 	background: #076fa6;
 }
 
-.pagination button:first-of-type:hover {
+.pagination button:last-of-type:hover {
 	background: #075d8b;
 }
 
