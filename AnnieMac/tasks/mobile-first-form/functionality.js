@@ -26,9 +26,27 @@ $(function() {
 		$(".question-5").removeClass("inactive");
 		$(".question-6").addClass("inactive");
 	});
+	$('.question-1 > input').on('keyup',function() {
+		var inputLength = $(".question-1 > input").val();
+		var minLength = $(".question-1 > input").attr( 'minlength' );
+		if(inputLength != '' && inputLength.length >= minLength) {
+			$(".question-1 > div > .next-1").prop('disabled', false);
+		} else {
+			$(".question-1 > div > .next-1").prop('disabled', true);
+		}
+	});
 	$(".next-1").click(function(){
 		$(".question-1").addClass("inactive");
 		$(".question-2").removeClass("inactive");
+	});
+	$('.question-2 > input').on('keyup',function() {
+		var inputLength = $(".question-2 > input").val();
+		var minLength = $(".question-2 > input").attr( 'minlength' );
+		if(inputLength != '' && inputLength.length >= minLength) {
+			$(".question-2 > div > .next-2").prop('disabled', false);
+		} else {
+			$(".question-2 > div > .next-2").prop('disabled', true);
+		}
 	});
 	$(".next-2").click(function(){
 		$(".question-2").addClass("inactive");
@@ -38,13 +56,42 @@ $(function() {
 		$(".question-3").addClass("inactive");
 		$(".question-4").removeClass("inactive");
 	});
+	$('.question-4 > input').on('keyup',function() {
+		var inputLengthFirst = $(".question-4 > input:first-of-type").val();
+		var inputLengthLast = $(".question-4 > input:last-of-type").val();
+		var minLengthFirst = $(".question-4 > input:first-of-type").attr( 'minlength' );
+		var minLengthLast = $(".question-4 > input:last-of-type").attr( 'minlength' );
+		if((inputLengthFirst != '' && inputLengthFirst.length >= minLengthFirst) && (inputLengthLast != '' && inputLengthLast.length >= minLengthLast)) {
+			$(".question-4 > div > .next-4").prop('disabled', false);
+		} else {
+			$(".question-4 > div > .next-4").prop('disabled', true);
+		}
+	});
 	$(".next-4").click(function(){
 		$(".question-4").addClass("inactive");
 		$(".question-5").removeClass("inactive");
 	});
+	$('.question-5 > input').on('keyup',function() {
+		var inputLength = $(".question-5 > input").val();
+		var minLength = $(".question-5 > input").attr( 'minlength' );
+		if(inputLength != '' && inputLength.length >= minLength) {
+			$(".question-5 > div > .next-5").prop('disabled', false);
+		} else {
+			$(".question-5 > div > .next-5").prop('disabled', true);
+		}
+	});
 	$(".next-5").click(function(){
 		$(".question-5").addClass("inactive");
 		$(".question-6").removeClass("inactive");
+	});
+	$('.question-6 > input').on('keyup',function() {
+		var inputLength = $(".question-6 > input").val();
+		var minLength = $(".question-6 > input").attr( 'minlength' );
+		if(inputLength != '' && inputLength.length >= minLength) {
+			$(".question-6 > input.submit-form").prop('disabled', false);
+		} else {
+			$(".question-6 > input.submit-form").prop('disabled', true);
+		}
 	});
 	$(".next-6").click(function(){
 		$(".question-6").addClass("inactive");
