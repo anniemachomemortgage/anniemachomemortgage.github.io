@@ -1,4 +1,9 @@
 $(function() {
+	$("#am-css").remove();
+	$("#am-styles").remove();
+	$("#am-responsive").remove();
+	$("#am-custom").remove();
+	$("#stylesheet-git").remove();
 	$("button").click(function(){
 		event.preventDefault();
 	});
