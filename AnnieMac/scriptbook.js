@@ -366,6 +366,9 @@ $(function() {
 				}
 		});
 	};
+	if (window.location.href.indexOf("/page/broker") > -1) {
+		$("#site-navigation").remove();
+	};
 	// BEGIN BDM PAGES
 	// ALL BDM PAGES
 	if ((window.location.href.indexOf("get-elevated") != -1) || (window.location.href.indexOf("elevate-career") != -1) || (window.location.href.indexOf("elevate-branch-2") != -1) || (window.location.href.indexOf("page/kelsey") != -1)) {
