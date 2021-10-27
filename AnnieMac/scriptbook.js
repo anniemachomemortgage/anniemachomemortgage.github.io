@@ -248,6 +248,9 @@ $(function() {
 		}
 		$( '<h3 class="text-center">Additional Staff</h3><div id="" class="team-member-section"><div class="team-member" id="robbacon"><div id="" class="team-member-information"><h4>Rob Bacon</h4><h5>Loan Partner</h5><h5></h5><div id="" class="team-member-portrait" style="background-image: url(https://annie-mac.com/uploads/sites/10713/public/image001.jpg); background-size: 125%; background-position: center -7px; background-repeat: no-repeat;"></div><button class="flex space-between align-center">(502) 901-2066<i class="fas fa-mobile-alt"></i></button><button class="flex space-between align-center"><a href="mailto: RBacon@Annie-Mac.com">Email Me</a><i class="fas fa-envelope"></i></button></div></div></div>' ).appendTo( $( "#team-display" ) );
 	};
+	if (window.location.href.indexOf("/page/broker") != -1) {
+		$("#screen-1 > div > div > div.form-wrapper > div.text > p").text("Interested in partnering with AnnieMac Wholesale?  Fill out the form below and we will get the process started!");
+	}
 	if (window.location.href.indexOf("scottsynovic") != -1) {
 		$("#list_12148 > a:nth-child(1)").attr("href", "tel:303-668-3350");
 		$("#biography > div.manager-biography > h2").text("Scott Synovic - Mortgage Loan Originator");
