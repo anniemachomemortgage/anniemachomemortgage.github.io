@@ -250,6 +250,7 @@ $(function() {
 	};
 	if (window.location.href.indexOf("/page/broker") != -1) {
 		$("#screen-1 > div > div > div.form-wrapper > div.text > p").text("Interested in partnering with AnnieMac Wholesale?  Fill out the form below and we will get the process started!");
+		$("#product-banner").attr("href", "https://www.anniemacb2b.com/");
 	}
 	if (window.location.href.indexOf("scottsynovic") != -1) {
 		$("#list_12148 > a:nth-child(1)").attr("href", "tel:303-668-3350");
