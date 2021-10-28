@@ -17,7 +17,7 @@
 	--lightorange: #cd9070;
 	--orange: #F26419;
 	--whiteorange: #dfbead;
-	--greenblocked: #40a0510f;
+	--greenblocked: #40a05108;
 	--faded: #f7f6f3;
 	--blue: #172A3A;
 	--gray: #94A89A;
@@ -29,6 +29,7 @@
 	--accentwhite: #f2fff5;
 	--original: #f9fafb;
 	--forester: #43a1659c;
+	--greenery: #0c6622;
 }
 * {
 	-webkit-box-sizing: border-box;
@@ -132,7 +133,7 @@ li#navigation-logo {
 	font-weight: 600;
 }
 .summary-section > strong i {
-	color: var(--forester);
+	color: var(--greenery);
 	font-weight: 800;
 	width: 25px;
 }
