@@ -17,6 +17,7 @@
 	--lightorange: #cd9070;
 	--orange: #F26419;
 	--whiteorange: #dfbead;
+	--greenblocked: #40a0510f;
 	--faded: #f7f6f3;
 	--blue: #172A3A;
 	--gray: #94A89A;
@@ -27,6 +28,7 @@
 	--offwhiteb: #f5f4f4bd;
 	--accentwhite: #f2fff5;
 	--original: #f9fafb;
+	--forester: #43a1659c;
 }
 * {
 	-webkit-box-sizing: border-box;
@@ -55,6 +57,7 @@ body {
 }
 .body-background {
 	background: radial-gradient(circle, var(--backgrounda) 10%, var(--backgroundb) 94%);
+	min-height: 539px;
 }
 .body-overlay {
 	margin: 0px auto 60px;
@@ -112,7 +115,7 @@ li#navigation-logo {
 }
 .main-site-summary {
 	position: absolute;
-	top: 18%;
+	top: 6%;
 	right: 0;
 	display: flex;
 	flex-direction: column;
@@ -120,14 +123,17 @@ li#navigation-logo {
 .summary-section {
 	display: flex;
 	flex-direction: column;
-	margin: -10px 0 30px;
+	margin: -10px 0 17px;
+	background: var(--greenblocked);
+	padding: 13px 25px;
 }
 .summary-section > strong {
 	color: var(--accentwhite);
 	font-weight: 600;
 }
 .summary-section > strong i {
-	color: var(--whiteorange);
+	color: var(--forester);
+	font-weight: 800;
 	width: 25px;
 }
 .summary-section > span {
