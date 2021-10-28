@@ -176,7 +176,7 @@ button.main-site-apply:hover {
 .blocked-sectional-half {
 	display: flex;
 	flex-direction: column;
-	width: 48.80%;
+	width: 32.80%;
 	/* width: 100%; */
 	margin-bottom: 25px;
 	border-radius: 3px;
