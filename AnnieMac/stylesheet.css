@@ -64,6 +64,10 @@ body.front.site-type-branch .main-content, body.front.site-type-branch #site-nav
   order: 1 !important;
   margin-bottom: -103px;
 }
+
+#tmc-branch #team-display h3 {
+  color: #40a051;
+}
 .site-type-branch #deserve-more-container-master {
   display: none;
 }
