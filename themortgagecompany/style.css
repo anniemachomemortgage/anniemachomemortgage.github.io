@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
 :root {
 	--black: #3A3335;
 	--green: #095416;
@@ -267,6 +268,9 @@ button.main-site-apply:hover {
 .initial {
 	margin-top: -20px !important;
 	margin-bottom: 65px;
+}
+h2, h3, h4, h5, h6, button, a button, .titled {
+	font-family: 'Lora', serif;
 }
 /* section:nth-of-type(1) {
 	width: 100%;
