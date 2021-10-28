@@ -178,7 +178,7 @@ button.main-site-apply:hover {
 	flex-direction: column;
 	width: 32.80%;
 	/* width: 100%; */
-	margin-bottom: 25px;
+	margin-bottom: 10px;
 	border-radius: 3px;
 	padding: 0 20px;
 	background: var(--offwhite);
