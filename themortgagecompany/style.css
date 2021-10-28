@@ -151,7 +151,7 @@ button.main-site-apply:hover {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	box-shadow: 1px -4px 10px hsl(0deg 0% 0% / 51%);
+	box-shadow: 1px -4px 6px hsl(0deg 0% 0% / 45%);
 	z-index: 1;
 	margin-bottom: 30px;
 }
