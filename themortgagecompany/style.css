@@ -224,7 +224,7 @@ button.main-site-apply:hover {
 	margin-bottom: 0;
 	font-size: 38px;
 	font-weight: 800;
-	color: var(--greenish);
+	color: var(--orange);
 	margin-top: 23px;
 }
 .blocked-sectional h4 {
@@ -241,9 +241,9 @@ button.main-site-apply:hover {
 }
 .blocked-sectional-half h4 {
 	margin-bottom: -10px;
-	font-weight: 500;
+	font-weight: 700;
 	font-size: 22px;
-	color: var(--greenish);
+	color: var(--black);
 }
 .blocked-sectional-half p {
 	font-size: 15px;
@@ -257,12 +257,12 @@ button.main-site-apply:hover {
 	padding: 12px;
 	margin: -10px 0 19px;
 	min-width: 100%;
-	background: var(--greenish);
+	background: var(--orange);
 	color: var(--offwhite);
 	font-weight: 600;
 	font-size: 17px;
 	border-radius: 2px;
-	border: .5px solid var(--greenish);
+	border: .5px solid var(--orange);
 }
 .blocked-sectional a button:hover {
 	background: var(--orange);
