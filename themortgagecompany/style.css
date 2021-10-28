@@ -135,6 +135,7 @@ li#navigation-logo {
 }
 .summary-section > span {
 	display: block;
+	line-height: 22px;
 	font-size: 15px;
 }
 button.main-site-apply {
