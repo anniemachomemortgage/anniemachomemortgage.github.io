@@ -24,6 +24,7 @@
 	--border: #194420;
 	--white: #fff;
 	--offwhite: #f7f7f7;
+	--offwhiteb: #f5f4f4bd;
 	--accentwhite: #f2fff5;
 	--original: #f9fafb;
 }
@@ -193,11 +194,16 @@ button.main-site-apply:hover {
 .blocked-sectional-half {
 	display: flex;
 	flex-direction: column;
-	width: 32.8%;
+	width: 35.8%;
 	/* width: 100%; */
 	margin-bottom: 10px;
 	border-radius: 2px;
 	/* background: var(--faded); */
+}
+.backgrounded {
+	background: var(--offwhiteb);
+	padding: 0 20px;
+	border-radius: 3px;
 }
 .filler-width {
 	width: 265px;
@@ -213,7 +219,7 @@ button.main-site-apply:hover {
 	font-size: 38px;
 	font-weight: 800;
 	color: var(--greenish);
-	margin-top: 34px;
+	margin-top: 23px;
 }
 .blocked-sectional h4 {
 	margin-bottom: -10px;
@@ -229,9 +235,9 @@ button.main-site-apply:hover {
 }
 .blocked-sectional-half h4 {
 	margin-bottom: -10px;
-	font-weight: 800;
+	font-weight: 500;
 	font-size: 22px;
-	color: var(--black);
+	color: var(--greenish);
 }
 .blocked-sectional-half p {
 	font-size: 15px;
