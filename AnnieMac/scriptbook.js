@@ -250,7 +250,7 @@ $(function() {
 	};
 	if (window.location.href.indexOf("/page/broker") != -1) {
 		$("#screen-1 > div > div > div.form-wrapper > div.text > p").text("Interested in partnering with AnnieMac Wholesale?  Fill out the form below and we will get the process started!");
-		$("#product-banner").attr("href", "https://www.anniemacb2b.com/");
+		$("#product-banner > h2").wrap("href", "https://www.anniemacb2b.com/");
 		$("#product-banner > h4").text("Become an AnnieMac Wholesale Broker Partner!");
 	}
 	if (window.location.href.indexOf("scottsynovic") != -1) {
