@@ -60,7 +60,7 @@ body.front.site-type-branch .main-content, body.front.site-type-branch #site-nav
   color: white !important;
   background: #7fc24a !important;
 }
-#annie_mac-branch > #team-display {
+#annie_mac-branch > #team-display, #tmc-branch > #team-display {
   order: 1 !important;
   margin-bottom: -103px;
 }
