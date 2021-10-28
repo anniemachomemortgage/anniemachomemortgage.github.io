@@ -103,11 +103,10 @@ li#navigation-logo {
 	font-weight: 900;
 	word-spacing: 100vw;
 	line-height: 100px;
-	margin-top: 30px;
-	margin-bottom: 10px;
+	margin-top: 5px;
 	color: var(--white);
 	opacity: .025;
-	margin-bottom: 17px;
+	margin-bottom: 41px;
 	z-index: 0;
 }
 .main-site-summary {
@@ -124,10 +123,9 @@ li#navigation-logo {
 }
 .summary-section > strong {
 	color: var(--accentwhite);
-	font-weight: 300;
+	font-weight: 600;
 }
 .summary-section > strong i {
-	font-weight: 600;
 	color: var(--whiteorange);
 	width: 25px;
 }
@@ -138,7 +136,7 @@ li#navigation-logo {
 button.main-site-apply {
 	outline: none;
 	padding: 20px;
-	margin: 15px 0 25px;
+	margin: 15px 2px 25px;
 	min-width: 200px;
 	background: var(--orange);
 	color: var(--white);
@@ -185,7 +183,6 @@ button.main-site-apply:hover {
 .blocked-sectional {
 	display: flex;
 	flex-direction: column;
-	/* width: 49.80%; */
 	width: 100%;
 	margin-bottom: 5px;
 	border-radius: 2px;
@@ -196,22 +193,27 @@ button.main-site-apply:hover {
 .blocked-sectional-half {
 	display: flex;
 	flex-direction: column;
-	width: 32.80%;
+	width: 32.8%;
 	/* width: 100%; */
 	margin-bottom: 10px;
 	border-radius: 2px;
-	padding: 0 9px;
 	/* background: var(--faded); */
+}
+.filler-width {
+	width: 265px;
+}
+.blocked-sectional:first-of-type {
+	padding: 0;
 }
 .blocked-sectional-half:first-of-type {
 	padding: 0;
 }
-.blocked-sectional-half h3 {
+.blocked-sectional h3, .blocked-sectional-half h3 {
 	margin-bottom: 0;
-	font-size: 40px;
+	font-size: 38px;
 	font-weight: 800;
 	color: var(--greenish);
-	margin-top: 37px;
+	margin-top: 34px;
 }
 .blocked-sectional h4 {
 	margin-bottom: -10px;
@@ -233,9 +235,10 @@ button.main-site-apply:hover {
 }
 .blocked-sectional-half p {
 	font-size: 15px;
-	line-height: 24px;
+	line-height: 28px;
 	margin-bottom: 30px;
 	color: var(--darkergray);
+	margin-top: 18px;
 }
 .blocked-sectional a button, .blocked-sectional-half a button {
 	outline: none;
@@ -254,8 +257,9 @@ button.main-site-apply:hover {
 	border: .5px solid var(--orange);
 	cursor: pointer;
 }
-.initail {
-	margin-top: -80px !important;
+.initial {
+	margin-top: -20px !important;
+	margin-bottom: 65px;
 }
 /* section:nth-of-type(1) {
 	width: 100%;
