@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 :root {
-	/* background: #323848
-	background text: #303646
-	dark color: #242a35
-	accent color: #df9a2a
-	color 1: #b6bbca
-	color 2: #ffffff */
 	--black: #3A3335;
 	--green: #095416;
 	--medgreen: #0a4815;
