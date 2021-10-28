@@ -10,8 +10,8 @@
 	--green: #095416;
 	--medgreen: #0a4815;
 	--blackgreen: #2e3a35;
-	--backgrounda: #0a4216;
-	--backgroundb: #0c261b;
+	--backgrounda: #727272;
+	--backgroundb: #222222;
 	--darkgreen: #13341a;
 	--lightorange: #cd9070;
 	--orange: #F26419;
@@ -128,6 +128,7 @@ button.main-site-apply {
 	background: var(--orange);
 	color: var(--white);
 	font-weight: 600;
+	border-radius: 2px;
 	font-size: 17px;
 	border: .5px solid var(--orange);
 }
@@ -172,7 +173,7 @@ button.main-site-apply:hover {
 	/* width: 49.80%; */
 	width: 100%;
 	margin-bottom: 5px;
-	border-radius: 3px;
+	border-radius: 2px;
 	padding: 0 35px;
 	background: var(--faded);
 }
@@ -182,7 +183,7 @@ button.main-site-apply:hover {
 	width: 32.80%;
 	/* width: 100%; */
 	margin-bottom: 10px;
-	border-radius: 3px;
+	border-radius: 2px;
 	padding: 0 20px;
 	background: var(--faded);
 }
@@ -207,7 +208,7 @@ button.main-site-apply:hover {
 	color: var(--offwhite);
 	font-weight: 600;
 	font-size: 17px;
-	border-radius: 3px;
+	border-radius: 2px;
 	border: .5px solid var(--green);
 }
 .blocked-sectional a button:hover {
