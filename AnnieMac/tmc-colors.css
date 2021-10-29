@@ -16,7 +16,9 @@ text-align: center;
     font-weight: bold;
     font-size: 16px;
 }
-
+.register-title {
+    display: none;
+}
 
 .location-listing {
     width: 45%;
