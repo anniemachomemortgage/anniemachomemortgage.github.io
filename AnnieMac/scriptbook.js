@@ -238,7 +238,7 @@ $(function() {
 		$(businessdevelopment).appendTo($( "#team-display" ));
 	};
 	if (window.location.href.indexOf("netcong") != -1) {
-		var teamMemberReassignedBranchManager = ['#majourbey', '#kevindolan', '#michaellettre'];
+		var teamMemberReassignedBranchManager = ['#kevindolan'];
 		for (i = 0; i < teamMemberReassignedBranchManager.length; i++) {
 			$(teamMemberReassignedBranchManager[i]).addClass("manager-information");
 			$(teamMemberReassignedBranchManager[i]).removeClass("team-member");
