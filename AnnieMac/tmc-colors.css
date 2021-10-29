@@ -29,6 +29,9 @@ button {
 #deserve-more-container-master {
     display: none;
 }
+#team-display h3:first-of-type {
+    color: #40a051 !important;
+}
 #we-provide-more-master h3 {
     color: #e27806;
     font-size: 60px !important;
