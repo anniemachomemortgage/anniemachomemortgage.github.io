@@ -997,4 +997,16 @@ $(function() {
 	$("#react3-js").remove();
 	$("#scriptbook-react-js").remove();
 	$("#flash-message").remove();
+	if (window.location.href.indexOf("steve.themtgco.com") != -1) {
+		$('.manager-biography').remove();
+		$('#accolades-originator').css('margin-top', '-30px');
+	};
+	if (window.location.href.indexOf("themtgco.com/branch") != -1) {
+		$('.location-state-list').each(function() {
+			var $this = $(this);
+			if (!$this.find('.location-listing').length) {
+				$this.prev('h3').remove();
+				$this.remove();
+			}});
+};
 })
