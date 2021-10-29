@@ -26,3 +26,10 @@ button {
 .location-listing {
     width: 45%;
 }
+#deserve-more-container-master {
+    display: none;
+}
+#we-provide-more-master h3 {
+    color: #e27806;
+    font-size: 60px !important;
+}
