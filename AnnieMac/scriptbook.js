@@ -232,7 +232,6 @@ $(function() {
 	// 	var metadrop = "<meta name='author' content='https://annie-mac.com'><meta property='og:locale' content='en_US'><meta property='og:type' content='business'><meta name='keywords' content='AnnieMac, AnnieMac Home Mortgage, AnnieMac Home Mortgage NJ, home loan mortgage calculator, va home loan mortgage calculator, FHA loan, VA loan, mortgage refinance, mortgage application'><meta property='og:url' content='https://annie-mac.com/'><meta name='twitter:url' content='https://annie-mac.com/'><meta property='og:image' content='https://www.annie-mac.com/uploads/sites/10713/public/annie-mac.jpeg'><meta name='twitter:image' content='https://www.annie-mac.com/uploads/sites/10713/public/annie-mac.jpeg'><meta name='twitter:card' content='summary_large_image'><meta property='og:site_name' content='AnnieMac Home Mortgage'><meta property='og:title' content='AnnieMac Home Mortgage'><meta name='twitter:title' content='AnnieMac Home Mortgage'><meta name='description' content=' At AnnieMac, we believe you deserve more from the mortgage industry, so we provide more. Our customers are more than credit scores and income documents. They are the individuals and families who live in and strengthen our communities. Their story is our story. And that story begins in a home.'><meta property='og:description' content=' At AnnieMac, we believe you deserve more from the mortgage industry, so we provide more. Our customers are more than credit scores and income documents. They are the individuals and families who live in and strengthen our communities. Their story is our story. And that story begins in a home.'><meta name='twitter:description' content='At AnnieMac, we believe you deserve more from the mortgage industry, so we provide more. Our customers are more than credit scores and income documents. They are the individuals and families who live in and strengthen our communities. Their story is our story. And that story begins in a home.'>";
 	// 	$(metadrop).insertAfter( $( "title" ) );
 	// };
-	$('#footer-branchlo-name, #footer-branchlo-address, #footer-phone-number, #footer-email, #footer-nmls').wrapAll('<div class="footer-directory-listing" />');
 	if ((window.location.href.indexOf("thecartmelteam") != -1) || (window.location.href.indexOf("indianapolis") != -1)) {
 		var businessdevelopment = "<div id='' class='team-member-section'><div class='team-member' id='pamelacherry'><div id='' class='team-member-information'><h4>Pamela Cherry</h4><h5>Business Development Manager</h5><h5>&nbsp;</h5><div id='' class='team-member-portrait' style='background: url(https://annie-mac.com/uploads/sites/10713/public/Pamela.jpeg); background-size: cover; background-position: center center; background-repeat: no-repeat;'></div><button class='flex space-between align-center'>(317) 324-1086<i class='fas fa-mobile-alt'></i></button><button class='flex space-between align-center'><a href='mailto: pcherry@annie-mac.com'>Email Me</a><i class='fas fa-envelope'></i></button></div></div><div class='team-member' id='karenblack'><div id='' class='team-member-information'><h4>Karen Black</h4><h5>Business Development Manager</h5><h5>&nbsp;</h5><div id='' class='team-member-portrait' style='background: url(https://annie-mac.com/uploads/sites/10713/public/karenblack.jpeg); background-size: cover; background-position: center center; background-repeat: no-repeat;'></div><button class='flex space-between align-center'>(317) 578-7611<i class='fas fa-mobile-alt'></i></button><button class='flex space-between align-center'><a href='mailto: kblack@annie-mac.com'>Email Me</a><i class='fas fa-envelope'></i></button></div></div>";
 		$(businessdevelopment).appendTo($( "#team-display" ));
@@ -997,13 +996,14 @@ $(function() {
 	$("#react3-js").remove();
 	$("#scriptbook-react-js").remove();
 	$("#flash-message").remove();
+	$('#footer-branchlo-name, #footer-branchlo-address, #footer-phone-number, #footer-email, #footer-nmls').wrapAll('<div class="footer-directory-listing" />');
 	if (window.location.href.indexOf("themtgco.com/branch") != -1) {
 		$('.location-state-list').each(function() {
 			var $this = $(this);
 			if (!$this.find('.location-listing').length) {
 				$this.prev('h3').remove();
 				$this.remove();
-			}
-		});
+			});
+		};
 	};
 })
