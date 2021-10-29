@@ -59,8 +59,11 @@ button {
 #tmc-branch > #team-display {
     order: 1;
 }
-#mobile-apply a, #sidebar-apply-now a, #links-sidebar-full-width a, #originator-social-details li i {
+#mobile-apply a, #sidebar-apply-now a {
     background: #40a051;
+}
+#links-sidebar-full-width a, #originator-social-details li i {
+    color: #4c4c4c;
 }
 #originator-social-details a:first-of-type, #originator-social-details a:first-of-type:hover {
     background: #e27806;
