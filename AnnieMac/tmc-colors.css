@@ -33,6 +33,9 @@ button {
     color: #e27806;
     font-size: 60px !important;
 }
+#branch-welcome {
+    display: none;
+}
 #apply-now-sidebar, #prequal-now-sidebar {
     background: #40a051;
     color: #fff;
