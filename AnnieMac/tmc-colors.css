@@ -59,3 +59,9 @@ button {
 #tmc-branch > #team-display {
     order: 1;
 }
+#mobile-apply a, #sidebar-apply-now a {
+    background: #40a051;
+}
+#originator-social-details a:first-of-type, #originator-social-details a:first-of-type:hover {
+    background: #e27806;
+}
