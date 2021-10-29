@@ -1016,6 +1016,7 @@ $(function() {
 			if (!$this.find('.location-listing').length) {
 				$this.prev('h3').remove();
 				$this.remove();
-			}});
-};
+			}
+		});
+	};
 })
