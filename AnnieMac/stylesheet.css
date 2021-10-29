@@ -22,6 +22,9 @@ textarea {
 footer #copyrights {
   align-items: flex-start;
 }
+#footer-branchlo-name {
+  margin-top: 0;
+}
 .site-type-branch .branch-manager-section {
   margin-bottom: 40px;
 }
