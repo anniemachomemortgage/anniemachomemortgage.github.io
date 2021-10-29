@@ -21,7 +21,7 @@ text-align: center;
 }
 button {
     border-radius: 5px;
-    width: 150px;
+    width: auto;
 }
 .location-listing {
     width: 45%;
