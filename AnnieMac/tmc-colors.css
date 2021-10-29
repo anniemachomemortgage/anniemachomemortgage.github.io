@@ -36,6 +36,10 @@ button {
     color: #e27806;
     font-size: 60px !important;
 }
+.site-type-loan_officer #we-provide-more-master h3 {
+  color: #40a051 !important;  
+  font-size: 46px;
+}
 #branch-welcome {
     display: none;
 }
