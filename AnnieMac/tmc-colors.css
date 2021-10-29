@@ -46,3 +46,16 @@ button {
 #navigation-sidebar {
     background: radial-gradient(circle, rgb(9, 84, 22) 0%, rgb(41, 115, 55) 94%);
 }
+#tmc-branch {
+    display: flex;
+    flex-direction: column;
+}
+#tmc-branch #branch-banner {
+    order: 0;
+}
+#tmc-branch #home-provide {
+    order: 2;
+}
+#tmc-branch > #team-display {
+    order: 1;
+}
