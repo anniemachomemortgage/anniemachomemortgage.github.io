@@ -19,7 +19,9 @@ textarea {
   letter-spacing: .8px;
   margin-top: 1px !important;
 }
-
+footer #copyrights {
+  align-items: flex-start;
+}
 .site-type-branch .branch-manager-section {
   margin-bottom: 40px;
 }
