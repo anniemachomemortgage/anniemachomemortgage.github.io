@@ -2637,11 +2637,10 @@ div#flash-message {
   flex-direction: column-reverse;
 }
 .teamsitelocationdeclaration a {
-  color: #006fa9;
+  color: #6c6c6c;
   font-weight: bolder;
   font-size: 17px;
-  margin: -5px;
+  margin: -6px;
   display: block;
-  text-transform: uppercase;
   word-spacing: 1px;
 }
