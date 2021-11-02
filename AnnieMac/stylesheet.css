@@ -688,7 +688,8 @@ footer #sitemap #list_11081, footer #sitemap #list_11344, footer #sitemap #list_
     flex-wrap: wrap;
 }
 .site-type-team .branch-manager-section {
-    width: 300px;
+  width: 21%;
+  margin: 0 auto;
 }
 #new-perk-plans {
     margin: 90px auto 50px;
