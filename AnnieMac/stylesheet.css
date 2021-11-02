@@ -2632,3 +2632,16 @@ div#flash-message {
     height: 40px;
     margin: -8px 0 -4px;
 }
+#team-site > #team-display #branch-managers .branch-manager-section .manager-information .team-member-information h5:first-of-type {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.teamsitelocationdeclaration a {
+  color: #006fa9;
+  font-weight: bolder;
+  font-size: 17px;
+  margin: -5px;
+  display: block;
+  text-transform: uppercase;
+  word-spacing: 1px;
+}
