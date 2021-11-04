@@ -1920,6 +1920,21 @@ margin-top: -20px;
 width: 250px!important;
 text-shadow: 1px 2px 2px rgb(0 0 0 / 70%);
 }
+.tmc-header-links {
+  color: #fff;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.tmc-header-links a#loan-officer-header-apply {
+  background: #40a051;
+  padding: 2px 10px;
+  border-radius: 5px;
+  color: white !important;
+}
+#tmc-header-call {
+  margin-top: -23px;
+  margin-bottom: 20px;
+}
 #inserted-banner .container-section {
     flex-direction: column;
 }
