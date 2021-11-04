@@ -1904,6 +1904,22 @@ p, li, a {
     background-position-y: 68%;
     background-size: 101%;
 }
+#inserted-banner.themortgagecompany #button-container-home > a:nth-child(1) {
+  margin-left: 0;
+  background: transparent;
+  border-radius: 5px;
+  color: white !important;
+  margin-bottom: 10px;
+  border: none;
+  font-family: 'inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  order: -1;
+  margin-top: -20px;
+  width: 206px!important;
+  text-shadow: 1px 2px 2px rgb(0 0 0 / 70%);
+}
 #inserted-banner .container-section {
     flex-direction: column;
 }
