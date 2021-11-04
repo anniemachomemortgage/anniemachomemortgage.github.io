@@ -2716,4 +2716,11 @@ div#flash-message {
     margin: 20px 0 !important;
     width: 30% !important;
   }
+  .branch-manager-section, .manager-information {
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+  }
 }
