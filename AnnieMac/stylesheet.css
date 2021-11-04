@@ -350,6 +350,7 @@ ul.menu.nav {
 .team-member-portrait {
     border-radius: 3%;
     width: 210px;
+    position: relative;
 }
 select {
     text-transform: none;
@@ -2646,4 +2647,10 @@ div#flash-message {
   margin: -6px;
   display: block;
   word-spacing: 1px;
+}
+.link-to-website-identify {
+  position: absolute;
+  bottom: 0;
+  right: 16px;
+  color: #fff;
 }
