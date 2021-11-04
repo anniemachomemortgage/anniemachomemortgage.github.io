@@ -1923,8 +1923,9 @@ width: 250px!important;
 text-shadow: 1px 2px 2px rgb(0 0 0 / 70%);
 }
 #inserted-banner.themortgagecompany .container-section h3 span {
-  font-size: 15px;
-  margin: 20px;
+  font-size: 20px;
+  margin: 10px 0 20px;
+  font-weight: 600;
 }
 #inserted-banner.themortgagecompany {
   height: 365px;
