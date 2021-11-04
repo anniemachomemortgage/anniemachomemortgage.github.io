@@ -199,7 +199,6 @@ $(function() {
 		$( locationBranch ).each(function() {
 			var domain = $(this).find( "h4 > a" ).attr('href');
 			var subdomain = domain.replace('.annie-mac.com', '').replace('https://', '').replace('http://', '') + "-branch-listing";
-			subdomain = domain.replace('.themtgco.com', '');
 			(this).id = subdomain;
 		});
 	};
