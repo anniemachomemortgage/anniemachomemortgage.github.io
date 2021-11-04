@@ -1934,6 +1934,7 @@ text-shadow: 1px 2px 2px rgb(0 0 0 / 70%);
 #tmc-header-call {
   margin-top: -23px;
   margin-bottom: 20px;
+  text-shadow: 1px 2px 2px rgb(0 0 0 / 70%);
 }
 #inserted-banner .container-section {
     flex-direction: column;
