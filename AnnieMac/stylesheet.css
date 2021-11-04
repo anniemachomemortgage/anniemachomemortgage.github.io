@@ -2649,8 +2649,11 @@ div#flash-message {
   word-spacing: 1px;
 }
 .link-to-website-identify {
-  position: absolute;
-  bottom: 0;
-  right: 16px;
-  color: #fff;
+ position: absolute;
+ bottom: 5px;
+ right: 16px;
+ color: #fff;
+}
+.link-to-website-identify i {
+  font-size: 25px;
 }
