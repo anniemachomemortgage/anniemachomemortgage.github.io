@@ -2535,7 +2535,7 @@ footer #list_11344 > a, footer  #list_11343 > a, footer  #list_11350 > a {
     padding: 0;
     }
   .branch-manager-section .manager-information {
-    width: auto !important;
+    width: 100% !important;
 }
   .team-member {
     width: auto;
