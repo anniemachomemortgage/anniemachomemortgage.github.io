@@ -1062,7 +1062,7 @@ $(function() {
 	};
 	if ((window.location.href.indexOf("themtgco.com") != -1) || (window.location.href.indexOf("themortgageco.wmmortgageware") != -1)) {
 		if ($('body').hasClass('front')) {
-				var dropbanner = '<div id="inserted-banner" class="themortgagecompany"><div class="container-section"><h3>Allentown, PA<span>NMLS #: 1020736</span></h3><div id="button-container-home" class="container-section"><a href="" class="address">470 South Cedar Crest Blvd <br/> Allentown, PA 18103</a><a href="/testimonial">Testimonials</a><div id="mobile-apply"><a href="/loan/apply" id="loan-officer-header-apply">Apply Now</a></div><div id="mobile-call"><a href="tel:(610) 336-6600">(610) 336-6600 id="tmc-header-call">Call Now</a></div></div></div></div>';
+				var dropbanner = '<div id="inserted-banner" class="themortgagecompany"><div class="container-section"><h3>Allentown, PA<span>NMLS #: 1020736</span></h3><div id="button-container-home" class="container-section"><a href="" class="address">470 South Cedar Crest Blvd <br/> Allentown, PA 18103</a><div id="mobile-apply"><a href="/loan/apply" id="loan-officer-header-apply">Apply Now</a></div><div id="mobile-call"><a href="tel:(610) 336-6600">(610) 336-6600 id="tmc-header-call">Call Now</a></div></div></div></div>';
 		$(dropbanner).insertBefore( $( "#home-provide" ) );
 			;
 		};
