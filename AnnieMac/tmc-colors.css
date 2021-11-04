@@ -8,7 +8,15 @@ padding: 10px 12px;
 padding-top: 120px;
 text-align: center;
 }
-
+section#home-provide .content-block-list {
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+}
 #add-co-borrower, #add-asset-real-estate, #add-asset-account, #add-income-monthly {
     color: #40a051 !important;
     background: transparent !important;
