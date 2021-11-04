@@ -2655,7 +2655,8 @@ div#flash-message {
  color: #fff;
 }
 .link-to-website-identify i {
-  font-size: 25px;
+  font-size: 22px;
+  text-shadow: 1px 3px 3px rgba(0,0,0,.2);
 }
 .team-member-information h4 a {
   font-weight: 600;
