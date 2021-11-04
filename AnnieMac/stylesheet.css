@@ -2710,3 +2710,10 @@ div#flash-message {
 .team-member-information h4 a {
   font-weight: 600;
 }
+
+@media screen and (max-width: 1175px) {
+  .team-member {
+    margin: 20px 0 !important;
+    width: 30% !important;
+  }
+}
