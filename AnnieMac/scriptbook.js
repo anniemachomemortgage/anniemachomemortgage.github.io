@@ -1059,6 +1059,7 @@ $(function() {
 				$this.remove();
 			}
 		});
+		$('#allentown-branch-listing h4 a').removeAttr("href");
 	};
 	if ((window.location.href.indexOf("themtgco.com") != -1) || (window.location.href.indexOf("themortgageco.wmmortgageware") != -1)) {
 		if ($('body').hasClass('front')) {
