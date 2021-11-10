@@ -159,6 +159,13 @@ section#faq-selection-declarations {
 	bottom: 0;
 }
 
+#tagline {
+	text-align: center;
+	font-size: 31px;
+	font-weight: 800;
+	color: #fff;
+}
+
 li#topic-point {
 	border: none;
 	padding-left: 0;
