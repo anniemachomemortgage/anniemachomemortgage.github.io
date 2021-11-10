@@ -166,11 +166,6 @@ section#faq-selection-declarations {
 	color: #fff;
 }
 
-.block-how {
-	display: flex;
-	flex-direction: column;
-}
-
 li#topic-point {
 	border: none;
 	padding-left: 0;
