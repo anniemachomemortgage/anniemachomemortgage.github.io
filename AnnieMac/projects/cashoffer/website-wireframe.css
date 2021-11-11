@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 }
 h1 {
-	font-size: 46px;
+	font-size: 59px;
 	font-weight: 900;
 }
 h2 {
@@ -143,7 +143,7 @@ textsectional {
 	padding-right: 50px;
 }
 textsectional h1 {
-	line-height: 50px;
+	line-height: 58px;
 	width: 90%;
 	margin: 20px 0 25px;
 }
@@ -206,11 +206,29 @@ button {
 	background: #fff;
 	color: #333a40;
 }
+footer {
+	margin-top: 40px;
+}
+#footer-callout {
+	/* border-radius: 6px; */
+	text-align: center;
+	margin: 35px 0;
+	padding: 20px 0;
+}
+#footer-callout h2 {
+	margin: 10px 0;
+}
+#footer-callout button {
+	background: #fff;
+	color: #333a40;
+	margin-top: 20px;
+	padding: 20px;
+}
 cardfeaturettes {
 	margin: 40px 0 30px;
 }
 cardfeaturette {
-	width: 28%;
+	width: 45%;
 }
 cardfeaturette p {
 	margin: 10px 0;

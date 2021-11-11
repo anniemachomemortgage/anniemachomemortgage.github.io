@@ -2730,3 +2730,7 @@ div#flash-message {
     width: initial !important;
   }
 }
+
+#csteam .team-member-information .team-member-portrait {
+  background-position-y: 4% !important;
+}
