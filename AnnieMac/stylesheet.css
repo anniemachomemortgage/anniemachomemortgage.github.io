@@ -20,7 +20,7 @@ textarea {
   margin-top: 1px !important;
 }
 footer #copyrights {
-  align-items: flex-start;
+  align-items: flex-start !important;
 }
 #footer-branchlo-name {
   margin-top: 0;
@@ -173,7 +173,6 @@ form button, .message-contents button, .go {
 footer #copyrights {
   font-size: 14px;
   display: flex;
-  align-items: end;
 }
 .footer-directory-listing {
   line-height: 20px;
