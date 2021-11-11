@@ -310,7 +310,7 @@ li#topic-point {
 }
 
 #compare-product-container .side-comparison {
-	box-shadow: rgb(0 0 0 / 3%) 0px 4px 6px;
+	box-shadow: rgba(0, 0, 0, 0.23) 0px 0px 6px;
 }
 
 .foot-note {
