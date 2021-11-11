@@ -53,7 +53,8 @@ body {
 }
 
 #logo-container-b img {
-	width: 600px;
+	width: 550px;
+	margin-bottom: 15px;
 	height: auto;
 }
 
@@ -195,15 +196,14 @@ li#topic-point {
 }
 
 #begin-button, .button-group button {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 800;
 	min-width: 200px;
 	text-align: center;
 	outline: none;
 	border: none;
-	padding: 20px !important;
+	padding: 17px !important;
 	box-shadow: rgb(0 0 0 / 9%) 0px 4px 6px;
-	text-transform: uppercase;
 	letter-spacing: 1.25px;
 }
 
@@ -295,7 +295,8 @@ li#topic-point {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin: 10px auto 20px;
+	margin: 15px auto;
+	align-items: center !important;
 }
 
 .side-comparison {
@@ -309,6 +310,14 @@ li#topic-point {
 	padding: 20px 27px 30px;
 	margin-bottom: 15px;
 	box-shadow: rgb(0 0 0 / 3%) 0px 4px 6px;
+}
+
+#compare-product-container-secondary .foot-note {
+	margin-bottom: 0;
+}
+
+#compare-product-container-secondary .side-comparison {
+	width: 49%;
 }
 
 .no-background {
@@ -361,7 +370,7 @@ li#topic-point {
 }
 
 .adjusted-height-300-secondary h3 {
-	margin-top: 0px;
+	margin-top: 27% !important;
 	margin-bottom: 10px;
 	font-size: 38px;
 }
@@ -450,6 +459,20 @@ li#topic-point {
 
 #sidebar-faq-static #identified-homebuyer-selection, #sidebar-start-selection {
 	background: linear-gradient(180deg, #4c7a9cd6, #263d77), url(https://anniemachomemortgage.github.io/cashoffer/cash-offer.jpeg) bottom center no-repeat;
+	border-radius: 4px;
+	margin-bottom: 25px;
+	padding: 30px 20px;
+	text-align: left;
+	color: #fff;
+	font-size: 17px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	background-size: cover;
+}
+
+#sidebar-cash-offer-selection-alt {
+	background: linear-gradient(180deg, #4c7a9cd6, #263d77), url(https://anniemachomemortgage.github.io/cashoffer/start-now.jpeg) bottom center no-repeat;
 	border-radius: 4px;
 	margin-bottom: 25px;
 	padding: 30px 20px;
