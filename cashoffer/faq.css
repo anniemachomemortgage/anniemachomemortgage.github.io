@@ -309,11 +309,23 @@ li#topic-point {
 	width: 47%;
 }
 
+#compare-product-container .side-comparison {
+	box-shadow: rgb(0 0 0 / 3%) 0px 4px 6px;
+}
+
 .foot-note {
 	background: #f8f8f8;
 	padding: 20px 27px 30px;
 	margin-bottom: 15px;
 	box-shadow: rgb(0 0 0 / 3%) 0px 4px 6px;
+}
+
+#compare-product-container .side-comparison .foot-note {
+	box-shadow: none;
+	margin-bottom: 0px;
+	border-top: 1px solid #3d3d3da3;
+	z-index: 1;
+	margin-top: -2px;
 }
 
 .compare-product-container-secondary .foot-note {
