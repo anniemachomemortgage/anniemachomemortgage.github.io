@@ -317,6 +317,11 @@ li#topic-point {
 	padding: 30px 27px;
 }
 
+#compare-product-container-secondary .foot-note h4 {
+	font-size: 22px;
+	opacity: .9;
+}
+
 #compare-product-container-secondary .side-comparison {
 	width: 49%;
 }
