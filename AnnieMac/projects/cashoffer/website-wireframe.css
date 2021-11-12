@@ -58,10 +58,13 @@ header {
 	background: #f5f7fa;
 }
 logo {
-	background: #dee2e6;
+	/* background: #dee2e6; */
 	width: 250px;
-	padding: 10px 30px;
+	/* padding: 10px 30px; */
 	border-radius: 2px;
+}
+#annie-mac-logo {
+	width: 290px;
 }
 nav {
 	align-items: center;
@@ -196,7 +199,7 @@ button {
 	/* border-radius: 6px; */
 	padding: 30px;
 	text-align: center;
-	margin: 35px 0;
+	margin: 15px 0;
 }
 #join-annie-mac-callout h2 {
 	color: #fff;
@@ -326,6 +329,9 @@ commentcontainer {
 	margin: 0 0 45px 0;
 	align-items: center;
 }
+commentcontainer.full {
+	width: 100%;
+}
 commentcontainer h4 {
 	margin: 0 0 3px;
 }
@@ -370,4 +376,62 @@ commentcontainer h4 {
 footer {
 	background: #f5f7fa;
 }
-
+details > summary {
+	list-style: none;
+}
+details > summary::-webkit-details-marker {
+	display: none;
+}
+details {
+	margin-top: 20px;
+}
+details:first-of-type {
+	margin-top: 25px;
+}
+details summary {
+	color: #585f65;
+	font-weight: 700;
+	font-size: 19px;
+}	
+summary {
+	display: flex;
+	align-items: center;
+}
+summary i {
+	order: -1;
+	font-size: 20px;
+	opacity: .7;
+	margin-right: 20px;
+}
+details p {
+	padding: 10px 0 15px;
+	margin-top: 8px;
+	border-top: 2px solid rgba(0,0,0,.02);
+}
+details[open] p {
+	background: #f9f9f9;
+	padding: 15px 40px;
+	border-radius: 0 0 5px 5px;
+	margin-bottom: 30px;
+	color: #646b73;
+}
+#faq-hub h2 {
+	display: flex;
+	/*! align-items: center; */
+}
+#faq-hub h2 span {
+	font-size: 17px;
+	opacity: .8;
+	font-weight: 500;
+	margin-left: 10px;
+}
+buttoncontainer {
+	display: flex;
+	justify-content: center;
+	margin: 30px auto 0;
+}
+buttoncontainer button {
+	margin: 10px 0;
+	padding: 15px 20px;
+	background: #585f65;
+}
