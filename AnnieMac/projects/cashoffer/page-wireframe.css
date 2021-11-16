@@ -39,7 +39,7 @@ header {
     justify-content: flex-start;
     align-items: center;
     min-height: 555px;
-    background: #c24a981f;
+    background: #f5f6f7;
     position: relative;
 }
 
@@ -128,7 +128,7 @@ detailblock {
 }
 
 detailblockimage {
-    background: #c24a981f;
+    background: #f5f6f7;
     max-height: 65px;
     max-width: 65px;
     display: block;
@@ -192,7 +192,7 @@ calloutcontainer {
 }
 
 section#secondaryblock {
-    background: #c24a981f;
+    background: #f5f6f7;
     padding: 20px 0;
     margin: 25px 0 10px;
 }

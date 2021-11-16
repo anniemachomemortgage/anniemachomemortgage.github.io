@@ -1,0 +1,428 @@
+<svg aria-labelledby="logo-title" aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" height="54" viewBox="0 0 193.36 54">
+	  <title id="logo-title">HomeHunt</title>
+	  <style>
+	  @import url("https://use.typekit.net/ocj4gqt.css");
+	  
+	  /* ======================================================
+		 Variables
+		 ====================================================== */
+	  
+	  :root {
+	  
+		/* --- Colors --- */
+	  
+		--charcoal: #222;
+		--pebble: #444;
+		--shadow: #757575;
+		--fossil: #ddd;
+		--cloud: #f9f9fb;
+	  
+		--indigo: #413d9b;
+		--cerulean: #0f76bc;
+		--parakeet: #2bb673;
+		--mint: #afdfc2;
+		--marigold: #fa9f00;
+		--fire: #f85600;
+	  
+		/* --- Fonts --- */
+	  
+		--font-family-sans-serif: "montserrat", sans-serif;
+		--font-family-serif: "p22-mackinac-pro", serif;
+	  
+	  }
+	  
+	  /* ======================================================
+		 Base
+		 ====================================================== */
+	  
+	  * {
+		box-sizing: inherit;
+	  }
+	  
+	  *::before,
+	  *::after {
+		box-sizing: inherit;
+	  }
+	  
+	  html {
+		box-sizing: border-box;
+		font-size: 62.5%;
+	  }
+	  
+	  body {
+		background-color: var(--cloud);
+		color: var(--pebble);
+		font-family: var(--font-family-sans-serif);
+		font-size: 1.6rem;
+		font-weight: 400;
+		letter-spacing: 0.025em;
+		line-height: 1.8;
+		margin: 5rem;
+		position: relative;
+	  }
+	  
+	  /* ======================================================
+		 Typography
+		 ====================================================== */
+	  
+	  h1,
+	  h2,
+	  h3,
+	  h4,
+	  h5,
+	  h6,
+	  p {
+		margin: 0;
+	  
+		& + p {
+		  margin-top: 1em;
+		}
+	  }
+	  
+	  h1, .display-level-1 {
+		color: var(--charcoal);
+		font-family: var(--font-family-serif);
+		font-size: 6.4rem;
+		font-weight: 800;
+		line-height: 1.2;
+		letter-spacing: 0;
+	  }
+	  
+	  h2, .display-level-2 {
+		color: var(--charcoal);
+		font-family: var(--font-family-serif);
+		font-size: 5.6rem;
+		font-weight: 800;
+		line-height: 1.2;
+		letter-spacing: 0;
+	  }
+	  
+	  h3, .display-level-3 {
+		color: var(--charcoal);
+		font-family: var(--font-family-serif);
+		font-size: 4.8rem;
+		font-weight: 800;
+		line-height: 1.2;
+		letter-spacing: 0;
+	  }
+	  
+	  h4, .section-heading {
+		color: var(--charcoal);
+		font-family: var(--font-family-serif);
+		font-size: 3.2rem;
+		font-weight: 400;
+		line-height: 1.4;
+		letter-spacing: -0.025em;
+	  }
+	  
+	  h5, .sub-heading {
+		color: var(--charcoal);
+		font-family: var(--font-family-sans-serif);
+		font-size: 2.4rem;
+		font-weight: 300;
+		line-height: 1.4;
+		letter-spacing: 0.025em;
+	  }
+	  
+	  h6, .body-heading {
+		color: var(--charcoal);
+		font-family: var(--font-family-sans-serif);
+		font-size: 1.8rem;
+		font-weight: 800;
+		line-height: 1.4;
+		letter-spacing: 0.025em;
+	  }
+	  
+	  .heading-overline {
+		color: var(--charcoal);
+		display: block;
+		font-family: var(--font-family-sans-serif);
+		font-size: 1.4rem;
+		font-weight: 400;
+		line-height: 1.2;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+	  }
+	  
+	  /* ======================================================
+		 Display Purposes Only
+		 ====================================================== */
+	  
+	  .color {
+		display: flex;
+	  
+		.color__item {
+		  align-items: center;
+		  display: flex;
+		  flex: 0 0 calc(100% / 6);
+		  justify-content: flex-start;
+		  max-width: calc(100% / 6);
+	  
+		  p span {
+			font-family: monospace;
+		  }
+	  
+		  .color__dot {
+			border: 2px solid; /* inherit currentColor */
+			border-radius: 50%;
+			box-shadow: inset 0 0 1px 2px #fff;
+			display: block;
+			height: 5rem;
+			margin-right: 1em;
+			vertical-align: top;
+			width: 5rem;
+		  }
+		}
+	  }
+	  
+	  table {
+		background-color: #fff;
+		border-collapse: collapse;
+		vertical-align: top;
+		width: 100%;
+	  
+		thead,
+		tbody,
+		tr,
+		th,
+		td {
+		  border-width: 0;
+		  border-style: solid;
+		  border-color: inherit;
+		}
+	  
+		thead {
+		  background-color: var(--charcoal);
+		  color: var(--cloud);
+		  vertical-align: bottom;
+		}
+		
+		tbody {
+		  vertical-align: inherit;
+		}
+	  
+		tr:not(:last-child) {
+		  border-bottom: 1px solid var(--fossil);
+		}
+	  
+		th,
+		td {
+		  padding: 0.6rem 1.2rem;
+		}
+	  
+		th:not([scope="row"]) {
+		  text-align: left;
+		}
+	  }
+	  
+	  .v-align-middle {
+		vertical-align: middle;
+	  }
+	  
+	  .m-top-1 {
+		margin-top: 1em;
+	  }
+	  
+	  .m-top-2 {
+		margin-top: 2em;
+	  }
+	  
+	  .m-top-3 {
+		margin-top: 3em;
+	  }
+	  
+	  .overflow {
+		max-width: 80rem;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	  }
+  </style>
+	  <path style="fill: none;" d="M37.15 2.12a16.75 16.75 0 1 0 16.74 16.75A16.75 16.75 0 0 0 37.15 2.12Zm7.68 13.41v12.4h-3.26l-3.78 3.68c2 .06 3.56.36 3.56.73s-1.93.75-4.31.75-4.32-.34-4.32-.75 1.53-.67 3.54-.73l-3.78-3.68h-2.76v-12.4h-2.45l2.45-2.39v-2.87h2.21V11l5.35-5.2 10 9.73Z" />
+	  <path style="fill: none;" d="M33.94 26.72h6.49v-8.84h-6.49Zm4.89-4.92a.51.51 0 0 1 .72-.05.51.51 0 0 1-.66.77.51.51 0 0 1-.06-.72Z" />
+	  <path style="fill: #00b776; opacity: 0.27;" d="M36.26 31.61c-2 .06-3.54.36-3.54.73s1.93.75 4.32.75 4.31-.34 4.31-.75-1.54-.67-3.56-.73l-.76.74Z" />
+	  <path style="fill: #1176bb;" d="M118.92 17.58h-9.53V8.29h-5.17v23.49h5.17v-9.43h9.53v9.43h5.17V8.29h-5.17v9.29zM142.65 21.74a6 6 0 0 1-1.34 4.26 4.91 4.91 0 0 1-3.73 1.41 4.76 4.76 0 0 1-3.72-1.46 6.18 6.18 0 0 1-1.34-4.34V8.29h-5.17v13.42c0 3.47.9 6.08 2.72 7.82a10.26 10.26 0 0 0 7.45 2.62 13 13 0 0 0 4.26-.66 8.28 8.28 0 0 0 3.25-2 8.68 8.68 0 0 0 2.07-3.3 13.68 13.68 0 0 0 .72-4.67V8.29h-5.17ZM166.85 22.75 155.84 8.29h-4.77v23.49h5.1V16.84l11.38 14.94h4.4V8.29h-5.1v14.46zM173.89 8.29v4.76h7.15v18.73h5.17V13.05h7.15V8.29h-19.47zM31.93 11v-.73h-2.21v2.87l-2.45 2.39h2.45v12.4h2.76l3.78 3.68.77.74.76-.74 3.78-3.68h3.26v-12.4h2.46l-10-9.73Zm8.5 15.72h-6.49v-8.84h6.49Z" />
+	  <path style="fill: #29b573;" d="M39.6 22.46a.5.5 0 0 0-.05-.71.51.51 0 1 0-.66.77.5.5 0 0 0 .71-.06ZM85.72 21.18h12.87v-2.43H85.72V10.7h14.39V8.27H83.06v23.59h17.22v-2.43H85.72v-8.25z" />
+	  <path style="fill: #29b573;" d="M55.82 19c0-10.17-7.54-19-18.76-19S18.2 8.91 18.2 19.08v.1c0 8.63 5.42 16.27 13.92 18.39v10.52a6.32 6.32 0 0 0 1.36 4.42 4.93 4.93 0 0 0 3.8 1.49 5 5 0 0 0 3.79-1.43 6.06 6.06 0 0 0 1.36-4.31V37.39a18.79 18.79 0 0 0 13.39-18.31ZM37.15 35.61a16.75 16.75 0 1 1 16.74-16.74 16.75 16.75 0 0 1-16.74 16.74Z" />
+	  <path style="fill: #00b776;" d="M54.25 31.89h2.6v-9.81a20.61 20.61 0 0 1-2.6 7.54Z" />
+	  <path style="fill: #29b573;" d="M65.54 21.17 57 8.3h-2.7v.13c1.34 2.28 2.6 4.39 2.6 4.39l8.59 12.6h.14l8.59-12.64v19.11h2.66V8.3h-2.74ZM17 19.08a21 21 0 0 1 2-8.95V8.3h-2.72v10.48H2.66V8.3H0v23.59h2.66V21.27h13.62v10.62h2.66v-3.76a21.16 21.16 0 0 1-2-8.95Z" />
+	</svg>
+	
+	<div class="m-top-3">
+	  <h1 class="display-level-3">Colors</h1>
+	  <h2 class="sub-heading m-top-1">Grays</h2>
+	  <div class="color m-top-1">
+		<div class="color__item">
+		  <span class="color__dot" style="background-color: var(--charcoal); color: var(--charcoal);"></span>
+		  <p>"Charcoal"<br><span>#222222</span></p>
+		</div>
+		<div class="color__item">
+		  <span class="color__dot" style="background-color: var(--pebble); color: var(--pebble);"></span>
+		  <p>"Pebble"<br><span>#444444</span></p>
+		</div>
+		<div class="color__item">
+		  <span class="color__dot" style="background-color: var(--shadow); color: var(--shadow);"></span>
+		  <p>"Shadow"<br><span>#757575</span></p>
+		</div>
+		<div class="color__item">
+		  <span class="color__dot" style="background-color: var(--fossil); color: var(--fossil);"></span>
+		  <p>"Fossil"<br><span>#DDDDDD</span></p>
+		</div>
+		<div class="color__item">
+		  <span class="color__dot" style="background-color: var(--cloud); color: var(--fossil);"></span>
+		  <p>"Cloud"<br><span>#F9F9FB</span></p>
+		</div>
+	  </div>
+	
+	  <h2 class="sub-heading m-top-1">Accents</h2>
+	  <div class="color m-top-1">
+		<div class="color__item">
+		  <span class="color__dot" style="background-color: var(--indigo); color: var(--indigo);"></span>
+		  <p>"Indigo"<br><span>#413D9B</span></p>
+		</div>
+		<div class="color__item">
+		  <span class="color__dot" style="background-color: var(--cerulean); color: var(--cerulean);"></span>
+		  <p>"Cerulean"<br><span>#0F76BC</span></p>
+		</div>
+		<div class="color__item">
+		  <span class="color__dot" style="background-color: var(--parakeet); color: var(--parakeet);"></span>
+		  <p>"Parakeet"<br><span>#2BB673</span></p>
+		</div>
+		<div class="color__item">
+		  <span class="color__dot" style="background-color: var(--mint); color: var(--mint);"></span>
+		  <p>"Mint"<br><span>#AFDFC2</span></p>
+		</div>
+		<div class="color__item">
+		  <span class="color__dot" style="background-color: var(--marigold); color: var(--marigold);"></span>
+		  <p>"Marigold"<br><span>#FA9F00</span></p>
+		</div>
+		<div class="color__item">
+		  <span class="color__dot" style="background-color: var(--fire); color: var(--fire);"></span>
+		  <p>"Fire"<br><span>#F85600</span></p>
+		</div>
+	  </div>
+	</div>
+	
+	<div>
+	  <h1 class="display-level-3 m-top-2">Fonts</h1>
+	  <table class="m-top-2">
+		<thead>
+		  <tr>
+			<th scope="col">Level</th>
+			<th scope="col" width="250">Font</th>
+			<th scope="col">Example</th>
+			<th scope="col" width="225">Usage</th>
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+			<th scope="row">1</th>
+			<td>
+			  P22 Extra Bold<br>
+			  64px&nbsp;&nbsp;&nbsp;0em
+			</td>
+			<td class="v-align-middle">
+			  <h1 class="display-level-1 overflow">The quick brown fox jumps over the lazy dog</h1>
+			</td>
+			<td>
+			  - Display<br>
+			  - Page Headings
+			</td>
+		  </tr>
+		  <tr>
+			<th scope="row">2</th>
+			<td>
+			  P22 Extra Bold<br>
+			  56px&nbsp;&nbsp;&nbsp;0em
+			</td>
+			<td class="v-align-middle">
+			  <h2 class="display-level-2 overflow">The quick brown fox jumps over the lazy dog</h2>
+			</td>
+			<td>
+			  - Display<br>
+			  - Page Headings
+			</td>
+		  </tr>
+		  <tr>
+			<th scope="row">3</th>
+			<td>
+			  P22 Extra Bold<br>
+			  48px&nbsp;&nbsp;&nbsp;0em
+			</td>
+			<td class="v-align-middle">
+			  <h3 class="display-level-3 overflow">The quick brown fox jumps over the lazy dog</h3>
+			</td>
+			<td>
+			  - Display<br>
+			  - Page Headings
+			</td>
+		  </tr>
+		  <tr>
+			<th scope="row">4</th>
+			<td>
+			  P22 Book<br>
+			  32px&nbsp;&nbsp;&nbsp;-0.025em
+			</td>
+			<td class="v-align-middle">
+			  <h4 class="section-heading overflow">The quick brown fox jumps over the lazy dog</h4>
+			</td>
+			<td>
+			  - Section Headings
+			</td>
+		  </tr>
+		  <tr>
+			<th scope="row">5</th>
+			<td>
+			  Montserrat Light<br>
+			  24px&nbsp;&nbsp;&nbsp;0.025em
+			</td>
+			<td class="v-align-middle">
+			  <h5 class="sub-heading overflow">The quick brown fox jumps over the lazy dog</h5>
+			</td>
+			<td>
+			  - Sub-headings<br>
+			  - Blockquotes
+			</td>
+		  </tr>
+		  <tr>
+			<th scope="row">6</th>
+			<td>
+			  Montserrat Extra Bold<br>
+			  18px&nbsp;&nbsp;&nbsp;0.025em
+			</td>
+			<td class="v-align-middle">
+			  <h6 class="body-heading overflow">The quick brown fox jumps over the lazy dog</h6>
+			</td>
+			<td>
+			  - Body Headings
+			</td>
+		  </tr>
+		  <tr>
+			<th scope="row">7</th>
+			<td>
+			  Montserrat Regular<br>
+			  16px&nbsp;&nbsp;&nbsp;0.025em
+			</td>
+			<td class="v-align-middle">
+			  <p class="overflow">The quick brown fox jumps over the lazy dog</p>
+			</td>
+			<td>
+			  - Body Text
+			</td>
+		  </tr>
+		  <tr>
+			<th scope="row">8</th>
+			<td>
+			  Montserrat Regular<br>
+			  14px&nbsp;&nbsp;&nbsp;0.2em
+			</td>
+			<td class="v-align-middle">
+			  <h1 class="overflow"><span class="heading-overline">The quick brown fox jumps over the lazy dog</span></h1>
+			</td>
+			<td>
+			  - Heading overline
+			</td>
+		  </tr>
+		</tbody>
+	  </table>
+	</div>
