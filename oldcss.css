@@ -1,14 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-:root {
-	--mainbody: #798088;
-	--bodytext: #333a40;
-	--hoverlink: #006fa9;
-	--linkblue: #0495f4;
-	--lightbackground: #f5f7fa;
-	--darkblue: #565b61;
-	--lightaccent: #c3c5c75e;
-	--fadedblue: #dee2e6;
-}
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -19,7 +9,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, li, section, main, header, nav, foote
 	font-size: 16px;
 	line-height: 30px;
 	font-weight: 400;
-	color: var(--mainbody);
+	color: #798088;
 }
 body {
 	margin: 0;
@@ -27,15 +17,15 @@ body {
 	flex-direction: column;
 }
 a {
-	color:  var(--linkblue);
+	color: #0495f4;
 	text-decoration: none;
 	font-weight: 600;
 }
 a:hover {
-	border-bottom: 1px solid var(--hoverlink);
+	border-bottom: 1px solid #006fa9;
 }
 h1, h2, h3, h4, h5, h6 {
-	color: var(--bodytext);
+	color: #333a40;
 	margin: 0;
 	font-weight: 600;
 	padding: 0;
@@ -65,18 +55,16 @@ p, ul, li {
 	margin: 0;
 }
 header {
-	background-size: cover;
-	background: linear-gradient(177deg, rgb(23 16 5 / 52%) 30%, rgba(26, 29, 36, 0.83) 80%), url('https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-	background-position-y: 57%;
+	background: #f5f7fa;
 }
 logo {
-	/* background: var(--fadedblue); */
+	/* background: #dee2e6; */
 	width: 250px;
 	/* padding: 10px 30px; */
 	border-radius: 2px;
 }
 #annie-mac-logo {
-	width: 295px;
+	width: 290px;
 }
 nav {
 	align-items: center;
@@ -112,7 +100,7 @@ navigation {
 }
 #menu-toggle span i {
 	font-size: 15px;
-	color: var(--darkblue);
+	color: #565b61;
 	font-weight: bolder;
 }
 #menu-toggle ul {
@@ -124,13 +112,13 @@ navigation {
 	background: #fbfbfb;
 	border-radius: 5px;
 	box-shadow: 1px 4px 36px rgb(0 0 0 / 14%);
-	border: 1px solid var(--lightaccent);
+	border: 1px solid #c3c5c75e;
 }
 #menu-toggle li {
 	font-size: 15px;
 }
 menu-division {
-	border-top: 1px solid var(--lightaccent);
+	border-top: 1px solid #c3c5c75e;
 	display: block;
 	flex-direction: column;
 	width: 100%;
@@ -158,51 +146,39 @@ textsectional {
 	padding-right: 50px;
 }
 textsectional h1 {
-	line-height: 71px;
-	width: 80%;
+	line-height: 58px;
+	width: 90%;
 	margin: 20px 0 25px;
-	color: #fff;
-	font-size: 71px;
 }
 textsectional p {
 	margin: 0 0 15px;
-	color: #fff;
-	font-size: 18px;
-	font-weight: 300;
 }
 textsectional button {
 	margin: 30px 0;
-	padding: 21px 30px;
-	font-size: 17px;
+	padding: 15px 20px;
 }
 imagesectional {
-	background: url('https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+	background: #dee2e6;
 	min-width: 300px;
 	min-height: 300px;
-	visibility: hidden;
+	display: block;
 	border-radius: 6px;
-	background-size: cover;
 }
 button {
-	color: #78c254;
-	background: transparent;
-	border: 3px solid #78c254;
+	background: #333a40;
+	color: #fff;
+	border: none;
 	outline: none;
 	padding: 13px 15px;
-	border-radius: ;
+	border-radius: 5px;
 	font-size: inherit;
 	font-weight: 600;
 	letter-spacing: .05em;
 	margin: 5px 0;
 	width: fit-content;
 }
-button:hover {
-	color: #fff;
-	background: #78c254;
-	border: 3px solid #78c254;
-}
 .image {
-	background: var(--fadedblue);
+	background: #dee2e6;
 	border-radius: 6px;
 }
 .half-width {
@@ -218,31 +194,26 @@ button:hover {
 	margin: 0 0 13px;
 }
 #join-annie-mac-callout {
-	background: #006fa9;
+	background: #333a40;
 	color: #fff;
 	/* border-radius: 6px; */
 	padding: 30px;
 	text-align: center;
 	margin: 15px 0;
 }
-#join-annie-mac-callout:hover {
-	background: #005480;
-}
 #join-annie-mac-callout h2 {
 	color: #fff;
 	margin: 10px 0;
 }
-#join-annie-mac-callout p {
-	color: #fff;
-}
 #join-annie-mac-callout button {
 	background: #fff;
-	color: var(--bodytext);
+	color: #333a40;
 }
 footer {
 	margin-top: 40px;
 }
 #footer-callout {
+	/* border-radius: 6px; */
 	text-align: center;
 	margin: 35px 0;
 	padding: 20px 0;
@@ -251,14 +222,10 @@ footer {
 	margin: 10px 0;
 }
 #footer-callout button {
-	background: #78c254;
-	color: #fff;
+	background: #fff;
+	color: #333a40;
 	margin-top: 20px;
 	padding: 20px;
-}
-#footer-callout button:hover {
-	background: #006fa9;
-	border: 3px solid #006fa9;
 }
 cardfeaturettes {
 	margin: 40px 0 30px;
@@ -270,17 +237,8 @@ cardfeaturette p {
 	margin: 10px 0;
 }
 cardfeaturette button {
-	margin: 17px 0 0;
-	padding: 18px 30px;
-	font-size: 17px;
-	background: transparent;
-	border: 2px solid #686868;
-	color: #686868;
-}
-cardfeaturette button:hover {
-	background: #686868;
-	border: 2px solid #686868;
-	color: white;
+	margin: 10px 0;
+	padding: 15px 20px;
 }
 imagefeaturette {
 	margin-bottom: 30px;
@@ -355,7 +313,7 @@ testimonialportrait {
 	display: inline-block;
 	min-width: 60px;
 	min-height: 60px;
-	background: var(--fadedblue);
+	background: #dee2e6;
 	float: left;
 	border-radius: 100%;
 	margin-right: 20px;
@@ -378,7 +336,7 @@ commentcontainer h4 {
 	margin: 0 0 3px;
 }
 .mini-portrait {
-	background: var(--fadedblue);
+	background: #dee2e6;
 	border-radius: 5px;
 	min-width: 100px;
 	min-height: 100px;
@@ -416,7 +374,7 @@ commentcontainer h4 {
 	margin-left: 0;
 }
 footer {
-	background: var(--lightbackground);
+	background: #f5f7fa;
 }
 details > summary {
 	list-style: none;
@@ -476,69 +434,4 @@ buttoncontainer button {
 	margin: 10px 0;
 	padding: 15px 20px;
 	background: #585f65;
-}
-
-tripleplaypopupcontainer {
-  position: fixed;
-  color: #fff;
-  background: #000000d1;
-  top: 0;
-  right: 0;
-  padding: 20px;
-  width: 100%;
-  height: 100vh;
-  justify-content: center;
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-}
-
-tripleplaypopup {
-	background: #006fa9;
-	width: 600px;
-	padding: 20px 25px;
-	margin-bottom: 20px;
-	position: relative;
-	border-left: 30px solid #01517b;
-	box-shadow: 1px 30px 10px rgba(0,0,0,.33);
-}
-
-tripleplaypopup h3, tripleplaypopup p {
-	color: #fff;
-	margin: 10px 0;
-}
-
-tripleplaypopup button {
-	margin: 10px 0;
-	color: white;
-	background: transparent;
-	border: 3px solid white;
-}
-
-tripleplaypopup button:hover {
-	background: white;
-	border: 3px solid white;
-	color: #006fa9;
-}
-
-#dismiss-button {
-	background: white;
-	color: #006fa9;
-	width: 45px;
-	height: 45px;
-	position: absolute;
-	top: -18px;
-	right: -3%;
-	border-radius: 100%;
-	font-weight: 800;
-	text-transform: uppercase;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 21px;
-}
-
-#dismiss-button:hover {
-	transform: scale(1.15);
-	cursor: pointer;
 }
