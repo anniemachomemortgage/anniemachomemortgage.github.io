@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+	--mainbody: #798088;
+	--bodytext: #333a40;
+	--hoverlink: #006fa9;
+	--linkblue: #0495f4;
+	--lightbackground: #f5f7fa;
+	--darkblue: #565b61;
+	--lightaccent: #c3c5c75e;
+	--fadedblue: #dee2e6;
+}
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -9,7 +19,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, li, section, main, header, nav, foote
 	font-size: 16px;
 	line-height: 30px;
 	font-weight: 400;
-	color: #798088;
+	color: var(--mainbody);
 }
 body {
 	margin: 0;
@@ -17,15 +27,15 @@ body {
 	flex-direction: column;
 }
 a {
-	color: #0495f4;
+	color:  var(--linkblue);
 	text-decoration: none;
 	font-weight: 600;
 }
 a:hover {
-	border-bottom: 1px solid #006fa9;
+	border-bottom: 1px solid var(--hoverlink);
 }
 h1, h2, h3, h4, h5, h6 {
-	color: #333a40;
+	color: var(--bodytext);
 	margin: 0;
 	font-weight: 600;
 	padding: 0;
@@ -55,16 +65,18 @@ p, ul, li {
 	margin: 0;
 }
 header {
-	background: #f5f7fa;
+	background-size: cover;
+	background: linear-gradient(177deg, rgb(23 16 5 / 52%) 30%, rgba(26, 29, 36, 0.83) 80%), url('https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+	background-position-y: 57%;
 }
 logo {
-	/* background: #dee2e6; */
+	/* background: var(--fadedblue); */
 	width: 250px;
 	/* padding: 10px 30px; */
 	border-radius: 2px;
 }
 #annie-mac-logo {
-	width: 290px;
+	width: 295px;
 }
 nav {
 	align-items: center;
@@ -100,7 +112,7 @@ navigation {
 }
 #menu-toggle span i {
 	font-size: 15px;
-	color: #565b61;
+	color: var(--darkblue);
 	font-weight: bolder;
 }
 #menu-toggle ul {
@@ -112,13 +124,13 @@ navigation {
 	background: #fbfbfb;
 	border-radius: 5px;
 	box-shadow: 1px 4px 36px rgb(0 0 0 / 14%);
-	border: 1px solid #c3c5c75e;
+	border: 1px solid var(--lightaccent);
 }
 #menu-toggle li {
 	font-size: 15px;
 }
 menu-division {
-	border-top: 1px solid #c3c5c75e;
+	border-top: 1px solid var(--lightaccent);
 	display: block;
 	flex-direction: column;
 	width: 100%;
@@ -146,31 +158,38 @@ textsectional {
 	padding-right: 50px;
 }
 textsectional h1 {
-	line-height: 58px;
-	width: 90%;
+	line-height: 71px;
+	width: 80%;
 	margin: 20px 0 25px;
+	color: #fff;
+	font-size: 71px;
 }
 textsectional p {
 	margin: 0 0 15px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
 }
 textsectional button {
 	margin: 30px 0;
-	padding: 15px 20px;
+	padding: 21px 30px;
+	font-size: 17px;
 }
 imagesectional {
-	background: #dee2e6;
+	background: url('https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 	min-width: 300px;
 	min-height: 300px;
-	display: block;
+	visibility: hidden;
 	border-radius: 6px;
+	background-size: cover;
 }
 button {
-	background: #333a40;
-	color: #fff;
-	border: none;
+	color: #78c254;
+	background: transparent;
+	border: 3px solid #78c254;
 	outline: none;
 	padding: 13px 15px;
-	border-radius: 5px;
+	border-radius: ;
 	font-size: inherit;
 	font-weight: 600;
 	letter-spacing: .05em;
@@ -178,7 +197,7 @@ button {
 	width: fit-content;
 }
 .image {
-	background: #dee2e6;
+	background: var(--fadedblue);
 	border-radius: 6px;
 }
 .half-width {
@@ -194,7 +213,7 @@ button {
 	margin: 0 0 13px;
 }
 #join-annie-mac-callout {
-	background: #333a40;
+	background: #006fa9;
 	color: #fff;
 	/* border-radius: 6px; */
 	padding: 30px;
@@ -205,9 +224,12 @@ button {
 	color: #fff;
 	margin: 10px 0;
 }
+#join-annie-mac-callout p {
+	color: #fff;
+}
 #join-annie-mac-callout button {
 	background: #fff;
-	color: #333a40;
+	color: var(--bodytext);
 }
 footer {
 	margin-top: 40px;
@@ -222,8 +244,8 @@ footer {
 	margin: 10px 0;
 }
 #footer-callout button {
-	background: #fff;
-	color: #333a40;
+	background: #78c254;
+	color: #fff;
 	margin-top: 20px;
 	padding: 20px;
 }
@@ -237,8 +259,12 @@ cardfeaturette p {
 	margin: 10px 0;
 }
 cardfeaturette button {
-	margin: 10px 0;
-	padding: 15px 20px;
+	margin: 17px 0 0;
+	padding: 18px 30px;
+	font-size: 17px;
+	background: transparent;
+	border: 2px solid #686868;
+	color: #686868;
 }
 imagefeaturette {
 	margin-bottom: 30px;
@@ -313,7 +339,7 @@ testimonialportrait {
 	display: inline-block;
 	min-width: 60px;
 	min-height: 60px;
-	background: #dee2e6;
+	background: var(--fadedblue);
 	float: left;
 	border-radius: 100%;
 	margin-right: 20px;
@@ -336,7 +362,7 @@ commentcontainer h4 {
 	margin: 0 0 3px;
 }
 .mini-portrait {
-	background: #dee2e6;
+	background: var(--fadedblue);
 	border-radius: 5px;
 	min-width: 100px;
 	min-height: 100px;
@@ -374,7 +400,7 @@ commentcontainer h4 {
 	margin-left: 0;
 }
 footer {
-	background: #f5f7fa;
+	background: var(--lightbackground);
 }
 details > summary {
 	list-style: none;
