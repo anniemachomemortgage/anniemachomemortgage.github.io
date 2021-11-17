@@ -111,7 +111,7 @@ li#navigation-logo {
 	line-height: 100px;
 	margin-top: 5px;
 	color: var(--white);
-	opacity: .025;
+	opacity: 0.075;
 	margin-bottom: 41px;
 	z-index: 0;
 }
