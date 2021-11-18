@@ -235,7 +235,7 @@ button.main-site-apply-2:hover {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	z-index: 1;
+	/*! z-index: 1; */
 }
 .blocked-sectional {
 	display: flex;
@@ -258,7 +258,6 @@ button.main-site-apply-2:hover {
 }
 .backgrounded {
 	background: var(--offwhiteb);
-	padding: 0 20px;
 	border-radius: 3px;
 }
 .filler-width {
@@ -460,11 +459,16 @@ commentcontainer h4 {
 }
 .our-team-sections {
 	margin-top: 30px;
+	justify-content: initial;
 }
 .testimonial-sectional {
   margin-top: 45px;
 }
-.why-us-sections .blocked-sectional-half, .testimonial-sectional .blocked-sectional-half {
+.why-us-sections .blocked-sectional-half {
+	width: 100%;
+	margin: -20px 0 0;
+}
+.testimonial-sectional .blocked-sectional-half {
 	width: 46%;
 }
 .why-us-sections {
@@ -485,10 +489,11 @@ commentcontainer h4 {
 	padding-right: 20px;
 }
 .why-us-sections p strong {
-	font-weight: 600;
-	margin: 10px 0 5px;
-	font-size: 20px;
+	margin: 22px 0 -20px;
 	display: block;
+	font-weight: 300;
+	font-size: 21px;
+	color: #3a3335;
 }
 .why-us-sections .meet-the-team-header {
   width: 52%;
@@ -500,7 +505,7 @@ commentcontainer h4 {
 .learn-more-about-them {
   position: absolute;
   bottom: 9px;
-  right: 12px;
+  right: -17px;
   line-height: 17px;
   text-align: center;
   color: white;
@@ -523,6 +528,11 @@ commentcontainer h4 {
 .staff-block {
   background: none;
   position: relative;
+  width: 31%;
+  margin: 0px 11px;
+}
+.staff-block:first-of-type {
+	padding: 0px;
 }
 .staff-block h4 {
   text-align: center;
@@ -548,4 +558,8 @@ commentcontainer h4 {
 	  z-index:-1;
 	  display:block;
 	  height:216px; width:100%;
+	}
+	.our-team-callout-sections {
+		margin-top: 30px;
+		margin-bottom: 15px;
 	}
