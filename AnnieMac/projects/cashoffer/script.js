@@ -42,9 +42,13 @@ $(function() {
 		} 
 		if($( "#bnsl-or-not option:selected" ).val()=='selling'){
 			$('#buy-now-sell-later').removeClass('initial-hidden');
+			$('#Picklist').attr('value', 'Buy Now, Sell Later (BNSL)');
+			$('#LeadSourceID').attr('value', 'Q6UJ9A1PQKN8');
 		} 
 		if($( "#bnsl-or-not option:selected" ).val()=='not-selling'){
 			$('#buy-now-sell-later').addClass('initial-hidden');
+			$('#Picklist').attr('value', 'Cash Offer (CO)');
+			$('#LeadSourceID').attr('value', 'Q6UJ9A1PQKN6');
 		}	
 	});
 });
