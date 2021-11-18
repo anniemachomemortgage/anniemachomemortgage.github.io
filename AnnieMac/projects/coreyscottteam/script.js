@@ -7,11 +7,11 @@ $(function() {
 		
 		// Show intended person
 		$("#triggered-team-member").addClass('meet-the-team-header-corey');
-		$("#corey-scott-trigger").removeClass('hidden');
+		$("#corey-trigger").removeClass('hidden');
 		
 		// Remove other people
 		$("#triggered-team-member").removeClass('meet-the-team-header-megan');
-		$("#megan-scott-trigger").addClass('hidden');
+		$("#megan-trigger").addClass('hidden');
 	});
 	// Megan
 	$("#trigger-megan").click(function(event) {
@@ -20,11 +20,11 @@ $(function() {
 		$("#trigger-corey").removeClass('focused');
 		
 		// Show intended person
-		$("#triggered-team-member").addClass('meet-the-team-header-corey');
-		$("#corey-scott-trigger").removeClass('hidden');
+		$("#triggered-team-member").addClass('meet-the-team-header-megan');
+		$("#megan-trigger").removeClass('hidden');
 		
 		// Remove other people
 		$("#triggered-team-member").removeClass('meet-the-team-header-corey');
-		$("#corey-scott-trigger").addClass('hidden');
+		$("#corey-trigger").addClass('hidden');
 	});
 });

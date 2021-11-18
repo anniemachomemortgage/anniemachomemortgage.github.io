@@ -598,26 +598,6 @@ commentcontainer h4 {
 .triggered-information p:last-of-type {
 	margin-bottom: 45px;
 }
-.meet-the-team-header-corey {
-	background: linear-gradient(177deg, rgba(21, 47, 60, 0.42) 30%, rgba(5, 47, 68, 0.73) 80%), url('img/corey.jpg');
-	display: flex;
-	width: 100%;
-	border-radius: 4px;
-	min-height: 315px;
-	background-position-y: 53%;
-	background-size: 102%;
-	background-position-x: 57%;
-}
-.meet-the-team-header-megan {
-	background: linear-gradient(177deg, rgba(21, 47, 60, 0.42) 30%, rgba(5, 47, 68, 0.73) 80%), url('img/megan.jpg');
-	display: flex;
-	width: 100%;
-	border-radius: 4px;
-	min-height: 315px;
-	background-position-y: 45%;
-	background-size: 102%;
-	background-position-x: 57%;
-}
 .social-biography-links {
 	margin: -35px -50px -60px;
 	border-radius: 0 0 4px 4px;
@@ -642,4 +622,54 @@ commentcontainer h4 {
 }
 .hidden {
 	display: none;
+}
+.meet-the-team-header-corey {
+	background: linear-gradient(177deg, rgba(21, 47, 60, 0.42) 30%, rgba(5, 47, 68, 0.73) 80%), url('img/corey.jpg');
+	display: flex;
+	width: 100%;
+	border-radius: 4px;
+	min-height: 315px;
+	background-position-y: 53%;
+	background-size: 102%;
+	background-position-x: 57%;
+}
+.meet-the-team-header-megan {
+	background: linear-gradient(177deg, rgba(21, 47, 60, 0.42) 30%, rgba(5, 47, 68, 0.73) 80%), url('img/megan.jpg');
+	display: flex;
+	width: 100%;
+	border-radius: 4px;
+	min-height: 315px;
+	background-position-y: 45%;
+	background-size: 102%;
+	background-position-x: 57%;
+}
+.meet-the-team-header-amanda {
+	background: linear-gradient(177deg, rgba(21, 47, 60, 0.42) 30%, rgba(5, 47, 68, 0.73) 80%), url('img/amanda.jpg');
+	display: flex;
+	width: 100%;
+	border-radius: 4px;
+	min-height: 315px;
+	background-position-y: 45%;
+	background-size: 102%;
+	background-position-x: 57%;
+}
+.meet-the-team-header-billie {
+	background: linear-gradient(177deg, rgba(21, 47, 60, 0.42) 30%, rgba(5, 47, 68, 0.73) 80%), url('img/billie.jpg');
+	display: flex;
+	width: 100%;
+	border-radius: 4px;
+	min-height: 315px;
+	background-position-y: 45%;
+	background-size: 102%;
+	background-position-x: 57%;
+}
+.meet-the-team-header-mike {
+	background: linear-gradient(177deg, rgba(21, 47, 60, 0.42) 30%, rgba(5, 47, 68, 0.73) 80%), url('img/mike.jpg');
+	display: flex;
+	width: 100%;
+	border-radius: 4px;
+	min-height: 315px;
+	background-position-y: 45%;
+	background-size: 102%;
+	background-position-x: 57%;
 }
