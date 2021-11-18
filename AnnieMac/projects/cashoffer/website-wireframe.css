@@ -614,3 +614,6 @@ tripleplaypopup button:hover {
 .mini initalcallout {
 	margin: 5px 0 35px;
 }
+.mini h1 {
+	line-height: 85px;
+}
