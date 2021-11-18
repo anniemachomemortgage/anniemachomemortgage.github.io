@@ -453,8 +453,8 @@ summary {
 }
 summary i {
 	order: -1;
-	font-size: 17px;
-	opacity: .7;
+	font-size: 14px;
+	opacity: .8;
 	margin-right: 20px;
 }
 details p {
