@@ -403,10 +403,10 @@ testimonial {
 	background: var(--offwhiteb);
 }
 testimonialdetail {
-	background: #d9d9d91a;
-	padding: 20px;
+	background: #dddddd29;
+	padding: 20px 27px;
 	border-radius: 3px;
-	margin: 20px -20px -22px;
+	margin: 20px -25px -22px;
 }
 testimonialdetail h6, testimonialdetail h5 {
 	margin: 0;
@@ -414,7 +414,7 @@ testimonialdetail h6, testimonialdetail h5 {
 }
 testimonialdetail h5 {
 	font-weight: 300;
-	font-size: 21px;
+	font-size: 19px;
 	color: #3a3335;
 }
 testimonial h4 {
