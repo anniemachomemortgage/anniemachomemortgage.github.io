@@ -53,6 +53,9 @@ $(function() {
 		}
 		return null;
 	};
+	$("#navigation-sidebar #list_12564").click(function(event) {
+		window.location.href = '/page/perks';
+	});
 	$("#navigation-sidebar > div:nth-child(2) > a:nth-child(4)").remove();
 	if (document.cookie.indexOf("visitedloanoriginator=") >= 0) {
 		if (document.cookie.indexOf("visitedloanoriginatorname=") < 0) {

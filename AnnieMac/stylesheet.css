@@ -14,7 +14,9 @@ body.front.site-type-branch {
 #questionThree .text-muted small, .text-info i.fas.fa-arrow-right {
   display: none;
 }
-
+#navigation-sidebar #list_12564:hover {
+  cursor: pointer;
+}
 textarea {
   letter-spacing: .8px;
   margin-top: 1px !important;
