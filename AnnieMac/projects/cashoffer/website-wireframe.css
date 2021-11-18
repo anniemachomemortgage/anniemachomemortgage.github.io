@@ -475,7 +475,7 @@ details[open] .answer {
 	color: #646b73;
 }
 details[open] summary i {
-	transform: rotate(180deg);
+	transform: rotate(45deg);
 }
 .answer ul {
 	list-style-type: none;
