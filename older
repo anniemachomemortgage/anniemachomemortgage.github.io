@@ -1,0 +1,201 @@
+<html>
+	<head>
+		<title>AnnieMac Cash Buyer Program</title>
+		<link rel='stylesheet' id='wireframe' href='website-wireframe.css' type='text/css' />
+		<link rel='stylesheet' id='enhancements' href='enhancements.css' type='text/css' />
+		<script src="https://kit.fontawesome.com/5ef689e183.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<!-- Triple Play Webinar CTA Form pop-up bottom right -->
+		<!-- <tripleplaypopup>
+			<h3>Are you a realtor?</h3>
+		</tripleplaypopup> -->
+		<header>
+			<div class="contain">
+			<nav>
+				<ul class="row-display">
+					<logo>
+						<img src="https://annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png" id="annie-mac-logo">
+					</logo>
+					<navigation class="row-display">
+						<!-- <li id="menu-toggle">Menu <span><i class="fas fa-caret-down"></i></span>
+							<ul>
+								<submenu>
+									<menu-division>
+										<strong><i class="fas fa-thumbtack"></i> Cash2Keys</strong>
+										<li>Overview</li>
+										<li>Cash Buyer</li>
+										<li>Buy Now, Sell Later</li>
+										<li>FAQ</li>
+										<li>Realtors</li>
+									</menu-division>
+								</submenu>
+							</ul>
+						</li> -->
+						<li><button>Get Started</button></li>
+					</navigation> 
+				</ul>
+			</nav>
+			<initalcallout class="row-display">
+				<textsectional>
+					<h1>Make a Cash Offer They Can’t Refuse.</h1>
+					<p>At AnnieMac Home Mortgage, we want you to have a fair shot at owning a home your family will love. That's why we've created two groundbreaking programs that offer both new and existing homeowners a smooth, stress-free path to your ideal homes.</p>
+					<button>Get Started</button>
+				</textsectional>
+				<imagesectional>
+				</imagesectional>
+			</initalcallout>
+			</div>
+		</header>
+		<main>
+			<section id="join-annie-mac"> 
+				<div class="contain">
+					<!-- <h2>Our Programs</h2> -->
+					<!-- MOVE TO FORM WHEN MOVED
+					<p>Our programs are currently available exclusively to current and future New Jersey residents. Keep an eye out for updates as we expand these programs to new regions.</p> -->
+					<cardfeaturettes class="row-display space-between ">
+						<cardfeaturette class="column-display">
+							<imagefeaturette class="image full-width" style="height: 280px;">
+							</imagefeaturette>
+							<h3>Cash Offer</h3>
+							<p>Are you a first-time home buyer? That fact alone might get your best offers ignored by homeowners, but just because you’re starting from scratch doesn’t mean you should give up on the home of your dreams – and that’s where this program evens the odds!</p>
+							<button>Learn More</button>
+						</cardfeaturette>
+						<cardfeaturette class="column-display">
+							<imagefeaturette class="image full-width" style="height: 280px;">
+							</imagefeaturette>
+							<h3>Buy Now, Sell Later</h3>
+							<p>Perfect for current homeowners! We buy the home so you can move right in while taking the time to comfortably sell your old house and maximize your profit by accepting the highest offer possible! Once you've sold your old property, buy your new home back from us.</p>
+							<button>Learn More</button>
+						</cardfeaturette>
+					</cardfeaturettes>
+				</div>
+			</section>
+			<!-- <section id="our-reviews"> 
+				<div class="contain">
+					<h2 class="">The Benefits of Cash</h2>
+					<commentgridcontainer class="row-display">
+						<commentcontainer class="row-display">
+							<div class="profile-mini-display">
+								<div class="image mini-portrait"></div>
+							</div>
+							<div class="comment-mini-display column-display">
+								<h4 class="">Beneficial Benefit</h4>
+								<p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quidem consectetur iure at. Est fugiat eror.</p>
+							</div>
+						</commentcontainer>
+						<commentcontainer class="row-display">
+							<div class="profile-mini-display">
+								<div class="image mini-portrait"></div>
+							</div>
+							<div class="comment-mini-display column-display">
+								<h4 class="">Beneficial Benefit</h4>
+								<p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quidem consectetur iure at. Est fugiat eror.</p>
+							</div>
+						</commentcontainer>
+						<commentcontainer class="row-display">
+							<div class="profile-mini-display">
+								<div class="image mini-portrait"></div>
+							</div>
+							<div class="comment-mini-display column-display">
+								<h4 class="">Beneficial Benefit</h4>
+								<p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quidem consectetur iure at. Est fugiat eror.</p>
+							</div>
+						</commentcontainer>
+						<commentcontainer class="row-display">
+							<div class="profile-mini-display">
+								<div class="image mini-portrait"></div>
+							</div>
+							<div class="comment-mini-display column-display">
+								<h4 class="">Beneficial Benefit</h4>
+								<p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quidem consectetur iure at. Est fugiat eror.</p>
+							</div>
+						</commentcontainer>
+					</commentgridcontainer>
+				</div>
+			</section> -->
+			<section> 
+				<div class="contain">						
+					<div id="join-annie-mac-callout">
+						<h2>Get Started Today</h2>
+						<p class="">Let Us Help You Buy Your Dream Home</p>
+					</div>
+				</div>
+			</section>
+			<section id="faq-hub"> 
+				<div class="contain">
+					<h2 class="">Frequently Asked Questions <span>View All</span></h2>
+					<details class="">
+						<summary> <i class="fas fa-plus"></i></summary>
+						<p></p>
+					</details>
+					<details class="">
+						<summary> <i class="fas fa-plus"></i></summary>
+						<p></p>
+					</details>
+					<details class="">
+						<summary> <i class="fas fa-plus"></i></summary>
+						<p></p>
+					</details>
+					<details class="">
+						<summary> <i class="fas fa-plus"></i></summary>
+						<p></p>
+					</details>
+					<details class="">
+						<summary> <i class="fas fa-plus"></i></summary>
+						<p></p>
+					</details>
+				</div>
+			</section>
+			
+			<!-- <section id="annie-mac-testimonials">
+				<div class="contain">
+					<h2>What People Say</h2>
+					<testimonialscontainer>
+						<testimonial>
+							<h4>Lorem Ipsum</h4>
+							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque inventore error molestiae iusto atque distinctio tempora, eius animi praesentium tempore nesciunt autem maiores! Reiciendis ut quo similique soluta hic expedita.</p>
+							<testimonialdetail>
+								<testimonialportrait>
+								</testimonialportrait>
+								<h5>Lorem ipsum</h5>
+								<h6>Sit amet consectetur</h6>
+							</testimonialdetail>
+						</testimonial>
+						<testimonial>
+							<h4>Lorem Ipsum</h4>
+							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque inventore error molestiae iusto atque distinctio tempora, eius animi praesentium tempore nesciunt autem maiores! Reiciendis ut quo similique soluta hic expedita.</p>
+							<testimonialdetail>
+								<testimonialportrait>
+								</testimonialportrait>
+								<h5>Lorem ipsum</h5>
+								<h6>Sit amet consectetur</h6>
+							</testimonialdetail>
+						</testimonial>
+						<testimonial>
+							<h4>Lorem Ipsum</h4>
+							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque inventore error molestiae iusto atque distinctio tempora, eius animi praesentium tempore nesciunt autem maiores! Reiciendis ut quo similique soluta hic expedita.</p>
+							<testimonialdetail>
+								<testimonialportrait>
+								</testimonialportrait>
+								<h5>Lorem ipsum</h5>
+								<h6>Sit amet consectetur</h6>
+							</testimonialdetail>
+						</testimonial>
+					</testimonialscontainer>
+				</div>
+			</section> -->
+		</main>
+		<footer>
+			<section> 
+				<div class="contain">						
+					<div id="footer-callout">
+						<h2 class="">Make a Cash Offer They Can’t Refuse</h2>
+						<p class="">Beat Out the Competition With a Winning Cash Bid</p>
+						<button>Get Started Today</button>
+					</div>
+				</div>
+			</section>
+		</footer>
+	</body>
+</html>

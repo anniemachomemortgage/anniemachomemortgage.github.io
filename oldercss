@@ -65,9 +65,7 @@ p, ul, li {
 	margin: 0;
 }
 header {
-	background-size: cover;
-	background: linear-gradient(177deg, rgb(23 16 5 / 52%) 30%, rgba(26, 29, 36, 0.83) 80%), url('https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-	background-position-y: 57%;
+	background: var(--lightbackground);
 }
 logo {
 	/* background: var(--fadedblue); */
@@ -76,7 +74,7 @@ logo {
 	border-radius: 2px;
 }
 #annie-mac-logo {
-	width: 295px;
+	width: 290px;
 }
 nav {
 	align-items: center;
@@ -158,49 +156,36 @@ textsectional {
 	padding-right: 50px;
 }
 textsectional h1 {
-	line-height: 71px;
-	width: 80%;
+	line-height: 58px;
+	width: 90%;
 	margin: 20px 0 25px;
-	color: #fff;
-	font-size: 71px;
 }
 textsectional p {
 	margin: 0 0 15px;
-	color: #fff;
-	font-size: 18px;
-	font-weight: 300;
-	width: 84%;
 }
 textsectional button {
 	margin: 30px 0;
-	padding: 21px 30px;
-	font-size: 17px;
+	padding: 15px 20px;
 }
 imagesectional {
-	background: url('https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-	min-width: 200px;
+	background: var(--fadedblue);
+	min-width: 300px;
 	min-height: 300px;
-	visibility: hidden;
+	display: block;
 	border-radius: 6px;
-	background-size: cover;
 }
 button {
-	color: #78c254;
-	background: transparent;
-	border: 3px solid #78c254;
+	background: #78c254;
+	color: #fff;
+	border: none;
 	outline: none;
 	padding: 13px 15px;
-	border-radius: ;
+	border-radius: 5px;
 	font-size: inherit;
 	font-weight: 600;
 	letter-spacing: .05em;
 	margin: 5px 0;
 	width: fit-content;
-}
-button:hover {
-	color: #fff;
-	background: #78c254;
-	border: 3px solid #78c254;
 }
 .image {
 	background: var(--fadedblue);
@@ -226,9 +211,6 @@ button:hover {
 	text-align: center;
 	margin: 15px 0;
 }
-#join-annie-mac-callout:hover {
-	background: #005480;
-}
 #join-annie-mac-callout h2 {
 	color: #fff;
 	margin: 10px 0;
@@ -244,6 +226,7 @@ footer {
 	margin-top: 40px;
 }
 #footer-callout {
+	/* border-radius: 6px; */
 	text-align: center;
 	margin: 35px 0;
 	padding: 20px 0;
@@ -257,12 +240,8 @@ footer {
 	margin-top: 20px;
 	padding: 20px;
 }
-#footer-callout button:hover {
-	background: #006fa9;
-	border: 3px solid #006fa9;
-}
 cardfeaturettes {
-	margin: 10px 0 30px;
+	margin: 40px 0 30px;
 }
 cardfeaturette {
 	width: 45%;
@@ -271,17 +250,8 @@ cardfeaturette p {
 	margin: 10px 0;
 }
 cardfeaturette button {
-	margin: 17px 0 0;
-	padding: 18px 30px;
-	font-size: 17px;
-	background: transparent;
-	border: 2px solid #686868;
-	color: #686868;
-}
-cardfeaturette button:hover {
-	background: #686868;
-	border: 2px solid #686868;
-	color: white;
+	margin: 10px 0;
+	padding: 15px 20px;
 }
 imagefeaturette {
 	margin-bottom: 30px;
@@ -436,10 +406,6 @@ details summary {
 	font-weight: 700;
 	font-size: 19px;
 }	
-summary:hover {
-	cursor: pointer;
-	color: #0764a1;
-}
 summary {
 	display: flex;
 	align-items: center;
@@ -468,28 +434,10 @@ details[open] p {
 }
 #faq-hub h2 span {
 	font-size: 17px;
+	opacity: .8;
 	font-weight: 500;
 	margin-left: 10px;
-	z-index: auto;
-	color: #006fa9;
 }
-#faq-hub h2 span i {
-	font-size: 19px;
-	margin-left: 10px;
-	margin-right: 6px;
-}
-#faq-hub h2 span input {
-	outline: none;
-	border: none;
-	border-bottom: 1px solid rgba(0,0,0,.2);
-	font-size: 18px;
-	color: #868686;
-	font-weight: 200;
-	min-width: 278px;
-}
-#faq-hub h2 span input:active, #faq-hub h2 span input:focus, #faq-hub h2 span input:hover {
-	border-bottom: 1px solid #0b98e1;
-} 
 buttoncontainer {
 	display: flex;
 	justify-content: center;
@@ -499,88 +447,4 @@ buttoncontainer button {
 	margin: 10px 0;
 	padding: 15px 20px;
 	background: #585f65;
-}
-tripleplaypopupcontainer {
-  position: fixed;
-  color: #fff;
-  background: #000000d1;
-  top: 0;
-  right: 0;
-  padding: 20px;
-  width: 100%;
-  height: 100vh;
-  justify-content: center;
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-  z-index: 1;
-}
-
-tripleplaypopup {
-	background: #006fa9;
-	width: 600px;
-	padding: 20px 25px;
-	margin-bottom: 20px;
-	position: relative;
-	border-left: 30px solid #01517b;
-	box-shadow: 1px 30px 10px rgba(0,0,0,.33);
-	z-index: 1;
-}
-
-tripleplaypopup h3, tripleplaypopup p {
-	color: #fff;
-	margin: 10px 0;
-}
-
-tripleplaypopup button {
-	margin: 10px 0;
-	color: white;
-	background: transparent;
-	border: 3px solid white;
-}
-
-tripleplaypopup button:hover {
-	background: white;
-	border: 3px solid white;
-	color: #006fa9;
-}
-
-#dismiss-button {
-	background: white;
-	color: #006fa9;
-	width: 45px;
-	height: 45px;
-	position: absolute;
-	top: -18px;
-	right: -3%;
-	border-radius: 100%;
-	font-weight: 800;
-	text-transform: uppercase;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 21px;
-}
-.view-all-link a {
-	color: #0881d0;
-	margin-left: 5px;
-}
-.view-all-link a:hover {
-	color: #0764a1;
-	margin-left: 5px;
-}
-.faq-link {
-  background: #0881d0;
-  color: white;
-  padding: 7px 12px;
-  margin-right: 5px;
-  border-radius: 2px;
-}
-.faq-link:hover {
-	border-bottom: none;
-	background: #0764a1;
-}
-#dismiss-button:hover {
-	transform: scale(1.15);
-	cursor: pointer;
 }
