@@ -31,6 +31,9 @@ $(function() {
 		if($( "#working-with-agent option:selected" ).val()=='real-estate'){
 			$('#real-estate-information').removeClass('initial-hidden');
 		} 
+		if($( "#working-with-agent option:selected" ).val()=='real-estate'){
+			$('#real-estate-information').removeClass('initial-hidden');
+		} 
 		if($( "#working-with-agent option:selected" ).val()=='no-real-estate'){
 			$('#real-estate-information').addClass('initial-hidden');
 		}
