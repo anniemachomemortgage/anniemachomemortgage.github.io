@@ -201,7 +201,7 @@ button.main-site-apply-2 {
 	border: .5px solid var(--white);
 	position: inherit;
 }
-button.main-site-apply-2:hover, .blocked-sectional-half a button:hover {
+button.main-site-apply-2:hover, .blocked-sectional-half a button:hover, .readmorecontainer a button:hover {
 	background: #00537D;
 	border: .5px solid #00537D;
 	cursor: pointer;
@@ -299,7 +299,7 @@ button.main-site-apply-2:hover, .blocked-sectional-half a button:hover {
 	color: var(--darkergray);
 	margin-top: 18px;
 }
-.blocked-sectional a button, .blocked-sectional-half a button {
+.blocked-sectional a button, .blocked-sectional-half a button, .readmorecontainer a button {
 	outline: none;
 	padding: 15px;
 	margin: -5px 0 19px;
@@ -310,6 +310,9 @@ button.main-site-apply-2:hover, .blocked-sectional-half a button:hover {
 	font-size: 17px;
 	border-radius: 2px;
 	border: .5px solid var(--orange);
+}
+.readmorecontainer {
+	margin: 30px auto 0;
 }
 .blocked-sectional a button:hover {
 	background: var(--orange);
