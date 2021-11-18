@@ -30,12 +30,15 @@ $(function() {
 	$('select').on('change', function() {
 		if($( "#working-with-agent option:selected" ).val()=='real-estate'){
 			$('#real-estate-information').removeClass('initial-hidden');
+			$('#Entity').attr('value', 'Contact');
 		} 
 		if($( "#working-with-agent option:selected" ).val()=='am-agent'){
 			$('#real-estate-information').removeClass('initial-hidden');
+			$('#Entity').attr('value', 'Contact');
 		} 
 		if($( "#working-with-agent option:selected" ).val()=='no-real-estate'){
 			$('#real-estate-information').addClass('initial-hidden');
+			$('#Entity').attr('value', 'PreQual');
 		}
 		if($( "#apply-or-learn option:selected" ).val()=='apply-now'){
 			$('#apply-now-form').removeClass('initial-hidden');
