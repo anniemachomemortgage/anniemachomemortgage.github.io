@@ -78,6 +78,9 @@ logo {
 #annie-mac-logo {
 	width: 295px;
 }
+logo img:hover {
+	cursor: pointer;
+}
 nav {
 	align-items: center;
 	margin: 15px 0 0;
