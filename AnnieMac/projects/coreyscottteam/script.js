@@ -17,7 +17,7 @@ $(function() {
 	$("#trigger-megan").click(function(event) {
 		//  indication that person is triggered
 		$("#trigger-megan").addClass('focused');
-		$("#trigger-megan").removeClass('focused');
+		$("#trigger-corey").removeClass('focused');
 		
 		// Show intended person
 		$("#triggered-team-member").addClass('meet-the-team-header-corey');
