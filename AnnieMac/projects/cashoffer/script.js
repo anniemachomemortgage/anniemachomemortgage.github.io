@@ -60,4 +60,12 @@ $(function() {
 			}
 		}	
 	});
+	$('#property-state-selection').on('change', function() {
+		if($( "#property-state-selection option:selected" ).val()!='NJ'){
+			$('#not-supported-state').removeClass('initial-hidden');
+		}
+		if($( "#property-state-selection option:selected" ).val()=='NJ'){
+				$('#not-supported-state').addClass('initial-hidden');
+			}
+	});
 });

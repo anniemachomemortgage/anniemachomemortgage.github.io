@@ -690,3 +690,17 @@ outline: none;
 box-shadow: none;
 margin-bottom: 0;
 }
+#not-supported-state {
+		margin-top: 0;
+		margin-bottom: 40px;
+		background: #e6e6e6;
+		border-radius: 2px;
+		padding: 10px 20px;
+		color: #555;
+	}
+	#not-supported-state h5 {
+		margin: 8px 0;
+	}
+	#not-supported-state p {
+			color: #393f45b8;
+		}
