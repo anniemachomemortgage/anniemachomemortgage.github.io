@@ -691,18 +691,18 @@ box-shadow: none;
 margin-bottom: 0;
 }
 #not-supported-state {
-		margin-top: 0;
-		margin-bottom: 40px;
-		background: #e6e6e696;
-		border-radius: 2px;
-		padding: 10px 20px 22px;
-		color: #555;
-	}
-	#not-supported-state h5 {
-		margin: 7px 0 5px;
-		font-weight: 400;
-		font-size: 18px;
-	}
-	#not-supported-state p {
-			color: #393f45b8;
-		}
+margin-top: 0;
+margin-bottom: 40px;
+background: #e6e6e696;
+border-radius: 2px;
+padding: 10px 20px 22px;
+color: #555;
+}
+#not-supported-state h5 {
+margin: 7px 0 5px;
+font-weight: 400;
+font-size: 18px;
+}
+#not-supported-state p {
+color: #393f45b8;
+}
