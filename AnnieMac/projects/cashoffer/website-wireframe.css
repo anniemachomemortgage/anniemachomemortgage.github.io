@@ -666,6 +666,9 @@ input[type="text"], input[type="tel"], input[type="email"], select, option {
 select {
 		background: #fff;
 	}
+	.subset-header {
+			margin-top: 15px;
+		}
 .grouped-input {
 		display: flex;
 		width: 100%;
@@ -681,6 +684,5 @@ select {
 			display: none;
 		}
 		#form #footer-callout button {
-			margin-top: 35px;
 				min-width: 200px;
 			}
