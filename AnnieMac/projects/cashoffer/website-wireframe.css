@@ -455,11 +455,21 @@ details p {
 	margin-top: 8px;
 	border-top: 2px solid rgba(0,0,0,.02);
 }
-details[open] p {
+details[open] .answer {
 	background: #f9f9f9;
 	padding: 15px 40px;
 	border-radius: 0 0 5px 5px;
 	margin-bottom: 30px;
+	color: #646b73;
+}
+.answer ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 5px;
+}
+.answer li {
+	margin-bottom: 10px;
 	color: #646b73;
 }
 #faq-hub h2 {
