@@ -663,6 +663,16 @@ commentcontainer h4 {
 	background-size: 102%;
 	background-position-x: 57%;
 }
+.meet-the-team-header-jess {
+	background: linear-gradient(177deg, rgba(21, 47, 60, 0.42) 30%, rgba(5, 47, 68, 0.73) 80%), url('img/jess.jpg');
+	display: flex;
+	width: 100%;
+	border-radius: 4px;
+	min-height: 315px;
+	background-position-y: 45%;
+	background-size: 102%;
+	background-position-x: 57%;
+}
 .meet-the-team-header-mike {
 	background: linear-gradient(177deg, rgba(21, 47, 60, 0.42) 30%, rgba(5, 47, 68, 0.73) 80%), url('img/mike.jpg');
 	display: flex;
