@@ -286,10 +286,10 @@ button.main-site-apply-2:hover {
 }
 .blocked-sectional-half h4 {
 	margin-top: 20px;
-	margin-bottom: -10px;
-	font-weight: 700;
+	margin-bottom: -6px;
+	font-weight: 300;
 	font-size: 22px;
-	color: var(--black);
+	color: #3a3335;
 }
 .blocked-sectional-half p {
 	font-size: 15px;
@@ -519,7 +519,7 @@ commentcontainer h4 {
   align-items: center;
   box-shadow: 1px 3px 5px rgba(0,0,0,.25);
 }
-.learn-more-about-them:hover {
+.learn-more-about-them:hover, .focused {
 	transform: scale(1.1);
 	background: #79c250;
 }
@@ -554,7 +554,7 @@ commentcontainer h4 {
   text-align: center;
 }
 .our-products {
-	margin-top: 40px;
+	margin-top: 5px;
 }
 .image-gradient-overlay {
   width: 100%;
@@ -574,4 +574,72 @@ commentcontainer h4 {
 .our-team-callout-sections {
 	margin-top: 30px;
 	margin-bottom: 15px;
+}
+.triggered-information h4 {
+	text-align: left;
+	font-weight: 300;
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: -5px;
+}
+.triggered-information h5 {
+	text-align: left;
+	font-weight: 300;
+	font-size: 18px;
+	color: #fff;
+	margin-top: 12px;
+}
+.triggered-information p {
+	color: #fff;
+}
+.triggered-information p:first-of-type {
+	margin-top: -5px;
+}
+.triggered-information p:last-of-type {
+	margin-bottom: 45px;
+}
+.meet-the-team-header-corey {
+	background: linear-gradient(177deg, rgba(21, 47, 60, 0.42) 30%, rgba(5, 47, 68, 0.73) 80%), url('img/corey.jpg');
+	display: flex;
+	width: 100%;
+	border-radius: 4px;
+	min-height: 315px;
+	background-position-y: 53%;
+	background-size: 102%;
+	background-position-x: 57%;
+}
+.meet-the-team-header-megan {
+	background: linear-gradient(177deg, rgba(21, 47, 60, 0.42) 30%, rgba(5, 47, 68, 0.73) 80%), url('img/megan.jpg');
+	display: flex;
+	width: 100%;
+	border-radius: 4px;
+	min-height: 315px;
+	background-position-y: 45%;
+	background-size: 102%;
+	background-position-x: 57%;
+}
+.social-biography-links {
+	margin: -35px -50px -60px;
+	border-radius: 0 0 4px 4px;
+	padding: 20px 15px;
+}
+.social-biography-links ul {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 600px;
+	justify-content: space-between;
+	margin-left: 35px;
+	visibility: hidden;
+}
+.social-biography-links ul a {
+	color: inherit;
+	text-decoration: none;
+}
+.social-biography-links ul a li {
+	color: #fff;
+}
+.hidden {
+	display: none;
 }

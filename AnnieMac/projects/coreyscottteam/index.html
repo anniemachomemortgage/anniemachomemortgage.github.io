@@ -5,6 +5,8 @@
 	<title>Corey Scott Team</title>
 	<script src="https://kit.fontawesome.com/5ef689e183.js" crossorigin="anonymous"></script>
 	<link rel='stylesheet' id='form-css' href='style.css' type='text/css' media='all'/>
+	<script id="jquery-link" src="https://code.jquery.com/jquery-latest.min.js"></script>
+	<script id="page-specific-functionality-script" src="script.js"></script>
 </head>
 <div class="body-background">
 <div class="body-overlay">
@@ -56,20 +58,42 @@
 				<p>The ultimate goal is to create lasting relationships with each of our clients so that we may continue providing excellent service for many years to come. The Corey Scott Team looks forward to working with you to achieve your housing goals!</p>
 			</div>
 		</section>
-		<section class="blocked-sectionals why-us-sections">
+		<section id="" class="blocked-sectionals why-us-sections">
 			<div class="blocked-sectional-half">
 				<h3>Why Work With Us?</h3>
 				<p>We truly care about what is best for you! From pre-approval to closing, our goal is to provide you with the best service while saving you money. We provide a completely customized experience, and will find the right loan program and best terms for you.</p>
 				<p>The most important part of our success is our clients and real estate agents who trust us every day to educate and advocate for them in the mortgage process. We  have multiple loan products, giving our clients more options, competitive rates, and low fees. We are passionate about providing great customer service.</p>
 			</div>
 		</section>
-		<section class="blocked-sectionals our-team-sections">
+		<section class="blocked-sectionals our-team-sections" >
 			<div class="meet-the-team-header" id="triggered-team-member">
 				<div class="content-container">
-					<div id="corey-scott-trigger">
+					<div class="triggered-information hidden" id="corey-scott-trigger">
 						<h4>Corey Scott</h4>
 						<h5>Branch Manager</h5>
-						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque accusamus numquam deserunt fugiat tenetur quo reiciendis quaerat nobis quibusdam, ea qui at nisi.</p>
+						<p>Corey grew up in midcoast Maine, Union and went on to earn his Bachelor’s degree from the University of Maine in Business Administration. He first dove into real estate as an agent but quickly learned numbers were more his thing and has been growing his business as a mortgage lender for the past 10 years. In his career, Corey has helped families across Maine, New Hampshire, Massachusetts, Connecticut, North Carolina, Florida, and Rhode Island with over 1800 loans and a total volume now over 425 million. As a mortgage lender, Corey takes pride in making sure clients receive the “Corey Scott Team” service – feeling like each client is his only client and an important part of his business.</p>
+						<p>Corey, his wife and two young daughters live in Maine. He is very passionate about real estate investing and using it as a tool to build wealth. Helping clients learn about the potential of the market is one of his favorite parts of his role!</p>
+						<div class="social-biography-links">
+							<!-- <ul>
+								<a href="https://www.zillow.com/lender-profile/CoreyScott/"><li>Zillow</li></a>
+								<a href="https://www.facebook.com/coreyscottmortgage"><li>Facebook</li></a>
+								<a href="https://www.linkedin.com/in/coreyscott/"><li>LinkedIn</li></a>
+								<a href="https://www.google.com/maps/place/The+Corey+Scott+Team+at+AnnieMac+Mortgage/@43.7560289,-70.2109647,17z/data=!3m1!4b1!4m5!3m4!1s0x4cb28585b9bd7ffb:0x6cc9364c5753c813!8m2!3d43.7560396!4d-70.2088326"><li>Google Maps</li></a>
+							</ul> -->
+						</div>
+					</div>
+					<div class="triggered-information hidden" id="megan-scott-trigger">
+						<h4>Megan Scott</h4>
+						<h5>Branch Manager</h5>
+						<p>Megan is a Maine native, having grown up in Augusta and completed her Bachelor’s Degree from the University of Maine in Orono, a BA in Romance Languages (yes, that’s a degree), and MBA from Thomas College in Waterville. Megan was in admissions and international recruiting at Thomas College before jumping into real estate as an agent for many years. After taking a small break to be at home with Megan and Corey’s daughters, Megan hung up her real estate license to join the Corey Scott Team in the lending world.  Megan enjoys real estate investing, a good renovation and decorating home project and is a beach enthusiast who loves all thing summer in Maine, especially with her two girls Adrianna and Mila.</p>
+						<div class="social-biography-links">
+							<!-- <ul>
+								<a href="https://www.zillow.com/lender-profile/CoreyScott/"><li>Zillow</li></a>
+								<a href="https://www.facebook.com/coreyscottmortgage"><li>Facebook</li></a>
+								<a href="https://www.linkedin.com/in/coreyscott/"><li>LinkedIn</li></a>
+								<a href="https://www.google.com/maps/place/The+Corey+Scott+Team+at+AnnieMac+Mortgage/@43.7560289,-70.2109647,17z/data=!3m1!4b1!4m5!3m4!1s0x4cb28585b9bd7ffb:0x6cc9364c5753c813!8m2!3d43.7560396!4d-70.2088326"><li>Google Maps</li></a>
+							</ul> -->
+						</div>
 					</div>
 				</div>
 			</div>
@@ -81,7 +105,7 @@
 				<div class="image-gradient-overlay">
 					<img src="./img/corey.jpg" class="staff-portrait-photo">
 				</div>
-				<div class="learn-more-about-them"><a id=""><i class="fas fa-search-plus"></i></div>
+				<div id="trigger-corey" class="learn-more-about-them"><a id="#triggered-team-member"><i class="fas fa-search-plus"></i></div>
 			</div>
 			<div class="blocked-sectional-half backgrounded staff-block manager-block">
 				<h4>Megan Scott</h4>
@@ -89,7 +113,7 @@
 				<div class="image-gradient-overlay">
 					<img src="./img/megan.jpg" class="staff-portrait-photo">
 				</div>
-				<div class="learn-more-about-them"><a id=""><i class="fas fa-search-plus"></i></div>
+				<div id="trigger-megan" class="learn-more-about-them"><a id="#triggered-team-member"><i class="fas fa-search-plus"></i></div>
 			</div>
 			<div class="blocked-sectional-half backgrounded staff-block team-block">
 				<h4>Amanda Carmen</h4>
@@ -97,31 +121,31 @@
 				<div class="image-gradient-overlay">
 					<img src="./img/amanda.jpg" class="staff-portrait-photo">
 				</div>
-				<div class="learn-more-about-them"><a id=""><i class="fas fa-search-plus"></i></div>
+				<div id="trigger-amanda" class="learn-more-about-them"><a id="#triggered-team-member"><i class="fas fa-search-plus"></i></div>
 			</div>
 			<div class="blocked-sectional-half backgrounded staff-block team-block">
 				<h4>Billie Cook</h4>
 				<h5>Branch Manager</h5>
-				<div class="image-gradient-overlay">
+				<div id="trigger-billie" class="image-gradient-overlay">
 					<img src="./img/billie.jpg" class="staff-portrait-photo">
 				</div>
-				<div class="learn-more-about-them"><a id=""><i class="fas fa-search-plus"></i></div>
+				<div class="learn-more-about-them"><a id="#triggered-team-member"><i class="fas fa-search-plus"></i></div>
 			</div>
 			<div class="blocked-sectional-half backgrounded staff-block team-block">
 				<h4>Jessica Farnsworth</h4>
 				<h5>Branch Manager</h5>
-				<div class="image-gradient-overlay">
+				<div id="trigger-jess" class="image-gradient-overlay">
 					<img src="./img/jess.jpg" class="staff-portrait-photo">
 				</div>
-				<div class="learn-more-about-them"><a id=""><i class="fas fa-search-plus"></i></div>
+				<div class="learn-more-about-them"><a id="#triggered-team-member"><i class="fas fa-search-plus"></i></div>
 			</div>
 			<div class="blocked-sectional-half backgrounded staff-block team-block">
 				<h4>Mike Rock</h4>
 				<h5>Branch Manager</h5>
-				<div class="image-gradient-overlay">
+				<div id="trigger-mike" class="image-gradient-overlay">
 					<img src="./img/mike.jpg" class="staff-portrait-photo">
 				</div>
-				<div class="learn-more-about-them"><a id=""><i class="fas fa-search-plus"></i></div>
+				<div class="learn-more-about-them"><a id="#triggered-team-member"><i class="fas fa-search-plus"></i></div>
 			</div>
 		</section>
 		<section class="blocked-sectionals our-products-header">
