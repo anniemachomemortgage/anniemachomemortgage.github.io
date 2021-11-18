@@ -588,17 +588,22 @@ tripleplaypopup button:hover {
 	margin-left: 5px;
 }
 .faq-link {
-  background: #0881d0;
+  background: #78c254;
   color: white;
   padding: 7px 12px;
   margin-right: 5px;
-  border-radius: 2px;
 }
 .faq-link:hover {
 	border-bottom: none;
-	background: #0764a1;
+	background: #0881d0;
 }
 #dismiss-button:hover {
 	transform: scale(1.15);
 	cursor: pointer;
+}
+.mini {
+	height: 410px;
+}
+.mini initalcallout {
+	margin: 5px 0 35px;
 }
