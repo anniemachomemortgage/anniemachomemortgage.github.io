@@ -201,6 +201,10 @@ button:hover {
 	color: #fff;
 	background: #78c254;
 	border: 3px solid #78c254;
+	cursor: pointer;
+}
+a button:hover {
+	cursor: pointer;
 }
 .image {
 	background: var(--fadedblue);
