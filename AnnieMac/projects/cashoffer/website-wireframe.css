@@ -630,6 +630,10 @@ tripleplaypopup button:hover {
 	margin: 10px 0 30px;
 	border-radius: 7px;
 }	
+.conditional-information .conditional-information {
+		background: #fafafa;
+		padding: 20px 0 0;
+	}
 #form label {
 	color: var(--bodytext);
 	font-size: 18px;
