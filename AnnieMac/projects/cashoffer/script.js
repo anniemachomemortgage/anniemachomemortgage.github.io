@@ -27,4 +27,24 @@ $(function() {
 			});
 		});
 	};
+	$('select').on('change', function() {
+		if($( "#working-with-agent option:selected" ).val()=='real-estate'){
+			$('#real-estate-information').removeClass('initial-hidden');
+		} 
+		if($( "#working-with-agent option:selected" ).val()=='no-real-estate'){
+			$('#real-estate-information').addClass('initial-hidden');
+		}
+		if($( "#apply-or-learn option:selected" ).val()=='apply-now'){
+			$('#apply-now-form').removeClass('initial-hidden');
+		} 
+		if($( "#apply-or-learn option:selected" ).val()=='learn-more'){
+			$('#apply-now-form').addClass('initial-hidden');
+		} 
+		if($( "#bnsl-or-not option:selected" ).val()=='selling'){
+			$('#buy-now-sell-later').removeClass('initial-hidden');
+		} 
+		if($( "#bnsl-or-not option:selected" ).val()=='not-selling'){
+			$('#buy-now-sell-later').addClass('initial-hidden');
+		}	
+	});
 });
