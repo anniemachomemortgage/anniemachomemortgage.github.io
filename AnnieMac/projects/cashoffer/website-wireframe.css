@@ -451,11 +451,15 @@ summary i {
 	margin-right: 20px;
 }
 details p {
+	margin-bottom: 10px;
+}
+details p:last-of-type {
+	margin-bottom: 0;
+}
+details[open] .answer {
 	padding: 10px 0 15px;
 	margin-top: 8px;
 	border-top: 2px solid rgba(0,0,0,.02);
-}
-details[open] .answer {
 	background: #f9f9f9;
 	padding: 15px 40px;
 	border-radius: 0 0 5px 5px;
