@@ -105,6 +105,11 @@ $(function() {
 		$(".question-4").addClass("inactive");
 		$(".question-5").removeClass("inactive");
 	});
+	$('select').on('change', function() {
+		if($( "#additional-question option:selected" ).val()=='yes-i-am'){
+					$('#toggle-additional').removeClass('initial-hidden');
+				} 
+		});
 	$('.question-5 > input').on('keyup',function() {
 		var inputLength = $(".question-5 > input").val();
 		var minLength = $(".question-5 > input").attr( 'minlength' );

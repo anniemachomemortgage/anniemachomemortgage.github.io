@@ -283,6 +283,9 @@ font-size: 16px;
 line-height: 19px;
 margin-top: 19px;
 }
+.initial-hidden {
+		display: none;
+	}
 .communication_information a button {
 padding: 9px 24px;
 border-radius: 3px;
