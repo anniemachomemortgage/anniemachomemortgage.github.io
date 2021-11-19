@@ -816,6 +816,27 @@ color: var(--bodytext);
 }
 
 /* Begin New Code For AnnieMac Site */
+header {
+	padding: 40px 0 35px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+header h2 {
+		line-height: 80px;
+		width: 80%;
+		margin: 20px 0 25px;
+		color: #fff;
+		font-size: 71px;
+	}
+	header h4 {
+		margin: 0 0 15px;
+			color: #fff;
+			font-size: 18px;
+			font-weight: 300;
+			width: 84%;
+	}
 .header-additional {
 		display: none;
 	}
