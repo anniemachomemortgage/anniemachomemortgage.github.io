@@ -816,6 +816,31 @@ color: var(--bodytext);
 }
 
 /* Begin New Code For AnnieMac Site */
+#navigation_new_upper {
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: flex;
+		flex-direction: row;
+		margin: 0;
+		padding: 20px;
+		list-style-type: none;
+  
+	}
+	.navigation-sectional ul {
+			display: flex;
+			flex-direction: row;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+		}
+	.navigation-sectional ul ul {
+			display: flex;
+			flex-direction: column;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+		}
 header {
 	padding: 40px 0 35px;
 	display: flex;
@@ -823,21 +848,23 @@ header {
 	justify-content: center;
 	align-items: flex-start;
 	padding-left: 100px;
-	min-height: 460px;
+	min-height: 560px;
 }
 header h2 {
 		line-height: 80px;
-		width: 80%;
 		margin: 20px 0 25px;
 		color: #fff;
 		font-size: 71px;
+  margin-top: 120px;
+  margin-bottom: 10px;
 	}
 	header h4 {
 		margin: 0 0 15px;
 			color: #fff;
 			font-size: 18px;
 			font-weight: 300;
-			width: 84%;
+	margin-top: 10px;
+	margin-bottom: 40px;
 	}
 header button {
   padding: 20px 30px;
