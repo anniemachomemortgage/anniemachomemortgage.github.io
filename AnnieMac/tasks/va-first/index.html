@@ -29,9 +29,9 @@
 	<meta name="twitter:image" content="https://www.annie-mac.com/uploads/sites/10713/public/anniemac_400.jpeg" />
 	<meta name="twitter:creator" content="@AnnieMacMtg" />
 	<meta name="ahrefs-site-verification" content="ffeb962f4d4cd6a9f1ec079aaaa33c8f41bbc18e587a1c42f5afaffa8b46afa5">
-	<link rel='stylesheet' id='form-css' href='styling.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='form-css' href='https://anniemachomemortgage.github.io/AnnieMac/tasks/va-first/styling.css' type='text/css' media='all' />
 	<script id="jquery-link" src="https://code.jquery.com/jquery-latest.min.js"></script>
-	<script id="page-specific-functionality-script" src="functionality.js"></script>
+	<script id="page-specific-functionality-script" src="https://anniemachomemortgage.github.io/AnnieMac/tasks/va-first/functionality.js"></script>
 </head>
 <body class="mobile-first-lead-capture-body">
 	<div class="veterans-home-banner">
@@ -43,33 +43,33 @@
 			
 			<form class="mobile-first-lead-capture-form">
 				<input type="hidden" id="Filter" value="CostCenter">
-				<!-- {% if site.siteType.keyName == 'branch'%}
+				{% if site.siteType.keyName == 'branch'%}
 				{% set branch = site.settings.branch %}
-				{% if branch.costCenter is not empty %} -->
+				{% if branch.costCenter is not empty %}
 				<input type="hidden" id="FilterValue" value="{{ branch.costCenter }}">
-				<!-- {% else %} -->
+				{% else %}
 				<input type="hidden" id="FilterValue" value="">
-				<!-- {% endif %}
-				{% endif %} -->
+				{% endif %}
+				{% endif %}
 				<input id="leadSource" type="hidden" data-xml-node="LeadSourceId" value="Q6UJ9A0USZFN">
 				<input type="hidden" id="Entity" value="PreQual">
-				<input type="hidden" id="Redirect" name="redirect" value="/page/success">
-				<input type="hidden" id="Redirect2" name="redirect2" value="/page/success">
+				<input type="hidden" id="Redirect" name="redirect" value="/page/hero-perks-success">
+				<input type="hidden" id="Redirect2" name="redirect2" value="/page/hero-perks-success">
 				<input type="hidden" id="TargetURL" value="https://anniemac.mortgageiqcrm.com/client">
-				<!-- {% if site.siteType.keyName == 'loan_officer'%}
+				{% if site.siteType.keyName == 'loan_officer'%}
 				{% set officer = site.settings.loanOfficer %}
-				{% if officer.miqGuid is not empty%} -->
+				{% if officer.miqGuid is not empty%}
 				<input type="hidden" id="UserId" name="UserId" value="{{ officer.miqGuid }}">
-				<!-- {% else %} -->
+				{% else %}
 				<input type="hidden" id="UserId" name="UserId" value="">
-				<!-- {% endif %}
+				{% endif %}
 				{% endif %}
 				{% if site.siteType.keyName == 'team'%}
 				{% set officer = site.settings.team %}
-				{% if officer.miqGuid is not empty%} -->
+				{% if officer.miqGuid is not empty%}
 				<input type="hidden" id="UserId" name="UserId" value="{{ team.miqGuid }}">
-				<!-- {% endif %}
-				{% endif %} -->
+				{% endif %}
+				{% endif %}
 				<div id="initiate">
 					<label>What type of loan are you looking for?</label>
 					<div class="initial-options">
