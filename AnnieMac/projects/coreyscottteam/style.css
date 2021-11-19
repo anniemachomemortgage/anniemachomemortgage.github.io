@@ -386,7 +386,7 @@ footer {
 }
 testimonialscontainer {
 	display: flex;
-	margin: 45px 0 -10px;
+	margin: 25px 0 -10px;
 	width: 100%;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -462,7 +462,7 @@ commentcontainer h4 {
 	justify-content: initial;
 }
 .testimonial-sectional {
-  margin-top: 45px;
+  margin-top: 5px;
 }
 .why-us-sections .blocked-sectional-half, .our-team-callout-sections .blocked-sectional-half {
 	width: 100%;
@@ -472,7 +472,7 @@ commentcontainer h4 {
 	width: 46%;
 }
 .why-us-sections {
-	margin-top: 70px;
+	margin-top: 100px;
 	margin-bottom: 40px;
 	display: flex;
 }
