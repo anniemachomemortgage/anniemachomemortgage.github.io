@@ -11,6 +11,9 @@ body.front.site-type-branch {
   min-width: 400px;
   width: 800px;
 }
+#flash-message { 
+	display: none;
+}
 #questionThree .text-muted small, .text-info i.fas.fa-arrow-right {
   display: none;
 }
