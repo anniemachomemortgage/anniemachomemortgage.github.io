@@ -74,7 +74,7 @@ body {
 	margin: 0;
 	padding: 19px 0 20px;
 	width: 100%;
-	justify-content: space-between;
+	justify-content: flex-start;
 	margin-bottom: 50px;
 }
 .navigation-display li {
@@ -86,13 +86,13 @@ li#navigation-logo {
 	text-indent: -99999vw;
 	background: url('img/CoreyScottTeam.png');
 	background-size: cover;
-	height: 56px;
-	width: 325px;
+	height: 73px;
+	width: 387px;
 	margin: -14px 0 -25px;
 }
 .main-site-background {
 	position: relative;
-	margin-top: -60px;
+	margin-top: -75px;
 }
 .meet-the-team-header {
 	background: linear-gradient(177deg, rgba(0, 44, 66, 0.22) 30%, rgba(5, 47, 68, 0.62) 80%), url('img/coreyteam.jpg');
