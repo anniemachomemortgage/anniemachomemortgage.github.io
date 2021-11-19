@@ -816,6 +816,9 @@ color: var(--bodytext);
 }
 
 /* Begin New Code For AnnieMac Site */
+#home-reviews, #home-deserve, #home-provide {
+		display: none;
+	}
 #navigation_new_upper {
 		position: absolute;
 		top: 0;
