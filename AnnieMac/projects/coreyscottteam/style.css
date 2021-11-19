@@ -92,7 +92,7 @@ li#navigation-logo {
 }
 .main-site-background {
 	position: relative;
-	margin-bottom: 22px;
+	margin-top: -60px;
 }
 .meet-the-team-header {
 	background: linear-gradient(177deg, rgba(0, 44, 66, 0.22) 30%, rgba(5, 47, 68, 0.62) 80%), url('img/coreyteam.jpg');
@@ -137,7 +137,7 @@ li#navigation-logo {
 }
 .main-site-summary {
 	position: absolute;
-	top: 6%;
+	top: 15%;
 	right: 0px;
 	display: flex;
 	flex-direction: column;
