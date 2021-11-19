@@ -255,6 +255,15 @@ text-align: center;
 margin: 35px 0;
 padding: 20px 0;
 }
+#form #footer-callout {
+	text-align: center;
+	margin: 35px 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 #footer-callout h2 {
 margin: 10px 0;
 }
@@ -792,3 +801,11 @@ color: #585f65;
 	  display: flex;
 	  flex-direction: column;
 	}
+	#form footer {
+			margin-top: 20px;
+		}
+		#form #footer-callout button {
+				order: -1;
+				margin: 0 auto ;
+				transform: scale(1.2);
+			}
