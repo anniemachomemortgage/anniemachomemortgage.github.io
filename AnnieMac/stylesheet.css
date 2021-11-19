@@ -12,7 +12,7 @@ body.front.site-type-branch {
   width: 800px;
 }
 #flash-message { 
-	display: none;
+	display: none !important;
 }
 #questionThree .text-muted small, .text-info i.fas.fa-arrow-right {
   display: none;
