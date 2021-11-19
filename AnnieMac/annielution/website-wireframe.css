@@ -70,9 +70,7 @@ background: linear-gradient(177deg, rgb(23 16 5 / 52%) 30%, rgba(26, 29, 36, 0.8
 background-position-y: 57%;
 }
 logo {
-/* background: var(--fadedblue); */
 width: 250px;
-/* padding: 10px 30px; */
 border-radius: 2px;
 }
 #annie-mac-logo {
@@ -818,3 +816,12 @@ color: var(--bodytext);
 }
 
 /* Begin New Code For AnnieMac Site */
+.header-additional {
+		display: none;
+	}
+	#navigation-sidebar {
+			display: none;
+		}
+		#side-bar-navigation-toggle {
+				display: none;
+			}
