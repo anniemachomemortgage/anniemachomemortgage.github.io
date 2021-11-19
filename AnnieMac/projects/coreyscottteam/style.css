@@ -401,15 +401,17 @@ testimonial {
 	padding: 20px;
 	/*! box-shadow: 1px 4px 6px rgb(0 0 0 / 4%); */
 	/*! border: 1px solid #c3c5c72b; */
-	padding: 22px 25px;
+	/*! padding: 22px 25px; */
 	border-radius: 3px;
-	background: var(--offwhiteb);
+	/*! background: var(--offwhiteb); */
 }
 testimonialdetail {
 	background: #dddddd29;
-	padding: 20px 27px;
+	padding: 10px 25px 15px;
 	border-radius: 3px;
-	margin: 20px -25px -22px;
+	margin: 20px auto -22px;
+	width: 100%;
+	border-radius: 6px;
 }
 testimonialdetail h6, testimonialdetail h5 {
 	margin: 0;
@@ -422,7 +424,7 @@ testimonialdetail h5 {
 }
 testimonial h4 {
 	margin: 5px 0 0;
-	font-weight: 700;
+	font-weight: 400;
 	font-size: 22px;
 	color: var(--black);
 }
