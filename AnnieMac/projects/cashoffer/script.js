@@ -2,21 +2,26 @@ $(function() {
 	$("logo img").click(function(event) {
 		window.location.href = './index.html';
 	});
-	var tripleplaypopup = '<tripleplaypopupcontainer id="tripleplaypopup"><tripleplaypopup><span id="dismiss-button">-</span><h3>Hey Realtors!</h3><p>Learn how our exciting new products can help your clients land the home of their dreams! <strong>Join Our Free Webinar!</strong></p><a href="https://register.gotowebinar.com/register/362388456472655376?source=Website"><button>Register Now</button></a></tripleplaypopup></tripleplaypopupcontainer>';
 	if (window.location.href.indexOf("campaign=tripleplay21") > -1) {
-		$(tripleplaypopup).insertBefore( $( "header" ) );
+		if (localStorage.getItem("minimizedtripleplay") === null) {
+			localStorage.setItem('minimizedtripleplay', 'initial');
+		}
+		if ((localStorage.minimizedtripleplay) == "initial") {
+			var tripleplaypopup = '<tripleplaypopupcontainer id="tripleplaypopup"><tripleplaypopup><span id="dismiss-button">-</span><h3>Hey Realtors!</h3><p>Learn how our exciting new products can help your clients land the home of their dreams! <strong>Join Our Free Webinar!</strong></p><a href="https://register.gotowebinar.com/register/362388456472655376?source=Website"><button>Register Now</button></a></tripleplaypopup></tripleplaypopupcontainer>';
+			$(tripleplaypopup).insertBefore( $( "header" ) );
+		};
 		$("#dismiss-button").click(function(event) {
 			$("#tripleplaypopup").fadeOut(600);
 			localStorage.setItem('minimizedtripleplay', 'true');
 		});
+		if ((localStorage.minimizedtripleplay) == "true") {
+			$('#minimized-realtor').fadeIn('900');
+		};	
 		$("#dismiss-button-forever").click(function(event) {
 			$('#minimized-realtor').hide();
 			localStorage.setItem('minimizedtripleplay', 'false');
 		});
-		if ((localStorage.minimizedtripleplay) == "true") {
-			$('#minimized-realtor').removeClass('.initial-hidden');
-		});
-	};	
+	};
 	if (window.location.href.indexOf("faq") > -1) {
 		$("#search-faq").keyup(function() {
 			if(event.keyCode == 13) {
