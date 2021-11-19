@@ -545,6 +545,28 @@ box-shadow: 1px 30px 10px rgba(0,0,0,.33);
 z-index: 1;
 }
 
+#minimized-realtor {
+  background: #006fa9;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-bottom: 25px solid #01517b;
+  box-shadow: 1px 15px 5px rgba(0,0,0,.13);
+  z-index: 1;
+  position: fixed;
+  bottom: 0;
+  right: 30px;
+  max-width: 300px;
+}
+#minimized-realtor h4, #minimized-realtor p {
+  color: #fff;
+  margin: 10px 0;
+}
+#minimized-realtor button {
+  margin: 10px 0 15px;
+  color: white;
+  background: transparent;
+  border: 3px solid white;
+}
 tripleplaypopup h3, tripleplaypopup p {
 color: #fff;
 margin: 10px 0;
@@ -557,13 +579,13 @@ background: transparent;
 border: 3px solid white;
 }
 
-tripleplaypopup button:hover {
+tripleplaypopup button:hover, #minimized-realtor button:hover {
 background: white;
 border: 3px solid white;
 color: #006fa9;
 }
 
-#dismiss-button {
+#dismiss-button, #dismiss-button-forever {
 background: white;
 color: #006fa9;
 width: 45px;
@@ -597,7 +619,7 @@ margin-right: 5px;
 border-bottom: none;
 background: #0881d0;
 }
-#dismiss-button:hover {
+#dismiss-button:hover, #dismiss-button-forever:hover {
 transform: scale(1.15);
 cursor: pointer;
 }
