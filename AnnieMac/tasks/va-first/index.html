@@ -44,7 +44,7 @@
 	
 				<form class="mobile-first-lead-capture-form">
 					<input type="hidden" id="Filter" value="CostCenter">
-					<!-- {% if site.siteType.keyName == 'branch'%}
+					{% if site.siteType.keyName == 'branch'%}
 					{% set branch = site.settings.branch %}
 					{% if branch.costCenter is not empty %}
 					<input type="hidden" id="FilterValue" value="{{ branch.costCenter }}">
@@ -70,7 +70,7 @@
 					{% if officer.miqGuid is not empty%}
 					<input type="hidden" id="UserId" name="UserId" value="{{ team.miqGuid }}">
 					{% endif %}
-					{% endif %} -->
+					{% endif %}
 					<div id="initiate">
 						<label>What type of loan are you looking for?</label>
 						<div class="initial-options">
@@ -165,8 +165,7 @@
 							</select>
 							<small>Estimating your score will not harm your credit and will help us provide a range of available rates.</small>
 							<label>Are you looking for cash out for debt consolidation or home repairs?</label>
-							<input type="hidden" id="additional-question" data-xml-node="">
-							<select id="" class="credit-score-dropdown">
+							<select id="additional-question" class="credit-score-dropdown">
 								<option value="no-not">No</option>
 								<option value="yes-i-am">Yes</option>
 							</select>
