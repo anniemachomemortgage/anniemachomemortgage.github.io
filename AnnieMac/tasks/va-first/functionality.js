@@ -115,12 +115,12 @@ $(function() {
 		}
 	});
 	$('.ref-question-5 > input').on('keyup',function() {
-			var inputLength = $(".question-5 > input").val();
-			var minLength = $(".question-5 > input").attr( 'minlength' );
+			var inputLength = $(".ref-question-5 > input").val();
+			var minLength = $(".ref-question-5 > input").attr( 'minlength' );
 			if(inputLength != '' && inputLength.length >= minLength) {
-				$(".question-5 > div > .next-5").prop('disabled', false);
+				$(".ref-question-5 > div > .next-5").prop('disabled', false);
 			} else {
-				$(".question-5 > div > .next-5").prop('disabled', true);
+				$(".ref-question-5 > div > .next-5").prop('disabled', true);
 			}
 		});
 	$(".next-5").click(function(){
