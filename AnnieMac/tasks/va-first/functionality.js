@@ -114,6 +114,15 @@ $(function() {
 			$(".question-5 > div > .next-5").prop('disabled', true);
 		}
 	});
+	$('.ref-question-5 > input').on('keyup',function() {
+			var inputLength = $(".question-5 > input").val();
+			var minLength = $(".question-5 > input").attr( 'minlength' );
+			if(inputLength != '' && inputLength.length >= minLength) {
+				$(".question-5 > div > .next-5").prop('disabled', false);
+			} else {
+				$(".question-5 > div > .next-5").prop('disabled', true);
+			}
+		});
 	$(".next-5").click(function(){
 		$(".question-5").addClass("inactive");
 		$(".question-6").removeClass("inactive");
