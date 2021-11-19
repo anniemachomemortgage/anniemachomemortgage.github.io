@@ -820,8 +820,10 @@ header {
 	padding: 40px 0 35px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
+	justify-content: center;
+	align-items: flex-start;
+	padding-left: 100px;
+	min-height: 460px;
 }
 header h2 {
 		line-height: 80px;
@@ -837,6 +839,28 @@ header h2 {
 			font-weight: 300;
 			width: 84%;
 	}
+header button {
+  padding: 20px 30px;
+  margin-right: 10px;
+}
+header button a {
+  color: white;
+} 
+header button a {
+  margin: 30px 0;
+padding: 25px 30px;
+font-size: 17px;
+background: transparent;
+  color: #fff;
+outline: none;
+padding: 13px 15px;
+border-radius: ;
+font-size: inherit;
+font-weight: 600;
+letter-spacing: .05em;
+margin: 5px 0;
+width: fit-content;
+}
 .header-additional {
 		display: none;
 	}
