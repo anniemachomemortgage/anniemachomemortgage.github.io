@@ -24,7 +24,6 @@ $(function() {
 			$( "#team-display" ).appendTo( $( ".team-member-section" ) );
 		};
 	};
-	
 	// Begin live site code
 	$('*').contents().each(function() {
 		if(this.nodeType === Node.COMMENT_NODE) {
@@ -141,6 +140,7 @@ $(function() {
 		$('body').addClass(subdomain);
 		$("#list_11537").remove();
 		$("#team-display > h3:nth-child(1)").text("Branch Management");
+		$(".link-to-website-identify").prependTo(".team-member-portrait");
 	};
 	// if (window.location.href.indexOf("annie-mac.com") > -1) {
 	// 	if ($('body').hasClass('front')) {
