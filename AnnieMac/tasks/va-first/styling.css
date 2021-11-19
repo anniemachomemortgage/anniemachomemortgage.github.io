@@ -292,7 +292,7 @@ border: none;
 font-weight: 400;
 font-size: 17px;
 box-shadow: 1px 1px 3px rgb(0 0 0 / 2%);
-margin: -10px 15px 0 auto;
+margin: 15px 15px 0 auto;
 background: #78c253;
 }
 .communication_information a button:hover {
