@@ -830,6 +830,7 @@ padding: 20px 100px;
 list-style-type: none;
 width: 100%;
 justify-content: space-between;
+height: 20px;
 }
 .navigation-sectional ul {
 display: flex;
@@ -838,12 +839,16 @@ list-style-type: none;
 padding: 0;
 margin: 0;
 }
+.navigation-sectional img {
+		width: 300px;
+	}
 .navigation-sectional ul ul {
 display: flex;
 flex-direction: column;
 list-style-type: none;
 padding: 0;
 margin: 0;
+visibility: hidden;
 }
 .navigation-sectional:last-of-type {
 background: red;
