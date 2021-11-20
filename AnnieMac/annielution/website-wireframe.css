@@ -867,7 +867,7 @@ line-height: 80px;
 margin: 20px 0 25px;
 color: #fff;
 font-size: 71px;
-margin-top: 120px;
+margin-top: 70px;
 margin-bottom: 10px;
 width: 70%;
 }
@@ -880,14 +880,17 @@ margin-top: 10px;
 margin-bottom: 40px;
 width: 70%;
 }
-header button {
+#primary-home-buttons {
+		margin-bottom: 50px;
+	}
+#primary-home-buttons button {
 padding: 20px 30px;
 margin-right: 10px;
 }
-header button a {
+#primary-home-buttons button a {
 color: white;
 } 
-header button a {
+#primary-home-buttons button a {
 margin: 30px 0;
 padding: 25px 30px;
 font-size: 17px;
