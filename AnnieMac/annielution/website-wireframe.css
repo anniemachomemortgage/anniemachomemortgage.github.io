@@ -832,7 +832,9 @@ box-shadow: 0px 2px 4px -1px rgb(45 55 72 / 9%);
 padding: 1px 20px;
 font-size: 17px;
 }
-
+#site-navigation ul {
+		list-style-type: none;
+	}
 #site-navigation h1 {
 display: none;
 }
@@ -841,9 +843,10 @@ display: none;
 display: flex;
 align-items: center;
 position: relative;
-flex: 1;
+margin: 0;
 height: inherit;
 justify-content: space-between;
+padding: 0;
 }
 .navigation-sectional:nth-of-type(1) {
 max-width: 260px;
