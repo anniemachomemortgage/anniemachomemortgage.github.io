@@ -1071,17 +1071,18 @@ header {
 padding: 40px 0 35px;
 display: flex;
 flex-direction: column;
-justify-content: space-between;
-align-items: flex-start;
-min-height: 740px;
+justify-content: flex-end;
+align-items: flex-end;
+min-height: 700px;
+padding-bottom: 80px;
 }
 header h2 {
 line-height: 80px;
-margin: 20px 0 25px;
+margin: 20px 0;
 color: #fff;
 font-size: 71px;
 margin-top: 70px;
-margin-bottom: 10px;
+margin-bottom: 30px;
 width: 70%;
 }
 header h4 {
@@ -1094,7 +1095,6 @@ margin-bottom: 40px;
 width: 70%;
 }
 #primary-home-buttons {
-margin-bottom: 50px;
 }
 #primary-home-buttons button {
 padding: 20px 30px;
