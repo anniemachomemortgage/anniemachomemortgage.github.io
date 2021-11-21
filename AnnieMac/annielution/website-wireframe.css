@@ -825,16 +825,18 @@ display: none;
 #navigation_new_upper {
 list-style-type: none;
 display: flex;
-flex-direction: row;
-width: 100%;
-justify-content: space-between;
 }
+.navigation-sectional {
+		overflow: hidden;
+		max-height: 70px;
+	}
 .navigation-sectional ul {
 display: flex;
 flex-direction: row;
 list-style-type: none;
 padding: 0;
 margin: 0;
+overflow: hidden;
 }
 .navigation-sectional img {
 		width: 300px;
