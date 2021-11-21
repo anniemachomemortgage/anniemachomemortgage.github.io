@@ -823,6 +823,9 @@ header #site-navigation, header .header-container {
 width: 90%;
 margin: 0 auto;
 }
+header #site-navigation {
+	margin-top: -20px;
+}
 #site-navigation ul {
 display: flex;
 justify-content: space-between;
@@ -836,6 +839,7 @@ padding: 0;
 .navigation-sectional {
 		overflow: hidden;
 		max-height: 70px;
+		position: relative;
 	}
 .navigation-sectional ul {
 display: flex;
@@ -856,10 +860,13 @@ padding: 0;
 margin: 0;
 visibility: hidden;
 }
-.navigation-sectional:last-of-type {
-background: red;
-}
-header {
+.navigation-sectional:nth-of-type(2), .navigation-sectional:nth-of-type(3) {
+		padding-top: 20px;
+	}
+.navigation-sectional:last-of-type ul li a {
+		background: red;
+	}
+	header {
 padding: 40px 0 35px;
 display: flex;
 flex-direction: column;
