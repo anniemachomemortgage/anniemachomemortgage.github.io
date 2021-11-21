@@ -819,8 +819,13 @@ color: var(--bodytext);
 #home-reviews, #home-deserve, #home-provide {
 display: none;
 }
-#site-navigation {
-
+header #site-navigation, header .header-container {
+width: 90%;
+margin: 0 auto;
+}
+#site-navigation ul {
+display: flex;
+justify-content: space-between;
 }
 #navigation_new_upper {
 list-style-type: none;
