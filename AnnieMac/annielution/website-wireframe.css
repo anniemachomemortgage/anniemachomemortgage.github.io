@@ -823,6 +823,9 @@ header #site-navigation, header .header-container {
 width: 90%;
 margin: 0 auto;
 }
+.header-container h2, .header-container h4 {
+	width: 70%;
+}
 #site-navigation ul {
 display: flex;
 justify-content: space-between;
