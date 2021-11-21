@@ -823,6 +823,7 @@ header #site-navigation, header .header-container {
 width: 90%;
 margin: 0 auto;
 }
+
 #site-navigation {
 background: transparent;
 color: #333;
@@ -1117,6 +1118,10 @@ font-weight: 600;
 letter-spacing: .05em;
 margin: 5px 0;
 width: fit-content;
+}
+#primary-home-buttons button a:hover {
+	text-decoration: none;
+	border-bottom: none;
 }
 .header-additional {
 display: none;
