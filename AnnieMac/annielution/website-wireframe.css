@@ -825,6 +825,8 @@ display: none;
 #navigation_new_upper {
 list-style-type: none;
 display: flex;
+margin: 0;
+padding: 0;
 }
 .navigation-sectional {
 		overflow: hidden;
