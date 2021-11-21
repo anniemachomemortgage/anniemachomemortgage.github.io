@@ -1,4 +1,5 @@
 $(function() {
+	$("#site-navigation").prependTo('header');
 	$('#navigation_new_upper .navigation-sectional:first-of-type li a img').attr('src', 'https://anniemachomemortgage.github.io/AnnieMac/annielution/white-logo.png');
 	$("#home-banner").children().wrapAll('<div class="header-container" />');
 	$("#home-banner h2").text("You deserve more from the mortgage industry.");
