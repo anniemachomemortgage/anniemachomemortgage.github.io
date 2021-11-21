@@ -819,18 +819,22 @@ color: var(--bodytext);
 #home-reviews, #home-deserve, #home-provide {
 display: none;
 }
-#navigation_new_upper {
+#site-navigation {
 position: absolute;
-top: 0;
-left: 0;
 display: flex;
 flex-direction: row;
-margin: 0 auto;
-padding: 20px 100px;
+width: 100%;
+top: 0;
+align-items: center;
+justify-content: flex-start;
+overflow: hidden;
+	}
+#navigation_new_upper {
 list-style-type: none;
+display: flex;
+flex-direction: row;
 width: 100%;
 justify-content: space-between;
-height: 20px;
 }
 .navigation-sectional ul {
 display: flex;
