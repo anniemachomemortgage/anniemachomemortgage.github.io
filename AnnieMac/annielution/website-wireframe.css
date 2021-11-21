@@ -823,9 +823,6 @@ header #site-navigation, header .header-container {
 width: 90%;
 margin: 0 auto;
 }
-.header-container h2, .header-container h4 {
-	width: 70%;
-}
 #site-navigation ul {
 display: flex;
 justify-content: space-between;
@@ -866,9 +863,9 @@ header {
 padding: 40px 0 35px;
 display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content: space-between;
 align-items: flex-start;
-min-height: 560px;
+min-height: 740px;
 }
 header h2 {
 line-height: 80px;
