@@ -826,8 +826,9 @@ color: var(--bodytext);
 		overflow-x: hidden !important;
 	}
 	textsectional h1 {
-			font-size: 48px;
-			line-height: 55px;
+		font-size: 48px;
+		line-height: 60px;
+		margin-top: 0;
 	}
 	textsectional p {
 		margin: 0 0 5px;
