@@ -825,6 +825,10 @@ color: var(--bodytext);
 			font-size: 48px;
 			line-height: 55px;
 	}
+	textsectional p {
+		margin: 0 0 5px;
+		font-size: 16px;
+	}
 	header textsectional {
 		padding-right: 0;
 	}
