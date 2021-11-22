@@ -820,6 +820,9 @@ color: var(--bodytext);
 @media only screen and (max-width: 870px) {
 	* {
 		overflow-x: hidden !important;
+	}
+	#annie-mac-logo {
+		width: 253px;
 	} 
 	textsectional h1, textsectional p, commentcontainer, .input-grouping, cardfeaturette {
 		width: 100% !important;
