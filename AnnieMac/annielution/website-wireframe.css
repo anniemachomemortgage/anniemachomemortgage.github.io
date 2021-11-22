@@ -848,7 +848,7 @@ justify-content: space-between;
 padding: 0;
 width: 98%;
 }
-#navigation_new_upper ul {
+#navigation_new_upper ul, .navigation-sectional li {
 		list-style-type: none;
 	}
 .navigation-sectional:nth-of-type(1) {
