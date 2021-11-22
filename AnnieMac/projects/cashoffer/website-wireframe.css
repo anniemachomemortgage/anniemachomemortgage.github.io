@@ -851,7 +851,7 @@ color: var(--bodytext);
 		width: 47%;
 		margin: 0 0px 25px;
 	}
-	.view-all-link {
+	.faq-title-sectional .view-all-link {
 		position: absolute;
 		background: white;
 		width: 100%;
