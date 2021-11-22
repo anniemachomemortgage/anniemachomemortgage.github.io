@@ -818,7 +818,7 @@ margin: 40px 0 0;
 color: var(--bodytext);
 }
 @media only screen and (max-width: 870px) {
-	textsectional h1, textsectional p, commentcontainer, .input-grouping, cardfeaturette {
+	header textsectional, textsectional h1, textsectional p, commentcontainer, .input-grouping, cardfeaturette {
 		min-width: 100%;
 	}
 	cardfeaturette:first-of-type {
