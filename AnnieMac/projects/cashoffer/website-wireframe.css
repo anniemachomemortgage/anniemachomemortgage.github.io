@@ -879,4 +879,9 @@ color: var(--bodytext);
 	#faq-hub h2 span input {
 		flex: 1;
 	}
+	#footer-callout h2 {
+		margin: 5px 0 16px;
+		font-size: 31px;
+		line-height: 38px;
+	}
 }
