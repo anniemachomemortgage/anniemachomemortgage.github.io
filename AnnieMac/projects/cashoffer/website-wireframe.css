@@ -819,7 +819,11 @@ color: var(--bodytext);
 }
 @media only screen and (max-width: 870px) {
 	header textsectional, textsectional h1, textsectional p, commentcontainer, .input-grouping, cardfeaturette {
-		min-width: 100%;
+		width: 100% !important;
+	}
+	textsectional h1 {
+			font-size: 48px;
+			line-height: 55px;
 	}
 	header textsectional {
 		padding-right: 0;
