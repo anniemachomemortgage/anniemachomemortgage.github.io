@@ -838,7 +838,7 @@ color: var(--bodytext);
 		order: 0;
 		display: flex;
 		flex-direction: row;
-		margin-top: 90px;
+		margin-top: 0;
 	}
 	.left-sidebar {
 		padding-right: 0;
