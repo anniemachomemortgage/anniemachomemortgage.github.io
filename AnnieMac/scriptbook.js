@@ -229,7 +229,7 @@ $(function() {
 		const teamMember = $(".team-member");
 		$( teamMember ).each(function() {
 			var domain = $(this).find( "button > a" ).attr('href');
-			var subdomain = domain.replace('.annie-mac.com', '').replace('https://', '').replace('http://', '');
+			var subdomain = domain.replace('.annie-mac.com', '').replace('https://', '').replace('loan/apply', '').replace('http://', '');
 			(this).id = subdomain;
 		});
 		var dropapplynowbranch = '<a href="/loan/apply"><button id="apply-now-branch">Apply Now</button></a>';

@@ -162,7 +162,7 @@ padding-right: 50px;
 }
 textsectional h1 {
 line-height: 80px;
-width: 80%;
+width: 700px;
 margin: 20px 0 25px;
 color: #fff;
 font-size: 71px;
@@ -172,7 +172,7 @@ margin: 0 0 15px;
 color: #fff;
 font-size: 18px;
 font-weight: 300;
-width: 84%;
+width: 700px;
 }
 textsectional button {
 margin: 30px 0;
@@ -412,9 +412,10 @@ margin-left: 45px;
 margin-right: 45px;
 }
 .contain {
-width: 1250px;
+max-width: 1250px;
 margin: 0 auto;
 padding: 20px 0;
+width: 90%;
 }
 .row-display {
 display: flex;
