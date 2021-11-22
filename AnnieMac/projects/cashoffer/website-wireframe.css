@@ -839,9 +839,8 @@ color: var(--bodytext);
 		flex-direction: column;
 	}
 	.faq-title-sectional {
-			margin: -10px 0 30px;
-		}
-		
+		margin: -10px 0 30px;
+	}
 	.right-sidebar {
 		order: 0;
 		display: flex;
