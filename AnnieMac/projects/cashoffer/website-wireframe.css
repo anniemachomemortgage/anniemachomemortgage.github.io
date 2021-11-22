@@ -827,12 +827,13 @@ color: var(--bodytext);
 	cardfeaturette:first-of-type {
 		margin-bottom: 70px;
 	}
-	cardfeaturettes, .grouped-input, .sidebars-together {
+	cardfeaturettes, .grouped-input, .sidebars-together, .faq-title-sectional {
 		flex-direction: column;
 	}
 	.faq-title-sectional {
 			margin: -10px 0 30px;
 		}
+		
 	.right-sidebar {
 		order: 0;
 		display: flex;
@@ -852,14 +853,11 @@ color: var(--bodytext);
 		margin: 0 0px 25px;
 	}
 	.faq-title-sectional .view-all-link {
-		position: absolute;
-		background: white;
-		width: 100%;
-		left: -10px;
-		bottom: 0;
-		padding: 0 33px;
+		margin-left: -10px !important;
+		margin-top: 17px;
 		display: flex;
 		align-items: center;
+		min-width: 100% !important;
 	}
 	#faq-hub h2 span input {
 		flex: 1;
