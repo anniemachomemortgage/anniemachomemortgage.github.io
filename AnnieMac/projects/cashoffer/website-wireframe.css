@@ -818,9 +818,6 @@ margin: 40px 0 0;
 color: var(--bodytext);
 }
 @media only screen and (max-width: 870px) {
-	* {
-		overflow-x: hidden !important;
-	}
 	#annie-mac-logo {
 		width: 253px;
 	} 
