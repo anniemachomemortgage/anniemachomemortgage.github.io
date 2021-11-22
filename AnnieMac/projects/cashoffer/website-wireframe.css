@@ -820,7 +820,7 @@ color: var(--bodytext);
 @media only screen and (max-width: 870px) {
 	textsectional h1, textsectional p, commentcontainer, .input-grouping, cardfeaturette {
 		width: 100% !important;
-		overflow-x: hidden;
+		overflow-x: hidden !important;
 	}
 	textsectional h1 {
 			font-size: 48px;
@@ -833,6 +833,7 @@ color: var(--bodytext);
 	header textsectional {
 		padding-right: 0;
 		width: 100% !important;
+		overflow-x: hidden !important;
 	}
 	cardfeaturette:first-of-type {
 		margin-bottom: 70px;
