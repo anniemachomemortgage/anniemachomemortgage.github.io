@@ -879,6 +879,9 @@ color: var(--bodytext);
 	#faq-hub h2 span input {
 		flex: 1;
 	}
+	details[open] .answer {
+		padding: 15px 20px;
+	}
 	#footer-callout h2 {
 		margin: 5px 0 16px;
 		font-size: 31px;
