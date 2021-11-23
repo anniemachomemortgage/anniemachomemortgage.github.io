@@ -3856,7 +3856,7 @@ textarea#textarea-comments {
 }
 
 .blog-archive .inner > * summary {
-	line-height: 24px;
+	/* line-height: 24px;
 	display: flex;
 	flex-direction: column;
 	align-items: stretch;
@@ -3864,7 +3864,8 @@ textarea#textarea-comments {
 	max-height: initial;
 	overflow: hidden;
 	min-height: 253px;
-	max-height: initial;
+	max-height: initial; */
+	display: none;
 }
 
 .blog-archive .inner > * summary a {
