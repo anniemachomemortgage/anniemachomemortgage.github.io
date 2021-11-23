@@ -272,6 +272,14 @@ background: #78c254;
 color: #fff;
 margin-top: 20px;
 padding: 20px;
+min-width: 220px;
+}
+.phone-number-button {
+display: block;
+margin: 0 auto;
+}
+.phone-number-button i {
+margin-right: 15px;
 }
 #footer-callout button:hover {
 background: #006fa9;
@@ -818,70 +826,70 @@ margin: 40px 0 0;
 color: var(--bodytext);
 }
 @media only screen and (max-width: 870px) {
-	#annie-mac-logo {
-		width: 253px;
-	} 
-	textsectional h1, textsectional p, commentcontainer, .input-grouping, cardfeaturette {
-		width: 100% !important;
-		overflow-x: hidden !important;
-	}
-	textsectional h1 {
-		font-size: 48px;
-		line-height: 60px;
-		margin-top: 0;
-	}
-	textsectional p {
-		margin: 0 0 5px;
-		font-size: 16px;
-	}
-	header textsectional {
-		padding-right: 0;
-		min-width: 100% !important;
-		overflow-x: hidden !important;
-	}
-	cardfeaturette:first-of-type {
-		margin-bottom: 70px;
-	}
-	cardfeaturettes, .grouped-input, .sidebars-together, .faq-title-sectional {
-		flex-direction: column;
-	}
-	.faq-title-sectional {
-		margin: -10px 0 30px;
-	}
-	.right-sidebar {
-		order: 0;
-		display: flex;
-		flex-direction: row;
-		margin-top: 0;
-	}
-	.left-sidebar {
-		padding-right: 0;
-	}
-	.list-cards {
-		margin: 0 0 0;
-		flex-direction: row;
-		justify-content: space-between;
-	}
-	.list-cards li {
-		width: 47%;
-		margin: 0 0px 25px;
-	}
-	.faq-title-sectional .view-all-link {
-		margin-left: -10px !important;
-		margin-top: 17px;
-		display: flex;
-		align-items: center;
-		min-width: 100% !important;
-	}
-	#faq-hub h2 span input {
-		flex: 1;
-	}
-	details[open] .answer {
-		padding: 15px 20px;
-	}
-	#footer-callout h2 {
-		margin: 5px 0 16px;
-		font-size: 31px;
-		line-height: 38px;
-	}
+#annie-mac-logo {
+width: 253px;
+} 
+textsectional h1, textsectional p, commentcontainer, .input-grouping, cardfeaturette {
+width: 100% !important;
+overflow-x: hidden !important;
+}
+textsectional h1 {
+font-size: 48px;
+line-height: 60px;
+margin-top: 0;
+}
+textsectional p {
+margin: 0 0 5px;
+font-size: 16px;
+}
+header textsectional {
+padding-right: 0;
+min-width: 100% !important;
+overflow-x: hidden !important;
+}
+cardfeaturette:first-of-type {
+margin-bottom: 70px;
+}
+cardfeaturettes, .grouped-input, .sidebars-together, .faq-title-sectional {
+flex-direction: column;
+}
+.faq-title-sectional {
+margin: -10px 0 30px;
+}
+.right-sidebar {
+order: 0;
+display: flex;
+flex-direction: row;
+margin-top: 0;
+}
+.left-sidebar {
+padding-right: 0;
+}
+.list-cards {
+margin: 0 0 0;
+flex-direction: row;
+justify-content: space-between;
+}
+.list-cards li {
+width: 47%;
+margin: 0 0px 25px;
+}
+.faq-title-sectional .view-all-link {
+margin-left: -10px !important;
+margin-top: 17px;
+display: flex;
+align-items: center;
+min-width: 100% !important;
+}
+#faq-hub h2 span input {
+flex: 1;
+}
+details[open] .answer {
+padding: 15px 20px;
+}
+#footer-callout h2 {
+margin: 5px 0 16px;
+font-size: 31px;
+line-height: 38px;
+}
 }
