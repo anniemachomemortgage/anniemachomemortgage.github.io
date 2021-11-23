@@ -13,6 +13,7 @@ $(function() {
 		$("#dismiss-button").click(function(event) {
 			$("#tripleplaypopup").fadeOut(600);
 			localStorage.setItem('minimizedtripleplay', 'true');
+			$('#minimized-realtor').fadeIn('900');
 		});
 		if ((localStorage.minimizedtripleplay) == "true") {
 			$('#minimized-realtor').fadeIn('900');
@@ -80,5 +81,8 @@ $(function() {
 		if($( "#property-state-selection option:selected" ).val()=='NJ'){
 				$('#not-supported-state').addClass('initial-hidden');
 			}
+	});
+	$("#submit-borrower").click(function(event) {
+		$("html, body").animate({ scrollTop: 0 }, "slow");
 	});
 });
