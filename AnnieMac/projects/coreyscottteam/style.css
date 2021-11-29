@@ -687,7 +687,7 @@ commentcontainer h4 {
 	background-size: 102%;
 	background-position-x: 57%;
 }
-.mobile-only, .footer-mobile, .mobile-only-toggle {
+.mobile-only, .footer-mobile, .mobile-only-toggle, .mobile-only-header {
 	display: none;
 }
 
@@ -712,6 +712,9 @@ commentcontainer h4 {
 	.navigation-display {
 		justify-content: center;
 		margin-bottom: 85px;
+	}
+	.mobile-only-header {
+		display: block;
 	}
 	li#navigation-logo {
 		height: 62px;
@@ -764,8 +767,14 @@ commentcontainer h4 {
 		color: var(--white);
 		font-weight: 400;
 		border-radius: 2px;
+		max-width: 180px;
+		min-width: 180px;
 	}
 	.mobile-only-toggle:hover {
+		background: #00537D;
+		cursor: pointer;
+	}
+	.mobile-activated-toggle {
 		background: #00537D;
 	}
 	.staff-block h4, .staff-block h5 {
@@ -845,5 +854,8 @@ commentcontainer h4 {
 	.footer-mobile-section:last-of-type {
 		border-bottom: none;
 		padding-bottom: 0px;
+	}
+	.remain-hidden {
+		display: none;
 	}
 }

@@ -28,6 +28,10 @@ $(function() {
 				$("#corey-trigger").toggleClass('hidden');
 			});
 		});
+		$("#corey-toggle-mobile-trigger").click(function(event) {
+			$("#corey-mobile-trigger").toggleClass('remain-hidden');
+			$("#corey-toggle-mobile-trigger").toggleClass('mobile-activated-toggle');
+		});
 		// Megan
 		$("#trigger-megan").click(function(event) {
 			$('html, body').animate({
@@ -57,7 +61,10 @@ $(function() {
 					$("#megan-trigger").toggleClass('hidden');
 				});
 		});
-		
+		$("#megan-toggle-mobile-trigger").click(function(event) {
+				$("#megan-mobile-trigger").toggleClass('remain-hidden');
+				$("#megan-toggle-mobile-trigger").toggleClass('mobile-activated-toggle');
+			});
 		$("#trigger-amanda").click(function(event) {
 			$('html, body').animate({
 				scrollTop: $("#triggered-team-member-scroll").offset().top
@@ -86,6 +93,10 @@ $(function() {
 					$("#amanda-trigger").toggleClass('hidden');
 				});
 		});
+		$("#amanda-toggle-mobile-trigger").click(function(event) {
+				$("#amanda-mobile-trigger").toggleClass('remain-hidden');
+				$("#amanda-toggle-mobile-trigger").toggleClass('mobile-activated-toggle');
+			});
 		$("#trigger-billie").click(function(event) {
 			$('html, body').animate({
 				scrollTop: $("#triggered-team-member-scroll").offset().top
@@ -114,6 +125,10 @@ $(function() {
 					$("#billie-trigger").toggleClass('hidden');
 				});
 		});
+		$("#billie-toggle-mobile-trigger").click(function(event) {
+				$("#billie-mobile-trigger").toggleClass('remain-hidden');
+				$("#billie-toggle-mobile-trigger").toggleClass('mobile-activated-toggle');
+			});
 		$("#trigger-jess").click(function(event) {
 			$('html, body').animate({
 				scrollTop: $("#triggered-team-member-scroll").offset().top
@@ -142,6 +157,10 @@ $(function() {
 					$("#jess-trigger").toggleClass('hidden');
 				});
 		});
+		$("#jess-toggle-mobile-trigger").click(function(event) {
+				$("#jess-mobile-trigger").toggleClass('remain-hidden');
+				$("#jess-toggle-mobile-trigger").toggleClass('mobile-activated-toggle');
+			});
 		$("#trigger-mike").click(function(event) {
 			$('html, body').animate({
 				scrollTop: $("#triggered-team-member-scroll").offset().top
@@ -170,4 +189,8 @@ $(function() {
 					$("#mike-trigger").toggleClass('hidden');
 				});
 		});
+		$("#mike-toggle-mobile-trigger").click(function(event) {
+				$("#mike-mobile-trigger").toggleClass('remain-hidden');
+				$("#mike-toggle-mobile-trigger").toggleClass('mobile-activated-toggle');
+			});
 	});
