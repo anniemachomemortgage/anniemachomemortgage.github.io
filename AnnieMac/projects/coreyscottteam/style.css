@@ -687,34 +687,51 @@ commentcontainer h4 {
 	background-size: 102%;
 	background-position-x: 57%;
 }
+.mobile-only, .footer-mobile {
+	display: none;
+}
 
-
-@media only screen and (max-width: 870px) {
+@media only screen and (max-width: 1046px) {
 	.body-background {
 		background-size: cover;
-		min-height: 500px;
+		min-height: initial;
+		height: 300px;
 	}
-	/* .main-site-apply {
-		position: absolute;
-		top: 23%;
-		right: 0;
-	}
-	.main-site-apply-2 {
-		position: absolute !important;
-		top: 55%;
-		right: 0;
-	} */
 	.main-site-summary {
-		flex-direction: row;
-		flex-wrap: wrap;
-		top: 30%;
-		left: 0;
+		display: none;
+	}
+	.main-site-background {
+		display: flex;
+		flex-direction: column;
+		width: 80vw;
+		margin: -80 auto;
+	}
+	.main-site-background h1 {
+		height: 1px;
+	}
+	.navigation-display {
+		justify-content: center;
+		margin-bottom: 85px;
+	}
+	li#navigation-logo {
+		height: 62px;
+		width: 300px;
+	}
+	button.main-site-apply-2 {
+		display: block;
+		margin: 0 2px 25px 0;
 	}
 	.summary-section {
-		min-width: 400px;
+		min-width: 312px;
+	}
+	.our-team-sections {
+		margin-top: 10px;
+	}
+	.meet-the-team-header {
+		display: none;
 	}
 	.staff-block {
-		width: 100%;
+		width: 50%;
 		margin: 0;
 		margin: 0 0 35px;
 		display: flex;
@@ -723,10 +740,13 @@ commentcontainer h4 {
 		justify-content: flex-start;
 	}
 	.image-gradient-overlay, .image-gradient-overlay img {
-		border-radius: 100%;
-		height: 100px;
-		width: 100px;
+		border-radius: 4%;
+		height: 140px;
+		width: 154px;
 		margin: 0;
+	}
+	.image-gradient-overlay img {
+		object-fit: cover;
 	}
 	.name-and-title {
 		order: 2;
@@ -760,5 +780,54 @@ commentcontainer h4 {
 	}
 	.sitemaps {
 		flex-direction: column;
+	}
+	.mobile-only {
+		display: block;
+		order: 3;
+		background: #f3f4f4;
+		padding: 10px 30px;
+		border-radius: 6px;
+		margin-top: 16px;
+		box-shadow: 1px 1px 9px rgba(0,0,0,.09);
+		margin-bottom: 30px;
+	}
+	.mobile-active-staff {
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	.mobile-only .triggered-social-container {
+		margin-top: -20px;
+		margin-bottom: 20px;
+	}
+	.mobile-only .social-listing li i {
+		font-size: 22px;
+		color: var(--footerlinks);
+		margin-top: 20px;
+		opacity: .75;
+	}
+	.mobile-only .social-listing li i:hover {
+		color: var(--orange);
+		opacity: 1;
+	}
+	.footer-mobile {
+		display: block;
+		background: #f3f4f4;
+		padding: 10px 30px;
+		border-radius: 6px;
+		margin-top: 30px;
+		margin-bottom: 10px;
+		color: #636e77;
+		opacity: .8;
+	}	
+	.footer-mobile-section {
+		display: flex;
+		flex-direction: column;
+		margin: 16px 0;
+		border-bottom: 1px solid #b6bbbf4a;
+		padding-bottom: 13px;
+	}
+	.footer-mobile-section:last-of-type {
+		border-bottom: none;
+		padding-bottom: 0px;
 	}
 }
