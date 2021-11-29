@@ -687,7 +687,7 @@ commentcontainer h4 {
 	background-size: 102%;
 	background-position-x: 57%;
 }
-.mobile-only, .footer-mobile {
+.mobile-only, .footer-mobile, .mobile-only-toggle {
 	display: none;
 }
 
@@ -755,9 +755,25 @@ commentcontainer h4 {
 		flex-direction: column;
 		height: 75px;
 	}
+	.mobile-only-toggle {
+		display: block;
+		margin-top: 5px;
+		padding: 5px 20px;
+		z-index: 1112 !important;
+		background: var(--orange);
+		color: var(--white);
+		font-weight: 400;
+		border-radius: 2px;
+	}
+	.mobile-only-toggle:hover {
+		background: #00537D;
+	}
 	.staff-block h4, .staff-block h5 {
 		text-align: left;
 		margin: 0;
+	}
+	.staff-block h4 {
+		margin-top: -20px;
 	}
 	.learn-more-about-them {
 		display: none;
