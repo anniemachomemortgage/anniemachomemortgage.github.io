@@ -1,6 +1,6 @@
 $(function() {
 	$("logo img").click(function(event) {
-		window.location.href = './index.html';
+		window.location.href = './page/cash2keys';
 	});
 	if (window.location.href.indexOf("campaign=tripleplay21") > -1) {
 		if (localStorage.getItem("minimizedtripleplay") === null) {
