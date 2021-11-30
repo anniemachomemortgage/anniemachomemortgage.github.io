@@ -626,6 +626,7 @@ margin-left: 5px;
 .view-all-link a:hover {
 color: #0764a1;
 margin-left: 5px;
+text-decoration: none !important;
 }
 .faq-link {
 background: #78c254;
