@@ -894,3 +894,6 @@ font-size: 31px;
 line-height: 38px;
 }
 }
+body > footer {
+		display: none;
+	}
