@@ -20,7 +20,7 @@ $(function() {
 		};	
 		$("#dismiss-button-forever").click(function(event) {
 			$('#minimized-realtor').hide();
-			localStorage.setItem('minimizedtripleplay', 'false');
+			// localStorage.setItem('minimizedtripleplay', 'false');
 		});
 	};
 	if (window.location.href.indexOf("faq") > -1) {

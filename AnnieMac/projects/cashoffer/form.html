@@ -66,36 +66,32 @@
 			<section id="join-annie-mac"> 
 				<div class="contain">
 					<h2>Submit Your Information</h2>
-					<form action="./page/form-thanks">
+					<form action="/page/form-thanks">
 						<input type="hidden" id="TargetURL" value="https://anniemac.mortgageiqcrm.com/client">
 						<input type="hidden" id="Filter" value="CostCenter">
+						{% if site.siteType.keyName == 'branch'%}
+						{% set branch = site.settings.branch %}
+						{% if branch.costCenter is not empty %}
+						<input type="hidden" id="FilterValue" value="{{ branch.costCenter }}">
+						{% else %}
+						<input type="hidden" id="FilterValue" value="">
+						{% endif %}
+						{% endif %}
+						<input id="leadSource" type="hidden" value="Q6UJ9A1MZAAJ" data-xml-node="LeadSourceId" />
 						<input type="hidden" id="Entity" value="PreQual">
+						{% if site.siteType.keyName == 'loan_officer'%}
+						{% set officer = site.settings.loanOfficer %}
+						{% if site.settings.loanOfficer.miqGuid is not empty%}
+						<input type="hidden" id="UserId" name="UserId" value="{{ site.settings.loanOfficer.miqGuid }}">
+						{% else %}
 						<input type="hidden" id="UserId" name="UserId" value="U6UJ9A0003CK">
+						{% endif %}
+						{% endif %}
 						<input type="hidden" id="Lead Import" value="true">
 						<input type="hidden" id="Notification" value="New Lead">
 						<input type="hidden" id="LeadSourceID" data-xml-node="LeadSourceId" value="">
 						<input type="hidden" id="Picklist" data-custom-map="Select" data-xml-node="Processing.Picklist4" value="">
 						<h5>First, please provide some basic information about yourself. If you are a realtor supplying information on behalf of a client, please include your client's information here.</h5>
-						<div class="grouped-input">
-							<div class="input-grouping">
-								<label for="">Buyer's First Name</label>
-								<input type="text" placeholder="" data-xml-node="FirstName">
-							</div>
-							<div class="input-grouping">
-								<label for="">Buyer's Last Name</label>
-								<input type="text" placeholder="" data-xml-node="LastName">
-							</div>
-						</div>
-						<div class="grouped-input">
-							<div class="input-grouping">
-								<label for="">Buyer's Email Address</label>
-								<input type="email" placeholder="" data-xml-node="Email">
-							</div>
-							<div class="input-grouping">
-								<label for="">Buyer's Phone Number</label>
-								<input type="tel" placeholder="" data-xml-node="MobilePhone">
-							</div>
-						</div>
 						<div class="grouped-input">
 							<div class="input-grouping">
 								<label for="">Are you working with an agent?</label>
@@ -130,6 +126,26 @@
 									<label for="">Agent Phone</label>
 									<input type="text" placeholder="" data-xml-node="AgentMobilePhone">
 								</div>
+							</div>
+						</div>
+						<div class="grouped-input">
+							<div class="input-grouping">
+								<label for="">Buyer's First Name</label>
+								<input type="text" placeholder="" data-xml-node="FirstName">
+							</div>
+							<div class="input-grouping">
+								<label for="">Buyer's Last Name</label>
+								<input type="text" placeholder="" data-xml-node="LastName">
+							</div>
+						</div>
+						<div class="grouped-input">
+							<div class="input-grouping">
+								<label for="">Buyer's Email Address</label>
+								<input type="email" placeholder="" data-xml-node="Email">
+							</div>
+							<div class="input-grouping">
+								<label for="">Buyer's Phone Number</label>
+								<input type="tel" placeholder="" data-xml-node="MobilePhone">
 							</div>
 						</div>
 						<div class="grouped-input">
