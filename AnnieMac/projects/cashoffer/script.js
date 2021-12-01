@@ -40,19 +40,35 @@ $(function() {
 				}
 			});
 		});
+		
+		var realtortoggle = false;
+		var cashtoggle = false;
+		var selltoggle = false;
+		
+		var consumertoggle = false;
 		$("#toggle-consumer").click(function(){
-			$(this).toggleClass('active-filter');
-			$('details').each(function() {
-				if (!$(this).hasClass("consumer")) {
-					$(this).hide();
-				};
-				if ($(this).hasClass("consumer")) {
-					$(this).show();
-					$(this).attr('open', '');
-					$(this).addClass("toggled-question");
-				};
-			});
+			if (consumertoggle == true){
+			  $(this).removeClass('active-filter');
+			}
+			else {
+				consumertoggle == true;
+				$(this).addClass('active-filter');
+			}
 		});
+		
+		// $("#toggle-consumer").click(function(){
+		// 	$(this).toggleClass('active-filter');
+		// 	$('details').each(function() {
+		// 		if (!$(this).hasClass("consumer")) {
+		// 			$(this).hide();
+		// 		};
+		// 		if ($(this).hasClass("consumer")) {
+		// 			$(this).show();
+		// 			$(this).attr('open', '');
+		// 			$(this).addClass("toggled-question");
+		// 		};
+		// 	});
+		// });
 		$("#toggle-realtor").click(function(){
 			$(this).toggleClass('active-filter');
 			$('details').each(function() {
