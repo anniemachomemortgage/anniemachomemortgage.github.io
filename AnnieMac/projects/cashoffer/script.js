@@ -84,5 +84,9 @@ $(function() {
 	});
 	$("#submit-borrower").click(function(event) {
 		$("html, body").animate({ scrollTop: 0 }, "slow");
+		$(".inner-layout").fadeOut(2000);
+		setTimeout(function(){
+		   window.location.href='./form-thanks';
+		  } ,2750);
 	});
 });
