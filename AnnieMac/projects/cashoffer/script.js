@@ -40,73 +40,109 @@ $(function() {
 				}
 			});
 		});
-		
-		var realtortoggle = false;
-		var cashtoggle = false;
-		var selltoggle = false;
-		
-		var consumertoggle = false;
 		$("#toggle-consumer").click(function(){
-			if (consumertoggle == true){
-			  $(this).removeClass('active-filter');
-			}
-			else {
-				consumertoggle == true;
-				$(this).addClass('active-filter');
-			}
+			$(this).toggleClass('active-filter');
+			if (!$("#toggle-consumer").hasClass("active-filter")) {
+				console.log("Doesn't have active filter.")
+				$('details').each(function() {
+					if (!$(this).hasClass("consumer")) {
+						$(this).show();
+					};
+					if ($(this).hasClass("consumer")) {
+						$(this).removeAttr('open');
+					};
+				});
+			};
+			if ($("#toggle-consumer").hasClass("active-filter")) {
+				console.log("has active filter.")
+				$('details').each(function() {
+					if (!$(this).hasClass("consumer")) {
+						$(this).hide();
+					};
+					if ($(this).hasClass("consumer")) {
+						$(this).show();
+						$(this).attr('open', '');
+					};
+				});
+			};
 		});
-		
-		// $("#toggle-consumer").click(function(){
-		// 	$(this).toggleClass('active-filter');
-		// 	$('details').each(function() {
-		// 		if (!$(this).hasClass("consumer")) {
-		// 			$(this).hide();
-		// 		};
-		// 		if ($(this).hasClass("consumer")) {
-		// 			$(this).show();
-		// 			$(this).attr('open', '');
-		// 			$(this).addClass("toggled-question");
-		// 		};
-		// 	});
-		// });
 		$("#toggle-realtor").click(function(){
 			$(this).toggleClass('active-filter');
-			$('details').each(function() {
-				if (!$(this).hasClass("realtor")) {
-					$(this).hide();
-				};
-				if ($(this).hasClass("realtor")) {
-					$(this).show();
-					$(this).attr('open', '');
-					$(this).addClass("toggled-question");
-				};
-			});
+			if (!$("#toggle-realtor").hasClass("active-filter")) {
+				console.log("Doesn't have active filter.")
+				$('details').each(function() {
+					if (!$(this).hasClass("realtor")) {
+						$(this).show();
+					};
+					if ($(this).hasClass("realtor")) {
+						$(this).removeAttr('open');
+					};
+				});
+			};
+			if ($("#toggle-realtor").hasClass("active-filter")) {
+				console.log("has active filter.")
+				$('details').each(function() {
+					if (!$(this).hasClass("realtor")) {
+						$(this).hide();
+					};
+					if ($(this).hasClass("realtor")) {
+						$(this).show();
+						$(this).attr('open', '');
+					};
+				});
+			};
 		});
 		$("#toggle-general").click(function(){
 			$(this).toggleClass('active-filter');
-			$('details').each(function() {
-				if (!$(this).hasClass("cash")) {
-					$(this).hide();
-				};
-				if ($(this).hasClass("cash")) {
-					$(this).show();
-					$(this).attr('open', '');
-					$(this).addClass("toggled-question");
-				};
-			});
+			if (!$("#toggle-general").hasClass("active-filter")) {
+				console.log("Doesn't have active filter.")
+				$('details').each(function() {
+					if (!$(this).hasClass("cash")) {
+						$(this).show();
+					};
+					if ($(this).hasClass("cash")) {
+						$(this).removeAttr('open');
+					};
+				});
+			};
+			if ($("#toggle-general").hasClass("active-filter")) {
+				console.log("has active filter.")
+				$('details').each(function() {
+					if (!$(this).hasClass("cash")) {
+						$(this).hide();
+					};
+					if ($(this).hasClass("cash")) {
+						$(this).show();
+						$(this).attr('open', '');
+					};
+				});
+			};
 		});
 		$("#toggle-bnsl").click(function(){
 			$(this).toggleClass('active-filter');
-			$('details').each(function() {
-				if (!$(this).hasClass("sell")) {
-					$(this).hide();
-				};
-				if ($(this).hasClass("sell")) {
-					$(this).show();
-					$(this).attr('open', '');
-					$(this).addClass("toggled-question");
-				};
-			});
+			if (!$("#toggle-bnsl").hasClass("active-filter")) {
+				console.log("Doesn't have active filter.")
+				$('details').each(function() {
+					if (!$(this).hasClass("sell")) {
+						$(this).show();
+					};
+					if ($(this).hasClass("sell")) {
+						$(this).removeAttr('open');
+					};
+				});
+			};
+			if ($("#toggle-bnsl").hasClass("active-filter")) {
+				console.log("has active filter.")
+				$('details').each(function() {
+					if (!$(this).hasClass("sell")) {
+						$(this).hide();
+					};
+					if ($(this).hasClass("sell")) {
+						$(this).show();
+						$(this).attr('open', '');
+					};
+				});
+			};
 		});
 	};
 	$('select').on('change', function() {
