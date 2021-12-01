@@ -1089,4 +1089,5 @@ $(function() {
 		}
 		};
 	};
+	console.clear()
 });

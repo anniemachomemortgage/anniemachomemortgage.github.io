@@ -40,6 +40,23 @@ $(function() {
 				}
 			});
 		});
+		$(".right-sidebar").click(function(event) {
+			$("#toggle-consumer").click(function(event) {
+			
+			});
+			
+			$("#toggle-realtor").click(function(event) {
+			
+			});
+			
+			$("#toggle-general").click(function(event) {
+			
+			});
+			
+			$("#toggle-sell").click(function(event) {
+			
+			});
+		});
 	};
 	$('select').on('change', function() {
 		if($( "#working-with-agent option:selected" ).val()=='real-estate'){
