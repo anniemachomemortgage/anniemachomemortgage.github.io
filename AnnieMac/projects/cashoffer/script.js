@@ -41,7 +41,7 @@ $(function() {
 			});
 		});
 		$("#toggle-consumer").click(function(){
-			$(this).addClass('active-filter');
+			$(this).toggleClass('active-filter');
 			$('details').each(function() {
 				if (!$(this).hasClass("consumer")) {
 					$(this).hide();
@@ -54,7 +54,7 @@ $(function() {
 			});
 		});
 		$("#toggle-realtor").click(function(){
-			$(this).addClass('active-filter');
+			$(this).toggleClass('active-filter');
 			$('details').each(function() {
 				if (!$(this).hasClass("realtor")) {
 					$(this).hide();
@@ -67,7 +67,7 @@ $(function() {
 			});
 		});
 		$("#toggle-general").click(function(){
-			$(this).addClass('active-filter');
+			$(this).toggleClass('active-filter');
 			$('details').each(function() {
 				if (!$(this).hasClass("cash")) {
 					$(this).hide();
@@ -80,7 +80,7 @@ $(function() {
 			});
 		});
 		$("#toggle-bnsl").click(function(){
-			$(this).addClass('active-filter');
+			$(this).toggleClass('active-filter');
 			$('details').each(function() {
 				if (!$(this).hasClass("sell")) {
 					$(this).hide();
