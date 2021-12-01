@@ -40,19 +40,6 @@ $(function() {
 				}
 			});
 		});
-		$("#toggle-consumer").click(function(){
-			$(this).toggleClass('active-filter');
-			$('details').each(function() {
-				if (!$(this).hasClass("consumer")) {
-					$(this).hide();
-				};
-				if ($(this).hasClass("consumer")) {
-					$(this).show();
-					$(this).attr('open', '');
-					$(this).addClass("toggled-question");
-				};
-			});
-		});
 	};
 	$('select').on('change', function() {
 		if($( "#working-with-agent option:selected" ).val()=='real-estate'){
