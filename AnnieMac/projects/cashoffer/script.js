@@ -43,7 +43,7 @@ $(function() {
 		$("#toggle-consumer").click(function(){
 			$(this).toggleClass('active-filter');
 			if (!$("#toggle-consumer").hasClass("active-filter")) {
-				console.log("Doesn't have active filter.")
+				// console.log("Doesn't have active filter.")
 				$('details').each(function() {
 					if (!$(this).hasClass("consumer")) {
 						$(this).show();
@@ -54,7 +54,7 @@ $(function() {
 				});
 			};
 			if ($("#toggle-consumer").hasClass("active-filter")) {
-				console.log("has active filter.")
+				// console.log("has active filter.")
 				$('details').each(function() {
 					if (!$(this).hasClass("consumer")) {
 						$(this).hide();
@@ -69,7 +69,7 @@ $(function() {
 		$("#toggle-realtor").click(function(){
 			$(this).toggleClass('active-filter');
 			if (!$("#toggle-realtor").hasClass("active-filter")) {
-				console.log("Doesn't have active filter.")
+				// console.log("Doesn't have active filter.")
 				$('details').each(function() {
 					if (!$(this).hasClass("realtor")) {
 						$(this).show();
@@ -80,7 +80,7 @@ $(function() {
 				});
 			};
 			if ($("#toggle-realtor").hasClass("active-filter")) {
-				console.log("has active filter.")
+				// console.log("has active filter.")
 				$('details').each(function() {
 					if (!$(this).hasClass("realtor")) {
 						$(this).hide();
@@ -95,7 +95,7 @@ $(function() {
 		$("#toggle-general").click(function(){
 			$(this).toggleClass('active-filter');
 			if (!$("#toggle-general").hasClass("active-filter")) {
-				console.log("Doesn't have active filter.")
+				// console.log("Doesn't have active filter.")
 				$('details').each(function() {
 					if (!$(this).hasClass("cash")) {
 						$(this).show();
@@ -106,7 +106,7 @@ $(function() {
 				});
 			};
 			if ($("#toggle-general").hasClass("active-filter")) {
-				console.log("has active filter.")
+				// console.log("has active filter.")
 				$('details').each(function() {
 					if (!$(this).hasClass("cash")) {
 						$(this).hide();
@@ -121,7 +121,7 @@ $(function() {
 		$("#toggle-bnsl").click(function(){
 			$(this).toggleClass('active-filter');
 			if (!$("#toggle-bnsl").hasClass("active-filter")) {
-				console.log("Doesn't have active filter.")
+				// console.log("Doesn't have active filter.")
 				$('details').each(function() {
 					if (!$(this).hasClass("sell")) {
 						$(this).show();
@@ -132,7 +132,7 @@ $(function() {
 				});
 			};
 			if ($("#toggle-bnsl").hasClass("active-filter")) {
-				console.log("has active filter.")
+				// console.log("has active filter.")
 				$('details').each(function() {
 					if (!$(this).hasClass("sell")) {
 						$(this).hide();
