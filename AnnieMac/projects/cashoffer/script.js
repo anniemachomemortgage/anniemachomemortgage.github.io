@@ -53,6 +53,45 @@ $(function() {
 				};
 			});
 		});
+		$("#toggle-realtor").click(function(){
+			$(this).addClass('active-filter');
+			$('details').each(function() {
+				if (!$(this).hasClass("realtor")) {
+					$(this).hide();
+				};
+				if ($(this).hasClass("realtor")) {
+					$(this).show();
+					$(this).attr('open', '');
+					$(this).addClass("toggled-question");
+				};
+			});
+		});
+		$("#toggle-general").click(function(){
+			$(this).addClass('active-filter');
+			$('details').each(function() {
+				if (!$(this).hasClass("cash")) {
+					$(this).hide();
+				};
+				if ($(this).hasClass("cash")) {
+					$(this).show();
+					$(this).attr('open', '');
+					$(this).addClass("toggled-question");
+				};
+			});
+		});
+		$("#toggle-bnsl").click(function(){
+			$(this).addClass('active-filter');
+			$('details').each(function() {
+				if (!$(this).hasClass("sell")) {
+					$(this).hide();
+				};
+				if ($(this).hasClass("sell")) {
+					$(this).show();
+					$(this).attr('open', '');
+					$(this).addClass("toggled-question");
+				};
+			});
+		});
 	};
 	$('select').on('change', function() {
 		if($( "#working-with-agent option:selected" ).val()=='real-estate'){
