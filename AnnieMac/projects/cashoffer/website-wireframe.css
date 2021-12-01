@@ -787,14 +787,13 @@ box-shadow: 1px 3px 8px rgba(0,0,0,.12);
 color: #0764a1;
 }
 .active-filter {
-		background: #bddbff52 !important;
-		box-shadow: none !important;
-		color: #0764a1 !important;
-	}
-	
-	.active-filter h5, .active-filter h6 {
-	  color: #0764a1 !important;
-	}
+background: #bddbff52 !important;
+box-shadow: none !important;
+color: #0764a1 !important;
+}
+.active-filter h5, .active-filter h6 {
+color: #0764a1 !important;
+}
 .list-cards li h5 {
 font-weight: 400;
 color: #585f65;
