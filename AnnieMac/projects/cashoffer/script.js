@@ -53,17 +53,17 @@ $(function() {
 			});
 		});
 		$("#toggle-realtor").click(function(){
-			$(this).toggleClass('active-filter');
-			$('details').each(function() {
-				if (!$(this).hasClass("realtor")) {
-					$(this).hide();
-				};
-				if ($(this).hasClass("realtor")) {
-					$(this).show();
-					$(this).attr('open', '');
-				};
+				$(this).toggleClass('active-filter');
+				$('details').each(function() {
+					if (!$(this).hasClass("realtor")) {
+						$(this).hide();
+					};
+					if ($(this).hasClass("realtor")) {
+						$(this).show();
+						$(this).attr('open', '');
+					};
+				});
 			});
-		});
 		$("#toggle-general").click(function(){
 			$(this).toggleClass('active-filter');
 			$('details').each(function() {
