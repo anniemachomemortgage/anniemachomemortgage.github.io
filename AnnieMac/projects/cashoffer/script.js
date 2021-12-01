@@ -40,6 +40,54 @@ $(function() {
 				}
 			});
 		});
+		$("#toggle-consumer").click(function(){
+			$(this).toggleClass('active-filter');
+			$('details').each(function() {
+				if (!$(this).hasClass("consumer")) {
+					$(this).hide();
+				};
+				if ($(this).hasClass("consumer")) {
+					$(this).show();
+					$(this).attr('open', '');
+				};
+			});
+		});
+		$("#toggle-realtor").click(function(){
+			$(this).toggleClass('active-filter');
+			$('details').each(function() {
+				if (!$(this).hasClass("realtor")) {
+					$(this).hide();
+				};
+				if ($(this).hasClass("realtor")) {
+					$(this).show();
+					$(this).attr('open', '');
+				};
+			});
+		});
+		$("#toggle-general").click(function(){
+			$(this).toggleClass('active-filter');
+			$('details').each(function() {
+				if (!$(this).hasClass("cash")) {
+					$(this).hide();
+				};
+				if ($(this).hasClass("cash")) {
+					$(this).show();
+					$(this).attr('open', '');
+				};
+			});
+		});
+		$("#toggle-bnsl").click(function(){
+			$(this).toggleClass('active-filter');
+			$('details').each(function() {
+				if (!$(this).hasClass("sell")) {
+					$(this).hide();
+				};
+				if ($(this).hasClass("sell")) {
+					$(this).show();
+					$(this).attr('open', '');
+				};
+			});
+		});
 	};
 	$('select').on('change', function() {
 		if($( "#working-with-agent option:selected" ).val()=='real-estate'){
