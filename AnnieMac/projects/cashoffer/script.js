@@ -42,6 +42,9 @@ $(function() {
 		});
 		$("#toggle-consumer").click(function(){
 			$(this).toggleClass('active-filter');
+			if (!$(this).hasClass("active-filter")) {
+				$(this).addClass("active-filter");
+			}
 			$('details').each(function() {
 				if (!$(this).hasClass("consumer")) {
 					$(this).hide();
@@ -49,6 +52,20 @@ $(function() {
 				if ($(this).hasClass("consumer")) {
 					$(this).show();
 					$(this).attr('open', '');
+					$(this).addClass("toggled-question");
+				};
+			});
+			$("#toggle-consumer").click(function(){
+			if ($(this).hasClass("active-filter")) {
+				$(this).removeClass("active-filter");
+				$('details').each(function() {
+					if ($(this).hasClass("toggled-question")) {
+						$(this).removeAttr('open');
+						$(this).removeClass("toggled-question")
+					};
+				};
+				if (!$(this).hasClass("consumer")) {
+					$(this).show();
 				};
 			});
 		});
