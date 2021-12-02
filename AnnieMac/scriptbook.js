@@ -88,7 +88,7 @@ $(function() {
 	};
 	if ($('body').hasClass('page-blog-detail')) {
 		var imageCover = $('.blog-image-detail').attr('src');
-		$('#product-banner').css('background', 'linear-gradient(14deg, rgb(0 0 0 / 62%) 30%, rgb(98 90 75 / 28%) 80%), url(' + imageCover + ') no-repeat');
+		$('#product-banner').css('background', 'linear-gradient(14deg, rgb(0 0 0 / 62%) 30%, rgb(98 90 75 / 28%) 80%), url(' + imageCover + ') center no-repeat');
 		$('#product-banner').css('background-size', 'cover !important');
 		$('.facebook a img').remove();
 		$('.twitter a img').remove();
