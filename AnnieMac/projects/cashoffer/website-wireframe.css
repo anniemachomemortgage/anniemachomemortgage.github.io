@@ -694,8 +694,9 @@ border-radius: 4px;
 margin: 3px 0 22px;
 }
 #form #our-reviews {
-margin-top: 50px;
+padding-top: 50px;
 margin-bottom: -50px;
+background: #fff;
 }
 select {
 background: #fff;
