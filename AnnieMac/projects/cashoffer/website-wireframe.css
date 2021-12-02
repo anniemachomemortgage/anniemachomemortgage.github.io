@@ -941,6 +941,11 @@ margin: 5px 0 16px;
 font-size: 31px;
 line-height: 38px;
 }
+.disclaimer-b {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
 }
 body > footer {
 display: none;
