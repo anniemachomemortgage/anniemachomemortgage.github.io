@@ -873,6 +873,10 @@ opacity: .4;
 .link-footer-sub li a {
 font-weight: 400;
 }
+.link-footer-sub li a:hover {
+color: #005480;
+border-bottom: none !important;
+}
 #equal-housing-logo {
 width: 60px;
 }
