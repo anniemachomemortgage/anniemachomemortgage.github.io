@@ -53,6 +53,7 @@ body.front.site-type-branch .main-content, body.front.site-type-branch #site-nav
 
 #branch-content > a:nth-of-type(1) {
   display: flex;
+  justify-content: center;
 }
 
 #branch-content button {
