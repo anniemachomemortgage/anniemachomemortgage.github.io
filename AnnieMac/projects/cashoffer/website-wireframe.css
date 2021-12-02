@@ -445,8 +445,8 @@ footer {
 background: var(--lightbackground);
 }
 #form footer section:first-of-type {
-		background: white;
-	}
+background: white;
+}
 details > summary {
 list-style: none;
 }
@@ -906,6 +906,36 @@ font-size: 31px;
 line-height: 38px;
 }
 }
+.disclaimer-a {
+border-top: 1px solid #7980882b;
+margin-top: -20px;
+padding-top: 30px;
+}
+.disclaimer-a p {
+margin-bottom: 25px;
+}
+.disclaimer-b {
+display: flex;
+align-items: center;
+margin-top: 40px;
+justify-content: space-between;
+}
+.link-footer-sub ul {
+display: flex;
+list-style-type: none;
+margin: 0;
+width: 425px;
+justify-content: space-between;
+}
+.equal-housing {
+opacity: .4;
+}
+.link-footer-sub li a {
+font-weight: 400;
+}
+#equal-housing-logo {
+width: 60px;
+}
 body > footer {
-		display: none;
-	}
+display: none;
+}
