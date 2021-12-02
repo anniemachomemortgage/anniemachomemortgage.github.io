@@ -1945,7 +1945,7 @@ text-shadow: 1px 2px 2px rgb(0 0 0 / 70%);
   background-size: cover;
 }
 .jamiehannigan #inserted-banner {
-	background: linear-gradient(177deg, rgba(23, 16, 5, 0.21) 30%, rgba(29, 27, 18, 0.6) 80%), url("https://annie-mac.com/uploads/sites/10713/public/JH_header.jpg");
+	background: linear-gradient(177deg, rgba(23, 16, 5, 0.21) 30%, rgba(29, 27, 18, 0.6) 80%), url("https://annie-mac.com/uploads/sites/10713/public/JH_header2_redux.jpg");
 	background-position-y: 21% !important;
 	background-size: cover;
 }
@@ -2720,7 +2720,7 @@ div#flash-message {
   text-shadow: 1px 3px 3px rgba(0,0,0,.2);
 } */
 .team-member-information h4 a {
-  font-weight: 600;
+ 	font-weight: 600;
 }
 
 @media screen and (max-width: 1175px) {
