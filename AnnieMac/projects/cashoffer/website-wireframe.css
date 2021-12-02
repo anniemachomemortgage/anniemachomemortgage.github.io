@@ -444,6 +444,9 @@ margin-left: 0;
 footer {
 background: var(--lightbackground);
 }
+#form footer section:first-of-type {
+		background: white;
+	}
 details > summary {
 list-style: none;
 }
