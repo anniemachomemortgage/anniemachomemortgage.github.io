@@ -1944,6 +1944,11 @@ text-shadow: 1px 2px 2px rgb(0 0 0 / 70%);
   background-position-y: 40% !important;
   background-size: cover;
 }
+.jamiehannigan #inserted-banner {
+	background: linear-gradient(177deg, rgba(23, 16, 5, 0.21) 30%, rgba(29, 27, 18, 0.6) 80%), url("https://annie-mac.com/uploads/sites/10713/public/JH_header.jpg");
+	background-position-y: 21% !important;
+	background-size: cover;
+}
 .tmc-header-links {
   color: #fff;
   display: flex;
