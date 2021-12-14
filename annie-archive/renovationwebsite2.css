@@ -1,0 +1,773 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'proxima-nova', sans-serif;
+	line-height: 26px;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+#reno-construction-informational-page h1 {
+	font-size: 26px;
+}
+
+#reno-construction-informational-page h2 {
+	font-size: 24px;
+}
+
+#reno-construction-informational-page h3 {
+	font-size: 20px;
+}
+
+#reno-construction-informational-page h4 {
+	font-size: 18px;
+}
+
+
+#background-homescreen {
+	background: linear-gradient(-90deg, rgb(145 191 2 / 17%) 80%, #1a2835 99%), url(reno-background.jpg) no-repeat;
+	background-position-y: 75%;
+	background-position-x: 200px;
+	background-size: 99%;
+	display: flex;
+}
+
+#background-not-homescreen {
+	background: linear-gradient(-90deg, rgb(145 191 2 / 17%) 80%, #1a2835 99%), url(reno-background.jpg) no-repeat;
+	background-size: cover;
+	background-position-y: 75%;
+	background-position-x: 200px;
+	display: flex;
+}
+
+#container-homescreen {
+	background: #041b33;
+	width: 57%;
+	height: 100vh;
+	display: flex;
+	align-items: flex-start;
+	position: relative;
+}
+
+#about-us-container {
+	background: #041b33;
+	width: 57%;
+	height: 100vh;
+	display: flex;
+	align-items: flex-start;
+	position: relative;
+	overflow: auto;
+}
+
+#about-us-container h5 {
+	font-weight: normal;
+	font-size: 20px;
+	margin: 30px 0 15px;
+	color: #77c253;
+}
+
+#about-us-container h4 {
+	color: #53c1c2;
+	font-size: 20px;
+	margin: 40px 0 -5px;
+}
+
+#about-us-container h4:not(:first-of-type) {
+	border-top: 1px solid rgb(83 193 194 / 18%);
+	margin-top: 30px;
+	padding-top: 25px;
+}
+
+#container-homescreen:after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: inherit;
+	background-size: contain;
+	transform-origin: top left;
+	transform: skewX(10deg);
+	z-index: -1;
+}
+
+#corporate-presence {
+	width: 80%;
+	padding-top: 30px;
+	color: white;
+	margin: 0 auto;
+}
+
+#corporate-presence h1 {
+	width: 380px;
+	height: 85px;
+	margin-bottom: 40px;
+	text-indent: -105vw;
+	background: url(white-reno-construction.png);
+	background-size: cover;
+	margin-top: 35px;
+}
+
+#about-us-container #corporate-presence {
+	width: 80%;
+	color: white;
+	margin: 61px auto 0;
+}
+
+#about-us-container #corporate-presence h1 {
+	width: 380px;
+	height: 85px;
+	margin-bottom: 70px;
+	text-indent: -105vw;
+	background: url(white-reno-construction.png);
+	background-size: cover;
+	margin-top: -5px;
+}
+
+#corporate-presence h2 {
+	font-size: 33px;
+	font-weight: 300;
+	line-height: 40px;
+	margin-bottom: 15px;
+	margin-top: -15px;
+	font-family: 'quasimoda', sans-serif;
+}
+
+#corporate-presence h2 span {
+	color: #78c254;
+	display: block;
+}
+
+#presence-links {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#presence-links a {
+	text-align: center;
+	display: inline-block;
+	width: 200px;
+	font-weight: bold;
+	letter-spacing: .10em;
+	text-decoration: none;
+	color: #fff;
+	padding: 18px 0px;
+	background: #78c254;
+	border-radius: 6px;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
+	border: 1px solid rgba(0,0,0,0);
+	font-family: 'proxima-nova', sans-serif;
+}
+
+#presence-links a:first-of-type {
+	margin-right: 25px;
+	color: #041d31;
+	background: #fff;
+}
+
+#contractors {
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(255,255,255,.08);	
+}
+
+#contractors p {
+	line-height: 30px;
+	color: 	#fff;
+}
+
+#contractors p a {
+	color: #78c254;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#contractors p a:hover {
+	text-decoration: underline;
+}
+
+#secondary-links {
+	width: 30%;
+	float: right;
+	margin-top: 40px;
+	justify-content: flex-end;
+	display: flex;
+	font-family: 'Khula', sans-serif;
+}
+
+#return-links {
+	width: 30%;
+	float: right;
+	margin-top: 3px;
+	justify-content: flex-end;
+	display: flex;
+	font-family: 'Khula', sans-serif;
+}
+
+#secondary-links a, #return-links a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'proxima-nova', sans-serif;
+	letter-spacing: .020em;
+	text-align: center;
+	border-radius: 3px;
+	padding: 12px;
+	border: 1px solid rgba(255,255,255,.25);
+}
+
+#footer-presence-links {
+	width: 72%;
+	margin-top: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#footer-presence-links a {
+	text-decoration: none;
+	color: #d1d5da;
+}
+
+#footer-presence-links a:hover {
+	color: #78c254;
+}
+#about-us-container #footer-presence-links {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+#looking-page-button:hover, #presence-links a:hover {
+	color: #78c254;
+	background: transparent;
+	border: 1px solid #78c254;
+}
+
+#find-your-licensed-state {
+	width: 100%;
+	display: block;
+	outline: none;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
+	padding: 16px 14px;
+}
+
+#licensed-state-list {
+	margin-top: 20px;
+}
+
+/* Renovation and Construction Loan Pages */
+#reno-construction-informational-page {
+	background: #f3f4f6;
+}
+#reno-construction-informational-page a {
+	color: #275881;
+	text-decoration: none;
+}
+#reno-construction-informational-page a:hover {
+	text-decoration: underline;
+}
+#renovation-banner {
+	background: #275881;
+	color: white;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 40px;
+}
+#renovation-banner h1 {
+	width: 380px;
+	height: 85px;
+	text-indent: -105vw;
+	background: url(white-reno-construction.png);
+	background-size: cover;
+}
+#renovation-banner h2, #construction-banner h2 {
+	font-size: 22px;
+	margin: 0 0 20px;
+	font-family: 'quasimoda', serif;
+	font-weight: 400;
+	text-transform: capitalize;
+	font-weight: normal;
+	letter-spacing: .60px;
+}
+#reno-construction-main-section {
+	display: flex;
+	margin: 0 auto;
+	font-family: 'proxima-nova', sans-serif;;
+}
+#reno-construction-main-section h1, #reno-construction-main-section h2, #reno-construction-main-section h3, #reno-construction-main-section h4, #reno-construction-main-section h5 {
+	font-family: 'quasimoda', serif;
+	font-weight: 400;
+	text-transform: capitalize;
+	letter-spacing: .60px;
+}
+#side-bar-section {
+	padding: 0 20px;
+	margin-right: 15px;
+	width: 400px;
+	min-width: 400px;
+}
+#readable-section {
+	display: flex;
+	flex-direction: column;
+	padding: 0 50px;
+	flex: 1;
+}
+#bruce-statement {
+	display: flex;
+	flex-direction: column;
+	background: #fff;
+	border-radius: 4px;
+	border: 1px solid rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px 3px rgba(0,0,0,0.025);
+	margin-bottom: 30px;
+}
+#bruce-photo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 150px;
+}
+#bruce-photo-container {
+	background: #78c254;
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+#bruce-photo-container i {
+	font-size: 40px;
+}
+#bruce-quote {
+	border-top: 1px solid rgba(0,0,0,.15);
+	padding: 20px 20px 20px 20px;
+}
+#whosaid {
+	background: rgba(0,0,0,.025);
+	margin: -20px;
+	padding: 20px;
+	border-bottom: 1px solid rgba(0,0,0,.10);
+	margin-bottom: 20px;
+}
+#bruce-quote h4 {
+	margin: 0;
+	font-size: 20px;
+}
+
+#bruce-quote h5 {
+	margin: 0;
+	font-size: 14px;
+	opacity: .75;
+	line-height: 20px;
+	margin-top: 6px;
+} 
+
+#bruce-quote p {
+	font-size: 15.5px;
+	opacity: .8;
+}
+
+.sectional-header h3 {
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.sectional-header button {
+	border: none;
+	outline: none;
+	background: #7FC24A;
+	padding: 19px 30px;
+	border-radius: 6px;
+	color: white;
+	font-weight: 300;
+	margin: 50px auto 0;
+	display: block;
+	font-size: 18px;
+	box-shadow: 1px 1px 3px rgb(0 0 0 / 12%);
+	min-width: 200px;
+}
+.sectional-header button:hover {
+	background: #76ce31;
+}
+#in-summary, #resource-links {
+	margin-top: -20px;
+}
+#transformation-section {
+	margin-bottom: -45px;
+}
+#transformation-grid {
+	background: #78c254;
+	height: 470px;
+	margin-bottom: 40px;
+	box-shadow: 0 1px 2px 3px rgba(0,0,0,0.025);
+	position: relative;
+}
+#construction-picture {
+	background: url(renrenovation.jpeg);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position-y: 30%;
+}
+#transformation-before {
+	background: url(kitchen_before.jpeg);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position-y: 30%;
+}
+#transformation-after {
+	background: url(kitchen_after.jpeg);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position-y: 30%;
+}
+#transformation-section a {
+	background: #275881;
+	color: white;
+	text-decoration: none;
+	letter-spacing: .04em;
+	padding: 10px 15px;
+	font-weight: 300;
+	box-shadow: 0 1px 2px 3px rgba(0,0,0,0.025);
+}
+#resource-links ul {
+	margin: 0;
+	line-height: 30px;
+	padding: 0;
+	list-style-type: none;
+}
+.sectional-header:not(:first-of-type) {
+	margin-top: 25px;
+}
+#product-container-section {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 4px;
+	border: 1px solid rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px 3px rgba(0,0,0,0.025);
+}
+.product-selectable {
+	width: 33.3%;
+	padding: 10px 20px;
+}
+#grid1 {
+	border-right: 1px solid rgba(0,0,0,.2);
+}
+#grid2 {
+	border-right: 1px solid rgba(0,0,0,.2);
+}
+.product-selectable i, .compare-selection i {
+	font-size: 24px;
+	background: #0f4777;
+	color: white;
+	border-radius: 5px;
+	padding: 8px;
+	margin: 15px 0 10px;
+	width: fit-content;
+}
+.product-selectable span, .compare-selection span {
+	float: right;
+	margin-top: 10px;
+	opacity: .6;
+	font-size: 13px;
+}
+.product-selectable span:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+.product-selectable h3, .compare-selection h3 {
+	font-size: 18px;
+	font-weight: 500;
+	margin: 10px 0;
+}
+.product-selectable p, .compare-selection p {
+	font-size: 15.5px;
+	opacity: .6;
+}
+#compare-options-section {
+	display: flex;
+	flex-direction: column;
+	padding: 0 50px;
+	margin-top: 60px;
+}
+#compare-chart {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	margin-bottom: 140px;
+	font-family: 'quasimoda', sans-serif;
+}
+.compare-selection {
+	display: flex;
+	width: 375px;
+	flex-direction: column;
+	background: #fff;
+	border-radius: 4px;
+	border: 1px solid rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px 3px rgb(0 0 0 / 3%);
+	padding: 14px 20px;
+	min-height: 690px;
+	margin: 0 20px 0 0;
+	position: relative;
+}
+.compare-more {
+	flex-direction: column;
+	background: #fff;
+	padding: 14px 20px;
+	margin: 0 40px;
+	opacity: .6;
+	height: 270px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.compare-more p {
+	width: 80%;
+	margin: 0 auto;
+}
+.construction-selection {
+	min-height: 400px !important; 
+}
+.compare-selection i {
+	margin-top: 5px;
+}
+.specific {
+	border-top: 1px solid rgba(0,0,0,.08);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 40px;
+	margin: 0 -20px;
+	padding: 0 17px;
+}
+.columnize {
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: 0 -20px;
+	padding: 8px 17px;
+}
+.specific strong {
+	font-size: 14px;
+	/* order: 2; */
+}
+.specific span {
+	margin-top: 0;
+	font-weight: normal;
+}
+/* .columnize strong {
+	order: -1;
+} */
+.learn-more {
+	position: absolute;
+	bottom: -43px;
+	background: #0f4777;
+	display: block;
+	margin: -20px;
+	width: 100.6%;
+	border-radius: 0 0 4px 4px;
+	padding: 20px;
+	border: 1px solid rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px 3px rgb(0 0 0 / 3%);
+	left: 19px;
+	text-align: center;
+	font-size: 14px;
+}
+.learn-more strong a {
+	color: white !important;
+	letter-spacing: 1px;
+	text-shadow: 1px 1px 4px rgb(0 0 0 / 35%);
+	font-weight: 300;
+}
+.learn-more:hover strong a {
+	font-weight: 600;
+	text-decoration: none !important;
+}
+
+/* Lead Capture */
+form {
+	display: flex;
+	flex-direction: column;
+	/* width: 855px; */
+	margin: 0 auto;
+}
+
+label {
+	font-weight: 400;
+	margin: 10px 0;
+	letter-spacing: .8px;
+}
+
+input, select {
+	background: #fff;
+	border-radius: 4px;
+	border: 1px solid rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px 3px rgb(0 0 0 / 1.5%);
+	padding: 18px;
+	color: rgba(0,0,0,.55);
+	font-weight: 300;
+	margin-bottom: 15px;
+	letter-spacing: .8px;
+	font-size: 16px;
+}
+
+select {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	text-indent: 1px;
+	text-overflow: '';
+}
+
+input[type="submit"] {
+	width: 300px;
+	margin: 30px auto 0;
+	background: #78c254;
+	border: none;
+	color: white;
+	letter-spacing: 1.6px;
+	font-size: 17px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+	padding: 13px !important;
+	width: 20px;
+	height: 20px;
+	margin: 0 10px 0 0;
+}
+
+select {
+	margin-top: 6px;
+}
+
+input:active, input:focus {
+	outline: none;
+	box-shadow: 0 1px 2px 3px rgb(0 0 0 / 5%);
+}
+
+.single-selection {
+	display: flex;
+	align-items: center;
+}
+
+.single-selection label span {
+	margin-left: 4px;
+	font-size: 12px;
+}
+
+.inherit_full_width {
+	max-width: 85%;
+	margin: 0 auto;
+	flex: revert !important;
+	min-width: 800px;
+	padding-bottom: 60px !important;
+}
+
+.inherit_full_width h4 {
+	margin: 0;
+	color: #275881;
+}
+
+.primary-label {
+	font-weight: 700;
+}
+
+.primary-label:not(:first-of-type) {
+	margin-top: 15px;
+}
+
+#hub-grid {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: flex-start;
+	margin: 20px auto 0;
+}
+
+.hub-grid-row {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.hub-grid-row > * {
+	width: 25%;
+	flex: 1;
+}
+
+.hub-consultant {
+	line-height: 26px;
+	margin: 5px;
+	background: #fff;
+	border-radius: 4px;
+	border: 1px solid rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px 3px rgb(0 0 0 / 2%);
+	padding: 18px;
+	font-weight: 300;
+	letter-spacing: .8px;
+}
+
+.hub-consultant h4 {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 600 !important;
+}
+
+.hub-consultant h5 {
+	margin: 0;
+	font-weight: normal;
+}
+
+.hub-consultant h6 {
+	margin: 0;
+	font-weight: normal;
+	opacity: .8;
+}
+
+.hub-consultant p {
+	margin: 0;
+	opacity: .85;
+	line-height: 35px;
+	font-weight: normal;
+}
+
+.hub-consultant p span {
+	font-weight: bold;
+}
+
+.hub-consultant p:first-of-type {
+	border-top: 1px solid rgba(0,0,0,.15);
+	margin: 0 -18px;
+	margin-top: 20px;
+	margin-bottom: -14px;
+	padding: 5px 18px;
+}
+
+.hub-consultant p:last-of-type {
+	margin-bottom: -14px;	
+}
+
+.blue_overlay {
+	background: #275881 !important;
+}
+.green_overlay {
+	background: #5ba737 !important;
+}
+
+.hide {
+	display: none;
+}

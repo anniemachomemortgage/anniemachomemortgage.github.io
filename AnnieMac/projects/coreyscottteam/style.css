@@ -473,7 +473,7 @@ commentcontainer h4 {
 .testimonial-sectional .blocked-sectional-half {
 	width: 46%;
 }
-.why-us-sections {
+.product-type, .why-us-sections {
 	margin-top: 100px;
 	margin-bottom: 40px;
 	display: flex;
@@ -482,11 +482,11 @@ commentcontainer h4 {
 	width: 100%;
 	margin-top: 50px;
 }
-.why-us-sections h3, .our-team-callout-sections h3 {
+.product-type h3, .why-us-sections h3, .our-team-callout-sections h3 {
 	margin-bottom: 12px;
 	margin-top: 0;
 }
-.why-us-sections p, .our-team-callout-sections p {
+.product-type p, .why-us-sections p, .our-team-callout-sections p {
 	font-size: 15px;
 	line-height: 29px;
 	margin-bottom: 0;
@@ -494,7 +494,7 @@ commentcontainer h4 {
 	margin-top: 12px;
 	padding-right: 20px;
 }
-.why-us-sections p strong {
+.product-type p strong, .why-us-sections p strong {
 	margin: 22px 0 -20px;
 	display: block;
 	font-weight: 300;

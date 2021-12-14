@@ -1,0 +1,53 @@
+@media only screen and (max-width: 600px) {
+	#text-based {
+		width: 100%;
+	}
+	#kelsey-about-header h1 {
+		width: 348px;
+	}
+	#call-kelsey {
+		left: 25px;
+		top: 98px;
+		font-size: 14px;
+	}
+	#kelsey-blurb {
+		width: auto;
+		top: 7%;
+		left: 2%;
+	}
+	#kelsey-informational {
+		top: 60%;
+		padding: 0;
+	}
+	#kelsey-blurb button {
+		margin-top: 110px;
+	}
+	#kelsey-informational h3 {
+		font-size: 34px;
+		line-height: 40px;
+	}
+	#kelsey-informational h5 {
+		font-size: 18px;
+		margin: -7px 0 15px 0;
+		padding: 0;
+	}
+	#background-contain {
+		margin-top: -15px;
+	}
+	#form-content {
+		margin-bottom: -66px;
+	}
+	#form-content form button {
+		width: 300px;
+	}
+	#callouts {
+		width: 100%;
+		min-height: 360px;
+	}
+	#download {
+		border-radius: 0;
+	}
+	#after-block {
+		width: 100%;
+	}
+}
