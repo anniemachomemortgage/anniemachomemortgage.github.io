@@ -253,16 +253,9 @@ $(function() {
 		var businessdevelopment = "<div id='' class='team-member-section'><div class='team-member' id='pamelacherry'><div id='' class='team-member-information'><h4>Pamela Cherry</h4><h5>Business Development Manager</h5><h5>&nbsp;</h5><div id='' class='team-member-portrait' style='background: url(https://annie-mac.com/uploads/sites/10713/public/Pamela.jpeg); background-size: cover; background-position: center center; background-repeat: no-repeat;'></div><button class='flex space-between align-center'>(317) 324-1086<i class='fas fa-mobile-alt'></i></button><button class='flex space-between align-center'><a href='mailto: pcherry@annie-mac.com'>Email Me</a><i class='fas fa-envelope'></i></button></div></div><div class='team-member' id='karenblack'><div id='' class='team-member-information'><h4>Karen Black</h4><h5>Business Development Manager</h5><h5>&nbsp;</h5><div id='' class='team-member-portrait' style='background: url(https://annie-mac.com/uploads/sites/10713/public/karenblack.jpeg); background-size: cover; background-position: center center; background-repeat: no-repeat;'></div><button class='flex space-between align-center'>(317) 578-7611<i class='fas fa-mobile-alt'></i></button><button class='flex space-between align-center'><a href='mailto: kblack@annie-mac.com'>Email Me</a><i class='fas fa-envelope'></i></button></div></div>";
 		$(businessdevelopment).appendTo($( "#team-display" ));
 	};
-	// if ((window.location.href.indexOf("teamfillyaw") != -1)) {
-	// 	var branchManagerDrop = "<h3 class='text-center'>Branch Management</h3><div id='branch-managers' class='flex justify-center align-center'><div id='' class='branch-manager-section flex'></div></div>";
-	// 	$( branchManagerDrop ).prependTo( $( "#team-display" ) );
-	// 	var teamMemberReassignedBranchManager = ['#robertfillyaw'];
-	// 	for (i = 0; i < teamMemberReassignedBranchManager.length; i++) {
-	// 		$(teamMemberReassignedBranchManager[i]).addClass("manager-information");
-	// 		$(teamMemberReassignedBranchManager[i]).removeClass("team-member");
-	// 		$(teamMemberReassignedBranchManager[i]).prependTo(".branch-manager-section");
-	// 	}
-	// };
+	if ((window.location.href.indexOf("teamfillyaw") != -1)) {
+		$("#team-display > h3").text("Our Team");
+	};
 	if ((window.location.href.indexOf("wyomissing") != -1)) {
 		var teamMemberReassignedBranchManager = ['#nickchristy'];
 		for (i = 0; i < teamMemberReassignedBranchManager.length; i++) {
