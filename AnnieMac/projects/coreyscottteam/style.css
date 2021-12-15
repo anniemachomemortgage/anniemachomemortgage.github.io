@@ -606,12 +606,16 @@ commentcontainer h4 {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: stretch;
+	flex-wrap: wrap;
 }
 .product-type-row-container > * {
 	width: 49%;
 }
 .product-type p {
 	margin-top: 5px;
+}
+.expanded-row-container {
+	width: 100%;
 }
 .expanded-row-description {
 	background: #fdfdfd;
@@ -958,5 +962,11 @@ commentcontainer h4 {
 	}
 	.remain-hidden {
 		display: none;
+	}
+	.product-type-row-container {
+		flex-direction: column;
+	}
+	.product-type-row-container > * {
+		width: 100%;
 	}
 }
