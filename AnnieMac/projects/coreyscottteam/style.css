@@ -639,7 +639,7 @@ commentcontainer h4 {
 	background: #fdfdfd;
 	width: 100%;
 	box-shadow: 1px 3px 8px rgba(0,0,0,.15);
-	padding: 15px 35px;
+	padding: 15px 35px 45px;
 	margin-bottom: 30px;
 	margin-top: 10px;
 }
@@ -675,6 +675,22 @@ commentcontainer h4 {
 	font-size: 15px;
 	padding-left: 10px;
 	padding-bottom: 3px;
+}
+.expanded-close-button {
+	outline: none;
+	padding: 15px;
+	min-width: 105px;
+	background: #78c253;
+	color: var(--white);
+	font-weight: 300;
+	border-radius: 2px;
+	font-size: 17px;
+	border: .5px solid #78c253;
+}
+.expanded-close-button:hover {
+	background: #5f9b40;
+	border: .5px solid #5f9b40;
+	cursor: pointer;
 }
 .staff-block h5 {
   margin: 10px auto -15px;
