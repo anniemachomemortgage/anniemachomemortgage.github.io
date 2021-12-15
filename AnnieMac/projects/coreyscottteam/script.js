@@ -21,6 +21,21 @@ $(function() {
 				};
 			}
 		});
+		$("#close-conventional").click(function(event) {
+			$("#conventional-trigger").removeClass('expanded');
+			$("#expanded-row-1-container").addClass("hidden");
+			$("#conventional-loan-expanded").addClass("hidden");
+			if (window.matchMedia('(min-width: 1047px)').matches) {
+				$("html, body").animate({
+					scrollTop: 800
+				}, 600);
+			}
+			if (window.matchMedia('(max-width: 1046px)').matches) {
+				$("html, body").animate({
+					scrollTop: 560
+				}, 600);
+			}
+		});
 		$("#va-trigger").click(function(event) {
 			$(this).toggleClass('expanded');
 			$("#conventional-trigger").removeClass('expanded');
@@ -40,6 +55,21 @@ $(function() {
 				if (window.matchMedia('(min-width: 1047px)').matches) {
 					$("#first-expanded-container").css('order', 4);
 				};
+			}
+		});
+		$("#close-va").click(function(event) {
+			$("#va-trigger").removeClass('expanded');
+			$("#expanded-row-1-container").addClass("hidden");
+			$("#va-loan-expanded").addClass("hidden");
+			if (window.matchMedia('(min-width: 1047px)').matches) {
+				$("html, body").animate({
+					scrollTop: 800
+				}, 600);
+			}
+			if (window.matchMedia('(max-width: 1046px)').matches) {
+				$("html, body").animate({
+					scrollTop: 830
+				}, 600);
 			}
 		});
 		$("#fha-trigger").click(function(event) {
@@ -63,6 +93,21 @@ $(function() {
 				};
 			}
 		});
+		$("#close-fha").click(function(event) {
+			$("#fha-trigger").removeClass('expanded');
+			$("#expanded-row-2-container").addClass("hidden");
+			$("#fha-loan-expanded").addClass("hidden");
+			if (window.matchMedia('(min-width: 1047px)').matches) {
+				$("html, body").animate({
+					scrollTop: 1100
+				}, 600);
+			}
+			if (window.matchMedia('(max-width: 1046px)').matches) {
+				$("html, body").animate({
+					scrollTop: 1100
+				}, 600);
+			}
+		});
 		$("#usda-trigger").click(function(event) {
 			$(this).toggleClass('expanded');
 			$("#fha-trigger").removeClass('expanded');
@@ -82,6 +127,21 @@ $(function() {
 				if (window.matchMedia('(min-width: 1047px)').matches) {
 					$("#second-expanded-container").css('order', 4);
 				};
+			}
+		});
+		$("#close-usda").click(function(event) {
+			$("#usda-trigger").removeClass('expanded');
+			$("#expanded-row-2-container").addClass("hidden");
+			$("#usda-loan-expanded").addClass("hidden");
+			if (window.matchMedia('(min-width: 1047px)').matches) {
+				$("html, body").animate({
+					scrollTop: 1100
+				}, 600);
+			}
+			if (window.matchMedia('(max-width: 1046px)').matches) {
+				$("html, body").animate({
+					scrollTop: 1350
+				}, 600);
 			}
 		});
 		// Corey
