@@ -611,6 +611,24 @@ commentcontainer h4 {
 .product-type-row-container > * {
 	width: 49%;
 }
+#conventional-block {
+	order: 1;
+}
+#va-block {
+	order: 3;
+}
+#first-expanded-container {
+	order: 4;
+}
+#fha-block {
+	order: 1;
+}
+#usda-block {
+	order: 3;
+}
+#second-expanded-container {
+	order: 4;
+}
 .product-type p {
 	margin-top: 5px;
 }

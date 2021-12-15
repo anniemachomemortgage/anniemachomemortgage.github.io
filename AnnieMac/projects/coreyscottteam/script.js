@@ -9,10 +9,16 @@ $(function() {
 				$("#expanded-row-1-container h4").removeClass("hidden");
 				$("#toggled-learn-more-1-selected").text("Conventional Loans");
 				$("#conventional-loan-expanded").removeClass("hidden");
+				if (window.matchMedia('(max-width: 1046px)').matches) {
+					$("#first-expanded-container").css('order', 2);
+				}
 			}
 			if (!$("#conventional-trigger").hasClass("expanded")) {
 				$("#expanded-row-1-container").addClass("hidden");
 				$("#conventional-loan-expanded").addClass("hidden");
+				if (window.matchMedia('(min-width: 1047px)').matches) {
+					$("#first-expanded-container").css('order', 4);
+				};
 			}
 		});
 		$("#va-trigger").click(function(event) {
@@ -24,10 +30,16 @@ $(function() {
 				$("#expanded-row-1-container h4").removeClass("hidden");
 				$("#toggled-learn-more-1-selected").text("VA Loans");
 				$("#va-loan-expanded").removeClass("hidden");
+				if (window.matchMedia('(max-width: 1046px)').matches) {
+					$("#first-expanded-container").css('order', 4);
+				}
 			}
 			if (!$("#va-trigger").hasClass("expanded")) {
 				$("#expanded-row-1-container").addClass("hidden");
 				$("#va-loan-expanded").addClass("hidden");
+				if (window.matchMedia('(min-width: 1047px)').matches) {
+					$("#first-expanded-container").css('order', 4);
+				};
 			}
 		});
 		$("#fha-trigger").click(function(event) {
@@ -39,10 +51,16 @@ $(function() {
 				$("#expanded-row-2-container h4").removeClass("hidden");
 				$("#toggled-learn-more-2-selected").text("FHA Loans");
 				$("#fha-loan-expanded").removeClass("hidden");
+				if (window.matchMedia('(max-width: 1046px)').matches) {
+					$("#second-expanded-container").css('order', 2);
+				}
 			}
 			if (!$("#fha-trigger").hasClass("expanded")) {
 				$("#expanded-row-2-container").addClass("hidden");
 				$("#fha-loan-expanded").addClass("hidden");
+				if (window.matchMedia('(min-width: 1047px)').matches) {
+					$("#second-expanded-container").css('order', 4);
+				};
 			}
 		});
 		$("#usda-trigger").click(function(event) {
@@ -54,10 +72,16 @@ $(function() {
 				$("#expanded-row-2-container h4").removeClass("hidden");
 				$("#toggled-learn-more-2-selected").text("USDA Loans");
 				$("#usda-loan-expanded").removeClass("hidden");
+				if (window.matchMedia('(min-width: 1047px)').matches) {
+					$("#second-expanded-container").css('order', 4);
+				};
 			}
 			if (!$("#usda-trigger").hasClass("expanded")) {
 				$("#expanded-row-2-container").addClass("hidden");
 				$("#usda-loan-expanded").addClass("hidden");
+				if (window.matchMedia('(min-width: 1047px)').matches) {
+					$("#second-expanded-container").css('order', 4);
+				};
 			}
 		});
 		// Corey
