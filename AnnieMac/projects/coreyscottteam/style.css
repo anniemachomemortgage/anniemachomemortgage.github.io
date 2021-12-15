@@ -484,7 +484,7 @@ commentcontainer h4 {
 }
 .our-products-header .blocked-sectional-half {
 	width: 100%;
-	margin-top: 50px;
+	margin-top: 6px;
 }
 .product-type h3, .why-us-sections h3, .our-team-callout-sections h3 {
 	margin-bottom: 12px;
@@ -583,6 +583,42 @@ commentcontainer h4 {
 	border: .5px solid #5f9b40;
 	cursor: pointer;
 }
+.submit-button-csteam {
+	outline: none;
+	padding: 15px;
+	margin: 37px 0px 0;
+	min-width: 165px;
+	background: #0170a8;
+	color: var(--white);
+	font-weight: 300;
+	border-radius: 2px;
+	font-size: 17px;
+	border: .5px solid #0170a8;
+	max-height: 50px;
+}
+.submit-button-csteam:hover {
+	background: #005d8c;
+	border: .5px solid #005d8c;
+	cursor: pointer;
+}
+.call-button-csteam {
+	outline: none;
+	padding: 15px;
+	margin: 25px 0px 0;
+	min-width: 165px;
+	background: #78c253;
+	color: var(--white);
+	font-weight: 300;
+	border-radius: 2px;
+	font-size: 17px;
+	border: .5px solid #78c253;
+	max-height: 50px;
+}
+.call-button-csteam:hover {
+	background: #5f9b40;
+	border: .5px solid #5f9b40;
+	cursor: pointer;
+}
 .expanded {
 	outline: none;
 	padding: 15px;
@@ -676,7 +712,62 @@ commentcontainer h4 {
 	padding-left: 10px;
 	padding-bottom: 3px;
 }
-.expanded-close-button {
+.contact-options {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.contact-option:first-of-type {
+	width: 30%;
+	padding-right: 15px;
+}
+.contact-option:last-of-type {
+	width: 70%;
+	padding-left: 36px;
+	border-left: 1px solid rgba(0,0,0,.05);
+	margin-left: 10px;
+}
+.contact-option {
+	display: flex;
+	flex-direction: column;
+}
+.contact-option p {
+	margin-top: 20px;
+}
+#send-csteam-message {
+	margin-top: 30px;
+}
+#send-csteam-message label {
+	font-weight: 400;
+	color: #3a3335;
+}
+#send-csteam-message input, #send-csteam-message textarea {
+	border: 1px solid rgba(0,0,0,.14);
+	font-size: 14px;
+	padding: 12px;
+	font-weight: 200;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	margin-top: 5px;
+	outline: none;
+}
+#send-csteam-message input:active, #send-csteam-message textarea:active, #send-csteam-message input:focus, #send-csteam-message textarea:focus {
+	box-shadow: 1px 2px 3px rgba(0,0,0,.1);
+}
+#send-csteam-message textarea {
+	min-height: 130px;
+}
+.labeled-pair {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 10px 0;
+}
+.labeled-grouping {
+	width: 48%;
+}
+.expanded-close-button, .contact-button {
 	outline: none;
 	padding: 15px;
 	min-width: 105px;
@@ -688,10 +779,28 @@ commentcontainer h4 {
 	border: .5px solid #78c253;
 	margin-top: 15px;
 }
-.expanded-close-button:hover {
+.expanded-close-button:hover, .contact-button:hover {
 	background: #5f9b40;
 	border: .5px solid #5f9b40;
 	cursor: pointer;
+}
+.contact-button {
+	min-width: 200px !important;
+	margin-top: 25px;
+}
+.contact-button i {
+	margin-right: 5px;
+}
+.contact-option h4 {
+	display: flex;
+	align-items: center;
+}
+.contact-option h4 i {
+	margin-right: 15px;
+	opacity: .65;
+}
+.contact-method:nth-of-type(2) {
+	margin-top: 20px;
 }
 .staff-block h5 {
   margin: 10px auto -15px;
@@ -830,7 +939,16 @@ commentcontainer h4 {
 .mobile-only, .footer-mobile, .mobile-only-toggle, .mobile-only-header {
 	display: none;
 }
-
+.cs-disclaimer-text {
+	margin-top: 40px;
+	margin-bottom: -40px;
+}
+.cs-disclaimer-text small {
+	color: #3a3335;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 23px;
+}
 @media only screen and (max-width: 1046px) {
 	.body-background {
 		background-size: cover;
