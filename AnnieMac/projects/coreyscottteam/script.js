@@ -1,4 +1,65 @@
 $(function() {
+		// Products
+		$("#conventional-trigger").click(function(event) {
+			$(this).toggleClass('expanded');
+			$("#va-trigger").removeClass('expanded');
+			$("#va-loan-expanded").addClass("hidden");
+			if ($("#conventional-trigger").hasClass("expanded")) {
+				$("#expanded-row-1-container").removeClass("hidden");
+				$("#expanded-row-1-container h4").removeClass("hidden");
+				$("#toggled-learn-more-1-selected").text("Conventional Loans");
+				$("#conventional-loan-expanded").removeClass("hidden");
+			}
+			if (!$("#conventional-trigger").hasClass("expanded")) {
+				$("#expanded-row-1-container").addClass("hidden");
+				$("#conventional-loan-expanded").addClass("hidden");
+			}
+		});
+		$("#va-trigger").click(function(event) {
+			$(this).toggleClass('expanded');
+			$("#conventional-trigger").removeClass('expanded');
+			$("#conventional-loan-expanded").addClass("hidden");
+			if ($("#va-trigger").hasClass("expanded")) {
+				$("#expanded-row-1-container").removeClass("hidden");
+				$("#expanded-row-1-container h4").removeClass("hidden");
+				$("#toggled-learn-more-1-selected").text("VA Loans");
+				$("#va-loan-expanded").removeClass("hidden");
+			}
+			if (!$("#va-trigger").hasClass("expanded")) {
+				$("#expanded-row-1-container").addClass("hidden");
+				$("#va-loan-expanded").addClass("hidden");
+			}
+		});
+		$("#fha-trigger").click(function(event) {
+			$(this).toggleClass('expanded');
+			$("#usda-trigger").removeClass('expanded');
+			$("#usda-loan-expanded").addClass("hidden");
+			if ($("#fha-trigger").hasClass("expanded")) {
+				$("#expanded-row-2-container").removeClass("hidden");
+				$("#expanded-row-2-container h4").removeClass("hidden");
+				$("#toggled-learn-more-2-selected").text("FHA Loans");
+				$("#fha-loan-expanded").removeClass("hidden");
+			}
+			if (!$("#fha-trigger").hasClass("expanded")) {
+				$("#expanded-row-2-container").addClass("hidden");
+				$("#fha-loan-expanded").addClass("hidden");
+			}
+		});
+		$("#usda-trigger").click(function(event) {
+			$(this).toggleClass('expanded');
+			$("#fha-trigger").removeClass('expanded');
+			$("#fha-loan-expanded").addClass("hidden");
+			if ($("#usda-trigger").hasClass("expanded")) {
+				$("#expanded-row-2-container").removeClass("hidden");
+				$("#expanded-row-2-container h4").removeClass("hidden");
+				$("#toggled-learn-more-2-selected").text("USDA Loans");
+				$("#usda-loan-expanded").removeClass("hidden");
+			}
+			if (!$("#usda-trigger").hasClass("expanded")) {
+				$("#expanded-row-2-container").addClass("hidden");
+				$("#usda-loan-expanded").addClass("hidden");
+			}
+		});
 		// Corey
 		$("#trigger-corey").click(function(event) {
 			$('html, body').animate({
