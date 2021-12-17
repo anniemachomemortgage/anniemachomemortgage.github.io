@@ -365,7 +365,7 @@ footer {
 	flex-direction: column;
 }
 .sublistings {
-	width: 220px;
+	width: 145px;
 	justify-content: space-between;
 	display: flex;
 	flex-direction: row;
