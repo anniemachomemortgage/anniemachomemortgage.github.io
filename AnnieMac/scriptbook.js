@@ -1095,5 +1095,14 @@ $(function() {
 		}
 		};
 	};
+	if ((window.location.href.indexOf("coreyscott") != -1) || (window.location.href.indexOf("csteam") != -1)) {
+		$("head > link:nth-child(11)").remove();
+		$("#am-css").remove();
+		$("#am-styles").remove();
+		$("#am-responsive").remove();
+		$("#am-custom").remove();
+		$('.front').load("https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/index.html", function() {
+		});
+	}
 	console.clear()
 });
