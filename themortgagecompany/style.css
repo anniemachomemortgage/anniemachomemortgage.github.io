@@ -343,3 +343,34 @@ footer {
 #insertion-point h1, #insertion-point h2, #insertion-point h3, #insertion-point h4, #insertion-point h5 {
 	font-family: 'Inter', sans-serif;
 }
+.team-member-information button {
+	outline: none;
+	padding: 20px;
+	margin: 15px 2px 25px;
+	min-width: 200px;
+	background: var(--greenish);
+	color: var(--white);
+	font-weight: 600;
+	border-radius: 2px;
+	font-size: 17px;
+	border: .5px solid var(--greenish);
+}
+button.go {
+	outline: none;
+	padding: 20px;
+	margin: 15px 2px 25px;
+	min-width: 200px;
+	background: var(--orange);
+	color: var(--white);
+	font-weight: 600;
+	border-radius: 2px;
+	font-size: 17px;
+	border: .5px solid var(--orange);
+}
+.team-member-information button, button.go a {
+	color: #fff;
+	text-decoration: none;
+}
+.team-member-information button, button.go i {
+	display: none;
+}
