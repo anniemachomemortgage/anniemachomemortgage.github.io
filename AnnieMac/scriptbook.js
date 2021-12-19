@@ -1102,9 +1102,20 @@ $(function() {
 			$("#am-styles").remove();
 			$("#am-responsive").remove();
 			$("#am-custom").remove();
+			$('.front').load("https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/index.html", function() {
+			});
 		}
-		$('.front').load("https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/index.html", function() {
-		});
+		if ($('body').hasClass('page-page-detail')) {
+			var appendedContent = $(".content-detail").html();
+			$("head > link:nth-child(11)").remove();
+			$("#am-css").remove();
+			$("#am-styles").remove();
+			$("#am-responsive").remove();
+			$("#am-custom").remove();
+			$('.page-page-detail').load("https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/blank.html", function() {
+			});
+			$(appendedContent).appendTo($( "#insertion-point" ));
+		}
 	}
 	console.clear()
 });
