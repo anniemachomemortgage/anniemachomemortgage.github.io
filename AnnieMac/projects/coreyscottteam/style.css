@@ -298,6 +298,13 @@ button.main-site-apply-2:hover, .blocked-sectional-half a button:hover, .readmor
 	font-size: 22px;
 	color: #3a3335;
 }
+.blocked-sectional-half h5 {
+	margin-top: 20px;
+	margin-bottom: -6px;
+	font-weight: 500;
+	font-size: 18px;
+	color: #3a3335;
+}
 .blocked-sectional-half p {
 	font-size: 15px;
 	line-height: 28px;
