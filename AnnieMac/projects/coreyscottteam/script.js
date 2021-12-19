@@ -12,7 +12,7 @@ $(function() {
 		$("#learn_only").addClass('hidden');
 	});
 	if ($('body').hasClass('page-page-detail')) {
-		$("#go-back-home").click(function(event) {
+		$("#learn-more-toggle").click(function(event) {
 			window.location.href = '/?learn-more';
 		});
 	};
