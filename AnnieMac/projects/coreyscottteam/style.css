@@ -305,6 +305,9 @@ button.main-site-apply-2:hover, .blocked-sectional-half a button:hover, .readmor
 	font-size: 18px;
 	color: #3a3335;
 }
+#insertion-point h4 {
+	margin-top: 30px;
+}
 #insertion-point .text-content h3 {
 	margin-bottom: 27px !important;
 }
