@@ -170,7 +170,7 @@ li#navigation-logo {
 	color: white;
 	font-weight: 300;
 }
-button.main-site-apply {
+button.main-site-apply, #go-back-home {
 	outline: none;
 	padding: 20px;
 	margin: 15px 2px 25px;
@@ -182,12 +182,12 @@ button.main-site-apply {
 	font-size: 17px;
 	border: .5px solid var(--orange);
 }
-button.main-site-apply:hover {
+button.main-site-apply:hover, #go-back-home:hover {
 	background: #00537D;
 	border: .5px solid #00537D;
 	cursor: pointer;
 }
-button.main-site-apply-2, #go-back-home {
+button.main-site-apply-2 {
 	z-index: 1112 !important;
 	outline: none;
 	padding: 20px;
@@ -201,7 +201,7 @@ button.main-site-apply-2, #go-back-home {
 	border: .5px solid var(--white);
 	position: inherit;
 }
-button.main-site-apply-2:hover, .blocked-sectional-half a button:hover, .readmorecontainer a button:hover, #go-back-home:hover {
+button.main-site-apply-2:hover, .blocked-sectional-half a button:hover, .readmorecontainer a button:hover {
 	background: #00537D;
 	border: .5px solid #00537D;
 	cursor: pointer;
