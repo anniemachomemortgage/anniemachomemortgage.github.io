@@ -1125,6 +1125,7 @@ $(function() {
 			$("#am-styles").remove();
 			$("#am-responsive").remove();
 			$("#am-custom").remove();
+			$("#am-custom-tmc").remove();
 			$('.front').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
 				$(appendedContent).appendTo($( "#insertion-point" ));
 			});
