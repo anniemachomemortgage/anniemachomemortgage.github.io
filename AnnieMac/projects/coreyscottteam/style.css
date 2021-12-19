@@ -797,6 +797,10 @@ commentcontainer h4 {
 .contact-button i {
 	margin-right: 5px;
 }
+.contact-button a {
+	color: inherit;
+	text-decoration: none;
+}
 .contact-option h4 {
 	display: flex;
 	align-items: center;

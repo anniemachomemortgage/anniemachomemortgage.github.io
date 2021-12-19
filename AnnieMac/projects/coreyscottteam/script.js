@@ -7,6 +7,9 @@ $(function() {
 			$("#index_only").removeClass('hidden');
 			$("#learn_only").addClass('hidden');
 	});
+	$("#submit-borrower").click(function(event) {
+		
+	});	
 		// Products
 		$("#conventional-trigger").click(function(event) {
 			$(this).toggleClass('expanded');

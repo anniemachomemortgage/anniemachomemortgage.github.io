@@ -441,44 +441,55 @@
 						<div class="contact-method">
 							<h4>Book Time</h4>
 							<p>We’re happy to discuss your options and answer any questions you have about our loan products, the pre-approval process, or your specific situation.</p>
-							<button class="contact-button">Schedule A Call</button>
+							<button class="contact-button"><a href="https://outlook.office365.com/owa/calendar/TheCoreyScottTeam@annie-mac.com/bookings/">Schedule A Call</a></button>
 						</div>
 						<div class="contact-method">
 							<h4>Apply Now</h4>
 							<p>If you’re ready, we’re ready – filling out our online application will provide us with all of the information we need to jumpstart your homeownership goals!</p>
-							<button class="contact-button">Apply Now</button>
+							<button class="contact-button"><a href="https://coreyscott.annie-mac.com/loan/apply">Apply Now</a></button>
 						</div>
 					</div>
 					<div class="contact-option">
 						<h4>Send Us a Message</h4>
-						<p>Drop us an email and a qualified team member will get back to you promptly!</p>
+						<p id="message-before">Drop us an email and a qualified team member will get back to you promptly!</p>
 						<form id="send-csteam-message">
+							<input type="hidden" id="TargetURL" value="https://anniemac.mortgageiqcrm.com/client">
+							<input type="hidden" id="Filter" value="CostCenter">
+							<input id="leadSource" type="hidden" data-xml-node="LeadSourceId" value="CoreyScottWebsiteRedesignForm">
+							<input type="hidden" id="Entity" value="PreQual">
+							<input type="hidden" id="UserId" name="UserId" value="U6UJ9A0004V2">
+							<input type="hidden" id="Lead Import" value="true">
+							<input type="hidden" id="Notification" value="New Lead">
 							<div class="labeled-pair">
 								<div class="labeled-grouping">
 									<label>First Name</label>
-									<input type="text">
+									<input type="text" data-xml-node="FirstName">
 								</div>
 								<div class="labeled-grouping">
 									<label>Last Name</label>
-									<input type="text">
+									<input type="text"  data-xml-node="LastName">
 								</div>
 							</div>
 							<div class="labeled-pair">
 								<div class="labeled-grouping">
 									<label>Email Address</label>
-									<input type="text">
+									<input type="text"  data-xml-node="Email">
 								</div>
 								<div class="labeled-grouping">
 									<label>Phone Number</label>
-									<input type="text">
+									<input type="text"  data-xml-node="MobilePhone">
 								</div>
 							</div>
 							<div class="labeled-solo">
 								<label>Comment</label>
-								<textarea></textarea>
+								<textarea data-xml-node="Comments"></textarea>
 							</div>
-							<button class="submit-button-csteam">Submit</button>
+							<button class="submit-button-csteam" data-qlf-submit id="submit-borrower">Submit Now</button>
+							<script src='https://anniemac.mortgageiqcrm.com/client/Libraries/MortgageIQ/jscript/qlf.core.js'></script>
 						</form>
+						<div id="thank-you-message" class="hidden">
+							<p>Thank you so much for your inquiry! We will reach out to you very soon!</p>
+						</div>
 					</div>
 				</div>
 				<div class="cs-disclaimer-text">
