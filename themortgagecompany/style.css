@@ -83,7 +83,7 @@ body {
 }
 li#navigation-logo {
 	text-indent: -99999vw;
-	background: url('img/themtgco-logo.png');
+	background: url('https://anniemachomemortgage.github.io/themortgagecompany/img/themtgco-logo.png');
 	background-size: cover;
 	height: 56px;
 	width: 260px;
@@ -94,7 +94,7 @@ li#navigation-logo {
 	margin-bottom: 22px;
 }
 .main-site-overlay {
-/* 	background: url('img/woman-background.png'); */
+/* 	background: url('https://anniemachomemortgage.github.io/themortgagecompany/img/woman-background.png'); */
 	position: absolute;
 	top: 50%;
 	right: 50%;
