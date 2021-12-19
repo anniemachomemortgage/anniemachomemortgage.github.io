@@ -1103,6 +1103,7 @@ $(function() {
 			$("#am-responsive").remove();
 			$("#am-custom").remove();
 			$('.front').load("https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/index.html", function() {
+			
 			});
 		}
 		if ($('body').hasClass('page-page-detail')) {
