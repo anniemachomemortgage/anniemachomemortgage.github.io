@@ -1,7 +1,4 @@
 $(function() {
-	$("html, body").animate({
-		scrollTop: 0
-	}, 100);
 	$("#learn-more-toggle").click(function(event) {
 		$("#index_only").toggleClass('hidden');
 		$("#learn_only").toggleClass('hidden');
