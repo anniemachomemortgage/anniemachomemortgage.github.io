@@ -70,7 +70,7 @@ body {
 	display: flex;
 	list-style-type: none;
 	margin: 0;
-	padding: 19px 0 20px;
+	padding: 20px 0 30px;
 	width: 100%;
 	justify-content: space-between;
 	margin-bottom: 50px;
@@ -94,7 +94,7 @@ li#navigation-logo {
 	margin-bottom: 22px;
 }
 .main-site-overlay {
-	background: url('img/woman-background.png');
+/* 	background: url('img/woman-background.png'); */
 	position: absolute;
 	top: 50%;
 	right: 50%;
