@@ -403,8 +403,12 @@ text-align: center;
 }
 .contact-tmc-buttons {
 	margin-top: 13px;
-	border-bottom: 1px solid rgba(0,0,0,.12);
+	border-bottom: 1px solid rgba(0,0,0,.06);
 	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+.team-member:last-of-type .contact-tmc-buttons {
+	border-bottom: none;
 }
 .team-member-information button {
 	outline: none;
