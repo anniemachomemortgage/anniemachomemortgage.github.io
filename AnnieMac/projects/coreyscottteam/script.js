@@ -8,6 +8,10 @@ $(function() {
 		$("#learn_only").addClass('hidden');
 	});
 	$("#submit-borrower").click(function(event) {
+		event.preventDefault();
+		$("html, body").animate({
+			scrollTop: 0
+		}, 600);
 		$("#message-before").addClass('hidden');
 		$("#send-csteam-message").addClass('hidden');
 		$("#thank-you-message").removeClass('hidden');
