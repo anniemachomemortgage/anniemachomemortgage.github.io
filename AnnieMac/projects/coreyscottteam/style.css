@@ -87,7 +87,7 @@ li#navigation-logo {
 	background: url('img/CoreyScottTeam.png');
 	background-size: cover;
 	height: 82px;
-	width: 433px;
+	min-width: 433px;
 	margin: -13px 0 -50px;
 }
 .main-site-background {
@@ -982,7 +982,7 @@ commentcontainer h4 {
 	}
 	li#navigation-logo {
 		height: 62px;
-		width: 300px;
+		min-width: 300px;
 	}
 	button.main-site-apply-2 {
 		display: block;
