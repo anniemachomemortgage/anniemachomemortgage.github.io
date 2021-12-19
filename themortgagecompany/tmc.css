@@ -1,3 +1,6 @@
-#team-display h3:first-of-type {
+/* #team-display h3:first-of-type {
 	color: #40a051 !important;
+} */
+#insertion-point h1, #insertion-point h2, #insertion-point h3 {
+	font-family: 'Inter', sans-serif;
 }
