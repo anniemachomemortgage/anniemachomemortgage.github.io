@@ -1096,6 +1096,17 @@ $(function() {
 		};
 	};
 	if ((window.location.href.indexOf("coreyscott") != -1) || (window.location.href.indexOf("csteam") != -1)) {
+		if ($('body').hasClass('page-page-detail')) {
+			var appendedContent = $(".content-detail").html();
+			$("head > link:nth-child(11)").remove();
+			$("#am-css").remove();
+			$("#am-styles").remove();
+			$("#am-responsive").remove();
+			$("#am-custom").remove();
+			$('.page-page-detail').load("https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/blank.html", function() {
+				$(appendedContent).appendTo($( "#insertion-point" ));
+			});
+		};
 		if ($('body').hasClass('front')) {
 			$("head > link:nth-child(11)").remove();
 			$("#am-css").remove();
@@ -1106,17 +1117,6 @@ $(function() {
 			
 			});
 		}
-		// if ($('body').hasClass('page-page-detail')) {
-		// 	var appendedContent = $(".content-detail").html();
-		// 	$("head > link:nth-child(11)").remove();
-		// 	$("#am-css").remove();
-		// 	$("#am-styles").remove();
-		// 	$("#am-responsive").remove();
-		// 	$("#am-custom").remove();
-		// 	$('.page-page-detail').load("https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/blank.html", function() {
-		// 	});
-		// 	$(appendedContent).appendTo($( "#insertion-point" ));
-		// }
 	}
 	console.clear()
 });
