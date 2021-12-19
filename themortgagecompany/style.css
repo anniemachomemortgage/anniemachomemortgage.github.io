@@ -367,10 +367,10 @@ button.go {
 	font-size: 17px;
 	border: .5px solid var(--orange);
 }
-.team-member-information button, button.go a {
+.team-member-information button a, button.go a {
 	color: #fff;
 	text-decoration: none;
 }
-.team-member-information button, button.go i {
+.team-member-information button i, button.go i {
 	display: none;
 }
