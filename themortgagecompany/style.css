@@ -343,6 +343,18 @@ footer {
 #insertion-point h1, #insertion-point h2, #insertion-point h3, #insertion-point h4, #insertion-point h5 {
 	font-family: 'Inter', sans-serif;
 }
+#insertion-point h3 {
+  font-size: 30px;
+  margin-bottom: 40px;
+  font-weight: 700;
+  color: var(--greenish);
+}
+#insertion-point h3.text-center {
+  font-size: 29px;
+  font-weight: 600;
+  color: var(--orange);
+  margin-bottom: 20px;
+}
 .team-member-information button {
 	outline: none;
 	padding: 20px;
