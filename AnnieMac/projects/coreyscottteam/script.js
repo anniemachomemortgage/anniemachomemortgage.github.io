@@ -1,11 +1,11 @@
 $(function() {
 	$("#learn-more-toggle").click(function(event) {
-			$("#index_only").toggleClass('hidden');
-			$("#learn_only").toggleClass('hidden');
+		$("#index_only").toggleClass('hidden');
+		$("#learn_only").toggleClass('hidden');
 	});
 	$("#go-back-home").click(function(event) {
-			$("#index_only").removeClass('hidden');
-			$("#learn_only").addClass('hidden');
+		$("#index_only").removeClass('hidden');
+		$("#learn_only").addClass('hidden');
 	});
 	$("#submit-borrower").click(function(event) {
 		$("#message-before").addClass('hidden');
