@@ -358,13 +358,16 @@ footer {
 #insertion-point h3.text-center:nth-of-type(3) {
 	margin-top: 50px;
 }
-.manager-information {
+.team-member-information {
 	display: flex;
 	flex-direction: row;
 }
 .team-member-basics {
 	display: flex;
 	flex-direction: row;
+}
+.team-titles {
+	margin-left: 20px;
 }
 .team-member-portrait {
 	min-height: 180px;
