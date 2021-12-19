@@ -8,7 +8,9 @@ $(function() {
 			$("#learn_only").addClass('hidden');
 	});
 	$("#submit-borrower").click(function(event) {
-		
+		$("#message-before").addClass('hidden');
+		$("#send-csteam-message").addClass('hidden');
+		$("#thank-you-message").removeClass('hidden');
 	});	
 		// Products
 		$("#conventional-trigger").click(function(event) {
