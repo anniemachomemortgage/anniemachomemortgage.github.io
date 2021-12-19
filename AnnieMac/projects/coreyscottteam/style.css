@@ -187,7 +187,7 @@ button.main-site-apply:hover {
 	border: .5px solid #00537D;
 	cursor: pointer;
 }
-button.main-site-apply-2 {
+button.main-site-apply-2, #go-back-home {
 	z-index: 1112 !important;
 	outline: none;
 	padding: 20px;
@@ -201,7 +201,7 @@ button.main-site-apply-2 {
 	border: .5px solid var(--white);
 	position: inherit;
 }
-button.main-site-apply-2:hover, .blocked-sectional-half a button:hover, .readmorecontainer a button:hover {
+button.main-site-apply-2:hover, .blocked-sectional-half a button:hover, .readmorecontainer a button:hover, #go-back-home:hover {
 	background: #00537D;
 	border: .5px solid #00537D;
 	cursor: pointer;

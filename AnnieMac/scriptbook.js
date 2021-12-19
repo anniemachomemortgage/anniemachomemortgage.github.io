@@ -1105,6 +1105,10 @@ $(function() {
 		}
 		$('.front').load("https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/index.html", function() {
 		});
+		if ((window.location.href.indexOf("?loan-types=true") != -1) {
+			$('.front').load("https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/learn.html", function() {
+			});
+		});
 	}
 	console.clear()
 });
