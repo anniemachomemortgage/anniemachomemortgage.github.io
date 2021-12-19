@@ -358,6 +358,14 @@ footer {
 #insertion-point h3.text-center:nth-of-type(3) {
 	margin-top: 50px;
 }
+.manager-information {
+	display: flex;
+	flex-direction: row;
+}
+.team-member-basics {
+	display: flex;
+	flex-direction: row;
+}
 .team-member-portrait {
 	min-height: 180px;
 	min-width: 180px;
@@ -365,6 +373,7 @@ footer {
 	max-height: 180px;
 	max-width: 180px;
 	border-radius: 100%;
+	order: -1;
 }
 .team-member-information button {
 	outline: none;
@@ -396,8 +405,4 @@ button.go {
 }
 .team-member-information button i, button.go i {
 	display: none;
-}
-.manager-information {
-	display: flex;
-	flex-direction: row;
 }
