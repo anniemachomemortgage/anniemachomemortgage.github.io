@@ -1097,7 +1097,6 @@ $(function() {
 	};
 	if ((window.location.href.indexOf("coreyscott") != -1) || (window.location.href.indexOf("csteam") != -1)) {
 		if ($('body').hasClass('page-page-detail')) {
-			// Grab the inner HTML of the main page content
 			var appendedContent = $(".content-detail").html();
 			$("head > link:nth-child(11)").remove();
 			$("#am-css").remove();
@@ -1105,7 +1104,6 @@ $(function() {
 			$("#am-responsive").remove();
 			$("#am-custom").remove();
 			$('.page-page-detail').load("https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/blank.html", function() {
-				// Grab the inner HTML of the main page content
 				$(appendedContent).appendTo($( "#insertion-point" ));
 			});
 		};
@@ -1119,5 +1117,18 @@ $(function() {
 			});
 		}
 	}
+	// if ((window.location.href.indexOf("themtgco.com") != -1) || (window.location.href.indexOf("themortgageco.wmmortgageware") != -1)) {
+	// 	if ($('body').hasClass('front')) {
+	// 		var appendedContent = $("#team-display").html();
+	// 		$("head > link:nth-child(11)").remove();
+	// 		$("#am-css").remove();
+	// 		$("#am-styles").remove();
+	// 		$("#am-responsive").remove();
+	// 		$("#am-custom").remove();
+	// 		$('.front').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
+	// 			$(appendedContent).appendTo($( "#insertion-point" ));
+	// 		});
+	// 	}
+	// };
 	console.clear()
 });
