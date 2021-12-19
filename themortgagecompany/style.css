@@ -360,7 +360,7 @@ footer {
 }
 .team-member-information {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 .team-member-basics {
 	display: flex;
