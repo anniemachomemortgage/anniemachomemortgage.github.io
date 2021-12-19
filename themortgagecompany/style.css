@@ -338,39 +338,8 @@ footer {
 	width: 250px;
 	height: auto;
 }
-/* footer {
-	background: linear-gradient(14deg, #f5f4f4f5 30%, #f5f4f4 80%), url(https://image.cnbcfm.com/api/v1/image/105390136-1533912731368gettyimages-859936784.jpeg?v=1548361928) top left no-repeat;
-} */
-/* section:nth-of-type(1) {
-	width: 100%;
-	background: var(--orange);
-	min-height: 52px;
-	margin-bottom: 10px;
-} */
-/* section:nth-of-type(2) {
-	width: 100%;
-	background: var(--orange);
-	min-height: 52px;
-	margin-bottom: 10px;
-} */
-/* section:nth-of-type(2) {
-	width: 100%;
-	background: var(--blue);
-	min-height: 52px;
-	margin-bottom: 10px;
+
+/* Insertion Template Edits */
+#insertion-point h1, #insertion-point h2, #insertion-point h3, #insertion-point h4, #insertion-point h5 {
+	font-family: 'Inter', sans-serif;
 }
-section:nth-of-type(3) {
-	width: 100%;
-	background: var(--black);
-	min-height: 52px;
-	margin-bottom: 10px;
-} 
-section:nth-of-type(5) {
-	width: 100%;
-	background: var(--gray);
-	min-height: 52px;
-	margin-bottom: 10px;
-}*/
-
-
-
