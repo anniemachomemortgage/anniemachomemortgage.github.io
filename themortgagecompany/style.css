@@ -367,6 +367,8 @@ text-align: center;
 .team-member-basics {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
+	margin-bottom: 15px;
 }
 .team-titles {
 	margin-left: 25px;
