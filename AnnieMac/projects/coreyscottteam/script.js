@@ -1,4 +1,8 @@
 $(function() {
+	if (window.location.href.indexOf("/?learn-more") > -1) {
+		$("#index_only").toggleClass('hidden');
+		$("#learn_only").toggleClass('hidden');
+	}
 	$("#learn-more-toggle").click(function(event) {
 		$("#index_only").toggleClass('hidden');
 		$("#learn_only").toggleClass('hidden');
@@ -7,6 +11,11 @@ $(function() {
 		$("#index_only").removeClass('hidden');
 		$("#learn_only").addClass('hidden');
 	});
+	if ($('body').hasClass('page-page-detail')) {
+		$("#go-back-home").click(function(event) {
+			window.location.href = '/?learn-more';
+		});
+	};
 	$("#submit-borrower").click(function(event) {
 		event.preventDefault();
 		$("html, body").animate({
