@@ -48,6 +48,7 @@ html, body {
 	padding: 0;
 	margin: 0;
 	visibility: visible !important;
+	overflow: initial !important;
 }
 header, main, section, form, form div, footer {
 	display: flex;
