@@ -355,6 +355,17 @@ footer {
   color: var(--orange);
   margin-bottom: 20px;
 }
+#insertion-point h3.text-center:nth-of-type(3) {
+	margin-top: 50px;
+}
+.team-member-portrait {
+	min-height: 180px;
+	min-width: 180px;
+	background-size: cover !important;
+	max-height: 180px;
+	max-width: 180px;
+	border-radius: 100%;
+}
 .team-member-information button {
 	outline: none;
 	padding: 20px;
