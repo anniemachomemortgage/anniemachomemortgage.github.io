@@ -1118,7 +1118,7 @@ $(function() {
 		}
 	}
 	if ((window.location.href.indexOf("themtgco.com") != -1) || (window.location.href.indexOf("themortgageco.wmmortgageware") != -1)) {
-		if ($('body').hasClass('front')) {
+		if ($('body').is('.front, .site-type-corporate')) {
 			var appendedContent = $("#team-display").html();
 			$("head > link:nth-child(11)").remove();
 			$("#am-css").remove();
