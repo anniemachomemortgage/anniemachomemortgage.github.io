@@ -1203,6 +1203,7 @@ commentcontainer h4 {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	margin: 16px 0 -5px;
 }
 .state-listing-licensed > * {
 	width: 33.33%;
