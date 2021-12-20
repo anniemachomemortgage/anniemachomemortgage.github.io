@@ -475,7 +475,7 @@ button.go {
 #page-insertion-point h3 {
 	font-size: 40px;
 	font-weight: 800;
-	color: var(--orange);
+	color: var(--greenish);
 }
 #page-insertion-point .text-content h3:nth-of-type(2) {
 	margin-top: 40px;
