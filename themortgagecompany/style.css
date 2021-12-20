@@ -307,8 +307,8 @@ footer {
 	font-size: 15px;
 	color: var(--darkergray);
 }
-.sitemaps ul li a {
-	color: inherit;
+.sitemaps ul a {
+	border-bottom: none;
 	text-decoration: none;
 }
 .footerlist-title {
