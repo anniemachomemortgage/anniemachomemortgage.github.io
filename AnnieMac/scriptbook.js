@@ -1118,18 +1118,20 @@ $(function() {
 		}
 	}
 	if ((window.location.href.indexOf("themtgco.com") != -1) || (window.location.href.indexOf("themortgageco.wmmortgageware") != -1)) {
-		if ($('body').is('.front.site-type-corporate')) {
-			var appendedContent = $("#team-display").html();
-			$("head > link:nth-child(11)").remove();
-			$("#am-css").remove();
-			$("#am-styles").remove();
-			$("#am-responsive").remove();
-			$("#am-custom").remove();
-			$("#am-custom-tmc").remove();
-			$("#stylesheet-git").remove();
-			$('.front').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
-				$(appendedContent).appendTo($( "#insertion-point" ));
-			});
+		if ($('body').hasClass('front')) {
+			if ($('body').is('.site-type-corporate')) {
+				var appendedContent = $("#team-display").html();
+				$("head > link:nth-child(11)").remove();
+				$("#am-css").remove();
+				$("#am-styles").remove();
+				$("#am-responsive").remove();
+				$("#am-custom").remove();
+				$("#am-custom-tmc").remove();
+				$("#stylesheet-git").remove();
+				$('.front').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
+					$(appendedContent).appendTo($( "#insertion-point" ));
+				});
+			}
 		}
 	};
 	console.clear()
