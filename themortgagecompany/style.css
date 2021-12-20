@@ -367,11 +367,15 @@ margin-bottom: 60px;
 	padding: 20px;
 	margin-top: -30px;
 	margin-bottom: 100px;
+	border-radius: 2%;
 }
 .team-member-information {
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 30px;
+}
+.manager-information .team-member-information {
+	margin-bottom: -29px;
 }
 .team-member-basics {
 	display: flex;
@@ -407,7 +411,7 @@ margin-bottom: 60px;
 	order: -1;
 }
 .contact-tmc-buttons {
-	margin-top: 13px;
+	margin-top: 0;
 	border-bottom: 1px solid rgba(0,0,0,.06);
 	margin-bottom: 15px;
 	padding-bottom: 15px;
@@ -416,6 +420,7 @@ margin-bottom: 60px;
   border-bottom: 0;
   padding-bottom: 0;
 }
+
 .team-member:last-of-type .contact-tmc-buttons {
 	border-bottom: none;
 }
