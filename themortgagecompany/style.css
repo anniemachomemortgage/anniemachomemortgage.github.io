@@ -348,17 +348,16 @@ footer {
 	font-family: 'Inter', sans-serif;
 }
 #insertion-point h3 {
-  font-size: 30px;
-  margin-bottom: 40px;
-  font-weight: 700;
-  color: var(--greenish);
+font-size: 42px;
+margin-bottom: 60px;
+font-weight: 800;
+color: var(--greenish);
 }
 #insertion-point h3.text-center {
 font-size: 29px;
 font-weight: 600;
 color: var(--orange);
-margin-bottom: 40px;
-text-align: center;
+margin-bottom: 60px;
 }
 #insertion-point h3.text-center:nth-of-type(3) {
 	margin-top: 50px;
