@@ -1199,3 +1199,7 @@ commentcontainer h4 {
 		align-items: flex-end;
 	}
 }
+
+.state {
+	font-family: 'StateFaceRegular';
+}
