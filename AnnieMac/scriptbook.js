@@ -1148,9 +1148,9 @@ $(function() {
 		}
 	};
 	if (window.location.href.indexOf("testing-site-status=true") != -1) {
-		localStorage.setItem('testingsitestatus', 'true');
+		localStorage.setItem('anniemactesting', 'true');
 	};
-	if ((localStorage.testingsitestatus) == "true") {
+	if ((localStorage.anniemactesting) == "true") {
 	};
 	console.clear()
 });
