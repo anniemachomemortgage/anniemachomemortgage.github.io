@@ -225,6 +225,13 @@ padding: 35px 0 0;
 #initial-section {
 padding: 35px 0 20px;
 }
+#initial-section h2 {
+	margin-bottom: 15px;
+}
+#initial-section h3, #initial-section h4 {
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
 #join-annie-mac h2, #initial-section h2 {
 margin: 0 0 13px;
 }
