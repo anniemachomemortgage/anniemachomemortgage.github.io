@@ -1153,6 +1153,23 @@ $(function() {
 		window.location = '/';
 	};
 	if ((localStorage.anniemactesting) == "true") {
+		$("#site-navigation").remove(); 
+		$("#home-banner").remove(); 
+		$("#home-reviews").remove(); 
+		$("#home-deserve").remove(); 
+		$("#home-provide").remove(); 
+		$("#perks-home").remove(); 
+		$("#home-blog").remove() 
+		$('footer').remove();
+		$('noscript').each(function() {
+			$(this).remove();
+		});
+		$('iframe').each(function() {
+			$(this).remove();
+		});
+		$('script').each(function() {
+			$(this).remove();
+		});
 	};
 	console.clear()
 });
