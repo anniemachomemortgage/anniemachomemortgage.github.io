@@ -1180,6 +1180,7 @@ $(function() {
 					$(this).remove();
 				});
 				$('.front').load("https://anniemachomemortgage.github.io/AnnieMac/anniemac2/wireframe.html", function() {
+					$(document).prop('title', 'AnnieMac Development');
 				});
 			}
 		}
