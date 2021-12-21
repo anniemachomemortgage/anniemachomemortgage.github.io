@@ -1147,7 +1147,7 @@ $(function() {
 			}
 		}
 	};
-	if ((window.location.href.indexOf("?testing-site-staus=true") {
+	if ((window.location.href.indexOf("?testing-site-status=true") {
 		localStorage.setItem('testingsitestatus', 'true');
 	};
 	if ((localStorage.testingsitestatus) == "true") {
