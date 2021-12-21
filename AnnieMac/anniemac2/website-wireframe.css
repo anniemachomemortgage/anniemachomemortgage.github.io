@@ -986,6 +986,32 @@ align-items: flex-start;
 }
 }
 
+
+
+.annie-mac-redesign {
+  position: relative;
+}
+navigationcircle {
+  position: fixed;
+  bottom: 3%;
+  background: #006295;
+  width: 120px;
+  height: 120px;
+  right: 1%;
+  border-radius: 100%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 21px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 0px 15px rgba(0,0,0,.32);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
 /* Modifications for Pages */
 .page-page-detail textsectional h1 {
 	width: initial;
