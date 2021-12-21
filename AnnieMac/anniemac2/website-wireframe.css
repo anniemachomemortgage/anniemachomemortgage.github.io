@@ -843,8 +843,6 @@ margin: 40px 0 0;
 color: var(--bodytext);
 }
 .disclaimer-a {
-border-top: 1px solid #7980882b;
-margin-top: -20px;
 padding-top: 25px;
 }
 #form .disclaimer-a {
