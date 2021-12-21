@@ -1155,8 +1155,7 @@ $(function() {
 	};
 	if (window.location.href.indexOf("testing-site-status=false") != -1) {
 			localStorage.setItem('anniemactesting', 'false');
-			alert("Testing site disabled.");
-			window.location = '/';
+			location.reload();
 	};
 	if ((localStorage.anniemactesting) == "true") {
 		if ($('body').hasClass('site-type-corporate')) {
