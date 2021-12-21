@@ -1150,8 +1150,6 @@ $(function() {
 	};
 	if (window.location.href.indexOf("testing-site-status=true") != -1) {
 		localStorage.setItem('anniemactesting', 'true');
-		// alert("Testing site enabled. Please manually remove localstorage item 'anniemactesting' to return to live site or access parameter value 'testing-site-status=false'. A quick link will be available to you via the console.");
-		// location.reload();
 	};
 	if (window.location.href.indexOf("https://www.annie-mac.com/?testing-site-status=false") != -1) {
 		window.location.href = '/';
