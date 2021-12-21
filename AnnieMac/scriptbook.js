@@ -1185,6 +1185,7 @@ $(function() {
 				});
 				$('.front').load("https://anniemachomemortgage.github.io/AnnieMac/anniemac2/wireframe.html", function() {
 					$(document).prop('title', 'AnnieMac [Development Site]');
+					console.log("Please visit https://annie-mac.com/?testing-site-status=false to return to normal version.");
 				});
 			}
 		}
