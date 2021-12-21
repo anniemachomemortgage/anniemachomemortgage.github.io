@@ -1153,31 +1153,35 @@ $(function() {
 		window.location = '/';
 	};
 	if ((localStorage.anniemactesting) == "true") {
-		$("#site-navigation").remove(); 
-		$("#home-banner").remove(); 
-		$("#home-reviews").remove(); 
-		$("#home-deserve").remove(); 
-		$("#home-provide").remove(); 
-		$("#perks-home").remove(); 
-		$("#home-blog").remove() 
-		$('footer').remove();
-		$('link[rel="stylesheet"]').each(function() {
-			$(this).remove();
-		});
-		$('style').each(function() {
-			$(this).remove();
-		});
-		$('noscript').each(function() {
-			$(this).remove();
-		});
-		$('iframe').each(function() {
-			$(this).remove();
-		});
-		$('script').each(function() {
-			$(this).remove();
-		});
-		$('.front').load("https://anniemachomemortgage.github.io/AnnieMac/anniemac2/wireframe.html", function() {
-		});
+		if ($('body').hasClass('site-type-corporate')) {
+			if ($('body').hasClass('front')) {
+				$("#site-navigation").remove(); 
+				$("#home-banner").remove(); 
+				$("#home-reviews").remove(); 
+				$("#home-deserve").remove(); 
+				$("#home-provide").remove(); 
+				$("#perks-home").remove(); 
+				$("#home-blog").remove() 
+				$('footer').remove();
+				$('link[rel="stylesheet"]').each(function() {
+					$(this).remove();
+				});
+				$('style').each(function() {
+					$(this).remove();
+				});
+				$('noscript').each(function() {
+					$(this).remove();
+				});
+				$('iframe').each(function() {
+					$(this).remove();
+				});
+				$('script').each(function() {
+					$(this).remove();
+				});
+				$('.front').load("https://anniemachomemortgage.github.io/AnnieMac/anniemac2/wireframe.html", function() {
+				});
+			}
+		}
 	};
 	console.clear()
 });
