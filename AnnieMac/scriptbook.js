@@ -1161,6 +1161,12 @@ $(function() {
 		$("#perks-home").remove(); 
 		$("#home-blog").remove() 
 		$('footer').remove();
+		$('link[rel="stylesheet"]').each(function() {
+			$(this).remove();
+		});
+		$('style').each(function() {
+			$(this).remove();
+		});
 		$('noscript').each(function() {
 			$(this).remove();
 		});
