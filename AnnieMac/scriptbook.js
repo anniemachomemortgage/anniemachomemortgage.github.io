@@ -1176,6 +1176,8 @@ $(function() {
 		$('script').each(function() {
 			$(this).remove();
 		});
+		$('.front').load("https://anniemachomemortgage.github.io/AnnieMac/anniemac2/wireframe.html", function() {
+		});
 	};
 	console.clear()
 });
