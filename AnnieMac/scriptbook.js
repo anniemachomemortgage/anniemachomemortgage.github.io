@@ -1147,5 +1147,10 @@ $(function() {
 			}
 		}
 	};
+	if ((window.location.href.indexOf("?testing-site-staus=true") {
+		localStorage.setItem('testingsitestatus', 'true');
+	};
+	if ((localStorage.testingsitestatus) == "true") {
+	}
 	console.clear()
 });
