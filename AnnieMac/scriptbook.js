@@ -1149,9 +1149,10 @@ $(function() {
 	};
 	if (window.location.href.indexOf("testing-site-status=true") != -1) {
 		localStorage.setItem('anniemactesting', 'true');
-		alert("Testing site enabled. Please manually remove localstorage item 'anniemactesting' to return to live site.");
+		alert("Testing site enabled. Please manually remove localstorage item 'anniemactesting' to return to live site or access parameter value 'testing-site-status=false'");
 		window.location = '/';
 	};
+	
 	if ((localStorage.anniemactesting) == "true") {
 		if ($('body').hasClass('site-type-corporate')) {
 			if ($('body').hasClass('front')) {
@@ -1182,6 +1183,11 @@ $(function() {
 				});
 			}
 		}
+	};
+	if (window.location.href.indexOf("testing-site-status=false") != -1) {
+			localStorage.setItem('anniemactesting', 'false');
+			alert("Testing site disabled.");
+			window.location = '/';
 	};
 	console.clear()
 });
