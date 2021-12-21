@@ -983,6 +983,7 @@ align-items: flex-start;
 }
 }
 
+/* Modifications for Pages */
 .page-page-detail header {
 	max-height: 420px;
 }
