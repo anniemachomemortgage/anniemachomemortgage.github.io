@@ -1191,6 +1191,7 @@ $(function() {
 			}
 			if ($('body').hasClass('page-page-detail')) {
 				var appendedContent = $(".content-detail").html();
+				var pageTitle = $('.text-content > h3:nth-of-type(1)').text();
 				$("#site-navigation").remove(); 
 				$("#home-banner").remove(); 
 				$("#home-reviews").remove(); 
@@ -1218,6 +1219,7 @@ $(function() {
 					$(document).prop('title', 'AnnieMac [Development Site]');
 					console.log("Please visit https://annie-mac.com/?testing-site-status=false to return to normal version.");
 					$(appendedContent).appendTo($( "#drop-content" ));
+					$('#headline').text(pageTitle);
 				});
 			};
 		}
