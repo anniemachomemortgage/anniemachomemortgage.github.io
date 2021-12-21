@@ -232,6 +232,9 @@ padding: 35px 0 10px;
 	margin-top: 25px;
 	margin-bottom: 10px;
 }
+.sectional h5 {
+	font-weight: 300;
+}
 #join-annie-mac h2, .sectional h2 {
 margin: 0 0 13px;
 }
