@@ -1151,6 +1151,6 @@ $(function() {
 		localStorage.setItem('testingsitestatus', 'true');
 	};
 	if ((localStorage.testingsitestatus) == "true") {
-	}
+	};
 	console.clear()
 });
