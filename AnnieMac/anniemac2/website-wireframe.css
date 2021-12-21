@@ -974,6 +974,3 @@ justify-content: flex-start;
 align-items: flex-start;
 }
 }
-body > footer {
-display: none;
-}
