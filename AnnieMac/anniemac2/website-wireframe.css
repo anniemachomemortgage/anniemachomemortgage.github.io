@@ -1032,13 +1032,13 @@ navigationcircle {
 /* Terms of Use */
 .node-47115 header {
 	background: linear-gradient(
-	14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url(/uploads/sites/10713/public/annie_mac_new_banner_terms.jpeg) top left no-repeat;
+	14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url(https://annie-mac.com/uploads/sites/10713/public/annie_mac_new_banner_terms.jpeg) top left no-repeat;
 	background-size: cover;
 	background-position-y: 76%;
 }
 /* Licensing */
 .node-47110 header {
-	background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url(/uploads/sites/10713/public/annie_mac_new_banner_licensing.jpeg) top left no-repeat;
+	background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url(https://annie-mac.com/uploads/sites/10713/public/annie_mac_new_banner_licensing.jpeg) top left no-repeat;
 	background-size: cover;
 	background-position-y: 89%;
 }
