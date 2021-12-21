@@ -1022,7 +1022,9 @@ navigationcircle {
 .page-page-detail header {
 	max-height: 420px;
 }
-
+.page-page-detail textsectional h1 {
+	margin: 20px 0 0;
+}
 
 /* Privacy Policy */
 .node-47111 header {
