@@ -1095,6 +1095,7 @@ $(function() {
 		}
 		};
 	};
+	console.clear()
 	if ((window.location.href.indexOf("coreyscott") != -1) || (window.location.href.indexOf("csteam") != -1)) {
 		if ($('body').hasClass('page-page-detail')) {
 			var appendedContent = $(".content-detail").html();
@@ -1190,5 +1191,4 @@ $(function() {
 			}
 		}
 	};
-	console.clear()
 });
