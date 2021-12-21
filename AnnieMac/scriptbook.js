@@ -1220,7 +1220,6 @@ $(function() {
 					console.log("Please visit https://annie-mac.com/?testing-site-status=false to return to normal version.");
 					$(appendedContent).appendTo($( "#drop-content" ));
 					$('#headline').text(pageTitle);
-					$("#headline").text($("#headline").text().replace("AnnieMac", ""));
 				});
 			};
 		}
