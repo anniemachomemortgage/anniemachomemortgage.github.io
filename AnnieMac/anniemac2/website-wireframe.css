@@ -987,6 +987,9 @@ align-items: flex-start;
 }
 
 /* Modifications for Pages */
+.page-page-detail textsectional h1 {
+	width: initial;
+}
 .page-page-detail #initial-section {
 	padding-top: 5px;
 }
