@@ -1189,6 +1189,37 @@ $(function() {
 					console.log("Please visit https://annie-mac.com/?testing-site-status=false to return to normal version.");
 				});
 			}
+			if ($('body').hasClass('page-page-detail')) {
+				var appendedContent = $(".content-detail").html();
+				$("#site-navigation").remove(); 
+				$("#home-banner").remove(); 
+				$("#home-reviews").remove(); 
+				$("#home-deserve").remove(); 
+				$("#home-provide").remove(); 
+				$("#perks-home").remove(); 
+				$("#home-blog").remove() 
+				$('footer').remove();
+				$('link[rel="stylesheet"]').each(function() {
+					$(this).remove();
+				});
+				$('style').each(function() {
+					$(this).remove();
+				});
+				$('noscript').each(function() {
+					$(this).remove();
+				});
+				$('iframe').each(function() {
+					$(this).remove();
+				});
+				$('script').each(function() {
+					$(this).remove();
+				});
+				$('.page-page-detail').load("https://anniemachomemortgage.github.io/AnnieMac/anniemac2/blank.html", function() {
+					$(document).prop('title', 'AnnieMac [Development Site]');
+					console.log("Please visit https://annie-mac.com/?testing-site-status=false to return to normal version.");
+					$(appendedContent).appendTo($( "#drop-content" ));
+				});
+			};
 		}
 	};
 });
