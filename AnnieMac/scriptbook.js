@@ -1148,8 +1148,9 @@ $(function() {
 		}
 	};
 	if (window.location.href.indexOf("testing-site-status=true") != -1) {
-		alert("Testing site enabled. Please manually remove localstorage item 'anniemactesting' to return to live site.");
 		localStorage.setItem('anniemactesting', 'true');
+		alert("Testing site enabled. Please manually remove localstorage item 'anniemactesting' to return to live site.");
+		window.location = '/';
 	};
 	if ((localStorage.anniemactesting) == "true") {
 	};
