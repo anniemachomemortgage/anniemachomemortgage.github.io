@@ -203,6 +203,16 @@ $(function() {
 			var subdomain = domain.replace('.annie-mac.com', '').replace('.themtgco.com', '').replace('https://', '').replace('/loan/apply', '').replace('http://', '') + "-branch-listing";
 			(this).id = subdomain;
 		});
+		$( "#drop-content h3" ).each(function() {
+		  $( this ).addClass( "state-listing" );
+		});
+		$('.state-listing').each(function(){
+			$(this).next('.location-state-list').andSelf().wrapAll('<div class="state-listing-section"/>');
+		});
+		$(".state-listing-section").each(function() {
+			var stateName = $(this).find("h3").text();
+			$(this).attr("id", stateName);
+		});
 	};
 	if ($('body').hasClass('site-type-team')) {	
 		const branchmanager = $(".manager-information");
