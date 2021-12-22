@@ -1254,26 +1254,25 @@ $(function() {
 					$(appendedContent).appendTo($( "#drop-content" ));
 					$('#headline').text("Branch Locations");
 				});
-				// Assign IDs where needed, arrange alphabetically.
-				if (document.URL.indexOf("/branch") >= 0) { 
-					$( "#drop-content h3" ).each(function() {
-					  $( this ).addClass( "state-listing" );
-					});
-					$('.state-listing').each(function(){
-						$(this).next('.location-state-list').andSelf().wrapAll('<div class="state-listing-section"/>');
-					});
-					$(".state-listing-section").each(function() {
-						var stateName = $(this).find("h3").text();
-						$(this).attr("id", stateName);
-					});
-					$('.state-listing-section').sort(function(a, b) {
-					  if (a.textContent < b.textContent) {
-						return -1;
-					  } else {
-						return 1;
-					  }
-					}).appendTo('#drop-content');
-				};
+			};
+			if (window.location.href.indexOf("/branch") != -1) {
+				$( "#drop-content h3" ).each(function() {
+				  $( this ).addClass( "state-listing" );
+				});
+				$('.state-listing').each(function(){
+					$(this).next('.location-state-list').andSelf().wrapAll('<div class="state-listing-section"/>');
+				});
+				$(".state-listing-section").each(function() {
+					var stateName = $(this).find("h3").text();
+					$(this).attr("id", stateName);
+				});
+				$('.state-listing-section').sort(function(a, b) {
+				  if (a.textContent < b.textContent) {
+					return -1;
+				  } else {
+					return 1;
+				  }
+				}).appendTo('#drop-content');
 			};
 			if ($('body').hasClass('page-blog-list')) {
 				var appendedContent = $(".blog-index").html();
