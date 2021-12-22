@@ -1062,14 +1062,11 @@ navigationcircle {
 #drop-content p {
 	margin-bottom: 19px;
 }
-.page-branch-list h3:first-of-type {
-	border-top: none;
-	padding-top: 25px;
-}
 .page-branch-list h3 {
 	font-size: 32px;
-	border-top: 1px solid #7980882b;
-	padding-top: 40px;
+	border-bottom: 1px solid #7980882b;
+	padding-bottom: 20px;
+	margin-top: 45px;
 }
 .location-state-list {
   display: flex;
@@ -1096,7 +1093,7 @@ navigationcircle {
 }
 .location-listing p strong {
 	color: var(--bodytext);
-	font-size: 17px;
+	font-size: 16px;
 	font-weight: 300;
 }
 .location-listing > p:last-of-type {
