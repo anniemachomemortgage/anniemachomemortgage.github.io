@@ -1042,7 +1042,7 @@ navigationcircle {
 .sitemap-section ul li a {
 	font-weight: 400;
 }
-/* Modifications for Pages */
+/* Modifications for Pages and Branch Display*/
 .page-page-detail textsectional h1, .page-branch-list textsectional h1 {
 	width: initial;
 }
@@ -1061,6 +1061,30 @@ navigationcircle {
 }
 #drop-content p {
 	margin-bottom: 19px;
+}
+.location-state-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-state-list div {
+  width: 50%;
+}
+.location-listing h4 a {
+	margin-top: 25px;
+	margin-bottom: 10px;
+	color: var(--bodytext);
+	font-size: 18px;
+	font-weight: 300;
+}
+.location-listing a p {
+	margin: 21px 0;
+	line-height: 9px;
+}
+.location-listing p strong {
+	color: var(--bodytext);
+	font-size: 17px;
+	font-weight: 300;
 }
 /* About Us */
 .node-160703 header {
