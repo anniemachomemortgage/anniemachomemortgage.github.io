@@ -1253,23 +1253,6 @@ $(function() {
 					console.log("Please visit https://annie-mac.com/?testing-site-status=false to return to normal version.");
 					$(appendedContent).appendTo($( "#drop-content" ));
 					$('#headline').text("Branch Locations");
-					$( "#drop-content h3" ).each(function() {
-					  $( this ).addClass( "state-listing" );
-					});
-					$('.state-listing').each(function(){
-						$(this).next('.location-state-list').andSelf().wrapAll('<div class="state-listing-section"/>');
-					});
-					$(".state-listing-section").each(function() {
-						var stateName = $(this).find("h3").text();
-						$(this).attr("id", stateName);
-					});
-					$('.state-listing-section').sort(function(a, b) {
-					  if (a.textContent < b.textContent) {
-						return -1;
-					  } else {
-						return 1;
-					  }
-					}).appendTo('#drop-content');
 				});
 			};
 			// if (window.location.href.indexOf("/branch") != -1) {
@@ -1324,5 +1307,24 @@ $(function() {
 				});
 			};
 		}
+		if (window.location.href.indexOf("/branch") != -1) {
+			$( "#drop-content h3" ).each(function() {
+		  	$( this ).addClass( "state-listing" );
+			});
+			$('.state-listing').each(function(){
+				$(this).next('.location-state-list').andSelf().wrapAll('<div class="state-listing-section"/>');
+			});
+			$(".state-listing-section").each(function() {
+				var stateName = $(this).find("h3").text();
+				$(this).attr("id", stateName);
+			});
+			$('.state-listing-section').sort(function(a, b) {
+		  	if (a.textContent < b.textContent) {
+				return -1;
+		  	} else {
+				return 1;
+		  	}
+			}).appendTo('#drop-content');
+		};
 	};
 });
