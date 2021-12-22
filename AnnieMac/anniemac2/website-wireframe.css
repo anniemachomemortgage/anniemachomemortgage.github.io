@@ -263,6 +263,9 @@ color: var(--bodytext);
 footer {
 margin-top: 40px;
 }
+.page-page-detail footer {
+	margin-top: 15px;
+}
 #footer-callout {
 text-align: center;
 margin: 20px 0 5px;
