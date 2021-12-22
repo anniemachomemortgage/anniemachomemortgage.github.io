@@ -1287,7 +1287,7 @@ $(function() {
 					$(document).prop('title', 'AnnieMac [Development Site]');
 					console.log("Please visit https://annie-mac.com/?testing-site-status=false to return to normal version.");
 					$(appendedContent).appendTo($( "#drop-content" ));
-					$('#headline').text("Branch Locations");
+					$('#headline').text("Blogs");
 				});
 			};
 		}
