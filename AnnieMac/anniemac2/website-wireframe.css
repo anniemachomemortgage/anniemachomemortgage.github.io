@@ -1014,13 +1014,15 @@ navigationcircle {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-.sitemap-section ul:first-of-type {
+.sitemap-section ul {
 	display: flex;
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 	justify-content: space-between;
-	width: 235px;
+}
+.sitemap-section ul li {
+	width: 200px;
 }
 .sitemap-section strong {
 	color: var(--bodytext);
