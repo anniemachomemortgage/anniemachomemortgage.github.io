@@ -1099,6 +1099,10 @@ navigationcircle {
 	width: 24%;
 	margin: 0 6.25px 15px;
 }
+.related-links-to-section ul li a {
+	color: var(--bodytext);
+	font-weight: 400;
+}
 .location-state-list {
   display: flex;
   justify-content: space-between;
