@@ -1102,6 +1102,12 @@ navigationcircle {
 .location-listing h4 a:hover, .location-listing p a:hover {
 	border-bottom: none;
 }
+/* Branch Listing */
+.page-branch-list header {
+  background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url('https://annie-mac.com/uploads/sites/10713/public/annie_mac_new_banner_branches.jpeg') top left no-repeat;
+  background-size: cover;
+  background-position-y: 17%;
+}
 /* About Us */
 .node-160703 header {
 	background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url(https://annie-mac.com/uploads/sites/10713/public/annie_mac_new_banner_about.jpeg) top center no-repeat;
