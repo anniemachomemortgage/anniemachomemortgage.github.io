@@ -213,6 +213,13 @@ $(function() {
 			var stateName = $(this).find("h3").text();
 			$(this).attr("id", stateName);
 		});
+		$('.state-listing-section').sort(function(a, b) {
+		  if (a.textContent < b.textContent) {
+			return -1;
+		  } else {
+			return 1;
+		  }
+		}).appendTo('#drop-content');
 	};
 	if ($('body').hasClass('site-type-team')) {	
 		const branchmanager = $(".manager-information");
