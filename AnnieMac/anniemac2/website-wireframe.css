@@ -1044,16 +1044,16 @@ navigationcircle {
 	font-weight: 400;
 }
 /* Modifications for Pages and Branch Display*/
-.page-page-detail textsectional h1, .page-branch-list textsectional h1 {
+.page-page-detail textsectional h1, .page-branch-list textsectional h1, .page-blog-list textsectional h1 {
 	width: initial;
 }
-.page-page-detail #initial-section, .page-branch-list #initial-section {
+.page-page-detail #initial-section, .page-branch-list #initial-section, .page-blog-list #initial-section {
 	padding-top: 5px;
 }
-.page-page-detail header, .page-branch-list header {
+.page-page-detail header, .page-branch-list header, .page-blog-list header {
 	max-height: 420px;
 }
-.page-page-detail textsectional h1, .page-branch-list textsectional h1 {
+.page-page-detail textsectional h1, .page-branch-list textsectional h1, .page-blog-list textsectional h1 {
 	margin: 20px 0 0;
 }
 #drop-content .text-content h3:not(:nth-of-type(1)) {
