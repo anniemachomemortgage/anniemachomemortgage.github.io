@@ -195,32 +195,6 @@ $(function() {
 		$("#we-provide-more-master > h3").text(firstname[0] + ' Provides...');
 		$("#biography > div.manager-biography > h2").text('About ' + firstname[0]);
 	};
-	// Assign IDs where needed, arrange alphabetically.
-	if (document.URL.indexOf("/branch") >= 0) { 
-		const locationBranch = $(".location-listing");
-		$( locationBranch ).each(function() {
-			var domain = $(this).find( "h4 > a" ).attr('href');
-			var subdomain = domain.replace('.annie-mac.com', '').replace('.themtgco.com', '').replace('https://', '').replace('/loan/apply', '').replace('http://', '') + "-branch-listing";
-			(this).id = subdomain;
-		});
-		$( "#drop-content h3" ).each(function() {
-		  $( this ).addClass( "state-listing" );
-		});
-		$('.state-listing').each(function(){
-			$(this).next('.location-state-list').andSelf().wrapAll('<div class="state-listing-section"/>');
-		});
-		$(".state-listing-section").each(function() {
-			var stateName = $(this).find("h3").text();
-			$(this).attr("id", stateName);
-		});
-		$('.state-listing-section').sort(function(a, b) {
-		  if (a.textContent < b.textContent) {
-			return -1;
-		  } else {
-			return 1;
-		  }
-		}).appendTo('#drop-content');
-	};
 	if ($('body').hasClass('site-type-team')) {	
 		const branchmanager = $(".manager-information");
 		$( branchmanager ).each(function() {
@@ -1274,6 +1248,32 @@ $(function() {
 					$(appendedContent).appendTo($( "#drop-content" ));
 					$('#headline').text("Branch Locations");
 				});
+				// Assign IDs where needed, arrange alphabetically.
+				if (document.URL.indexOf("/branch") >= 0) { 
+					const locationBranch = $(".location-listing");
+					$( locationBranch ).each(function() {
+						var domain = $(this).find( "h4 > a" ).attr('href');
+						var subdomain = domain.replace('.annie-mac.com', '').replace('.themtgco.com', '').replace('https://', '').replace('/loan/apply', '').replace('http://', '') + "-branch-listing";
+						(this).id = subdomain;
+					});
+					$( "#drop-content h3" ).each(function() {
+					  $( this ).addClass( "state-listing" );
+					});
+					$('.state-listing').each(function(){
+						$(this).next('.location-state-list').andSelf().wrapAll('<div class="state-listing-section"/>');
+					});
+					$(".state-listing-section").each(function() {
+						var stateName = $(this).find("h3").text();
+						$(this).attr("id", stateName);
+					});
+					$('.state-listing-section').sort(function(a, b) {
+					  if (a.textContent < b.textContent) {
+						return -1;
+					  } else {
+						return 1;
+					  }
+					}).appendTo('#drop-content');
+				};
 			};
 			if ($('body').hasClass('page-blog-list')) {
 				var appendedContent = $(".blog-index").html();
