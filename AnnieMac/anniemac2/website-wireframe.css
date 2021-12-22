@@ -1027,6 +1027,8 @@ navigationcircle {
 	margin: 0;
 	font-weight: 400;
 	font-size: 17px;
+	display: block;
+	margin-bottom: 5px;
 }
 .sitemap-section ul li ul {
 	display: flex;
