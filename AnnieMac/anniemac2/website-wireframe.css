@@ -1138,9 +1138,20 @@ navigationcircle {
   padding: 0;
   margin: 0;
 }
+.sidebar_items .block h3 {
+	color: var(--bodytext);
+	margin-top: 20px;
+	font-weight: 400;
+	font-size: 17px;
+	display: block;
+	margin-bottom: 5px;
+}
 .sidebar_items .block:nth-of-type(3) ul {
 	display: flex;
 	flex-direction: column-reverse;
+}
+.sidebar_items .block ul li a {
+	font-weight: 400;
 }
 .sidebar_items .block:nth-of-type(3) ul li:nth-last-child(n+11) {
 	display: none;
