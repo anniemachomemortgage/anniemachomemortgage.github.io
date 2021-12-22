@@ -992,7 +992,6 @@ align-items: flex-start;
 #cta2 {
 	margin-left: 25px;
 }
-
 .annie-mac-redesign {
   position: relative;
 }
@@ -1015,8 +1014,27 @@ navigationcircle {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-
-
+.sitemap-section ul:first-of-type {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	justify-content: space-between;
+	width: 235px;
+}
+.sitemap-section strong {
+	color: var(--bodytext);
+	margin: 0;
+	font-weight: 400;
+	font-size: 17px;
+}
+.sitemap-section ul li ul {
+	display: flex;
+	flex-direction: column;
+}
+.sitemap-section ul li a {
+	font-weight: 400;
+}
 /* Modifications for Pages */
 .page-page-detail textsectional h1 {
 	width: initial;
