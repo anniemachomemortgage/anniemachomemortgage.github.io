@@ -1108,11 +1108,14 @@ navigationcircle {
 }
 
 /* Blog Stuff */
-.pager {
-	max-width: 1250px;
-	margin: 0 auto;
-	padding: 20px 0;
-	width: 90%;
+.blog .inner {
+  display: none;
+}
+.pagination ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 600px;
 }
 .content-list.blog {
 	display: flex;
