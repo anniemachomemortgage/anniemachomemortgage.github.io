@@ -1175,6 +1175,12 @@ navigationcircle {
 	background-size: cover;
 	background-position-y: 66%;
 }
+/* USDA */
+.node-160877 header {
+	background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url('https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+	background-size: cover;
+	background-position-y: 100%;
+}
 /* Blog Listing */
 .page-blog-list header {
 	background-size: cover;
