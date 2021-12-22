@@ -1150,6 +1150,9 @@ navigationcircle {
 	display: flex;
 	flex-direction: column-reverse;
 }
+.sidebar_items .block ul li {
+	color: transparent;
+}
 .sidebar_items .block ul li a {
 	font-weight: 400;
 }
