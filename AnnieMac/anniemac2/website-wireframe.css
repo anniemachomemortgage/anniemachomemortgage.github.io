@@ -1089,7 +1089,7 @@ navigationcircle {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: initial;
 }
 .related-links-to-section ul li {
 	background: #e3e6e9;
@@ -1097,7 +1097,7 @@ navigationcircle {
 	border-radius: 3px;
 	border-left: 20px solid #0495f4;
 	width: 24%;
-	margin: 0 0 15px;
+	margin: 0 6.25px 15px;
 }
 .location-state-list {
   display: flex;
