@@ -1085,8 +1085,19 @@ navigationcircle {
 }
 .related-links-to-section ul {
   list-style: none;
-  margin: 0;
+  margin: 15px 0 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.related-links-to-section ul li {
+	background: #e3e6e9;
+	padding: 5px 35px;
+	border-radius: 3px;
+	border-left: 20px solid #0495f4;
+	width: 24%;
+	margin: 0 0 15px;
 }
 .location-state-list {
   display: flex;
