@@ -398,6 +398,12 @@ $(function() {
 		};
 	};
 	if (window.location.href.indexOf("/branch") != -1) {
+		const locationBranch = $(".location-listing");
+		$( locationBranch ).each(function() {
+			var domain = $(this).find( "h4 > a" ).attr('href');
+			var subdomain = domain.replace('.annie-mac.com', '').replace('.themtgco.com', '').replace('https://', '').replace('/loan/apply', '').replace('http://', '') + "-branch-listing";
+			(this).id = subdomain;
+		});
 		$("h3:contains('Wisconsin')").hide();
 		$('#coloradosprings-branch-listing').hide();
 		$('#towson-branch-listing').hide();
