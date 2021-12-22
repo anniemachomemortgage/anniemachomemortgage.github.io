@@ -1065,8 +1065,8 @@ navigationcircle {
 .location-state-list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
-
 .location-state-list div {
   width: 50%;
 }
@@ -1078,13 +1078,20 @@ navigationcircle {
 	font-weight: 300;
 }
 .location-listing a p {
+	color: var(--linkblue);
+	text-decoration: none;
+	font-weight: 600;
 	margin: 21px 0;
 	line-height: 9px;
+	display: block;
 }
 .location-listing p strong {
 	color: var(--bodytext);
 	font-size: 17px;
 	font-weight: 300;
+}
+.location-listing p a:hover {
+	border-bottom: none;
 }
 /* About Us */
 .node-160703 header {
