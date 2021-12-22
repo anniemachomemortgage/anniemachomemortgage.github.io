@@ -1164,12 +1164,24 @@ navigationcircle {
 .block.recent-blogs {
 	order: -1;
 }
-/* Branch Listing */
+/* General Pages */
+.page-page-detail header {
+	background: linear-gradient(177deg, rgb(23 16 5 / 52%) 30%, rgba(26, 29, 36, 0.83) 80%), url('https://images.unsplash.com/photo-1610569244414-5e7453a447a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80');
+	background-position-y: 71%;
+	background-size: cover;
+}
+.node-160876 header {
+	background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url('https://images.pexels.com/photos/1550342/pexels-photo-1550342.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+	background-size: cover;
+	background-position-y: 66%;
+}
+/* Blog Listing */
 .page-blog-list header {
 	background-size: cover;
 	background: linear-gradient(177deg, rgb(23 16 5 / 52%) 30%, rgba(26, 29, 36, 0.83) 80%), url('https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');
 	background-position-y: 74%;
 }
+/* Branch Listing */
 .page-branch-list header {
   background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url('https://annie-mac.com/uploads/sites/10713/public/annie_mac_new_banner_branches.jpeg') top left no-repeat;
   background-size: cover;
