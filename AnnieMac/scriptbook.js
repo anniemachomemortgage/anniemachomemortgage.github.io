@@ -195,7 +195,7 @@ $(function() {
 		$("#we-provide-more-master > h3").text(firstname[0] + ' Provides...');
 		$("#biography > div.manager-biography > h2").text('About ' + firstname[0]);
 	};
-	// Assign IDs where needed.
+	// Assign IDs where needed, arrange alphabetically.
 	if(document.URL.indexOf("/branch") >= 0){ 
 		const locationBranch = $(".location-listing");
 		$( locationBranch ).each(function() {
