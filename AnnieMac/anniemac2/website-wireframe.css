@@ -1221,6 +1221,10 @@ navigationcircle {
 	margin: 0 auto;
 	padding: 20px 0;
 	width: 90%;
+	flex-direction: column;
+}
+.pager {
+	margin: 0 auto;
 }
 .sidebar_items {
 	display: flex;
