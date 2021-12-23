@@ -33,7 +33,7 @@ display: flex;
 flex-direction: column;
 }
 a {
-color:  var(--linkblue);
+color:	var(--linkblue);
 text-decoration: none;
 font-weight: 600;
 }
@@ -712,16 +712,16 @@ font-size: 19px;
 }
 
 input[type="text"], input[type="tel"], input[type="email"], select, option {
-text-align: left;
-font-size: 16px;
-padding: 14px 15px;
--webkit-appearance: none;
--moz-appearance: none;
-border: 1px solid rgba(0,0,0,.3);
-box-shadow: 1px 1px 1px rgba(0,0,0,.03);
-outline: none;
-border-radius: 4px;
-margin: 3px 0 22px;
+	text-align: left;
+	font-size: 16px;
+	padding: 14px 15px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border: 1px solid rgba(0,0,0,.3);
+	box-shadow: 1px 1px 1px rgba(0,0,0,.03);
+	outline: none;
+	border-radius: 4px;
+	margin: 3px 0 22px;
 }
 textarea {
 	min-height: 230px;
@@ -729,334 +729,332 @@ textarea {
 	border-radius: 4px;
 }
 form small {
-  font-size: 17px;
-  font-weight: 200;
-  text-align: left;
-  margin: 40px 0 0;
-  color: var(--bodytext);
+	font-size: 17px;
+	font-weight: 200;
+	text-align: left;
+	margin: 40px 0 0;
+	color: var(--bodytext);
 }
 form label {
-  color: var(--bodytext);
-  font-size: 18px;
-  margin: 0 0 5px;
-  font-weight: 600;
+	color: var(--bodytext);
+	font-size: 18px;
+	margin: 0 0 5px;
+	font-weight: 600;
 }
 .form-pairing-container {
-  display: flex;
-  flex-direction: column;
-  width: 48.5%;
+	display: flex;
+	flex-direction: column;
+	width: 48.5%;
 }
 .form-end-grouping-container {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 .form-grouping-container {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  margin-bottom: 10px;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin-bottom: 10px;
 }
 #form #our-reviews {
-padding-top: 50px;
-margin-bottom: -50px;
-background: #fff;
-padding-bottom: 15px;
+	padding-top: 50px;
+	margin-bottom: -50px;
+	background: #fff;
+	padding-bottom: 15px;
 }
 select {
-background: #fff;
+	background: #fff;
 }
 .subset-header {
-margin-top: 15px;
+	margin-top: 15px;
 }
 .grouped-input {
-display: flex;
-width: 100%;
-justify-content: space-between;
-margin-bottom: 10px;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin-bottom: 10px;
 }
 .input-grouping {
-display: flex;
-flex-direction: column;
-width: 48.5%;
+	display: flex;
+	flex-direction: column;
+	width: 48.5%;
 }
 .initial-hidden {
-display: none;
+	display: none;
 }
 #form #footer-callout button {
-min-width: 200px;
+	min-width: 200px;
 }
 #faq-hub h2 span input {
-outline: none;
-border: none;
-border-bottom: 1px solid rgba(0,0,0,.12);
-font-size: 18px;
-color: #868686;
-font-weight: 200;
-min-width: 300px;
-border-radius:  0px;
-outline: none;
-box-shadow: none;
-margin-bottom: 0;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid rgba(0,0,0,.12);
+	font-size: 18px;
+	color: #868686;
+	font-weight: 200;
+	min-width: 300px;
+	border-radius:	0px;
+	outline: none;
+	box-shadow: none;
+	margin-bottom: 0;
 }
 #not-supported-state {
-margin-top: 0;
-margin-bottom: 40px;
-background: #e6e6e696;
-border-radius: 2px;
-padding: 10px 20px 22px;
-color: #555;
+	margin-top: 0;
+	margin-bottom: 40px;
+	background: #e6e6e696;
+	border-radius: 2px;
+	padding: 10px 20px 22px;
+	color: #555;
 }
 #not-supported-state h5 {
-margin: 7px 0 5px;
-font-weight: 400;
-font-size: 18px;
+	margin: 7px 0 5px;
+	font-weight: 400;
+	font-size: 18px;
 }
 #not-supported-state p {
-color: #393f45b8;
+	color: #393f45b8;
 }
 .list-cards {
-margin: 53px 0 0;
-list-style-type: none;
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-padding: 0;
-/* position: sticky;
-right: 0;
-top: 30px; */
+	margin: 53px 0 0;
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding: 0;
+	/* position: sticky;
+	right: 0;
+	top: 30px; */
 }
 .list-cards li {
-display: flex;
-flex-direction: column;
-width: 269px;
-background: #f2f2f285;
-margin: 0 8px 25px;
-justify-content: center;
-align-items: center;
-padding: 20px;
-text-align: center;
-color: #fff;
-border-radius: 5px;
-border-bottom: 2px solid rgba(0,0,0,.02);
+	display: flex;
+	flex-direction: column;
+	width: 269px;
+	background: #f2f2f285;
+	margin: 0 8px 25px;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	text-align: center;
+	color: #fff;
+	border-radius: 5px;
+	border-bottom: 2px solid rgba(0,0,0,.02);
 }
 .list-cards li i {
-font-size: 30px;
-margin: 15px;
-color: #585f65;
+	font-size: 30px;
+	margin: 15px;
+	color: #585f65;
 }
 .list-cards li:hover {
-cursor: pointer;
-box-shadow: 1px 3px 8px rgba(0,0,0,.12);
+	cursor: pointer;
+	box-shadow: 1px 3px 8px rgba(0,0,0,.12);
 }
 .list-cards li:hover h5, .list-cards li:hover i, .list-cards li:hover h6 {
-color: #0764a1;
+	color: #0764a1;
 }
 .active-filter {
-background: #bddbff52 !important;
-box-shadow: none !important;
-color: #0764a1 !important;
+	background: #bddbff52 !important;
+	box-shadow: none !important;
+	color: #0764a1 !important;
 }
 .active-filter h5, .active-filter h6 {
-color: #0764a1 !important;
+	color: #0764a1 !important;
 }
 .list-cards li h5 {
-font-weight: 400;
-color: #585f65;
-font-size: 15px;
+	font-weight: 400;
+	color: #585f65;
+	font-size: 15px;
 }
 .list-cards li h6 {
-font-weight: 200;
-color: #585f65;
-font-size: 14px;
-line-height: 18px;
-margin: 7px 0;
+	font-weight: 200;
+	color: #585f65;
+	font-size: 14px;
+	line-height: 18px;
+	margin: 7px 0;
 }
 .sidebars-together {
-display: flex;
-position: relative;
-justify-content: space-between;
+	display: flex;
+	position: relative;
+	justify-content: space-between;
 }
 .left-sidebar {
-padding-right: 30px;
+	padding-right: 30px;
 }
 .right-sidebar {
-order: 2;
-display: flex;
-flex-direction: column;
+	order: 2;
+	display: flex;
+	flex-direction: column;
 }
 #form footer {
-margin-top: 20px;
+	margin-top: 20px;
 }
 #form #footer-callout button {
-order: -1;
-margin: 0 auto ;
-transform: scale(1.2);
+	order: -1;
+	margin: 0 auto ;
+	transform: scale(1.2);
 }
 .disclaimer-text {
-font-size: 17px;
-font-weight: 200;
-text-align: left;
-margin: 40px 0 0;
-color: var(--bodytext);
+	font-size: 17px;
+	font-weight: 200;
+	text-align: left;
+	margin: 40px 0 0;
+	color: var(--bodytext);
 }
 .disclaimer-a {
-padding-top: 25px;
+	padding-top: 25px;
 }
 #form .disclaimer-a {
-margin-top: 30px;
-border-top: none;
-padding-top: 45px;
+	margin-top: 30px;
+	border-top: none;
+	padding-top: 45px;
 }
 .disclaimer-a p {
-margin-bottom: 25px;
+	margin-bottom: 25px;
 }
 .disclaimer-b {
-display: flex;
-align-items: center;
-margin-top: 25px;
-justify-content: space-between;
-border-top: 1px solid #7980882b;
-padding-top: 25px;
+	display: flex;
+	align-items: center;
+	margin-top: 25px;
+	justify-content: space-between;
+	border-top: 1px solid #7980882b;
+	padding-top: 25px;
 }
 .link-footer-sub ul {
-display: flex;
-list-style-type: none;
-margin: 0;
-width: 625px;
-justify-content: space-between;
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	width: 625px;
+	justify-content: space-between;
 }
 .equal-housing {
-opacity: .4;
+	opacity: .4;
 }
 .link-footer-sub li a {
-font-weight: 400;
+	font-weight: 400;
 }
 .link-footer-sub li a:hover {
-color: #005480;
-border-bottom: none !important;
+	color: #005480;
+	border-bottom: none !important;
 }
 #equal-housing-logo {
-width: 45px;
+	width: 45px;
 }
 stepnumber {
-background: #bcdafb;
-color: #3d99e2;
-border: 2px solid #3d99e2;
-padding: 20px;
-width: 60px;
-height: 60px;
-display: flex;
-justify-content: center;
-align-items: center;
-font-weight: 800;
-border-radius: 100%;
-font-size: 22px;
-margin-right: 15px;
+	background: #bcdafb;
+	color: #3d99e2;
+	border: 2px solid #3d99e2;
+	padding: 20px;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 800;
+	border-radius: 100%;
+	font-size: 22px;
+	margin-right: 15px;
 }
 cardfeaturette a:hover {
-border-bottom: none;
+	border-bottom: none;
 }
 @media only screen and (max-width: 870px) {
-#annie-mac-logo {
-width: 253px;
-} 
-textsectional h1, textsectional p, commentcontainer, .input-grouping, cardfeaturette {
-width: 100% !important;
-overflow-x: hidden !important;
+	#annie-mac-logo {
+		width: 253px;
+	} 
+	textsectional h1, textsectional p, commentcontainer, .input-grouping, cardfeaturette {
+		width: 100% !important;
+		overflow-x: hidden !important;
+	}
+	textsectional h1 {
+		font-size: 48px;
+		line-height: 60px;
+		margin-top: 0;
+	}
+	textsectional p {
+		margin: 0 0 5px;
+		font-size: 16px;
+	}
+	header textsectional {
+		padding-right: 0;
+		min-width: 100% !important;
+		overflow-x: hidden !important;
+	}
+	cardfeaturette:first-of-type {
+		margin-bottom: 70px;
+	}
+	cardfeaturettes, .grouped-input, .sidebars-together, .faq-title-sectional {
+		flex-direction: column;
+	}
+	.faq-title-sectional {
+		margin: -10px 0 30px;
+	}
+	.right-sidebar {
+		order: 0;
+		display: flex;
+		flex-direction: row;
+		margin-top: 0;
+	}
+	.left-sidebar {
+		padding-right: 0;
+	}
+	.list-cards {
+		margin: 0 0 0;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.list-cards li {
+		width: 47%;
+		margin: 0 0px 25px;
+	}
+	.faq-title-sectional .view-all-link {
+		margin-left: -10px !important;
+		margin-top: 17px;
+		display: flex;
+		align-items: center;
+		min-width: 100% !important;
+	}
+	#faq-hub h2 span input {
+		flex: 1;
+	}
+	details[open] .answer {
+		padding: 15px 20px;
+	}
+	#footer-callout h2 {
+		margin: 5px 0 16px;
+		font-size: 31px;
+		line-height: 38px;
+	}
+	.disclaimer-b {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
 }
-textsectional h1 {
-font-size: 48px;
-line-height: 60px;
-margin-top: 0;
-}
-textsectional p {
-margin: 0 0 5px;
-font-size: 16px;
-}
-header textsectional {
-padding-right: 0;
-min-width: 100% !important;
-overflow-x: hidden !important;
-}
-cardfeaturette:first-of-type {
-margin-bottom: 70px;
-}
-cardfeaturettes, .grouped-input, .sidebars-together, .faq-title-sectional {
-flex-direction: column;
-}
-.faq-title-sectional {
-margin: -10px 0 30px;
-}
-.right-sidebar {
-order: 0;
-display: flex;
-flex-direction: row;
-margin-top: 0;
-}
-.left-sidebar {
-padding-right: 0;
-}
-.list-cards {
-margin: 0 0 0;
-flex-direction: row;
-justify-content: space-between;
-}
-.list-cards li {
-width: 47%;
-margin: 0 0px 25px;
-}
-.faq-title-sectional .view-all-link {
-margin-left: -10px !important;
-margin-top: 17px;
-display: flex;
-align-items: center;
-min-width: 100% !important;
-}
-#faq-hub h2 span input {
-flex: 1;
-}
-details[open] .answer {
-padding: 15px 20px;
-}
-#footer-callout h2 {
-margin: 5px 0 16px;
-font-size: 31px;
-line-height: 38px;
-}
-.disclaimer-b {
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-}
-}
-
 
 /* Adjustments */
-
 #cta2 {
 	margin-left: 25px;
 }
 .annie-mac-redesign {
-  position: relative;
+	position: relative;
 }
 navigationcircle {
-  position: fixed;
-  bottom: 3%;
-  background: #006295;
-  width: 120px;
-  height: 120px;
-  right: 1%;
-  border-radius: 100%;
-  color: #fff;
-  font-weight: 600;
-  font-size: 21px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 1px 0px 15px rgba(0,0,0,.32);
-  text-transform: uppercase;
-  letter-spacing: 2px;
+	position: fixed;
+	bottom: 3%;
+	background: #006295;
+	width: 120px;
+	height: 120px;
+	right: 1%;
+	border-radius: 100%;
+	color: #fff;
+	font-weight: 600;
+	font-size: 21px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 1px 0px 15px rgba(0,0,0,.32);
+	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 .sitemap-section ul {
 	display: flex;
@@ -1110,24 +1108,24 @@ navigationcircle {
 	margin-top: 45px;
 }
 .related-links-to-section {
-  margin: 50px -28px;
-  background: #f5f7fa99;
-  padding: 1px 28px 28px;
-  border-radius: 7px;
+	margin: 50px -28px;
+	background: #f5f7fa99;
+	padding: 1px 28px 28px;
+	border-radius: 7px;
 }
 .related-links-to-section h5 {
-  border-bottom: 1px solid #7980882b;
-  padding-bottom: 8px;
-  margin-top: 30px;
-  margin-bottom: 10px;
+	border-bottom: 1px solid #7980882b;
+	padding-bottom: 8px;
+	margin-top: 30px;
+	margin-bottom: 10px;
 }
 .related-links-to-section ul {
-  list-style: none;
-  margin: 15px 0 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: initial;
+	list-style: none;
+	margin: 15px 0 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: initial;
 }
 .related-links-to-section ul li {
 	background: #e3e6e9;
@@ -1142,12 +1140,12 @@ navigationcircle {
 	font-weight: 400;
 }
 .location-state-list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .location-state-list div {
-  width: 50%;
+	width: 50%;
 }
 .location-listing h4 a {
 	margin-top: 25px;
@@ -1181,13 +1179,13 @@ navigationcircle {
 
 /* Blog Stuff */
 .blog .inner {
-  display: none;
+	display: none;
 }
 .pagination ul {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  width: 600px;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	width: 600px;
 }
 .content-list.blog {
 	display: flex;
@@ -1198,17 +1196,17 @@ navigationcircle {
 	width: 90%;
 }
 .sidebar_items {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 .sidebar_items .block:nth-of-type(1), .sidebar_items .block:nth-of-type(3) {
 	width: 250px;
 }
 .sidebar_items ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 .sidebar_items .block h3 {
 	color: var(--bodytext);
@@ -1272,9 +1270,9 @@ navigationcircle {
 }
 /* Branch Listing */
 .page-branch-list header {
-  background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url('https://annie-mac.com/uploads/sites/10713/public/annie_mac_new_banner_branches.jpeg') top left no-repeat;
-  background-size: cover;
-  background-position-y: 17%;
+	background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url('https://annie-mac.com/uploads/sites/10713/public/annie_mac_new_banner_branches.jpeg') top left no-repeat;
+	background-size: cover;
+	background-position-y: 17%;
 }
 /* About Us */
 .node-160703 header {
