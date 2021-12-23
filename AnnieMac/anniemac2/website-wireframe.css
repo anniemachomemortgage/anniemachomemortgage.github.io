@@ -724,7 +724,9 @@ border-radius: 4px;
 margin: 3px 0 22px;
 }
 textarea {
-	min-height: 300px;
+	min-height: 230px;
+	border: 1px solid rgba(0,0,0,.3);
+	border-radius: 4px;
 }
 form small {
   font-size: 17px;
