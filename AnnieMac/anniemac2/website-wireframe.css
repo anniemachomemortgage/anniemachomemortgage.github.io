@@ -1,3 +1,8 @@
+/* Remove edit toggle for logged in admin. Remove after prototyping is complete. */
+.edit-group {
+	display: none !important;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 :root {
 --mainbody: #798088;
