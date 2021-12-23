@@ -725,8 +725,17 @@ input[type="text"], input[type="tel"], input[type="email"], select, option {
 }
 textarea {
 	min-height: 230px;
+	font-family: 'Inter', sans-serif;
+	text-align: left;
+	font-size: 16px;
+	padding: 14px 15px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
 	border: 1px solid rgba(0,0,0,.3);
+	box-shadow: 1px 1px 1px rgba(0,0,0,.03);
+	outline: none;
 	border-radius: 4px;
+	margin: 3px 0 22px;
 }
 form small {
 	font-size: 17px;
@@ -1176,7 +1185,25 @@ navigationcircle {
 .location-listing h4 a:hover, .location-listing p a:hover {
 	border-bottom: none;
 }
-
+.container-for-contact-information {
+	margin-bottom: 30px;
+}
+.form-end-grouping-container button {
+	background: #78c254;
+	color: #fff;
+	padding: 20px;
+	min-width: 200px;
+	margin: 45px auto 40px;
+	transform: scale(1.2);
+	font-weight: 600;
+	letter-spacing: .05em;
+	border: 3px solid #78c254;
+	outline: none;
+}
+.form-end-grouping-container button:hover {
+	background: #006fa9;
+	border: 3px solid #006fa9;
+}
 /* Blog Stuff */
 .blog .inner {
 	display: none;
@@ -1284,7 +1311,7 @@ navigationcircle {
 .node-160882 header {
 	background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url(https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) top center no-repeat;
 	background-size: cover;
-	background-position-y: 85%;
+	background-position-y: 17%;
 }
 /* Privacy Policy */
 .node-47111 header {
