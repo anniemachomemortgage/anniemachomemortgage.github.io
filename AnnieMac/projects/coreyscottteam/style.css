@@ -413,7 +413,7 @@ footer {
 	flex-direction: column;
 }
 .sublistings {
-	width: 145px;
+	width: 250px;
 	justify-content: space-between;
 	display: flex;
 	flex-direction: row;
@@ -1454,4 +1454,9 @@ commentcontainer h4 {
 
 .stateface-wy:before {
 	content: "x";
+}
+.zillow-icon {
+	width: 90px;
+	height: auto;
+	margin-top: 22px;
 }
