@@ -16,6 +16,15 @@ $(function() {
 			window.location.href = '/?learn-more';
 		});
 	};
+	$(".zillow-icon").hover(function(){
+		$(this).attr("src", function(index, attr){
+			return attr.replace(".png", "-hover.png");
+		});
+	}, function(){
+		$(this).attr("src", function(index, attr){
+			return attr.replace("-hover.png", ".png");
+		});
+	});
 	$("#submit-borrower").click(function(event) {
 		event.preventDefault();
 		$("html, body").animate({
