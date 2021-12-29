@@ -1199,6 +1199,9 @@ div li {
 		padding-right: 0;
 		align-items: flex-end;
 	}
+	.state-listing-licensed {
+		flex-direction: column;
+	}
 }
 .state-listing-licensed {
 	display: flex;
