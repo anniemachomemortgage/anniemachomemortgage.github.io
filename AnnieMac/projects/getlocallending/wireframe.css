@@ -309,6 +309,74 @@ button.main-site-apply-2:hover, .blocked-sectional-half a button:hover, .readmor
 	font-size: 22px;
 	color: #3a3335;
 }
+.tagline-header {
+	font-size: 16px !important;
+	margin: 5px 0 0 !important;
+	font-weight: 600 !important;
+}
+.list-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.list-list li {
+	padding: 0;
+	margin: 5px 0;
+	width: 48%;
+}
+.list-list li strong {
+	font-weight: 300;
+	font-size: 22px;
+	color: #3a3335;
+	display: block;
+	margin-bottom: -5px;
+}
+.list-list li span {
+	display: block;
+	margin-top: 15px;
+	min-height: 120px;
+}
+.list-list-toggles {
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 60px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.list-list-toggles li {
+	padding: 0;
+	margin: 25px 0;
+	width: 48%;
+}
+.list-list-toggles li strong {
+	font-weight: 300;
+	font-size: 22px;
+	color: #3a3335;
+	display: block;
+	margin-bottom: -5px;
+}
+.list-list-toggles li span {
+	display: block;
+	margin-top: 15px;
+	min-height: 120px;
+}
+.list-list-toggles button {
+	display: block;
+	outline: none;
+	padding: 15px;
+	margin: 20px 0 10px;
+	min-width: 202px;
+	background: var(--orange);
+	color: var(--offwhite);
+	font-weight: 600;
+	font-size: 17px;
+	border-radius: 2px;
+	border: .5px solid var(--orange);
+}
 .blocked-sectional-half h5 {
 	margin-top: 20px;
 	margin-bottom: -6px;
@@ -1458,4 +1526,46 @@ div li {
 
 .stateface-wy:before {
 	content: "x";
+}
+.full-width-image-container {
+	height: 350px;
+	object-fit: cover;
+	width: 100%;
+	border-radius: 5px;
+	margin: -20px 0 0;
+}
+#who-we-are-blocking {
+	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80');
+	background-size: cover;
+	color: #fff;
+	font-size: 16px;
+}
+.title-image-background-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+	padding: 20px 30px;
+}
+.title-image-background-section h3 {
+	font-size: 52px;
+	font-weight: 800;
+	color: #fff;
+	text-shadow: 1px 4px 6px rgb(0 0 0 / 4%);
+}
+.title-image-background-section h4 {
+	font-size: 21px;
+	font-weight: 600;
+	color: #fff;
+	text-shadow: 1px 2px 3px rgb(0 0 0 / 2%);
+	margin: 15px 0;
+	text-transform: capitalize;
+}
+.title-image-background-section p {
+	color: #fff;
+	text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.02);
+	font-size: 17px !important;
+	font-weight: 300;
+	margin-top: -2px;
+	margin-bottom: 15px;
 }
