@@ -69,7 +69,7 @@ body {
 	background: var(--original);
 }
 .body-background {
-	background: linear-gradient(190deg, rgba(79, 79, 79, 0.43) 30%, rgba(34, 69, 74, 0.47) 80%), url(./img/portland.jpg) bottom center;
+	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url(https://waloanexperts.com/wp-content/uploads/2020/10/modern-house-exterior-E3A7NAJ-web.jpg) bottom center;
 	min-height: 454px;
 	background-position-y: 67%;
 	background-size: 100%;
