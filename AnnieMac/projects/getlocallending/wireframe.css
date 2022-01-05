@@ -314,6 +314,9 @@ button.main-site-apply-2:hover, .blocked-sectional-half a button:hover, .readmor
 	margin: 5px 0 0 !important;
 	font-weight: 600 !important;
 }
+.list-icon {
+	width: 55px;
+}
 .list-list {
 	list-style-type: none;
 	padding: 0;
