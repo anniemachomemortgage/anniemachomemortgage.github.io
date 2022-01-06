@@ -1541,7 +1541,6 @@ div li {
 	color: #fff;
 	font-size: 16px;
 	margin-top: 15px;
-	margin-right: 50px;
 	margin-bottom: 25px;
 	max-height: 450px;
 }
@@ -1551,7 +1550,7 @@ div li {
 	color: #fff;
 	font-size: 16px;
 	margin-top: 15px;
-	margin-right: 50px;
+	margin-left: 50px;
 	margin-bottom: 25px;
 	max-height: 450px;
 }
@@ -1561,7 +1560,7 @@ div li {
 	color: #fff;
 	font-size: 16px;
 	margin-top: 15px;
-	margin-right: 50px;
+	margin-left: 50px;
 	margin-bottom: 25px;
 	max-height: 450px;
 }
@@ -1571,9 +1570,12 @@ div li {
 	color: #fff;
 	font-size: 16px;
 	margin-top: 15px;
-	margin-right: 50px;
+	margin-left: 50px;
 	margin-bottom: 25px;
 	max-height: 450px;
+}
+.rowing-container-right {
+	order: -1;
 }
 .rowing-container-right h3 {
 	margin-top: 25px;
@@ -1587,7 +1589,7 @@ div li {
 	padding: 20px 30px;
 }
 .title-image-background-section h3 {
-	font-size: 52px;
+	font-size: 45px;
 	font-weight: 800;
 	color: #fff;
 	text-shadow: 1px 4px 6px rgb(0 0 0 / 4%);
