@@ -78,6 +78,17 @@ width: 250px;
 /* padding: 10px 30px; */
 border-radius: 2px;
 }
+#index_realtor header {
+background: linear-gradient(177deg, rgb(23 16 5 / 52%) 30%, rgba(26, 29, 36, 0.83) 80%), url('https://images.pexels.com/photos/7642095/pexels-photo-7642095.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+background-size: cover;
+background-position-y: 77%;
+}
+logo {
+/* background: var(--fadedblue); */
+width: 250px;
+/* padding: 10px 30px; */
+border-radius: 2px;
+}
 #annie-mac-logo {
 width: 295px;
 }

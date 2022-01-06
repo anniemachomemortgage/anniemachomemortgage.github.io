@@ -10,7 +10,7 @@
 	--darkgreen: #13341a;
 	--greenish: #10702d;
 	--lightorange: #cd9070;
-	--orange: #E28C1F;
+	--orange: #006fa9;
 	--whiteorange: #dfbead;
 	--greenblocked: #409ca008;
 	--faded: #f7f6f3;
@@ -29,6 +29,8 @@
 	--footerheaders: #1c1e21;
 	--footerlinks: #303e4a;
 	--footerlinksb: #414a44;
+	--secondarygreen: #62A641;
+	--biggreen: #6BB747;
 }
 * {
 	-webkit-box-sizing: border-box;
@@ -1259,6 +1261,7 @@ div li {
 	font-size: 25px;
 	line-height: 25px;
 	text-align: center;
+	color: var(--biggreen);
 }
 .team-biography-quick-information h3 span {
 	display: block;
@@ -1287,12 +1290,12 @@ div li {
 	padding: 20px;
 	margin: -35px 2px 25px;
 	min-width: 150px;
-	background: var(--orange);
+	background: var(--secondarygreen);
 	color: var(--white);
 	font-weight: 600;
 	border-radius: 2px;
 	font-size: 17px;
-	border: .5px solid var(--orange);
+	border: .5px solid var(--secondarygreen);
 	box-shadow: 1px 3px 5px rgba(0,0,0,.13);
 }
 .team-biography {
