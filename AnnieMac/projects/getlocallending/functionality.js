@@ -1,15 +1,17 @@
 $(function() {
-if (window.location.href.indexOf("/?learn-more") > -1) {
-	$("#index_only").toggleClass('hidden');
-	$("#learn_only").toggleClass('hidden');
-}
-$("#learn-more-toggle").click(function(event) {
-	$("#index_only").toggleClass('hidden');
-	$("#learn_only").toggleClass('hidden');
+// if (window.location.href.indexOf("/?learn-more") > -1) {
+// 	$("#index_only").toggleClass('hidden');
+// 	$("#learn_only").toggleClass('hidden');
+// }
+$("#product-type-toggle").click(function(event) {
+	$("#index_only").addClass('hidden');
+	$("#loan-products-section-display").removeClass('hidden');
+	$("#team-member-section-display").addClass('hidden');
 });
-$("#go-back-home").click(function(event) {
-	$("#index_only").removeClass('hidden');
-	$("#learn_only").addClass('hidden');
+$("#our-team-toggle").click(function(event) {
+	$("#index_only").addClass('hidden');
+	$("#team-member-section-display").removeClass('hidden');
+	$("#loan-products-section-display").addClass('hidden');
 });
 if ($('body').hasClass('page-page-detail')) {
 	$("#learn-more-toggle").click(function(event) {
