@@ -1261,7 +1261,7 @@ div li {
 	font-size: 25px;
 	line-height: 25px;
 	text-align: center;
-	color: var(--biggreen);
+	color: var(--orange);
 }
 .team-biography-quick-information h3 span {
 	display: block;
@@ -1290,12 +1290,12 @@ div li {
 	padding: 20px;
 	margin: -35px 2px 25px;
 	min-width: 150px;
-	background: var(--secondarygreen);
+	background: var(--orange);
 	color: var(--white);
 	font-weight: 600;
 	border-radius: 2px;
 	font-size: 17px;
-	border: .5px solid var(--secondarygreen);
+	border: .5px solid var(--orange);
 	box-shadow: 1px 3px 5px rgba(0,0,0,.13);
 }
 .team-biography {
