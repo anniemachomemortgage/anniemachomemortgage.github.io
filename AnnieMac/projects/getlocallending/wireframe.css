@@ -304,7 +304,7 @@ button.main-site-apply-2:hover, .blocked-sectional-half a button:hover, .readmor
 }
 .blocked-sectional-half h4 {
 	margin-top: 20px;
-	margin-bottom: -6px;
+	margin-bottom: 0px;
 	font-weight: 300;
 	font-size: 22px;
 	color: #3a3335;
@@ -1638,10 +1638,10 @@ div li {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 50px;
+	padding: 50px 0;
 	padding-bottom: 100px;
 	width: 340px;
-	min-height: 642px;
+	min-height: 540px;
 }
 .portrait-image {
 	width: 264px;
@@ -1654,19 +1654,19 @@ div li {
 }
 .team-biography-quick-information h3 {
 	font-weight: 600;
-	font-size: 32px;
-	line-height: 40px;
+	font-size: 25px;
+	line-height: 25px;
 	text-align: center;
 }
 .team-biography-quick-information h4, .team-biography-quick-information h5 {
 	color: #fff;
-	font-size: 21px;
-	line-height: 20px;
+	font-size: 19px;
+	line-height: 16px;
 	text-align: center;
 	font-weight: 200;
 }
 .apply-with-team-member {
-	width: 370px;
+	width: 340px;
 	display: flex;
 	justify-content: center;
 }
