@@ -320,14 +320,14 @@ button.main-site-apply-2:hover, .blocked-sectional-half a button:hover, .readmor
 .list-list {
 	list-style-type: none;
 	padding: 0;
-	margin: -13px 0 0;
+	margin: 13px 0 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
 .list-list li {
 	padding: 0;
-	margin: 5px 0;
+	margin: 5px 0 15px;
 }
 .list-list li strong {
 	font-weight: 300;
@@ -1540,9 +1540,44 @@ div li {
 	background-size: cover;
 	color: #fff;
 	font-size: 16px;
-	margin-top: 0px;
+	margin-top: 15px;
 	margin-right: 50px;
-	margin-bottom: 45px;
+	margin-bottom: 25px;
+	max-height: 450px;
+}
+#who-we-are-blocking-2 {
+	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1609220136736-443140cffec6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+	background-size: cover;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 15px;
+	margin-right: 50px;
+	margin-bottom: 25px;
+	max-height: 450px;
+}
+#who-we-are-blocking-3 {
+	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1601758003122-53c40e686a19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+	background-size: cover;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 15px;
+	margin-right: 50px;
+	margin-bottom: 25px;
+	max-height: 450px;
+}
+#who-we-are-blocking-4 {
+	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1576089073624-b5751a8f4de9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1625&q=80');
+	background-size: cover;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 15px;
+	margin-right: 50px;
+	margin-bottom: 25px;
+	max-height: 450px;
+}
+.rowing-container-right h3 {
+	margin-top: 25px;
+	margin-bottom: 35px;
 }
 .title-image-background-section {
 	display: flex;
@@ -1627,9 +1662,9 @@ div li {
 	font-weight: 200;
 }
 .apply-with-team-member {
-	width: 400px;
+	width: 370px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 }
 .apply-with-team-member button {
 	outline: none;
