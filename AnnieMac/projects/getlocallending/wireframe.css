@@ -1,15 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
-
-@font-face {
-	 font-family: 'StateFaceRegular';
-	 src: url('https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/resources/stateface-regular-webfont.eot');
-	 src: url('https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/resources/stateface-regular-webfont.eot?#iefix') format('embedded-opentype'),
-		  url('https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/resources/stateface-regular-webfont.woff') format('woff'),
-		  url('https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/resources/stateface-regular-webfont.ttf') format('truetype'),
-		  url('https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/resources/stateface-regular-webfont.svg#StateFaceRegular') format('svg');
-	 font-weight: normal;
-	 font-style: normal;
- }
  
 :root {
 	--black: #3A3335;
@@ -106,26 +95,6 @@ li#navigation-logo {
 .main-site-background {
 	position: relative;
 	margin-top: -75px;
-}
-.meet-the-team-header {
-	background: linear-gradient(177deg, rgba(0, 44, 66, 0.22) 30%, rgba(5, 47, 68, 0.62) 80%), url('img/coreyteam.jpg');
-	display: flex;
-	width: 100%;
-	border-radius: 4px;
-	min-height: 315px;
-	background-position-y: 53%;
-	background-size: 129%;
-	background-position-x: 57%;
-}
-.meet-the-team-header h3 {
-	font-family: 'Inter', sans-serif;
-	color: #fff;
-	font-size: 64px;
-	font-weight: 800;
-	margin: 0;
-	position: absolute;
-	bottom: 45px;
-	right: 53px;
 }
 .main-site-overlay {
 	/* background: url('img/woman-background.png'); */
@@ -1003,79 +972,6 @@ div li {
 .hidden {
 	display: none;
 }
-.meet-the-team-header-corey {
-	background: linear-gradient(177deg, rgba(21, 47, 60, 0.42) 30%, rgba(5, 47, 68, 0.73) 80%), url('img/corey.jpg');
-	display: flex;
-	width: 100%;
-	border-radius: 4px;
-	min-height: 315px;
-	background-position-y: 53%;
-	background-size: 102%;
-	background-position-x: 57%;
-}
-.meet-the-team-header-megan {
-	background: linear-gradient(177deg, rgba(21, 47, 60, 0.42) 30%, rgba(5, 47, 68, 0.73) 80%), url('img/megan.jpg');
-	display: flex;
-	width: 100%;
-	border-radius: 4px;
-	min-height: 315px;
-	background-position-y: 45%;
-	background-size: 102%;
-	background-position-x: 57%;
-}
-.meet-the-team-header-amanda {
-	background: linear-gradient(177deg, rgba(21, 47, 60, 0.42) 30%, rgba(5, 47, 68, 0.73) 80%), url('img/amanda.jpg');
-	display: flex;
-	width: 100%;
-	border-radius: 4px;
-	min-height: 315px;
-	background-position-y: 45%;
-	background-size: 102%;
-	background-position-x: 57%;
-}
-.meet-the-team-header-billie {
-	background: linear-gradient(177deg, rgba(21, 47, 60, 0.42) 30%, rgba(5, 47, 68, 0.73) 80%), url('img/billie.jpg');
-	display: flex;
-	width: 100%;
-	border-radius: 4px;
-	min-height: 315px;
-	background-position-y: 45%;
-	background-size: 102%;
-	background-position-x: 57%;
-}
-.meet-the-team-header-jess {
-	background: linear-gradient(177deg, rgba(21, 47, 60, 0.42) 30%, rgba(5, 47, 68, 0.73) 80%), url('img/jess.jpg');
-	display: flex;
-	width: 100%;
-	border-radius: 4px;
-	min-height: 315px;
-	background-position-y: 45%;
-	background-size: 102%;
-	background-position-x: 57%;
-}
-.meet-the-team-header-mike {
-	background: linear-gradient(177deg, rgba(21, 47, 60, 0.42) 30%, rgba(5, 47, 68, 0.73) 80%), url('img/mike.jpg');
-	display: flex;
-	width: 100%;
-	border-radius: 4px;
-	min-height: 315px;
-	background-position-y: 45%;
-	background-size: 102%;
-	background-position-x: 57%;
-}
-.mobile-only, .footer-mobile, .mobile-only-toggle, .mobile-only-header {
-	display: none;
-}
-.cs-disclaimer-text {
-	margin-top: 40px;
-	margin-bottom: -40px;
-}
-.cs-disclaimer-text small {
-	color: #3a3335;
-	font-size: 13px;
-	font-weight: 500;
-	line-height: 23px;
-}
 @media only screen and (max-width: 1046px) {
 	.body-background {
 		background-size: cover;
@@ -1135,46 +1031,6 @@ div li {
 	}
 	.image-gradient-overlay img {
 		object-fit: cover;
-	}
-	.name-and-title {
-		order: 2;
-		margin-left: 20px;
-		display: flex;
-		flex-direction: column;
-		height: 75px;
-	}
-	.mobile-only-toggle {
-		display: block;
-		margin-top: 5px;
-		padding: 5px 20px;
-		z-index: 1112 !important;
-		background: var(--orange);
-		color: var(--white);
-		font-weight: 400;
-		border-radius: 2px;
-		max-width: 180px;
-		min-width: 180px;
-	}
-	.mobile-only-toggle:hover {
-		background: #00537D;
-		cursor: pointer;
-	}
-	.mobile-activated-toggle {
-		background: #00537D;
-	}
-	.staff-block h4, .staff-block h5 {
-		text-align: left;
-		margin: 0;
-	}
-	.staff-block h4 {
-		margin-top: -20px;
-	}
-	.learn-more-about-them {
-		display: none;
-	}
-	.divided-listing:first-of-type {
-		justify-content: center;
-		align-items: center;
 	}
 	.why-us-sections {
 		margin-top: 70px;
@@ -1274,262 +1130,6 @@ div li {
 	.state-listing-licensed {
 		flex-direction: column;
 	}
-}
-.state-listing-licensed {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	margin: 15px 0 -50px;
-}
-
-.state-listing-licensed > * {
-	width: 33.33%;
-	height: 40px;
-}
-.state-listing-licensed p {
-	display: flex;
-	align-items: center;
-	font-weight: 300;
-	font-size: 18px;
-	color: #3a3335;
-	margin-bottom: 20px;
-}
-.state-listing-licensed p span {
-	min-width: 60px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-right: 10px;
-}
-.stateface {
-	font-family: 'StateFaceRegular';
-	color: #78c252;
-	font-size: 40px;
-}
-.stateface:before {
-	font-family: StateFaceRegular;
-	margin-right: 5px;
-}
-.stateface-replace {
-	text-indent: -999em;
-	display: inline-block;
-	position: relative;
-	min-width: 1em;
-}
-
-.stateface-replace:before {
-	position: absolute;
-	left: 0;
-	top: 0;
-	text-indent: 0;
-}
-
-.stateface-ak:before {
-	content: "A";
-}
-
-.stateface-al:before {
-	content: "B";
-}
-
-.stateface-ar:before {
-	content: "C";
-}
-
-.stateface-az:before {
-	content: "D";
-}
-
-.stateface-ca:before {
-	content: "E";
-}
-
-.stateface-co:before {
-	content: "F";
-}
-
-.stateface-ct:before {
-	content: "G";
-}
-
-.stateface-dc:before {
-	content: "y";
-}
-
-.stateface-de:before {
-	content: "H";
-}
-
-.stateface-fl:before {
-	content: "I";
-}
-
-.stateface-ga:before {
-	content: "J";
-}
-
-.stateface-hi:before {
-	content: "K";
-}
-
-.stateface-ia:before {
-	content: "L";
-}
-
-.stateface-id:before {
-	content: "M";
-}
-
-.stateface-il:before {
-	content: "N";
-}
-
-.stateface-in:before {
-	content: "O";
-}
-
-.stateface-ks:before {
-	content: "P";
-}
-
-.stateface-ky:before {
-	content: "Q";
-}
-
-.stateface-la:before {
-	content: "R";
-}
-
-.stateface-ma:before {
-	content: "S";
-}
-
-.stateface-md:before {
-	content: "T";
-}
-
-.stateface-me:before {
-	content: "U";
-}
-
-.stateface-mi:before {
-	content: "V";
-}
-
-.stateface-mn:before {
-	content: "W";
-}
-
-.stateface-mo:before {
-	content: "X";
-}
-
-.stateface-ms:before {
-	content: "Y";
-}
-
-.stateface-mt:before {
-	content: "Z";
-}
-
-.stateface-nc:before {
-	content: "a";
-}
-
-.stateface-nd:before {
-	content: "b";
-}
-
-.stateface-ne:before {
-	content: "c";
-}
-
-.stateface-nh:before {
-	content: "d";
-}
-
-.stateface-nj:before {
-	content: "e";
-}
-
-.stateface-nm:before {
-	content: "f";
-}
-
-.stateface-nv:before {
-	content: "g";
-}
-
-.stateface-ny:before {
-	content: "h";
-}
-
-.stateface-oh:before {
-	content: "i";
-}
-
-.stateface-ok:before {
-	content: "j";
-}
-
-.stateface-or:before {
-	content: "k";
-}
-
-.stateface-pa:before {
-	content: "l";
-}
-
-.stateface-ri:before {
-	content: "m";
-}
-
-.stateface-sc:before {
-	content: "n";
-}
-
-.stateface-sd:before {
-	content: "o";
-}
-
-.stateface-tn:before {
-	content: "p";
-}
-
-.stateface-tx:before {
-	content: "q";
-}
-
-.stateface-us:before {
-	content: "z";
-}
-
-.stateface-ut:before {
-	content: "r";
-}
-
-.stateface-va:before {
-	content: "s";
-}
-
-.stateface-vt:before {
-	content: "t";
-}
-
-.stateface-wa:before {
-	content: "u";
-}
-
-.stateface-wi:before {
-	content: "v";
-}
-
-.stateface-wv:before {
-	content: "w";
-}
-
-.stateface-wy:before {
-	content: "x";
 }
 .full-width-image-container {
 	height: 500px;
@@ -1658,6 +1258,16 @@ div li {
 	font-size: 25px;
 	line-height: 25px;
 	text-align: center;
+}
+.team-biography-quick-information h3 span {
+	display: block;
+	font-size: 15px;
+	background: #77716A;
+	color: white;
+	width: 165px;
+	margin: 12px auto 30px;
+	padding: 6px;
+	border-radius: 4px;
 }
 .team-biography-quick-information h4, .team-biography-quick-information h5 {
 	color: #fff;
