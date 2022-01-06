@@ -1607,7 +1607,7 @@ div li {
 .title-image-background-section p {
 	color: #fff;
 	text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.02);
-	font-size: 17px !important;
+	font-size: 17px;
 	font-weight: 300;
 	margin-top: -2px;
 	margin-bottom: 15px;
@@ -1629,6 +1629,7 @@ div li {
 	margin-top: 60px;
 	box-shadow: 2px 7px 11px rgba(0,0,0,.13);
 	width: fit-content;
+	/*! border-radius: 21px; */
 }
 .team-biography-container:first-of-type {
 	margin-top: 0px;
@@ -1707,8 +1708,8 @@ div li {
 	font-size: 22px;
 	font-weight: 800;
 	margin-bottom: 15px;
-	margin-top: 5px;
+	margin-top: 10px;
 }
 #who-we-are-blocking-2 p, #who-we-are-blocking-3 p, #who-we-are-blocking-4 p {
-	
+	font-size: 16px;
 }
