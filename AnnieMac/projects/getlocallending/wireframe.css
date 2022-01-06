@@ -78,7 +78,7 @@ body {
 	margin: 0px auto 60px;
 	min-width: 500px;
 	z-index: 1;
-	width: 90%;
+	width: 80%;
 }
 .navigation-display {
 	display: flex;
@@ -227,7 +227,7 @@ button.main-site-apply-2:hover, .blocked-sectional-half a button:hover, .readmor
 	margin: 30px auto 60px;
 	min-width: 500px;
 	z-index: 1;
-	width: 90%;
+	width: 80%;
 	min-height: 300px;
 }
 .text-divider h3 {
@@ -1549,7 +1549,7 @@ div li {
 	background-size: cover;
 	color: #fff;
 	font-size: 16px;
-	margin-top: 15px;
+	margin-top: 80px;
 	margin-left: 50px;
 	margin-bottom: 25px;
 	max-height: 450px;
@@ -1695,4 +1695,18 @@ div li {
 	font-size: 16px;
 	color: #282828;
 	font-weight: 300;
+}
+#who-we-are-blocking-2 h3, #who-we-are-blocking-3 h3, #who-we-are-blocking-4 h3 {
+	font-size: 31px;
+	font-weight: 500;
+	margin-bottom: 0;
+}
+#who-we-are-blocking-2 h4, #who-we-are-blocking-3 h4, #who-we-are-blocking-4 h4 {
+	font-size: 22px;
+	font-weight: 800;
+	margin-bottom: 15px;
+	margin-top: 5px;
+}
+#who-we-are-blocking-2 p, #who-we-are-blocking-3 p, #who-we-are-blocking-4 p {
+	
 }
