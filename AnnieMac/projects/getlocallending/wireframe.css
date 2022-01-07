@@ -61,7 +61,7 @@ body {
 }
 .body-background {
 	background: linear-gradient(177deg, rgba(0, 0, 0, 0.51) 30%, rgba(22, 26, 28, 0.87) 80%), url(https://waloanexperts.com/wp-content/uploads/2020/10/modern-house-exterior-E3A7NAJ-web.jpg) bottom center;
-	min-height: 454px;
+	min-height: 414px;
 	background-position-y: 67%;
 	background-size: 100%;
 }
@@ -76,10 +76,10 @@ body {
 	display: flex;
 	list-style-type: none;
 	margin: 0;
-	padding: 19px 0 20px;
+	padding: 19px 0 0px;
 	width: 100%;
-	justify-content: flex-start;
-	/* margin-bottom: 50px; */
+	justify-content: space-between;
+	flex-direction: column;
 }
 .navigation-display li {
 	color: fff;
@@ -90,13 +90,12 @@ li#navigation-logo {
 	text-indent: -99999vw;
 	background: url('images/whitelogo.png');
 	background-size: cover;
-	height: 82px;
-	min-width: 433px;
-	margin: -13px 0 -50px;
+	height: 100px;
+	width: 600px;
+	margin: 25px auto 0;
 }
 .main-site-background {
 	position: relative;
-	margin-top: -75px;
 }
 .main-site-overlay {
 	/* background: url('img/woman-background.png'); */
@@ -108,10 +107,9 @@ li#navigation-logo {
 	height: 492px;
 }
 .main-site-background h1 {
-	font-size: 120px;
+	font-size: 66px;
 	font-weight: 900;
 	font-style: italic;
-	word-spacing: 100vw;
 	line-height: 100px;
 	margin-top: 5px;
 	color: var(--white);
@@ -179,7 +177,7 @@ button.main-site-apply-2 {
 	z-index: 1112 !important;
 	outline: none;
 	padding: 20px;
-	margin: 15px 2px 25px 20px;
+	margin: 15px 2px 25px 0px;
 	min-width: 200px;
 	color: var(--orange);
 	background: var(--white);
@@ -414,16 +412,15 @@ h1 {
 	font-family: 'Crimson Text', serif;
 }
 footer {
-	background: white;
-	/* background: var(--smokewhite); */
-	color: var(--footerheaders);
+	color: white;
+	background: #282828;
 }
 .sitemap-container {	
 	margin: 0px auto 60px;
 	min-width: 500px;
 	z-index: 1;
-	width: 90%;
-	max-width: 1000px;
+	width: 80%;
+	max-width: 1100px;
 }
 .sitemaps {
 	display: flex;
@@ -439,10 +436,11 @@ footer {
 .sitemaps ul a {
 	border-bottom: none;
 	text-decoration: none;
+	opacity: 0.5;
 }
 .sitemaps ul li {
 	font-size: 15px;
-	color: var(--darkergray);
+	color: var(--smokewhite);
 }
 .footerlist-title {
 	font-size: 20px !important;
@@ -1149,7 +1147,7 @@ div li {
 	max-height: 450px;
 }
 #who-we-are-blocking-2 {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1609220136736-443140cffec6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1609220136736-443140cffec6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80') center;
 	background-size: cover;
 	color: #fff;
 	font-size: 16px;
@@ -1159,7 +1157,7 @@ div li {
 	max-height: 450px;
 }
 #who-we-are-blocking-3 {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1601758003122-53c40e686a19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1601758003122-53c40e686a19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80') center;
 	background-size: cover;
 	color: #fff;
 	font-size: 16px;
@@ -1169,7 +1167,7 @@ div li {
 	max-height: 450px;
 }
 #who-we-are-blocking-4 {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1576089073624-b5751a8f4de9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1625&q=80');
+	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1576089073624-b5751a8f4de9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1625&q=80') center;
 	background-size: cover;
 	color: #fff;
 	font-size: 16px;
@@ -1261,7 +1259,7 @@ div li {
 	font-size: 25px;
 	line-height: 25px;
 	text-align: center;
-	color: var(--orange);
+	color: var(--secondarygreen);
 }
 .team-biography-quick-information h3 span {
 	display: block;
@@ -1290,12 +1288,12 @@ div li {
 	padding: 20px;
 	margin: -35px 2px 25px;
 	min-width: 150px;
-	background: var(--orange);
+	background: var(--secondarygreen);
 	color: var(--white);
 	font-weight: 600;
 	border-radius: 2px;
 	font-size: 17px;
-	border: .5px solid var(--orange);
+	border: .5px solid var(--secondarygreen);
 	box-shadow: 1px 3px 5px rgba(0,0,0,.13);
 }
 .team-biography {
@@ -1326,4 +1324,14 @@ div li {
 }
 #who-we-are-blocking-2 p, #who-we-are-blocking-3 p, #who-we-are-blocking-4 p {
 	font-size: 16px;
+}
+.navbar-button {
+	margin-top: 73px;
+}
+.navbar-button {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 460px;
+	margin: -50px auto 0;
 }

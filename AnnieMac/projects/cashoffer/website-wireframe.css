@@ -1004,3 +1004,36 @@ display: none;
 	cursor: not-allowed;
 	opacity: .6;
 }
+#submit-overlay {
+	position: relative;
+	width: 100%;
+	padding: 20px;
+	margin-top: -20px;
+}
+
+#submit-overlayment {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: background .75s;
+}
+
+#submit-overlayment h4 {
+	display: none;
+}
+
+#submit-overlayment:hover {
+	background: rgb(255 255 255 / 54%);
+	cursor: not-allowed;
+}
+
+#submit-overlayment:hover h4 {
+	display: block;
+	font-weight: 600;
+}

@@ -2,6 +2,57 @@ $(function() {
 	$("logo img").click(function(event) {
 		window.location.href = '/page/cash2keys';
 	});
+	if (window.location.href.indexOf("cashbuyer-form") > -1) {
+		var required = $('input,textarea,select').filter('[required]:visible');
+	}
+	// if (window.location.href.indexOf("cashbuyer-form") > -1) {
+	// 	// Onload, add the class of disabled-button, remove the data-qlf-submit attribute, and add a disabled attribute to the submit button to help deter the MIQ script from pushing invalidated forms regardless of form validations.
+	// 	$('#submit-borrower').addClass('disabled-button');
+	// 	$('#submit-borrower').attr('disabled',true);
+	// 	$('#submit-borrower').removeAttr('data-qlf-submit');
+	// 	$("input").keyup(function() {
+	// 		// If the hidden input field with the attribute leadSource = Q6UJ9A1MZAAJ, check to see if the borrower basic information is filled. If so, remove the disabled-button class, remove the disable attribute, and add the data-qlf-submit attribute with a blank value.
+	// 		if($("#leadSource").val()=='Q6UJ9A1MZAAJ'){
+	// 			$("input[data-xml-node='FirstName'] && input[data-xml-node='LastName'] && input[data-xml-node='Email'] && input[data-xml-node='MobilePhone']").each(function() {
+	// 				if ($(this).val().length > 0) {
+	// 					$('#submit-borrower').removeClass('disabled-button');
+	// 					$('#submit-borrower').attr('disabled',false);
+	// 					$('#submit-borrower').attr('data-qlf-submit', '');
+	// 				}
+	// 			});
+	// 		}
+	// 		// If the hidden input field with the attribute leadSource = Q6UJ9A1PQKN5, check to see if the realtor basic information is filled. If so, remove the disabled-button class, remove the disable attribute, and add the data-qlf-submit attribute with a blank value.
+	// 		if($("#leadSource").val()=='Q6UJ9A1PQKN8'){
+	// 			$("input[data-xml-node='FirstName'] && input[data-xml-node='LastName'] && input[data-xml-node='Email'] && input[data-xml-node='MobilePhone']").each(function() {
+	// 				if ($(this).val().length > 0) {
+	// 					$('#submit-borrower').removeClass('disabled-button');
+	// 					$('#submit-borrower').attr('disabled',false);
+	// 					$('#submit-borrower').attr('data-qlf-submit', '');
+	// 				}
+	// 			});
+	// 		}
+	// 		// If the hidden input field with the attribute leadSource = Q6UJ9A1PQKN7, check to see if the realtor basic information is filled. If so, remove the disabled-button class, remove the disable attribute, and add the data-qlf-submit attribute with a blank value.
+	// 		if($("#leadSource").val()=='Q6UJ9A1PQKN7'){
+	// 			$("input[data-xml-node='AgentFirstName'] && input[data-xml-node='AgentLastName'] && input[data-xml-node='AgentEmail'] && input[data-xml-node='AgentMobilePhone']").each(function() {
+	// 				if ($(this).val().length > 0) {
+	// 					$('#submit-borrower').removeClass('disabled-button');
+	// 					$('#submit-borrower').attr('disabled',false);
+	// 					$('#submit-borrower').attr('data-qlf-submit', '');
+	// 				}
+	// 			});
+	// 		}
+	// 		// If the hidden input field with the attribute leadSource = Q6UJ9A1PQKN5, check to see if the realtor basic information is filled. If so, remove the disabled-button class, remove the disable attribute, and add the data-qlf-submit attribute with a blank value.
+	// 		if($("#leadSource").val()=='Q6UJ9A1PQKN5'){
+	// 			$("input[data-xml-node='AgentFirstName'] && input[data-xml-node='AgentLastName'] && input[data-xml-node='AgentEmail'] && input[data-xml-node='AgentMobilePhone']").each(function() {
+	// 				if ($(this).val().length > 0) {
+	// 					$('#submit-borrower').removeClass('disabled-button');
+	// 					$('#submit-borrower').attr('disabled',false);
+	// 					$('#submit-borrower').attr('data-qlf-submit', '');
+	// 				}
+	// 			});
+	// 		}
+	// 	});
+	// }
 	if (window.location.href.indexOf("campaign=tripleplay21") > -1) {
 		if (localStorage.getItem("minimizedtripleplay") === null) {
 			localStorage.setItem('minimizedtripleplay', 'initial');
