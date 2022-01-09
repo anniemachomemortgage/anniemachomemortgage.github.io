@@ -881,7 +881,7 @@ padding-top: 25px;
 display: flex;
 list-style-type: none;
 margin: 0;
-width: 425px;
+min-width: 570px;
 justify-content: space-between;
 }
 .equal-housing {

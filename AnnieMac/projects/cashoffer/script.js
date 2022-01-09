@@ -1,4 +1,6 @@
 $(function() {
+	var origin = window.location.origin;
+	$('#corporate-sub-link-footer a').text(origin);
 	if (window.location.href.indexOf("cashbuyer-form") > -1) {
 		var FirstName = false;
 		var LastName = false;
