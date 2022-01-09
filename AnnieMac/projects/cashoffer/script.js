@@ -39,6 +39,9 @@ $(function() {
 			if (FirstName != false && LastName != false && Email != false && MobilePhone != false) {
 				$('#submit-overlayment').hide();
 			}
+			if (FirstName == false || LastName == false || Email == false || MobilePhone == false) {
+				$('#submit-overlayment').show();
+			}
 		});
 	}
 	$("logo img").click(function(event) {
