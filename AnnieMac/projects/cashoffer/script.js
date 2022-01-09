@@ -1,27 +1,22 @@
 $(function() {
-	$("logo img").click(function(event) {
-		window.location.href = '/page/cash2keys';
-	});
 	if (window.location.href.indexOf("cashbuyer-form") > -1) {
-		var required = $('input,textarea,select').filter('[required]:visible');
-	}
-	if ((window.location.href.indexOf("cbft") != -1) || (window.location.href.indexOf("cashbuyer-form") != -1)) {
 		var FirstName = false;
 		var LastName = false;
 		var Email = false;
 		var MobilePhone = false;
-		$(":input select").on("keyup change", function(e) {
-			if (($("#leadSource").val() == "Q6UJ9A1MZAAJ") || ($("#leadSource").val() == "Q6UJ9A1PQKN8")) {
-				FirstName = $("input[data-xml-node='FirstName']").val();
-				LastName = $("input[data-xml-node='LastName']").val();
-				Email = $("input[data-xml-node='Email']").val();
-				MobilePhone = $("input[data-xml-node='MobilePhone']").val();
-				if (FirstName != false && LastName != false && Email != false && MobilePhone != false) {
-					$('#submit-overlay').hide();
-				}
+		$(":input").on("keyup change", function(e) {
+			FirstName = $("input[data-xml-node='FirstName']").val();
+			LastName = $("input[data-xml-node='LastName']").val();
+			Email = $("input[data-xml-node='Email']").val();
+			MobilePhone = $("input[data-xml-node='MobilePhone']").val();
+			if (FirstName != false && LastName != false && Email != false && MobilePhone != false) {
+				$('#submit-overlayment').hide();
 			}
 		});
 	}
+	$("logo img").click(function(event) {
+		window.location.href = '/page/cash2keys';
+	});
 	if (window.location.href.indexOf("campaign=tripleplay21") > -1) {
 		if (localStorage.getItem("minimizedtripleplay") === null) {
 			localStorage.setItem('minimizedtripleplay', 'initial');
