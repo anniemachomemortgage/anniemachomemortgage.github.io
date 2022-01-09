@@ -7,7 +7,16 @@ $(function() {
 		$(":input").on("keyup change", function(e) {
 			FirstName = $("input[data-xml-node='FirstName']").val();
 			LastName = $("input[data-xml-node='LastName']").val();
-			Email = $("input[data-xml-node='Email']").val();
+			function isEmail($("input[data-xml-node='Email']")) {
+			  var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+			  return regex.test(email);
+			}
+			$("input[data-xml-node='Email']").blur(function() {
+				var testEmail = /^[A-Z0-9._%+-]+@([A-Z0-9-]+\.)+[A-Z]{2,4}$/i;
+				if (testEmail.test(this.value)) {
+					Email = $("input[data-xml-node='Email']").val();
+				}
+			});
 			MobilePhone = $("input[data-xml-node='MobilePhone']").val();
 			if (FirstName != false && LastName != false && Email != false && MobilePhone != false) {
 				$('#submit-overlayment').hide();
