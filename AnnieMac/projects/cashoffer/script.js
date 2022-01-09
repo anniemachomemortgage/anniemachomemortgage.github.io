@@ -6,7 +6,6 @@ $(function() {
 		var required = $('input,textarea,select').filter('[required]:visible');
 	}
 	if ((window.location.href.indexOf("cbft") != -1) || (window.location.href.indexOf("cashbuyer-form") != -1)) {
-		$('#submit-overlay h4').text("Please complete borrower basic information before submitting.");
 		var FirstName = false;
 		var LastName = false;
 		var Email = false;
