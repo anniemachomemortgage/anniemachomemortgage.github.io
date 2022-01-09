@@ -64,9 +64,12 @@ body {
 	min-height: 414px;
 	background-position-y: 67%;
 	background-size: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
 }
 .body-overlay {
-	margin: 0px auto 60px;
+	margin: 0px auto 15px;
 	min-width: 500px;
 	z-index: 1;
 	width: 80%;
@@ -76,9 +79,9 @@ body {
 	display: flex;
 	list-style-type: none;
 	margin: 0;
-	padding: 19px 0 0px;
+	padding: 0px 0 45px;
 	width: 100%;
-	justify-content: space-between;
+	justify-content: flex-start;
 	flex-direction: column;
 }
 .navigation-display li {
@@ -90,12 +93,12 @@ li#navigation-logo {
 	text-indent: -99999vw;
 	background: url('images/whitelogo.png');
 	background-size: cover;
-	height: 100px;
-	width: 600px;
-	margin: 25px auto 0;
+	height: 104px;
+	width: 650px;
+	margin: 25px 0 26px -10px;
 }
 .main-site-background {
-	position: relative;
+	/*! position: relative; */
 }
 .main-site-overlay {
 	/* background: url('img/woman-background.png'); */
@@ -107,7 +110,7 @@ li#navigation-logo {
 	height: 492px;
 }
 .main-site-background h1 {
-	font-size: 66px;
+	font-size: 95px;
 	font-weight: 900;
 	font-style: italic;
 	line-height: 100px;
@@ -1223,6 +1226,10 @@ div li {
 .team-member-section > * {
 	width: 33.3%;
 }
+.active-biography {
+	width: 100% !important;
+	flex: 1;
+}
 .team-biography-container {
 	display: flex;
 	flex-direction: row;
@@ -1235,7 +1242,7 @@ div li {
 	margin-top: 0px;
 }
 .team-biography-portrait {
-	background: #282828;
+	background: linear-gradient(177deg, #282828 30%, #282828f7 80%), url('images/housebackground.jpg') center;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -1244,6 +1251,8 @@ div li {
 	width: 340px;
 	min-height: 540px;
 	border-radius: 3px;
+	background-size: 100%;
+	background-position-y: -38%;
 }
 .portrait-image {
 	width: 264px;
@@ -1255,11 +1264,11 @@ div li {
 	margin-top: 35px;
 }
 .team-biography-quick-information h3 {
-	font-weight: 600;
+	font-weight: 300;
 	font-size: 25px;
 	line-height: 25px;
 	text-align: center;
-	color: var(--secondarygreen);
+	color: #fff;
 }
 .team-biography-quick-information h3 span {
 	display: block;
@@ -1270,6 +1279,9 @@ div li {
 	margin: 12px auto 30px;
 	padding: 6px;
 	border-radius: 4px;
+}
+.expand-button:hover {
+	cursor: pointer;
 }
 .team-biography-quick-information h4, .team-biography-quick-information h5 {
 	color: #fff;
@@ -1299,6 +1311,7 @@ div li {
 .team-biography {
 	background: #eaeaea;
 	padding: 30px 50px;
+	flex: 1;
 }
 .team-biography h3 {
 	color: #282828;
@@ -1333,5 +1346,5 @@ div li {
 	flex-direction: row;
 	justify-content: space-between;
 	width: 460px;
-	margin: -50px auto 0;
+	margin: auto 0;
 }
