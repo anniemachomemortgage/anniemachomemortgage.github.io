@@ -16,6 +16,26 @@ $(function() {
 				}
 			});
 			MobilePhone = $("input[data-xml-node='MobilePhone']").val();
+			$("input[data-xml-node='FirstName']").blur(function() {
+				if( $(this).val().length === 0 ) {
+					FirstName = false;
+				}
+			});
+			$("input[data-xml-node='LastName']").blur(function() {
+				if( $(this).val().length === 0 ) {
+					LastName = false;
+				}
+			});
+			$("input[data-xml-node='Email']").blur(function() {
+				if( $(this).val().length === 0 ) {
+					Email = false;
+				}
+			});
+			$("input[data-xml-node='MobilePhone']").blur(function() {
+				if( $(this).val().length === 0 ) {
+					MobilePhone = false;
+				}
+			});
 			if (FirstName != false && LastName != false && Email != false && MobilePhone != false) {
 				$('#submit-overlayment').hide();
 			}
