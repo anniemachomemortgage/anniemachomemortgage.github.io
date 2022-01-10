@@ -1097,7 +1097,7 @@ navigationcircle {
 .page-page-detail #initial-section, .page-branch-list #initial-section, .page-blog-list #initial-section {
 	padding-top: 5px;
 }
-.page-page-detail header, .page-branch-list header, .page-blog-list header {
+.page-page-detail header, .page-branch-list header, .page-blog-list header, .page-blog-detail header {
 	max-height: 420px;
 }
 .page-page-detail textsectional h1, .page-branch-list textsectional h1, .page-blog-list textsectional h1 {
@@ -1516,16 +1516,10 @@ article hr {
 	max-height: 450px;
 }
 /* Blog Listing */
-.page-blog-list header {
+.page-blog-list header, .page-blog-detail header {
 	background-size: cover;
 	background: linear-gradient(177deg, rgb(23 16 5 / 52%) 30%, rgba(26, 29, 36, 0.83) 80%), url('https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');
 	background-position-y: 74%;
-}
-.page-blog-detail header {
-	background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url('https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');
-	background-size: cover;
-	background-position-y: 74%;
-	max-height: 420px;
 }
 /* Branch Listing */
 .page-branch-list header {
