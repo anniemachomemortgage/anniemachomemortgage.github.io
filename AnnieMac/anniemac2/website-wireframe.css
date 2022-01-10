@@ -1216,6 +1216,9 @@ article hr {
 .media {
 	width: 350px;
 }
+.media a:hover {
+	border-bottom: none;
+}
 .media-body summary {
 	display: none;
 }
