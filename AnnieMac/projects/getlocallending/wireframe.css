@@ -1321,8 +1321,8 @@ div li {
 }
 .apply-with-team-member button:hover {
 	cursor: pointer;
-	background: #7ab35e;
-	border: .5px solid #7ab35e;
+	background: #559139;
+	border: .5px solid #559139;
 	box-shadow: 1px 3px 5px rgba(0,0,0,.33);
 }
 .team-biography {
