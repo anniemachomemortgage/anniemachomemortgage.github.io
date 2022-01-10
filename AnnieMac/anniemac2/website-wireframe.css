@@ -1269,11 +1269,75 @@ navigationcircle {
 	background-position-y: 71%;
 	background-size: cover;
 }
+.side-by-side-content-container {
+  display: flex;
+  align-content: flex-start;
+}
+.right-side-container {
+  order: 2;
+  margin-left: 50px;
+  width: 350px !important;
+}
+.left-side-container {
+  flex: 1;
+}
+.title-image-background-section h3 {
+	font-size: 45px;
+	font-weight: 800;
+	color: #fff;
+	text-shadow: 1px 4px 6px rgb(0 0 0 / 4%);
+}
+.title-image-background-section h4 {
+	font-size: 21px;
+	font-weight: 600;
+	color: #fff;
+	text-shadow: 1px 2px 3px rgb(0 0 0 / 2%);
+	margin: 15px 0;
+	text-transform: capitalize;
+}
+.title-image-background-section p {
+	color: #fff;
+	text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.02);
+	font-size: 17px;
+	font-weight: 300;
+	margin-top: -2px;
+	margin-bottom: 15px;
+}
 /* Conventional */
 .node-160875 header {
 	background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url('https://images.pexels.com/photos/7578904/pexels-photo-7578904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 	background-position-y: 43%;
 	background-size: cover;
+}
+#conventional-block-callout-a {
+	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1609220136736-443140cffec6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80') center;
+	background-size: cover;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 80px;
+	margin-left: 50px;
+	margin-bottom: 25px;
+	max-height: 450px;
+}
+#conventional-block-callout-b {
+	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1601758003122-53c40e686a19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80') center;
+	background-size: cover;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 15px;
+	margin-left: 50px;
+	margin-bottom: 25px;
+	max-height: 450px;
+}
+#conventional-block-callout-c {
+	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1576089073624-b5751a8f4de9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1625&q=80') center;
+	background-size: cover;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 15px;
+	margin-left: 50px;
+	margin-bottom: 25px;
+	max-height: 450px;
 }
 /* VA */
 .node-160876 header {
