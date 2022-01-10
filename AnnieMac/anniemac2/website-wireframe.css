@@ -1261,7 +1261,7 @@ article hr {
 	display: flex;
 	justify-content: center;
 	max-width: 1250px;
-	margin: 0 auto;
+	margin: 25px auto 0;
 	padding: 20px 0;
 	flex-direction: column;
 }
