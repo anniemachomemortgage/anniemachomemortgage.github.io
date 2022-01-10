@@ -18,7 +18,7 @@ $(function() {
 			$('.front #branch-steps').remove();
 			$('#branch-overlay').remove();
 			$("#branch-welcome h3").remove();
-			$('<p>We believe you deserve more from the mortgage industry.</p><p>We believe in the need for live, human interaction during a complex process. The kind of service and guidance which an app simply can’t provide. We believe paperwork cannot tell your whole story.</p><p>Our customers are more than credit scores and income documents. They are the individuals and families who live in and strengthen our communities.</p>').insertBefore( $( "#branch-content h5" ) );
+			$('<p>We believe you deserve more from the mortgage industry.</p><p>We believe in the need for live, human interaction during a complex process. The kind of service and guidance which an app simply can’t provide. We believe paperwork cannot tell your whole story.</p><p>Our customers are more than credit scores and income documents. They are the individuals and families who live in and strengthen our communities.</p>').insertBeforez( $( "#branch-content h5" ) );
 			$( ".text-center:contains('Our Sales Team')" ).prependTo( $( ".team-member-section" ) );
 			$( ".team-member-section" ).appendTo( $( "#annie-mac-2021-content-container" ) );
 			$( "#team-display" ).appendTo( $( ".team-member-section" ) );
@@ -419,30 +419,33 @@ $(function() {
 		$('#product-banner').hide();
 	};
 	// For new pages and the blog, remove old stylesheets and add the new 2021 stylesheet.
-	if ((window.location.href.indexOf("credit-score-basics") != -1) || (window.location.href.indexOf("blog") != -1) || (window.location.href.indexOf("prequal-vs-preapproval") != -1)) {
-		$('head').append('<link rel="stylesheet" id="new-stylesheet" href="https://anniemachomemortgage.github.io/Development/anniemac2021corporate.css" type="text/css" />');
-		if ($('body').hasClass('site-type-loan_officer')) {
-			$("#am-css").remove();
-			$("#am-styles").remove();
-			$("#am-responsive").remove();
-			$("#am-custom").remove();
-			$("#stylesheet-git").remove();
-		};  
-		if ($('body').hasClass('site-type-branch')){
-			$("#am-css").remove();
-			$("#am-styles").remove();
-			$("#am-responsive").remove();
-			$("#am-custom").remove();
-			$("#stylesheet-git").remove();
-		};
-		if ($('body').hasClass('site-type-corporate')) {
-			$("#am-css").remove();
-			$("#am-styles").remove();
-			$("#am-responsive").remove();
-			$("#am-custom").remove();
-			$("#stylesheet-git").remove();
+	if ((localStorage.anniemactesting) != "true") {
+		if ((window.location.href.indexOf("credit-score-basics") != -1) || (window.location.href.indexOf("blog") != -1) || (window.location.href.indexOf("prequal-vs-preapproval") != -1)) {
+			$('head').append('<link rel="stylesheet" id="new-stylesheet" href="https://anniemachomemortgage.github.io/Development/anniemac2021corporate.css" type="text/css" />');
+			if ($('body').hasClass('site-type-loan_officer')) {
+				$("#am-css").remove();
+				$("#am-styles").remove();
+				$("#am-responsive").remove();
+				$("#am-custom").remove();
+				$("#stylesheet-git").remove();
+			};  
+			if ($('body').hasClass('site-type-branch')){
+				$("#am-css").remove();
+				$("#am-styles").remove();
+				$("#am-responsive").remove();
+				$("#am-custom").remove();
+				$("#stylesheet-git").remove();
+			};
+			if ($('body').hasClass('site-type-corporate')) {
+				$("#am-css").remove();
+				$("#am-styles").remove();
+				$("#am-responsive").remove();
+				$("#am-custom").remove();
+				$("#stylesheet-git").remove();
+			};
 		};
 	};
+	
 	if($('body').hasClass('page-blog-list') || $('body').hasClass('page-blog-detail')) {
 		$('img').each(function() {
 			if(! $(this).attr('alt')) {
