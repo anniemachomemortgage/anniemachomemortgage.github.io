@@ -1219,6 +1219,13 @@ article hr {
 .media-body summary {
 	display: none;
 }
+.media-body header {
+	background: transparent;
+}
+.media-body .title {
+	margin-top: 0;
+	margin-bottom: 40px;
+}
 .page-blog-list .content-list.blog .inner > * .pull-left {
 	float: none;
 	display: inline-block;
@@ -1250,11 +1257,14 @@ article hr {
 	max-width: 1250px;
 	margin: 0 auto;
 	padding: 20px 0;
-	width: 90%;
 	flex-direction: column;
 }
 .pager {
-	margin: 0 auto;
+	border-bottom: 1px solid #f5f7fa;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 20px 0 20px;
 }
 .sidebar_items {
 	display: flex;
