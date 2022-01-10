@@ -1223,7 +1223,7 @@ article hr {
 	display: none;
 }
 .media-body header {
-	background: transparent;
+	background: transparent !important;
 }
 .media-body .title {
 	margin-top: 0;
