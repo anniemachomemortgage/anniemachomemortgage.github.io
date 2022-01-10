@@ -3,10 +3,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
 	<title>Get Local Lending</title>
-	<link href="https://kit.fontawesome.com/5ef689e183.js" rel="stylesheet">
 	<link rel="stylesheet" id="form-css" href="wireframe.css" type="text/css" media="all"/>
 	<script id="jquery-link" src="https://code.jquery.com/jquery-latest.min.js"></script>
 	<script id="page-specific-functionality-script" src="functionality.js"></script>
+	<script src="https://kit.fontawesome.com/5ef689e183.js" crossorigin="anonymous"></script>
 	<!-- Facebook Pixel Code -->
 	<script>
 	!function(f,b,e,v,n,t,s)
@@ -52,17 +52,9 @@
 			<section class="blocked-sectionals our-team-callout-sections">
 				<div class="blocked-sectional-half">
 					<h3>Welcome to Get Local Lending!</h3>
-					<p>We understand that buying a home and going through the process of getting a mortgage can be a big step. But we want to be here to make the loan process easy and bring clarity to what can be a daunting process. For over a decade, we have been serving the greater Western Washington area and we have focused on the idea that “mortgages may be what we do, but integrity is who we are”. So, give us a call if you are in need of a mortgage to purchase or refinance your home – from your first interaction with us, we want you to see what sets us apart, and together we can help find a clear path forward to your mortgage solution.</p> 
-	<!-- 				<h4>We're here to help!</h4>
-					<p>If you need help or have questions about a purchase or a refinance of your mortgage, give us a call or fill out our contact form and we’ll reach out to you to answer any questions you have.</p> -->
+					<p>We understand that buying a home and going through the process of getting a mortgage can be a big step. But we want to be here to make the loan process easy and bring clarity to what can be a daunting process. For over a decade, we have been serving the greater Western Washington area and we have focused on the idea that “mortgages may be what we do, but integrity is who we are”. So, give us a call if you are in need of a mortgage to purchase or refinance your home – from your first interaction with us, we want you to see what sets us apart, and together we can help find a clear path forward to your mortgage solution.</p>
 				<div>
 			</section>
-<!-- 			<section class="blocked-sectionals our-team-callout-sections">
-				<div class="blocked-sectional-half">
-					<h3>What Makes Us Different</h3>
-					<h4>With Get Local Lending, you can trust in the following actions from us...</h4>
-				</div>
-			</section> -->
 			<section class="blocked-sectionals our-team-callout-sections">
 				<div class="blocked-sectional-half">
 					<div id="who-we-are-blocking" class="full-width-image-container title-image-background-section">
@@ -77,6 +69,7 @@
 					<h3>Our Team</h3>
 				</div>
 			</section>	
+			<a id="team-toggle"></a>
 			<div id="team-member-section-display" class="team-member-section">
 				<section id="sam" class="blocked-sectionals our-team-callout-sections">
 					<div class="blocked-sectional-half">
@@ -84,12 +77,24 @@
 							<div class="team-biography-portrait">
 								<img src="images/sam.png" class="portrait-image">
 								<div class="team-biography-quick-information">
-									<h3>Sam Borthwick <span class="expand-button" id="expand-sam">View My Biography</span></h3>
+									<h3> Sam Borthwick 
+										<span class="expand-button" id="expand-sam">View My Biography</span>
+										<span class="close-button hidden-button close-sam" id="close-button-sam">Close Biography</span>
+									</h3>
 									<h4>Branch Manager</h4>
 									<h5>NMLS: 1067178</h5>
+									<div class="social-media-section-persons">
+										<ul>
+											<li><i class="fab fa-twitter-square"></i></li>
+											<li><i class="fab fa-facebook-square"></i></li>
+											<li><i class="fab fa-linkedin"></i></li>
+											<li><i class="fab fa-instagram"></i></li>
+										</ul>
+									</div>
 								</div>
 							</div>
 							<div class="team-biography hidden" id="biography-triggered-sam">
+								<div class="close-biography close-sam">X</div>
 								<h3>About Sam</h3>
 								<p>Sam Borthwick is a local mortgage expert from Washington who has helped thousands of families across the state realize their dreams of home ownership.</p>
 								<p>“My background was in finance, but I always wanted to take more of an educational role. When I got into the Mortgage Industry I realized there was a huge void in the educational side of the home buying process. Each one of my consults focuses on educating you on your options so you KNOW you have made the right decision. Over the years I have been blessed to be able to create custom game plans for my clients from paying off their homes in under 10 years to planning for retirement, or creating wealth through passive income from rental properties. Choosing a mortgage is the single biggest lever you can pull so important to pull the right one.”</p>
@@ -108,12 +113,24 @@
 							<div class="team-biography-portrait">
 								<img src="images/earnest.png" class="portrait-image">
 								<div class="team-biography-quick-information">
-									<h3>Earnest-Will Borthwick <span class="expand-button" id="expand-earnest">View My Biography</span></h3>
+									<h3> Earnest-Will Borthwick 
+										<span class="expand-button" id="expand-earnest">View My Biography</span>
+										<span class="close-button hidden-button close-earnest" id="close-button-earnest">Close Biography</span>
+									</h3>
 									<h4>Loan Officer</h4>
 									<h5>NMLS: 1831678</h5>
+									<div class="social-media-section-persons">
+										<ul>
+											<li><i class="fab fa-twitter-square"></i></li>
+											<li><i class="fab fa-facebook-square"></i></li>
+											<li><i class="fab fa-linkedin"></i></li>
+											<li><i class="fab fa-instagram"></i></li>
+										</ul>
+									</div>
 								</div>
 							</div>
 							<div class="team-biography hidden" id="biography-triggered-earnest">
+								<div class="close-biography close-earnest">X</div>
 								<h3>About Earnest</h3>
 								<p>Earnest uses his problem solving skills and high EQ to not only create a simplified plan around your mortgage but then also explain it in a way that makes sense.</p>
 								<p>His entrepreneurial mindset has helped him quickly become one of the best local experts. He focuses on finding the simplest way to accomplish your goals and utilizes the resources of Get Local Lending to make that an actuality.</p>
@@ -131,12 +148,24 @@
 							<div class="team-biography-portrait">
 								<img src="images/jeffrey.png" class="portrait-image">
 								<div class="team-biography-quick-information">
-									<h3>Jeff Pont <span class="expand-button" id="expand-jeff">View My Biography</span></h3>
+									<h3> Jeff Pont 
+										<span class="expand-button" id="expand-jeff">View My Biography</span>
+										<span class="close-button hidden-button close-jeff" id="close-button-jeff">Close Biography</span>
+									</h3>
 									<h4>Loan Officer</h4>
 									<h5>NMLS: 244524</h5>
+									<div class="social-media-section-persons">
+										<ul>
+											<li><i class="fab fa-twitter-square"></i></li>
+											<li><i class="fab fa-facebook-square"></i></li>
+											<li><i class="fab fa-linkedin"></i></li>
+											<li><i class="fab fa-instagram"></i></li>
+										</ul>
+									</div>
 								</div>
 							</div>
 							<div class="team-biography hidden" id="biography-triggered-jeff">
+								<div class="close-biography close-jeff">X</div>
 								<h3>About Jeff</h3>
 								<p>Jeff brings a wealth of experience to his role as senior mortgage consultant at Get Local Lending.</p>
 								<p>He has been originating loans since 2003 and prides himself on his excellent communication skills along with an ability to find the best loan product for his clients.</p>
@@ -155,12 +184,24 @@
 							<div class="team-biography-portrait">
 								<img src="images/dylan.png" class="portrait-image">
 								<div class="team-biography-quick-information">
-									<h3>Dylan Rudnick <span class="expand-button" id="expand-duane">View My Biography</span></h3>
+									<h3> Dylan Rudnick 
+										<span class="expand-button" id="expand-dylan">View My Biography</span>
+										<span class="close-button hidden-button close-dylan" id="close-button-dylan">Close Biography</span>
+									</h3>
 									<h4>Loan Originator</h4>
 									<h5>NMLS: 1918075</h5>
+									<div class="social-media-section-persons">
+										<ul>
+											<li><i class="fab fa-twitter-square"></i></li>
+											<li><i class="fab fa-facebook-square"></i></li>
+											<li><i class="fab fa-linkedin"></i></li>
+											<li><i class="fab fa-instagram"></i></li>
+										</ul>
+									</div>
 								</div>
 							</div>
 							<div class="team-biography hidden" id="biography-triggered-dylan">
+								<div class="close-biography close-dylan">X</div>
 								<h3>About Dylan</h3>
 								<p>Dylan is a community driven native of Skagit Valley.</p>
 								<p>Being born and raised here in Mount Vernon, he is dedicated to seeing his community succeed and grow. He uses his well-honed problem solving and critical thinking skills along with his detail oriented, attentive, and outgoing nature to be the lending expert you’ll want for the financing you need.</p>
@@ -177,12 +218,24 @@
 							<div class="team-biography-portrait">
 								<img src="images/duane.png" class="portrait-image">
 								<div class="team-biography-quick-information">
-									<h3>Duane Stenson <span class="expand-button" id="expand-duane">View My Biography</span></h3>
+									<h3> Duane Stenson 
+										<span class="expand-button" id="expand-duane">View My Biography</span>
+										<span class="close-button hidden-button close-duane" id="close-button-duane">Close Biography</span>
+									</h3>
 									<h4>Mortgage Loan Originator</h4>
 									<h5>NMLS: 1508654</h5>
+									<div class="social-media-section-persons">
+										<ul>
+											<li><i class="fab fa-twitter-square"></i></li>
+											<li><i class="fab fa-facebook-square"></i></li>
+											<li><i class="fab fa-linkedin"></i></li>
+											<li><i class="fab fa-instagram"></i></li>
+										</ul>
+									</div>
 								</div>
 							</div>
 							<div class="team-biography hidden" id="biography-triggered-duane">
+								<div class="close-biography close-duane">X</div>
 								<h3>About Duane</h3>
 								<p>Duane knows that buying or refinancing a home is one of the biggest financial decisions that AnnieMac's clients will ever make. That's why he works hard to ensure his team has the resources and know-how to ease borrowers through the loan process, with no detail overlooked.</p>
 								<p>“He has an extensive background in all facets of mortgage lending, so he can advise his team members in any situation, from a first-time home purchase to a refinancing. His expertise includes Conventional, Jumbo, FHA, VA, USDA, and Renovation loans.</p>

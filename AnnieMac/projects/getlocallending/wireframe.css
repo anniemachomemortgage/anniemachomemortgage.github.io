@@ -93,9 +93,9 @@ li#navigation-logo {
 	text-indent: -99999vw;
 	background: url('images/whitelogo.png');
 	background-size: cover;
-	height: 104px;
-	width: 650px;
-	margin: 25px 0 26px -10px;
+	height: 95px;
+	width: 475px;
+	margin: 5px 0 26px -10px;
 }
 .main-site-background {
 	/*! position: relative; */
@@ -162,7 +162,7 @@ li#navigation-logo {
 button.main-site-apply, #go-back-home {
 	outline: none;
 	padding: 20px;
-	margin: 15px 2px 25px;
+	margin: 15px 2px 15px;
 	min-width: 200px;
 	background: var(--orange);
 	color: var(--white);
@@ -180,12 +180,12 @@ button.main-site-apply-2 {
 	z-index: 1112 !important;
 	outline: none;
 	padding: 20px;
-	margin: 15px 2px 25px 0px;
+	margin: 15px 2px 15px 0px;
 	min-width: 200px;
 	color: var(--orange);
 	background: var(--white);
 	font-weight: 600;
-	border-radius: 2px;
+	border-radius: 1px;
 	font-size: 17px;
 	border: .5px solid var(--white);
 	position: inherit;
@@ -1228,7 +1228,17 @@ div li {
 }
 .active-biography {
 	width: 100% !important;
-	flex: 1;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: auto;
+	order: -1;
+}
+.active-biography-row-2 {
+	width: 100% !important;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: auto;
+	order: 4;
 }
 .team-biography-container {
 	display: flex;
@@ -1249,7 +1259,7 @@ div li {
 	padding: 50px 0;
 	padding-bottom: 100px;
 	width: 340px;
-	min-height: 540px;
+	min-height: 530px;
 	border-radius: 3px;
 	background-size: 100%;
 	background-position-y: -38%;
@@ -1262,6 +1272,7 @@ div li {
 }
 .team-biography-quick-information {
 	margin-top: 35px;
+	min-width: 80%;
 }
 .team-biography-quick-information h3 {
 	font-weight: 300;
@@ -1280,7 +1291,7 @@ div li {
 	padding: 6px;
 	border-radius: 4px;
 }
-.expand-button:hover {
+.expand-button:hover, .close-button {
 	cursor: pointer;
 }
 .team-biography-quick-information h4, .team-biography-quick-information h5 {
@@ -1308,10 +1319,15 @@ div li {
 	border: .5px solid var(--secondarygreen);
 	box-shadow: 1px 3px 5px rgba(0,0,0,.13);
 }
+.apply-with-team-member button:hover {
+	cursor: pointer;
+	box-shadow: 1px 3px 5px rgba(0,0,0,.33);
+}
 .team-biography {
 	background: #eaeaea;
 	padding: 30px 50px;
 	flex: 1;
+	position: relative;
 }
 .team-biography h3 {
 	color: #282828;
@@ -1345,6 +1361,54 @@ div li {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 460px;
+	width: 447px;
 	margin: auto 0;
+}
+.expand-button:hover, .expanded-selected, .close-button {
+	background: #57524c !important;
+}
+.expanded-selected:hover, .close-button:hover {
+	background: #3b3833 !important;
+}
+.hidden-button {
+	display: none !important;
+}
+.close-biography {
+	position: absolute;
+	right: -15px;
+	top: -14px;
+	color: #fff;
+	background: #bf2929;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	box-shadow: 1px 3px 5px rgba(0,0,0,.13);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 700;
+	font-size: 20px;
+}
+.close-biography:hover {
+	cursor: pointer;
+	background: #c62222;
+	box-shadow: 1px 3px 5px rgba(0,0,0,.33);
+}
+.social-media-section-persons {
+  width: 75%;
+  margin: 30px auto;
+}
+.social-media-section-persons ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  justify-content: space-between;
+}
+.social-media-section-persons ul li {
+  font-size: 24px;
+  color: #fff;
+  opacity: .6;
+  padding: 13px 0;
 }
