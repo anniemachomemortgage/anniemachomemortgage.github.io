@@ -1206,6 +1206,17 @@ navigationcircle {
 }
 /* Blog Stuff */
 .blog .inner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+article hr {
+	display: none;
+}
+.media {
+	width: 350px;
+}
+.media-body summary {
 	display: none;
 }
 .pagination ul {
