@@ -369,7 +369,6 @@ $(function() {
 			$("#susiebruner1 > div > button.go.flex.space-between.align-center").hide();
 			$("#susiebruner1 > div > h5:nth-child(3)").text("Non-Originating");
 		}
-		// $( '<h3 class="text-center">Additional Staff</h3><div id="" class="team-member-section"><div class="team-member" id="blairhoskins"><div id="" class="team-member-information"><h4>Blair Hoskins</h4><h5>Business Relationship Manager</h5><h5></h5><div id="" class="team-member-portrait" style="background-image: url(https://annie-mac.com/uploads/sites/10713/public/Blair_Hoskins.png); background-size: 115%; background-position-x: 33%; background-repeat: no-repeat;"></div><button class="flex space-between align-center">757-512-5027<i class="fas fa-mobile-alt"></i></button><button class="flex space-between align-center"><a href="mailto: BHoskins@Annie-Mac.com">Email Me</a><i class="fas fa-envelope"></i></button></div></div></div>' ).appendTo( $( "#team-display" ) );
 	};
 	if (window.location.href.indexOf("katiesundberg.annie-mac.com") != -1) {
 		$("#originator-social-details > ul > a:nth-child(7)").remove();
