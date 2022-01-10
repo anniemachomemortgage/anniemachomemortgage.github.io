@@ -1229,6 +1229,9 @@ article hr {
 	margin-top: 0;
 	margin-bottom: 40px;
 }
+.media-body .title a {
+	font-weight: 300;
+}
 .page-blog-list .content-list.blog .inner > * .pull-left {
 	float: none;
 	display: inline-block;
