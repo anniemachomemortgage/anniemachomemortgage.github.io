@@ -2,29 +2,6 @@
 
 $(function() {
 	$( ".inner-layout:contains('the page you requested could not be found')" ).css( "min-height", "90vh" );
-	// Begin testing prototype site code scripts...
-	if (window.location.href.indexOf("prototype") != -1) {
-		$("body").addClass("testingsite-true");
-	};
-	if ($('body').hasClass('testingsite-true')) {
-		$('.manager-biography iframe').remove();
-		$('#accolades-originator').remove();
-		$('#covid-warning').remove();
-		$('#home-deserve').remove();
-		$('#home-reviews').remove();
-		$('perks-home').remove();
-		$('#text-based-branch').remove();
-		if ($('body').hasClass('site-type-branch')) {
-			$('.front #branch-steps').remove();
-			$('#branch-overlay').remove();
-			$("#branch-welcome h3").remove();
-			$('<p>We believe you deserve more from the mortgage industry.</p><p>We believe in the need for live, human interaction during a complex process. The kind of service and guidance which an app simply can’t provide. We believe paperwork cannot tell your whole story.</p><p>Our customers are more than credit scores and income documents. They are the individuals and families who live in and strengthen our communities.</p>').insertBeforez( $( "#branch-content h5" ) );
-			$( ".text-center:contains('Our Sales Team')" ).prependTo( $( ".team-member-section" ) );
-			$( ".team-member-section" ).appendTo( $( "#annie-mac-2021-content-container" ) );
-			$( "#team-display" ).appendTo( $( ".team-member-section" ) );
-		};
-	};
-	// Begin live site code
 	$('*').contents().each(function() {
 		if(this.nodeType === Node.COMMENT_NODE) {
 			$(this).remove();
@@ -1314,25 +1291,57 @@ $(function() {
 					$('#headline').text("Blogs");
 				});
 			};
-		};
-		if ($('body').hasClass('page-branch-list')) {
-			$( "#drop-content h3" ).each(function() {
-			$( this ).addClass( "state-listing" );
-			});
-			$('.state-listing').each(function(){
-				$(this).next('.location-state-list').andSelf().wrapAll('<div class="state-listing-section"/>');
-			});
-			$(".state-listing-section").each(function() {
-				var stateName = $(this).find("h3").text();
-				$(this).attr("id", stateName);
-			});
-			$('.state-listing-section').sort(function(a, b) {
-			if (a.textContent < b.textContent) {
-				return -1;
-			} else {
-				return 1;
-			}
-			}).appendTo('#drop-content');
+			if ($('body').hasClass('page-blog-detail')) {
+				var appendedContent = $(".blog-index").html();
+				$("#site-navigation").remove(); 
+				$("#home-banner").remove(); 
+				$("#home-reviews").remove(); 
+				$("#home-deserve").remove(); 
+				$("#home-provide").remove(); 
+				$("#perks-home").remove(); 
+				$("#home-blog").remove();
+				$('footer').remove();
+				$('link[rel="stylesheet"]').each(function() {
+					$(this).remove();
+				});
+				$('style').each(function() {
+					$(this).remove();
+				});
+				$('noscript').each(function() {
+					$(this).remove();
+				});
+				$('iframe').each(function() {
+					$(this).remove();
+				});
+				$('script').each(function() {
+					$(this).remove();
+				});
+				$('.page-blog-detail').load("https://anniemachomemortgage.github.io/AnnieMac/anniemac2/blank.html", function() {
+					$(document).prop('title', 'AnnieMac [Development Site]');
+					console.log("Please visit https://annie-mac.com/?testing-site-status=false to return to normal version.");
+					$(appendedContent).appendTo($( "#drop-content" ));
+					$('#headline').text("Blogs");
+				});
+			};
+			if ($('body').hasClass('page-branch-list')) {
+				$( "#drop-content h3" ).each(function() {
+				$( this ).addClass( "state-listing" );
+				});
+				$('.state-listing').each(function(){
+					$(this).next('.location-state-list').andSelf().wrapAll('<div class="state-listing-section"/>');
+				});
+				$(".state-listing-section").each(function() {
+					var stateName = $(this).find("h3").text();
+					$(this).attr("id", stateName);
+				});
+				$('.state-listing-section').sort(function(a, b) {
+				if (a.textContent < b.textContent) {
+					return -1;
+				} else {
+					return 1;
+				}
+				}).appendTo('#drop-content');
+			};
 		};
 	};
 });

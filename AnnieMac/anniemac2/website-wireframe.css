@@ -1257,7 +1257,7 @@ article hr {
 	list-style: none;
 	width: 600px;
 }
-.content-list.blog {
+.content-list.blog, .blog-index {
 	display: flex;
 	justify-content: center;
 	max-width: 1250px;
