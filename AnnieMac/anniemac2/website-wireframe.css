@@ -1367,8 +1367,8 @@ article hr {
   line-height: 38px;
   font-weight: 400;
   text-transform: capitalize;
-  border-bottom: 1px solid #f5f7fa;
-  padding-bottom: 5px;
+/*   border-bottom: 1px solid #f5f7fa;
+  padding-bottom: 5px; */
 }
 .page-page-detail .text-content > h3:first-of-type {
   visibility: hidden;
