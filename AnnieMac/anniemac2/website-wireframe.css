@@ -272,11 +272,23 @@ button {
 	width: fit-content;
 }
 
+#cta1 button {
+	background: #64a445;
+	border: 3px solid #64a445;
+	color: #fff;
+}
+
 button:hover {
 	color: #fff;
 	background: #78c254;
 	border: 3px solid #78c254;
 	cursor: pointer;
+}
+
+#cta1 button:hover {
+	background: #78c254;
+	border: 3px solid #78c254;
+	color: #fff;
 }
 
 a button:hover {
