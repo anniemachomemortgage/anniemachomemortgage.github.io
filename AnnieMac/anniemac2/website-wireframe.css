@@ -233,6 +233,12 @@ padding: 35px 0 0;
 #initial-section {
 padding: 35px 0 10px;
 }
+.negative-top {
+	margin-top: -12px;
+}
+.negative-top .left-side-container > h3:first-of-type {
+	margin-top: -5px;
+}
 .sectional h2 {
 	margin-bottom: 15px;
 }
