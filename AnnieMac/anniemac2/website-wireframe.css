@@ -1121,6 +1121,7 @@ navigationcircle {
 	background: #f5f7fa99;
 	padding: 1px 28px 28px;
 	border-radius: 7px;
+	display: none;
 }
 .related-links-to-section h5 {
 	border-bottom: 1px solid #7980882b;
