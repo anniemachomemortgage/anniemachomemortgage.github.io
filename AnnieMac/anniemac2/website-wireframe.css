@@ -1212,7 +1212,6 @@ navigationcircle {
 }
 .blog .clearfix {
 	order: 2;
-	width: 100%;
 	display: flex;
 }
 .blog .content-detail .pull-left img {
