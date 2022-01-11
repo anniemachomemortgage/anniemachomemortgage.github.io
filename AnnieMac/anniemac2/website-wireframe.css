@@ -1355,6 +1355,18 @@ article hr {
 	background-position-y: 71%;
 	background-size: cover;
 }
+.page-page-detail .text-content .left-side-container h3 {
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 400;
+  text-transform: capitalize;
+  border-bottom: 1px solid #f5f7fa;
+  padding-bottom: 5px;
+}
+.page-page-detail .text-content > h3:first-of-type {
+  visibility: hidden;
+  height: 0px;
+}
 .side-by-side-content-container {
   display: flex;
   align-content: flex-start;
