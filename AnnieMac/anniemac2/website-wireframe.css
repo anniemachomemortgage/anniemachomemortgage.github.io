@@ -1219,6 +1219,30 @@ navigationcircle {
 	width: 100%;
 	display: flex;
 }
+.page-blog-detail .share-bar {
+	border-bottom: 1px solid #f5f7fa;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	padding: 20px 0 20px;
+}
+.share-bar {
+  border-bottom: 1px solid #f5f7fa;
+  width: 100%;
+  display: flex;
+  padding: 20px 0 20px;
+  justify-content: flex-end;
+}
+.share-bar ul {
+	list-style: none;
+	margin: 40px 0 0;
+	padding: 0;
+	width: 220px !important;
+	justify-content: space-between;
+}
+.google-plus, .pinterest {
+	display: none;
+}
 .blog .content-detail .pull-left img {
 	display: none;
 	height: auto;
