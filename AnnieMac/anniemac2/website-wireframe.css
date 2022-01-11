@@ -1350,7 +1350,7 @@ article hr {
 .sidebar_items .block ul li a {
 	font-weight: 400;
 }
-.sidebar_items .block:nth-of-type(3) ul li:nth-last-child(n+11) {
+.sidebar_items .block:nth-of-type(3) ul li:nth-last-child(n+10) {
 	display: none;
 }
 .block.recent-blogs {
