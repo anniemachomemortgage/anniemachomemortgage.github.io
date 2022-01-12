@@ -271,15 +271,17 @@ nav ul {
 .container-note {
   position: relative;
 }
+
 #note-for-menu {
   position: absolute;
   width: 223px;
   background: black;
-  top: 48px;
-  left: -20px;
+  top: 110px;
+  right: 0;
   padding: 10px;
   line-height: 19px;
   font-weight: 100;
+  z-index: 3;
 }
 
 #menu-toggle span {
