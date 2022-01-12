@@ -144,12 +144,20 @@ nav ul {
 	width: 100%;
 	justify-content: space-between;
 	align-items: center;
+	position: relative;
+	overflow-x: ;
 }
 
 navigation {
 	width: 570px;
 	justify-content: space-between;
 	align-items: center;
+	padding: 0 20px;
+	background: white;
+	border-radius: 40px 0 0 40px;
+	position: absolute;
+	right: -45%;
+	z-index: 1;
 }
 
 navigation li {
@@ -179,10 +187,15 @@ navigation li {
 	cursor: pointer;
 }
 
-#menu-toggle {
-	position: relative;
-	display: flex;
-	align-items: center;
+#nav-menu-toggle {
+  color: black;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+}
+
+#nav-menu-toggle i {
+  padding-right: 10px;
 }
 
 #menu-toggle span {
