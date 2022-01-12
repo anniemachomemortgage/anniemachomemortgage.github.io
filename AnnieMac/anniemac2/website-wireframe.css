@@ -244,6 +244,21 @@ navigation:hover #pin-toggle {
 	transform: rotate(45deg);
 }
 
+.pinned-menu {
+	background: #64a445 !important;
+}
+
+.pinned-menu i {
+	transform: rotate(0) !important;
+}
+
+.fixed-menu {
+	right: -0.5%;
+	width: 636px;
+	padding-left: 45px;
+	position: fixed;
+}
+
 #menu-toggle span {
 	width: 30px;
 	display: flex;
