@@ -146,14 +146,36 @@ nav ul {
 	align-items: center;
 }
 
-navigation li:nth-of-type(1) {
-	font-weight: 700;
-}
-
 navigation {
 	width: 600px;
 	justify-content: space-between;
 	align-items: center;
+}
+
+navigation li {
+	color: #fff;
+	font-size: 17px;
+	font-weight: 200;
+}
+
+#apply-navigation-bar {
+	background: #64a445;
+	border: 3px solid #64a445;
+	color: #fff;
+	font-size: 17px;
+	outline: none;
+	padding: 5px 20px;
+	font-weight: 800;
+	letter-spacing: .05em;
+	margin: 5px 0;
+	width: fit-content;
+}
+
+#apply-navigation-bar:hover {
+	color: #fff;
+	background: #78c254;
+	border: 3px solid #78c254;
+	cursor: pointer;
 }
 
 #menu-toggle {
