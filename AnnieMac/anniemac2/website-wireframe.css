@@ -276,7 +276,7 @@ nav ul {
 	content: "";
 	position: absolute;
 	top: 98px;
-	right: 190px;
+	right: 186px;
 	width: 0;
 	height: 0;
 	border-top: 15px solid #000;
@@ -290,13 +290,13 @@ nav ul {
   position: absolute;
   width: 223px;
   background: black;
-  top: 110px;
-  right: 0;
+  right: 185px;
+  top: 105px;
   padding: 15px 10px 10px 15px;
   line-height: 19px;
   font-weight: 100;
   z-index: 3;
-  border-radius: 10px 5px 5px 10px;
+  border-radius: 8px 5px;
 }
 
 #menu-toggle span {
