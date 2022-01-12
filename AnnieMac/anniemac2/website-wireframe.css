@@ -163,7 +163,7 @@ nav ul {
 
 #navigation li {
 	font-size: 17px;
-	font-weight: 500;
+	font-weight: 300;
 	letter-spacing: .65px;
 	color: #000;
 }
@@ -257,7 +257,7 @@ nav ul {
 	right: -0.5% !important;
 	width: 636px !important;
 	padding-left: 45px !important;
-	position: fixed;
+	position: fixed !important;
 	box-shadow: 1px 3px 21px rgba(0,0,0,.10);
 }
 
