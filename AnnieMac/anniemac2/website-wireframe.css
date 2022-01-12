@@ -176,7 +176,6 @@ nav ul {
 
 #navigation:hover {
 	width: 650px;
-	padding-left: 60px;
 }
 
 #navigation:hover #home-navigation-bar,
@@ -228,22 +227,20 @@ nav ul {
 }
 
 #navigation:hover #pin-toggle, .fixed-menu #pin-toggle {
-	position: absolute;
 	background: #78c254;
-	left: -2px;
-	height: 27px;
-	width: 27px;
+	margin-right: -32px;
+	height: 38px;
+	width: 38px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	border-radius: 100%;
-	bottom: -5px;
 }
 
 #pin-toggle i {
 	transform: rotate(45deg);
 	color: #fff;
-	font-size: 12px;
+	font-size: 18px;
 }
 
 .pinned-menu {
