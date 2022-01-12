@@ -177,6 +177,7 @@ navigation li {
 navigation:hover {
 	right: -7.5%;
 	width: 636px;
+	padding-left: 45px;
 }
 
 navigation:hover #home-navigation-bar,
@@ -218,6 +219,10 @@ navigation:hover #apply-navigation-bar {
 
 #nav-menu-toggle i {
 	padding-right: 10px;
+}
+
+navigation:hover #nav-menu-toggle {
+	display: none;
 }
 
 #menu-toggle span {
