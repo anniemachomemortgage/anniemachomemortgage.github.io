@@ -296,7 +296,7 @@ nav ul {
   line-height: 19px;
   font-weight: 100;
   z-index: 3;
-  border-radius: 10px;
+  border-radius: 10px 5px 5px 10px;
 }
 
 #menu-toggle span {
