@@ -155,7 +155,8 @@ navigation {
 navigation li {
 	color: #fff;
 	font-size: 17px;
-	font-weight: 200;
+	font-weight: 500;
+	letter-spacing: .65px;
 }
 
 #apply-navigation-bar {
