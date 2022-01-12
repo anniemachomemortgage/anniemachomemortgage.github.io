@@ -254,7 +254,6 @@ nav ul {
 .fixed-menu {
 	right: 0% !important;
 	width: 650px !important;
-	padding-left: 60px !important;
 	position: fixed !important;
 	box-shadow: 1px 3px 21px rgba(0,0,0,.10);
 }
