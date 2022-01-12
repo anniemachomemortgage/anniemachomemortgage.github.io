@@ -159,23 +159,7 @@ navigation li {
 	letter-spacing: .65px;
 }
 
-navslider {
-	
-}
-
-navslider i {
-	
-}
-
-.hidden-navigation-bar-options {
-	
-}
-
-.hidden-navigation-bar-options li {
-	
-}
-
-/* #apply-navigation-bar {
+#apply-navigation-bar {
 	background: #64a445;
 	border: 3px solid #64a445;
 	color: #fff;
@@ -193,7 +177,7 @@ navslider i {
 	background: #78c254;
 	border: 3px solid #78c254;
 	cursor: pointer;
-} */
+}
 
 #menu-toggle {
 	position: relative;
