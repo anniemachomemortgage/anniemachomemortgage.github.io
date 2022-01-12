@@ -253,9 +253,9 @@ navigation:hover #pin-toggle {
 }
 
 .fixed-menu {
-	right: -0.5%;
-	width: 636px;
-	padding-left: 45px;
+	right: -0.5% !important;
+	width: 636px !important;
+	padding-left: 45px !important;
 	position: fixed;
 }
 
