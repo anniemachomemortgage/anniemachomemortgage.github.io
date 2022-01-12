@@ -301,6 +301,10 @@ nav ul {
   box-shadow: 1px 3px 10px rgba(0,0,0,.1);
 }
 
+header:hover .container-note, header:hover .container-note::before {
+  display: none;
+}
+
 #menu-toggle span {
 	width: 30px;
 	display: flex;
