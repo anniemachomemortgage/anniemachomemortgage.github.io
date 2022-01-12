@@ -170,8 +170,7 @@ nav ul {
 #pin-toggle,
 #home-navigation-bar,
 #loans-navigation-bar,
-#resources-navigation-bar,
-#apply-navigation-bar {
+#resources-navigation-bar {
 	display: none;
 }
 
@@ -229,8 +228,8 @@ nav ul {
 	position: absolute;
 	background: #78c254;
 	left: -2px;
-	height: 35px;
-	width: 35px;
+	height: 27px;
+	width: 27px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -266,8 +265,7 @@ nav ul {
 
 .fixed-menu #home-navigation-bar,
 .fixed-menu #loans-navigation-bar,
-.fixed-menu #resources-navigation-bar,
-.fixed-menu #apply-navigation-bar {
+.fixed-menu #resources-navigation-bar {
 	display: block;
 }
 
