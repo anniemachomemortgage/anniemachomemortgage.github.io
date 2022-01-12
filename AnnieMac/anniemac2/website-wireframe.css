@@ -272,6 +272,20 @@ nav ul {
   position: relative;
 }
 
+.container-note::before {
+	content: "";
+	position: absolute;
+	top: 98px;
+	right: 190px;
+	width: 0;
+	height: 0;
+	border-top: 15px solid #000;
+	transform: rotate(180deg);
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	z-index: 3;
+}
+
 #note-for-menu {
   position: absolute;
   width: 223px;
@@ -282,6 +296,7 @@ nav ul {
   line-height: 19px;
   font-weight: 100;
   z-index: 3;
+  border-radius: 10px;
 }
 
 #menu-toggle span {
