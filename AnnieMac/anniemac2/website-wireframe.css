@@ -177,13 +177,14 @@ navigation:hover {
 }
 navigation:hover #home-navigation-bar, navigation:hover #loans-navigation-bar, navigation:hover #resources-navigation-bar, navigation:hover #apply-navigation-bar {
   display: block;
-  color: black;
+  color: #414244;
+  font-weight: 300;
 }
 
 #apply-navigation-bar {
 	background: #64a445;
 	border: 3px solid #64a445;
-	color: #fff;
+	color: #fff !important;
 	font-size: 17px;
 	outline: none;
 	padding: 10px 30px;
