@@ -167,18 +167,25 @@ navigation li {
 	letter-spacing: .65px;
 }
 
-#home-navigation-bar, #loans-navigation-bar, #resources-navigation-bar, #apply-navigation-bar {
-  display: none;
+#home-navigation-bar,
+#loans-navigation-bar,
+#resources-navigation-bar,
+#apply-navigation-bar {
+	display: none;
 }
 
 navigation:hover {
-  right: -7.5%;
-  width: 636px;
+	right: -7.5%;
+	width: 636px;
 }
-navigation:hover #home-navigation-bar, navigation:hover #loans-navigation-bar, navigation:hover #resources-navigation-bar, navigation:hover #apply-navigation-bar {
-  display: block;
-  color: #414244;
-  font-weight: 300;
+
+navigation:hover #home-navigation-bar,
+navigation:hover #loans-navigation-bar,
+navigation:hover #resources-navigation-bar,
+navigation:hover #apply-navigation-bar {
+	display: block;
+	color: #414244;
+	font-weight: 300;
 }
 
 #apply-navigation-bar {
@@ -202,15 +209,15 @@ navigation:hover #home-navigation-bar, navigation:hover #loans-navigation-bar, n
 }
 
 #nav-menu-toggle {
-  color: black;
-  font-weight: 300;
-  display: flex;
-  align-items: center;
-  padding:   10px 0px;
+	color: black;
+	font-weight: 300;
+	display: flex;
+	align-items: center;
+	padding: 10px 0px;
 }
 
 #nav-menu-toggle i {
-  padding-right: 10px;
+	padding-right: 10px;
 }
 
 #menu-toggle span {
