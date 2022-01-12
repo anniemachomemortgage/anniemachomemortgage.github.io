@@ -214,10 +214,13 @@ nav ul {
 	display: flex;
 	align-items: center;
 	padding: 10px 0px;
+	margin-right: 30px;
 }
 
 #nav-menu-toggle i {
-	padding-right: 10px;
+	padding-right: 0;
+	font-size: 38px;
+	opacity: .18;
 }
 
 #navigation:hover #nav-menu-toggle {

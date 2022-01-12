@@ -3,7 +3,7 @@ $(function() {
 		window.location.href = '/';
 	});
 	$("#pin-toggle").click(function(event) {
-		$('#navigation').addClass('fixed-menu');
-		$('#pin-toggle').addClass('pinned-menu');
+		$('#navigation').toggleClass('fixed-menu');
+		$('#pin-toggle').toggleClass('pinned-menu');
 	});
 });
