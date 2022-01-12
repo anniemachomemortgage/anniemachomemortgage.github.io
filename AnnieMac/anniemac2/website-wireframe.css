@@ -176,9 +176,8 @@ nav ul {
 }
 
 #navigation:hover {
-	right: -7.5%;
-	width: 636px;
-	padding-left: 45px;
+	width: 650px;
+	padding-left: 60px;
 }
 
 #navigation:hover #home-navigation-bar,
