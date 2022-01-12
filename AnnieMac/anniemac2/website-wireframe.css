@@ -147,7 +147,7 @@ nav ul {
 }
 
 navigation {
-	width: 600px;
+	width: 570px;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -165,7 +165,7 @@ navigation li {
 	color: #fff;
 	font-size: 17px;
 	outline: none;
-	padding: 5px 20px;
+	padding: 10px 30px;
 	font-weight: 800;
 	letter-spacing: .05em;
 	margin: 5px 0;
