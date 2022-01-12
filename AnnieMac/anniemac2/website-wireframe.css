@@ -275,11 +275,11 @@ nav ul {
 .container-note::before {
 	content: "";
 	position: absolute;
-	top: 98px;
-	right: 186px;
+	top: 96px;
+	right: 181px;
 	width: 0;
 	height: 0;
-	border-top: 15px solid #000;
+	border-top: 15px solid #ddd9d9;
 	transform: rotate(180deg);
 	border-left: 15px solid transparent;
 	border-right: 15px solid transparent;
@@ -288,15 +288,17 @@ nav ul {
 
 #note-for-menu {
   position: absolute;
-  width: 223px;
-  background: black;
-  right: 185px;
+  width: 230px;
+  background: #ddd9d9;
+  right: 180px;
   top: 105px;
-  padding: 15px 10px 10px 15px;
-  line-height: 19px;
+  padding: 15px 15px 10px 15px;
+  line-height: 20px;
   font-weight: 100;
   z-index: 3;
-  border-radius: 8px 5px;
+  border-radius: 8px 12px 8px 8px;
+  color: #555252;
+  box-shadow: 1px 3px 10px rgba(0,0,0,.1);
 }
 
 #menu-toggle span {
