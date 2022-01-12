@@ -148,7 +148,7 @@ nav ul {
 	overflow-x: ;
 }
 
-navigation {
+#navigation {
 	width: auto;
 	justify-content: space-between;
 	align-items: center;
@@ -161,7 +161,7 @@ navigation {
 	height: 75px;
 }
 
-navigation li {
+#navigation li {
 	color: #fff;
 	font-size: 17px;
 	font-weight: 500;
@@ -176,16 +176,16 @@ navigation li {
 	display: none;
 }
 
-navigation:hover {
+#navigation:hover {
 	right: -7.5%;
 	width: 636px;
 	padding-left: 45px;
 }
 
-navigation:hover #home-navigation-bar,
-navigation:hover #loans-navigation-bar,
-navigation:hover #resources-navigation-bar,
-navigation:hover #apply-navigation-bar {
+#navigation:hover #home-navigation-bar,
+#navigation:hover #loans-navigation-bar,
+#navigation:hover #resources-navigation-bar,
+#navigation:hover #apply-navigation-bar {
 	display: block;
 	color: #414244;
 	font-weight: 300;
@@ -223,11 +223,11 @@ navigation:hover #apply-navigation-bar {
 	padding-right: 10px;
 }
 
-navigation:hover #nav-menu-toggle {
+#navigation:hover #nav-menu-toggle {
 	display: none;
 }
 
-navigation:hover #pin-toggle {
+#navigation:hover #pin-toggle, .fixed-menu #pin-toggle {
 	position: absolute;
 	background: #78c254;
 	left: -2px;
@@ -257,6 +257,18 @@ navigation:hover #pin-toggle {
 	width: 636px !important;
 	padding-left: 45px !important;
 	position: fixed;
+	box-shadow: 1px 3px 21px rgba(0,0,0,.10);
+}
+
+.fixed-menu #nav-menu-toggle {
+	display: none;
+}
+
+.fixed-menu #home-navigation-bar,
+.fixed-menu #loans-navigation-bar,
+.fixed-menu #resources-navigation-bar,
+.fixed-menu #apply-navigation-bar {
+	display: block;
 }
 
 #menu-toggle span {
@@ -1410,26 +1422,6 @@ cardfeaturette a:hover {
 
 .annie-mac-redesign {
 	position: relative;
-}
-
-navigationcircle {
-	position: fixed;
-	bottom: 3%;
-	background: #006295;
-	width: 120px;
-	height: 120px;
-	right: 1%;
-	border-radius: 100%;
-	color: #fff;
-	font-weight: 600;
-	font-size: 21px;
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	box-shadow: 1px 0px 15px rgba(0, 0, 0, .32);
-	text-transform: uppercase;
-	letter-spacing: 2px;
 }
 
 .sitemap-section ul {
