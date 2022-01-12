@@ -162,10 +162,10 @@ nav ul {
 }
 
 #navigation li {
-	color: #fff;
 	font-size: 17px;
 	font-weight: 500;
 	letter-spacing: .65px;
+	color: #000;
 }
 
 #pin-toggle,
@@ -242,6 +242,7 @@ nav ul {
 
 #pin-toggle i {
 	transform: rotate(45deg);
+	color: #fff;
 }
 
 .pinned-menu {
