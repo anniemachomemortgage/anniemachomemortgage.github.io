@@ -268,6 +268,20 @@ nav ul {
 	display: block;
 }
 
+.container-note {
+  position: relative;
+}
+#note-for-menu {
+  position: absolute;
+  width: 223px;
+  background: black;
+  top: 48px;
+  left: -20px;
+  padding: 10px;
+  line-height: 19px;
+  font-weight: 100;
+}
+
 #menu-toggle span {
 	width: 30px;
 	display: flex;
