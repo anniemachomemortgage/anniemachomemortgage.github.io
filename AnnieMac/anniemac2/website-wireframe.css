@@ -241,6 +241,7 @@ nav ul {
 #pin-toggle i {
 	transform: rotate(45deg);
 	color: #fff;
+	font-size: 12px;
 }
 
 .pinned-menu {
