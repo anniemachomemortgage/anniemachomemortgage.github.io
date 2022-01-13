@@ -270,7 +270,7 @@ nav ul {
 
 .note-container-relative {
 	position: absolute;
-	background: red;
+	background: transparent;
 	width: 410px;
 	right: 0;
 	height: 171px;
