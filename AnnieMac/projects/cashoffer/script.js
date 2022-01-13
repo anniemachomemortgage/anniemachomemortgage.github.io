@@ -56,7 +56,7 @@ $(function() {
 		};
 		$("#dismiss-button-forever").click(function(event) {
 			$('#minimized-realtor').hide();
-			localStorage.setItem('minimizedtripleplay', 'true');
+			// localStorage.setItem('minimizedtripleplay', 'true');
 		});
 	};
 	if (window.location.href.indexOf("campaign=tripleplay21") > -1) {
