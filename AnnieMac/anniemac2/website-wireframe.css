@@ -338,13 +338,14 @@ nav ul li ul li a:hover {
   background: #ddd9d9;
   right: 180px;
   top: 105px;
-  padding: 15px 15px 10px 15px;
-  line-height: 20px;
-  font-weight: 100;
+  padding: 13px;
+  line-height: 18px;
+  font-weight: 400;
   z-index: 3;
   border-radius: 8px 12px 8px 8px;
   color: #555252;
   box-shadow: 1px 3px 10px rgba(0,0,0,.1);
+  font-size: 15px;
 }
 
 .note-container-relative:hover .container-note, .note-container-relative:hover .container-note::before {
