@@ -231,11 +231,9 @@ nav ul li ul li a:hover {
 	background: #64a445;
 	border: 3px solid #64a445;
 	color: #fff !important;
-	font-size: 17px;
+	border-radius: 2px;
 	outline: none;
-	padding: 10px 30px;
-	font-weight: 800;
-	letter-spacing: .05em;
+	padding: 5px 30px;
 	margin: 5px 0;
 	width: fit-content;
 }
