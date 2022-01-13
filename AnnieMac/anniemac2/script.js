@@ -6,8 +6,7 @@ $(function() {
 		$('#navigation').toggleClass('fixed-menu');
 		$('#pin-toggle').toggleClass('pinned-menu');
 	});
-	$("#triggering-note").hover(
-	  function () {
+	$("#triggering-note").hover(function () {
 		$(this).addClass("initial-hidden");
 		localStorage.setItem('hidenote', 'true');
 	  }
@@ -18,5 +17,19 @@ $(function() {
 	if ((localStorage.hidenote) == "initial") {
 		$("#triggering-note").removeClass('initial-hidden');
 	};
-		
+	$("#home-navigation-bar").hover(function () {
+		$("#home-navigation-bar ul").removeClass("initial-hidden");
+		$("#loans-navigation-bar ul").addClass("initial-hidden");
+		$("#resources-navigation-bar ul").addClass("initial-hidden");
+	});
+	$("#loans-navigation-bar").hover(function () {
+		$("#home-navigation-bar ul").addClass("initial-hidden");
+		$("#loans-navigation-bar ul").removeClass("initial-hidden");
+		$("#resources-navigation-bar ul").addClass("initial-hidden");
+	});
+	$("#resources-navigation-bar").hover(function () {
+		$("#home-navigation-bar ul").addClass("initial-hidden");
+		$("#loans-navigation-bar ul").addClass("initial-hidden");
+		$("#resources-navigation-bar ul").removeClass("initial-hidden");
+	});
 });
