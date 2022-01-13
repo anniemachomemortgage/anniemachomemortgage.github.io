@@ -174,8 +174,25 @@ nav ul li ul {
 	background: white;
 	padding: 20px;
 	width: 206px;
-	right: 0;
+	left: -25px;
 	box-shadow: 1px 3px 21px rgba(0,0,0,.10);
+}
+
+nav ul li ul li {
+	border-bottom: 1px solid #7980882b;
+	padding: 5px 20px;
+	margin: 0 -20px;
+}
+
+nav ul li ul li:first-of-type {
+	padding-top: 0;
+	margin-top: -10px;
+}
+
+nav ul li ul li:last-of-type {
+	border-bottom: 0;
+	padding-bottom: 0;
+	margin-bottom: -10px;
 }
 
 #pin-toggle,
