@@ -197,6 +197,14 @@ nav ul li ul li:last-of-type {
 	margin-bottom: -7px;
 }
 
+nav ul li ul li:hover {
+	background: #eff1f2;
+}
+
+nav ul li ul li a:hover {
+	border-bottom: none;
+}
+
 #pin-toggle,
 #home-navigation-bar,
 #loans-navigation-bar,
