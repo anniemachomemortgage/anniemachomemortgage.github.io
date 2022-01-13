@@ -268,6 +268,14 @@ nav ul {
 	display: block;
 }
 
+.note-container-relative {
+	position: absolute;
+	background: red;
+	width: 410px;
+	right: 0;
+	height: 171px;
+}
+
 .container-note {
   position: relative;
 }
@@ -301,7 +309,7 @@ nav ul {
   box-shadow: 1px 3px 10px rgba(0,0,0,.1);
 }
 
-header:hover .container-note, header:hover .container-note::before {
+.note-container-relative:hover .container-note, .note-container-relative:hover .container-note::before {
   display: none;
 }
 
