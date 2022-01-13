@@ -42,4 +42,9 @@ $(function() {
 		$("#loans-navigation-bar ul").addClass("initial-hidden");
 		$("#resources-navigation-bar ul").addClass("initial-hidden");
 	});
+	$("#navigation").on('mouseout', function (event) {
+		$("#home-navigation-bar ul").addClass("initial-hidden");
+		$("#loans-navigation-bar ul").addClass("initial-hidden");
+		$("#resources-navigation-bar ul").addClass("initial-hidden");
+	});
 });
