@@ -187,8 +187,9 @@ nav ul li ul li {
 }
 
 nav ul li ul li:first-of-type {
-	padding-top: 0;
-	margin-top: -5px;
+	padding-top: 12px;
+	margin-top: -20px;
+	border-radius: 5px 5px 0 0;
 }
 
 nav ul li ul li:last-of-type {
