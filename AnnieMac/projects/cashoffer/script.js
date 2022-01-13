@@ -47,6 +47,18 @@ $(function() {
 	$("logo img").click(function(event) {
 		window.location.href = '/page/cash2keys';
 	});
+	if (window.location.href.indexOf("realtor") > -1) {
+		if (localStorage.getItem("minimizedtripleplay") === null) {
+			localStorage.setItem('minimizedtripleplay', 'initial');
+		}
+		if ((localStorage.minimizedtripleplay) == "initial") {
+			$('#minimized-realtor').removeClass('initial-hidden');
+		};
+		$("#dismiss-button-forever").click(function(event) {
+			$('#minimized-realtor').hide();
+			localStorage.setItem('minimizedtripleplay', 'true');
+		});
+	};
 	if (window.location.href.indexOf("campaign=tripleplay21") > -1) {
 		if (localStorage.getItem("minimizedtripleplay") === null) {
 			localStorage.setItem('minimizedtripleplay', 'initial');
