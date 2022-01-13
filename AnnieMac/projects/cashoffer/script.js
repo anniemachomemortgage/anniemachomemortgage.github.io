@@ -47,13 +47,13 @@ $(function() {
 	$("logo img").click(function(event) {
 		window.location.href = '/page/cash2keys';
 	});
+	if (window.location.href.indexOf("confirmreg") > -1) {
+		localStorage.setItem('minimizerealtor', 'registered');
+	};
 	if (window.location.href.indexOf("cash2keys-realtor") > -1) {
 		if (localStorage.getItem("minimizerealtor") === null) {
 			localStorage.setItem('minimizerealtor', 'initial');
 		}
-		if (window.location.href.indexOf("confirmreg") > -1) {
-			localStorage.setItem('minimizerealtor', 'registered');
-		};
 		if ((localStorage.minimizerealtor) == "initial") {
 			$('#minimized-realtor').removeClass('initial-hidden');
 		};
