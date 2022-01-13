@@ -165,6 +165,17 @@ nav ul {
 	font-weight: 300;
 	letter-spacing: .65px;
 	color: #000;
+	position: relative;
+}
+
+nav ul li ul {
+	position: absolute;
+	top: 33px;
+	background: white;
+	padding: 20px;
+	width: 206px;
+	right: 0;
+	box-shadow: 1px 3px 21px rgba(0,0,0,.10);
 }
 
 #pin-toggle,
