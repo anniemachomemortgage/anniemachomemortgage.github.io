@@ -177,6 +177,7 @@ nav ul li ul {
 	left: -25px;
 	box-shadow: 1px 3px 21px rgba(0,0,0,.15);
 	border-radius: 5px;
+	z-index: 4;
 }
 
 nav ul li ul li {
