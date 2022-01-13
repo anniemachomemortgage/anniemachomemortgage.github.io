@@ -194,8 +194,9 @@ nav ul li ul li:first-of-type {
 
 nav ul li ul li:last-of-type {
 	border-bottom: 0;
-	padding-bottom: 0;
-	margin-bottom: -7px;
+	padding-bottom: 10px;
+	margin-bottom: -20px;
+	border-radius: 0 0 5px 5px;
 }
 
 nav ul li ul li:hover {
