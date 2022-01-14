@@ -226,6 +226,22 @@ cursor: pointer;
 a button:hover {
 cursor: pointer;
 }
+
+header textsectional a:last-of-type button {
+  margin-left: 23px;
+  background: transparent;
+  color: #78c254;
+}
+
+header textsectional a:last-of-type:hover {
+  border-bottom: none;
+}
+
+header textsectional a:last-of-type button:hover {
+  background: #78c254;
+  border: 3px solid #78c254;
+}
+
 .image {
 background: var(--fadedblue);
 border-radius: 6px;
