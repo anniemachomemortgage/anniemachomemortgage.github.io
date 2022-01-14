@@ -240,6 +240,7 @@ header textsectional a:last-of-type:hover {
 header textsectional a:last-of-type button:hover {
   background: #78c254;
   border: 3px solid #78c254;
+  color: white;
 }
 
 .image {
