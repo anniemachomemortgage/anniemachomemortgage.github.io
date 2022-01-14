@@ -310,6 +310,7 @@ color: #fff;
 margin-top: 20px;
 padding: 20px;
 min-width: 220px;
+border: 3px solid #78c254;
 }
 .phone-number-button {
 display: block;
