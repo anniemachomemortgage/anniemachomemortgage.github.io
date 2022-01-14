@@ -206,8 +206,8 @@ background-size: cover;
 }
 button {
 color: white;
-background: #78c254;
-border: 3px solid #78c254;
+background: #64a445;
+border: 3px solid #64a445;
 outline: none;
 padding: 13px 15px;
 border-radius: ;
@@ -238,8 +238,8 @@ header textsectional a:last-of-type:hover {
 }
 
 header textsectional a:last-of-type button:hover {
-  background: #78c254;
-  border: 3px solid #78c254;
+  background: #64a445;
+  border: 3px solid #64a445;
   color: white;
 }
 
