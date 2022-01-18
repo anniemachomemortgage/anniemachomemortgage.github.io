@@ -176,6 +176,7 @@ nav ul {
 .loadstate {
 	visibility: visible;
 	opacity: 1;
+	max-width: fit-content;
 }
 
 #navigation li {
