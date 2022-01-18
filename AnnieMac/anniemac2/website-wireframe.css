@@ -160,6 +160,15 @@ nav ul {
 	height: 75px;
 }
 
+.navigation-fadein {
+	visibility: hidden;
+}
+
+.initial-invisible {
+	visibility: hidden;
+	max-width: 1px;
+}
+
 #navigation li {
 	font-size: 17px;
 	font-weight: 300;
