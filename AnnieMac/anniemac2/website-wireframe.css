@@ -160,25 +160,6 @@ nav ul {
 	height: 75px;
 }
 
-.navigation-fadein {
-	visibility: hidden;
-	opacity: 0;
-	transition: opacity 500ms;
-}
-
-.initial-invisible {
-	visibility: hidden;
-	max-width: 1px;
-	opacity: 0;
-	transition: opacity 500ms;
-}
-
-.loadstate {
-	visibility: visible;
-	opacity: 1;
-	max-width: fit-content;
-}
-
 #navigation li {
 	font-size: 17px;
 	font-weight: 300;
