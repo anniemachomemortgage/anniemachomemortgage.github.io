@@ -162,11 +162,15 @@ nav ul {
 
 .navigation-fadein {
 	visibility: hidden;
+	opacity: 0;
+	transition: opacity 500ms;
 }
 
 .initial-invisible {
 	visibility: hidden;
 	max-width: 1px;
+	opacity: 0;
+	transition: opacity 500ms;
 }
 
 #navigation li {
