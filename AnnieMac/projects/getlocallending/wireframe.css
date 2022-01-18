@@ -313,7 +313,6 @@ button.main-site-apply-2:hover, .blocked-sectional-half a button:hover, .readmor
 .list-list li span {
 	display: block;
 	margin-top: 15px;
-	margin-bottom: 22px;
 }
 list-list li button {
 	display: block;
@@ -1203,6 +1202,20 @@ div li {
 	margin-bottom: 25px;
 	max-height: 450px;
 }
+.loans-selection-container {
+  margin-top: 40px;
+}
+.loans-detail-container {
+  max-width: 66% !important;
+  padding-right: 10px;
+  margin-right: 30px;
+}
+.loans-detail-container h3 {
+  font-size: 33px;
+  margin-bottom: 10px !important;
+  margin-top: -23px !important;
+  font-weight: 400;
+}
 .rowing-container-right {
 	order: -1;
 	min-width: 515px;
@@ -1362,7 +1375,21 @@ div li {
 	border: .5px solid var(--secondarygreen);
 	box-shadow: 1px 3px 5px rgba(0,0,0,.13);
 }
-.apply-with-team-member button:hover {
+#toggle-to-conventional button, #toggle-to-fha button, #toggle-to-va button, #toggle-to-usda button, #toggle-to-refinance button {
+	outline: none;
+	padding: 20px;
+	min-width: 150px;
+	background: var(--secondarygreen);
+	color: var(--white);
+	font-weight: 600;
+	border-radius: 2px;
+	font-size: 17px;
+	border: .5px solid var(--secondarygreen);
+	box-shadow: 1px 3px 5px rgba(0,0,0,.13);
+	margin-top: 20px;
+	margin-bottom: 11px;
+}
+.apply-with-team-member button:hover, #toggle-to-conventional button:hover, #toggle-to-fha button:hover, #toggle-to-va button:hover, #toggle-to-usda button:hover, #toggle-to-refinance button:hover {
 	cursor: pointer;
 	background: #559139;
 	border: .5px solid #559139;
@@ -1468,4 +1495,18 @@ div li {
 .social-media-section-persons ul li:hover {
 	opacity: 1;
 	cursor: pointer;
+}
+#list-instructions {
+  font-weight: 300;
+  font-size: 18px;
+  color: #3a3335;
+}
+#toggle-to-conventional, #toggle-to-fha, #toggle-to-va, #toggle-to-usda, #toggle-to-refinance {
+background: #ffffff82;
+box-shadow: 1px 3px 10px rgba(0,0,0,.05);
+padding: 21px;
+border-radius: 7px;
+}
+#toggle-to-conventional strong, #toggle-to-fha strong, #toggle-to-va strong, #toggle-to-usda strong, #toggle-to-refinance strong {
+	color: #006fa9;
 }
