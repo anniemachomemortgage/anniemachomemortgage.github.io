@@ -206,12 +206,12 @@ $(function() {
 			$("#construction-loan-expanded").addClass("hidden");
 			if (window.matchMedia('(min-width: 1047px)').matches) {
 				$("html, body").animate({
-					scrollTop: 1100
+					scrollTop: 1350
 				}, 600);
 			}
 			if (window.matchMedia('(max-width: 1046px)').matches) {
 				$("html, body").animate({
-					scrollTop: 1350
+					scrollTop: 1550
 				}, 600);
 			}
 		});
@@ -242,12 +242,12 @@ $(function() {
 			$("#renovation-loan-expanded").addClass("hidden");
 			if (window.matchMedia('(min-width: 1047px)').matches) {
 				$("html, body").animate({
-					scrollTop: 1100
+					scrollTop: 1350
 				}, 600);
 			}
 			if (window.matchMedia('(max-width: 1046px)').matches) {
 				$("html, body").animate({
-					scrollTop: 1350
+					scrollTop: 1550
 				}, 600);
 			}
 		});
