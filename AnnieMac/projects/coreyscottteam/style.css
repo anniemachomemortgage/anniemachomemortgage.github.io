@@ -697,8 +697,11 @@ commentcontainer h4 {
 .our-products-header {
 	margin-bottom: 15px;
 }
-.product-type-row-container:not(:first-of-type) {
-	margin-top: 10px;
+#learn_only .product-type-row-container:not(:first-of-type) {
+	margin-top: 2px;
+}
+#learn_only > .product-type-row-container:nth-of-type(4) {
+  margin-top: 20px;
 }
 .product-type-row-container > * {
 	width: 49%;
