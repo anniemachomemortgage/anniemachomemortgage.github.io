@@ -222,7 +222,7 @@ $(function() {
 			if ($("#renovation-trigger").hasClass("expanded")) {
 				$("#expanded-row-3-container").removeClass("hidden");
 				$("#expanded-row-3-container h4").removeClass("hidden");
-				$("#toggled-learn-more-3-selected").text("Construction Loans");
+				$("#toggled-learn-more-3-selected").text("Renovation Loans");
 				$("#renovation-loan-expanded").removeClass("hidden");
 				if (window.matchMedia('(min-width: 1047px)').matches) {
 					$("#third-expanded-container").css('order', 4);

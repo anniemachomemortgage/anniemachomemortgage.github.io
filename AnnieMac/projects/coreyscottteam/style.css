@@ -692,8 +692,13 @@ commentcontainer h4 {
 	justify-content: space-between;
 	align-items: stretch;
 	flex-wrap: wrap;
-	margin-top: -10px;
-	/*! margin-bottom: 20px; */
+	margin-top: 10px;
+}
+.our-products-header {
+	margin-bottom: 15px;
+}
+.product-type-row-container:not(:first-of-type) {
+	margin-top: 10px;
 }
 .product-type-row-container > * {
 	width: 49%;
