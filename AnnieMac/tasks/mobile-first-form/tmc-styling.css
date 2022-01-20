@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-.body-background {
-	display: none;
+.body-background, .edit-group.hidden-phone {
+  display: none;
 }
 #site-navigation, footer, header {
 	display: none !important;
@@ -47,14 +47,14 @@ img {
 h3 {
 	font-size: 25px;
 	margin: 25px 0 12px;
-	color: #076fa6;
+	color: #329c32;
 	font-weight: 400;
 }
 
 label {
 	font-size: 23px;
 	margin: 25px 0 16px;
-	color: #076fa6;
+	color: #329c32;
 	font-weight: 300;
 }
 
@@ -130,11 +130,11 @@ label {
 }
 
 .pagination button:first-of-type {
-	background: #78c253;
+	background: #e98a43;
 }
 
 .pagination button:first-of-type:hover {
-	background: #075d8b;
+	background: #e46403;
 }
 
 .pagination button:last-of-type {
@@ -181,7 +181,7 @@ select {
 }
 
 button[type="submit"] {
-	background: #7FC24A;
+	background: #e46403;
 	padding: 28px 35px;
 	border-radius: 6px;
 	color: white;
