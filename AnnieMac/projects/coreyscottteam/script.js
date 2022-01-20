@@ -179,6 +179,78 @@ $(function() {
 				}, 600);
 			}
 		});
+		$("#construction-trigger").click(function(event) {
+			$(this).toggleClass('expanded');
+			$("#renovation-trigger").removeClass('expanded');
+			$("#renovation-loan-expanded").addClass("hidden");
+			if ($("#construction-trigger").hasClass("expanded")) {
+				$("#expanded-row-3-container").removeClass("hidden");
+				$("#expanded-row-3-container h4").removeClass("hidden");
+				$("#toggled-learn-more-3-selected").text("Construction Loans");
+				$("#construction-loan-expanded").removeClass("hidden");
+				if (window.matchMedia('(min-width: 1047px)').matches) {
+					$("#third-expanded-container").css('order', 4);
+				};
+			}
+			if (!$("#construction-trigger").hasClass("expanded")) {
+				$("#expanded-row-3-container").addClass("hidden");
+				$("#construction-loan-expanded").addClass("hidden");
+				if (window.matchMedia('(min-width: 1047px)').matches) {
+					$("#third-expanded-container").css('order', 4);
+				};
+			}
+		});
+		$("#close-construction").click(function(event) {
+			$("#construction-trigger").removeClass('expanded');
+			$("#expanded-row-3-container").addClass("hidden");
+			$("#construction-loan-expanded").addClass("hidden");
+			if (window.matchMedia('(min-width: 1047px)').matches) {
+				$("html, body").animate({
+					scrollTop: 1100
+				}, 600);
+			}
+			if (window.matchMedia('(max-width: 1046px)').matches) {
+				$("html, body").animate({
+					scrollTop: 1350
+				}, 600);
+			}
+		});
+		$("#renovation-trigger").click(function(event) {
+			$(this).toggleClass('expanded');
+			$("#construction-trigger").removeClass('expanded');
+			$("#construction-loan-expanded").addClass("hidden");
+			if ($("#renovation-trigger").hasClass("expanded")) {
+				$("#expanded-row-3-container").removeClass("hidden");
+				$("#expanded-row-3-container h4").removeClass("hidden");
+				$("#toggled-learn-more-3-selected").text("Construction Loans");
+				$("#renovation-loan-expanded").removeClass("hidden");
+				if (window.matchMedia('(min-width: 1047px)').matches) {
+					$("#third-expanded-container").css('order', 4);
+				};
+			}
+			if (!$("#renovation-trigger").hasClass("expanded")) {
+				$("#expanded-row-3-container").addClass("hidden");
+				$("#renovation-loan-expanded").addClass("hidden");
+				if (window.matchMedia('(min-width: 1047px)').matches) {
+					$("#third-expanded-container").css('order', 4);
+				};
+			}
+		});
+		$("#close-renovation").click(function(event) {
+			$("#renovation-trigger").removeClass('expanded');
+			$("#expanded-row-3-container").addClass("hidden");
+			$("#renovation-loan-expanded").addClass("hidden");
+			if (window.matchMedia('(min-width: 1047px)').matches) {
+				$("html, body").animate({
+					scrollTop: 1100
+				}, 600);
+			}
+			if (window.matchMedia('(max-width: 1046px)').matches) {
+				$("html, body").animate({
+					scrollTop: 1350
+				}, 600);
+			}
+		});
 		// Corey
 		$("#trigger-corey").click(function(event) {
 			$('html, body').animate({
