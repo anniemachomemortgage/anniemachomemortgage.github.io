@@ -63,6 +63,10 @@ $(function() {
 		if ((localStorage.minimizerealtor) == "load-realtor-popup") {
 			$('#minimized-realtor').removeClass('initial-hidden');
 		};
+		if (localStorage.minimizetime < localStorage.currentDateLog) {
+			$('#minimized-realtor').removeClass('initial-hidden');
+			localStorage.setItem('minimizetime', null)
+		}
 		$("#dismiss-button-forever").click(function(event) {
 			var minimizedDate = new Date();
 			minimizedDate.setHours(0,0,0,0);
