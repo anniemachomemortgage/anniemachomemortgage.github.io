@@ -1701,6 +1701,12 @@ cardfeaturette a:hover {
 	display: flex;
 }
 
+.page-blog-detail .content-list .media-body {
+  max-width: 840px;
+  margin: -80px 0;
+  width: 90%;
+}
+
 .page-blog-detail .share-bar {
 	border-bottom: 1px solid #f5f7fa;
 	width: 100%;
