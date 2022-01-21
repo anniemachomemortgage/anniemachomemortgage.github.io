@@ -23,9 +23,16 @@ $(document).ready(function() {
 		$("#team-member-section-display").addClass('hidden');
 		$("#homebuyer-toggled").removeClass('hidden');
 		$("#business-toggled").addClass('hidden');
-		$("html, body").animate({
-			scrollTop: 3000
-		}, 600);
+		if (window.matchMedia('(min-width: 1047px)').matches) {
+			$("html, body").animate({
+				scrollTop: 3000
+			}, 600);
+		}
+		if (window.matchMedia('(max-width: 1046px)').matches) {
+			$("html, body").animate({
+				scrollTop: 3560
+			}, 600);
+		}
 	});
 	$("#business-display").click(function(event) {
 		$("#index_only").addClass('hidden');
@@ -33,23 +40,44 @@ $(document).ready(function() {
 		$("#team-member-section-display").addClass('hidden');
 		$("#homebuyer-toggled").addClass('hidden');
 		$("#business-toggled").removeClass('hidden');
-		$("html, body").animate({
-			scrollTop: 3000
-		}, 600);
+		if (window.matchMedia('(min-width: 1047px)').matches) {
+			$("html, body").animate({
+				scrollTop: 3000
+			}, 600);
+		}
+		if (window.matchMedia('(max-width: 1046px)').matches) {
+			$("html, body").animate({
+				scrollTop: 3560
+			}, 600);
+		}
 	});
 	$("#buyer-guide").click(function(event) {
 		$("#homebuyer-toggled").toggleClass('hidden');
 		$("#business-toggled").addClass('hidden');
-		$("html, body").animate({
-			scrollTop: 3300
-		}, 600);
+		if (window.matchMedia('(min-width: 1047px)').matches) {
+			$("html, body").animate({
+				scrollTop: 3300
+			}, 600);
+		}
+		if (window.matchMedia('(max-width: 1046px)').matches) {
+			$("html, body").animate({
+				scrollTop: 3560
+			}, 600);
+		}
 	});
 	$("#business-guide").click(function(event) {
 		$("#homebuyer-toggled").addClass('hidden');
 		$("#business-toggled").toggleClass('hidden');
-		$("html, body").animate({
-			scrollTop: 3300
-		}, 600);
+		if (window.matchMedia('(min-width: 1047px)').matches) {
+			$("html, body").animate({
+				scrollTop: 3300
+			}, 600);
+		}
+		if (window.matchMedia('(max-width: 1046px)').matches) {
+			$("html, body").animate({
+				scrollTop: 3560
+			}, 600);
+		}
 	});
 	$("#expand-sam").click(function(event) {
 		$("#sam").addClass('active-biography');
@@ -180,5 +208,134 @@ $(document).ready(function() {
 		$('#va-toggled').hide();
 		$('#usda-toggled').hide();
 		$('#refinance-toggled').show();
+	});
+	$("#footer-toggle-conventional").click(function(event) {
+		$("#index_only").addClass('hidden');
+		$("#loan-products-section-display").removeClass('hidden');
+		$('#conventional-toggled').show();
+		$('#fha-toggled').hide();
+		$('#va-toggled').hide();
+		$('#usda-toggled').hide();
+		$('#refinance-toggled').hide();
+		if (window.matchMedia('(min-width: 1047px)').matches) {
+			$("html, body").animate({
+				scrollTop: 840
+			}, 600);
+		}
+		if (window.matchMedia('(max-width: 1046px)').matches) {
+			$("html, body").animate({
+				scrollTop: 1620
+			}, 600);
+		}
+	});
+	$("#footer-toggle-va").click(function(event) {
+		$("#index_only").addClass('hidden');
+		$("#loan-products-section-display").removeClass('hidden');
+		$('#conventional-toggled').hide();
+		$('#fha-toggled').hide();
+		$('#va-toggled').show();
+		$('#usda-toggled').hide();
+		$('#refinance-toggled').hide();
+		if (window.matchMedia('(min-width: 1047px)').matches) {
+			$("html, body").animate({
+				scrollTop: 840
+			}, 600);
+		}
+		if (window.matchMedia('(max-width: 1046px)').matches) {
+			$("html, body").animate({
+				scrollTop: 1620
+			}, 600);
+		}
+	});
+	$("#footer-toggle-usda").click(function(event) {
+		$("#index_only").addClass('hidden');
+		$("#loan-products-section-display").removeClass('hidden');
+		$('#conventional-toggled').hide();
+		$('#fha-toggled').hide();
+		$('#va-toggled').hide();
+		$('#usda-toggled').show();
+		$('#refinance-toggled').hide();
+		if (window.matchMedia('(min-width: 1047px)').matches) {
+			$("html, body").animate({
+				scrollTop: 840
+			}, 600);
+		}
+		if (window.matchMedia('(max-width: 1046px)').matches) {
+			$("html, body").animate({
+				scrollTop: 1620
+			}, 600);
+		}
+	});
+	$("#footer-toggle-fha").click(function(event) {
+		$("#index_only").addClass('hidden');
+		$("#loan-products-section-display").removeClass('hidden');
+		$('#conventional-toggled').hide();
+		$('#fha-toggled').show();
+		$('#va-toggled').hide();
+		$('#usda-toggled').hide();
+		$('#refinance-toggled').hide();
+		if (window.matchMedia('(min-width: 1047px)').matches) {
+			$("html, body").animate({
+				scrollTop: 840
+			}, 600);
+		}
+		if (window.matchMedia('(max-width: 1046px)').matches) {
+			$("html, body").animate({
+				scrollTop: 1620
+			}, 600);
+		}
+	});
+	$("#footer-toggle-refinance").click(function(event) {
+		$("#index_only").addClass('hidden');
+		$("#loan-products-section-display").removeClass('hidden');
+		$('#conventional-toggled').hide();
+		$('#fha-toggled').hide();
+		$('#va-toggled').hide();
+		$('#usda-toggled').hide();
+		$('#refinance-toggled').show();
+		if (window.matchMedia('(min-width: 1047px)').matches) {
+			$("html, body").animate({
+				scrollTop: 840
+			}, 600);
+		}
+		if (window.matchMedia('(max-width: 1046px)').matches) {
+			$("html, body").animate({
+				scrollTop: 1620
+			}, 600);
+		}
+	});
+	$("#footer-toggle-business").click(function(event) {
+		$("#index_only").addClass('hidden');
+		$("#loan-products-section-display").removeClass('hidden');
+		$("#team-member-section-display").addClass('hidden');
+		$("#homebuyer-toggled").addClass('hidden');
+		$("#business-toggled").removeClass('hidden');
+		if (window.matchMedia('(min-width: 1047px)').matches) {
+			$("html, body").animate({
+				scrollTop: 3370
+			}, 600);
+		}
+		if (window.matchMedia('(max-width: 1046px)').matches) {
+			$("html, body").animate({
+				scrollTop: 3560
+			}, 600);
+		}
+	});
+	$("#footer-toggle-homebuyer").click(function(event) {
+		$("#index_only").addClass('hidden');
+		$("#loan-products-section-display").removeClass('hidden');
+		$("#team-member-section-display").addClass('hidden');
+		$("#homebuyer-toggled").removeClass('hidden');
+		$("#business-toggled").addClass('hidden');
+		if (window.matchMedia('(min-width: 1047px)').matches) {
+			$("html, body").animate({
+				scrollTop: 3370
+			}, 600);
+		}
+		if (window.matchMedia('(max-width: 1046px)').matches) {
+			$("html, body").animate({
+				scrollTop: 3560
+			}, 600);
+		}
 	});
 });
