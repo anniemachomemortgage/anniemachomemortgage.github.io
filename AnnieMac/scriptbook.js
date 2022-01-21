@@ -1114,7 +1114,7 @@ $(function() {
 			$("#am-responsive").remove();
 			$("#am-custom").remove();
 			$("#stylesheet-git").remove();
-			$('.page-page-detail').load("https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/blank.html", function() {
+			$('.page-page-detail').load("https://anniemachomemortgage.github.io/AnnieMac/projects/getlocallending/blank.html", function() {
 				$(appendedContent).appendTo($( "#insertion-point" ));
 			});
 		};
