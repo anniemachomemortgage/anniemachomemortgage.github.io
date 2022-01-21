@@ -51,13 +51,31 @@ $(function() {
 		localStorage.setItem('minimizerealtor', 'registered');
 	};
 	if (window.location.href.indexOf("cash2keys-realtor") > -1) {
+		// Get the current date and round it to the hour.
+		var currentDate = new Date();
+		currentDate.setHours(0,0,0,0);
+		console.log(currentDate);
+		// Check if minimizetime localstorage item exists. If doesn't, set minimizerealtor status to initial, which triggers it to display.
+		if (localStorage.getItem("minimizetime") === null) {
+			localStorage.setItem('minimizerealtor', 'initial');
+		}
+		// If minimize localstorage item is less than the value of the current date rounded to the hour, mark the minimization as null for next load.
+		if (localStorage.getItem("minimizetime") < currentDate.valueOf()) {
+			localStorage.setItem('minimizerealtor', 'initial');
+			localStorage.setItem('minimizetime', null);
+		}
 		if (localStorage.getItem("minimizerealtor") === null) {
 			localStorage.setItem('minimizerealtor', 'initial');
 		}
+		// Check minimizerealtor storage item and remove the realtor popup if initial status.
 		if ((localStorage.minimizerealtor) == "initial") {
 			$('#minimized-realtor').removeClass('initial-hidden');
 		};
+		// Dismiss the realtor popup onclick and store the value of the time it was closed rounded to the hour in a localStorage item to be compared to next load.
 		$("#dismiss-button-forever").click(function(event) {
+			var minimizedDate = new Date();
+			minimizedDate.setHours(0,0,0,0);
+			localStorage.setItem('minimizetime', minimizedDate);
 			$('#minimized-realtor').hide();
 		});
 	};
