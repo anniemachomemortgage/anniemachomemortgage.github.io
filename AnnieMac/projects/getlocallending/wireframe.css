@@ -210,7 +210,7 @@ button.main-site-apply-2:hover, .blocked-sectional-half a button:hover, .readmor
 	margin: 30px auto 60px;
 	min-width: 500px;
 	z-index: 1;
-	width: 80%;
+	width: 83%;
 	max-width: 1100px;
 	min-height: 300px;
 }
@@ -451,7 +451,7 @@ footer {
 	margin: 0px auto 60px;
 	min-width: 500px;
 	z-index: 1;
-	width: 80%;
+	width: 83%;
 	max-width: 1100px;
 }
 .sitemaps {
@@ -610,6 +610,7 @@ commentcontainer h4 {
 .product-type h3, .why-us-sections h3, .our-team-callout-sections h3 {
 	margin-bottom: 12px;
 	margin-top: 0;
+	line-height: 48px;
 }
 .product-type p, .why-us-sections p, .our-team-callout-sections p {
 	font-size: 15px;
