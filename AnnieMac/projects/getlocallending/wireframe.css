@@ -87,7 +87,7 @@ body {
 }
 
 .body-background {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.51) 30%, rgba(22, 26, 28, 0.87) 80%), url(https://waloanexperts.com/wp-content/uploads/2020/10/modern-house-exterior-E3A7NAJ-web.jpg) bottom center;
+	background: linear-gradient(177deg, rgba(0, 0, 0, 0.51) 30%, rgba(22, 26, 28, 0.87) 80%), url('images/get-local-lending-header.jpg') bottom center;
 	background-position-y: 67%;
 	background-size: 100%;
 	/* 	display: flex;
@@ -136,12 +136,7 @@ li#navigation-logo {
 	margin: 5px 0 26px -15px;
 }
 
-.main-site-background {
-	/*! position: relative; */
-}
-
 .main-site-overlay {
-	/* background: url('img/woman-background.png'); */
 	position: absolute;
 	top: 50%;
 	right: 50%;
@@ -296,14 +291,6 @@ button.main-site-apply-2:hover,
 	color: var(--orange);
 }
 
-/* .blocked-sectionals:first-of-type {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	z-index: 1;
-	margin-bottom: 30px;
-} */
 .blocked-sectionals {
 	display: flex;
 	flex-direction: row;
@@ -330,7 +317,6 @@ button.main-site-apply-2:hover,
 }
 
 .backgrounded {
-	background: ;
 	border-radius: 3px;
 }
 
@@ -646,11 +632,7 @@ testimonial {
 	border-radius: 5px;
 	margin-bottom: 20px;
 	padding: 20px;
-	/*! box-shadow: 1px 4px 6px rgb(0 0 0 / 4%); */
-	/*! border: 1px solid #c3c5c72b; */
-	/*! padding: 22px 25px; */
 	border-radius: 3px;
-	/*! background: var(--offwhiteb); */
 }
 
 testimonialdetail {
@@ -1443,7 +1425,7 @@ div li {
 }
 
 #who-we-are-blocking-product {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1576089073624-b5751a8f4de9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1625&q=80');
+	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('images/blocking-family-table.jpg');
 	background-size: cover;
 	color: #fff;
 	font-size: 16px;
@@ -1454,7 +1436,7 @@ div li {
 }
 
 #who-we-are-blocking {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80');
+	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('images/blocking-professional.jpg');
 	background-size: cover;
 	color: #fff;
 	font-size: 16px;
@@ -1464,7 +1446,7 @@ div li {
 }
 
 #who-we-are-blocking-2 {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1609220136736-443140cffec6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80') center;
+	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('images/blocking-young-buyers.jpg') center;
 	background-size: cover;
 	color: #fff;
 	font-size: 16px;
@@ -1475,7 +1457,7 @@ div li {
 }
 
 #who-we-are-blocking-3 {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80') center;
+	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('images/blocking-business.jpg') center;
 	background-size: cover;
 	color: #fff;
 	font-size: 16px;
@@ -1487,7 +1469,7 @@ div li {
 }
 
 #who-we-are-blocking-4 {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1576089073624-b5751a8f4de9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1625&q=80') center;
+	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('images/blocking-family-table.jpg') center;
 	background-size: cover;
 	color: #fff;
 	font-size: 16px;
