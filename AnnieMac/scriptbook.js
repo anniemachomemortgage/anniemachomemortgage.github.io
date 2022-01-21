@@ -1288,7 +1288,7 @@ $(function() {
 					$(document).prop('title', 'AnnieMac [Development Site]');
 					console.log("Please visit https://annie-mac.com/?testing-site-status=false to return to normal version.");
 					$(appendedContent).appendTo($( "#drop-content" ));
-					$('#headline').text("Blogs");
+					$('#headline').text("Annie's Advice Blog");
 				});
 			};
 			if ($('body').hasClass('page-blog-detail')) {
