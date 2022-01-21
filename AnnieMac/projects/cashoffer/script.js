@@ -54,7 +54,6 @@ $(function() {
 		// Get the current date and round it to the hour.
 		var currentDate = new Date();
 		currentDate.setHours(0,0,0,0);
-		console.log(currentDate);
 		// Check if minimizetime localstorage item exists. If doesn't, set minimizerealtor status to initial, which triggers it to display.
 		if (localStorage.getItem("minimizetime") === null) {
 			localStorage.setItem('minimizerealtor', 'initial');
