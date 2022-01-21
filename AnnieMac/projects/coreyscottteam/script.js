@@ -1,4 +1,7 @@
 $(function() {
+	$("#navigation-logo").click(function(event) {
+		window.location.href = '.'
+	});
 	if (window.location.href.indexOf("/?learn-more") > -1) {
 		$("#index_only").toggleClass('hidden');
 		$("#learn_only").toggleClass('hidden');
