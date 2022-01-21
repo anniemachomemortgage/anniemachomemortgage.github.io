@@ -87,7 +87,7 @@ body {
 }
 
 .body-background {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.51) 30%, rgba(22, 26, 28, 0.87) 80%), url('images/get-local-lending-header.jpg') bottom center;
+	background: linear-gradient(177deg, rgba(0, 0, 0, 0.51) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://anniemachomemortgage.github.io/AnnieMac/projects/getlocallending/images/get-local-lending-header.jpg') bottom center;
 	background-position-y: 67%;
 	background-size: 100%;
 	/* 	display: flex;
@@ -129,7 +129,7 @@ body {
 
 li#navigation-logo {
 	text-indent: -99999vw;
-	background: url('images/whitelogo.png');
+	background: url('https://anniemachomemortgage.github.io/AnnieMac/projects/getlocallending/images/whitelogo.png');
 	background-size: cover;
 	height: 95px;
 	width: 475px;
@@ -1425,7 +1425,7 @@ div li {
 }
 
 #who-we-are-blocking-product {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('images/blocking-family-table.jpg');
+	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://anniemachomemortgage.github.io/AnnieMac/projects/getlocallending/images/blocking-family-table.jpg');
 	background-size: cover;
 	color: #fff;
 	font-size: 16px;
@@ -1436,7 +1436,7 @@ div li {
 }
 
 #who-we-are-blocking {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('images/blocking-professional.jpg');
+	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://anniemachomemortgage.github.io/AnnieMac/projects/getlocallending/images/blocking-professional.jpg');
 	background-size: cover;
 	color: #fff;
 	font-size: 16px;
@@ -1446,7 +1446,7 @@ div li {
 }
 
 #who-we-are-blocking-2 {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('images/blocking-young-buyers.jpg') center;
+	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://anniemachomemortgage.github.io/AnnieMac/projects/getlocallending/images/blocking-young-buyers.jpg') center;
 	background-size: cover;
 	color: #fff;
 	font-size: 16px;
@@ -1457,7 +1457,7 @@ div li {
 }
 
 #who-we-are-blocking-3 {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('images/blocking-business.jpg') center;
+	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://anniemachomemortgage.github.io/AnnieMac/projects/getlocallending/images/blocking-business.jpg') center;
 	background-size: cover;
 	color: #fff;
 	font-size: 16px;
@@ -1469,7 +1469,7 @@ div li {
 }
 
 #who-we-are-blocking-4 {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('images/blocking-family-table.jpg') center;
+	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://anniemachomemortgage.github.io/AnnieMac/projects/getlocallending/images/blocking-family-table.jpg') center;
 	background-size: cover;
 	color: #fff;
 	font-size: 16px;
@@ -1607,7 +1607,7 @@ div li {
 }
 
 .team-biography-portrait {
-	background: linear-gradient(177deg, #282828 30%, #282828f7 80%), url('images/housebackground.jpg') center;
+	background: linear-gradient(177deg, #282828 30%, #282828f7 80%), url('https://anniemachomemortgage.github.io/AnnieMac/projects/getlocallending/images/housebackground.jpg') center;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
