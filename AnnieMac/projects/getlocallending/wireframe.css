@@ -61,12 +61,11 @@ body {
 }
 .body-background {
 	background: linear-gradient(177deg, rgba(0, 0, 0, 0.51) 30%, rgba(22, 26, 28, 0.87) 80%), url(https://waloanexperts.com/wp-content/uploads/2020/10/modern-house-exterior-E3A7NAJ-web.jpg) bottom center;
-	min-height: 414px;
 	background-position-y: 67%;
 	background-size: 100%;
-	display: flex;
+/* 	display: flex;
 	flex-direction: column;
-	justify-content: flex-end;
+	justify-content: flex-end; */
 }
 .body-overlay {
 	margin: 0px auto 15px;
@@ -75,10 +74,17 @@ body {
 	width: 80%;
 	max-width: 1100px;
 }
+.body-overlay header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 0px;
+  min-height: 245px;
+}
 .navigation-display {
 	display: flex;
 	list-style-type: none;
-	margin: 0;
+	margin-top: -35px;
 	padding: 0px 0 45px;
 	width: 100%;
 	justify-content: flex-start;
@@ -162,7 +168,6 @@ li#navigation-logo {
 button.main-site-apply, #go-back-home, #go-back-home-button {
 	outline: none;
 	padding: 20px;
-	margin: 15px 2px 15px;
 	min-width: 200px;
 	background: var(--orange);
 	color: var(--white);
@@ -190,7 +195,7 @@ button.main-site-apply-2 {
 	z-index: 1112 !important;
 	outline: none;
 	padding: 20px;
-	margin: 15px 2px 15px 0px;
+	margin: 0;
 	min-width: 200px;
 	color: var(--orange);
 	background: var(--white);
@@ -1019,6 +1024,8 @@ div li {
 		flex-direction: column;
 		width: 80vw;
 		margin: -80 auto;
+		justify-content: flex-start;
+		align-items: flex-start;
 	}
 	.main-site-background h1 {
 		height: 1px;
@@ -1332,7 +1339,7 @@ div li {
 	align-items: center;
 	padding: 50px 0;
 	padding-bottom: 100px;
-	width: 340px;
+	width: 320px;
 	min-height: 530px;
 	border-radius: 3px;
 	background-size: 100%;
@@ -1350,7 +1357,7 @@ div li {
 }
 .team-biography-quick-information h3 {
 	font-weight: 300;
-	font-size: 25px;
+	font-size: 22px;
 	line-height: 25px;
 	text-align: center;
 	color: #fff;
@@ -1370,8 +1377,8 @@ div li {
 }
 .team-biography-quick-information h4, .team-biography-quick-information h5 {
 	color: #fff;
-	font-size: 19px;
-	line-height: 16px;
+	font-size: 18px;
+	line-height: 10px;
 	text-align: center;
 	font-weight: 200;
 }
@@ -1527,4 +1534,90 @@ border-radius: 7px;
 }
 #toggle-to-conventional strong, #toggle-to-fha strong, #toggle-to-va strong, #toggle-to-usda strong, #toggle-to-refinance strong {
 	color: #006fa9;
+}
+@media only screen and (max-width: 1163px) {
+	.title-image-background-section h3 {
+		font-size: 38px;
+		margin-bottom: -5px;
+	}
+	.team-member-section {
+		flex-direction: column;
+	}
+	.team-member-section > * {
+		width: 100%;
+	}
+	.team-biography-quick-information h3 span, .close-biography {
+		display: none;
+	}
+	.team-biography {
+		display: block !important;
+	}
+	.what-makes-us-different .blocked-sectional-half .rowing-container {
+	  flex-direction: column !important;
+	}
+	.what-makes-us-different .rowing-container-left {
+	  display: flex;
+	  margin-top: 40px;
+	  flex-wrap: wrap;
+	  justify-content: space-between;
+	}
+	.what-makes-us-different .rowing-container-left div {
+		width: 49%;
+	}
+	.what-makes-us-different #who-we-are-blocking-4, .what-makes-us-different #who-we-are-blocking-2, .what-makes-us-different #who-we-are-blocking-3 {
+		margin-top: 0;
+		margin-left: 0;
+	}
+	.our-loans-toggle-section .rowing-container {
+	  flex-direction: column-reverse;
+	}
+	#toggle-to-conventional, #toggle-to-fha, #toggle-to-va, #toggle-to-usda, #toggle-to-refinance {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	#toggle-to-conventional strong, #toggle-to-fha strong, #toggle-to-va strong, #toggle-to-usda strong, #toggle-to-refinance strong {
+		height: 25px;
+	}
+	#toggle-to-conventional span, #toggle-to-fha span, #toggle-to-va span, #toggle-to-usda span, #toggle-to-refinance span {
+	  min-height: 200px;
+	}
+	.restricted-width .list-list {
+	  flex-direction: row;
+	  flex-wrap: wrap;
+	  justify-content: flex-start;
+	}
+	.our-loans-toggle-section  .rowing-container-right {
+	  min-width: 100%;
+	}
+	.our-loans-toggle-section .loans-description-section {
+	  flex-direction: row;
+	}
+	.restricted-width .list-list li {
+	  width: 32%;
+	  margin: 0 5px 12px;
+	}
+	#list-instructions {
+	  width: 100%;
+	  margin: -25px 0 20px;
+	}
+	.restricted-width {
+	  max-width: 100%;
+	  width: 100%;
+	}
+	#who-we-are-blocking-product {
+	  display: none;
+	}
+}
+@media only screen and (max-width: 850px) {
+	.team-biography-container {
+	  display: flex;
+	  flex-direction: column;
+	}
+	.restricted-width .list-list li {
+	  width: 48%;
+  }
+	.space-between #who-we-are-blocking-2, .space-between #who-we-are-blocking-3 {
+		width: 100%;
+	}
 }
