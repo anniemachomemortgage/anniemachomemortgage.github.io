@@ -1,8 +1,18 @@
 $(document).ready(function() {
+	$("#navigation-logo").click(function(event) {
+		window.location.href = '.'
+	});
+	if (window.location.href.indexOf("/?learn-more") > -1) {
+		$("#index_only").addClass('hidden');
+		$("#loan-products-section-display").removeClass('hidden');
+	}
 	$("#product-type-toggle").click(function(event) {
 		$("#index_only").addClass('hidden');
 		$("#loan-products-section-display").removeClass('hidden');
 		$("#team-member-section-display").addClass('hidden');
+		$("#learn-more-toggle").click(function(event) {
+			window.location.href = '/?learn-more';
+		});
 	});
 	$("#go-back-home-button").click(function(event) {
 		$("#index_only").removeClass('hidden');

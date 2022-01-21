@@ -136,6 +136,10 @@ li#navigation-logo {
 	margin: 5px 0 26px -15px;
 }
 
+#navigation-logo:hover {
+	cursor: pointer;
+}
+
 .main-site-overlay {
 	position: absolute;
 	top: 50%;
