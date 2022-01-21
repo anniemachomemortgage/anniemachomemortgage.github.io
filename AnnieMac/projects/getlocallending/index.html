@@ -266,17 +266,17 @@
 							<div class="rowing-container-left">
 								<div id="who-we-are-blocking-4" class="full-width-image-container title-image-background-section">
 									<h3>Our Loans</h3>
-									<h4>Click to learn more</h4>
+									<h4 id="products-display">Click to learn more</h4>
 									<p>You have many options for types of loan, including loan options for veterans, people looking for homes in rural areas, borrowers with credit problems, homes in expensive areas, and homeowners looking to renovate.</p>
 								</div>
 								<div id="who-we-are-blocking-2" class="full-width-image-container title-image-background-section">
 									<h3>First Time Home Buyer</h3>
-									<h4>Click to learn more</h4>
+									<h4 id="homebuyer-display">Click to learn more</h4>
 									<p>Buying a home can be challenging for a first-time home buyer, and at Get Local Lending, we want to be your resource to guide you through this exciting and sometimes, challenging process.</p>
 								</div>
 								<div id="who-we-are-blocking-3" class="full-width-image-container title-image-background-section">
 									<h3>Loans for Business Owners</h3>
-									<h4>Click to learn more</h4>
+									<h4 id="business-display">Click to learn more</h4>
 									<p>At Get Local Lending we understand the challenges that a business owner may face when trying to jump through the hoops of getting a mortgage – it can be challenging and irritating.</p>
 								</div>
 
@@ -327,6 +327,7 @@
 				</section>
 			</div>
 			<div id="loan-products-section-display" class="hidden">
+				<button id="go-back-home-button">Go Back</button>
 				<section class="blocked-sectionals our-team-callout-sections">
 					<div class="blocked-sectional-half">
 						<div id="who-we-are-blocking-product" class="full-width-image-container title-image-background-section">
@@ -338,35 +339,35 @@
 				<section class="blocked-sectionals our-team-callout-sections">
 					<div class="blocked-sectional-half">
 						<div class="rowing-container">
-							<div class="rowing-container-left">
+							<div class="rowing-container-left restricted-width">
 								<ul class="list-list">
 									<li id="list-instructions">Select a loan type from below to learn more:</li>
 									<li id="toggle-to-conventional"><strong>Conventional</strong>
 										<span>When you think of a mortgage, you are probably thinking about a conventional loan. Conventional loans are what you would categorize as a ‘standard’ mortgage or home loan.</span>
-									<button>Learn More</button>
+									<button id="button-to-conventional">Learn More</button>
 									</li>
 									<li id="toggle-to-fha"><strong>FHA</strong>
 										<span>An FHA loan is a government backed mortgage loan that is insured by the Federal Housing Authority (FHA). FHA loans have some advantages for certain clients based on where they are at in life and what their financial constraints are.</span>
-									<button>Learn More</button>
+									<button id="button-to-fha">Learn More</button>
 									</li>
 									<li id="toggle-to-va"><strong>VA</strong>
 										<span>At Get Local Lending, we are proud to serve the military community. Especially here in Western Washington, we have a concentration of Navy, Army, and Air Force active duty service members and veterans from all the branches.</span>
-									<button>Learn More</button>
+									<button id="button-to-va">Learn More</button>
 									</li>
 									<li id="toggle-to-usda"><strong>USDA</strong>
 										<span>Income-qualified borrowers looking to get loans on homes in U.S. Department of Agriculture-approved rural areas can enjoy a number of benefits through this government-insured loan program.</span>
-									<button>Learn More</button>
+									<button id="button-to-usda">Learn More</button>
 									</li>
 									<li id="toggle-to-refinance"><strong>Refinance</strong>
 										<span>If you need help gaining clarity as to whether or not a refinance of your existing mortgage is right for you, please call us so we can have a real conversation about where you are and what your goals are for a mortgage.</span>
-									<button>Learn More</button>
+									<button id="button-to-refinance">Learn More</button>
 									</li>
 								</ul>
 							</div>
-							<div class="rowing-container-right loans-detail-container">
+							<div class="rowing-container-right loans-detail-container unrestricted-width">
 								<section class="blocked-sectionals our-team-callout-sections" id="conventional-toggled">
 									<div class="blocked-sectional-half">
-										<h3>Conventional</h3>
+										<h3>The Conventional Loan</h3>
 										<p>When you think of a mortgage, you are probably thinking about a conventional loan. Conventional loans are what you would categorize as a ‘standard’ mortgage or home loan. Typically, these have a few tighter requirements for the borrower, but are less strict on the property unlike you would see with a FHA or VA loan and most lenders will offer them. Credit requirements can range as low as a 640 credit score, and there are programs at times where you can qualify with down payments as low as 3% down. The programs vary at different times, but here at Get Local Lending, we are proud to offer some of the most competitive options out there.</p>
 										<p>Because they are so widely available, and the low interest rates being offered, conventional loans are some of the most popular options and most used mortgage products in the US.</p>
 										<h4>Conventional loan requirements</h4>
@@ -389,7 +390,7 @@
 								</section>
 								<section class="blocked-sectionals our-team-callout-sections hidden" id="fha-toggled">
 									<div class="blocked-sectional-half">
-										<h3>FHA</h3>
+										<h3>The FHA Loan</h3>
 										<p>An FHA loan is a government backed mortgage loan that is insured by the Federal Housing Authority (FHA). FHA loans have some advantages for certain clients based on where they are at in life and what their financial constraints are. Especially for homebuyers who don’t have a lot of money saved up for a big down payment on a home, the FHA program offers a lower minimum down payment (3.5%).</p>
 										<p>Some important things to consider when applying for an FHA loan:</p>
 										<ul>
@@ -421,7 +422,7 @@
 								</section>
 								<section class="blocked-sectionals our-team-callout-sections hidden" id="va-toggled">
 									<div class="blocked-sectional-half">
-										<h3>VA</h3>
+										<h3>The VA Loan</h3>
 										<p>At Get Local Lending, we are proud to serve the military community. Especially here in Western Washington, we have a concentration of Navy, Army, and Air Force active duty service members and veterans from all the branches. We want you to know that we care and are committed to making sure you get to take advantage of all the benefits that come with the VA loan program.</p>
 										<p>A VA loan is a mortgage guaranteed by the U.S. Department of Veterans Affairs (VA) but it is issued by a private lender, like a bank or mortgage company. VA loans come with advantages that can make it easier to buy a home because it usually doesn’t require a down payment. With a VA loan the lender has the assurance that, if the loan is not repaid, a portion of the loan amount will be repaid by the government. Because of this reduction in risk, it gives mortgage companies the ability to offer no down payment loans because of that government backing.</p>
 										<h4>Who can get a VA loan?</h4>
@@ -448,7 +449,7 @@
 								</section>
 								<section class="blocked-sectionals our-team-callout-sections hidden" id="usda-toggled">
 									<div class="blocked-sectional-half">
-										<h3>USDA</h3>
+										<h3>The USDA Loan</h3>
 										<p>Income-qualified borrowers looking to get loans on homes in U.S. Department of Agriculture-approved rural areas can enjoy a number of benefits through this government-insured loan program. They include no down payment, low interest rates and flexible underwriting guidelines.</p>
 										<p>The United States Department of Agriculture developed this mortgage option to improve the economy and quality of life in rural America by encouraging the purchasing of rural land. USDA loans are issued through the USDA Rural Development Guaranteed Housing Loan Program, and you might be surprised how feasible it is to qualify for one beyond what most would consider “farmland”.</p>
 										<h4>Why would a USDA Loan be the best choice for you?</h4>
@@ -468,7 +469,7 @@
 								</section>
 								<section class="blocked-sectionals our-team-callout-sections hidden" id="refinance-toggled">
 									<div class="blocked-sectional-half">
-										<h3>Refinance</h3>
+										<h3>Refinancing Your Loan</h3>
 										<p>If you need help gaining clarity as to whether or not a refinance of your existing mortgage is right for you, please call us so we can have a real conversation about where you are and what your goals are for a mortgage. There is a lot to consider and there can be wrong information out there that can make things all the more complicated. There are more things to consider when you are looking at a refinance besides just a drop in interest rates. We guide our clients to consider both their long and short term situations when considering a refinance.</p>
 										<p>There are different reasons to consider a refinance of an existing mortgage.</p>
 										<ul>
@@ -489,12 +490,12 @@
 										<h3 id="guide-title">Helpful Guides</h3>
 										<div id="who-we-are-blocking-2" class="full-width-image-container title-image-background-section">
 											<h3>First Time Home Buyer</h3>
-											<h4>Click to learn more</h4>
+											<h4 id="buyer-guide">Click to learn more</h4>
 											<p>Buying a home can be challenging for a first-time home buyer, and at Get Local Lending, we want to be your resource to guide you through this exciting and sometimes, challenging process.</p>
 										</div>
 										<div id="who-we-are-blocking-3" class="full-width-image-container title-image-background-section">
 											<h3>Loans for Business Owners</h3>
-											<h4>Click to learn more</h4>
+											<h4 id="business-guide">Click to learn more</h4>
 											<p>At Get Local Lending we understand the challenges that a business owner may face when trying to jump through the hoops of getting a mortgage – it can be challenging and irritating.</p>
 										</div>
 									</div>

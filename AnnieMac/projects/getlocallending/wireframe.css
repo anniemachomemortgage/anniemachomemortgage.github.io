@@ -159,7 +159,7 @@ li#navigation-logo {
 	color: inherit;
 	text-decoration: none;
 }
-button.main-site-apply, #go-back-home {
+button.main-site-apply, #go-back-home, #go-back-home-button {
 	outline: none;
 	padding: 20px;
 	margin: 15px 2px 15px;
@@ -171,10 +171,20 @@ button.main-site-apply, #go-back-home {
 	font-size: 17px;
 	border: .5px solid var(--orange);
 }
-button.main-site-apply:hover, #go-back-home:hover {
+button.main-site-apply:hover, #go-back-home:hover, #go-back-home-button:hover {
 	background: #00537D;
 	border: .5px solid #00537D;
 	cursor: pointer;
+}
+#go-back-home-button {
+  min-width: 100%;
+  margin: -10px 0 -25px;
+}
+#products-display:hover, #homebuyer-display:hover, #business-display:hover, #buyer-guide:hover, #business-guide:hover {
+	cursor: pointer;
+}
+#homebuyer-toggled, #business-toggled {
+  margin-top: 75px;
 }
 button.main-site-apply-2 {
 	z-index: 1112 !important;
@@ -286,6 +296,13 @@ button.main-site-apply-2:hover, .blocked-sectional-half a button:hover, .readmor
 	margin: 5px 0 0 !important;
 	font-weight: 600 !important;
 	display: none;
+}
+.restricted-width {
+  max-width: 345px;
+  width: 345px;
+}
+.unrestricted {
+  flex: 1;
 }
 .list-icon {
 	width: 55px;

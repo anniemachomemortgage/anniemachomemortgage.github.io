@@ -4,6 +4,53 @@ $(document).ready(function() {
 		$("#loan-products-section-display").removeClass('hidden');
 		$("#team-member-section-display").addClass('hidden');
 	});
+	$("#go-back-home-button").click(function(event) {
+		$("#index_only").removeClass('hidden');
+		$("#loan-products-section-display").addClass('hidden');
+		$("#team-member-section-display").removeClass('hidden');
+	});
+	$("#products-display").click(function(event) {
+		$("#index_only").addClass('hidden');
+		$("#loan-products-section-display").removeClass('hidden');
+		$("#team-member-section-display").addClass('hidden');
+		$("html, body").animate({
+			scrollTop: 510
+		}, 600);
+	});
+	$("#homebuyer-display").click(function(event) {
+		$("#index_only").addClass('hidden');
+		$("#loan-products-section-display").removeClass('hidden');
+		$("#team-member-section-display").addClass('hidden');
+		$("#homebuyer-toggled").removeClass('hidden');
+		$("#business-toggled").addClass('hidden');
+		$("html, body").animate({
+			scrollTop: 3000
+		}, 600);
+	});
+	$("#business-display").click(function(event) {
+		$("#index_only").addClass('hidden');
+		$("#loan-products-section-display").removeClass('hidden');
+		$("#team-member-section-display").addClass('hidden');
+		$("#homebuyer-toggled").addClass('hidden');
+		$("#business-toggled").removeClass('hidden');
+		$("html, body").animate({
+			scrollTop: 3000
+		}, 600);
+	});
+	$("#buyer-guide").click(function(event) {
+		$("#homebuyer-toggled").toggleClass('hidden');
+		$("#business-toggled").addClass('hidden');
+		$("html, body").animate({
+			scrollTop: 3300
+		}, 600);
+	});
+	$("#business-guide").click(function(event) {
+		$("#homebuyer-toggled").addClass('hidden');
+		$("#business-toggled").toggleClass('hidden');
+		$("html, body").animate({
+			scrollTop: 3300
+		}, 600);
+	});
 	$("#expand-sam").click(function(event) {
 		$("#sam").addClass('active-biography');
 		$(this).addClass('expanded-selected');
@@ -98,5 +145,40 @@ $(document).ready(function() {
 			scrollTop: $("#team-toggle").offset().top
 		}, 200);
 		$("#biography-triggered-duane").addClass('hidden');
+	});
+	$("#button-to-conventional").click(function(event) {
+		$('#conventional-toggled').show();
+		$('#fha-toggled').hide();
+		$('#va-toggled').hide();
+		$('#usda-toggled').hide();
+		$('#refinance-toggled').hide();
+	});
+	$("#button-to-fha").click(function(event) {
+		$('#conventional-toggled').hide();
+		$('#fha-toggled').show();
+		$('#va-toggled').hide();
+		$('#usda-toggled').hide();
+		$('#refinance-toggled').hide();
+	});
+	$("#button-to-va").click(function(event) {
+		$('#conventional-toggled').hide();
+		$('#fha-toggled').hide();
+		$('#va-toggled').show();
+		$('#usda-toggled').hide();
+		$('#refinance-toggled').hide();
+	});
+	$("#button-to-usda").click(function(event) {
+		$('#conventional-toggled').hide();
+		$('#fha-toggled').hide();
+		$('#va-toggled').hide();
+		$('#usda-toggled').show();
+		$('#refinance-toggled').hide();
+	});
+	$("#button-to-refinance").click(function(event) {
+		$('#conventional-toggled').hide();
+		$('#fha-toggled').hide();
+		$('#va-toggled').hide();
+		$('#usda-toggled').hide();
+		$('#refinance-toggled').show();
 	});
 });
