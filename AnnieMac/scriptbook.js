@@ -1089,6 +1089,7 @@ $(function() {
 			$("#am-styles").remove();
 			$("#am-responsive").remove();
 			$("#am-custom").remove();
+			$("#stylesheet-git").remove();
 			$('.page-page-detail').load("https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/blank.html", function() {
 				$(appendedContent).appendTo($( "#insertion-point" ));
 			});
@@ -1099,9 +1100,34 @@ $(function() {
 			$("#am-styles").remove();
 			$("#am-responsive").remove();
 			$("#am-custom").remove();
+			$("#stylesheet-git").remove();
 			$('.front').load("https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/index.html", function() {
 			});
-		}
+		};
+	}
+	if ((window.location.href.indexOf("burlington.annie-mac.com") != -1)) {
+		if ($('body').hasClass('page-page-detail')) {
+			var appendedContent = $(".content-detail").html();
+			$("head > link:nth-child(11)").remove();
+			$("#am-css").remove();
+			$("#am-styles").remove();
+			$("#am-responsive").remove();
+			$("#am-custom").remove();
+			$("#stylesheet-git").remove();
+			$('.page-page-detail').load("https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/blank.html", function() {
+				$(appendedContent).appendTo($( "#insertion-point" ));
+			});
+		};
+		if ($('body').hasClass('front')) {
+			$("head > link:nth-child(11)").remove();
+			$("#am-css").remove();
+			$("#am-styles").remove();
+			$("#am-responsive").remove();
+			$("#am-custom").remove();
+			$("#stylesheet-git").remove();
+			$('.front').load("https://anniemachomemortgage.github.io/AnnieMac/projects/getlocallending/index.html", function() {
+			});
+		};
 	}
 	if ((window.location.href.indexOf("themtgco.com") != -1) || (window.location.href.indexOf("themortgageco.wmmortgageware") != -1)) {
 		if ($('body').hasClass('page-page-detail')) {
