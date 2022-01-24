@@ -1472,10 +1472,11 @@ commentcontainer h4 {
 	margin-top: 22px;
 }
 
-#compare-chart {
+.compare-chart {
   display: flex;
   justify-content: space-between;
   color: #606c64;
+  margin-bottom: -20px;
 }
 
 .compare-selection {
