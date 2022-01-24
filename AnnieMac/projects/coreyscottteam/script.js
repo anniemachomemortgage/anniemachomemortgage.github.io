@@ -495,7 +495,7 @@ $(function() {
 		$("#triggered-team-member").removeClass('meet-the-team-header-rhonda');
 		$("#rhonda-trigger").addClass('hidden');
 		$("#triggered-team-member").removeClass('meet-the-team-header-billie');
-		$("#billie-trigger").removeClass('hidden');
+		$("#billie-trigger").addClass('hidden');
 		$("#triggered-team-member").removeClass('meet-the-team-header-corey');
 		$("#corey-trigger").addClass('hidden');
 		$("#triggered-team-member").removeClass('meet-the-team-header-amanda');
@@ -533,7 +533,7 @@ $(function() {
 		$("#triggered-team-member").addClass('meet-the-team-header-rhonda');
 		$("#rhonda-trigger").removeClass('hidden');
 		$("#triggered-team-member").removeClass('meet-the-team-header-billie');
-		$("#billie-trigger").removeClass('hidden');
+		$("#billie-trigger").addClass('hidden');
 		$("#triggered-team-member").removeClass('meet-the-team-header-corey');
 		$("#corey-trigger").addClass('hidden');
 		$("#triggered-team-member").removeClass('meet-the-team-header-amanda');
