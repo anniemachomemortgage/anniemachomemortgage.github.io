@@ -1471,3 +1471,47 @@ commentcontainer h4 {
 	height: auto;
 	margin-top: 22px;
 }
+
+#compare-chart {
+  display: flex;
+  justify-content: space-between;
+  color: #606c64;
+}
+
+.compare-selection {
+  width: 30%;
+}
+
+.compare-selection h3 {
+  color: #3a3335;
+  font-size: 18px;
+  margin-top: 17px;
+  padding-bottom: 7px;
+  margin-bottom: 5px;
+}
+
+.specific.columnize {
+  margin: 10px -24px;
+  font-size: 14px;
+  padding: 3px 23px 8px;
+}
+
+.specific strong {
+  color: #3a3335;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.specific span {
+  display: block;
+  margin-top: -2px;
+  margin-bottom: 7px;
+}
+
+.properties-req {
+  min-height: 137px;
+}
+
+.notes-req {
+  min-height: 180px;
+}
