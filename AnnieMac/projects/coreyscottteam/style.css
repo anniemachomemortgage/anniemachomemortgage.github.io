@@ -1230,6 +1230,9 @@ commentcontainer h4 {
 		padding-right: 0;
 		align-items: flex-end;
 	}
+	#construction-block {
+	  margin-top: 25px;
+	}
 }
 .state-listing-licensed {
 	display: flex;
