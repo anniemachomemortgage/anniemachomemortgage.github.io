@@ -456,6 +456,12 @@ $(function() {
 		$("#trigger-billie").removeClass('focused');
 		$("#trigger-jess").removeClass('focused');
 		$("#trigger-megan").removeClass('focused');
+		$("#trigger-nicole").removeClass('focused');
+		$("#trigger-rhonda").removeClass('focused');
+		$("#triggered-team-member").removeClass('meet-the-team-header-nicole');
+		$("#nicole-trigger").addClass('hidden');
+		$("#triggered-team-member").removeClass('meet-the-team-header-rhonda');
+		$("#rhonda-trigger").addClass('hidden');
 		$("#triggered-team-member").addClass('meet-the-team-header-mike');
 		$("#mike-trigger").removeClass('hidden');
 		$("#triggered-team-member").removeClass('meet-the-team-header-corey');
