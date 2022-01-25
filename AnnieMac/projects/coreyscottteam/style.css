@@ -1038,205 +1038,6 @@ commentcontainer h4 {
 	font-weight: 500;
 	line-height: 23px;
 }
-@media only screen and (max-width: 1046px) {
-	.body-background {
-		background-size: cover;
-		min-height: initial;
-		height: 300px;
-	}
-	.main-site-summary {
-		display: none;
-	}
-	.main-site-background {
-		display: flex;
-		flex-direction: column;
-		width: 80vw;
-		margin: -80 auto;
-	}
-	.main-site-background h1 {
-		height: 1px;
-	}
-	.navigation-display {
-		justify-content: center;
-		margin-bottom: 85px;
-	}
-	.mobile-only-header {
-		display: block;
-	}
-	li#navigation-logo {
-		height: 62px;
-		min-width: 300px;
-	}
-	button.main-site-apply-2 {
-		display: block;
-		margin: 0 2px 25px 0;
-	}
-	.summary-section {
-		min-width: 312px;
-	}
-	.our-team-sections {
-		margin-top: 10px;
-	}
-	.meet-the-team-header {
-		display: none;
-	}
-	.staff-block {
-		width: 50%;
-		margin: 0;
-		margin: 0 0 35px;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: flex-start;
-	}
-	.image-gradient-overlay, .image-gradient-overlay img {
-		border-radius: 4%;
-		height: 140px;
-		width: 154px;
-		margin: 0;
-	}
-	.image-gradient-overlay img {
-		object-fit: cover;
-	}
-	.name-and-title {
-		order: 2;
-		margin-left: 20px;
-		display: flex;
-		flex-direction: column;
-		height: 75px;
-	}
-	.mobile-only-toggle {
-		display: block;
-		margin-top: 5px;
-		padding: 5px 20px;
-		z-index: 1112 !important;
-		background: var(--orange);
-		color: var(--white);
-		font-weight: 400;
-		border-radius: 2px;
-		max-width: 180px;
-		min-width: 180px;
-	}
-	.mobile-only-toggle:hover {
-		background: #00537D;
-		cursor: pointer;
-	}
-	.mobile-activated-toggle {
-		background: #00537D;
-	}
-	.staff-block h4, .staff-block h5 {
-		text-align: left;
-		margin: 0;
-	}
-	.staff-block h4 {
-		margin-top: -20px;
-	}
-	.learn-more-about-them {
-		display: none;
-	}
-	.divided-listing:first-of-type {
-		justify-content: center;
-		align-items: center;
-	}
-	.why-us-sections {
-		margin-top: 70px;
-	}
-	#footer-logo {
-		margin: 0 auto;
-	}
-	#footer-logo img {
-		width: 350px;
-	}
-	.footerlist-title {
-		margin-top: 30px;
-	}
-	.sitemaps {
-		flex-direction: column;
-	}
-	.mobile-only {
-		display: block;
-		order: 3;
-		background: #f3f4f4;
-		padding: 10px 30px;
-		border-radius: 6px;
-		margin-top: 16px;
-		box-shadow: 1px 1px 9px rgba(0,0,0,.09);
-		margin-bottom: 30px;
-	}
-	.mobile-active-staff {
-		width: 100%;
-		flex-wrap: wrap;
-	}
-	.mobile-only .triggered-social-container {
-		margin-top: -20px;
-		margin-bottom: 20px;
-	}
-	.mobile-only .social-listing li i {
-		font-size: 22px;
-		color: var(--footerlinks);
-		margin-top: 20px;
-		opacity: .75;
-	}
-	.mobile-only .social-listing li i:hover {
-		color: var(--orange);
-		opacity: 1;
-	}
-	.footer-mobile {
-		display: block;
-		background: #f3f4f4;
-		padding: 10px 30px;
-		border-radius: 6px;
-		margin-top: 30px;
-		margin-bottom: 10px;
-		color: #636e77;
-		opacity: .8;
-	}	
-	.footer-mobile-section {
-		display: flex;
-		flex-direction: column;
-		margin: 16px 0;
-		border-bottom: 1px solid #b6bbbf4a;
-		padding-bottom: 13px;
-	}
-	.footer-mobile-section:last-of-type {
-		border-bottom: none;
-		padding-bottom: 0px;
-	}
-	.remain-hidden {
-		display: none;
-	}
-	.product-type-row-container {
-		flex-direction: column;
-	}
-	.product-type-row-container > * {
-		width: 100%;
-	}
-	.contact-options {
-		margin-top: 0;
-		flex-wrap: wrap;
-	}
-	.contact-option:last-of-type {
-		order: 1;
-		width: 100%;
-		padding-left: 0;
-		border-left: none;
-		margin-left: 0;
-		margin-top: 40px;
-		border-top: 1px solid rgba(0,0,0,.05);
-		padding-top: 10px;
-	}
-	.contact-option:first-of-type {
-		order: -1;
-		width: 100%;
-		flex-direction: row;
-		justify-content: space-between;
-		padding-right: 0;
-		align-items: flex-end;
-	}
-	#construction-block {
-	  margin-top: 25px;
-	}
-}
 .state-listing-licensed {
 	display: flex;
 	flex-direction: row;
@@ -1542,4 +1343,227 @@ commentcontainer h4 {
 
 .notes-req {
   min-height: 180px;
+}
+
+@media only screen and (max-width: 1046px) {
+	.body-background {
+		background-size: cover;
+		min-height: initial;
+		height: 300px;
+	}
+	.main-site-summary {
+		display: none;
+	}
+	.main-site-background {
+		display: flex;
+		flex-direction: column;
+		width: 80vw;
+		margin: -80 auto;
+	}
+	.main-site-background h1 {
+		height: 1px;
+	}
+	.navigation-display {
+		justify-content: center;
+		margin-bottom: 85px;
+	}
+	.mobile-only-header {
+		display: block;
+	}
+	li#navigation-logo {
+		height: 62px;
+		min-width: 300px;
+	}
+	button.main-site-apply-2 {
+		display: block;
+		margin: 0 2px 25px 0;
+	}
+	.summary-section {
+		min-width: 312px;
+	}
+	.our-team-sections {
+		margin-top: 10px;
+	}
+	.meet-the-team-header {
+		display: none;
+	}
+	.staff-block {
+		width: 50%;
+		margin: 0;
+		margin: 0 0 35px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-start;
+	}
+	.image-gradient-overlay, .image-gradient-overlay img {
+		border-radius: 4%;
+		height: 140px;
+		width: 154px;
+		margin: 0;
+	}
+	.image-gradient-overlay img {
+		object-fit: cover;
+	}
+	.name-and-title {
+		order: 2;
+		margin-left: 20px;
+		display: flex;
+		flex-direction: column;
+		height: 75px;
+	}
+	.mobile-only-toggle {
+		display: block;
+		margin-top: 5px;
+		padding: 5px 20px;
+		z-index: 1112 !important;
+		background: var(--orange);
+		color: var(--white);
+		font-weight: 400;
+		border-radius: 2px;
+		max-width: 180px;
+		min-width: 180px;
+	}
+	.mobile-only-toggle:hover {
+		background: #00537D;
+		cursor: pointer;
+	}
+	.mobile-activated-toggle {
+		background: #00537D;
+	}
+	.staff-block h4, .staff-block h5 {
+		text-align: left;
+		margin: 0;
+	}
+	.staff-block h4 {
+		margin-top: -20px;
+	}
+	.learn-more-about-them {
+		display: none;
+	}
+	.divided-listing:first-of-type {
+		justify-content: center;
+		align-items: center;
+	}
+	.why-us-sections {
+		margin-top: 70px;
+	}
+	#footer-logo {
+		margin: 0 auto;
+	}
+	#footer-logo img {
+		width: 350px;
+	}
+	.footerlist-title {
+		margin-top: 30px;
+	}
+	.sitemaps {
+		flex-direction: column;
+	}
+	.mobile-only {
+		display: block;
+		order: 3;
+		background: #f3f4f4;
+		padding: 10px 30px;
+		border-radius: 6px;
+		margin-top: 16px;
+		box-shadow: 1px 1px 9px rgba(0,0,0,.09);
+		margin-bottom: 30px;
+	}
+	.mobile-active-staff {
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	.mobile-only .triggered-social-container {
+		margin-top: -20px;
+		margin-bottom: 20px;
+	}
+	.mobile-only .social-listing li i {
+		font-size: 22px;
+		color: var(--footerlinks);
+		margin-top: 20px;
+		opacity: .75;
+	}
+	.mobile-only .social-listing li i:hover {
+		color: var(--orange);
+		opacity: 1;
+	}
+	.footer-mobile {
+		display: block;
+		background: #f3f4f4;
+		padding: 10px 30px;
+		border-radius: 6px;
+		margin-top: 30px;
+		margin-bottom: 10px;
+		color: #636e77;
+		opacity: .8;
+	}	
+	.footer-mobile-section {
+		display: flex;
+		flex-direction: column;
+		margin: 16px 0;
+		border-bottom: 1px solid #b6bbbf4a;
+		padding-bottom: 13px;
+	}
+	.footer-mobile-section:last-of-type {
+		border-bottom: none;
+		padding-bottom: 0px;
+	}
+	.remain-hidden {
+		display: none;
+	}
+	.product-type-row-container {
+		flex-direction: column;
+	}
+	.product-type-row-container > * {
+		width: 100%;
+	}
+	.contact-options {
+		margin-top: 0;
+		flex-wrap: wrap;
+	}
+	.contact-option:last-of-type {
+		order: 1;
+		width: 100%;
+		padding-left: 0;
+		border-left: none;
+		margin-left: 0;
+		margin-top: 40px;
+		border-top: 1px solid rgba(0,0,0,.05);
+		padding-top: 10px;
+	}
+	.contact-option:first-of-type {
+		order: -1;
+		width: 100%;
+		flex-direction: row;
+		justify-content: space-between;
+		padding-right: 0;
+		align-items: flex-end;
+	}
+	#construction-block {
+	  margin-top: 25px;
+	}
+	.compare-chart {
+		flex-direction: column;
+		background: #f6f6f6;
+		padding: 15px 20px;
+		border-radius: 9px;
+		margin-bottom: 15px;
+	}
+	.compare-selection {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.compare-selection h3 {
+		width: 100%;
+		display: block;
+		border-bottom: 1px solid rgba(0,0,0,.1);
+	}
+	.specific.columnize {
+		width: 39%;
+	}
+	.specific span {
+	  width: 80%;
+  	}
 }
