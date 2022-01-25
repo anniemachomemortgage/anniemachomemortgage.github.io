@@ -1567,3 +1567,10 @@ commentcontainer h4 {
 	  width: 80%;
   	}
 }
+.bztMy {
+	margin-top: 20px !important;
+	margin-bottom: -6px !important;
+	font-weight: 300 !important;
+	font-size: 22px !important;
+	color: #3a3335 !important;
+}
