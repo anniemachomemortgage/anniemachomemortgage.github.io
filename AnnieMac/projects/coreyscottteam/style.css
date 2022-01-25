@@ -1573,4 +1573,5 @@ commentcontainer h4 {
 	font-weight: 300 !important;
 	font-size: 22px !important;
 	color: #3a3335 !important;
+	text-transform: capitalize !important;
 }
