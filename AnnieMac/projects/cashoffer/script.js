@@ -42,7 +42,7 @@ $(function() {
 					console.log("State is required to continue");
 					$("#submit-overlay h4").text("Please input the borrower's first name, last name, email address, phone number and state before attempting to submit.");
 					$("input[data-xml-node='PropertyState']").blur(function() {
-						if( $(this).val().length === 0 ) {
+						if( $(this).val().length > 0 ) {
 							$('#submit-overlayment').hide();
 						}
 					});
