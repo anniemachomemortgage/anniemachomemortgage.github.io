@@ -13,6 +13,9 @@ $(function() {
 			if($( "input[data-xml-node=PropertyState]" ).val()=='NJ'){
 				$('#not-supported-state').addClass('initial-hidden');
 			}
+			if($( "input[data-xml-node=PropertyState]" ).val()!='NJ'){
+				$('#not-supported-state').removeClass('initial-hidden');
+			}
 			if( $('input[data-xml-node=PropertyState]').val().length === 0 ) {
 				propertyStateSelection = false;
 			}
