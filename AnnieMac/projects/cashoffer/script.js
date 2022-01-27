@@ -210,8 +210,12 @@ $(function() {
 		if($( "#apply-or-learn option:selected" ).val()=='apply-now'){
 			$('#apply-now-form').removeClass('initial-hidden');
 		} 
+		if($( "#apply-or-learn option:selected" ).val()=='general-inquiry'){
+			$('#general-inquiry').removeClass('initial-hidden');
+		} 
 		if($( "#apply-or-learn option:selected" ).val()=='learn-more'){
 			$('#apply-now-form').addClass('initial-hidden');
+			$('#general-inquiry').addClass('initial-hidden');
 		} 
 		if($( "#bnsl-or-not option:selected" ).val()=='selling'){
 			$('#buy-now-sell-later').removeClass('initial-hidden');
