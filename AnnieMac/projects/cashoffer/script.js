@@ -37,13 +37,7 @@ $(function() {
 					MobilePhone = false;
 				}
 			});
-			$('#property-state-selection').on('change', function() {
-				if($( "#property-state-selection option:selected" ).val()!='NJ'){
-					$('#not-supported-state').removeClass('initial-hidden');
-				}
-				if($( "#property-state-selection option:selected" ).val()=='NJ'){
-					$('#not-supported-state').addClass('initial-hidden');
-				}
+			$("#property-state-selection").blur(function() {
 				propertyStateSelection = $("#property-state-selection").val();
 				$('input[data-xml-node=PropertyState]').val(propertyStateSelection);
 			});
@@ -236,6 +230,14 @@ $(function() {
 		if($( "#apply-or-learn option:selected" ).val()=='learn-more'){
 			$('#apply-now-form').addClass('initial-hidden');
 		} 
+		$('#property-state-selection').on('change', function() {
+			if($( "#property-state-selection option:selected" ).val()!='NJ'){
+				$('#not-supported-state').removeClass('initial-hidden');
+			}
+			if($( "#property-state-selection option:selected" ).val()=='NJ'){
+				$('#not-supported-state').addClass('initial-hidden');
+			}
+		});
 		if($( "#bnsl-or-not option:selected" ).val()=='selling'){
 			$('#buy-now-sell-later').removeClass('initial-hidden');
 			$('#Picklist').attr('value', 'Buy Now, Sell Later (BNSL)');
