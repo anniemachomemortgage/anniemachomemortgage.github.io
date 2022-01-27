@@ -234,6 +234,9 @@ $(function() {
 		if($( "#apply-or-learn option:selected" ).val()=='learn-more'){
 			$('#apply-now-form').addClass('initial-hidden');
 		}
+		if($( "#apply-or-learn option:selected" ).val()=='general-inquiry'){
+			$('#apply-now-form').addClass('initial-hidden');
+		}
 		if($( "#bnsl-or-not option:selected" ).val()=='selling'){
 			$('#buy-now-sell-later').removeClass('initial-hidden');
 			$('#Picklist').attr('value', 'Buy Now, Sell Later (BNSL)');
