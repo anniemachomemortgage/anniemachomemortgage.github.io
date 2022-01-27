@@ -47,11 +47,11 @@ $(function() {
 				propertyStateSelection = $("#property-state-selection").val();
 				$('input[data-xml-node=PropertyState]').val(propertyStateSelection);
 			});
-			$("input[data-xml-node='PropertyState']").blur(function() {
-				if( $(this).val().length === 0 ) {
+			$("#property-state-selection").blur(function() {
+				if( $('input[data-xml-node=PropertyState]').val().length === 0 ) {
 					propertyStateSelection = false;
 				}
-				if( $(this).val().length === "false" ) {
+				if( $('input[data-xml-node=PropertyState]').val().length === "false" ) {
 					propertyStateSelection = false;
 				}
 			});
