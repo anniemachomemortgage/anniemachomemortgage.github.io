@@ -37,23 +37,22 @@ $(function() {
 					MobilePhone = false;
 				}
 			});
+			$('#property-state-selection').on('change', function() {
+				if($( "#property-state-selection option:selected" ).val()!='NJ'){
+					$('#not-supported-state').removeClass('initial-hidden');
+				}
+				if($( "#property-state-selection option:selected" ).val()=='NJ'){
+					$('#not-supported-state').addClass('initial-hidden');
+				}
+				propertyStateSelection = $("#property-state-selection").val();
+				$('input[data-xml-node=PropertyState]').val(propertyStateSelection);
+			});
 			$("input[data-xml-node='PropertyState']").blur(function() {
 				if( $(this).val().length === 0 ) {
 					propertyStateSelection = false;
 				}
 				if( $(this).val().length === "false" ) {
 					propertyStateSelection = false;
-				}
-			});
-			$('#property-state-selection').on('change', function() {
-				propertyStateSelection = $("#property-state-selection").val();
-				$('input[data-xml-node=PropertyState]').val(propertyStateSelection);
-				// $("#property-state-selection").prop( "disabled", true );
-				if($( "#property-state-selection option:selected" ).val()!='NJ'){
-					$('#not-supported-state').removeClass('initial-hidden');
-				}
-				if($( "#property-state-selection option:selected" ).val()=='NJ'){
-					$('#not-supported-state').addClass('initial-hidden');
 				}
 			});
 			$('#state-selection').on('change', function() {
