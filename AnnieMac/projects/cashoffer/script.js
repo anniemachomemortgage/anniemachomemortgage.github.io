@@ -6,7 +6,6 @@ $(function() {
 		var LastName = false;
 		var Email = false;
 		var MobilePhone = false;
-		var stateRequired = false;
 		$(":input").on("keyup change", function(e) {
 			FirstName = $("input[data-xml-node='FirstName']").val();
 			LastName = $("input[data-xml-node='LastName']").val();
@@ -38,20 +37,11 @@ $(function() {
 				}
 			});
 			if (FirstName != false && LastName != false && Email != false && MobilePhone != false) {
-				if (stateRequired == true) {
-					console.log("State is required to continue");
-					$("#submit-overlay h4").text("Please input the borrower's first name, last name, email address, phone number and state before attempting to submit.");
-					$("input[data-xml-node='PropertyState']").blur(function() {
-						if( $(this).val().length > 0 ) {
-							$('#submit-overlayment').hide();
-						}
-					});
-				}
+				$('#submit-overlayment').hide();
 			}
 			if (FirstName == false || LastName == false || Email == false || MobilePhone == false) {
 				$('#submit-overlayment').show();
 			}
-			
 		});
 	}
 	$("logo img").click(function(event) {
@@ -219,11 +209,9 @@ $(function() {
 		}
 		if($( "#apply-or-learn option:selected" ).val()=='apply-now'){
 			$('#apply-now-form').removeClass('initial-hidden');
-			stateRequired = true;
 		} 
 		if($( "#apply-or-learn option:selected" ).val()=='learn-more'){
 			$('#apply-now-form').addClass('initial-hidden');
-			stateRequired = false;
 		} 
 		if($( "#bnsl-or-not option:selected" ).val()=='selling'){
 			$('#buy-now-sell-later').removeClass('initial-hidden');
