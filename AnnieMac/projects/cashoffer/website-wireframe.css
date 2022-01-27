@@ -1295,3 +1295,11 @@ body>footer {
 	display: block;
 	font-weight: 600;
 }
+
+.division {
+  display: block;
+  font-size: 15px;
+  line-height: 22px;
+  margin: 7px 0;
+  font-weight: 200;
+}

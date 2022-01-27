@@ -231,6 +231,8 @@ $(function() {
 		}	
 	});
 	$('#property-state-selection').on('change', function() {
+		var propertyStateSelection = $("#property-state-selection").val();
+		$('input[data-xml-node=PropertyState]').val(propertyStateSelection);
 		if($( "#property-state-selection option:selected" ).val()!='NJ'){
 			$('#not-supported-state').removeClass('initial-hidden');
 		}
@@ -238,6 +240,10 @@ $(function() {
 				$('#not-supported-state').addClass('initial-hidden');
 			}
 	});
+	$('#state-selection').on('change', function() {
+		var stateSelection = $("#state-selection").val();
+		$('input[data-xml-node=State]').val(stateSelection);
+	});	
 	$("#submit-borrower").click(function(event) {
 		$("html, body").animate({ scrollTop: 0 }, "slow");
 		$(".inner-layout").fadeOut(2500);
