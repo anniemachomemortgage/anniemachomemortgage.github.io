@@ -1296,6 +1296,10 @@ body>footer {
 	font-weight: 600;
 }
 
+.input-grouping.stretched {
+  width: 100%;
+}
+
 .division {
   display: block;
   font-size: 15px;
