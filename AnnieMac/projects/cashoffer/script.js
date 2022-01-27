@@ -209,11 +209,15 @@ $(function() {
 		}
 		if($( "#apply-or-learn option:selected" ).val()=='apply-now'){
 			$('#apply-now-form').removeClass('initial-hidden');
+			$('#general-inquiry').addClass('initial-hidden');
 		} 
 		if($( "#apply-or-learn option:selected" ).val()=='general-inquiry'){
+			$('#not-supported-state').removeClass('initial-hidden');
 			$('#general-inquiry').removeClass('initial-hidden');
+			$('#apply-now-form').addClass('initial-hidden');
 		} 
 		if($( "#apply-or-learn option:selected" ).val()=='learn-more'){
+			$('#not-supported-state').removeClass('initial-hidden');
 			$('#apply-now-form').addClass('initial-hidden');
 			$('#general-inquiry').addClass('initial-hidden');
 		} 
@@ -239,8 +243,8 @@ $(function() {
 			$('#not-supported-state').removeClass('initial-hidden');
 		}
 		if($( "#property-state-selection option:selected" ).val()=='NJ'){
-				$('#not-supported-state').addClass('initial-hidden');
-			}
+			$('#not-supported-state').addClass('initial-hidden');
+		}
 	});
 	$("#submit-borrower").click(function(event) {
 		$("html, body").animate({ scrollTop: 0 }, "slow");
