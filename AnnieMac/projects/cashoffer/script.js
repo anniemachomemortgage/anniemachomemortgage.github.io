@@ -6,6 +6,7 @@ $(function() {
 		var LastName = false;
 		var Email = false;
 		var MobilePhone = false;
+		var propertyStateSelection = false;
 		$(":input").on("keyup change", function(e) {
 			FirstName = $("input[data-xml-node='FirstName']").val();
 			LastName = $("input[data-xml-node='LastName']").val();
@@ -36,10 +37,10 @@ $(function() {
 					MobilePhone = false;
 				}
 			});
-			if (FirstName != false && LastName != false && Email != false && MobilePhone != false) {
+			if (FirstName != false && LastName != false && Email != false && MobilePhone != false && propertyStateSelection != false) {
 				$('#submit-overlayment').hide();
 			}
-			if (FirstName == false || LastName == false || Email == false || MobilePhone == false) {
+			if (FirstName == false || LastName == false || Email == false || MobilePhone == false || propertyStateSelection == false) {
 				$('#submit-overlayment').show();
 			}
 		});
@@ -231,7 +232,7 @@ $(function() {
 		}	
 	});
 	$('#property-state-selection').on('change', function() {
-		var propertyStateSelection = $("#property-state-selection").val();
+		propertyStateSelection = $("#property-state-selection").val();
 		$('input[data-xml-node=PropertyState]').val(propertyStateSelection);
 		if($( "#property-state-selection option:selected" ).val()!='NJ'){
 			$('#not-supported-state').removeClass('initial-hidden');
