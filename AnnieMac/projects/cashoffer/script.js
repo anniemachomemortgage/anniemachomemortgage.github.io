@@ -13,6 +13,12 @@ $(function() {
 			if($( "input[data-xml-node=PropertyState]" ).val()=='NJ'){
 				$('#not-supported-state').addClass('initial-hidden');
 			}
+			if( $('input[data-xml-node=PropertyState]').val().length === 0 ) {
+				propertyStateSelection = false;
+			}
+			if( $('input[data-xml-node=PropertyState]').val().length === "false" ) {
+				propertyStateSelection = false;
+			}
 		});
 		$(":input").on("keyup change", function(e) {
 			FirstName = $("input[data-xml-node='FirstName']").val();
@@ -42,14 +48,6 @@ $(function() {
 			$("input[data-xml-node='MobilePhone']").blur(function() {
 				if( $(this).val().length === 0 ) {
 					MobilePhone = false;
-				}
-			});
-			$("#property-state-selection").blur(function() {
-				if( $('input[data-xml-node=PropertyState]').val().length === 0 ) {
-					propertyStateSelection = false;
-				}
-				if( $('input[data-xml-node=PropertyState]').val().length === "false" ) {
-					propertyStateSelection = false;
 				}
 			});
 			$('#state-selection').on('change', function() {
