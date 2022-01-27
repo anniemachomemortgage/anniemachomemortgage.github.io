@@ -7,7 +7,7 @@ $(function() {
 		var Email = false;
 		var MobilePhone = false;
 		var propertyStateSelection = false;
-		$("#property-state-selection").on("click blur keyup change", function(e) {
+		$("#property-state-selection").on("click blur keyup onchange", function(e) {
 			propertyStateSelection = $("#property-state-selection").val();
 			$('input[data-xml-node=PropertyState]').val(propertyStateSelection);
 			if($( "input[data-xml-node=PropertyState]" ).val()=='NJ'){
