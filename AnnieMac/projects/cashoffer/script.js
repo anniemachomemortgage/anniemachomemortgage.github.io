@@ -16,7 +16,7 @@ $(function() {
 			if( $('input[data-xml-node=PropertyState]').val().length === 0 ) {
 				propertyStateSelection = false;
 			}
-			if( $('input[data-xml-node=PropertyState]').val().length === "false" ) {
+			if( $('input[data-xml-node=PropertyState]').val() === "false" ) {
 				propertyStateSelection = false;
 			}
 		});
