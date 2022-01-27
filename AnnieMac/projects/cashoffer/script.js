@@ -37,6 +37,21 @@ $(function() {
 					MobilePhone = false;
 				}
 			});
+			$('#property-state-selection').on('change', function() {
+				propertyStateSelection = $("#property-state-selection").val();
+				$('input[data-xml-node=PropertyState]').val(propertyStateSelection);
+				$("#property-state-selection").prop( "disabled", true );
+				if($( "#property-state-selection option:selected" ).val()!='NJ'){
+					$('#not-supported-state').removeClass('initial-hidden');
+				}
+				if($( "#property-state-selection option:selected" ).val()=='NJ'){
+					$('#not-supported-state').addClass('initial-hidden');
+				}
+			});
+			$('#state-selection').on('change', function() {
+				var stateSelection = $("#state-selection").val();
+				$('input[data-xml-node=State]').val(stateSelection);
+			});	
 			if (FirstName != false && LastName != false && Email != false && MobilePhone != false && propertyStateSelection != false) {
 				$('#submit-overlayment').hide();
 			}
@@ -231,20 +246,6 @@ $(function() {
 			}
 		}	
 	});
-	$('#property-state-selection').on('change', function() {
-		propertyStateSelection = $("#property-state-selection").val();
-		$('input[data-xml-node=PropertyState]').val(propertyStateSelection);
-		if($( "#property-state-selection option:selected" ).val()!='NJ'){
-			$('#not-supported-state').removeClass('initial-hidden');
-		}
-		if($( "#property-state-selection option:selected" ).val()=='NJ'){
-				$('#not-supported-state').addClass('initial-hidden');
-			}
-	});
-	$('#state-selection').on('change', function() {
-		var stateSelection = $("#state-selection").val();
-		$('input[data-xml-node=State]').val(stateSelection);
-	});	
 	$("#submit-borrower").click(function(event) {
 		$("html, body").animate({ scrollTop: 0 }, "slow");
 		$(".inner-layout").fadeOut(2500);
