@@ -41,11 +41,14 @@ $(function() {
 				if( $(this).val().length === 0 ) {
 					propertyStateSelection = false;
 				}
+				if( $(this).val().length === "false" ) {
+					propertyStateSelection = false;
+				}
 			});
 			$('#property-state-selection').on('change', function() {
 				propertyStateSelection = $("#property-state-selection").val();
 				$('input[data-xml-node=PropertyState]').val(propertyStateSelection);
-				$("#property-state-selection").prop( "disabled", true );
+				// $("#property-state-selection").prop( "disabled", true );
 				if($( "#property-state-selection option:selected" ).val()!='NJ'){
 					$('#not-supported-state').removeClass('initial-hidden');
 				}
