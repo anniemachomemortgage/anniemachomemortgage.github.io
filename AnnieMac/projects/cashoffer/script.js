@@ -7,6 +7,13 @@ $(function() {
 		var Email = false;
 		var MobilePhone = false;
 		var propertyStateSelection = false;
+		$("#property-state-selection").on("click blur keyup change", function(e) {
+			propertyStateSelection = $("#property-state-selection").val();
+			$('input[data-xml-node=PropertyState]').val(propertyStateSelection);
+			if($( "input[data-xml-node=PropertyState]" ).val()=='NJ'){
+				$('#not-supported-state').addClass('initial-hidden');
+			}
+		});
 		$(":input").on("keyup change", function(e) {
 			FirstName = $("input[data-xml-node='FirstName']").val();
 			LastName = $("input[data-xml-node='LastName']").val();
@@ -35,13 +42,6 @@ $(function() {
 			$("input[data-xml-node='MobilePhone']").blur(function() {
 				if( $(this).val().length === 0 ) {
 					MobilePhone = false;
-				}
-			});
-			$("#property-state-selection").blur(function() {
-				propertyStateSelection = $("#property-state-selection").val();
-				$('input[data-xml-node=PropertyState]').val(propertyStateSelection);
-				if($( "input[data-xml-node=PropertyState]" ).val()=='NJ'){
-					$('#not-supported-state').addClass('initial-hidden');
 				}
 			});
 			$("#property-state-selection").blur(function() {
