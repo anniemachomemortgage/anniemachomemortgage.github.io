@@ -38,20 +38,20 @@ $(function() {
 				}
 			});
 			if (FirstName != false && LastName != false && Email != false && MobilePhone != false) {
-				$('#submit-overlayment').hide();
+				if (stateRequired == true) {
+					console.log("State is required to continue");
+					$("#submit-overlay h4").text("Please input the borrower's first name, last name, email address, phone number and state before attempting to submit.");
+					$("input[data-xml-node='PropertyState']").blur(function() {
+						if( $(this).val().length === 0 ) {
+							$('#submit-overlayment').hide();
+						}
+					});
+				}
 			}
 			if (FirstName == false || LastName == false || Email == false || MobilePhone == false) {
 				$('#submit-overlayment').show();
 			}
-			if (stateRequired == true) {
-				console.log("State is required to continue");
-				$("#submit-overlay h4").text("Please input the borrower's first name, last name, email address, phone number and state before attempting to submit.");
-				$("input[data-xml-node='MobilePhone']").blur(function() {
-					if( $(this).val().length === 0 ) {
-						$('#submit-overlayment').hide();
-					}
-				});
-			}
+			
 		});
 	}
 	$("logo img").click(function(event) {
