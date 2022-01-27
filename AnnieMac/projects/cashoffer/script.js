@@ -37,6 +37,11 @@ $(function() {
 					MobilePhone = false;
 				}
 			});
+			$("input[data-xml-node='PropertyState']").blur(function() {
+				if( $(this).val().length === 0 ) {
+					propertyStateSelection = false;
+				}
+			});
 			$('#property-state-selection').on('change', function() {
 				propertyStateSelection = $("#property-state-selection").val();
 				$('input[data-xml-node=PropertyState]').val(propertyStateSelection);
