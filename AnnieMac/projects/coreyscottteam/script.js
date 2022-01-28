@@ -267,6 +267,9 @@ $(function() {
 		$("#trigger-mike").removeClass('focused');
 		$("#trigger-nicole").removeClass('focused');
 		$("#trigger-rhonda").removeClass('focused');
+		$("#trigger-siesta").removeClass('focused');
+		$("#triggered-team-member").removeClass('meet-the-team-header-siesta');
+		$("#siesta-trigger").addClass('hidden');
 		$("#triggered-team-member").removeClass('meet-the-team-header-nicole');
 		$("#nicole-trigger").addClass('hidden');
 		$("#triggered-team-member").removeClass('meet-the-team-header-rhonda');
@@ -306,6 +309,9 @@ $(function() {
 		$("#trigger-mike").removeClass('focused');
 		$("#trigger-nicole").removeClass('focused');
 		$("#trigger-rhonda").removeClass('focused');
+		$("#trigger-siesta").removeClass('focused');
+		$("#triggered-team-member").removeClass('meet-the-team-header-siesta');
+		$("#siesta-trigger").addClass('hidden');
 		$("#triggered-team-member").removeClass('meet-the-team-header-nicole');
 		$("#nicole-trigger").addClass('hidden');
 		$("#triggered-team-member").removeClass('meet-the-team-header-rhonda');
@@ -344,6 +350,9 @@ $(function() {
 		$("#trigger-mike").removeClass('focused');
 		$("#trigger-nicole").removeClass('focused');
 		$("#trigger-rhonda").removeClass('focused');
+		$("#trigger-siesta").removeClass('focused');
+		$("#triggered-team-member").removeClass('meet-the-team-header-siesta');
+		$("#siesta-trigger").addClass('hidden');
 		$("#triggered-team-member").removeClass('meet-the-team-header-nicole');
 		$("#nicole-trigger").addClass('hidden');
 		$("#triggered-team-member").removeClass('meet-the-team-header-rhonda');
@@ -382,6 +391,9 @@ $(function() {
 		$("#trigger-mike").removeClass('focused');
 		$("#trigger-nicole").removeClass('focused');
 		$("#trigger-rhonda").removeClass('focused');
+		$("#trigger-siesta").removeClass('focused');
+		$("#triggered-team-member").removeClass('meet-the-team-header-siesta');
+		$("#siesta-trigger").addClass('hidden');
 		$("#triggered-team-member").removeClass('meet-the-team-header-nicole');
 		$("#nicole-trigger").addClass('hidden');
 		$("#triggered-team-member").removeClass('meet-the-team-header-rhonda');
@@ -420,6 +432,9 @@ $(function() {
 		$("#trigger-mike").removeClass('focused');
 		$("#trigger-nicole").removeClass('focused');
 		$("#trigger-rhonda").removeClass('focused');
+		$("#trigger-siesta").removeClass('focused');
+		$("#triggered-team-member").removeClass('meet-the-team-header-siesta');
+		$("#siesta-trigger").addClass('hidden');
 		$("#triggered-team-member").removeClass('meet-the-team-header-nicole');
 		$("#nicole-trigger").addClass('hidden');
 		$("#triggered-team-member").removeClass('meet-the-team-header-rhonda');
@@ -458,6 +473,9 @@ $(function() {
 		$("#trigger-megan").removeClass('focused');
 		$("#trigger-nicole").removeClass('focused');
 		$("#trigger-rhonda").removeClass('focused');
+		$("#trigger-siesta").removeClass('focused');
+		$("#triggered-team-member").removeClass('meet-the-team-header-siesta');
+		$("#siesta-trigger").addClass('hidden');
 		$("#triggered-team-member").removeClass('meet-the-team-header-nicole');
 		$("#nicole-trigger").addClass('hidden');
 		$("#triggered-team-member").removeClass('meet-the-team-header-rhonda');
@@ -496,6 +514,9 @@ $(function() {
 		$("#trigger-mike").removeClass('focused');
 		$("#trigger-billie").removeClass('focused');
 		$("#trigger-rhonda").removeClass('focused');
+		$("#trigger-siesta").removeClass('focused');
+		$("#triggered-team-member").removeClass('meet-the-team-header-siesta');
+		$("#siesta-trigger").addClass('hidden');
 		$("#triggered-team-member").addClass('meet-the-team-header-nicole');
 		$("#nicole-trigger").removeClass('hidden');
 		$("#triggered-team-member").removeClass('meet-the-team-header-rhonda');
@@ -534,6 +555,9 @@ $(function() {
 		$("#trigger-mike").removeClass('focused');
 		$("#trigger-billie").removeClass('focused');
 		$("#trigger-rhonda").addClass('focused');
+		$("#trigger-siesta").removeClass('focused');
+		$("#triggered-team-member").removeClass('meet-the-team-header-siesta');
+		$("#siesta-trigger").addClass('hidden');
 		$("#triggered-team-member").removeClass('meet-the-team-header-nicole');
 		$("#nicole-trigger").addClass('hidden');
 		$("#triggered-team-member").addClass('meet-the-team-header-rhonda');
@@ -559,5 +583,46 @@ $(function() {
 	$("#rhonda-toggle-mobile-trigger").click(function(event) {
 		$("#rhonda-mobile-trigger").toggleClass('remain-hidden');
 		$("#rhonda-toggle-mobile-trigger").toggleClass('mobile-activated-toggle');
+	});
+	$("#trigger-siesta").click(function(event) {
+		$('html, body').animate({
+			scrollTop: $("#triggered-team-member-scroll").offset().top
+		}, 800);
+		$("#trigger-nicole").removeClass('focused');
+		$("#trigger-corey").removeClass('focused');
+		$("#trigger-amanda").removeClass('focused');
+		$("#trigger-megan").removeClass('focused');
+		$("#trigger-jess").removeClass('focused');
+		$("#trigger-mike").removeClass('focused');
+		$("#trigger-billie").removeClass('focused');
+		$("#trigger-rhonda").removeClass('focused');
+		$("#trigger-siesta").addClass('focused');
+		$("#triggered-team-member").addClass('meet-the-team-header-siesta');
+		$("#siesta-trigger").removeClass('hidden');
+		$("#triggered-team-member").removeClass('meet-the-team-header-nicole');
+		$("#nicole-trigger").addClass('hidden');
+		$("#triggered-team-member").addClass('meet-the-team-header-rhonda');
+		$("#rhonda-trigger").addClass('hidden');
+		$("#triggered-team-member").removeClass('meet-the-team-header-billie');
+		$("#billie-trigger").addClass('hidden');
+		$("#triggered-team-member").removeClass('meet-the-team-header-corey');
+		$("#corey-trigger").addClass('hidden');
+		$("#triggered-team-member").removeClass('meet-the-team-header-amanda');
+		$("#amanda-trigger").addClass('hidden');
+		$("#triggered-team-member").removeClass('meet-the-team-header-megan');
+		$("#megan-trigger").addClass('hidden');
+		$("#triggered-team-member").removeClass('meet-the-team-header-jess');
+		$("#jess-trigger").addClass('hidden');
+		$("#triggered-team-member").removeClass('meet-the-team-header-mike');
+		$("#mike-trigger").addClass('hidden');
+		$("#trigger-siesta").click(function(event) {
+			$("#trigger-siesta").toggleClass('focused');
+			$("#triggered-team-member").toggleClass('meet-the-team-header-siesta');
+			$("#siesta-trigger").toggleClass('hidden');
+		});
+	});
+	$("#siesta-toggle-mobile-trigger").click(function(event) {
+		$("#siesta-mobile-trigger").toggleClass('remain-hidden');
+		$("#siesta-toggle-mobile-trigger").toggleClass('mobile-activated-toggle');
 	});
 });
