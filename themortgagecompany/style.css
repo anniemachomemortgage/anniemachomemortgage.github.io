@@ -58,8 +58,10 @@ body {
 	background: var(--original);
 }
 .body-background {
-	background: radial-gradient(circle, var(--backgrounda) 10%, var(--backgroundb) 94%);
+	background: radial-gradient(circle, #0a4216e6 10%, #0c261b 94%), url(https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/themortgagecompanyoffice.png);
 	min-height: 539px;
+	background-size: cover;
+	background-position-y: 73%;
 }
 .body-overlay {
 	margin: 0px auto 60px;
@@ -96,7 +98,6 @@ li#navigation-logo {
 	margin-bottom: 22px;
 }
 .main-site-overlay {
-	background: url('https://anniemachomemortgage.github.io/themortgagecompany/img/woman-background.png');
 	position: absolute;
 	top: 50%;
 	right: 50%;
