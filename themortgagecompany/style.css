@@ -58,7 +58,7 @@ body {
 	background: var(--original);
 }
 .body-background {
-	background: radial-gradient(circle, #0a421675 10%, #0c261b 94%), url(https://annie-mac.com/uploads/sites/10713/public/themortgagecompanyoffice.png);
+	background: radial-gradient(circle, #3d463f24 10%, #1e2422 94%), url(https://annie-mac.com/uploads/sites/10713/public/themortgagecompanyoffice.png);
 	background-size: cover;
 	background-position-y: 53%;
 }
@@ -129,6 +129,7 @@ li#navigation-logo {
 	margin: -10px 0 17px;
 	background: #080b0821;
 	padding: 13px 25px;
+	color: #fff;
 }
 .summary-section > strong {
 	color: var(--accentwhite);
