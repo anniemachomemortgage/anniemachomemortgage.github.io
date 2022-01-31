@@ -58,10 +58,9 @@ body {
 	background: var(--original);
 }
 .body-background {
-	background: radial-gradient(circle, #0a4216e6 10%, #0c261b 94%), url(https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/themortgagecompanyoffice.png);
-	min-height: 539px;
+	background: radial-gradient(circle, #0a421675 10%, #0c261b 94%), url(https://annie-mac.com/uploads/sites/10713/public/themortgagecompanyoffice.png);
 	background-size: cover;
-	background-position-y: 73%;
+	background-position-y: 53%;
 }
 .body-overlay {
 	margin: 0px auto 60px;
@@ -77,8 +76,8 @@ body {
 	padding: 20px 0 30px;
 	width: 100%;
 	justify-content: space-between;
-	margin-bottom: 50px;
-	border-bottom: 1px solid var(--border);
+	margin-bottom: 8px;
+	border-bottom: ;
 }
 .navigation-display li {
 	color: var(--gray);
@@ -95,7 +94,6 @@ li#navigation-logo {
 }
 .main-site-background {
 	position: relative;
-	margin-bottom: 22px;
 }
 .main-site-overlay {
 	position: absolute;
@@ -106,10 +104,10 @@ li#navigation-logo {
 	height: 492px;
 }
 .main-site-background h1 {
-	font-size: 120px;
+	font-size: 58px;
 	font-weight: 900;
 	font-style: italic;
-	word-spacing: 100vw;
+	word-spacing: 18vw;
 	line-height: 100px;
 	margin-top: 5px;
 	color: var(--white);
@@ -119,7 +117,7 @@ li#navigation-logo {
 }
 .main-site-summary {
 	position: absolute;
-	top: 6%;
+	top: 0;
 	right: 0;
 	display: flex;
 	flex-direction: column;
@@ -129,7 +127,7 @@ li#navigation-logo {
 	display: flex;
 	flex-direction: column;
 	margin: -10px 0 17px;
-	background: var(--greenblocked);
+	background: #080b0821;
 	padding: 13px 25px;
 }
 .summary-section > strong {
