@@ -403,13 +403,12 @@ margin-bottom: 60px;
 	color: black;
 }
 .team-member-portrait {
-	min-height: 180px;
-	min-width: 180px;
-	background-size: cover !important;
-	max-height: 180px;
-	max-width: 180px;
-	border-radius: 3.5%;
+	min-height: 211px;
+	min-width: 211px;
+	max-height: 211px;
+	max-width: 211px;
 	order: -1;
+	background: red;
 }
 .contact-tmc-buttons {
 	margin-top: 0;
