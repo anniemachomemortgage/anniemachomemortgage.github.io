@@ -2,6 +2,15 @@
 #flash-message {
   display: none !important;
 }
+.average-social-rating p:last-of-type {
+  display: none;
+}
+.testimonial-highlight {
+  display: none;
+}
+#review-social-section h3:first-of-type {
+  display: none;
+}
 body.front.site-type-branch {
   margin: 0 auto !important;
   max-width: 1485px;
