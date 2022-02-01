@@ -155,7 +155,7 @@ li#navigation-logo {
 button.main-site-apply {
 	outline: none;
 	padding: 20px;
-	margin: 15px 2px 25px;
+	margin: -15px 2px 50px;
 	min-width: 200px;
 	background: var(--orange);
 	color: var(--white);
