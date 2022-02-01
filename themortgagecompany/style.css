@@ -131,6 +131,13 @@ li#navigation-logo {
 	padding: 13px 25px;
 	color: #fff;
 }
+.summary-section a {
+	text-decoration: none;
+    border: none;
+	display: flex;
+	flex-direction: column;
+	color: inherit;
+}
 .summary-section > strong {
 	color: var(--accentwhite);
 	font-weight: 600;
