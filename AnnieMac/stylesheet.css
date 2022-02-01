@@ -11,6 +11,9 @@
 #review-social-section h3:first-of-type {
   display: none;
 }
+.social-loan-officer {
+  padding: 20px 20px 15px;
+  }
 body.front.site-type-branch {
   margin: 0 auto !important;
   max-width: 1485px;
