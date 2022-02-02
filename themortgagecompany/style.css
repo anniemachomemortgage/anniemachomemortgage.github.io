@@ -107,7 +107,7 @@ li#navigation-logo {
 	font-size: 58px;
 	font-weight: 900;
 	font-style: italic;
-	word-spacing: 18vw;
+	word-spacing: 40vw;
 	line-height: 100px;
 	margin-top: 5px;
 	color: var(--white);
@@ -133,7 +133,7 @@ li#navigation-logo {
 }
 .summary-section a {
 	text-decoration: none;
-    border: none;
+	border: none;
 	display: flex;
 	flex-direction: column;
 	color: inherit;
