@@ -536,9 +536,29 @@ button.go {
 .social-loan-officer i.fas.fa-map-marker {
 	display: none;
 }
+span.testimonial-highlight {
+	font-weight: 600;
+}
 .review-social-rating {
 	font-size: 20px;
 	font-weight: 600;
 	color: var(--orange);
 	margin-bottom: 12px;
+}
+.pager ul {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	justify-content: space-between;
+	width: 100%;
+	margin: 15px 0;
+	padding: 0;
+}
+li.disabled, li.active {
+	color: #5d5d5d;
+	font-weight: 400;
+}
+.pagination ul li a {
+	color: var(--orange);
+	text-decoration: none;
 }
