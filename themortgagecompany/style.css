@@ -593,8 +593,9 @@ li.disabled, li.active {
   line-height: 20px;
 }
 #static-content .social-review-survey {
-  font-size: 14px;
+  font-size: 15px;
   margin: 9px 0px;
+  line-height: 24px;
 }
 #more-testimonials {
   display: flex;
