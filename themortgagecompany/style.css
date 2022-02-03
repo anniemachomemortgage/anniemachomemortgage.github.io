@@ -533,6 +533,9 @@ button.go {
 	font-size: 18px;
 	color: #5c5c5c;
 }
+.social-loan-officer i.fas.fa-map-marker {
+	display: none;
+}
 .review-social-rating {
 	font-size: 20px;
 	font-weight: 600;
