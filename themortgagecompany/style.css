@@ -563,6 +563,12 @@ li.disabled, li.active {
 	font-weight: bold;
 	text-decoration: none;
 }
+#homepage-insertion {
+	display: flex;
+}
+#insertion-point {
+	flex: 1;
+}
 #static-content {
 	display: none;
 }
