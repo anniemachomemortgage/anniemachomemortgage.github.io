@@ -572,8 +572,8 @@ li.disabled, li.active {
 	display: none;
 }
 #static-content h3 {
-  font-size: 21px;
-  margin-bottom: 29px;
+  font-size: 30px;
+  margin-bottom: 40px;
   font-weight: 800;
   color: var(--greenish);
   font-family: 'Inter', sans-serif;
@@ -647,5 +647,8 @@ li.disabled, li.active {
 		width: 32%;
 		min-height: 284px;
 		margin-top: 0;
+	}
+	#static-content h3 {
+		display: block;
 	}
 }
