@@ -563,3 +563,9 @@ li.disabled, li.active {
 	font-weight: bold;
 	text-decoration: none;
 }
+#homepage-insertion {
+	display: none;
+}
+.front #homepage-insertion {
+	display: block;
+}
