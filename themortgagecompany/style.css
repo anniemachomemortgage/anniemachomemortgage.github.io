@@ -596,3 +596,24 @@ li.disabled, li.active {
   font-size: 14px;
   margin: 9px 0px;
 }
+#more-testimonials {
+  display: flex;
+  justify-content: center;
+  margin: -17px 0 -35px;
+}
+#more-testimonials button {
+  outline: none;
+  padding: 20px;
+  margin: 15px 2px 25px;
+  min-width: 200px;
+  background: var(--orange);
+  color: var(--white);
+  font-weight: 600;
+  border-radius: 2px;
+  font-size: 17px;
+  border: .5px solid var(--orange);
+}
+#more-testimonials button a {
+  color: #fff;
+  text-decoration: none;
+}
