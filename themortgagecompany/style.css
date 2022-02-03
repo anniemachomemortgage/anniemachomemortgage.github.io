@@ -560,5 +560,6 @@ li.disabled, li.active {
 }
 .pagination ul li a {
 	color: var(--orange);
+	font-weight: bold;
 	text-decoration: none;
 }
