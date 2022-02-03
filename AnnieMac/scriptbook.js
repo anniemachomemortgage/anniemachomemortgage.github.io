@@ -1169,6 +1169,7 @@ $(function() {
 			$("#stylesheet-git").remove();
 			$('.page-testimonial').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
 				$(appendedContent).appendTo($( "#insertion-point" ));
+				$("#insertion-point > h3").text("Testimonials for The Mortgage Company");
 			});
 		};
 	};
