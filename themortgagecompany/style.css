@@ -171,10 +171,8 @@ button.main-site-apply:hover {
 }
 .content-container {
 	margin: 30px auto 60px;
-	min-width: 500px;
-	z-index: 1;
 	width: 90%;
-	max-width: 1000px;
+	max-width: 1200px;
 }
 .text-divider h3 {
 	margin-top: 15px;
@@ -527,6 +525,7 @@ button.go {
 	margin: 10px 0 0px;
 	border-bottom: 1px solid rgba(0,0,0,.061);
 	padding-bottom: 10px;
+	font-family: 'Inter', sans-serif;
 }
 .social-review-survey {
 	font-weight: 500;
@@ -572,6 +571,28 @@ li.disabled, li.active {
 #static-content {
 	display: none;
 }
+#static-content h3 {
+  font-size: 21px;
+  margin-bottom: 29px;
+  font-weight: 800;
+  color: var(--greenish);
+  font-family: 'Inter', sans-serif;
+  display: none;
+}
 .front #static-content {
 	display: block;
+	width: 300px;
+	margin-left: 63px;
+}
+#static-content .review-social-rating i {
+  font-size: 15px;
+  margin: 0 8px 5px 0px;
+}
+#static-content .social-review h4 {
+  font-size: 16px;
+  line-height: 20px;
+}
+#static-content .social-review-survey {
+  font-size: 14px;
+  margin: 9px 0px;
 }
