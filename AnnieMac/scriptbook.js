@@ -1181,6 +1181,7 @@ $(function() {
 			$("#am-responsive").remove();
 			$("#am-custom").remove();
 			$("#am-custom-tmc").remove();
+			$("#stylesheet-git").remove();
 			$('.site-type-loan_officer').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
 				$(appendedContent).appendTo($( "#insertion-point" ));
 				$(footerinformation).appendTo($( ".loan-officer-information" ));
