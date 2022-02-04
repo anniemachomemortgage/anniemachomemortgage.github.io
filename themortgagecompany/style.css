@@ -575,7 +575,7 @@ li.disabled, li.active {
   font-size: 30px;
   margin-bottom: 40px;
   font-weight: 800;
-  color: var(--greenish);
+  color: #000;
   font-family: 'Inter', sans-serif;
   display: none;
 }
@@ -827,4 +827,16 @@ section#originator {
 
 .site-type-loan_officer .social-review {
 	width: 33%;
+}
+
+.site-type-loan_officer .social-review:first-of-type {
+	margin-top: auto;
+}
+
+.site-type-loan_officer #what-people-say-tmc-header {
+	display: block;
+}
+
+.site-type-loan_officer #more-testimonials {
+	margin: 0 auto -35px;
 }
