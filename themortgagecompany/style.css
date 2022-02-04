@@ -866,8 +866,12 @@ section#originator {
 }
 
 .licensed-states-declaration li {
-  width: 25%;
-  min-width: 200px;
+	width: 27%;
+	min-width: 200px;
+	display: flex;
+	align-items: center;
+	color: black;
+	font-weight: 300;
 }
 
 @media only screen and (max-width: 900px) {
@@ -904,6 +908,21 @@ section#originator {
 	#static-content h3 {
 		display: block;
 	}
+}
+
+.stateface {
+  font-family: 'StateFaceRegular';
+  color: #319c31;
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.licensed-states-declaration p span {
+  min-width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
 }
 
 .stateface-ak:before {
