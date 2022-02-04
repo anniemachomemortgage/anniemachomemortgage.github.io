@@ -664,11 +664,16 @@ li.disabled, li.active {
 	}
 }
 
-
+#loan-originator-backdrop {
+	display: flex;
+	margin-bottom: 35px;
+	justify-content: space-between;
+}
 
 #originator {
 	display: none;
 }
+
 section#originator {
 	display: none;
 }
@@ -787,4 +792,24 @@ section#originator {
 	margin: 0;
 	font-size: 15px;
 	color: var(--darkergray);
+}
+
+.site-type-loan_officer #homepage-insertion {
+	flex-direction: column;
+}
+
+.site-type-loan_officer #static-content {
+	display: flex;
+	width: 100%;
+	margin-left: 0;
+}
+
+.site-type-loan_officer .social-review-grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.site-type-loan_officer .social-review {
+	width: 33%;
 }
