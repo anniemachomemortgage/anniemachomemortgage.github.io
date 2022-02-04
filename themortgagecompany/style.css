@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
+@font-face {
+	 font-family: 'StateFaceRegular';
+	 src: url('https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/resources/stateface-regular-webfont.eot');
+	 src: url('https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/resources/stateface-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		  url('https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/resources/stateface-regular-webfont.woff') format('woff'),
+		  url('https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/resources/stateface-regular-webfont.ttf') format('truetype'),
+		  url('https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/resources/stateface-regular-webfont.svg#StateFaceRegular') format('svg');
+	 font-weight: normal;
+	 font-style: normal;
+ }
+ 
 :root {
 	--black: #3A3335;
 	--green: #095416;
@@ -874,4 +885,230 @@ section#originator {
 
 .site-type-corporate .corporate-summary-section {
 	display: block;
+}
+
+.prepended-header {
+	margin: -5px 0;
+	display: block !important;
+}
+
+.licensed-states-declaration {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: -5px 0 50px;
+}
+
+.licensed-states-declaration li {
+  width: 25%;
+  min-width: 200px;
+}
+
+.stateface-ak:before {
+	content: "A";
+}
+
+.stateface-al:before {
+	content: "B";
+}
+
+.stateface-ar:before {
+	content: "C";
+}
+
+.stateface-az:before {
+	content: "D";
+}
+
+.stateface-ca:before {
+	content: "E";
+}
+
+.stateface-co:before {
+	content: "F";
+}
+
+.stateface-ct:before {
+	content: "G";
+}
+
+.stateface-dc:before {
+	content: "y";
+}
+
+.stateface-de:before {
+	content: "H";
+}
+
+.stateface-fl:before {
+	content: "I";
+}
+
+.stateface-ga:before {
+	content: "J";
+}
+
+.stateface-hi:before {
+	content: "K";
+}
+
+.stateface-ia:before {
+	content: "L";
+}
+
+.stateface-id:before {
+	content: "M";
+}
+
+.stateface-il:before {
+	content: "N";
+}
+
+.stateface-in:before {
+	content: "O";
+}
+
+.stateface-ks:before {
+	content: "P";
+}
+
+.stateface-ky:before {
+	content: "Q";
+}
+
+.stateface-la:before {
+	content: "R";
+}
+
+.stateface-ma:before {
+	content: "S";
+}
+
+.stateface-md:before {
+	content: "T";
+}
+
+.stateface-me:before {
+	content: "U";
+}
+
+.stateface-mi:before {
+	content: "V";
+}
+
+.stateface-mn:before {
+	content: "W";
+}
+
+.stateface-mo:before {
+	content: "X";
+}
+
+.stateface-ms:before {
+	content: "Y";
+}
+
+.stateface-mt:before {
+	content: "Z";
+}
+
+.stateface-nc:before {
+	content: "a";
+}
+
+.stateface-nd:before {
+	content: "b";
+}
+
+.stateface-ne:before {
+	content: "c";
+}
+
+.stateface-nh:before {
+	content: "d";
+}
+
+.stateface-nj:before {
+	content: "e";
+}
+
+.stateface-nm:before {
+	content: "f";
+}
+
+.stateface-nv:before {
+	content: "g";
+}
+
+.stateface-ny:before {
+	content: "h";
+}
+
+.stateface-oh:before {
+	content: "i";
+}
+
+.stateface-ok:before {
+	content: "j";
+}
+
+.stateface-or:before {
+	content: "k";
+}
+
+.stateface-pa:before {
+	content: "l";
+}
+
+.stateface-ri:before {
+	content: "m";
+}
+
+.stateface-sc:before {
+	content: "n";
+}
+
+.stateface-sd:before {
+	content: "o";
+}
+
+.stateface-tn:before {
+	content: "p";
+}
+
+.stateface-tx:before {
+	content: "q";
+}
+
+.stateface-us:before {
+	content: "z";
+}
+
+.stateface-ut:before {
+	content: "r";
+}
+
+.stateface-va:before {
+	content: "s";
+}
+
+.stateface-vt:before {
+	content: "t";
+}
+
+.stateface-wa:before {
+	content: "u";
+}
+
+.stateface-wi:before {
+	content: "v";
+}
+
+.stateface-wv:before {
+	content: "w";
+}
+
+.stateface-wy:before {
+	content: "x";
 }
