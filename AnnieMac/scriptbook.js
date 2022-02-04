@@ -1138,34 +1138,34 @@ $(function() {
 		$("#am-custom-tmc").remove();
 		$("#stylesheet-git").remove();
 		if ($('body').hasClass('page-page-detail')) {
-			var appendedContent = $(".content-detail").html();
+			var pagecontentdrop = $(".content-detail").html();
 			$('#footer-branchlo-name, #footer-branchlo-address, #footer-phone-number, #footer-email, #footer-nmls').wrapAll('<div class="footer-directory-listing" />');
-			var footerinformation = $(".footer-directory-listing").html();
+			var pagefooterinformation = $(".footer-directory-listing").html();
 			$('.site-type-loan_officer').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
-				$(appendedContent).appendTo($( "#page-insertion-point" ));
-				$(footerinformation).appendTo($( ".loan-officer-summary-section" ));
-				$(footerinformation).appendTo($( ".loan-officer-information" ));
+				$(pagecontentdrop).appendTo($( "#page-insertion-point" ));
+				$(pagefooterinformation).appendTo($( ".loan-officer-summary-section" ));
+				$(pagefooterinformation).appendTo($( ".loan-officer-information" ));
 			});
 		};
 		if ($('body').hasClass('page-testimonial')) {
-			var appendedContentReviews = $("#review-social-section").html();
+			var testinomialspage = $("#review-social-section").html();
 			$('#footer-branchlo-name, #footer-branchlo-address, #footer-phone-number, #footer-email, #footer-nmls').wrapAll('<div class="footer-directory-listing" />');
-			var footerinformationb = $(".footer-directory-listing").html();
+			var footertestinominalpage = $(".footer-directory-listing").html();
 			$('.site-type-loan_officer').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
-				$(appendedContentReviews).appendTo($( "#insertion-point" ));
+				$(testinomialspage).appendTo($( "#insertion-point" ));
 				$("#insertion-point > h3").text("Testimonials for The Mortgage Company");
-				$(footerinformationb).appendTo($( ".loan-officer-summary-section" ));
-				$(footerinformationb).appendTo($( ".loan-officer-information" ));
+				$(footertestinominalpage).appendTo($( ".loan-officer-summary-section" ));
+				$(footertestinominalpage).appendTo($( ".loan-officer-information" ));
 			});
 		};
 		if ($('body').hasClass('front')) {
 			if ($('body').hasClass('site-type-loan_officer')) {
-				var appendedContentloanOfficer = $("#tmc-loan-officer").html();
-				var footerinformationc = $(".footer-directory-listing").html();
+				var tmcloanofficerdrops = $("#tmc-loan-officer").html();
+				var frontfooterinformation = $(".footer-directory-listing").html();
 				$('.front').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
-					$(appendedContentloanOfficer).appendTo($( "#insertion-point" ));
-					$(footerinformationc).appendTo($( ".loan-officer-summary-section" ));
-					$(footerinformationc).appendTo($( ".loan-officer-information" ));
+					$(tmcloanofficerdrops).appendTo($( "#insertion-point" ));
+					$(frontfooterinformation).appendTo($( ".loan-officer-summary-section" ));
+					$(frontfooterinformation).appendTo($( ".loan-officer-information" ));
 				});
 			};
 			if ($('body').hasClass('site-type-corporate')) {
