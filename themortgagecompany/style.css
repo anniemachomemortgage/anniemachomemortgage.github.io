@@ -807,6 +807,10 @@ section#originator {
 	width: 33%;
 }
 
+.page-testimonial .social-review {
+  width: 100%;
+}
+
 .site-type-loan_officer .social-review:first-of-type {
 	margin: 15px 0 35px !important;
 }
@@ -911,42 +915,6 @@ section#originator {
 	align-items: center;
 	color: black;
 	font-weight: 300;
-}
-
-@media only screen and (max-width: 900px) {
-	#homepage-insertion {
-		display: flex;
-		flex-direction: column;
-	}
-	.front #static-content {
-		display: block;
-		width: 100%;
-		margin-left: 0;
-	}
-	.team-member-section {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-	}
-	.team-member {
-		min-width: 50%;
-	}
-	.contact-tmc-buttons {
-		border-bottom: none;
-	}
-	.social-review-grid {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-	}
-	.social-review {
-		min-width: 32%;
-		max-height: 284px;
-		margin-top: 0;
-	}
-	#static-content h3 {
-		display: block;
-	}
 }
 
 .stateface {
@@ -1170,4 +1138,40 @@ section#originator {
 
 .stateface-wy:before {
 	content: "x";
+}
+
+@media only screen and (max-width: 900px) {
+	#homepage-insertion {
+		display: flex;
+		flex-direction: column;
+	}
+	.front #static-content {
+		display: block;
+		width: 100%;
+		margin-left: 0;
+	}
+	.team-member-section {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.team-member {
+		min-width: 50%;
+	}
+	.contact-tmc-buttons {
+		border-bottom: none;
+	}
+	.social-review-grid {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.social-review {
+		min-width: 32%;
+		max-height: 284px;
+		margin-top: 0;
+	}
+	#static-content h3 {
+		display: block;
+	}
 }

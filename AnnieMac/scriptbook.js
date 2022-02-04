@@ -1188,6 +1188,20 @@ $(function() {
 				$("#insertion-point > h3").text("Testimonials for The Mortgage Company");
 			});
 		};
+		if ($('body').hasClass('page-testimonial') && $('body').hasClass('site-type-loan_officer')) {
+			var appendedContent = $("#review-social-section").html();
+			$("head > link:nth-child(11)").remove();
+			$("#am-css").remove();
+			$("#am-styles").remove();
+			$("#am-responsive").remove();
+			$("#am-custom").remove();
+			$("#am-custom-tmc").remove();
+			$("#stylesheet-git").remove();
+			$('.page-testimonial').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
+				$(appendedContent).appendTo($( "#insertion-point" ));
+				$("#insertion-point > h3").text("Testimonials for The Mortgage Company");
+			});
+		};
 	};
 	if (window.location.href.indexOf("steve.themtgco.com") != -1) {
 		$(".main-site-apply").text("Book Time");
