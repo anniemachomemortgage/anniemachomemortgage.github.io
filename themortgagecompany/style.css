@@ -861,8 +861,16 @@ section#originator {
 	display: none;
 }
 
+.site-type-loan_officer .licensed-states-loan-officers {
+	display: block;
+}
+
 .steve-section {
 	display: none;
+}
+
+.steve .steve-section {
+	display: block;
 }
 
 .licensed-states-declaration {
