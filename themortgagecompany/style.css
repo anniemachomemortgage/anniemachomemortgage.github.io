@@ -844,6 +844,12 @@ section#originator {
 	display: block;
 }
 
+.site-type-loan_officer .summary-section .loan-officer-summary-section p {
+  margin: 0;
+  padding: 6px 0;
+  color: #fff;
+}
+
 .site-type-loan_officer .corporate-summary-section {
 	display: none;
 }
