@@ -663,3 +663,128 @@ li.disabled, li.active {
 		display: block;
 	}
 }
+
+
+
+#originator {
+	display: none;
+}
+section#originator {
+	display: none;
+}
+
+#originator-core-details-portrait img {
+	min-height: 275px;
+	min-width: 275px;
+	max-height: 275px;
+	max-width: 275px;
+}
+
+#originator-core-details {
+	display: flex;
+	align-items: center;
+}
+
+#originator-core-details-text {
+	margin-left: 25px;
+	flex: 1;
+}
+
+#originator-core-details-text h2 {
+	color: #000;
+	font-weight: 700;
+	text-decoration: none;
+	margin-bottom: 2px;
+	font-size: 24px;
+}
+
+#originator-core-details-text h4 {
+	font-weight: 500;
+	font-size: 18px;
+	color: gray;
+	margin-top: 8px;
+}
+
+#originator-core-details-text h4 span {
+	display: block;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 30px;
+	color: black;
+	margin-top: -2px;
+}
+
+#originator-address-details p {
+	font-size: 15px;
+	color: gray;
+	margin-top: 8px;
+	line-height: 26px;
+	font-weight: 500;
+}
+
+#originator-social-details ul {
+	display: flex;
+	margin: 15px 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#originator-social-details ul a {
+	outline: none;
+	padding: 20px;
+	margin: 15px 12px 25px;
+	min-width: 172px;
+	background: var(--orange);
+	color: var(--white);
+	font-weight: 600;
+	border-radius: 2px;
+	font-size: 17px;
+	border: 0.5px solid var(--orange);
+	text-decoration: none;
+	text-align: center;
+}
+
+#originator-social-details ul a:first-of-type {
+	background: #319c31;
+	border: 0.5px solid #319c31;
+}
+
+#originator-social-details ul a li {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 900;
+}
+
+#originator-social-details ul a li i {
+	display: none;
+}
+
+#sidebar-apply-now {
+	display: none;
+}
+
+#links-sidebar-full-width h4 {
+	color: #000;
+	font-weight: 700;
+	text-decoration: none;
+	margin-bottom: 2px;
+	font-size: 20px;
+}
+
+#links-sidebar-full-width ul {
+	margin: 5px 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.loan-officer-information {
+	margin-top: 20px;
+}
+
+.loan-officer-information p, .loan-officer-information p a {
+	line-height: 30px;
+	font-weight: 400;
+	margin: 0;
+	font-size: 15px;
+	color: var(--darkergray);
+}
