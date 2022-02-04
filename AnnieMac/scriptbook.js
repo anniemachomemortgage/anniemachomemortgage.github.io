@@ -1130,24 +1130,40 @@ $(function() {
 		};
 	}
 	if ((window.location.href.indexOf("themtgco.com") != -1) || (window.location.href.indexOf("themortgageco.wmmortgageware") != -1)) {
-		if ($('body').hasClass('site-type-loan_officer')) {
 			if ($('body').hasClass('front')) {
-				$(function() {
-					var appendedContent = $("#tmc-loan-officer").html();
-					var footerinformation = $(".footer-directory-listing").html();
-					$("head > link:nth-child(11)").remove();
-					$("#am-css").remove();
-					$("#am-styles").remove();
-					$("#am-responsive").remove();
-					$("#am-custom").remove();
-					$("#am-custom-tmc").remove();
-					$("#stylesheet-git").remove();
-					$('.site-type-loan_officer').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
-						$(appendedContent).appendTo($( "#insertion-point" ));
-						$(footerinformation).appendTo($( ".loan-officer-summary-section" ));
-						$(footerinformation).appendTo($( ".loan-officer-information" ));
+				if ($('body').hasClass('site-type-loan_officer')) {
+					$(function() {
+						var appendedContent = $("#tmc-loan-officer").html();
+						var footerinformation = $(".footer-directory-listing").html();
+						$("head > link:nth-child(11)").remove();
+						$("#am-css").remove();
+						$("#am-styles").remove();
+						$("#am-responsive").remove();
+						$("#am-custom").remove();
+						$("#am-custom-tmc").remove();
+						$("#stylesheet-git").remove();
+						$('.site-type-loan_officer').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
+							$(appendedContent).appendTo($( "#insertion-point" ));
+							$(footerinformation).appendTo($( ".loan-officer-summary-section" ));
+							$(footerinformation).appendTo($( ".loan-officer-information" ));
+						});
 					});
-				});
+				};
+				if ($('body').hasClass('site-type-corporate')) {
+					$(function() {
+						var appendedContent = $("#team-display").html();
+						$("head > link:nth-child(11)").remove();
+						$("#am-css").remove();
+						$("#am-styles").remove();
+						$("#am-responsive").remove();
+						$("#am-custom").remove();
+						$("#am-custom-tmc").remove();
+						$("#stylesheet-git").remove();
+						$('.front').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
+							$(appendedContent).appendTo($( "#insertion-point" ));
+						});
+					});
+				};
 			};
 			if ($('body').hasClass('page-page-detail')) {
 				$(function() {
@@ -1189,53 +1205,37 @@ $(function() {
 				});
 			}
 		};
-		if ($('body').hasClass('site-type-corporate')) {
-			if ($('body').hasClass('front')) {
-				$(function() {
-					var appendedContent = $("#team-display").html();
-					$("head > link:nth-child(11)").remove();
-					$("#am-css").remove();
-					$("#am-styles").remove();
-					$("#am-responsive").remove();
-					$("#am-custom").remove();
-					$("#am-custom-tmc").remove();
-					$("#stylesheet-git").remove();
-					$('.front').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
-						$(appendedContent).appendTo($( "#insertion-point" ));
-					});
-				});
-			};
-			if ($('body').hasClass('page-page-detail')) {
-				$(function() {
-					var appendedContent = $(".content-detail").html();
-					$("head > link:nth-child(11)").remove();
-					$("#am-css").remove();
-					$("#am-styles").remove();
-					$("#am-responsive").remove();
-					$("#am-custom").remove();
-					$("#am-custom-tmc").remove();
-					$("#stylesheet-git").remove();
-					$('.page-page-detail').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
-						$(appendedContent).appendTo($( "#page-insertion-point" ));
-					});
-				});
-			};
-			if ($('body').hasClass('page-testimonial')) {
-				$(function() {
-					var appendedContent = $("#review-social-section").html();
-					$("head > link:nth-child(11)").remove();
-					$("#am-css").remove();
-					$("#am-styles").remove();
-					$("#am-responsive").remove();
-					$("#am-custom").remove();
-					$("#am-custom-tmc").remove();
-					$("#stylesheet-git").remove();
-					$('.page-testimonial').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
-						$(appendedContent).appendTo($( "#insertion-point" ));
-						$("#insertion-point > h3").text("Testimonials for The Mortgage Company");
-					});
-				});
-			};
+			// if ($('body').hasClass('page-page-detail')) {
+			// 	$(function() {
+			// 		var appendedContent = $(".content-detail").html();
+			// 		$("head > link:nth-child(11)").remove();
+			// 		$("#am-css").remove();
+			// 		$("#am-styles").remove();
+			// 		$("#am-responsive").remove();
+			// 		$("#am-custom").remove();
+			// 		$("#am-custom-tmc").remove();
+			// 		$("#stylesheet-git").remove();
+			// 		$('.page-page-detail').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
+			// 			$(appendedContent).appendTo($( "#page-insertion-point" ));
+			// 		});
+			// 	});
+			// };
+			// if ($('body').hasClass('page-testimonial')) {
+			// 	$(function() {
+			// 		var appendedContent = $("#review-social-section").html();
+			// 		$("head > link:nth-child(11)").remove();
+			// 		$("#am-css").remove();
+			// 		$("#am-styles").remove();
+			// 		$("#am-responsive").remove();
+			// 		$("#am-custom").remove();
+			// 		$("#am-custom-tmc").remove();
+			// 		$("#stylesheet-git").remove();
+			// 		$('.page-testimonial').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
+			// 			$(appendedContent).appendTo($( "#insertion-point" ));
+			// 			$("#insertion-point > h3").text("Testimonials for The Mortgage Company");
+			// 		});
+			// 	});
+			// };
 		};
 	};
 	if (window.location.href.indexOf("steve.themtgco.com") != -1) {
