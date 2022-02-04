@@ -814,7 +814,6 @@ section#originator {
 }
 
 .site-type-loan_officer #static-content {
-	display: flex;
 	width: 100%;
 	margin-left: 0;
 }
@@ -830,7 +829,7 @@ section#originator {
 }
 
 .site-type-loan_officer .social-review:first-of-type {
-	margin-top: auto;
+	margin: 15px 0 35px !important;
 }
 
 .site-type-loan_officer #what-people-say-tmc-header {
