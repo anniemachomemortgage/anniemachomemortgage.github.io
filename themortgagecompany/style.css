@@ -872,6 +872,10 @@ section#originator {
 	display: none;
 }
 
+.listing-licensed-states {
+  margin: 0px 0 90px;
+}
+
 .steve .steve-section {
 	display: block;
 }
@@ -897,7 +901,7 @@ section#originator {
   list-style-type: none;
   flex-wrap: wrap;
   padding: 0;
-  margin: -5px 0 50px;
+  margin: 0;
 }
 
 .licensed-states-declaration li {
