@@ -857,6 +857,14 @@ section#originator {
 	display: block !important;
 }
 
+.licensed-states-loan-officers {
+	display: none;
+}
+
+.steve-section {
+	display: none;
+}
+
 .licensed-states-declaration {
   display: flex;
   list-style-type: none;

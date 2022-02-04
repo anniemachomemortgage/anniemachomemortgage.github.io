@@ -1189,10 +1189,7 @@ $(function() {
 			});
 		};
 	};
-	if (window.location.href.indexOf("steve.themtgco.com") != -1) {
-		var insertingLicensedStates = '<div id="insertion-section"><h3 class="prepended-header">Licensing</h3><ul class="licensed-states-declaration"><li><span class="stateface stateface-pa"></span> Pennsylvania</li><li><span class="stateface stateface-nj"></span> New Jersey </li><li><span class="stateface stateface-de"></span> Delaware </li></ul></div>';
-		$(insertingLicensedStates).prependTo( $( "#static-content" ) );
-	};
+
 
 
 
