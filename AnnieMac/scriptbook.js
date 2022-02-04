@@ -1174,6 +1174,7 @@ $(function() {
 		};
 		if ($('body').hasClass('site-type-loan_officer')) {
 			var appendedContent = $("#tmc-loan-officer").html();
+			var footerinformation = $(".footer-directory-listing").html();
 			$("head > link:nth-child(11)").remove();
 			$("#am-css").remove();
 			$("#am-styles").remove();
@@ -1182,6 +1183,7 @@ $(function() {
 			$("#am-custom-tmc").remove();
 			$('.site-type-loan_officer').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
 				$(appendedContent).appendTo($( "#insertion-point" ));
+				$(footerinformation).appendTo($( ".sitemaps" ));
 			});
 		};
 	};
