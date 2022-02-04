@@ -1236,8 +1236,7 @@ $(function() {
 			// 		});
 			// 	});
 			// };
-		};
-	};
+
 	if (window.location.href.indexOf("steve.themtgco.com") != -1) {
 		$(".main-site-apply").text("Book Time");
 	};
