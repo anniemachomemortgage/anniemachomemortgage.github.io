@@ -655,16 +655,17 @@ section#originator {
 	display: none;
 }
 
+#originator-core-details-portrait {
+	margin-right: 25px;
+}
+
 #originator-core-details-portrait img {
-	min-height: 275px;
-	min-width: 275px;
-	max-height: 275px;
-	max-width: 275px;
+	object-fit: cover;
+	max-width: 300px;
 }
 
 #originator-core-details {
 	display: flex;
-	align-items: center;
 }
 
 #originator-core-details-text {
@@ -729,6 +730,7 @@ section#originator {
 #originator-social-details ul a:first-of-type {
 	background: #319c31;
 	border: 0.5px solid #319c31;
+	margin-left: 0px;
 }
 
 #originator-social-details ul a li {
@@ -751,6 +753,7 @@ section#originator {
 	text-decoration: none;
 	margin-bottom: 2px;
 	font-size: 20px;
+	margin-top: 17px;
 }
 
 #links-sidebar-full-width ul {
@@ -865,11 +868,27 @@ section#originator {
 	display: block;
 }
 
-.steve-section {
+.steve-section, .beth-section, .larry-section, .gene-section, .greg-section {
 	display: none;
 }
 
 .steve .steve-section {
+	display: block;
+}
+
+.beth .beth-section {
+	display: block;
+}
+
+.larry .larry-section {
+	display: block;
+}
+
+.gene .gene-section {
+	display: block;
+}
+
+.greg .greg-section {
 	display: block;
 }
 
