@@ -839,3 +839,19 @@ section#originator {
 .site-type-loan_officer #more-testimonials {
 	margin: 0 auto -35px;
 }
+
+.site-type-loan_officer .loan-officer-summary-section {
+	display: block;
+}
+
+.site-type-loan_officer .corporate-summary-section {
+	display: none;
+}
+
+.site-type-corporate .loan-officer-summary-section {
+	display: none;
+}
+
+.site-type-corporate .corporate-summary-section {
+	display: block;
+}

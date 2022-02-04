@@ -1184,13 +1184,11 @@ $(function() {
 			$("#stylesheet-git").remove();
 			$('.site-type-loan_officer').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
 				$(appendedContent).appendTo($( "#insertion-point" ));
+				$(footerinformation).appendTo($( ".loan-officer-summary-section" ));
 				$(footerinformation).appendTo($( ".loan-officer-information" ));
 			});
 		};
 	};
-	
-	
-	
 	
 	if (window.location.href.indexOf("testing-site-status=true") != -1) {
 		localStorage.setItem('anniemactesting', 'true');
