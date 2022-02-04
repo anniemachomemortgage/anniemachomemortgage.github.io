@@ -1158,20 +1158,6 @@ $(function() {
 				});
 			}
 		};
-		if ($('body').hasClass('page-testimonial')) {
-			var appendedContent = $("#review-social-section").html();
-			$("head > link:nth-child(11)").remove();
-			$("#am-css").remove();
-			$("#am-styles").remove();
-			$("#am-responsive").remove();
-			$("#am-custom").remove();
-			$("#am-custom-tmc").remove();
-			$("#stylesheet-git").remove();
-			$('.page-testimonial').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
-				$(appendedContent).appendTo($( "#insertion-point" ));
-				$("#insertion-point > h3").text("Testimonials for The Mortgage Company");
-			});
-		};
 		if ($('body').hasClass('site-type-loan_officer')) {
 			var appendedContent = $("#tmc-loan-officer").html();
 			var footerinformation = $(".footer-directory-listing").html();
@@ -1187,12 +1173,32 @@ $(function() {
 				$(footerinformation).appendTo($( ".loan-officer-summary-section" ));
 				$(footerinformation).appendTo($( ".loan-officer-information" ));
 			});
-			if (window.location.href.indexOf("steve.themtgco.com") != -1) {
-				var insertingLicensedStates = '<div id="insertion-section"><h3 class="prepended-header">Licensing</h3><ul class="licensed-states-declaration"><li><span class="stateface stateface-pa"></span> Pennsylvania</li><li><span class="stateface stateface-nj"></span> New Jersey </li><li><span class="stateface stateface-de"></span> Delaware </li></ul></div>';
-				$(insertingLicensedStates).prependTo( $( "#static-content" ) );
-			};
+		};
+		if ($('body').hasClass('page-testimonial')) {
+			var appendedContent = $("#review-social-section").html();
+			$("head > link:nth-child(11)").remove();
+			$("#am-css").remove();
+			$("#am-styles").remove();
+			$("#am-responsive").remove();
+			$("#am-custom").remove();
+			$("#am-custom-tmc").remove();
+			$("#stylesheet-git").remove();
+			$('.page-testimonial').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
+				$(appendedContent).appendTo($( "#insertion-point" ));
+				$("#insertion-point > h3").text("Testimonials for The Mortgage Company");
+			});
 		};
 	};
+	if (window.location.href.indexOf("steve.themtgco.com") != -1) {
+		var insertingLicensedStates = '<div id="insertion-section"><h3 class="prepended-header">Licensing</h3><ul class="licensed-states-declaration"><li><span class="stateface stateface-pa"></span> Pennsylvania</li><li><span class="stateface stateface-nj"></span> New Jersey </li><li><span class="stateface stateface-de"></span> Delaware </li></ul></div>';
+		$(insertingLicensedStates).prependTo( $( "#static-content" ) );
+	};
+
+
+
+
+
+
 	
 	if (window.location.href.indexOf("testing-site-status=true") != -1) {
 		localStorage.setItem('anniemactesting', 'true');
