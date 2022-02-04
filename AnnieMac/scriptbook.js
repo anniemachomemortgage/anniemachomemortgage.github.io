@@ -1183,7 +1183,7 @@ $(function() {
 			$("#am-custom-tmc").remove();
 			$('.site-type-loan_officer').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
 				$(appendedContent).appendTo($( "#insertion-point" ));
-				$(footerinformation).appendTo($( ".sitemaps" ));
+				$(footerinformation).appendTo($( ".loan-officer-information" ));
 			});
 		};
 	};
