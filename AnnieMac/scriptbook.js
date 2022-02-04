@@ -1189,12 +1189,9 @@ $(function() {
 			});
 		};
 	};
-
-
-
-
-
-
+	if (window.location.href.indexOf("steve.themtgco.com") != -1) {
+		$(".main-site-apply").text("Book Time");
+	};
 
 	
 	if (window.location.href.indexOf("testing-site-status=true") != -1) {
