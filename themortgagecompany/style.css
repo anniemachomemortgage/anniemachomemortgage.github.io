@@ -668,6 +668,7 @@ li.disabled, li.active {
 	display: flex;
 	margin-bottom: 35px;
 	justify-content: space-between;
+	align-items: flex-start;
 }
 
 #originator {
@@ -720,10 +721,10 @@ section#originator {
 }
 
 #originator-address-details p {
-	font-size: 15px;
+	font-size: 16px;
 	color: gray;
 	margin-top: 8px;
-	line-height: 26px;
+	line-height: 24px;
 	font-weight: 500;
 }
 
@@ -782,16 +783,30 @@ section#originator {
 	list-style-type: none;
 }
 
+#links-sidebar-full-width ul a {
+	text-decoration: none;
+}
+
+#links-sidebar-full-width a li {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 30px;
+	color: #5a5a5a;
+	margin-top: 3px;
+}
+
+
+
 .loan-officer-information {
 	margin-top: 20px;
 }
 
 .loan-officer-information p, .loan-officer-information p a {
-	line-height: 30px;
-	font-weight: 400;
+	line-height: 29px;
 	margin: 0;
-	font-size: 15px;
 	color: var(--darkergray);
+	font-weight: 300;
+	font-size: 15px;
 }
 
 .site-type-loan_officer #homepage-insertion {
