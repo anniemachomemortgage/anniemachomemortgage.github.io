@@ -1172,19 +1172,18 @@ $(function() {
 				$("#insertion-point > h3").text("Testimonials for The Mortgage Company");
 			});
 		};
-		// if ($('body').hasClass('site-type-loan_officer')) {
-		// 	var appendedContent = $("#tmc-loan-officer").html();
-		// 	$("head > link:nth-child(11)").remove();
-		// 	$("#am-css").remove();
-		// 	$("#am-styles").remove();
-		// 	$("#am-responsive").remove();
-		// 	$("#am-custom").remove();
-		// 	$("#am-custom-tmc").remove();
-		// 	$("#stylesheet-git").remove();
-		// 	$('.page-page-detail').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
-		// 		$(appendedContent).appendTo($( "#insertion-point" ));
-		// 	});
-		// };
+		if ($('body').hasClass('site-type-loan_officer')) {
+			var appendedContent = $("#tmc-loan-officer").html();
+			$("head > link:nth-child(11)").remove();
+			$("#am-css").remove();
+			$("#am-styles").remove();
+			$("#am-responsive").remove();
+			$("#am-custom").remove();
+			$("#am-custom-tmc").remove();
+			$('.site-type-loan_officer').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
+				$(appendedContent).appendTo($( "#insertion-point" ));
+			});
+		};
 	};
 	
 	
