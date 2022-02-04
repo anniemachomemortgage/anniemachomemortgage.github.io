@@ -1182,7 +1182,7 @@ $(function() {
 			$("#am-custom-tmc").remove();
 			$("#stylesheet-git").remove();
 			$('.page-page-detail').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
-				$(appendedContent).appendTo($( "#page-insertion-point" ));
+				$(appendedContent).appendTo($( "#insertion-point" ));
 			});
 		};
 	};
