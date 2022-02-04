@@ -866,7 +866,7 @@ section#originator {
  	padding-bottom: 10px;
 }
 
-.site-type-loan_officer .summary-section .loan-officer-summary-section p {
+.loan-officer-summary-section p {
 	margin: 0;
 	padding: 8px 0;
 	color: #fff;
