@@ -1188,6 +1188,7 @@ $(function() {
 				$("#insertion-point > h3").text("Testimonials for The Mortgage Company");
 			});
 		};
+		$("#more-testimonials > button > a").attr('href', 'https://themtgco.com/testimonial');
 	};
 	if (window.location.href.indexOf("steve.themtgco.com") != -1) {
 		$(".main-site-apply").text("Book Time");
