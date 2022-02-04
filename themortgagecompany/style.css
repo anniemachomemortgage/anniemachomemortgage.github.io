@@ -649,7 +649,7 @@ li.disabled, li.active {
 	.contact-tmc-buttons {
 		border-bottom: none;
 	}
-	#social-review-grid {
+	.social-review-grid {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
