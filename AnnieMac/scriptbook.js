@@ -1161,7 +1161,7 @@ $(function() {
 					$("#am-custom").remove();
 					$("#am-custom-tmc").remove();
 					$("#stylesheet-git").remove();
-					$('.page-page-detail').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
+					$('.site-type-loan_officer').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
 						$(appendedContent).appendTo($( "#page-insertion-point" ));
 						$(footerinformation).appendTo($( ".loan-officer-summary-section" ));
 						$(footerinformation).appendTo($( ".loan-officer-information" ));
@@ -1180,7 +1180,7 @@ $(function() {
 					$("#am-custom").remove();
 					$("#am-custom-tmc").remove();
 					$("#stylesheet-git").remove();
-					$('.page-testimonial').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
+					$('.site-type-loan_officer').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
 						$(appendedContent).appendTo($( "#insertion-point" ));
 						$("#insertion-point > h3").text("Testimonials for The Mortgage Company");
 						$(footerinformation).appendTo($( ".loan-officer-summary-section" ));
