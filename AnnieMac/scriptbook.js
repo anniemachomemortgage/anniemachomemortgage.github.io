@@ -1123,7 +1123,44 @@ $(function() {
 			});
 		};
 	}
-
+	var siteType;
+	var pageType;
+	if ($('body').hasClass('site-type-loan_officer')) {
+		siteType = "Loan Officer";
+	};
+	if ($('body').hasClass('site-type-corporate')) {
+		siteType = "Corporate";
+	};
+	if ($('body').hasClass('site-type-branch')) {
+		siteType = "Branch";
+	};
+	if ($('body').hasClass('page-testimonial')) {
+		pageType = "Page";
+	};
+	if ($('body').hasClass('page-page-detail')) {
+		pageType = "Testimonial";
+	};
+	if ($('body').hasClass('front')) {
+		pageType = "Front";
+	};
+	if (siteType == "Loan Officer") {
+		console.log("Loan Officer Site");
+	}
+	if (siteType == "Corporate") {
+		console.log("Corporate Site");
+	}
+	if (siteType == "Branch") {
+		console.log("Branch Site");
+	}
+	if (pageType == "Page") {
+		console.log("Page Page");
+	}
+	if (pageType == "Testimonial") {
+		console.log("Testimonial Page");
+	}
+	if (pageType == "Front") {
+		console.log("Front Page");
+	}
 	// The Mortgage Company Template Replacements
 	if ((window.location.href.indexOf("themtgco.com") != -1)) {
 		$("head > link:nth-child(11)").remove();
