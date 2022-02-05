@@ -560,7 +560,8 @@ span.testimonial-highlight {
 	flex-direction: row;
 	list-style-type: none;
 	justify-content: space-between;
-	width: 100%;
+	width: 80%;
+	max-width: 600px;
 	margin: 15px 0;
 	padding: 0;
 }
