@@ -1201,7 +1201,7 @@ $(function() {
 					$(frontfooterinformation).appendTo($( ".loan-officer-information" ));
 				});
 			};
-			else ($('body').hasClass('site-type-corporate')) {
+			if ($('body').hasClass('site-type-corporate')) {
 				var appendedContentteamDisplay = $("#team-display").html();
 				$('.front').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
 					$(appendedContentteamDisplay).appendTo($( "#insertion-point" ));
