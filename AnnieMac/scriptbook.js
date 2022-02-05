@@ -1150,23 +1150,21 @@ $(function() {
 		};
 	};
 	if ((window.location.href.indexOf("themtgco.com/page") != -1) || (window.location.href.indexOf("themortgageco.wmmortgageware.com/page") != -1)) {
-		if ($('body').hasClass('page-page-detail')) {
-			$("head > link:nth-child(11)").remove();
-			$("#am-css").remove();
-			$("#am-styles").remove();
-			$("#am-responsive").remove();
-			$("#am-custom").remove();
-			$("#am-custom-tmc").remove();
-			$("#stylesheet-git").remove();
-			var pagecontentdrop = $(".content-detail").html();
-			$('#footer-branchlo-name, #footer-branchlo-address, #footer-phone-number, #footer-email, #footer-nmls').wrapAll('<div class="footer-directory-listing" />');
-			var pagefooterinformation = $(".footer-directory-listing").html();
-			$('.page-page-detail').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
-				$(pagecontentdrop).appendTo($( "#page-insertion-point" ));
-				$(pagefooterinformation).appendTo($( ".loan-officer-summary-section" ));
-				$(pagefooterinformation).appendTo($( ".loan-officer-information" ));
-			});
-		};
+		$("head > link:nth-child(11)").remove();
+		$("#am-css").remove();
+		$("#am-styles").remove();
+		$("#am-responsive").remove();
+		$("#am-custom").remove();
+		$("#am-custom-tmc").remove();
+		$("#stylesheet-git").remove();
+		var pagecontentdrop = $(".content-detail").html();
+		$('#footer-branchlo-name, #footer-branchlo-address, #footer-phone-number, #footer-email, #footer-nmls').wrapAll('<div class="footer-directory-listing" />');
+		var pagefooterinformation = $(".footer-directory-listing").html();
+		$('.page-page-detail').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
+			$(pagecontentdrop).appendTo($( "#page-insertion-point" ));
+			$(pagefooterinformation).appendTo($( ".loan-officer-summary-section" ));
+			$(pagefooterinformation).appendTo($( ".loan-officer-information" ));
+		});
 	};
 	if ((window.location.href.indexOf("themtgco.com/testimonial") != -1) || (window.location.href.indexOf("themortgageco.wmmortgageware.com/testimonial") != -1)) {
 		$("head > link:nth-child(11)").remove();
