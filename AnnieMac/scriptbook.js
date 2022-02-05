@@ -1181,7 +1181,7 @@ $(function() {
 				$(footertestinominalpage).appendTo($( ".loan-officer-information" ));
 			});
 		}
-		else if ($('body').hasClass('page-page-detail')) {
+		if ($('body').hasClass('page-page-detail')) {
 			var pagecontentdrop = $(".content-detail").html();
 			$('#footer-branchlo-name, #footer-branchlo-address, #footer-phone-number, #footer-email, #footer-nmls').wrapAll('<div class="footer-directory-listing" />');
 			var pagefooterinformation = $(".footer-directory-listing").html();
@@ -1191,7 +1191,7 @@ $(function() {
 				$(pagefooterinformation).appendTo($( ".loan-officer-information" ));
 			});
 		}
-		else if ($('body').hasClass('front')) {
+		if ($('body').hasClass('front')) {
 			if ($('body').hasClass('site-type-loan_officer')) {
 				var tmcloanofficerdrops = $("#tmc-loan-officer").html();
 				var frontfooterinformation = $(".footer-directory-listing").html();
@@ -1201,7 +1201,7 @@ $(function() {
 					$(frontfooterinformation).appendTo($( ".loan-officer-information" ));
 				});
 			};
-			if ($('body').hasClass('site-type-corporate')) {
+			else ($('body').hasClass('site-type-corporate')) {
 				var appendedContentteamDisplay = $("#team-display").html();
 				$('.front').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
 					$(appendedContentteamDisplay).appendTo($( "#insertion-point" ));
