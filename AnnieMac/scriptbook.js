@@ -1151,7 +1151,8 @@ $(function() {
 			};
 		};
 	};
-	if ((window.location.href.indexOf("themtgco.com/page") != -1)) {
+	if ((window.location.href.indexOf("themtgco.com/page") > -1)) {
+		alert("Website Page");
 		$("head > link:nth-child(11)").remove();
 		$("#am-css").remove();
 		$("#am-styles").remove();
@@ -1168,7 +1169,8 @@ $(function() {
 			$(pagefooterinformation).appendTo($( ".loan-officer-information" ));
 		});
 	}
-	if ((window.location.href.indexOf("themtgco.com/testimonial") != -1)) {
+	if ((window.location.href.indexOf("themtgco.com/testimonial") > -1)) {
+		alert("Testimonial Page");
 		$("head > link:nth-child(11)").remove();
 		$("#am-css").remove();
 		$("#am-styles").remove();
