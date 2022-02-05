@@ -2,6 +2,9 @@ $(function() {
 	if ((window.location.href.indexOf("themtgco.com/testimonial") > -1)) {
 		var useNewTestimonalTemplate = true;
 	};
+	if ((window.location.href.indexOf("themtgco.com/page") > -1)) {
+		var usePageTemplate = true;
+	};
 	if (useNewTestimonalTemplate == true) {
 		$("head > link:nth-child(11)").remove();
 		$("#am-css").remove();
@@ -20,6 +23,24 @@ $(function() {
 			$(footertestinominalpage).appendTo($( ".loan-officer-information" ));
 		});
 		console.log(useNewTestimonalTemplate);
+	}
+	if (usePageTemplate == true) {
+		$("head > link:nth-child(11)").remove();
+		$("#am-css").remove();
+		$("#am-styles").remove();
+		$("#am-responsive").remove();
+		$("#am-custom").remove();
+		$("#am-custom-tmc").remove();
+		$("#stylesheet-git").remove();
+		var pagecontentdrop = $(".content-detail").html();
+		$('#footer-branchlo-name, #footer-branchlo-address, #footer-phone-number, #footer-email, #footer-nmls').wrapAll('<div class="footer-directory-listing" />');
+		var pagefooterinformation = $(".footer-directory-listing").html();
+		$('.page-page-detail').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
+			$(pagecontentdrop).appendTo($( "#page-insertion-point" ));
+			$(pagefooterinformation).appendTo($( ".loan-officer-summary-section" ));
+			$(pagefooterinformation).appendTo($( ".loan-officer-information" ));
+		});
+		console.log(usePageTemplate);
 	}
 	$( ".inner-layout:contains('the page you requested could not be found')" ).css( "min-height", "90vh" );
 	$('*').contents().each(function() {
@@ -216,24 +237,6 @@ $(function() {
 			};
 		};
 	};
-	if ((window.location.href.indexOf("themtgco.com/page") > -1)) {
-		alert("Website Page");
-		$("head > link:nth-child(11)").remove();
-		$("#am-css").remove();
-		$("#am-styles").remove();
-		$("#am-responsive").remove();
-		$("#am-custom").remove();
-		$("#am-custom-tmc").remove();
-		$("#stylesheet-git").remove();
-		var pagecontentdrop = $(".content-detail").html();
-		$('#footer-branchlo-name, #footer-branchlo-address, #footer-phone-number, #footer-email, #footer-nmls').wrapAll('<div class="footer-directory-listing" />');
-		var pagefooterinformation = $(".footer-directory-listing").html();
-		$('.page-page-detail').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
-			$(pagecontentdrop).appendTo($( "#page-insertion-point" ));
-			$(pagefooterinformation).appendTo($( ".loan-officer-summary-section" ));
-			$(pagefooterinformation).appendTo($( ".loan-officer-information" ));
-		});
-	}
 	if ((window.location.href.indexOf("themtgco.com/testimonial") > -1)) {
 		alert("Testimonial Page");
 		$("head > link:nth-child(11)").remove();
