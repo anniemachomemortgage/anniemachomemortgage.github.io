@@ -1126,14 +1126,14 @@ $(function() {
 	
 	// The Mortgage Company Template Replacements
 	if ((window.location.href.indexOf("themtgco.com") != -1)) {
+		$("head > link:nth-child(11)").remove();
+		$("#am-css").remove();
+		$("#am-styles").remove();
+		$("#am-responsive").remove();
+		$("#am-custom").remove();
+		$("#am-custom-tmc").remove();
+		$("#stylesheet-git").remove();
 		if ($('body').hasClass('page-testimonial')) {
-			$("head > link:nth-child(11)").remove();
-			$("#am-css").remove();
-			$("#am-styles").remove();
-			$("#am-responsive").remove();
-			$("#am-custom").remove();
-			$("#am-custom-tmc").remove();
-			$("#stylesheet-git").remove();
 			var testinomialspage = $("#review-social-section").html();
 			$('#footer-branchlo-name, #footer-branchlo-address, #footer-phone-number, #footer-email, #footer-nmls').wrapAll('<div class="footer-directory-listing" />');
 			var footertestinominalpage = $(".footer-directory-listing").html();
@@ -1145,13 +1145,6 @@ $(function() {
 			});
 		}
 		if ($('body').hasClass('page-page-detail')) {
-			$("head > link:nth-child(11)").remove();
-			$("#am-css").remove();
-			$("#am-styles").remove();
-			$("#am-responsive").remove();
-			$("#am-custom").remove();
-			$("#am-custom-tmc").remove();
-			$("#stylesheet-git").remove();
 			var pagecontentdrop = $(".content-detail").html();
 			$('#footer-branchlo-name, #footer-branchlo-address, #footer-phone-number, #footer-email, #footer-nmls').wrapAll('<div class="footer-directory-listing" />');
 			var pagefooterinformation = $(".footer-directory-listing").html();
@@ -1162,13 +1155,6 @@ $(function() {
 			});
 		}
 		if ($('body').hasClass('front')) {
-			$("head > link:nth-child(11)").remove();
-			$("#am-css").remove();
-			$("#am-styles").remove();
-			$("#am-responsive").remove();
-			$("#am-custom").remove();
-			$("#am-custom-tmc").remove();
-			$("#stylesheet-git").remove();
 			if ($('body').hasClass('site-type-loan_officer')) {
 				var tmcloanofficerdrops = $("#tmc-loan-officer").html();
 				var frontfooterinformation = $(".footer-directory-listing").html();
