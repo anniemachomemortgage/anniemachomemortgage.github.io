@@ -1161,7 +1161,7 @@ $(function() {
 			var pagecontentdrop = $(".content-detail").html();
 			$('#footer-branchlo-name, #footer-branchlo-address, #footer-phone-number, #footer-email, #footer-nmls').wrapAll('<div class="footer-directory-listing" />');
 			var pagefooterinformation = $(".footer-directory-listing").html();
-			$('.site-type-loan_officer').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
+			$('.page-page-detail').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
 				$(pagecontentdrop).appendTo($( "#page-insertion-point" ));
 				$(pagefooterinformation).appendTo($( ".loan-officer-summary-section" ));
 				$(pagefooterinformation).appendTo($( ".loan-officer-information" ));
@@ -1169,24 +1169,22 @@ $(function() {
 		};
 	};
 	if ((window.location.href.indexOf("themtgco.com/testimonial") != -1) || (window.location.href.indexOf("themortgageco.wmmortgageware.com/testimonial") != -1)) {
-		if ($('body').hasClass('page-testimonial')) {
-			$("head > link:nth-child(11)").remove();
-			$("#am-css").remove();
-			$("#am-styles").remove();
-			$("#am-responsive").remove();
-			$("#am-custom").remove();
-			$("#am-custom-tmc").remove();
-			$("#stylesheet-git").remove();
-			var testinomialspage = $("#review-social-section").html();
-			$('#footer-branchlo-name, #footer-branchlo-address, #footer-phone-number, #footer-email, #footer-nmls').wrapAll('<div class="footer-directory-listing" />');
-			var footertestinominalpage = $(".footer-directory-listing").html();
-			$('.site-type-loan_officer').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
-				$(testinomialspage).appendTo($( "#insertion-point" ));
-				$("#insertion-point > h3").text("Testimonials for The Mortgage Company");
-				$(footertestinominalpage).appendTo($( ".loan-officer-summary-section" ));
-				$(footertestinominalpage).appendTo($( ".loan-officer-information" ));
-			});
-		};
+		$("head > link:nth-child(11)").remove();
+		$("#am-css").remove();
+		$("#am-styles").remove();
+		$("#am-responsive").remove();
+		$("#am-custom").remove();
+		$("#am-custom-tmc").remove();
+		$("#stylesheet-git").remove();
+		var testinomialspage = $("#review-social-section").html();
+		$('#footer-branchlo-name, #footer-branchlo-address, #footer-phone-number, #footer-email, #footer-nmls').wrapAll('<div class="footer-directory-listing" />');
+		var footertestinominalpage = $(".footer-directory-listing").html();
+		$('.page-testimonial').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
+			$(testinomialspage).appendTo($( "#insertion-point" ));
+			$("#insertion-point > h3").text("Testimonials for The Mortgage Company");
+			$(footertestinominalpage).appendTo($( ".loan-officer-summary-section" ));
+			$(footertestinominalpage).appendTo($( ".loan-officer-information" ));
+		});
 	};
 	if (window.location.href.indexOf("steve.themtgco.com") != -1) {
 		$(".main-site-apply").text("Book Time");
