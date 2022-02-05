@@ -1123,6 +1123,7 @@ $(function() {
 			});
 		};
 	}
+	// The Mortgage Company Template Replacements
 	if ((window.location.href.indexOf("themtgco.com") != -1)) {
 		$("head > link:nth-child(11)").remove();
 		$("#am-css").remove();
