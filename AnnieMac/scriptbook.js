@@ -1129,7 +1129,7 @@ $(function() {
 			});
 		};
 	}
-	if ((window.location.href.indexOf("themtgco.com") != -1) || (window.location.href.indexOf("themortgageco.wmmortgageware") != -1)) {
+	if ((window.location.href.indexOf("themtgco.com") != -1) || (window.location.href.indexOf("themortgageco.wmmortgageware.com") != -1)) {
 		if ($('body').hasClass('front')) {
 			$("head > link:nth-child(11)").remove();
 			$("#am-css").remove();
