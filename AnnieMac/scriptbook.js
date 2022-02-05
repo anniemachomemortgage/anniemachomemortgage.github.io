@@ -1,4 +1,26 @@
 $(function() {
+	if ((window.location.href.indexOf("themtgco.com/testimonial") > -1)) {
+		var useNewTestimonalTemplate = true;
+	};
+	if (useNewTestimonalTemplate == true) {
+		$("head > link:nth-child(11)").remove();
+		$("#am-css").remove();
+		$("#am-styles").remove();
+		$("#am-responsive").remove();
+		$("#am-custom").remove();
+		$("#am-custom-tmc").remove();
+		$("#stylesheet-git").remove();
+		var testinomialspage = $("#review-social-section").html();
+		$('#footer-branchlo-name, #footer-branchlo-address, #footer-phone-number, #footer-email, #footer-nmls').wrapAll('<div class="footer-directory-listing" />');
+		var footertestinominalpage = $(".footer-directory-listing").html();
+		$('.page-testimonial').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
+			$(testinomialspage).appendTo($( "#insertion-point" ));
+			$("#insertion-point > h3").text("Testimonials for The Mortgage Company");
+			$(footertestinominalpage).appendTo($( ".loan-officer-summary-section" ));
+			$(footertestinominalpage).appendTo($( ".loan-officer-information" ));
+		});
+		console.log(useNewTestimonalTemplate);
+	}
 	$( ".inner-layout:contains('the page you requested could not be found')" ).css( "min-height", "90vh" );
 	$('*').contents().each(function() {
 		if(this.nodeType === Node.COMMENT_NODE) {
