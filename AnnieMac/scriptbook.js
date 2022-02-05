@@ -1,5 +1,3 @@
-// Last updated December 20, 2021
-
 $(function() {
 	$( ".inner-layout:contains('the page you requested could not be found')" ).css( "min-height", "90vh" );
 	$('*').contents().each(function() {
@@ -11,10 +9,6 @@ $(function() {
 		$(this).remove();
 	});
 	$("#copyrights > img").attr('src', 'https://annie-mac.com/dev/themes/annie_mac/img/equalhousingwhite.png');
-	// var annieMacLogo = $("#navigation_new_upper > div:nth-child(1) > li > a > img").attr('src');
-	// if (annieMacLogo === "/uploads/sites/10713/public/AMLogoTEST_2_1.png") {
-	// $("#navigation_new_upper > div:nth-child(1) > li > a > img").attr('src', 'https://annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png');
-	// };
 	$(".navigation-sidebar-sectional .menu .option-listing").addClass("open-sub");
 	$(".navigation-sidebar-sectional .nav h4 a").click(function(event) {
 		event.preventDefault();
