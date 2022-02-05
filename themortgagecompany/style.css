@@ -66,6 +66,7 @@ header, main, section, form, form div, footer {
 	flex-direction: column;
 }
 body {
+	visibility: visible !important;
 	background: var(--original);
 }
 .body-background {
@@ -562,7 +563,7 @@ span.testimonial-highlight {
 	justify-content: space-between;
 	width: 80%;
 	max-width: 600px;
-	margin: 15px 0;
+	margin: 15px auto;
 	padding: 0;
 }
 li.disabled, li.active {
