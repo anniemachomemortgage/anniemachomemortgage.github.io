@@ -1,4 +1,10 @@
 $(function() {
+	if ((window.location.href.indexOf("page") != -1)) {
+	$('body').addClass( "page-type-static-page" );
+	}
+	if ((window.location.href.indexOf("testimonial") != -1)) {
+	$('body').addClass( "page-type-testimonial" );
+	}
 	$( ".inner-layout:contains('the page you requested could not be found')" ).css( "min-height", "90vh" );
 	$('*').contents().each(function() {
 		if(this.nodeType === Node.COMMENT_NODE) {
@@ -1150,7 +1156,14 @@ $(function() {
 				});			
 			};
 		};
-		if ($('body').hasClass('page-testimonial')) {
+		if ($('body').hasClass('page-type-testimonial')) {
+			$("head > link:nth-child(11)").remove();
+			$("#am-css").remove();
+			$("#am-styles").remove();
+			$("#am-responsive").remove();
+			$("#am-custom").remove();
+			$("#am-custom-tmc").remove();
+			$("#stylesheet-git").remove();
 			var testinomialspage = $("#review-social-section").html();
 			$('#footer-branchlo-name, #footer-branchlo-address, #footer-phone-number, #footer-email, #footer-nmls').wrapAll('<div class="footer-directory-listing" />');
 			var footertestinominalpage = $(".footer-directory-listing").html();
@@ -1161,7 +1174,14 @@ $(function() {
 				$(footertestinominalpage).appendTo($( ".loan-officer-information" ));
 			});
 		}
-		if ($('body').hasClass('page-page-detail')) {
+		if ($('body').hasClass('page-type-static-page')) {
+			$("head > link:nth-child(11)").remove();
+			$("#am-css").remove();
+			$("#am-styles").remove();
+			$("#am-responsive").remove();
+			$("#am-custom").remove();
+			$("#am-custom-tmc").remove();
+			$("#stylesheet-git").remove();
 			var pagecontentdrop = $(".content-detail").html();
 			$('#footer-branchlo-name, #footer-branchlo-address, #footer-phone-number, #footer-email, #footer-nmls').wrapAll('<div class="footer-directory-listing" />');
 			var pagefooterinformation = $(".footer-directory-listing").html();
