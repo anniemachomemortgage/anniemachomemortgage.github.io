@@ -1142,8 +1142,8 @@ $(function() {
 				$(footertestinominalpage).appendTo($( ".loan-officer-summary-section" ));
 				$(footertestinominalpage).appendTo($( ".loan-officer-information" ));
 			});
-		};
-		if ($('body').hasClass('page-page-detail')) {
+		}
+		else if ($('body').hasClass('page-page-detail')) {
 			var pagecontentdrop = $(".content-detail").html();
 			$('#footer-branchlo-name, #footer-branchlo-address, #footer-phone-number, #footer-email, #footer-nmls').wrapAll('<div class="footer-directory-listing" />');
 			var pagefooterinformation = $(".footer-directory-listing").html();
@@ -1152,8 +1152,8 @@ $(function() {
 				$(pagefooterinformation).appendTo($( ".loan-officer-summary-section" ));
 				$(pagefooterinformation).appendTo($( ".loan-officer-information" ));
 			});
-		};
-		if ($('body').hasClass('front')) {
+		}
+		else if ($('body').hasClass('front')) {
 			if ($('body').hasClass('site-type-loan_officer')) {
 				var tmcloanofficerdrops = $("#tmc-loan-officer").html();
 				var frontfooterinformation = $(".footer-directory-listing").html();
