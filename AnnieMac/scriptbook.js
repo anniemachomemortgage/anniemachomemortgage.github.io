@@ -1123,6 +1123,41 @@ $(function() {
 			});
 		};
 	}
+	if (window.location.href.indexOf("themtgco.com/testimonial") != -1) {
+		$("head > link:nth-child(11)").remove();
+		$("#am-css").remove();
+		$("#am-styles").remove();
+		$("#am-responsive").remove();
+		$("#am-custom").remove();
+		$("#am-custom-tmc").remove();
+		$("#stylesheet-git").remove();
+		var testinomialspage = $("#review-social-section").html();
+		$('#footer-branchlo-name, #footer-branchlo-address, #footer-phone-number, #footer-email, #footer-nmls').wrapAll('<div class="footer-directory-listing" />');
+		var footertestinominalpage = $(".footer-directory-listing").html();
+		$('.page-testimonial').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
+			$(testinomialspage).appendTo($( "#insertion-point" ));
+			$("#insertion-point > h3").text("Testimonials for The Mortgage Company");
+			$(footertestinominalpage).appendTo($( ".loan-officer-summary-section" ));
+			$(footertestinominalpage).appendTo($( ".loan-officer-information" ));
+		});
+	};
+	if (window.location.href.indexOf("themtgco.com/page") != -1) {
+		$("head > link:nth-child(11)").remove();
+		$("#am-css").remove();
+		$("#am-styles").remove();
+		$("#am-responsive").remove();
+		$("#am-custom").remove();
+		$("#am-custom-tmc").remove();
+		$("#stylesheet-git").remove();
+		var pagecontentdrop = $(".content-detail").html();
+		$('#footer-branchlo-name, #footer-branchlo-address, #footer-phone-number, #footer-email, #footer-nmls').wrapAll('<div class="footer-directory-listing" />');
+		var pagefooterinformation = $(".footer-directory-listing").html();
+		$('.page-page-detail').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
+			$(pagecontentdrop).appendTo($( "#page-insertion-point" ));
+			$(pagefooterinformation).appendTo($( ".loan-officer-summary-section" ));
+			$(pagefooterinformation).appendTo($( ".loan-officer-information" ));
+		});
+	};
 	if ((window.location.href.indexOf("themtgco.com") != -1) || (window.location.href.indexOf("themortgageco.wmmortgageware.com") != -1)) {
 		if ($('body').hasClass('front')) {
 			$("head > link:nth-child(11)").remove();
@@ -1148,45 +1183,11 @@ $(function() {
 				});			
 			};
 		};
-		if (window.location.href.indexOf("/page") != -1) {
-			$("head > link:nth-child(11)").remove();
-			$("#am-css").remove();
-			$("#am-styles").remove();
-			$("#am-responsive").remove();
-			$("#am-custom").remove();
-			$("#am-custom-tmc").remove();
-			$("#stylesheet-git").remove();
-			var pagecontentdrop = $(".content-detail").html();
-			$('#footer-branchlo-name, #footer-branchlo-address, #footer-phone-number, #footer-email, #footer-nmls').wrapAll('<div class="footer-directory-listing" />');
-			var pagefooterinformation = $(".footer-directory-listing").html();
-			$('.page-page-detail').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
-				$(pagecontentdrop).appendTo($( "#page-insertion-point" ));
-				$(pagefooterinformation).appendTo($( ".loan-officer-summary-section" ));
-				$(pagefooterinformation).appendTo($( ".loan-officer-information" ));
-			});
-		};
-		if (window.location.href.indexOf("themtgco.com/testimonial") != -1) {
-			$("head > link:nth-child(11)").remove();
-			$("#am-css").remove();
-			$("#am-styles").remove();
-			$("#am-responsive").remove();
-			$("#am-custom").remove();
-			$("#am-custom-tmc").remove();
-			$("#stylesheet-git").remove();
-			var testinomialspage = $("#review-social-section").html();
-			$('#footer-branchlo-name, #footer-branchlo-address, #footer-phone-number, #footer-email, #footer-nmls').wrapAll('<div class="footer-directory-listing" />');
-			var footertestinominalpage = $(".footer-directory-listing").html();
-			$('.page-testimonial').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
-				$(testinomialspage).appendTo($( "#insertion-point" ));
-				$("#insertion-point > h3").text("Testimonials for The Mortgage Company");
-				$(footertestinominalpage).appendTo($( ".loan-officer-summary-section" ));
-				$(footertestinominalpage).appendTo($( ".loan-officer-information" ));
-			});
-		};
 	};
-	if (window.location.href.indexOf("steve.themtgco.com") != -1) {
+	if (window.location.href.indexOf("steve") != -1) {
 		$(".main-site-apply").text("Book Time");
 	};
+	
 	if (window.location.href.indexOf("testing-site-status=true") != -1) {
 		localStorage.setItem('anniemactesting', 'true');
 	};
