@@ -1195,9 +1195,8 @@ $(function() {
 	if (window.location.href.indexOf("steve") != -1) {
 		$(".main-site-apply").text("Book Time");
 	};
-	
 	if ((localStorage.newsitemockup) == "true") {
-	if (window.location.href.indexOf("lofidirect") != -1) {
+		if (window.location.href.indexOf("lofidirect") != -1) {
 			if ($('body').hasClass('site-type-corporate')) {
 				if ($('body').hasClass('front')) {
 					$("#site-navigation").remove(); 
