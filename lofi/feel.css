@@ -125,7 +125,7 @@ logo {
 	border-radius: 2px;
 }
 
-#annie-mac-logo {
+#lofi-logo {
 	width: 295px;
 }
 
@@ -1400,7 +1400,7 @@ cardfeaturette a:hover {
 }
 
 @media only screen and (max-width: 870px) {
-	#annie-mac-logo {
+	#lofi-logo {
 		width: 253px;
 	}
 
