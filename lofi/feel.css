@@ -114,14 +114,13 @@ header {
 }
 
 logo {
-	/* background: var(--fadedblue); */
-	width: 250px;
-	/* padding: 10px 30px; */
+	width: 360px;
+	margin-bottom: -18px;
 	border-radius: 2px;
 }
 
 #lofi-logo {
-	width: 295px;
+	width: 360px;
 }
 
 logo img:hover {
