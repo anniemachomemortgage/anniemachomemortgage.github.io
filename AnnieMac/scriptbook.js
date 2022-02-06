@@ -1197,179 +1197,181 @@ $(function() {
 	};
 	
 	if (window.location.href.indexOf("lofidirect") != -1) {
-		if ($('body').hasClass('site-type-corporate')) {
-			if ($('body').hasClass('front')) {
-				$("#site-navigation").remove(); 
-				$("#home-banner").remove(); 
-				$("#home-reviews").remove(); 
-				$("#home-deserve").remove(); 
-				$("#home-provide").remove(); 
-				$("#perks-home").remove(); 
-				$("#home-blog").remove() 
-				$('footer').remove();
-				$('link[rel="stylesheet"]').each(function() {
-					$(this).remove();
-				});
-				$('style').each(function() {
-					$(this).remove();
-				});
-				$('noscript').each(function() {
-					$(this).remove();
-				});
-				$('iframe').each(function() {
-					$(this).remove();
-				});
-				$('script').each(function() {
-					$(this).remove();
-				});
-				$('.front').load("https://anniemachomemortgage.github.io/lofi/structure.html", function() {
-					$(document).prop('title', 'LoFi Direct [Development Site]');
-				});
-			}
-			if ($('body').hasClass('page-page-detail')) {
-				var appendedContent = $(".content-detail").html();
-				var pageTitle = $('.text-content > h3:nth-of-type(1)').text();
-				$("#site-navigation").remove(); 
-				$("#home-banner").remove(); 
-				$("#home-reviews").remove(); 
-				$("#home-deserve").remove(); 
-				$("#home-provide").remove(); 
-				$("#perks-home").remove(); 
-				$("#home-blog").remove() 
-				$('footer').remove();
-				$('link[rel="stylesheet"]').each(function() {
-					$(this).remove();
-				});
-				$('style').each(function() {
-					$(this).remove();
-				});
-				$('noscript').each(function() {
-					$(this).remove();
-				});
-				$('iframe').each(function() {
-					$(this).remove();
-				});
-				$('script').each(function() {
-					$(this).remove();
-				});
-				$('.page-page-detail').load("https://anniemachomemortgage.github.io/lofi/blank.html", function() {
-					$(document).prop('title', 'Lofi Direct [Development Site]');
-					$(appendedContent).appendTo($( "#drop-content" ));
-					$('#headline').text(pageTitle);
-					$("#headline").text($("#headline").text().replace("Lofi Direct", ""));
-				});
-			};
-			if ($('body').hasClass('page-branch-list')) {
-				var appendedContent = $("#locations").html();
-				$("#site-navigation").remove(); 
-				$("#home-banner").remove(); 
-				$("#home-reviews").remove(); 
-				$("#home-deserve").remove(); 
-				$("#home-provide").remove(); 
-				$("#perks-home").remove(); 
-				$("#home-blog").remove() 
-				$('footer').remove();
-				$('link[rel="stylesheet"]').each(function() {
-					$(this).remove();
-				});
-				$('style').each(function() {
-					$(this).remove();
-				});
-				$('noscript').each(function() {
-					$(this).remove();
-				});
-				$('iframe').each(function() {
-					$(this).remove();
-				});
-				$('script').each(function() {
-					$(this).remove();
-				});
-				$('.page-branch-list').load("https://anniemachomemortgage.github.io/lofi/blank.html", function() {
-					$(document).prop('title', 'Lofi Direct [Development Site]');
-					$(appendedContent).appendTo($( "#drop-content" ));
-					$('#headline').text("Branch Locations");
-				});
-			};
-			if ($('body').hasClass('page-blog-list')) {
-				var appendedContent = $(".blog-index").html();
-				$("#site-navigation").remove(); 
-				$("#home-banner").remove(); 
-				$("#home-reviews").remove(); 
-				$("#home-deserve").remove(); 
-				$("#home-provide").remove(); 
-				$("#perks-home").remove(); 
-				$("#home-blog").remove() 
-				$('footer').remove();
-				$('link[rel="stylesheet"]').each(function() {
-					$(this).remove();
-				});
-				$('style').each(function() {
-					$(this).remove();
-				});
-				$('noscript').each(function() {
-					$(this).remove();
-				});
-				$('iframe').each(function() {
-					$(this).remove();
-				});
-				$('script').each(function() {
-					$(this).remove();
-				});
-				$('.page-blog-list').load("https://anniemachomemortgage.github.io/lofi/blank.html", function() {
-					$(document).prop('title', 'Lofi Direct [Development Site]');
-					$(appendedContent).appendTo($( "#drop-content" ));
-				});
-			};
-			if ($('body').hasClass('page-blog-detail')) {
-				var appendedContent = $(".blog-index").html();
-				$("#site-navigation").remove(); 
-				$("#home-banner").remove(); 
-				$("#home-reviews").remove(); 
-				$("#home-deserve").remove(); 
-				$("#home-provide").remove(); 
-				$("#perks-home").remove(); 
-				$("#home-blog").remove();
-				$('footer').remove();
-				$('link[rel="stylesheet"]').each(function() {
-					$(this).remove();
-				});
-				$('style').each(function() {
-					$(this).remove();
-				});
-				$('noscript').each(function() {
-					$(this).remove();
-				});
-				$('iframe').each(function() {
-					$(this).remove();
-				});
-				$('script').each(function() {
-					$(this).remove();
-				});
-				$('.page-blog-detail').load("https://anniemachomemortgage.github.io/lofi/blank.html", function() {
-					$(document).prop('title', 'Lofi Direct [Development Site]');
-					console.log("Please visit https://annie-mac.com/?testing-site-status=false to return to normal version.");
-					$(appendedContent).appendTo($( "#drop-content" ));
-					$('#headline').text("Blogs");
-				});
-			};
-			if ($('body').hasClass('page-branch-list')) {
-				$( "#drop-content h3" ).each(function() {
-				$( this ).addClass( "state-listing" );
-				});
-				$('.state-listing').each(function(){
-					$(this).next('.location-state-list').andSelf().wrapAll('<div class="state-listing-section"/>');
-				});
-				$(".state-listing-section").each(function() {
-					var stateName = $(this).find("h3").text();
-					$(this).attr("id", stateName);
-				});
-				$('.state-listing-section').sort(function(a, b) {
-				if (a.textContent < b.textContent) {
-					return -1;
-				} else {
-					return 1;
+		if ((localStorage.newsitemockup) == "true") {
+			if ($('body').hasClass('site-type-corporate')) {
+				if ($('body').hasClass('front')) {
+					$("#site-navigation").remove(); 
+					$("#home-banner").remove(); 
+					$("#home-reviews").remove(); 
+					$("#home-deserve").remove(); 
+					$("#home-provide").remove(); 
+					$("#perks-home").remove(); 
+					$("#home-blog").remove() 
+					$('footer').remove();
+					$('link[rel="stylesheet"]').each(function() {
+						$(this).remove();
+					});
+					$('style').each(function() {
+						$(this).remove();
+					});
+					$('noscript').each(function() {
+						$(this).remove();
+					});
+					$('iframe').each(function() {
+						$(this).remove();
+					});
+					$('script').each(function() {
+						$(this).remove();
+					});
+					$('.front').load("https://anniemachomemortgage.github.io/lofi/structure.html", function() {
+						$(document).prop('title', 'LoFi Direct [Development Site]');
+					});
 				}
-				}).appendTo('#drop-content');
+				if ($('body').hasClass('page-page-detail')) {
+					var appendedContent = $(".content-detail").html();
+					var pageTitle = $('.text-content > h3:nth-of-type(1)').text();
+					$("#site-navigation").remove(); 
+					$("#home-banner").remove(); 
+					$("#home-reviews").remove(); 
+					$("#home-deserve").remove(); 
+					$("#home-provide").remove(); 
+					$("#perks-home").remove(); 
+					$("#home-blog").remove() 
+					$('footer').remove();
+					$('link[rel="stylesheet"]').each(function() {
+						$(this).remove();
+					});
+					$('style').each(function() {
+						$(this).remove();
+					});
+					$('noscript').each(function() {
+						$(this).remove();
+					});
+					$('iframe').each(function() {
+						$(this).remove();
+					});
+					$('script').each(function() {
+						$(this).remove();
+					});
+					$('.page-page-detail').load("https://anniemachomemortgage.github.io/lofi/blank.html", function() {
+						$(document).prop('title', 'Lofi Direct [Development Site]');
+						$(appendedContent).appendTo($( "#drop-content" ));
+						$('#headline').text(pageTitle);
+						$("#headline").text($("#headline").text().replace("Lofi Direct", ""));
+					});
+				};
+				if ($('body').hasClass('page-branch-list')) {
+					var appendedContent = $("#locations").html();
+					$("#site-navigation").remove(); 
+					$("#home-banner").remove(); 
+					$("#home-reviews").remove(); 
+					$("#home-deserve").remove(); 
+					$("#home-provide").remove(); 
+					$("#perks-home").remove(); 
+					$("#home-blog").remove() 
+					$('footer').remove();
+					$('link[rel="stylesheet"]').each(function() {
+						$(this).remove();
+					});
+					$('style').each(function() {
+						$(this).remove();
+					});
+					$('noscript').each(function() {
+						$(this).remove();
+					});
+					$('iframe').each(function() {
+						$(this).remove();
+					});
+					$('script').each(function() {
+						$(this).remove();
+					});
+					$('.page-branch-list').load("https://anniemachomemortgage.github.io/lofi/blank.html", function() {
+						$(document).prop('title', 'Lofi Direct [Development Site]');
+						$(appendedContent).appendTo($( "#drop-content" ));
+						$('#headline').text("Branch Locations");
+					});
+				};
+				if ($('body').hasClass('page-blog-list')) {
+					var appendedContent = $(".blog-index").html();
+					$("#site-navigation").remove(); 
+					$("#home-banner").remove(); 
+					$("#home-reviews").remove(); 
+					$("#home-deserve").remove(); 
+					$("#home-provide").remove(); 
+					$("#perks-home").remove(); 
+					$("#home-blog").remove() 
+					$('footer').remove();
+					$('link[rel="stylesheet"]').each(function() {
+						$(this).remove();
+					});
+					$('style').each(function() {
+						$(this).remove();
+					});
+					$('noscript').each(function() {
+						$(this).remove();
+					});
+					$('iframe').each(function() {
+						$(this).remove();
+					});
+					$('script').each(function() {
+						$(this).remove();
+					});
+					$('.page-blog-list').load("https://anniemachomemortgage.github.io/lofi/blank.html", function() {
+						$(document).prop('title', 'Lofi Direct [Development Site]');
+						$(appendedContent).appendTo($( "#drop-content" ));
+					});
+				};
+				if ($('body').hasClass('page-blog-detail')) {
+					var appendedContent = $(".blog-index").html();
+					$("#site-navigation").remove(); 
+					$("#home-banner").remove(); 
+					$("#home-reviews").remove(); 
+					$("#home-deserve").remove(); 
+					$("#home-provide").remove(); 
+					$("#perks-home").remove(); 
+					$("#home-blog").remove();
+					$('footer').remove();
+					$('link[rel="stylesheet"]').each(function() {
+						$(this).remove();
+					});
+					$('style').each(function() {
+						$(this).remove();
+					});
+					$('noscript').each(function() {
+						$(this).remove();
+					});
+					$('iframe').each(function() {
+						$(this).remove();
+					});
+					$('script').each(function() {
+						$(this).remove();
+					});
+					$('.page-blog-detail').load("https://anniemachomemortgage.github.io/lofi/blank.html", function() {
+						$(document).prop('title', 'Lofi Direct [Development Site]');
+						console.log("Please visit https://annie-mac.com/?testing-site-status=false to return to normal version.");
+						$(appendedContent).appendTo($( "#drop-content" ));
+						$('#headline').text("Blogs");
+					});
+				};
+				if ($('body').hasClass('page-branch-list')) {
+					$( "#drop-content h3" ).each(function() {
+					$( this ).addClass( "state-listing" );
+					});
+					$('.state-listing').each(function(){
+						$(this).next('.location-state-list').andSelf().wrapAll('<div class="state-listing-section"/>');
+					});
+					$(".state-listing-section").each(function() {
+						var stateName = $(this).find("h3").text();
+						$(this).attr("id", stateName);
+					});
+					$('.state-listing-section').sort(function(a, b) {
+					if (a.textContent < b.textContent) {
+						return -1;
+					} else {
+						return 1;
+					}
+					}).appendTo('#drop-content');
+				};
 			};
 		};
 	};
