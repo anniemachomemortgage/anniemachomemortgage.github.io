@@ -528,8 +528,8 @@ a button:hover {
 	margin: 0 0 13px;
 }
 
-#join-annie-mac-callout {
-	background: #006fa9;
+#primary-callout {
+	background: radial-gradient(circle, rgb(136, 136, 136) 0%, rgb(80, 80, 80) 94%);
 	color: #fff;
 	/* border-radius: 6px; */
 	padding: 30px;
@@ -537,20 +537,20 @@ a button:hover {
 	margin: 15px 0;
 }
 
-#join-annie-mac-callout:hover {
+#primary-callout:hover {
 	background: #005480;
 }
 
-#join-annie-mac-callout h2 {
+#primary-callout h2 {
 	color: #fff;
 	margin: 10px 0;
 }
 
-#join-annie-mac-callout p {
+#primary-callout p {
 	color: #fff;
 }
 
-#join-annie-mac-callout button {
+#primary-callout button {
 	background: #fff;
 	color: var(--bodytext);
 }
