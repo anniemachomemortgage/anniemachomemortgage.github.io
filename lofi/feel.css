@@ -529,7 +529,7 @@ a button:hover {
 }
 
 #primary-callout {
-	background: radial-gradient(circle, rgb(136, 136, 136) 0%, rgb(80, 80, 80) 94%);
+	background: radial-gradient(circle, rgb(113, 113, 113) 0%, rgb(80, 80, 80) 94%);
 	color: #fff;
 	/* border-radius: 6px; */
 	padding: 30px;
@@ -538,7 +538,7 @@ a button:hover {
 }
 
 #primary-callout:hover {
-	background: #005480;
+	background: rgb(80, 80, 80);
 }
 
 #primary-callout h2 {
