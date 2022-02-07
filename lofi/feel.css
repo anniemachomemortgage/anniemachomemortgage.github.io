@@ -2046,6 +2046,15 @@ article hr {
   padding-top: 10px;
 }
 
+.lofi-reviews-statements {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -55px;
+}
+
 /* Conventional */
 .node-160875 header {
 	background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url('https://images.pexels.com/photos/7578904/pexels-photo-7578904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
