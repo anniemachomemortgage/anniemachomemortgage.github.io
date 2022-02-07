@@ -512,7 +512,7 @@ main {
 
 .selection-container {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	background: #fff;
 	margin: -126px auto 32px;
 	padding: 51px;
@@ -529,31 +529,34 @@ main {
 .contained-option {
 	display: flex;
 	flex-direction: column;
-	justify-content: start;
+	justify-content: center;
 	align-items: center;
-	height: 147px;
 }
 
 .contained-option h2 {
 	font-weight: 200;
+	font-size: 24px;
 }
 
-.contained-option p {
-	opacity: .8;
-	margin-top: -8px;
-	margin-bottom: 5px;
+.contained-option-icons {
+	width: 50px;
+	margin: 7px 0;
 }
 
 .contained-option button {
 	background: #78c254;
 	color: #fff;
-	padding: 15px 30px;
-	margin-top: 20px;
+	padding: 20px 35px;
+	margin-top: 23px;
 }
 
 
 .contained-option button a {
 	color: inherit;
+}
+
+button a:hover {
+	border-bottom: none !important;
 }
 
 #join-annie-mac {
