@@ -1069,6 +1069,7 @@ details[open] summary i {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin-top: 40px;
 }
 
 #visual-divider h3 {
@@ -1126,8 +1127,9 @@ details[open] summary i {
 	color: #fff;
 	padding: 22px 50px;
 	font-weight: 200;
-	margin: 20px auto 0px;
+	margin: 20px 0 0px;
 	min-width: 208px;
+	align-self: flex-end;
 }
 
 .view-all-link a {
@@ -2169,6 +2171,10 @@ article hr {
 	opacity: .37;
 	font-weight: 200;
 }
+.what-people-say-about-us {
+	position: relative;
+	padding-bottom: 149px;
+}
 #read-more-testimonials {
   font-weight: 800;
   margin: 40px auto;
@@ -2180,6 +2186,8 @@ article hr {
   min-width: 175px;
   padding: 24px;
   display: block;
+  position: absolute;
+  right: 0;
 }
 /* Conventional */
 .node-160875 header {
