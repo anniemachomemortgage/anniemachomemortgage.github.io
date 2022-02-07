@@ -1990,6 +1990,7 @@ article hr {
 	display: flex;
 	justify-content: space-between;
 	padding-bottom: 45px;
+	padding-top: 15px;
 }
 
 .homepage-image-background-section {
