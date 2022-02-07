@@ -465,6 +465,7 @@ button {
 	font-size: 23px;
 	font-weight: 600;
 	margin: 20px 0 10px;
+	min-width: 250px;
 }
 
 a#cta1:hover {
@@ -520,6 +521,11 @@ main {
 	box-shadow: 3px 10px 17px rgba(0,0,0,.05);
 }
 
+.solidlinedivider {
+	width: 1px;
+	background: #78787821;
+}
+
 .contained-option {
 	display: flex;
 	flex-direction: column;
@@ -528,9 +534,14 @@ main {
 	height: 147px;
 }
 
-.solidlinedivider {
-	width: 1px;
-	background: #78787821;
+.contained-option h2 {
+	font-weight: 200;
+}
+
+.contained-option p {
+	opacity: .8;
+	margin-top: -8px;
+	margin-bottom: 5px;
 }
 
 .contained-option button {
@@ -539,6 +550,7 @@ main {
 	padding: 15px 30px;
 	margin-top: 20px;
 }
+
 
 .contained-option button a {
 	color: inherit;
