@@ -447,6 +447,10 @@ h2#content-headling {
 	margin-bottom: 45px;
 }
 
+#content-subheadling {
+	margin: -15px 0 40px;
+}
+
 button {
 	color: #78c254;
 	background: transparent;
@@ -971,6 +975,10 @@ details[open] summary i {
 .answer li {
 	margin-bottom: 10px;
 	color: #646b73;
+}
+
+#faq-hub {
+	padding-top: 30px;
 }
 
 #faq-hub h2 {
