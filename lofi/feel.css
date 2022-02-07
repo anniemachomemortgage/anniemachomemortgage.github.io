@@ -253,14 +253,15 @@ nav ul li ul li a:hover {
 }
 
 #apply-navigation-bar {
-	background: #64a445;
-	border: 3px solid #64a445;
-	color: #fff !important;
 	border-radius: 2px;
 	outline: none;
 	padding: 5px 30px;
-	margin: 5px 0;
 	width: fit-content;
+	background: #fecf31;
+	border: 3px solid #fecf31;
+	font-weight: 800 !important;
+	text-transform: uppercase;
+	font-size: 13px !important;
 }
 
 #apply-navigation-bar:hover {
@@ -466,14 +467,15 @@ button {
 }
 
 #cta1 button {
-	background: #64a445;
-	border: 3px solid #64a445;
-	color: #fff;
 	padding: 22px 50px;
-	font-size: 23px;
-	font-weight: 200;
 	margin: 20px 0 10px;
 	min-width: 230px;
+	background: #fecf31;
+	border: 3px solid #fecf31;
+	color: #333;
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 14px;
 }
 
 .secondary-button {
@@ -565,12 +567,14 @@ main {
 	padding: 20px 35px;
 	margin-top: 30px;
 	min-width: 195px;
-	background: #fecf31;
-	border: 3px solid #fecf31;
-	color: #333;
-	font-weight: 800;
 	text-transform: uppercase;
 	font-size: 14px;
+	background: #64a445;
+	border: 3px solid #64a445;
+	color: #fff;
+	/* padding: 22px 50px; */
+	/* font-size: 23px; */
+	font-weight: 200;
 }
 
 
@@ -1991,13 +1995,13 @@ article hr {
 }
 
 .homepage-image-background-section button {
-	background: #fecf31;
-	border: 3px solid #fecf31;
-	color: #333;
 	font-weight: 800;
+	margin: 50px auto 20px;
 	text-transform: uppercase;
 	font-size: 14px;
-	margin: 50px auto 20px;
+	background: #64a445;
+	border: 3px solid #64a445;
+	color: #fff;
 }
 
 #homepage-block-callout-a {
