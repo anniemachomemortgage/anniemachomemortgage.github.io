@@ -182,11 +182,12 @@ nav ul {
 }
 
 #navigation li {
-	font-size: 17px;
-	font-weight: 300;
 	letter-spacing: .65px;
 	color: #000;
 	position: relative;
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 13px;
 }
 
 nav ul li ul {
@@ -247,8 +248,6 @@ nav ul li ul li a:hover {
 #navigation:hover #resources-navigation-bar,
 #navigation:hover #apply-navigation-bar {
 	display: block;
-	color: #414244;
-	font-weight: 300;
 }
 
 #apply-navigation-bar {
