@@ -1022,7 +1022,13 @@ details[open] summary i {
 	width: 46%;
 }
 
-.lofi-input label {
+.full-lofi-input {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.lofi-input label, .full-lofi-input label {
 	color: #000;
 	font-weight: 200;
 	font-size: 16px;
