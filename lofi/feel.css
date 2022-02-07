@@ -8,7 +8,7 @@
 :root {
 	--mainbody: #798088;
 	--bodytext: #333a40;
-	--hoverlink: #505050;
+	--hoverlink: #64a344;
 	--linkblue: #7d7d7d;
 	--lightbackground: #f5f7fa;
 	--darkblue: #565b61;
@@ -58,6 +58,7 @@ a {
 }
 
 a:hover {
+	color: var(--hoverlink);
 	border-bottom: 1px solid var(--hoverlink);
 }
 
@@ -194,7 +195,11 @@ nav ul li ul li:last-of-type {
 }
 
 nav ul li ul li:hover {
-	background: #eff1f2;
+	background: rgb(120 194 83 / 14%);
+}
+
+nav ul li ul li:hover a {
+	color: var(--hoverlink);
 }
 
 nav ul li ul li a:hover {
@@ -1514,7 +1519,7 @@ cardfeaturette a:hover {
 .sitemap-section strong {
 	color: var(--bodytext);
 	margin: 0;
-	font-weight: 400;
+	font-weight: 600;
 	font-size: 17px;
 	display: block;
 	margin-bottom: 5px;
