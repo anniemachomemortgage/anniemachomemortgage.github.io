@@ -469,11 +469,11 @@ button {
 	background: #64a445;
 	border: 3px solid #64a445;
 	color: #fff;
-	padding: 30px 50px;
+	padding: 22px 50px;
 	font-size: 23px;
 	font-weight: 200;
 	margin: 20px 0 10px;
-	min-width: 250px;
+	min-width: 230px;
 }
 
 .secondary-button {
