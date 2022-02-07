@@ -1031,7 +1031,7 @@ tripleplaypopup button:hover,
 }
 
 .faq-link {
-	background: #78c254;
+	background: var(--linkblue);
 	color: white;
 	padding: 7px 12px;
 	margin-right: 5px;
@@ -1039,7 +1039,7 @@ tripleplaypopup button:hover,
 
 .faq-link:hover {
 	border-bottom: none;
-	background: #0881d0;
+	background: var(--hoverlink);
 }
 
 #dismiss-button:hover,
