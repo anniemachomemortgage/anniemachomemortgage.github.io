@@ -2026,7 +2026,7 @@ article hr {
 .homepage-graphed-blocks {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 15px;
+	padding-bottom: 45px;
 }
 
 .homepage-image-background-section {
