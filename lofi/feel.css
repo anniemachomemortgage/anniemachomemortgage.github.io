@@ -2093,7 +2093,18 @@ article hr {
   background: whitesmoke;
   padding: 22px;
 }
-
+#read-more-testimonials {
+  font-weight: 800;
+  margin: 60px auto 70px;
+  text-transform: uppercase;
+  font-size: 14px;
+  background: #64a445;
+  border: 3px solid #64a445;
+  color: #fff;
+  min-width: 175px;
+  padding: 24px;
+  display: block;
+}
 /* Conventional */
 .node-160875 header {
 	background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url('https://images.pexels.com/photos/7578904/pexels-photo-7578904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
