@@ -472,6 +472,7 @@ button {
 .apply-button {
 	background: var(--secondary);
 	border: 3px solid var(--secondary);
+	color: #000;
 }
 
 a#cta1:hover {
