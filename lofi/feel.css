@@ -122,6 +122,9 @@ logo {
 	width: 360px;
 	margin-bottom: -18px;
 	border-radius: 2px;
+	position: absolute;
+	top: 0;
+	left: 36px;
 }
 
 #lofi-logo {
@@ -138,6 +141,10 @@ logo img:hover {
 	text-align: center;
 }
 
+.header-content:last-of-type {
+	padding-bottom: 53px;
+}
+
 .headercontain {
 	display: flex;
 	flex-direction: column;
@@ -146,6 +153,7 @@ logo img:hover {
 nav {
 	align-items: center;
 	margin: 15px 0 0;
+	height: 142px;
 }
 
 nav ul {
@@ -155,6 +163,7 @@ nav ul {
 	width: 100%;
 	justify-content: space-between;
 	align-items: center;
+	position: relative;
 }
 
 #navigation {
@@ -163,7 +172,6 @@ nav ul {
 	padding: 5px 20px 5px 46px;
 	background: white;
 	border-radius: 40px 0 0 40px;
-	z-index: 1;
 	height: 75px;
 }
 
@@ -305,6 +313,7 @@ nav ul li ul li a:hover {
 	width: 594px !important;
 	position: fixed !important;
 	z-index: 11111 !important;
+	top: 25px;
 }
 
 .fixed-menu #nav-menu-toggle {
@@ -450,6 +459,14 @@ button {
 	background: #64a445;
 	border: 3px solid #64a445;
 	color: #fff;
+	padding: 30px 50px;
+	font-size: 23px;
+	font-weight: 100;
+	margin: 20px 0 10px;
+}
+
+a#cta1:hover {
+	border-bottom: none;
 }
 
 button:hover {
