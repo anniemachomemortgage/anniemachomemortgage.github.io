@@ -1029,6 +1029,35 @@ details[open] summary i {
 	border-bottom: 1px solid #0b98e1;
 }
 
+#visual-divider {
+  background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://images.unsplash.com/photo-1606787503474-b28a4072fbc5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+  min-height: 325px;
+  background-size: cover;
+  background-position-y: 64%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#visual-divider h3 {
+  margin: 0 auto 30px;
+  color: #fff;
+  font-size: 45px;
+}
+
+#visual-divider button {
+  padding: 22px 50px;
+  margin: 20px 0 10px;
+  min-width: 230px;
+  background: #fecf31;
+  border: 3px solid #fecf31;
+  color: #333;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
 #lofi-bottom-contact {
 	width: 95%;
 	margin: 45px auto 0;
