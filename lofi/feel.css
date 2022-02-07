@@ -469,11 +469,14 @@ button {
 	min-width: 250px;
 }
 
-.apply-button {
+.secondary-button {
 	background: var(--secondary) !important;
 	border: 3px solid var(--secondary) !important;
-	color: #3c3838 !important;
-	font-weight: 100 !important;
+	color: #233a17 !important;
+}
+
+.secondary-button a {
+	font-weight: 300;
 }
 
 a#cta1:hover {
