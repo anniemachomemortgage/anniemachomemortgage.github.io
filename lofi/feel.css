@@ -8,12 +8,12 @@
 :root {
 	--mainbody: #798088;
 	--bodytext: #333a40;
+	--linking: #7d7d7d;
 	--hoverlink: #64a344;
-	--linkblue: #7d7d7d;
 	--lightbackground: #f5f7fa;
-	--darkblue: #565b61;
+	--tirtiary: #565b61;
 	--lightaccent: #c3c5c75e;
-	--fadedblue: #dee2e6;
+	--faded: #dee2e6;
 }
 
 * {
@@ -52,7 +52,7 @@ body {
 }
 
 a {
-	color: var(--linkblue);
+	color: var(--linking);
 	text-decoration: none;
 	font-weight: 600;
 }
@@ -361,7 +361,7 @@ nav ul li ul li a:hover {
 
 #menu-toggle span i {
 	font-size: 15px;
-	color: var(--darkblue);
+	color: var(--tirtiary);
 	font-weight: bolder;
 }
 
@@ -485,7 +485,7 @@ a button:hover {
 }
 
 .image {
-	background: var(--fadedblue);
+	background: var(--faded);
 	border-radius: 6px;
 }
 
@@ -729,7 +729,7 @@ testimonialportrait {
 	display: inline-block;
 	min-width: 60px;
 	min-height: 60px;
-	background: var(--fadedblue);
+	background: var(--faded);
 	float: left;
 	border-radius: 100%;
 	margin-right: 20px;
@@ -757,7 +757,7 @@ commentcontainer h4 {
 }
 
 .mini-portrait {
-	background: var(--fadedblue);
+	background: var(--faded);
 	border-radius: 5px;
 	min-width: 100px;
 	min-height: 100px;
@@ -1019,7 +1019,7 @@ tripleplaypopup button:hover,
 }
 
 .view-all-link a {
-	color: var(--linkblue);
+	color: var(--linking);
 	margin-left: 5px;
 }
 
@@ -1031,7 +1031,7 @@ tripleplaypopup button:hover,
 }
 
 .faq-link {
-	background: var(--linkblue);
+	background: var(--linking);
 	color: white;
 	padding: 7px 12px;
 	margin-right: 5px;
@@ -1634,7 +1634,7 @@ cardfeaturette a:hover {
 }
 
 .location-listing a p {
-	color: var(--linkblue);
+	color: var(--linking);
 	text-decoration: none;
 	font-weight: 600;
 	margin: 21px 0;
