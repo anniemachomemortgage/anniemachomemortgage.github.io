@@ -555,15 +555,17 @@ main {
 }
 
 .contained-option button {
-	background: #78c254;
+	background: radial-gradient(circle, rgb(76 76 76) 0%, rgb(80, 80, 80) 94%);
 	color: #fff;
 	padding: 20px 35px;
 	margin-top: 23px;
+	border: none;
 }
 
 
 .contained-option button a {
 	color: inherit;
+	font-weight: 300;
 }
 
 button a:hover {
