@@ -2052,6 +2052,7 @@ article hr {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .lofi-review-card {
   height: auto;
@@ -2059,6 +2060,7 @@ article hr {
   margin: 0 0 20px;
   display: flex;
   flex-direction: column;
+  width: 46%;
 }
 .avatar-name-container {
   display: flex;
@@ -2069,6 +2071,8 @@ article hr {
   width: 80px;
   height: 80px;
   border-radius: 100%;
+  float: left;
+  margin-top: 30px;
 }
 .avatar-name-container h5 {
   color: #333;
@@ -2079,7 +2083,7 @@ article hr {
 }
 .card-review {
   margin-left: 100px;
-  margin-top: -26px;
+  margin-top: -60px;
   background: whitesmoke;
   padding: 22px;
 }
