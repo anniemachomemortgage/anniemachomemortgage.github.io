@@ -173,6 +173,7 @@ nav ul {
 	background: white;
 	border-radius: 40px 0 0 40px;
 	height: 75px;
+	box-shadow: 3px 10px 17px rgb(0 0 0 / 5%);
 }
 
 #navigation li {
@@ -515,6 +516,7 @@ main {
 	padding: 51px;
 	width: 48%;
 	min-width: 500px;
+	box-shadow: 3px 10px 17px rgb(0 0 0 / 5%);
 }
 
 .contained-option {
