@@ -651,10 +651,6 @@ button a:hover {
 	color: var(--bodytext);
 }
 
-footer {
-	margin-top: 40px;
-}
-
 .page-page-detail footer,
 .page-branch-list footer {
 	margin-top: 15px;
