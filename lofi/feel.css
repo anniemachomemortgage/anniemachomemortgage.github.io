@@ -143,14 +143,11 @@ nav ul {
 }
 
 #navigation {
-	width: auto;
 	justify-content: space-between;
 	align-items: center;
-	padding: 5px 20px;
+	padding: 5px 20px 5px 46px;
 	background: white;
 	border-radius: 40px 0 0 40px;
-	position: absolute;
-	right: 0;
 	z-index: 1;
 	height: 75px;
 }
@@ -290,9 +287,9 @@ nav ul li ul li a:hover {
 
 .fixed-menu {
 	right: 0% !important;
-	width: 650px !important;
+	width: 594px !important;
 	position: fixed !important;
-	box-shadow: 1px 3px 21px rgba(0,0,0,.10);
+	/* right: 0% !important; */1px rgba(0,0,0,.10);
 }
 
 .fixed-menu #nav-menu-toggle {
