@@ -123,8 +123,8 @@ logo {
 	margin-bottom: -18px;
 	border-radius: 2px;
 	position: absolute;
-	top: 0;
-	left: 36px;
+	top: 15px;
+	left: 58px;
 }
 
 #lofi-logo {
@@ -509,15 +509,31 @@ main {
 
 .selection-container {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	background: #fff;
 	margin: -126px auto 32px;
 	padding: 51px;
-	width: 717px;
+	width: 48%;
+	min-width: 500px;
 }
 
 .contained-option {
-	width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	height: 147px;
+}
+
+.contained-option button {
+	background: #78c254;
+	color: #fff;
+	padding: 15px 30px;
+	margin-top: 20px;
+}
+
+.contained-option button a {
+	color: inherit;
 }
 
 #join-annie-mac {
