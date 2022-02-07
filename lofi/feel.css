@@ -1019,12 +1019,13 @@ tripleplaypopup button:hover,
 }
 
 .view-all-link a {
-	color: #0881d0;
+	color: var(--linkblue);
 	margin-left: 5px;
 }
 
 .view-all-link a:hover {
-	color: #0764a1;
+	color: var(--hoverlink);
+	border-bottom: 1px solid var(--hoverlink);
 	margin-left: 5px;
 	text-decoration: none !important;
 }
