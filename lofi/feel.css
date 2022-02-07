@@ -1035,107 +1035,14 @@ details[open] summary i {
 	letter-spacing: 1px;
 }
 
-buttoncontainer {
-	display: flex;
-	justify-content: center;
-	margin: 30px auto 0;
-}
-
-buttoncontainer button {
-	margin: 10px 0;
-	padding: 15px 20px;
-	background: #585f65;
-}
-
-tripleplaypopupcontainer {
-	position: fixed;
+.full-lofi-input button {
+	background: #64a445;
+	border: 3px solid #64a445;
 	color: #fff;
-	background: #000000d1;
-	top: 0;
-	right: 0;
-	padding: 20px;
-	width: 100%;
-	height: 100vh;
-	justify-content: center;
-	flex-direction: column;
-	display: flex;
-	align-items: center;
-	z-index: 1;
-}
-
-tripleplaypopup {
-	background: #006fa9;
-	width: 600px;
-	padding: 20px 25px;
-	margin-bottom: 20px;
-	position: relative;
-	border-left: 30px solid #01517b;
-	box-shadow: 1px 30px 10px rgba(0, 0, 0, .33);
-	z-index: 1;
-}
-
-#minimized-realtor {
-	background: #006fa9;
-	padding: 10px 20px;
-	margin-bottom: 20px;
-	border-bottom: 25px solid #01517b;
-	box-shadow: 1px 15px 5px rgba(0, 0, 0, .13);
-	z-index: 1;
-	position: fixed;
-	bottom: 0;
-	right: 30px;
-	max-width: 300px;
-}
-
-#minimized-realtor h4,
-#minimized-realtor p {
-	color: #fff;
-	margin: 10px 0;
-}
-
-#minimized-realtor button {
-	margin: 10px 0 15px;
-	color: white;
-	background: transparent;
-	border: 3px solid white;
-}
-
-tripleplaypopup h3,
-tripleplaypopup p {
-	color: #fff;
-	margin: 10px 0;
-}
-
-tripleplaypopup button {
-	margin: 10px 0;
-	color: white;
-	background: transparent;
-	border: 3px solid white;
-}
-
-tripleplaypopup button:hover,
-#minimized-realtor button:hover {
-	background: white;
-	border: 3px solid white;
-	color: #006fa9;
-}
-
-#dismiss-button,
-#dismiss-button-forever {
-	background: white;
-	color: #006fa9;
-	width: 45px;
-	height: 45px;
-	position: absolute;
-	top: -18px;
-	right: -3%;
-	border-radius: 100%;
-	font-weight: 800;
-	text-transform: uppercase;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 21px;
+	padding: 22px 50px;
+	font-weight: 200;
+	margin: 20px auto 0px;
+	min-width: 208px;
 }
 
 .view-all-link a {
