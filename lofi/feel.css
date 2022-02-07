@@ -2108,8 +2108,8 @@ article hr {
 }
 .review-card-avatar {
   background: #fecf31;
-  width: 80px;
-  height: 80px;
+  width: 65px;
+  height: 65px;
   border-radius: 100%;
   float: left;
   margin-top: 30px;
@@ -2118,19 +2118,25 @@ article hr {
   align-items: center;
 }
 .avatar-image {
-  width: 30px;
+  width: 25px;
 }
 .card-review {
   background: whitesmoke;
-  padding: 22px;
-  margin-top: -42px;
+  padding: 25px 30px;
+  margin-top: -32px;
 }
 .card-review h5 {
   color: #333;
   font-weight: 800;
   text-transform: uppercase;
   font-size: 15px;
-	margin-top: 5px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.date {
+	opacity: .37;
+	font-weight: 200;
 }
 #read-more-testimonials {
   font-weight: 800;
