@@ -1214,36 +1214,29 @@ form h5 {
 	font-size: 19px;
 }
 
-input[type="text"],
-input[type="tel"],
-input[type="email"],
-select,
-option {
+input[type="text"], input[type="tel"], input[type="email"], select, option {
 	text-align: left;
 	font-size: 16px;
-	padding: 14px 15px;
+	padding: 16px 15px;
 	-webkit-appearance: none;
-	-moz-appearance: none;
-	border: 1px solid rgba(0, 0, 0, .3);
+	border: 1px solid rgba(0, 0, 0, .15);
 	box-shadow: 1px 1px 1px rgba(0, 0, 0, .03);
 	outline: none;
-	border-radius: 4px;
-	margin: 3px 0 22px;
+	margin: 3px 0 29px;
 }
 
 textarea {
 	min-height: 230px;
 	font-family: 'Inter', sans-serif;
 	text-align: left;
+	text-align: left;
 	font-size: 16px;
-	padding: 14px 15px;
+	padding: 16px 15px;
 	-webkit-appearance: none;
-	-moz-appearance: none;
-	border: 1px solid rgba(0, 0, 0, .3);
+	border: 1px solid rgba(0, 0, 0, .15);
 	box-shadow: 1px 1px 1px rgba(0, 0, 0, .03);
 	outline: none;
-	border-radius: 4px;
-	margin: 3px 0 22px;
+	margin: 6px 0 29px;
 }
 
 form small {
