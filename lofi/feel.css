@@ -217,11 +217,11 @@ nav ul li ul li:last-of-type {
 }
 
 nav ul li ul li:hover {
-	background: rgb(120 194 83 / 14%);
+	background: rgb(164 171 161 / 14%);
 }
 
 nav ul li ul li:hover a {
-	color: var(--hoverlink);
+	color: #4c4c4c;
 }
 
 nav ul li ul li a:hover {
