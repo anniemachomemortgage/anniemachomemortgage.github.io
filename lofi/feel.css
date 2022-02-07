@@ -528,6 +528,11 @@ main {
 	height: 147px;
 }
 
+.solidlinedivider {
+	width: 1px;
+	background: #78787821;
+}
+
 .contained-option button {
 	background: #78c254;
 	color: #fff;
