@@ -470,9 +470,10 @@ button {
 }
 
 .apply-button {
-	background: var(--secondary);
-	border: 3px solid var(--secondary);
-	color: #000;
+	background: var(--secondary) !important;
+	border: 3px solid var(--secondary) !important;
+	color: #3c3838 !important;
+	font-weight: 100 !important;
 }
 
 a#cta1:hover {
