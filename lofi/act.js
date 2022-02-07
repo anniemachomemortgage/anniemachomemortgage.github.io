@@ -17,7 +17,12 @@ $(function() {
 		$("#loans-navigation-bar ul").addClass("initial-hidden");
 		$("#resources-navigation-bar ul").removeClass("initial-hidden");
 	});
-	$("#pin-toggle").hover(function () {
+	$("#blank-space").hover(function () {
+		$("#home-navigation-bar ul").addClass("initial-hidden");
+		$("#loans-navigation-bar ul").addClass("initial-hidden");
+		$("#resources-navigation-bar ul").addClass("initial-hidden");
+	});
+	$("#blank-space").hover(function () {
 		$("#home-navigation-bar ul").addClass("initial-hidden");
 		$("#loans-navigation-bar ul").addClass("initial-hidden");
 		$("#resources-navigation-bar ul").addClass("initial-hidden");
