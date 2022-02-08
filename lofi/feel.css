@@ -2181,6 +2181,7 @@ padding-bottom: 5px; */
 	background: whitesmoke;
 	padding: 25px 30px;
 	margin-top: -32px;
+	line-height: 1px;
 }
 
 .card-review h5 {
@@ -2191,6 +2192,13 @@ padding-bottom: 5px; */
 	margin-top: 5px;
 	display: flex;
 	justify-content: space-between;
+}
+
+.card-review p {
+	line-height: 23px;
+	font-weight: 100;
+	color: #333;
+
 }
 
 .date {
