@@ -2087,12 +2087,13 @@ padding-bottom: 5px; */
 }
 
 .homepage-image-background-section h4 {
-	font-size: 19px;
+	font-size: 15px;
 	font-weight: 300;
 	color: #fff;
 	text-shadow: 1px 2px 3px rgb(0 0 0 / 2%);
-	margin: 2px 0;
-	text-align: center;
+	margin: 10px 0 0;
+	text-align: left;
+	line-height: 26px;
 }
 
 .homepage-image-background-section button {
