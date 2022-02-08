@@ -1465,7 +1465,8 @@ top: 30px; */
 	margin-top: 25px;
 	justify-content: space-between;
 	border-top: 1px solid #7980882b;
-	padding-top: 25px;
+	padding-top: 8px;
+	margin-bottom: -15px;
 }
 
 .link-footer-sub ul {
@@ -1474,6 +1475,15 @@ top: 30px; */
 	margin: 0;
 	width: 625px;
 	justify-content: space-between;
+}
+
+.link-footer-sub ul li a {
+	letter-spacing: .65px;
+	color: #000;
+	position: relative;
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 13px;
 }
 
 .equal-housing {
@@ -1490,7 +1500,7 @@ top: 30px; */
 }
 
 #equal-housing-logo {
-	width: 45px;
+	width: 27px;
 }
 
 stepnumber {
@@ -1633,12 +1643,12 @@ cardfeaturette a:hover {
 }
 
 .sitemap-section strong {
-	color: var(--bodytext);
-	margin: 0;
-	font-weight: 600;
-	font-size: 17px;
-	display: block;
-	margin-bottom: 5px;
+	letter-spacing: .65px;
+	color: #000;
+	position: relative;
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 13px;
 }
 
 .sitemap-section ul li ul {
