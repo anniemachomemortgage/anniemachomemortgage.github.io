@@ -2195,10 +2195,10 @@ padding-bottom: 5px; */
 }
 
 .card-review p {
-	line-height: 23px;
-	font-weight: 100;
-	color: #333;
-
+	line-height: 24px;
+	font-weight: 300;
+	color: #4a4a4a;
+	font-size: 15px;
 }
 
 .date {
