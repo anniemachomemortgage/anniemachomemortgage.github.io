@@ -501,12 +501,6 @@ button:hover {
 	cursor: pointer;
 }
 
-#cta1 button:hover {
-	background: #78c254;
-	border: 3px solid #78c254;
-	color: #fff;
-}
-
 a button:hover {
 	cursor: pointer;
 }
@@ -1496,7 +1490,7 @@ top: 30px; */
 }
 
 .link-footer-sub li a:hover {
-	color: #005480;
+	color: #d5ad27;
 	border-bottom: none !important;
 }
 
@@ -1522,6 +1516,16 @@ stepnumber {
 
 cardfeaturette a:hover {
 	border-bottom: none;
+}
+
+#visual-divider-a button:hover, #read-more-testimonials:hover, .full-lofi-input button:hover {
+	background: #78c254;
+	border: 3px solid #78c254;
+}
+
+#cta1 button:hover, #apply-navigation-bar:hover, #visual-divider button:hover {
+	background: #d5ad27;
+	border: 3px solid #d5ad27;
 }
 
 @media only screen and (max-width: 870px) {
