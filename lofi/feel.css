@@ -1506,7 +1506,7 @@ top: 30px; */
 #cta1 button:hover, #apply-navigation-bar:hover, #visual-divider button:hover {
 	background: #d5ad27 !important;
 	border: 3px solid #d5ad27 !important;
-	color: #fff !important;
+	color: #000 !important;
 }
 
 @media only screen and (max-width: 870px) {
