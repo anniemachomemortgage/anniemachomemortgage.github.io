@@ -1490,7 +1490,7 @@ top: 30px; */
 }
 
 .link-footer-sub li a:hover {
-	color: #d5ad27;
+	color: #d5ad27
 	border-bottom: none !important;
 }
 
@@ -1526,6 +1526,7 @@ cardfeaturette a:hover {
 #cta1 button:hover, #apply-navigation-bar:hover, #visual-divider button:hover {
 	background: #d5ad27;
 	border: 3px solid #d5ad27;
+	color: #fff;
 }
 
 @media only screen and (max-width: 870px) {
