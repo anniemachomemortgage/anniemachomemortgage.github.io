@@ -1490,7 +1490,7 @@ top: 30px; */
 }
 
 .link-footer-sub li a:hover {
-	color: #d5ad27;
+	color: var(--hoverlink);
 	border-bottom: none !important;
 }
 
