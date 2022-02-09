@@ -137,6 +137,10 @@ logo img:hover, #home-navigation-bar:hover, #loans-navigation-bar:hover, #resour
 	cursor: pointer;
 }
 
+#home-navigation-bar:hover, #loans-navigation-bar:hover, #resources-navigation-bar:hover {
+	color: var(--hoverlink);
+}
+
 .header-content {
 	justify-content: center;
 	display: flex;
