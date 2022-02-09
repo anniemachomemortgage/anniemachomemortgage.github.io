@@ -113,6 +113,7 @@ header {
 	background-position-y: 48%;
 	position: relative;
 	background-size: cover;
+	min-height: 566px;
 }
 
 .front header {
