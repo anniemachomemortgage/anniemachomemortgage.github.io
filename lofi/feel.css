@@ -1490,7 +1490,7 @@ top: 30px; */
 }
 
 .link-footer-sub li a:hover {
-	color: #d5ad27
+	color: #d5ad27;
 	border-bottom: none !important;
 }
 
@@ -1498,35 +1498,15 @@ top: 30px; */
 	width: 27px;
 }
 
-stepnumber {
-	background: #bcdafb;
-	color: #3d99e2;
-	border: 2px solid #3d99e2;
-	padding: 20px;
-	width: 60px;
-	height: 60px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-weight: 800;
-	border-radius: 100%;
-	font-size: 22px;
-	margin-right: 15px;
-}
-
-cardfeaturette a:hover {
-	border-bottom: none;
-}
-
-#visual-divider-a button:hover, #read-more-testimonials:hover, .full-lofi-input button:hover {
-	background: #78c254;
-	border: 3px solid #78c254;
+.contained-option button:hover, #visual-divider-a button:hover, #read-more-testimonials:hover, .homepage-image-background-section button:hover, .full-lofi-input button:hover {
+	background: #78c254 !important;
+	border: 3px solid #78c254 !important;
 }
 
 #cta1 button:hover, #apply-navigation-bar:hover, #visual-divider button:hover {
-	background: #d5ad27;
-	border: 3px solid #d5ad27;
-	color: #fff;
+	background: #d5ad27 !important;
+	border: 3px solid #d5ad27 !important;
+	color: #fff !important;
 }
 
 @media only screen and (max-width: 870px) {
