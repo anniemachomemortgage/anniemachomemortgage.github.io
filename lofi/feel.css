@@ -130,9 +130,10 @@ logo {
 
 #lofi-logo {
 	width: 288px;
+	margin-top: -13px;
 }
 
-logo img:hover {
+logo img:hover, #home-navigation-bar:hover, #loans-navigation-bar:hover, #resources-navigation-bar:hover {
 	cursor: pointer;
 }
 
@@ -200,6 +201,7 @@ nav ul li ul {
 	left: -25px;
 	box-shadow: 1px 3px 10px rgb(0 0 0 / 25%);
 	z-index: 4;
+	cursor: text;
 }
 
 nav ul li ul li {
