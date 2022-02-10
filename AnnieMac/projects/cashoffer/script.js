@@ -75,11 +75,13 @@ $(function() {
 		var currentDate = new Date();
 		currentDate.setHours(0,0,0,0);
 		localStorage.setItem('currentDateLog', currentDate);
-		if ((localStorage.minimizetime) > (localStorage.currentDateLog)) {
-			localStorage.setItem('minimizerealtor', 'load-realtor-popup');
-		}
-		if (localStorage.getItem("minimizetime") === null) {
-			localStorage.setItem('minimizerealtor', 'load-realtor-popup');
+		if (localStorage.getItem("minimizerealtor") != "registered") {
+			if ((localStorage.minimizetime) > (localStorage.currentDateLog)) {
+				localStorage.setItem('minimizerealtor', 'load-realtor-popup');
+			}
+			if (localStorage.getItem("minimizetime") === null) {
+				localStorage.setItem('minimizerealtor', 'load-realtor-popup');
+			}
 		}
 		if ((localStorage.minimizerealtor) == "load-realtor-popup") {
 			$('#minimized-realtor').removeClass('initial-hidden');
