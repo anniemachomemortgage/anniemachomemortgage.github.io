@@ -1249,7 +1249,7 @@ $(function() {
 					$('script').each(function() {
 						$(this).remove();
 					});
-					$('.page-page-detail').load("https://anniemachomemortgage.github.io/lofi/blank.html", function() {
+					$('.page-page-detail').load("https://anniemachomemortgage.github.io/lofi/blank-structure.html", function() {
 						$(document).prop('title', 'Lofi Direct [Development Site]');
 						$(appendedContent).appendTo($( "#drop-content" ));
 						$('#headline').text(pageTitle);
@@ -1281,7 +1281,7 @@ $(function() {
 					$('script').each(function() {
 						$(this).remove();
 					});
-					$('.page-branch-list').load("https://anniemachomemortgage.github.io/lofi/blank.html", function() {
+					$('.page-branch-list').load("https://anniemachomemortgage.github.io/lofi/blank-structure.html", function() {
 						$(document).prop('title', 'Lofi Direct [Development Site]');
 						$(appendedContent).appendTo($( "#drop-content" ));
 						$('#headline').text("Branch Locations");
@@ -1312,7 +1312,7 @@ $(function() {
 					$('script').each(function() {
 						$(this).remove();
 					});
-					$('.page-blog-list').load("https://anniemachomemortgage.github.io/lofi/blank.html", function() {
+					$('.page-blog-list').load("https://anniemachomemortgage.github.io/lofi/blank-structure.html", function() {
 						$(document).prop('title', 'Lofi Direct [Development Site]');
 						$(appendedContent).appendTo($( "#drop-content" ));
 					});
