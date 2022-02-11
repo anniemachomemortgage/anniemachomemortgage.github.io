@@ -432,7 +432,7 @@ $(function() {
 		$('#product-banner').hide();
 	};
 	// For blogs
-	if ((window.location.href.indexOf("blog") != -1)) {
+	if ((window.location.href.indexOf("annie-mac.com/blog") != -1)) {
 		$('head').append('<link rel="stylesheet" id="new-stylesheet" href="https://anniemachomemortgage.github.io/Development/anniemac2021corporate.css" type="text/css" />');
 		if ($('body').hasClass('site-type-loan_officer')) {
 			$("#am-css").remove();
