@@ -431,34 +431,31 @@ $(function() {
 	if (window.location.href.indexOf("/forms/lead/b2b-broker") != -1) {
 		$('#product-banner').hide();
 	};
-	// For new pages and the blog, remove old stylesheets and add the new 2021 stylesheet.
-	if ((localStorage.anniemactesting) != "true") {
-		if ((window.location.href.indexOf("credit-score-basics") != -1) || (window.location.href.indexOf("blog") != -1) || (window.location.href.indexOf("prequal-vs-preapproval") != -1)) {
-			$('head').append('<link rel="stylesheet" id="new-stylesheet" href="https://anniemachomemortgage.github.io/Development/anniemac2021corporate.css" type="text/css" />');
-			if ($('body').hasClass('site-type-loan_officer')) {
-				$("#am-css").remove();
-				$("#am-styles").remove();
-				$("#am-responsive").remove();
-				$("#am-custom").remove();
-				$("#stylesheet-git").remove();
-			};  
-			if ($('body').hasClass('site-type-branch')){
-				$("#am-css").remove();
-				$("#am-styles").remove();
-				$("#am-responsive").remove();
-				$("#am-custom").remove();
-				$("#stylesheet-git").remove();
-			};
-			if ($('body').hasClass('site-type-corporate')) {
-				$("#am-css").remove();
-				$("#am-styles").remove();
-				$("#am-responsive").remove();
-				$("#am-custom").remove();
-				$("#stylesheet-git").remove();
-			};
+	// For blogs
+	if ((window.location.href.indexOf("blog") != -1)) {
+		$('head').append('<link rel="stylesheet" id="new-stylesheet" href="https://anniemachomemortgage.github.io/Development/anniemac2021corporate.css" type="text/css" />');
+		if ($('body').hasClass('site-type-loan_officer')) {
+			$("#am-css").remove();
+			$("#am-styles").remove();
+			$("#am-responsive").remove();
+			$("#am-custom").remove();
+			$("#stylesheet-git").remove();
+		};  
+		if ($('body').hasClass('site-type-branch')){
+			$("#am-css").remove();
+			$("#am-styles").remove();
+			$("#am-responsive").remove();
+			$("#am-custom").remove();
+			$("#stylesheet-git").remove();
 		};
-	};
-	
+		if ($('body').hasClass('site-type-corporate')) {
+			$("#am-css").remove();
+			$("#am-styles").remove();
+			$("#am-responsive").remove();
+			$("#am-custom").remove();
+			$("#stylesheet-git").remove();
+		};
+	};	
 	if($('body').hasClass('page-blog-list') || $('body').hasClass('page-blog-detail')) {
 		$('img').each(function() {
 			if(! $(this).attr('alt')) {
