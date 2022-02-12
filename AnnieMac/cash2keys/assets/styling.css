@@ -530,8 +530,8 @@ footer {
 		font-size: 19px;
 	}
 	#submit-your-information h4 {
-		margin-bottom: 15px;
-		margin-top: 50px;
+		margin-bottom: 20px;
+		margin-top: 60px;
 		font-size: 24px;
 	}
 	#submit-your-information p {
@@ -541,22 +541,27 @@ footer {
 		font-size: 19px;
 	}
 	#form-insert {
-		margin: 60px -40px;
+		margin: 60px -55px;
 	}
 	#form-insert label {
 		font-size: 19px;
 	}
 	#form-insert input, #form-insert select {
-		font-size: 19px;
-		padding: 24px;
+		font-size: 18px;
+		padding: 20px 16px;
 	}
 	.note-container h5 {
 		font-size: 22px;
+		text-align: center;
+		padding-bottom: 10px;
 	}
 	.disclaim-text, .note-container p, .benefits-list p, details p {
-		font-size: 18px;
-		line-height: 30px;
+		font-size: 17px;
+		line-height: 27px;
 		text-align: left;
+	}
+	#form-insert > button {
+		margin: 0 auto;
 	}
 	.row-options {
 		flex-direction: column;
@@ -575,6 +580,11 @@ footer {
 	.product-option {
 		width: 100%;
 		margin: 0;
+		padding: 50px 30px;
+	}
+	.product-option p {
+		width: 100%;
+		margin: 30px 0;
 	}
 	#benefits-of-cash-offer {
 		padding: 65px 0 75px;
@@ -592,10 +602,15 @@ footer {
 		border-radius: 0;
 	}
 	details {
-		margin: 0 -40px;
+		margin: 10px -40px;
+	}
+	details p {
+		padding: 30px;
 	}
 	details summary {
 		border-radius: 0;
+		line-height: 30px;
+		text-align: center;
 	}
 	.footer-container p {
 		width: 100%;
@@ -633,8 +648,5 @@ footer {
 	}
 	.final-callout-button-container button {
 		margin: 10px 0;
-	}
-	#final-callout h4, #final-callout p {
-		text-align: left;
 	}
 }
