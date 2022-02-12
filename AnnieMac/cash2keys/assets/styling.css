@@ -500,27 +500,39 @@ footer {
 		max-width: initial;
 		padding: 0 40px;
 	}
+	.navigation-bar {
+		justify-content: center;
+		flex-direction: column;
+		padding: 20px 0;
+	}
+	#navigation-cta {
+		position: absolute;
+		top: 635px;
+		margin: 0 auto;
+		transform: translate(-50%, -50%);
+	}
 	#annie-mac-logo {
-		width: 230px;
+		width: 295px;
 	}
 	.header-container {
 		flex-direction: column;
 		margin: 50px 0;
 	}
 	.header-container h2 {
-		font-size: 50px;
+		font-size: 40px;
 		font-weight: 800;
 		width: 100%;
 		margin: 0 0 20px;
-		line-height: 55px;
+		line-height: 46px;
 	}
 	.header-container h3 {
 		line-height: 30px;
 		font-size: 19px;
 	}
 	#submit-your-information h4 {
-		text-align: left;
-		margin-bottom: 20px;
+		margin-bottom: 15px;
+		margin-top: 50px;
+		font-size: 24px;
 	}
 	#submit-your-information p {
 		width: 100%;
