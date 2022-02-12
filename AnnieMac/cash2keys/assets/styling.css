@@ -224,6 +224,10 @@ input:active, select:active, input:focus, select:focus {
 	margin-top: 17px;
 }
 
+#product-options {
+	padding-bottom: 20px;
+}
+
 .product-option {
 	width: 48%;
 	background: var(--white);
@@ -508,7 +512,7 @@ footer {
 		margin: 20px 0;
 	}
 	#benefits-of-cash-offer {
-		padding: 65px 0 76px;
+		padding: 65px 0 75px;
 		margin-top: 35px;
 	}
 	.benefits-list li {
