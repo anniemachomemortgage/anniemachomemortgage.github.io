@@ -41,13 +41,19 @@
 				<input type="hidden" id="Notification" value="New Lead">
 				<input type="hidden" id="LeadSourceID" data-xml-node="LeadSourceId" value="">
 				<input type="hidden" id="Picklist" data-custom-map="Select" data-xml-node="Processing.Picklist4" value="">
-				<label>Are you working with an agent?</label>
-				<select id="working-with-agent" autocomplete="off">
-					<option value="no-real-estate">Select Option</option>
-					<option value="am-agent">I am a real estate agent</option>
-					<option value="real-estate">I am working with an agent</option>
-					<option value="no-real-estate">I am not working with an agent</option>
-				</select>
+				<div class="row-options">
+					<div class="row-option">
+						<label>Are you working with an agent?</label>
+						<select id="working-with-agent" autocomplete="off">
+							<option value="no-real-estate">Select Option</option>
+							<option value="am-agent">I am a real estate agent</option>
+							<option value="real-estate">I am working with an agent</option>
+							<option value="no-real-estate">I am not working with an agent</option>
+						</select>
+					</div>
+					<div class="row-option">
+					</div>
+				</div>
 				<div class="row-options">
 					<div class="row-option">
 						<label>Buyer's First Name</label>
