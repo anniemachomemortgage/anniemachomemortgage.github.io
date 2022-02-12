@@ -19,6 +19,11 @@
 	box-sizing: border-box;
 }
 
+html, body {
+	width: 100%;
+	overflow-x: hidden;
+}
+
 html, body, h1, h2, h3, h4, h5, h6, p, ul, li, section, main, header, nav, footer {
 	font-family: 'inter', sans-serif;
 }
@@ -32,8 +37,6 @@ body {
 #cash2keys-form {
 	background: var(--cloud);
 	color: var(--pebble);
-	min-width: 515px;
-	overflow-x: hidden;
 }
 
 .primary-container {
@@ -395,6 +398,8 @@ details summary {
 details[open] summary {
 	background: var(--lime);
 	border-radius: 3px 3px 0 0;
+	outline: none;
+	border: none;
 }
 
 details>summary {
@@ -511,17 +516,35 @@ footer {
 	}
 	.header-container h3 {
 		line-height: 30px;
+		font-size: 19px;
 	}
 	#submit-your-information h4 {
 		text-align: left;
+		margin-bottom: 20px;
 	}
 	#submit-your-information p {
 		width: 100%;
 		font-weight: 400;
 		text-align: left;
+		font-size: 19px;
 	}
 	#form-insert {
 		margin: 60px -40px;
+	}
+	#form-insert label {
+		font-size: 19px;
+	}
+	#form-insert input, #form-insert select {
+		font-size: 19px;
+		padding: 24px;
+	}
+	.note-container h5 {
+		font-size: 22px;
+	}
+	.disclaim-text, .note-container p, .benefits-list p, details p {
+		font-size: 18px;
+		line-height: 30px;
+		text-align: left;
 	}
 	.row-options {
 		flex-direction: column;
@@ -545,9 +568,22 @@ footer {
 		padding: 65px 0 75px;
 		margin-top: 35px;
 	}
+	.benefits-list {
+		margin: 50px -40px;
+	}
 	.benefits-list li {
 		width: 100%;
-		margin-bottom: 25px;
+		margin-bottom: 0;
+		border-radius: 0;
+	}
+	.benefits-list span {
+		border-radius: 0;
+	}
+	details {
+		margin: 0 -40px;
+	}
+	details summary {
+		border-radius: 0;
 	}
 	.footer-container p {
 		width: 100%;
@@ -559,6 +595,9 @@ footer {
 	}
 	.main-footer-links {
 		margin: 15px;
+		flex-direction: column;
+		text-align: center;
+		line-height: 29px;
 	}
 	.product-option h4, #benefits-of-cash-offer h4, #frequently-asked-questions h4, #final-callout h4 {
 		font-size: 30px;
@@ -567,12 +606,13 @@ footer {
 		width: 100%;
 	}
 	#frequently-asked-questions h4 {
-		flex-direction: column-reverse;
-		align-items: flex-start;
+		text-align: center;
 	}
 	#frequently-asked-questions h4 span {
-		align-self: flex-end;
-		margin-bottom: 15px;
+		display: none;
+	}
+	#get-started-today h4 {
+		font-size: 32px;
 	}
 	.final-callout-button-container {
 		display: flex;
