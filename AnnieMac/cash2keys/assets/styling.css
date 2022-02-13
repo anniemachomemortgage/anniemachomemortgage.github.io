@@ -262,6 +262,10 @@ input:active, select:active, input:focus, select:focus {
 	margin-bottom: 30px;
 }
 
+.secondary-icon {
+	width: 50px;
+}
+
 .product-option h4, #benefits-of-cash-offer h4 {
 	text-align: center;
 	margin: 0;
@@ -305,12 +309,8 @@ input:active, select:active, input:focus, select:focus {
 }
 
 .benefits-list span {
-	background: var(--cerulean);
 	text-align: center;
-	padding: 30px;
-	border-radius: 3px 3px 0 0;
-	color: var(--white);
-	margin: -10px;
+	margin: 25px 0 -10px;
 }
 
 .benefits-list h5 {
@@ -600,14 +600,14 @@ footer {
 	.benefits-list {
 		margin: 50px -40px;
 	}
+	.benefits-list span {
+		margin: 0 0 -10px;
+	}
 	.benefits-list li {
 		width: 100%;
 		margin-bottom: 0;
 		border-radius: 0;
 		border: none;
-	}
-	.benefits-list span {
-		border-radius: 0;
 	}
 	details {
 		margin: 10px -40px;
