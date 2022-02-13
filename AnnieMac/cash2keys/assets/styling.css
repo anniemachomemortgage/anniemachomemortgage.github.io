@@ -166,7 +166,7 @@ h4, #form-insert label {
 
 #form-insert {
 	background: var(--white);
-	padding: 50px 40px;
+	padding: 40px 40px 50px;
 	margin: 60px auto;
 	display: flex;
 	flex-direction: column;
@@ -735,4 +735,8 @@ footer {
 	.final-callout-button-container button {
 		margin: 10px 0;
 	}
+}
+
+.hidden-toggle {
+	display: none;
 }
