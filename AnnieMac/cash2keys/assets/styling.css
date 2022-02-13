@@ -28,6 +28,10 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, li, section, main, header, nav, foote
 	font-family: 'inter', sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
+
 body {
 	margin: 0;
 	display: flex;
@@ -68,6 +72,10 @@ body {
 	background-size: 100%;
 	background-position: 50%;
 	text-indent: -9999px;
+}
+
+#mobile-cta {
+	display: none;
 }
 
 .primary-button-cta {
@@ -503,13 +511,13 @@ footer {
 	.navigation-bar {
 		justify-content: center;
 		flex-direction: column;
-		padding: 20px 0;
 	}
 	#navigation-cta {
-		position: absolute;
-		top: 635px;
-		margin: 0 auto;
-		transform: translate(-50%, -50%);
+		display: none;
+	}
+	#mobile-cta {
+		display: block;
+		margin: 40px auto 10px;
 	}
 	#annie-mac-logo {
 		width: 295px;
