@@ -513,7 +513,7 @@ footer {
 		flex-direction: column;
 	}
 	#navigation-cta {
-		display: none;
+		display: none !important;
 	}
 	#mobile-cta {
 		display: block;
