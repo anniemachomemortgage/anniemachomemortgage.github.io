@@ -30,6 +30,12 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, li, section, main, header, nav, foote
 
 a {
 	text-decoration: none;
+	font-weight: 800;
+	color: var(--cerulean);
+}
+
+a:hover, button:hover {
+	cursor: pointer;
 }
 
 body {
@@ -232,6 +238,10 @@ input:active, select:active, input:focus, select:focus {
 	margin: 5px 0;
 }
 
+.row-option.stretched {
+	width: 100%;
+}
+
 .disclaim-text {
 	color: var(--pebble);
 	display: block;
@@ -262,9 +272,33 @@ input:active, select:active, input:focus, select:focus {
 	margin: 0;
 }
 
+.conditional-section {
+	background: var(--cloud);
+	color: var(--pebble);
+	border-radius: 3px;
+	padding: 30px;
+	margin: 15px 0 35px;
+}
+
+#form-insert .conditional-section h5 {
+	font-size: 25px;
+	margin: 21px 0 30px;
+	text-transform: capitalize;
+	color: var(--darkblue);
+	font-weight: 800;
+}
+
+#form-insert .conditional-section h6 {
+	font-size: 21px;
+	margin: 21px 0 30px;
+	color: var(--darkblue);
+	font-weight: 800;
+}
+
 #form-insert > button {
 	max-width: 200px;
-	margin-top: 17px;
+	margin: 0 auto;
+	padding: 20px;
 }
 
 #product-options {
