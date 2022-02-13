@@ -285,11 +285,10 @@ input:active, select:active, input:focus, select:focus {
 }
 
 #form-insert .conditional-section h5 {
-	font-size: 25px;
-	margin: 21px 0 30px;
-	text-transform: capitalize;
 	color: var(--darkblue);
 	font-weight: 800;
+	margin: 0 0 23px;
+	font-size: 20px;
 }
 
 #form-insert .conditional-section h6 {
