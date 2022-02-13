@@ -195,11 +195,23 @@ h4, #form-insert label {
 }
 
 .radio-selection {
-	margin: 7px 0;
+  margin: 3px 0;
+  display: flex;
+}
+
+input[type="radio"] {
+  padding: 10px;
+  width: 20px;
+  height: 19px;
+  margin: 5px 10px 0 0;
 }
 
 #form-insert .radio-selection label {
-	font-weight: 300;
+	font-weight: 400;
+	color: var(--pebble);
+	font-size: 16px;
+	line-height: 30px;
+	margin: 0;
 }
 
 input:active, select:active, input:focus, select:focus {
@@ -218,12 +230,6 @@ input:active, select:active, input:focus, select:focus {
 	display: flex;
 	flex-direction: column;
 	margin: 5px 0;
-}
-
-.radio-selections {
-	margin: 15px 0;
-	display: flex;
-	flex-direction: column;
 }
 
 .disclaim-text {

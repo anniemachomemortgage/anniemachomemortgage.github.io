@@ -48,16 +48,16 @@
 						<label>Are you working with an agent?</label>
 						<div class="radio-selections">
 							<div class="radio-selection">
-						  		<input type="radio" id="am-agent" value="am-agent">
-						  		<label for="am-agent">I am working with an agent</label>
+						  		<input type="radio" id="real-estate" name="agent-status" value="real-estate">
+						  		<label for="real-estate">I am working with an agent</label>
 							</div>
 							<div class="radio-selection">
-						  		<input type="radio" id="no-real-estate" value="no-real-estate">
+						  		<input type="radio" id="no-real-estate" name="agent-status" value="no-real-estate">
 						  		<label for="no-real-estate">I am not working with an agent</label>
 							</div>
 							<div class="radio-selection">
-						  		<input type="radio" id="no-real-estate" value="no-real-estate">
-						  		<label for="no-real-estate">I am a real estate agent</label>
+						  		<input type="radio" id="am-agent" name="agent-status" value="am-agent">
+						  		<label for="am-agent">I am a real estate agent</label>
 							</div>
 						</div>
 					</div>
@@ -154,11 +154,16 @@
 				<div class="row-options">
 					<div class="row-option">
 						<label>Do you have information about a property you are seeking?</label>
-							<select id="apply-or-learn" autocomplete="off">
-								<option value="learn-more">Select Option</option>
-								<option value="apply-now">I have information.</option>
-								<option value="general-inquiry">I don't have information.</option>
-							</select>
+						<div class="radio-selections">
+							<div class="radio-selection">
+								  <input type="radio" id="apply-now" name="property-information" value="apply-now">
+								  <label for="apply-now">I have information</label>
+							</div>
+							<div class="radio-selection">
+								  <input type="radio" id="general-inquiry" name="property-information" value="general-inquiry">
+								  <label for="general-inquiry">I don't have information</label>
+							</div>
+						</div>
 					</div>
 					<div class="row-option">
 					</div>
