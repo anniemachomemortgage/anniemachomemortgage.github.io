@@ -374,6 +374,10 @@ input:active, select:active, input:focus, select:focus {
 	border-bottom: 3px solid var(--lime);
 }
 
+#mobile-more-questions {
+	display: none;
+}
+
 #frequently-asked-questions h4 span a {
 	text-decoration: inherit;
 	color: inherit;
@@ -645,6 +649,20 @@ footer {
 	}
 	#frequently-asked-questions h4 span {
 		display: none;
+	}
+	#mobile-more-questions {
+		color: var(--lime);
+		font-size: 20px;
+		padding-bottom: 6px;
+		border-bottom: 3px solid var(--lime);
+		display: block;
+		font-weight: 800;
+		width: 192px;
+		text-align: center;
+		margin: 30px auto -10px;
+	}
+	#mobile-more-questions a {
+		color: inherit;
 	}
 	#get-started-today h4 {
 		font-size: 32px;
