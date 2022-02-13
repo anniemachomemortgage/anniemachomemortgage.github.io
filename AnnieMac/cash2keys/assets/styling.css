@@ -280,6 +280,10 @@ input:active, select:active, input:focus, select:focus {
 	margin: 15px 0 35px;
 }
 
+.sub-conditional {
+	background: var(--white);
+}
+
 #form-insert .conditional-section h5 {
 	font-size: 25px;
 	margin: 21px 0 30px;

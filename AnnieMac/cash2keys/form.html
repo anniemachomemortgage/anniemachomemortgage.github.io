@@ -45,31 +45,6 @@
 				<input type="hidden" id="Picklist" data-custom-map="Select" data-xml-node="Processing.Picklist4" value="">
 				<div class="row-options">
 					<div class="row-option">
-						<label>Are you working with an agent?</label>
-						<div class="radio-selections">
-							<div class="radio-selection">
-						  		<input type="radio" id="real-estate" name="agent-status" value="real-estate">
-						  		<label for="real-estate">I am working with an agent</label>
-							</div>
-							<div class="radio-selection">
-						  		<input type="radio" id="no-real-estate" name="agent-status" value="no-real-estate">
-						  		<label for="no-real-estate">I am not working with an agent</label>
-							</div>
-							<div class="radio-selection">
-						  		<input type="radio" id="am-agent" name="agent-status" value="am-agent">
-						  		<label for="am-agent">I am a real estate agent</label>
-							</div>
-						</div>
-					</div>
-					<div class="row-option">
-					</div>
-				</div>
-				<div class="note-container hidden-toggle" id="real-estate-note">
-					<h5>Note</h5>
-					<p>As a real estate agent, lorem ipsum about how we have another form and so on and so forth. <a href="">Please follow this link.</a></p>
-				</div>
-				<div class="row-options">
-					<div class="row-option">
 						<label>Buyer's First Name</label>
 						<input type="text">
 					</div>
@@ -151,9 +126,57 @@
 						<input type="hidden" data-xml-node="PropertyState" value="false">
 					</div>
 				</div>
-				<div class="note-container hidden-toggle" id="state-note">
+				<div class="note-container" id="state-note">
 					<h5>Note</h5>
 					<p>Currently we are only supplying Cash Offers in New Jersey. If you do not live in New Jersey, please complete the form and we will alert you as soon as this program is available in your state!</p>
+				</div>
+				<div class="row-options">
+					<div class="row-option">
+						<label>Are you working with an agent?</label>
+						<div class="radio-selections">
+							<div class="radio-selection">
+								  <input type="radio" id="real-estate" name="agent-status" value="real-estate">
+								  <label for="real-estate">I am working with an agent</label>
+							</div>
+							<div class="radio-selection">
+								  <input type="radio" id="no-real-estate" name="agent-status" value="no-real-estate">
+								  <label for="no-real-estate">I am not working with an agent</label>
+							</div>
+							<div class="radio-selection">
+								  <input type="radio" id="am-agent" name="agent-status" value="am-agent">
+								  <label for="am-agent">I am a real estate agent</label>
+							</div>
+						</div>
+					</div>
+					<div class="row-option">
+					</div>
+				</div>
+				<div class="conditional-section hidden-toggle" id="real-estate-information">
+					<h5>Please provide agent information below.</h5>
+					<div class="row-options">
+						<div class="row-option">
+							<label for="">Agent First Name</label>
+							<input type="text" placeholder="" data-xml-node="AgentFirstName">
+						</div>
+						<div class="row-option">
+							<label for="">Agent Last Name</label>
+							<input type="text" placeholder="" data-xml-node="AgentLastName">
+						</div>
+					</div>
+					<div class="row-options">
+						<div class="row-option">
+							<label for="">Agent Email</label>
+								<input type="text" placeholder="" data-xml-node="AgentEmail" pattern="/^[a-zA-Z0-9.!#$%&amp;'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/">
+						</div>
+						<div class="row-option">
+							<label for="">Agent Phone</label>
+								<input type="text" placeholder="" data-xml-node="AgentMobilePhone">
+						</div>
+					</div>
+				</div>
+				<div class="note-container hidden-toggle" id="real-estate-note">
+					<h5>Note</h5>
+					<p>As a real estate agent, lorem ipsum about how we have another form and so on and so forth. <a href="">Please follow this link.</a></p>
 				</div>
 				<div class="row-options">
 					<div class="row-option">
@@ -173,7 +196,7 @@
 					</div>
 				</div>
 				<div class="conditional-section hidden-toggle" id="property-information">
-					<h5>Tell us about this property.</h5>
+					<h5>Tell us about the property you're looking at.</h5>
 					<div class="row-options">
 						<div class="row-option stretched">
 							<label for="">Property Street Address</label>
@@ -196,16 +219,27 @@
 							<input type="text" placeholder="" data-xml-node="DesiredLoanAmount">
 						</div>
 						<div class="row-option">
-							<label for="">Will you need to sell your current home?</label>
-							<select id="bnsl-or-not" autocomplete="off">
-								<option value="not-selling">Select Option</option>
-								<option value="selling">Yes</option>
-								<option value="not-selling">No / Not Applicable</option>
-							</select>
 						</div>
 					</div>
-					<div id="buy-now-sell-later">
-						<h6>If you are looking to sell your current home, please provide information for it below.</h6>
+					<div class="row-options">
+						<div class="row-option">
+							<label for="">Will you need to sell your current home?</label>
+							<div class="radio-selections">
+								<div class="radio-selection">
+									  <input type="radio" id="selling" name="selling-information" value="selling">
+									  <label for="selling">I am selling</label>
+								</div>
+								<div class="radio-selection">
+									  <input type="radio" id="not-selling" name="selling-information" value="not-selling">
+									  <label for="not-selling">I am not selling</label>
+								</div>
+							</div>
+						</div>
+						<div class="row-option">
+						</div>
+					</div>
+					<div class="conditional-section sub-conditional hidden-toggle" id="property-selling">
+						<h5>Tell us about the property you're looking to sell.</h5>
 						<div class="row-options">
 							<div class="row-option">
 								<label for="">Current Home Address</label>
