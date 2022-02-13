@@ -443,7 +443,7 @@ details>summary::-webkit-details-marker {
 .final-callout-button-container {
 	display: flex;
 	justify-content: space-between;
-	width: 475px;
+	width: 385px;
 	margin: 10px auto 19px;
 	align-items: center;
 }
