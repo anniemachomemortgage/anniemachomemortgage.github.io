@@ -238,7 +238,6 @@ input:active, select:active, input:focus, select:focus {
 
 #form-insert > button {
 	max-width: 200px;
-	padding: 26px;
 	margin-top: 17px;
 }
 
