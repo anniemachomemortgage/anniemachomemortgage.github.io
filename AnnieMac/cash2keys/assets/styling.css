@@ -293,11 +293,11 @@ input:active, select:active, input:focus, select:focus {
 /* 	color: var(--pebble); */
 /* 	border-radius: 3px;
 	padding: 30px; */
-	margin: 25px 0 0;
+	margin: 25px 0 20px;
 }
 
 .sub-conditional {
-	margin: 15px 0 20px;
+	margin: 15px 0 0;
 }
 
 #form-insert .conditional-section h5 {
