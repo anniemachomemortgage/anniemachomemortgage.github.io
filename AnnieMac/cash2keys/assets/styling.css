@@ -265,9 +265,9 @@ input:active, select:active, input:focus, select:focus {
 .note-image {
 	position: absolute;
 	background: url('images/note_image.png') no-repeat;
-	width: 11%;
-	height: 95%;
-	bottom: -11px;
+	width: 167px;
+	height: 264px;
+	top: 0;
 	right: 0;
 	background-size: cover;
 	opacity: .5;
@@ -652,9 +652,16 @@ footer {
 		padding-bottom: 10px;
 	}
 	.disclaim-text, .note-container p, .benefits-list p, details p {
-		font-size: 17px;
+		font-size: 16px;
 		line-height: 27px;
-		text-align: left;
+		text-align: center;
+		font-weight: 300;
+	}
+	.note-image {
+		width: 167px;
+		height: 264px;
+		top: 0;
+		right: 0;
 	}
 	#form-insert > button {
 		margin: 0 auto;
