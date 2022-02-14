@@ -116,7 +116,7 @@ body {
 
 header {
 	color: var(--white);
-	background: url('images/header_image.jpg'), var(--cerulean) center no-repeat;
+	background: url('images/header_image.jpg') center no-repeat;
 	background-size: cover;
 }
 
@@ -504,6 +504,7 @@ details>summary::-webkit-details-marker {
 
 #final-callout {
 	padding: 60px 0;
+	background: var(--white);
 }
 
 #final-callout h4 {
