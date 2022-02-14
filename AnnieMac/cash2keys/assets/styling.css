@@ -26,11 +26,11 @@ html, body {
 	overflow-x: hidden;
 }
 
-html, body, h3, h4, h5, h6, p, span, ul, li, section, main, header, nav, footer {
+html, body, h3, h4, h5, h6, p, span, ul, li, label, section, main, header, nav, footer {
 	font-family: 'inter', sans-serif;
 }
 
-label, button  {
+button  {
 	font-family: 'lato', sans-serif;
 }
 
@@ -272,11 +272,6 @@ input:active, select:active, input:focus, select:focus {
 	overflow: hidden;
 }
 
-.disclaimer-container {
-	background: var(--white);
-	margin: 0 -30px -30px;
-}
-
 .note-image {
 	position: absolute;
 	background: url('images/note_image.png') no-repeat;
@@ -301,6 +296,17 @@ input:active, select:active, input:focus, select:focus {
 	margin: 0;
 	color: var(--shadow);
 	font-weight: 500;
+}
+
+.disclaimer-container {
+	background: var(--white);
+	margin: 0 -30px -30px;
+}
+
+.disclaimer-container p {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 28px;
 }
 
 .conditional-section {
@@ -526,10 +532,10 @@ details {
 details p {
 	padding: 20px;
 	margin-top: 0;
-	line-height: 25px;
-	font-size: 15px;
-	font-weight: 400;
 	color: var(--pebble);
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 28px;
 }
 
 details summary {
