@@ -289,15 +289,15 @@ input:active, select:active, input:focus, select:focus {
 }
 
 .conditional-section {
-	background: var(--cloud);
-	color: var(--pebble);
-	border-radius: 3px;
-	padding: 30px;
-	margin: 15px 0 35px;
+/* 	background: var(--cloud); */
+/* 	color: var(--pebble); */
+/* 	border-radius: 3px;
+	padding: 30px; */
+	margin: 25px 0 0;
 }
 
 .sub-conditional {
-	background: var(--white);
+	margin: 15px 0 20px;
 }
 
 #form-insert .conditional-section h5 {
