@@ -116,7 +116,8 @@ body {
 
 header {
 	color: var(--white);
-	background: var(--cerulean);
+	background: url('images/header_image.jpg'), var(--cerulean) center no-repeat;
+	background-size: cover;
 }
 
 .header-container {
@@ -257,6 +258,19 @@ input:active, select:active, input:focus, select:focus {
 	border-radius: 3px;
 	padding: 30px;
 	margin: 15px 0 35px;
+	position: relative;
+	overflow: hidden;
+}
+
+.note-image {
+	position: absolute;
+	background: url('images/note_image.png') no-repeat;
+	width: 11%;
+	height: 95%;
+	bottom: -11px;
+	right: 0;
+	background-size: cover;
+	opacity: .5;
 }
 
 .note-container h5 {
@@ -270,6 +284,7 @@ input:active, select:active, input:focus, select:focus {
 	font-size: 16px;
 	line-height: 30px;
 	margin: 0;
+	font-weight: 600;
 }
 
 .conditional-section {
