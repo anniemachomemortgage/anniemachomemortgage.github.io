@@ -273,7 +273,8 @@ input:active, select:active, input:focus, select:focus {
 }
 
 .disclaimer-container {
-	margin: 35px 0 -10px;
+	background: var(--white);
+	margin: 0 -30px -30px;
 }
 
 .note-image {
@@ -328,6 +329,49 @@ input:active, select:active, input:focus, select:focus {
 	max-width: 200px;
 	margin: 0 auto;
 	padding: 20px;
+}
+
+#submit-overlay {
+	position: relative;
+	width: 100%;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#submit-overlayment {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: background .75s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#submit-overlayment h4 {
+	display: none;
+	text-align: center;
+}
+
+#submit-overlayment:hover {
+	background: rgb(255 255 255 / 54%);
+	cursor: not-allowed;
+}
+
+#submit-overlayment:hover h4 {
+	display: block;
+	font-weight: 600;
+	width: 60%;
+	color: black;
 }
 
 #product-options {
