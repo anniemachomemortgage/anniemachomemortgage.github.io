@@ -471,7 +471,7 @@ details p {
 	line-height: 25px;
 	font-size: 15px;
 	font-weight: 400;
-	color: var(--darkblue);
+	color: var(--pebble);
 }
 
 details summary {
