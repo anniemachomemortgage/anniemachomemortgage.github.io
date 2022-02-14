@@ -179,7 +179,7 @@ h4, #form-insert label {
 	margin: 0 0 6px;
 }
 
-#form-insert input[type=text], #form-insert select {
+#form-insert input[type='text'], #form-insert input[type='email'], #form-insert input[type='tel'], #form-insert select {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	border: 1px solid var(--fossil2);
@@ -260,6 +260,10 @@ input:active, select:active, input:focus, select:focus {
 	margin: 15px 0 35px;
 	position: relative;
 	overflow: hidden;
+}
+
+.disclaimer-container {
+	margin: 35px 0 -10px;
 }
 
 .note-image {
