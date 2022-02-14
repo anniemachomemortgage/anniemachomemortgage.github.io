@@ -34,7 +34,7 @@ a {
 	color: var(--cerulean);
 }
 
-a:hover, button:hover {
+a:hover, button:hover, summary:hover {
 	cursor: pointer;
 }
 
@@ -284,7 +284,8 @@ input:active, select:active, input:focus, select:focus {
 	font-size: 16px;
 	line-height: 30px;
 	margin: 0;
-	font-weight: 600;
+	color: var(--shadow);
+	font-weight: 500;
 }
 
 .conditional-section {
@@ -300,10 +301,10 @@ input:active, select:active, input:focus, select:focus {
 }
 
 #form-insert .conditional-section h5 {
-	color: var(--darkblue);
-	font-weight: 800;
+	color: var(--shadow);
+	font-weight: 700;
 	margin: 0 0 23px;
-	font-size: 20px;
+	font-size: 19px;
 }
 
 #form-insert .conditional-section h6 {
@@ -413,10 +414,12 @@ input:active, select:active, input:focus, select:focus {
 	width: 90%;
 	max-width: 1200px;
 	color: var(--white);
-	background: var(--cerulean);
+	background: linear-gradient(0deg, rgb(33 95 149 / 94%) 100%, var(--pebble) 80%), url(images/callout_image.jpg) center no-repeat;
 	padding: 55px 0;
 	text-align: center;
 	border-radius: 3px;
+	background-size: cover;
+	background-position-y: 20%;
 }
 
 #get-started-today h4 {
