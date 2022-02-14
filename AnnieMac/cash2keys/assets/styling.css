@@ -289,10 +289,6 @@ input:active, select:active, input:focus, select:focus {
 }
 
 .conditional-section {
-/* 	background: var(--cloud); */
-/* 	color: var(--pebble); */
-/* 	border-radius: 3px;
-	padding: 30px; */
 	margin: 20px 0;
 }
 
