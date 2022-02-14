@@ -496,10 +496,17 @@ details[open] summary {
 
 details>summary {
 	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 details>summary::-webkit-details-marker {
 	display: none;
+}
+
+details[open] summary i {
+	transform: rotate(45deg);
 }
 
 #final-callout {
