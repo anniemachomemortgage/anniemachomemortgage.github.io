@@ -216,13 +216,14 @@ h4, #form-insert label {
 .radio-selection {
   margin: 3px 0;
   display: flex;
+  align-items: center;
 }
 
 input[type="radio"] {
   padding: 10px;
   width: 20px;
   height: 19px;
-  margin: 5px 10px 0 0;
+  margin: 0 10px 0 0;
 }
 
 #form-insert .radio-selection label {
