@@ -50,6 +50,10 @@ a:hover, button:hover, summary:hover {
 	cursor: pointer;
 }
 
+a:hover {
+	color: var(--indigo);
+}
+
 body {
 	margin: 0;
 	display: flex;
@@ -494,6 +498,20 @@ input:active, select:active, input:focus, select:focus {
 	background-position-y: 20%;
 }
 
+#get-started-today:hover {
+	margin: -87px auto 80px;
+	min-width: auto;
+	width: 90%;
+	max-width: 1200px;
+	color: var(--white);
+	background: linear-gradient(0deg, rgb(76 175 80 / 88%) 100%, var(--pebble) 80%), url(images/callout_image.jpg) center no-repeat;
+	padding: 55px 0;
+	text-align: center;
+	border-radius: 3px;
+	background-size: cover;
+	background-position-y: 20%;
+}
+
 #get-started-today h4 {
 	color: var(--white);
 	font-size: 38px;
@@ -654,6 +672,14 @@ footer {
 footer a, a #get-started-today {
 	color: var(--white);
 	font-weight: 500 !important;
+}
+
+footer a:hover, a #get-started-today:hover {
+	color: var(--white);
+}
+
+footer a:hover {
+	text-decoration: underline;
 }
 
 .main-footer-links {
