@@ -1235,7 +1235,6 @@ section#originator {
 
 .staff-main-information {
 	text-align: center;
-	margin-top: 20px;
 	min-height: 111px;
 }
 
@@ -1246,6 +1245,7 @@ section#originator {
 	max-height: 150px;
 	max-width: 150px;
 	border-radius: 100%;
+	margin: 20px 0;
 }
 
 .staff-container {
