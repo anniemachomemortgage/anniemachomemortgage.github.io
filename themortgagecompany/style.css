@@ -1233,10 +1233,26 @@ section#originator {
 	border: 0.5px solid var(--greenish);
 }
 
+.staff-main-information {
+	text-align: center;
+	margin-top: 20px;
+	min-height: 111px;
+}
+
+.additional-staff-portrait {
+	background: var(--orange);
+	height: 150px;
+	width: 150px;
+	max-height: 150px;
+	max-width: 150px;
+	border-radius: 100%;
+}
+
 .staff-container {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	width: 33%;
+	margin-bottom: 65px;
 }
