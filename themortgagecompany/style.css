@@ -528,13 +528,13 @@ button.go {
 .average-social-rating {
 	display: none;
 }
-.social-loan-officer {
+.social-loan-officer, .staff-information {
 	font-size: 20px;
 	font-weight: 500;
 	color: black;
 	margin: 10px 0 0px;
 }
-.social-loan-officer {
+.social-loan-officer, .staff-information {
 	font-size: 20px;
 	font-weight: 500;
 	color: black;
@@ -803,22 +803,30 @@ section#originator {
 	margin-left: 0;
 }
 
-.site-type-loan_officer .social-review-grid {
+.site-type-loan_officer .social-review-grid, .staffing-grid {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
-.site-type-loan_officer .social-review {
+.site-type-loan_officer .social-review, .staff-container {
 	width: 33%;
 }
 
-.page-testimonial .social-review {
+.page-testimonial .social-review, .staff-container {
   width: 100%;
 }
 
 .site-type-loan_officer .social-review:first-of-type {
 	margin: 15px 0 35px !important;
+}
+
+#additional-staff { 
+	display: none;
+}
+
+.front.site-type-corporate #additional-staff {
+	display: block;
 }
 
 .site-type-loan_officer #what-people-say-tmc-header {
@@ -1167,12 +1175,12 @@ section#originator {
 	.contact-tmc-buttons {
 		border-bottom: none;
 	}
-	.social-review-grid {
+	.social-review-grid, .staffing-grid {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
 	}
-	.social-review {
+	.social-review, .staff-container {
 		min-width: 32%;
 		max-height: 284px;
 		margin-top: 0;
