@@ -536,12 +536,13 @@ button.go {
 }
 .social-loan-officer, .staff-information {
 	font-size: 20px;
-	font-weight: 500;
-	color: black;
 	margin: 10px 0 0px;
-	border-bottom: 1px solid rgba(0,0,0,.061);
 	padding-bottom: 10px;
 	font-family: 'Inter', sans-serif;
+	color: #000;
+	font-weight: 700;
+	text-decoration: none;
+	margin-bottom: 2px;
 }
 .social-review-survey {
 	font-weight: 500;
@@ -780,8 +781,6 @@ section#originator {
 	margin-top: 3px;
 }
 
-
-
 .loan-officer-information {
 	margin-top: 20px;
 }
@@ -809,11 +808,31 @@ section#originator {
 	justify-content: space-between;
 }
 
+.staffing-grid {
+	justify-content: flex-start;
+}
+
 .site-type-loan_officer .social-review, .staff-container {
 	width: 33%;
 }
 
-.page-testimonial .social-review, .staff-container {
+.staff-container h5 {
+	font-weight: 500;
+	font-size: 18px;
+	color: gray;
+	font-family: 'Inter', sans-serif;
+	margin-top: -8px;
+}
+
+.staff-container h5 span {
+	display: block;
+	font-weight: 300;
+	font-size: 15.5px;
+	margin-top: 0px;
+	color: black;
+}
+
+.page-testimonial .social-review {
   width: 100%;
 }
 
@@ -847,9 +866,9 @@ section#originator {
 }
 
 .loan-officer-summary-section #footer-branchlo-name {
- 	font-size: 20px;
- 	font-weight: 600;
- 	padding-bottom: 10px;
+	 font-size: 20px;
+	 font-weight: 600;
+	 padding-bottom: 10px;
 }
 
 .loan-officer-summary-section p {
@@ -1188,4 +1207,12 @@ section#originator {
 	#static-content h3 {
 		display: block;
 	}
+}
+
+#additional-staff-header {
+	font-size: 29px;
+	font-weight: 600;
+	color: var(--orange);
+	margin-bottom: 60px;
+	font-family: 'Inter', sans-serif;
 }
