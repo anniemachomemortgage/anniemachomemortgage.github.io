@@ -1253,12 +1253,11 @@ section#originator {
 
 .additional-staff-portrait {
 	background: #c6c7c787;
-	height: 150px;
-	width: 150px;
+	margin: 0px 0 15px;
+	min-height: 150px;
+	min-width: 150px;
 	max-height: 150px;
 	max-width: 150px;
-	margin: 0px 0 15px;
-	border-radius: 5px;
 }
 
 .staff-container {
