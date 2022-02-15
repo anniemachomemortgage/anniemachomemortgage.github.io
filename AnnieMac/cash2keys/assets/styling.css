@@ -726,7 +726,7 @@ footer {
 	.disclaim-text, .note-container p, .benefits-list p, details p {
 		font-size: 16px;
 		line-height: 27px;
-		text-align: center;
+		text-align: left;
 		font-weight: 300;
 	}
 	.note-image {
