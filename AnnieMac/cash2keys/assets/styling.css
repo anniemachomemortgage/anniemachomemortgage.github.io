@@ -550,6 +550,11 @@ input:active, select:active, input:focus, select:focus {
 	border-bottom: 3px solid var(--lime);
 }
 
+#frequently-asked-questions h4 span:hover {
+	color: var(--cerulean);
+	border-bottom: 3px solid var(--cerulean);
+}
+
 #mobile-more-questions {
 	display: none;
 }
