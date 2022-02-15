@@ -130,7 +130,7 @@ body {
 	background: var(--cerulean);
 }
 
-.primary-button-cta:hover, details[open] summary:hover {
+.primary-button-cta:hover {
 	background: var(--cerulean);
 }
 
