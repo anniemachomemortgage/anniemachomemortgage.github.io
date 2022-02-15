@@ -643,7 +643,7 @@ footer {
 	align-items: center;
 }
 
-footer a {
+footer a, a #get-started-today {
 	color: var(--white);
 	font-weight: 500 !important;
 }
