@@ -1254,5 +1254,8 @@ section#originator {
 	justify-content: flex-start;
 	align-items: center;
 	width: 33%;
-	margin-bottom: 65px;
+	background: #f4f5f5;
+	padding: 17px;
+	margin: 15px 2px -11px;
+	border-radius: 2%;
 }
