@@ -1218,14 +1218,14 @@ section#originator {
 	display: flex;
 	flex-direction: row;
 	flex: 1;
-	justify-content: space-between;
+	justify-content: flex-start;
 }
 
 .other-staff-contact-buttons button {
 	outline: none;
-	padding: 23px;
+	padding: 22px;
 	margin: 5px 0 !important;
-	min-width: 273px !important;
+	min-width: 205px !important;
 	margin: 5px 0;
 	background: var(--greenish);
 	color: var(--white);
@@ -1238,6 +1238,7 @@ section#originator {
 .other-staff-contact-buttons button:first-of-type {
 	background: var(--orange);
 	border: 0.5px solid var(--orange);
+	margin-right: 14px !important;
 }
 
 .staff-main-information {
@@ -1266,8 +1267,6 @@ section#originator {
 	justify-content: flex-start;
 	align-items: center;
 	width: 49%;
-	background: #f4f5f5;
-	padding: 17px;
 	margin: 15px 6px 1px;
 	border-radius: 2%;
 	flex-wrap: wrap;
