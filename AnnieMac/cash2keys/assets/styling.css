@@ -759,7 +759,8 @@ footer {
 	}
 	.product-option p {
 		width: 100%;
-		margin: 30px 0;
+		margin: 20px 0 30px;
+		text-align: left;
 	}
 	#benefits-of-cash-offer {
 		padding: 65px 0 75px;
