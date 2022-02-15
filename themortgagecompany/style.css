@@ -805,10 +805,6 @@ section#originator {
 .site-type-loan_officer .social-review-grid, .staffing-grid {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
-}
-
-.staffing-grid {
 	justify-content: flex-start;
 }
 
@@ -830,6 +826,7 @@ section#originator {
 	font-size: 15.5px;
 	margin-top: 0px;
 	color: black;
+	text-align: center;
 }
 
 .page-testimonial .social-review {
@@ -1215,4 +1212,31 @@ section#originator {
 	color: var(--orange);
 	margin-bottom: 60px;
 	font-family: 'Inter', sans-serif;
+}
+
+.other-staff-contact-buttons {
+	display: flex;
+	flex-direction: column;
+	margin-top: 15px;
+}
+.other-staff-contact-buttons button {
+	outline: none;
+	padding: 17px;
+	margin: 5px 0 !important;
+	min-width: 273px !important;
+	margin: 5px 0;
+	background: var(--greenish);
+	color: var(--white);
+	font-weight: 600;
+	border-radius: 2px;
+	font-size: 16px;
+	border: 0.5px solid var(--greenish);
+}
+
+.staff-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 33%;
 }
