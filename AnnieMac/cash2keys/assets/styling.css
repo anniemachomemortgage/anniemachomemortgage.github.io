@@ -126,6 +126,14 @@ body {
 	background: var(--cerulean);
 }
 
+.primary-button-cta:hover {
+	background: var(--cerulean);
+}
+
+.secondary-button-cta:hover {	
+	background: var(--indigo);
+}
+
 header {
 	color: var(--white);
 	background: url('images/header_image.jpg') center no-repeat;
