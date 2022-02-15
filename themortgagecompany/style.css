@@ -535,7 +535,7 @@ button.go {
 	margin: 10px 0 0px;
 }
 .social-loan-officer, .staff-information {
-	font-size: 20px;
+	font-size: 21px;
 	margin: 10px 0 0px;
 	padding-bottom: 10px;
 	font-family: 'Inter', sans-serif;
@@ -805,7 +805,7 @@ section#originator {
 .site-type-loan_officer .social-review-grid, .staffing-grid {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: flex-start;
+	justify-content: space-between;
 }
 
 .site-type-loan_officer .social-review, .staff-container {
@@ -1210,18 +1210,20 @@ section#originator {
 	font-size: 29px;
 	font-weight: 600;
 	color: var(--orange);
-	margin-bottom: 60px;
+	margin-bottom: 20px;
 	font-family: 'Inter', sans-serif;
+	margin-top: 50px;
 }
 
 .other-staff-contact-buttons {
 	display: flex;
-	flex-direction: column;
-	margin-top: 15px;
+	flex-direction: row;
+	flex: 1;
+	justify-content: space-between;
 }
 .other-staff-contact-buttons button {
 	outline: none;
-	padding: 17px;
+	padding: 23px;
 	margin: 5px 0 !important;
 	min-width: 273px !important;
 	margin: 5px 0;
@@ -1236,6 +1238,7 @@ section#originator {
 .staff-main-information {
 	text-align: center;
 	min-height: 111px;
+	width: 67%;
 }
 
 .additional-staff-portrait {
@@ -1244,18 +1247,19 @@ section#originator {
 	width: 150px;
 	max-height: 150px;
 	max-width: 150px;
-	border-radius: 100%;
-	margin: 20px 0;
+	margin: 0px 0 15px;
+	border-radius: 5px;
 }
 
 .staff-container {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
-	width: 33%;
+	width: 49%;
 	background: #f4f5f5;
 	padding: 17px;
-	margin: 15px 2px -11px;
+	margin: 15px 6px 1px;
 	border-radius: 2%;
+	flex-wrap: wrap;
 }
