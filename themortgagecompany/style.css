@@ -826,7 +826,6 @@ section#originator {
 	font-size: 15.5px;
 	margin-top: 0px;
 	color: black;
-	text-align: center;
 }
 
 .page-testimonial .social-review {
@@ -1221,6 +1220,7 @@ section#originator {
 	flex: 1;
 	justify-content: space-between;
 }
+
 .other-staff-contact-buttons button {
 	outline: none;
 	padding: 23px;
@@ -1235,14 +1235,24 @@ section#originator {
 	border: 0.5px solid var(--greenish);
 }
 
+.other-staff-contact-buttons button:first-of-type {
+	background: var(--orange);
+	border: 0.5px solid var(--orange);
+}
+
 .staff-main-information {
-	text-align: center;
+	text-align: left;
 	min-height: 111px;
 	width: 67%;
+	margin-left: 32px;
+}
+
+.staff-information {
+	margin-top: 0;
 }
 
 .additional-staff-portrait {
-	background: var(--orange);
+	background: #c6c7c787;
 	height: 150px;
 	width: 150px;
 	max-height: 150px;
