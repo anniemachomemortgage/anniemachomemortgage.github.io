@@ -9,8 +9,8 @@
 	--mainbody: #798088;
 	--bodytext: #333a40;
 	--linking: #7d7d7d;
-	--hoverlink: #64a344;
-	--secondary: #fecf31;
+	--hoverlink: #2e2c2d;
+	--secondary: #d00705;
 	--lightbackground: rgb(164 171 161 / 14%);
 	--tirtiary: #565b61;
 	--lightaccent: #c3c5c75e;
@@ -109,7 +109,7 @@ li {
 }
 
 header {
-	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://images.unsplash.com/photo-1606787364397-a9c1d754a531?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+	background: linear-gradient(177deg, rgb(96 1 0 / 47%) 20%, rgb(96 1 0 / 68%) 80%), url(https://images.unsplash.com/photo-1606787364397-a9c1d754a531?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
 	background-position-y: 48%;
 	position: relative;
 	background-size: cover;
@@ -122,15 +122,15 @@ header {
 
 logo {
 	width: 360px;
-	margin-bottom: -17px;
+	margin-top: -6px;
 	border-radius: 2px;
 	top: 15px;
 	left: 58px;
 }
 
-#lofi-logo {
-	width: 288px;
-	margin-top: -13px;
+#district-mortgage-logo {
+	width: 155px;
+	margin-top: 0;
 }
 
 logo img:hover, #home-navigation-bar:hover, #loans-navigation-bar:hover, #resources-navigation-bar:hover {
@@ -260,14 +260,15 @@ nav ul li ul li a:hover {
 	outline: none;
 	padding: 5px 30px;
 	width: fit-content;
-	background: #fecf31;
-	border: 3px solid #fecf31;
+	background: #d00705;
+	border: 3px solid #d00705;
+	color: #FFF !important;
 }
 
 #apply-navigation-bar:hover {
 	color: #fff;
-	background: #78c254;
-	border: 3px solid #78c254;
+	background: #d00705;
+	border: 3px solid #d00705;
 	cursor: pointer;
 }
 
@@ -292,7 +293,7 @@ nav ul li ul li a:hover {
 
 #navigation:hover #pin-toggle,
 .fixed-menu #pin-toggle {
-	background: #78c254;
+	background: #d00705;
 	margin-right: -32px;
 	height: 38px;
 	width: 38px;
@@ -309,7 +310,7 @@ nav ul li ul li a:hover {
 }
 
 .pinned-menu {
-	background: #64a445 !important;
+	background: #2e2c2d !important;
 }
 
 .pinned-menu i {
@@ -461,9 +462,9 @@ h2#content-headling {
 }
 
 button {
-	color: #78c254;
+	color: #d00705;
 	background: transparent;
-	border: 3px solid #78c254;
+	border: 3px solid #d00705;
 	outline: none;
 	padding: 13px 15px;
 	border-radius: ;
@@ -478,9 +479,9 @@ button {
 	padding: 22px 50px;
 	margin: 20px 0 10px;
 	min-width: 230px;
-	background: #fecf31;
-	border: 3px solid #fecf31;
-	color: #333;
+	background: #d00705;
+	border: 3px solid #d00705;
+	color: #FFF;
 	font-weight: 800;
 	text-transform: uppercase;
 	font-size: 14px;
@@ -502,8 +503,8 @@ a#cta1:hover {
 
 button:hover {
 	color: #fff;
-	background: #78c254;
-	border: 3px solid #78c254;
+	background: #d00705;
+	border: 3px solid #d00705;
 	cursor: pointer;
 }
 
@@ -572,8 +573,8 @@ main {
 	min-width: 195px;
 	text-transform: uppercase;
 	font-size: 14px;
-	background: #64a445;
-	border: 3px solid #64a445;
+	background: #2e2c2d;
+	border: 3px solid #2e2c2d;
 	color: #fff;
 	/* padding: 22px 50px; */
 	/* font-size: 23px; */
@@ -684,7 +685,7 @@ button a:hover {
 }
 
 #footer-callout button {
-	background: #78c254;
+	background: #d00705;
 	color: #fff;
 	margin-top: 20px;
 	padding: 20px;
@@ -946,7 +947,7 @@ details summary {
 
 summary:hover {
 	cursor: pointer;
-	color: #64a344;
+	color: #2e2c2d;
 }
 
 summary {
@@ -1055,8 +1056,8 @@ details[open] summary i {
 	padding: 22px 50px;
 	margin: 20px 0 10px;
 	min-width: 230px;
-	background: #64a344;
-	border: 3px solid #64a344;
+	background: #2e2c2d;
+	border: 3px solid #2e2c2d;
 	color: #fff;
 	font-weight: 800;
 	text-transform: uppercase;
@@ -1085,38 +1086,38 @@ details[open] summary i {
 	padding: 22px 50px;
 	margin: 20px 0 10px;
 	min-width: 230px;
-	background: #fecf31;
-	border: 3px solid #fecf31;
-	color: #333;
+	background: #d00705;
+	border: 3px solid #d00705;
+	color: #fff;
 	font-weight: 800;
 	text-transform: uppercase;
 	font-size: 14px;
 }
 
-#lofi-bottom-contact {
+#district-mortgage-bottom-contact {
 	width: 95%;
 	margin: 45px auto 0;
 }
 
-.lofi-grouped-inputs {
+.district-mortgage-grouped-inputs {
 	display: flex;
 	justify-content: space-between;
 }
 
-.lofi-input {
+.district-mortgage-input {
 	display: flex;
 	flex-direction: column;
 	width: 46%;
 }
 
-.full-lofi-input {
+.full-district-mortgage-input {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
 }
 
-.lofi-input label,
-.full-lofi-input label {
+.district-mortgage-input label,
+.full-district-mortgage-input label {
 	letter-spacing: .65px;
 	color: #000;
 	position: relative;
@@ -1125,9 +1126,9 @@ details[open] summary i {
 	font-size: 13px;
 }
 
-.full-lofi-input button {
-	background: #64a445;
-	border: 3px solid #64a445;
+.full-district-mortgage-input button {
+	background: #2e2c2d;
+	border: 3px solid #2e2c2d;
 	margin: 20px 0 0px;
 	min-width: 208px;
 	align-self: flex-end;
@@ -1506,21 +1507,21 @@ top: 30px; */
 	width: 27px;
 }
 
-.contained-option button:hover, #visual-divider-a button:hover, #read-more-testimonials:hover, .homepage-image-background-section button:hover, .full-lofi-input button:hover {
-	background: #78c254 !important;
-	border: 3px solid #78c254 !important;
+.contained-option button:hover, #visual-divider-a button:hover, #read-more-testimonials:hover, .homepage-image-background-section button:hover, .full-district-mortgage-input button:hover {
+	background: #d00705 !important;
+	border: 3px solid #d00705 !important;
 	transform: scale(1.05);
 }
 
 #cta1 button:hover, #apply-navigation-bar:hover, #visual-divider button:hover {
-	background: #d5ad27 !important;
-	border: 3px solid #d5ad27 !important;
-	color: #000 !important;
+	background: #c60504 !important;
+	border: 3px solid #c60504 !important;
+	color: #fff !important;
 	transform: scale(1.05);
 }
 
 @media only screen and (max-width: 870px) {
-	#lofi-logo {
+	#district-mortgage-logo {
 		width: 253px;
 	}
 
@@ -1622,7 +1623,7 @@ top: 30px; */
 	display: none;
 }
 
-.district-mortgage {
+.district-mortgage-redesign {
 	position: relative;
 }
 
@@ -1787,7 +1788,7 @@ top: 30px; */
 }
 
 .form-end-grouping-container button {
-	background: #78c254;
+	background: #d00705;
 	color: #fff;
 	padding: 20px;
 	min-width: 200px;
@@ -1795,7 +1796,7 @@ top: 30px; */
 	transform: scale(1.2);
 	font-weight: 600;
 	letter-spacing: .05em;
-	border: 3px solid #78c254;
+	border: 3px solid #d00705;
 	outline: none;
 }
 
@@ -2097,8 +2098,8 @@ padding-bottom: 5px; */
 	margin: 30px auto 20px;
 	text-transform: uppercase;
 	font-size: 14px;
-	background: #64a445;
-	border: 3px solid #64a445;
+	background: #2e2c2d;
+	border: 3px solid #2e2c2d;
 	color: #fff;
 	min-width: 175px;
 	padding: 15px;
@@ -2132,7 +2133,7 @@ padding-bottom: 5px; */
 	text-align: center;
 }
 
-.lofi-reviews-statements {
+.district-mortgage-reviews-statements {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -2141,7 +2142,7 @@ padding-bottom: 5px; */
 	justify-content: space-between;
 }
 
-.lofi-review-card {
+.district-mortgage-review-card {
 	height: auto;
 	padding: 0;
 	margin: 0 0 20px;
@@ -2159,7 +2160,7 @@ padding-bottom: 5px; */
 }
 
 .review-card-avatar {
-	background: #fecf31;
+	background: #d00705;
 	width: 65px;
 	height: 65px;
 	border-radius: 100%;
@@ -2214,8 +2215,8 @@ padding-bottom: 5px; */
 	margin: 40px auto;
 	text-transform: uppercase;
 	font-size: 14px;
-	background: #64a445;
-	border: 3px solid #64a445;
+	background: #2e2c2d;
+	border: 3px solid #2e2c2d;
 	color: #fff;
 	min-width: 175px;
 	padding: 24px;

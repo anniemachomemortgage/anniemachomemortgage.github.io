@@ -643,6 +643,11 @@ footer {
 	align-items: center;
 }
 
+footer a {
+	color: var(--white);
+	font-weight: 500 !important;
+}
+
 .main-footer-links {
 	display: flex;
 	list-style-type: none;
