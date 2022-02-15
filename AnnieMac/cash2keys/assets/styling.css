@@ -32,6 +32,8 @@ html, body, h3, h4, h5, h6, p, span, ul, li, label, section, main, header, nav, 
 
 button  {
 	font-family: 'lato', sans-serif;
+	min-width: 190px !important;
+	padding: 22px !important;
 }
 
 h1, h2 {
