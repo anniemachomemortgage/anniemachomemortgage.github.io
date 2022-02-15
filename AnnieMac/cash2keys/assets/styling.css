@@ -130,12 +130,16 @@ body {
 	background: var(--cerulean);
 }
 
-.primary-button-cta:hover {
+.primary-button-cta:hover, details[open] summary:hover {
 	background: var(--cerulean);
 }
 
-.secondary-button-cta:hover {	
+.secondary-button-cta:hover {
 	background: var(--indigo);
+}
+
+details summary:hover {
+	background: var(--lime);
 }
 
 header {
