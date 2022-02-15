@@ -310,6 +310,7 @@ input:active, select:active, input:focus, select:focus {
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 28px;
+	text-align: left !important;
 }
 
 .conditional-section {
