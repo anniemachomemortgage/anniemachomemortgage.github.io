@@ -821,11 +821,10 @@ section#originator {
 }
 
 .staff-container h5 span {
-	display: block;
 	font-weight: 300;
 	font-size: 15.5px;
-	margin-top: 0px;
 	color: black;
+	margin-left: 13px;
 }
 
 .page-testimonial .social-review {
@@ -1209,7 +1208,7 @@ section#originator {
 	font-size: 29px;
 	font-weight: 600;
 	color: var(--orange);
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	font-family: 'Inter', sans-serif;
 	margin-top: 50px;
 }
@@ -1248,9 +1247,7 @@ section#originator {
 
 .staff-main-information {
 	text-align: left;
-	min-height: 111px;
-	width: 67%;
-	margin-left: 32px;
+	min-height: 77px;
 }
 
 .staff-information {
@@ -1268,11 +1265,11 @@ section#originator {
 
 .staff-container {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: flex-start;
-	align-items: center;
+	align-items: flex-start;
 	width: 46%;
-	margin: 15px 6px 1px;
+	margin: 39px 6px;
 	border-radius: 2%;
 	flex-wrap: wrap;
 }
