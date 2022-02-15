@@ -1241,6 +1241,11 @@ section#originator {
 	margin-right: 14px !important;
 }
 
+.other-staff-contact-buttons button a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
 .staff-main-information {
 	text-align: left;
 	min-height: 111px;
