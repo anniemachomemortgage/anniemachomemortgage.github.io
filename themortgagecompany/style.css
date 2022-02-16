@@ -1202,6 +1202,12 @@ section#originator {
 	#static-content h3 {
 		display: block;
 	}
+	.staffing-grid {
+		flex-direction: column;
+	}
+	.staff-container {
+		width: 100%;
+	}
 }
 
 #additional-staff-header {
