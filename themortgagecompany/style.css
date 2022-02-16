@@ -109,35 +109,40 @@ li#navigation-logo {
 	margin: 0 0 -25px;
 }
 .main-site-background {
-	position: relative;
+	/* position: relative; */
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	/* align-items: center; */
 }
 .main-site-overlay {
-	position: absolute;
-	top: 50%;
-	right: 50%;
-	transform: translate(50%,-50%);
-	width: 503px;
-	height: 492px;
+	/* position: absolute; */
+	/* top: 50%; */
+	/* right: 50%; */
+	/* transform: translate(50%,-50%); */
+	/* width: 503px; */
+	/* height: 492px; */
 }
 .main-site-background h1 {
-	font-size: 58px;
-	font-weight: 900;
-	font-style: italic;
-	word-spacing: 40vw;
-	line-height: 100px;
-	margin-top: 5px;
-	color: var(--white);
-	opacity: 0;
-	margin-bottom: 41px;
-	z-index: 0;
+	/* font-size: 58px; */
+	/* font-weight: 900; */
+	/* font-style: italic; */
+	/* word-spacing: 40vw; */
+	/* line-height: 100px; */
+	/* margin-top: 5px; */
+	/* color: var(--white); */
+	/* opacity: 0; */
+	/* margin-bottom: 41px; */
+	display: none;
 }
 .main-site-summary {
-	position: absolute;
-	top: 0;
-	right: 0;
+	/* position: absolute; */
+	/* top: 0; */
+	/* right: 0; */
 	display: flex;
 	flex-direction: column;
 	min-width: 300px;
+	align-self: flex-end;
 }
 .summary-section {
 	display: flex;
@@ -171,7 +176,7 @@ li#navigation-logo {
 button.main-site-apply {
 	outline: none;
 	padding: 20px;
-	margin: -15px 2px 50px;
+	margin: 20px auto;
 	min-width: 200px;
 	background: var(--orange);
 	color: var(--white);
