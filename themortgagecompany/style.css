@@ -142,6 +142,8 @@ li#navigation-logo {
 	flex-direction: column;
 	min-width: 300px;
 	align-self: flex-end;
+	margin-top: -75px;
+	margin-bottom: 20px;
 }
 .summary-section {
 	display: flex;
