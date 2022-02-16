@@ -1383,7 +1383,9 @@ section#originator {
 	}
 	.sitemaps {
 		justify-content: center;
-		align-items: flex-start;
+		align-items: center;
 		flex-direction: column;
+		text-align: center;
+		width: 100%;
 	}
 }
