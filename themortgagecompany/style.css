@@ -91,9 +91,8 @@ body {
 	margin: 0;
 	padding: 20px 0 30px;
 	width: 100%;
-	justify-content: space-between;
+	justify-content: flex-start;
 	margin-bottom: 8px;
-	border-bottom: ;
 }
 .navigation-display li {
 	color: var(--gray);
@@ -105,8 +104,8 @@ li#navigation-logo {
 	background: url('https://anniemachomemortgage.github.io/themortgagecompany/img/themtgco-logo.png');
 	background-size: cover;
 	height: 56px;
-	width: 260px;
-	margin: 0 0 -25px;
+	width: 303px;
+	margin: 0 0 10px;
 }
 .main-site-background {
 	/* position: relative; */
@@ -176,7 +175,6 @@ li#navigation-logo {
 button.main-site-apply {
 	outline: none;
 	padding: 20px;
-	margin: 20px auto;
 	min-width: 200px;
 	background: var(--orange);
 	color: var(--white);
@@ -184,6 +182,8 @@ button.main-site-apply {
 	border-radius: 2px;
 	font-size: 17px;
 	border: .5px solid var(--orange);
+	margin-top: -84px;
+	float: left;
 }
 button.main-site-apply:hover {
 	background: var(--orange);
