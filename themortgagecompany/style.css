@@ -1388,4 +1388,13 @@ section#originator {
 		text-align: center;
 		width: 100%;
 	}
+	.footerlist-title:nth-of-type(1) {
+		margin-top: 25px;
+	}
+	.review-social-rating {
+		text-align: center;
+	}
+	.front.site-type-corporate #additional-staff {
+		margin-bottom: 30px;
+	}
 }
