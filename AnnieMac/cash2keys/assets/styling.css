@@ -145,7 +145,7 @@ details summary:hover {
 
 header {
 	color: var(--white);
-	background: url('https://anniemachomemortgage.github.io/AnnieMac/assets/images/header_image.jpg') center no-repeat;
+	background: url('https://anniemachomemortgage.github.io/AnnieMac/cash2keys/assets/images/header_image.jpg') center no-repeat;
 	background-size: cover;
 }
 
@@ -294,7 +294,7 @@ input:active, select:active, input:focus, select:focus {
 
 .note-image {
 	position: absolute;
-	background: url('https://anniemachomemortgage.github.io/AnnieMac/assets/images/note_image.png') no-repeat;
+	background: url('https://anniemachomemortgage.github.io/AnnieMac/cash2keys/assets/images/note_image.png') no-repeat;
 	width: 167px;
 	height: 264px;
 	top: 0;
@@ -495,7 +495,7 @@ input:active, select:active, input:focus, select:focus {
 	width: 90%;
 	max-width: 1200px;
 	color: var(--white);
-	background: linear-gradient(0deg, rgb(33 95 149 / 94%) 100%, var(--pebble) 80%), url(https://anniemachomemortgage.github.io/AnnieMac/assets/images/callout_image.jpg) center no-repeat;
+	background: linear-gradient(0deg, rgb(33 95 149 / 94%) 100%, var(--pebble) 80%), url(https://anniemachomemortgage.github.io/AnnieMac/cash2keys/assets/images/callout_image.jpg) center no-repeat;
 	padding: 55px 0;
 	text-align: center;
 	border-radius: 3px;
@@ -509,7 +509,7 @@ input:active, select:active, input:focus, select:focus {
 	width: 90%;
 	max-width: 1200px;
 	color: var(--white);
-	background: linear-gradient(0deg, rgb(125 194 72 / 90%) 100%, var(--pebble) 80%), url(https://anniemachomemortgage.github.io/AnnieMac/assets/images/callout_image.jpg) center no-repeat;
+	background: linear-gradient(0deg, rgb(125 194 72 / 90%) 100%, var(--pebble) 80%), url(https://anniemachomemortgage.github.io/AnnieMac/cash2keys/assets/images/callout_image.jpg) center no-repeat;
 	padding: 55px 0;
 	text-align: center;
 	border-radius: 3px;
