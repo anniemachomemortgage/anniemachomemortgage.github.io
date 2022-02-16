@@ -1222,9 +1222,9 @@ section#originator {
 
 .other-staff-contact-buttons button {
 	outline: none;
-	padding: 22px;
+	padding: 18px;
 	margin: 5px 0 !important;
-	min-width: 184px !important;
+	min-width: 120px !important;
 	margin: 5px 0;
 	background: var(--greenish);
 	color: var(--white);
