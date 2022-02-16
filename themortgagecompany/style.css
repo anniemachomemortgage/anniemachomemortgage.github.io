@@ -1295,6 +1295,8 @@ section#originator {
 	}
 	#static-content h3 {
 		display: block;
+		text-align: center;
+		line-height: 36px;
 	}
 	.staffing-grid, .team-member-basics {
 		flex-direction: column;
