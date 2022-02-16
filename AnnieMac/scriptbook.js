@@ -1185,7 +1185,9 @@ $(function() {
 				var appendedContentteamDisplay = $("#team-display").html();
 				$('.front').load("https://anniemachomemortgage.github.io/themortgagecompany/template.html", function() {
 					$(appendedContentteamDisplay).appendTo($( "#insertion-point" ));
-					$("#additional-staff").prependTo("#static-content");
+					if (window.matchMedia('(max-width: 1046px)').matches) {
+						$("#additional-staff").prependTo("#static-content");
+					};
 				});			
 			};
 		};

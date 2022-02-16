@@ -1244,7 +1244,7 @@ section#originator {
 	flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1046px) {
 	.main-site-background {
 		position: initial;
 		display: flex;
