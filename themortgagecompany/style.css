@@ -1295,7 +1295,7 @@ section#originator {
 	}
 	.staff-container {
 		width: 100%;
-		margin: 20px 0;
+		margin: 40px 0;
 		justify-content: center;
 	}
 	.staff-main-information, .team-titles {
@@ -1305,6 +1305,9 @@ section#originator {
 	}
 	.other-staff-contact-buttons {
 		margin-top: 10px;
+	}
+	.staff-container h5 span {
+		display: block;
 	}
 	.contact-tmc-buttons {
 		display: flex;
