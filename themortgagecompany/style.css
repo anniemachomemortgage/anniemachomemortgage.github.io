@@ -1288,6 +1288,9 @@ section#originator {
 		max-height: 284px;
 		margin-top: 0;
 	}
+	#staff-listing-additions {
+		margin-top: -30px;
+	}
 	#additional-staff-header {
 		line-height: 37px;
 		margin: -10px 0 0px;
