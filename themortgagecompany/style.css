@@ -1168,53 +1168,6 @@ section#originator {
 	content: "x";
 }
 
-@media only screen and (max-width: 900px) {
-	#homepage-insertion {
-		display: flex;
-		flex-direction: column;
-	}
-	.front #static-content {
-		display: block;
-		width: 100%;
-		margin-left: 0;
-	}
-	.team-member-section {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-	}
-	.team-member {
-		min-width: 50%;
-	}
-	.contact-tmc-buttons {
-		border-bottom: none;
-	}
-	.social-review-grid, .staffing-grid {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-	}
-	.social-review, .staff-container {
-		min-width: 32%;
-		max-height: 284px;
-		margin-top: 0;
-	}
-	#static-content h3 {
-		display: block;
-	}
-	.staffing-grid {
-		flex-direction: column;
-	}
-	.staff-container {
-		flex-direction: column;
-		width: 100%;
-	}
-	.staff-main-information {
-		margin-left: 0;
-		margin-top: 15px;
-	}
-}
-
 #additional-staff-header {
 	font-size: 29px;
 	font-weight: 600;
@@ -1283,4 +1236,61 @@ section#originator {
 	margin: 20px 0;
 	border-radius: 2%;
 	flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 900px) {
+	#homepage-insertion {
+		display: flex;
+		flex-direction: column;
+	}
+	.front #static-content {
+		display: block;
+		width: 100%;
+		margin-left: 0;
+	}
+	.team-member-section {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.team-member {
+		min-width: 50%;
+	}
+	.contact-tmc-buttons {
+		border-bottom: none;
+	}
+	.social-review-grid, .staffing-grid {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.social-review, .staff-container {
+		min-width: 32%;
+		max-height: 284px;
+		margin-top: 0;
+	}
+	#additional-staff-header {
+		line-height: 37px;
+		margin: 50px 0 20px;
+		text-align: center;
+	}
+	#static-content h3 {
+		display: block;
+	}
+	.staffing-grid {
+		flex-direction: column;
+	}
+	.staff-container {
+		width: 100%;
+		margin: 20px 0;
+		justify-content: center;
+	}
+	.staff-main-information {
+		margin-left: 0;
+		margin-top: 15px;
+		text-align: center;
+	}
+	.other-staff-contact-buttons {
+		margin-top: 10px;
+	}
 }
