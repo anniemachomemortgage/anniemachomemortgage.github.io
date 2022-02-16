@@ -1239,6 +1239,19 @@ section#originator {
 }
 
 @media only screen and (max-width: 900px) {
+	.main-site-background {
+		position: initial;
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+	}
+	.main-site-summary {
+		display: none;
+	}
+	.main-site-background > a:first-of-type {
+		display: none;
+	}
 	#homepage-insertion {
 		display: flex;
 		flex-direction: column;
@@ -1254,7 +1267,7 @@ section#originator {
 		justify-content: center;
 	}
 	.team-member {
-		min-width: 50%;
+		min-width: 100%;
 	}
 	.contact-tmc-buttons {
 		border-bottom: none;
@@ -1300,5 +1313,13 @@ section#originator {
 	}
 	.team-member-information button, .team-member-information button.go {
 		margin: 5px 0;
+	}
+	.text-center {
+		text-align: center;
+	}
+	.sitemaps {
+		justify-content: center;
+		align-items: flex-start;
+		flex-direction: column;
 	}
 }
