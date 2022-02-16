@@ -1224,7 +1224,7 @@ section#originator {
 	outline: none;
 	padding: 22px;
 	margin: 5px 0 !important;
-	min-width: 205px !important;
+	min-width: 184px !important;
 	margin: 5px 0;
 	background: var(--greenish);
 	color: var(--white);
@@ -1248,6 +1248,7 @@ section#originator {
 .staff-main-information {
 	text-align: left;
 	min-height: 77px;
+	margin-left: 24px;
 }
 
 .staff-information {
@@ -1255,21 +1256,20 @@ section#originator {
 }
 
 .additional-staff-portrait {
-	background: #c6c7c787;
-	margin: 0px 0 15px;
-	min-height: 150px;
-	min-width: 150px;
-	max-height: 150px;
-	max-width: 150px;
+	border-radius: 2px;
+	min-height: 139px;
+	min-width: 139px;
+	max-height: 139px;
+	max-width: 139px;
 }
 
 .staff-container {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: flex-start;
 	align-items: flex-start;
-	width: 46%;
-	margin: 39px 6px;
+	width: 49%;
+	margin: 20px 0;
 	border-radius: 2%;
 	flex-wrap: wrap;
 }
