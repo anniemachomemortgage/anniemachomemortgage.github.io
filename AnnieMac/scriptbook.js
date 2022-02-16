@@ -1188,6 +1188,9 @@ $(function() {
 					if (window.matchMedia('(max-width: 1046px)').matches) {
 						$("#additional-staff").prependTo("#static-content");
 					};
+					if (window.matchMedia('(min-width: 1046px)').matches) {
+						$("#additional-staff").appendTo("#blank_page");
+					};
 				});			
 			};
 		};
