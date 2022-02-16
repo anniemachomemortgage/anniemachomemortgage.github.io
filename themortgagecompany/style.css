@@ -1251,7 +1251,7 @@ section#originator {
 	.team-member-section {
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: space-between;
+		justify-content: center;
 	}
 	.team-member {
 		min-width: 50%;
@@ -1277,7 +1277,7 @@ section#originator {
 	#static-content h3 {
 		display: block;
 	}
-	.staffing-grid {
+	.staffing-grid, .team-member-basics {
 		flex-direction: column;
 	}
 	.staff-container {
@@ -1285,12 +1285,20 @@ section#originator {
 		margin: 20px 0;
 		justify-content: center;
 	}
-	.staff-main-information {
+	.staff-main-information, .team-titles {
 		margin-left: 0;
 		margin-top: 15px;
 		text-align: center;
 	}
 	.other-staff-contact-buttons {
 		margin-top: 10px;
+	}
+	.contact-tmc-buttons {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.team-member-information button, .team-member-information button.go {
+		margin: 5px 0;
 	}
 }
