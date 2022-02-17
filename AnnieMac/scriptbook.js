@@ -1,36 +1,36 @@
 $(function() {
-	// $('#navigation-menu ul li ul').addClass('sub-menu-links');
-	// $("#side-bar-navigation-toggle").click(function () {
-	// 	$('#navigation-sidebar').toggleClass('hide');
-	// });
-	// $("#close-navigation-side").click(function () {
-	// 	$('#navigation-sidebar').toggleClass('hide');
-	// });
-	// $(".navigation-sectional ul li ul").addClass("sub-site-navigation");
-	// $(".navigation-sectional ul > li.has-children:nth-child(1) > ul").children().wrapAll("<div class='sub-site-navigation-listing'></div>");
-	// $(".navigation-sectional ul > li.has-children:nth-child(2) > ul").children().wrapAll("<div class='sub-site-navigation-listing'></div>");
-	// $(".navigation-sectional ul > li.has-children:nth-child(3) > ul").children().wrapAll("<div class='sub-site-navigation-listing'></div>");
-	// $(".navigation-sectional ul > li.has-children:nth-child(4) > ul").children().wrapAll("<div class='sub-site-navigation-listing'></div>");
-	// $('.navigation-sidebar-sectional ul li.has-children:nth-child(1) ul').wrapAll("<div class='option-listing'></div>");
-	// $('.navigation-sidebar-sectional ul li.has-children:nth-child(2) ul').wrapAll("<div class='option-listing'></div>");
-	// $('.navigation-sidebar-sectional ul li.has-children:nth-child(3) ul').wrapAll("<div class='option-listing'></div>");
-	// $('.navigation-sidebar-sectional ul li.has-children:nth-child(4) ul').wrapAll("<div class='option-listing'></div>");
-	// $('.navigation-sidebar-sectional ul li ul li').addClass("option-listing-description");
-	// $(".navigation-sidebar-sectional ul.menu.nav>li>a").wrap("<h4></h4>");
-	// $('.navigation-sidebar-sectional ul li ul li a').unwrap();
-	// $(".navigation-sidebar-sectional .option-listing a").wrap("<strong></strong>");
-	// $( ".navigation-sidebar-sectional .option-listing a" ).append( "<div class='option-listing-go'><i class='fas fa-arrow-circle-right'></i></div>" );
-	// $(function() {
-	// 	var childrenItem = $('.navigation-sidebar-sectional ul li.has-children');
-	// 	var childrenSecondList = $('.navigation-sidebar-sectional ul li ul');
-	// 	var childrenLink = $('.navigation-sidebar-sectional ul');
-	// 	$(childrenItem).click(function(e) {
-	// 		$(this).children('div').toggleClass('open-sub');
-	// 		$(this).toggleClass('change');
-	// 		// e.preventDefault();
-	// 	});
-	// 	$(childrenLink).find('li:has(ul)').children('a').removeAttr('href');	
-	// });
+	$('#navigation-menu ul li ul').addClass('sub-menu-links');
+	$("#side-bar-navigation-toggle").click(function () {
+		$('#navigation-sidebar').toggleClass('hide');
+	});
+	$("#close-navigation-side").click(function () {
+		$('#navigation-sidebar').toggleClass('hide');
+	});
+	$(".navigation-sectional ul li ul").addClass("sub-site-navigation");
+	$(".navigation-sectional ul > li.has-children:nth-child(1) > ul").children().wrapAll("<div class='sub-site-navigation-listing'></div>");
+	$(".navigation-sectional ul > li.has-children:nth-child(2) > ul").children().wrapAll("<div class='sub-site-navigation-listing'></div>");
+	$(".navigation-sectional ul > li.has-children:nth-child(3) > ul").children().wrapAll("<div class='sub-site-navigation-listing'></div>");
+	$(".navigation-sectional ul > li.has-children:nth-child(4) > ul").children().wrapAll("<div class='sub-site-navigation-listing'></div>");
+	$('.navigation-sidebar-sectional ul li.has-children:nth-child(1) ul').wrapAll("<div class='option-listing'></div>");
+	$('.navigation-sidebar-sectional ul li.has-children:nth-child(2) ul').wrapAll("<div class='option-listing'></div>");
+	$('.navigation-sidebar-sectional ul li.has-children:nth-child(3) ul').wrapAll("<div class='option-listing'></div>");
+	$('.navigation-sidebar-sectional ul li.has-children:nth-child(4) ul').wrapAll("<div class='option-listing'></div>");
+	$('.navigation-sidebar-sectional ul li ul li').addClass("option-listing-description");
+	$(".navigation-sidebar-sectional ul.menu.nav>li>a").wrap("<h4></h4>");
+	$('.navigation-sidebar-sectional ul li ul li a').unwrap();
+	$(".navigation-sidebar-sectional .option-listing a").wrap("<strong></strong>");
+	$( ".navigation-sidebar-sectional .option-listing a" ).append( "<div class='option-listing-go'><i class='fas fa-arrow-circle-right'></i></div>" );
+	$(function() {
+		var childrenItem = $('.navigation-sidebar-sectional ul li.has-children');
+		var childrenSecondList = $('.navigation-sidebar-sectional ul li ul');
+		var childrenLink = $('.navigation-sidebar-sectional ul');
+		$(childrenItem).click(function(e) {
+			$(this).children('div').toggleClass('open-sub');
+			$(this).toggleClass('change');
+			// e.preventDefault();
+		});
+		$(childrenLink).find('li:has(ul)').children('a').removeAttr('href');	
+	});
 	$('link[href="/dev/themes/annie_mac/core.css"]').remove();
 	if ((window.location.href.indexOf("themtgco.com/testimonial") > -1)) {
 		var useNewTestimonalTemplate = true;
