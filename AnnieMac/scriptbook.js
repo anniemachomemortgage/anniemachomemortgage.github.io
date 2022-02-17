@@ -1,11 +1,5 @@
 $(function() {
 	$('link[href="/dev/themes/annie_mac/core.css"]').remove();
-	$('link[href="/bundles/sudouxcmstheme/lib/jquery/magnificpopup/magnificpopup.css"]').remove();
-	$('link[href="/bundles/sudouxcmstheme/lib/jquery/jqueryui/css/smoothness/jquery-ui-1.10.1.custom.css').remove();
-	$('link[href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css').remove();
-	$('link[href="/dev/themes/annie_mac/animate.css').remove();
-	$('link[href="/dev/themes/new_rhfunding/slick.css').remove();
-	$('link[href="/dev/themes/annie_mac/slick-theme.css').remove();
 	if ((window.location.href.indexOf("themtgco.com/testimonial") > -1)) {
 		var useNewTestimonalTemplate = true;
 	};
