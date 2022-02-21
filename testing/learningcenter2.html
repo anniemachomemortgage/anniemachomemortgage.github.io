@@ -26,14 +26,14 @@
 	  const titleText = document.createTextNode(resource['title']);
 	  title.appendChild(titleText);
 	  resourceListing.appendChild(title);
+	  resourceListing.appendChild(document.createElement('br'));
 	  // const urlText = document.createTextNode(`URL: ${resource['url']}`);
 	  // resourceListing.appendChild(document.createElement('br'));
 	  // resourceListing.appendChild(urlText);
 	  
-	  const urlContainer = document.createElement('a');
+	  const urlContainer = document.createElement('span');
 	  const urlLink = document.createTextNode(resource['url']);
-	  var linktoResource = resource['url'];
-	  console.log(linktoResource);
+	  
 	  urlContainer.appendChild(urlLink);
 	  resourceListing.appendChild(urlContainer);
 	  
