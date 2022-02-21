@@ -16,23 +16,13 @@
 
 	<script>
 	async function populate() {
-	const requestURL = './heroes.json';
+	const requestURL = './heroes.js';
 	const request = new Request(requestURL);
 	const response = await fetch(request);
-	const superHeroes = await response.json();
-	populateHeader(superHeroes);
-	populateHeroes(superHeroes);
+	const learningCenter = await response.json();
+	populateResources(learningCenter);
 	}
-	function populateHeader(obj) {
-		const header = document.querySelector('header');
-		const headerH1 = document.createElement('h1');
-		headerH1.textContent = 'AnnieMac Home Mortgage - Learning Center';
-		header.appendChild(myH1);
-		const headerContent = document.createElement('p');
-		headerContent.textContent = "This is a test.";
-		header.appendChild(headerContent);
-	}
-	function populateHeroes(obj) {
+	function populateResources(obj) {
 		const section = document.querySelector('section');
 		const heroes = obj['members'];
 		for (const hero of heroes) {
