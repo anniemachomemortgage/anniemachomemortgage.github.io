@@ -23,12 +23,10 @@
 	data.forEach(resource => {
 	  const resourceListing = document.createElement('li');
 	  const title = document.createElement('strong');
-	  const titleLink = document.createAttribute('a');
 	  const titleText = document.createTextNode(resource['title']);
-	  const urlText = document.createTextNode(resource['url']);
 	  title.appendChild(titleText);
-	  titleText.setAttributeNode(titleLink);
 	  resourceListing.appendChild(title);
+	  const urlText = document.createTextNode(`URL: ${resource['url']}`);
 	  resourceListing.appendChild(document.createElement('br'));
 	  resourceListing.appendChild(urlText);
 	  const summaryText = document.createTextNode(`Summary: ${resource['description']}`);
