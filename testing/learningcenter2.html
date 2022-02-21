@@ -2,56 +2,41 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AnnieMac Learning Center</title>
-  <script>
-  async function populate() {
-  
-	const requestURL = './learningcenter.json';
-	const request = new Request(requestURL);
-  
-	const response = await fetch(request);
-	const superHeroes = await response.json();
-  
-	populateHeader(superHeroes);
-	populateHeroes(superHeroes);
-  
-  }
-  
-  async function loadResourceCenter(requestURL) {
-	const response = await fetch(requestURL, {
-	  headers: {
-		'Accept': 'application/json'
-	  }
-	});
-	return await response.json();
-  }
-  function buildResourceCenter(data) {
-	const selector = document.querySelector('#resource-list');
-	const resourceList = document.createElement('ul');
-	data.forEach(resource => {
-	  const resourceListing = document.createElement('li');
-	  const title = document.createElement('strong');
-	  const titleText = document.createTextNode(resource['title']);
-	  title.appendChild(titleText);
-	  resourceListing.appendChild(title);
-	  resourceListing.appendChild(document.createElement('br'));
-	  const urlContainer = document.createElement('span');
-	  const urlLink = document.createTextNode(resource['url']);
-	  urlContainer.appendChild(urlLink);
-	  resourceListing.appendChild(urlContainer);
-	  const summaryText = document.createTextNode(`Summary: ${resource['description']}`);
-	  resourceListing.appendChild(document.createElement('br'));
-	  resourceListing.appendChild(summaryText);
-	  resourceList.appendChild(resourceListing);
-	});
-	selector.appendChild(resourceList);
-  }
-  loadResourceCenter('./learningcenter.json').then(buildResourceCenter).catch(error => {
-	  console.log(error);
-	});
-  </script>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<title>AnnieMac Learning Center</title>
+  	<script>
+		async function loadResourceCenter(requestURL) {
+			const response = await fetch(requestURL, {
+				headers: {
+					'Accept': 'application/json'
+				}
+			});
+			return await response.json();
+		}
+		function buildResourceCenter(data) {
+			const selector = document.querySelector('#resource-list');
+			const resourceList = document.createElement('ul');
+			data.forEach(resource => {
+				const resourceListing = document.createElement('li');
+				const title = document.createElement('strong');
+				const titleText = document.createTextNode(resource['title']);
+				title.appendChild(titleText);
+				resourceListing.appendChild(title);
+				resourceListing.appendChild(document.createElement('br'));
+				const urlContainer = document.createElement('span');
+				const urlLink = document.createTextNode(resource['url']);
+				urlContainer.appendChild(urlLink);
+				resourceListing.appendChild(urlContainer);
+				const summaryText = document.createTextNode(`Summary: ${resource['description']}`);
+				resourceListing.appendChild(document.createElement('br'));
+				resourceListing.appendChild(summaryText);
+				resourceList.appendChild(resourceListing);
+			});
+			selector.appendChild(resourceList);
+		}
+		loadResourceCenter('./learningcenter.json').then(buildResourceCenter);
+  	</script>
 </head>
 <body>
   <div>
