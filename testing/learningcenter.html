@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CSIS-2470: In Class 3</title>
+
+  <style>
+  p {
+	margin: 0;
+  }
+
+  .wrapper {
+	margin: 50px auto;
+	max-width: 1000px;
+  }
+
+  .form {
+	display: flex;
+	margin: 0 -10px;
+  }
+
+  .form__col {
+	padding: 0 10px;
+  }
+
+  .button {
+	width: 100%;
+  }
+
+  .table {
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	margin-top: 40px;
+	padding: 0;
+	width: 100%;
+  }
+
+  .table th,
+  .table td {
+	border: 1px solid #ddd;
+	padding: 5px 10px;
+	text-align: left;
+  }
+  </style>
+
+  <script>
+  async function loadBooks() {
+	return new Promise((resolve, reject) => {
+	  const request = new XMLHttpRequest();
+
+	  request.addEventListener('load', () => {
+		if (request.readyState === 4) {
+		  resolve(JSON.parse(request.responseText));
+		}
+	  });
+
+	  request.open('GET', '/learningcenter.json', true);
+	  request.send();
+	});
+  }
+  </script>
+
+</head>
+<body>
+
+  <div class="wrapper">
+	<h1>Library Database</h1>
+
+	<form class="form" onsubmit="event.preventDefault();">
+	  <div class="form__col">
+		<label for="title-select">Select a book by title:</label>
+		<select id="title-select" name="title">
+		  <option value="" selected>-- Please select an option --</option>
+		</select>
+	  </div>
+	  <div class="form__col">
+		<p><strong>or</strong></p>
+	  </div>
+	  <div class="form__col">
+		<label for="author-field">Search by author:</label>
+		<input type="text" id="author-field" name="author">
+	  </div>
+	  <div class="form__col">
+		<button id="search" class="button" type="button">Find Books</button>
+	  </div>
+	</form>
+
+	<table id="list" class="table">
+	  <thead>
+		<tr>
+		  <th scope="col">#</th>
+		  <th scope="col">Title</th>
+		  <th scope="col">Author</th>
+		</tr>
+	  </thead>
+	  <tbody>
+		<tr>
+		  <td>&nbsp;</td>
+		  <td colspan="2">Please search to see a list of available books</td>
+		</tr>
+	  </tbody>
+	</table>
+  </div>
+
+  <script>
+  (async function() {
+	let books = [];
+
+	try {
+	  books = await loadBooks();
+	} catch(error) {
+	  console.log(error);
+	}
+
+	(function populateSelect() {
+	  const form = document.querySelector('form');
+	  const select = form.querySelector('#title-select');
+
+	  if (!!select) {
+		books.forEach(book => {
+		  const titleText = document.createTextNode(book['title']);
+		  const title = document.createElement('option');
+		  title.setAttribute('value', book['title']);
+		  title.appendChild(titleText);
+		  select.appendChild(title);
+		});
+	  }
+	})();
+
+	function populateList(results) {
+	  const table = document.querySelector('table');
+	  const tbody = table.querySelector('tbody');
+
+	  if (!!tbody) {
+		while (tbody.hasChildNodes()) {
+		  tbody.removeChild(tbody.firstChild);
+		}
+
+		results.forEach(book => {
+		  const row = document.createElement('tr');
+
+		  const numText = document.createTextNode(book['authorid']);
+		  const num = document.createElement('td');
+		  num.appendChild(numText);
+		  row.appendChild(num);
+
+		  const titleText = document.createTextNode(book['title']);
+		  const title = document.createElement('td');
+		  title.appendChild(titleText);
+		  row.appendChild(title);
+
+		  const authorText = document.createTextNode(book['author']);
+		  const author = document.createElement('td');
+		  author.appendChild(authorText);
+		  row.appendChild(author);
+
+		  tbody.appendChild(row);
+		});
+	  }
+	}
+
+	function filterBooks(books, search) {
+	  return books.filter(book => {
+		return book['title'].toLowerCase().includes(search.toLowerCase())
+		  || book['author'].toLowerCase().includes(search.toLowerCase());
+	  });
+	}
+
+	const search = document.getElementById('search');
+
+	search.addEventListener('click', () => {
+	  const form = document.querySelector('form');
+	  const selectVal = form.querySelector('#title-select').value;
+	  const authorVal = form.querySelector('#author-field').value;
+
+	  const search = selectVal || authorVal;
+
+	  populateList(filterBooks(books, search));
+	});
+  })();
+  </script>
+
+</body>
+</html>
