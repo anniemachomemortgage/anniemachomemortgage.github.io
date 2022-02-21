@@ -9,7 +9,7 @@
 	<style>
 	</style>
 	<script>
-  	async function loadBooks(requestURL) {
+  	async function loadResourceCenter(requestURL) {
 		const response = await fetch(requestURL, {
 			headers: {
 				'Accept': 'application/json'
@@ -41,7 +41,7 @@
 		});
 		selector.appendChild(resourceList);
 	}
-	loadBooks('./learningcenter.json').then(buildResourceCenter).catch(error => {
+	loadResourceCenter('./learningcenter.json').then(buildResourceCenter).catch(error => {
 		console.log(error);
 	});
   </script>
