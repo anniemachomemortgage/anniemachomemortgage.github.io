@@ -1,23 +1,138 @@
-[
-  {
-	"authorid": 1,
-	"author": "Jules Verne",
-	"title": "A Journey to the Center of the Earth",
-	"description": "Famous adventure tale that practically launched the genre in 1864.",
-	"year": 1864
-  },
-  {
-	"authorid": 2,
-	"author": "H.G. Wells",
-	"title": "The War of the Worlds",
-	"description": "The Martians come to England. A famous example of invasion literature from 1898.",
-	"year": 1898
-  },
-  {
-	"authorid": 21,
-	"author": "Theodore Sturgeon",
-	"title": "Venus Plus X",
-	"description": "20th century Charlie Johns wakes in a future filled with overpopulation, bigotry and no gender.",
-	"year": 1960
-  }
+[{
+		"authorid": 1,
+		"author": "AnnieMac Home Mortgage",
+		"title": "Processing and Underwriting",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 2,
+		"author": "AnnieMac Home Mortgage",
+		"title": "Loan Interest Rates",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "The Steps to Refinancing",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "The Steps to Refinancing",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "The Steps to Refinancing",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "The Steps to Refinancing",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "The Steps to Refinancing",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "The Steps to Refinancing",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "The Steps to Refinancing",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "The Steps to Refinancing",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "The Steps to Refinancing",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "The Steps to Refinancing",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "The Steps to Refinancing",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "The Steps to Refinancing",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "The Steps to Refinancing",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "The Steps to Refinancing",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "The Steps to Refinancing",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}
 ]
