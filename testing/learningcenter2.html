@@ -16,17 +16,15 @@
 		}
 		function buildResourceCenter(data) {
 			const selector = document.querySelector('#resource-list');
-			const resourceList = document.createElement('div');
+			const resourceList = document.createElement('ul');
 			data.forEach(resource => {
-				const resourceListing = document.createElement('ul');
-				const titleContainer = document.createElement('a');
-				const title = document.createElement('li');
+				const resourceListing = document.createElement('li');
+				const title = document.createElement('a');
 				const titleText = document.createTextNode(resource['title']);
-				titleContainer.appendChild(title);
 				title.appendChild(titleText);
 				resourceListing.appendChild(title);
 				resourceListing.appendChild(document.createElement('br'));
-				const urlContainer = document.createElement('span');
+				const urlContainer = document.createElement('h4');
 				const urlLink = document.createTextNode(resource['url']);
 				urlContainer.appendChild(urlLink);
 				resourceListing.appendChild(urlContainer);
