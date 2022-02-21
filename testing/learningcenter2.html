@@ -24,25 +24,25 @@
   }
 
   function buildBookList(data) {
-	const selector = document.querySelector('#book-list');
-	const bookList = document.createElement('ul');
+	const selector = document.querySelector('#resource-list');
+	const resourceList = document.createElement('ul');
 
 	data.forEach(book => {
-	  const bookItem = document.createElement('li');
+	  const resourceListing = document.createElement('li');
 
 	  const title = document.createElement('strong');
 	  const titleText = document.createTextNode(book['title']);
 	  title.appendChild(titleText);
-	  bookItem.appendChild(title);
+	  resourceListing.appendChild(title);
 
-	  const authorText = document.createTextNode(`Author: ${book['author']}`);
-	  bookItem.appendChild(document.createElement('br'));
-	  bookItem.appendChild(authorText);
+	  const urlText = document.createTextNode(`URL: ${book['url']}`);
+	  resourceListing.appendChild(document.createElement('br'));
+	  resourceListing.appendChild(urlText);
 
 	  if (book['forSale']) {
 		const priceText = document.createTextNode(`Price: $${book['price']}`);
-		bookItem.appendChild(document.createElement('br'));
-		bookItem.appendChild(priceText);
+		resourceListing.appendChild(document.createElement('br'));
+		resourceListing.appendChild(priceText);
 	  }
 
 	  if (book['awards'] instanceof Array) {
@@ -56,15 +56,15 @@
 		  awardList.appendChild(awardItem);
 		});
 
-		bookItem.appendChild(document.createElement('br'));
-		bookItem.appendChild(awardText);
-		bookItem.appendChild(awardList);
+		resourceListing.appendChild(document.createElement('br'));
+		resourceListing.appendChild(awardText);
+		resourceListing.appendChild(awardList);
 	  }
 
-	  bookList.appendChild(bookItem);
+	  resourceList.appendChild(resourceListing);
 	});
 
-	selector.appendChild(bookList);
+	selector.appendChild(resourceList);
   }
 
   loadBooks('./learningcenter.json')
@@ -78,8 +78,8 @@
 <body>
 
   <div>
-	<h3>List of Cool Books</h3>
-	<div id="book-list"></div>
+	<h3>AnnieMac Resource Center</h3>
+	<div id="resource-list"></div>
   </div>
 
 </body>
