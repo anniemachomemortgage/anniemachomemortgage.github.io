@@ -25,7 +25,7 @@
 	}, {
 		"authorid": 3,
 		"author": "AnnieMac Home Mortgage",
-		"title": "The Steps to Refinancing",
+		"title": "Pre-qualification and Pre-approval Steps",
 		"description": "",
 		"url": "",
 		"image": "",
@@ -33,7 +33,7 @@
 	}, {
 		"authorid": 3,
 		"author": "AnnieMac Home Mortgage",
-		"title": "The Steps to Refinancing",
+		"title": "What to Expect at a Closing",
 		"description": "",
 		"url": "",
 		"image": "",
@@ -41,7 +41,7 @@
 	}, {
 		"authorid": 3,
 		"author": "AnnieMac Home Mortgage",
-		"title": "The Steps to Refinancing",
+		"title": "Fees and Closing Costs",
 		"description": "",
 		"url": "",
 		"image": "",
@@ -49,7 +49,7 @@
 	}, {
 		"authorid": 3,
 		"author": "AnnieMac Home Mortgage",
-		"title": "The Steps to Refinancing",
+		"title": "Home Inspections",
 		"description": "",
 		"url": "",
 		"image": "",
@@ -57,7 +57,7 @@
 	}, {
 		"authorid": 3,
 		"author": "AnnieMac Home Mortgage",
-		"title": "The Steps to Refinancing",
+		"title": "Home Appraisals",
 		"description": "",
 		"url": "",
 		"image": "",
@@ -65,7 +65,7 @@
 	}, {
 		"authorid": 3,
 		"author": "AnnieMac Home Mortgage",
-		"title": "The Steps to Refinancing",
+		"title": "10 Quick Tips Every New Homebuyer Should Know",
 		"description": "",
 		"url": "",
 		"image": "",
@@ -73,7 +73,7 @@
 	}, {
 		"authorid": 3,
 		"author": "AnnieMac Home Mortgage",
-		"title": "The Steps to Refinancing",
+		"title": "Can I Qualify for a Home Loan with Student Loan Debt",
 		"description": "",
 		"url": "",
 		"image": "",
@@ -81,7 +81,7 @@
 	}, {
 		"authorid": 3,
 		"author": "AnnieMac Home Mortgage",
-		"title": "The Steps to Refinancing",
+		"title": "Mortgage Myths",
 		"description": "",
 		"url": "",
 		"image": "",
@@ -89,7 +89,7 @@
 	}, {
 		"authorid": 3,
 		"author": "AnnieMac Home Mortgage",
-		"title": "The Steps to Refinancing",
+		"title": "15 vs 30 Year Mortgages",
 		"description": "",
 		"url": "",
 		"image": "",
@@ -97,7 +97,7 @@
 	}, {
 		"authorid": 3,
 		"author": "AnnieMac Home Mortgage",
-		"title": "The Steps to Refinancing",
+		"title": "Mortgage Insurance",
 		"description": "",
 		"url": "",
 		"image": "",
@@ -105,7 +105,7 @@
 	}, {
 		"authorid": 3,
 		"author": "AnnieMac Home Mortgage",
-		"title": "The Steps to Refinancing",
+		"title": "Home Search Checklist",
 		"description": "",
 		"url": "",
 		"image": "",
@@ -113,7 +113,7 @@
 	}, {
 		"authorid": 3,
 		"author": "AnnieMac Home Mortgage",
-		"title": "The Steps to Refinancing",
+		"title": "Understanding Credit Scores",
 		"description": "",
 		"url": "",
 		"image": "",
@@ -121,7 +121,7 @@
 	}, {
 		"authorid": 3,
 		"author": "AnnieMac Home Mortgage",
-		"title": "The Steps to Refinancing",
+		"title": "What Is a Bridge Loan",
 		"description": "",
 		"url": "",
 		"image": "",
@@ -129,7 +129,183 @@
 	}, {
 		"authorid": 3,
 		"author": "AnnieMac Home Mortgage",
-		"title": "The Steps to Refinancing",
+		"title": "Do's and Don'ts of Shopping for Mortgage Rates",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "Fixed Rate vs Adjustable Rate Mortgage",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "Questions to Ask During a Home Tour",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "What to Know About VA Loans If You are a Spouse In the Military",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "When Is the Best time to Refinance",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "How Often Can You Refinance Your Home",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "Tips to Improve Your Credit Score",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "How to Use a Mortgage Calculator",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "What You Need to Know About Modular Homes",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "Should I Buy a Lake House",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "Mobile Home Lons",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "Houseboat Loans",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "Condo Loans",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "What Is a Second Mortgage?",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "Questions to Ask When Refinancing Your Home Loan",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "Questions and Answers with Investment Topics",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "How to Save Enough Money For a Downpayment",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "Why Did My Credit Score Drop?",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "How to Avoid a Gap Between Selling and Buying",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "Cash Out Refinance",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "Mortgage Rate Locks",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "Refinance Appraisal",
+		"description": "",
+		"url": "",
+		"image": "",
+		"categories": "advice"
+	}, {
+		"authorid": 3,
+		"author": "AnnieMac Home Mortgage",
+		"title": "Documents Required For Purchasing a Home",
 		"description": "",
 		"url": "",
 		"image": "",
