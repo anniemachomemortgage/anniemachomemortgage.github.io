@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>CSIS-2470: In Class 3</title>
+  <title>AnnieMac Home Mortgage Learning Center</title>
 
   <style>
   p {
@@ -68,7 +68,7 @@
 <body>
 
   <div class="wrapper">
-	<h1>Library Database</h1>
+	<h1>Learning Center Database</h1>
 
 	<form class="form" onsubmit="event.preventDefault();">
 	  <div class="form__col">
@@ -81,11 +81,11 @@
 		<p><strong>or</strong></p>
 	  </div>
 	  <div class="form__col">
-		<label for="author-field">Search by author:</label>
+		<label for="author-field">Search by name:</label>
 		<input type="text" id="author-field" name="author">
 	  </div>
 	  <div class="form__col">
-		<button id="search" class="button" type="button">Find Books</button>
+		<button id="search" class="button" type="button">Find Resource</button>
 	  </div>
 	</form>
 
@@ -117,17 +117,25 @@
 	}
 
 	(function populateSelect() {
+		
 	  const form = document.querySelector('form');
 	  const select = form.querySelector('#title-select');
-
-	  if (!!select) {
-		books.forEach(book => {
-		  const titleText = document.createTextNode(book['title']);
-		  const title = document.createElement('option');
-		  title.setAttribute('value', book['title']);
-		  title.appendChild(titleText);
-		  select.appendChild(title);
-		});
+	  books.forEach(book => {
+		const titleText = document.createTextNode(book['title']);
+		const title = document.createElement('option');
+		title.setAttribute('value', book['title']);
+		title.appendChild(titleText);
+		select.appendChild(title);
+	  });
+	  
+	  // if (!!select) {
+		// books.forEach(book => {
+		//   const titleText = document.createTextNode(book['title']);
+		//   const title = document.createElement('option');
+		//   title.setAttribute('value', book['title']);
+		//   title.appendChild(titleText);
+		//   select.appendChild(title);
+		// });
 	  }
 	})();
 
