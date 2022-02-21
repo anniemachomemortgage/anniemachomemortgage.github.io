@@ -16,10 +16,10 @@
 		}
 		function buildResourceCenter(data) {
 			const selector = document.querySelector('#resource-list');
-			const resourceList = document.createElement('article');
+			const resourceList = document.createElement('div');
 			data.forEach(resource => {
-				const resourceListing = document.createElement('summary');
-				const title = document.createElement('h2');
+				const resourceListing = document.createElement('details');
+				const title = document.createElement('summary');
 				const titleText = document.createTextNode(resource['title']);
 				title.appendChild(titleText);
 				resourceListing.appendChild(title);
