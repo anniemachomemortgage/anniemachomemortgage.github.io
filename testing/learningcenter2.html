@@ -18,8 +18,8 @@
 			const selector = document.querySelector('#resource-list');
 			const resourceList = document.createElement('div');
 			data.forEach(resource => {
-				const resourceListing = document.createElement('details');
-				const title = document.createElement('summary');
+				const resourceListing = document.createElement('ul');
+				const title = document.createElement('li');
 				const titleText = document.createTextNode(resource['title']);
 				title.appendChild(titleText);
 				resourceListing.appendChild(title);
