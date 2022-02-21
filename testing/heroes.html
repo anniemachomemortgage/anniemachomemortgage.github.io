@@ -25,12 +25,12 @@
 	}
 	function populateHeader(obj) {
 		const header = document.querySelector('header');
-		const myH1 = document.createElement('h1');
-		myH1.textContent = obj['squadName'];
+		const headerH1 = document.createElement('h1');
+		headerH1.textContent = 'AnnieMac Home Mortgage - Learning Center';
 		header.appendChild(myH1);
-		const myPara = document.createElement('p');
-		myPara.textContent = `Hometown: ${obj['homeTown']} // Formed: ${obj['formed']}`;
-		header.appendChild(myPara);
+		const headerContent = document.createElement('p');
+		headerContent.textContent = "This is a test.";
+		header.appendChild(headerContent);
 	}
 	function populateHeroes(obj) {
 		const section = document.querySelector('section');
