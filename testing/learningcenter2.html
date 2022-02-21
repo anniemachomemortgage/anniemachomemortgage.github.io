@@ -29,10 +29,10 @@
 			const titleText = document.createTextNode(resource['title']);
 			title.appendChild(titleText);
 			resourceListing.appendChild(title);
-			const urlText = document.createTextNode($ {resource['url']} );
+			const urlText = document.createTextNode($ { resource['url'] });
 			resourceListing.appendChild(document.createElement('br'));
 			resourceListing.appendChild(urlText);
-			const summaryText = document.createTextNode($ {resource['description']} );
+			const summaryText = document.createTextNode(`Summary: ${resource['description']}`);
 			resourceListing.appendChild(document.createElement('br'));
 			resourceListing.appendChild(summaryText);
 			resourceList.appendChild(resourceListing);
@@ -46,7 +46,7 @@
   </head>
   <body>
   	<div>
-  		<h3>AnnieMac Home Mortgage Learning Center</h3>
+  		<h3>AnnieMac Resource Center</h3>
   		<div id="resource-list"></div>
   	</div>
   </body>
