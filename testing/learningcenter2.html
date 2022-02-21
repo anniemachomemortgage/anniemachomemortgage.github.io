@@ -29,10 +29,8 @@
 	  title.appendChild(titleText);
 	  titleText.setAttributeNode(titleLink);
 	  resourceListing.appendChild(title);
-	  
 	  resourceListing.appendChild(document.createElement('br'));
 	  resourceListing.appendChild(urlText);
-	 
 	  const summaryText = document.createTextNode(`Summary: ${resource['description']}`);
 	  resourceListing.appendChild(document.createElement('br'));
 	  resourceListing.appendChild(summaryText);
