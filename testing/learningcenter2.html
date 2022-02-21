@@ -1,50 +1,53 @@
 
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AnnieMac Home Mortgage Learning Center2</title>
-  <script>
-  async function loadBooks(requestURL) {
-	const response = await fetch(requestURL, {
-	  headers: {
-		'Accept': 'application/json'
-	  }
-	});
-	if (!response.ok) {
-	  throw new Error(response.statusText);
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AnnieMac Home Mortgage Learning Center</title>
+	<style>
+	</style>
+	<script>
+  	async function loadBooks(requestURL) {
+		const response = await fetch(requestURL, {
+			headers: {
+				'Accept': 'application/json'
+			}
+		});
+		if (!response.ok) {
+			throw new Error(response.statusText);
+		}
+		return await response.json();
 	}
-	return await response.json();
-  }
-  function buildResourceCenter(data) {
-	const selector = document.querySelector('#resource-list');
-	const resourceList = document.createElement('ul');
-	data.forEach(resource => {
-	  const resourceListing = document.createElement('li');
-	  const title = document.createElement('strong');
-	  const titleText = document.createTextNode(resource['title']);
-	  title.appendChild(titleText);
-	  resourceListing.appendChild(title);
-	  const urlText = document.createTextNode(${resource['url']});
-	  resourceListing.appendChild(document.createElement('br'));
-	  resourceListing.appendChild(urlText);
-	  const summaryText = document.createTextNode(`Summary: ${resource['description']}`);
-	  resourceListing.appendChild(document.createElement('br'));
-	  resourceListing.appendChild(summaryText);
-	  resourceList.appendChild(resourceListing);
-	});
-	selector.appendChild(resourceList);
-  }
-  loadBooks('./learningcenter.json').then(buildResourceCenter).catch(error => {
-	  console.log(error);
+	function buildResourceCenter(data) {
+		const selector = document.querySelector('#resource-list');
+		const resourceList = document.createElement('ul');
+		data.forEach(resource => {
+			const resourceListing = document.createElement('li');
+			const title = document.createElement('strong');
+			const titleText = document.createTextNode(resource['title']);
+			title.appendChild(titleText);
+			resourceListing.appendChild(title);
+			const urlText = document.createTextNode($ { resource['url'] });
+			resourceListing.appendChild(document.createElement('br'));
+			resourceListing.appendChild(urlText);
+			const summaryText = document.createTextNode(`Summary: ${resource['description']}`);
+			resourceListing.appendChild(document.createElement('br'));
+			resourceListing.appendChild(summaryText);
+			resourceList.appendChild(resourceListing);
+		});
+		selector.appendChild(resourceList);
+	}
+	loadBooks('./learningcenter.json').then(buildResourceCenter).catch(error => {
+		console.log(error);
 	});
   </script>
-</head>
-<body>
-  <div>
-	<h3>AnnieMac Resource Center</h3>
-	<div id="resource-list"></div>
-  </div>
-</body>
-</html>
+  </head>
+  <body>
+  	<div>
+  		<h3>AnnieMac Home Mortgage Learning Center</h3>
+  		<div id="resource-list"></div>
+  	</div>
+  </body>
+  </html>
