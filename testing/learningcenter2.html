@@ -24,17 +24,17 @@
 		const selector = document.querySelector('#resource-list');
 		const resourceList = document.createElement('ul');
 		data.forEach(resource => {
-			const link = document.createElement('a');
 			const resourceListing = document.createElement('li');
 			const title = document.createElement('strong');
 			const titleText = document.createTextNode(resource['title']);
 			title.appendChild(titleText);
 			resourceListing.appendChild(title);
-			link.appendChild(resourceListing);
-			const urlText = document.createTextNode($ { resource['url'] });
+			const urlText = document.createTextNode($ {resource['url']} );
 			resourceListing.appendChild(document.createElement('br'));
+			const titleLink = document.createElement('a');
+			titleLink.appendChild(urlText);
 			resourceListing.appendChild(urlText);
-			const summaryText = document.createTextNode(`Summary: ${resource['description']}`);
+			const summaryText = document.createTextNode($ {resource['description']} );
 			resourceListing.appendChild(document.createElement('br'));
 			resourceListing.appendChild(summaryText);
 			resourceList.appendChild(resourceListing);
