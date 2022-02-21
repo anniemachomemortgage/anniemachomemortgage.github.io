@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AnnieMac Home Mortgage Learning Center2</title>
+
+  <script>
+  async function loadBooks(requestURL) {
+	const response = await fetch(requestURL, {
+	  headers: {
+		'Accept': 'application/json'
+	  }
+	});
+
+	if (!response.ok) {
+	  throw new Error(response.statusText);
+	}
+
+	return await response.json();
+  }
+
+  function buildBookList(data) {
+	const selector = document.querySelector('#book-list');
+	const bookList = document.createElement('ul');
+
+	data.forEach(book => {
+	  const bookItem = document.createElement('li');
+
+	  const title = document.createElement('strong');
+	  const titleText = document.createTextNode(book['title']);
+	  title.appendChild(titleText);
+	  bookItem.appendChild(title);
+
+	  const authorText = document.createTextNode(`Author: ${book['author']}`);
+	  bookItem.appendChild(document.createElement('br'));
+	  bookItem.appendChild(authorText);
+
+	  if (book['forSale']) {
+		const priceText = document.createTextNode(`Price: $${book['price']}`);
+		bookItem.appendChild(document.createElement('br'));
+		bookItem.appendChild(priceText);
+	  }
+
+	  if (book['awards'] instanceof Array) {
+		const awardText = document.createTextNode('Awards: ');
+		const awardList = document.createElement('ul');
+
+		book['awards'].forEach(award => {
+		  const awardItem = document.createElement('li');
+		  const awardItemText = document.createTextNode(award);
+		  awardItem.appendChild(awardItemText);
+		  awardList.appendChild(awardItem);
+		});
+
+		bookItem.appendChild(document.createElement('br'));
+		bookItem.appendChild(awardText);
+		bookItem.appendChild(awardList);
+	  }
+
+	  bookList.appendChild(bookItem);
+	});
+
+	selector.appendChild(bookList);
+  }
+
+  loadBooks('./learningcenter.json')
+	.then(buildBookList)
+	.catch(error => {
+	  console.log(error);
+	});
+  </script>
+
+</head>
+<body>
+
+  <div>
+	<h3>List of Cool Books</h3>
+	<div id="book-list"></div>
+  </div>
+
+</body>
+</html>
