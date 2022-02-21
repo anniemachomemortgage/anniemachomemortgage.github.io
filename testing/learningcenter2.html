@@ -24,7 +24,7 @@
 		const selector = document.querySelector('#resource-list');
 		const resourceList = document.createElement('ul');
 		data.forEach(resource => {
-			const link = document.createAttribute('a', ${resource['url']});
+			const link = document.createElement('a');
 			const resourceListing = document.createElement('li');
 			const title = document.createElement('strong');
 			const titleText = document.createTextNode(resource['title']);
