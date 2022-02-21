@@ -27,29 +27,29 @@
 	const selector = document.querySelector('#resource-list');
 	const resourceList = document.createElement('ul');
 
-	data.forEach(book => {
+	data.forEach(resource => {
 	  const resourceListing = document.createElement('li');
 
 	  const title = document.createElement('strong');
-	  const titleText = document.createTextNode(book['title']);
+	  const titleText = document.createTextNode(resource['title']);
 	  title.appendChild(titleText);
 	  resourceListing.appendChild(title);
 
-	  const urlText = document.createTextNode(`URL: ${book['url']}`);
+	  const urlText = document.createTextNode(`URL: ${resource['url']}`);
 	  resourceListing.appendChild(document.createElement('br'));
 	  resourceListing.appendChild(urlText);
 
-	  if (book['forSale']) {
-		const priceText = document.createTextNode(`Price: $${book['price']}`);
+	  if (resource['forSale']) {
+		const priceText = document.createTextNode(`Price: $${resource['price']}`);
 		resourceListing.appendChild(document.createElement('br'));
 		resourceListing.appendChild(priceText);
 	  }
 
-	  if (book['awards'] instanceof Array) {
+	  if (resource['awards'] instanceof Array) {
 		const awardText = document.createTextNode('Awards: ');
 		const awardList = document.createElement('ul');
 
-		book['awards'].forEach(award => {
+		resource['awards'].forEach(award => {
 		  const awardItem = document.createElement('li');
 		  const awardItemText = document.createTextNode(award);
 		  awardItem.appendChild(awardItemText);
