@@ -120,22 +120,14 @@
 		
 	  const form = document.querySelector('form');
 	  const select = form.querySelector('#title-select');
-	  books.forEach(book => {
-		const titleText = document.createTextNode(book['title']);
-		const title = document.createElement('option');
-		title.setAttribute('value', book['title']);
-		title.appendChild(titleText);
-		select.appendChild(title);
-	  });
-	  
-	  // if (!!select) {
-		// books.forEach(book => {
-		//   const titleText = document.createTextNode(book['title']);
-		//   const title = document.createElement('option');
-		//   title.setAttribute('value', book['title']);
-		//   title.appendChild(titleText);
-		//   select.appendChild(title);
-		// });
+	  if (!!select) {
+		books.forEach(book => {
+		  const titleText = document.createTextNode(book['title']);
+		  const title = document.createElement('option');
+		  title.setAttribute('value', book['title']);
+		  title.appendChild(titleText);
+		  select.appendChild(title);
+		});
 	  }
 	})();
 
