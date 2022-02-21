@@ -26,13 +26,24 @@
 	  const titleText = document.createTextNode(resource['title']);
 	  title.appendChild(titleText);
 	  resourceListing.appendChild(title);
-	  const urlText = document.createTextNode(`URL: ${resource['url']}`);
-	  resourceListing.appendChild(document.createElement('br'));
-	  resourceListing.appendChild(urlText);
+	  // const urlText = document.createTextNode(`URL: ${resource['url']}`);
+	  // resourceListing.appendChild(document.createElement('br'));
+	  // resourceListing.appendChild(urlText);
+	  
+	  const urlContainer = document.createElement('a');
+	  const urlLink = document.createTextNode(resource['url']);
+	  var linktoResource = resource['url'];
+	  console.log(linktoResource);
+	  urlContainer.appendChild(urlLink);
+	  resourceListing.appendChild(urlContainer);
+	  
 	  const summaryText = document.createTextNode(`Summary: ${resource['description']}`);
 	  resourceListing.appendChild(document.createElement('br'));
 	  resourceListing.appendChild(summaryText);
 	  resourceList.appendChild(resourceListing);
+	  
+	  
+	
 	});
 	selector.appendChild(resourceList);
   }
