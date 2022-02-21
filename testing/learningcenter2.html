@@ -30,9 +30,9 @@
 	  resourceListing.appendChild(document.createElement('br'));
 	  resourceListing.appendChild(urlText);
 	 
-	  const descriptionText = document.createTextNode(`URL: ${resource['description']}`);
+	  const summaryText = document.createTextNode(`Summary: ${resource['description']}`);
 	  resourceListing.appendChild(document.createElement('br'));
-	  resourceListing.appendChild(descriptionText);
+	  resourceListing.appendChild(summaryText);
 	  resourceList.appendChild(resourceListing);
 	});
 	selector.appendChild(resourceList);
