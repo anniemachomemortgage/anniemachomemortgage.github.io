@@ -19,8 +19,10 @@
 			const resourceList = document.createElement('div');
 			data.forEach(resource => {
 				const resourceListing = document.createElement('ul');
+				const titleContainer = document.createElement('a');
 				const title = document.createElement('li');
 				const titleText = document.createTextNode(resource['title']);
+				titleContainer.appendChild(title);
 				title.appendChild(titleText);
 				resourceListing.appendChild(title);
 				resourceListing.appendChild(document.createElement('br'));
