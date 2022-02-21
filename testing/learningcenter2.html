@@ -25,9 +25,6 @@
 		'Accept': 'application/json'
 	  }
 	});
-	if (!response.ok) {
-	  throw new Error(response.statusText);
-	}
 	return await response.json();
   }
   function buildResourceCenter(data) {
@@ -40,23 +37,14 @@
 	  title.appendChild(titleText);
 	  resourceListing.appendChild(title);
 	  resourceListing.appendChild(document.createElement('br'));
-	  // const urlText = document.createTextNode(`URL: ${resource['url']}`);
-	  // resourceListing.appendChild(document.createElement('br'));
-	  // resourceListing.appendChild(urlText);
-	  
 	  const urlContainer = document.createElement('span');
 	  const urlLink = document.createTextNode(resource['url']);
-	  
 	  urlContainer.appendChild(urlLink);
 	  resourceListing.appendChild(urlContainer);
-	  
 	  const summaryText = document.createTextNode(`Summary: ${resource['description']}`);
 	  resourceListing.appendChild(document.createElement('br'));
 	  resourceListing.appendChild(summaryText);
 	  resourceList.appendChild(resourceListing);
-	  
-	  
-	
 	});
 	selector.appendChild(resourceList);
   }
