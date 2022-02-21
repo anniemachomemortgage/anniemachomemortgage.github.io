@@ -38,28 +38,10 @@
 	  const urlText = document.createTextNode(`URL: ${resource['url']}`);
 	  resourceListing.appendChild(document.createElement('br'));
 	  resourceListing.appendChild(urlText);
-
-	  if (resource['forSale']) {
-		const priceText = document.createTextNode(`Price: $${resource['price']}`);
-		resourceListing.appendChild(document.createElement('br'));
-		resourceListing.appendChild(priceText);
-	  }
-
-	  if (resource['awards'] instanceof Array) {
-		const awardText = document.createTextNode('Awards: ');
-		const awardList = document.createElement('ul');
-
-		resource['awards'].forEach(award => {
-		  const awardItem = document.createElement('li');
-		  const awardItemText = document.createTextNode(award);
-		  awardItem.appendChild(awardItemText);
-		  awardList.appendChild(awardItem);
-		});
-
-		resourceListing.appendChild(document.createElement('br'));
-		resourceListing.appendChild(awardText);
-		resourceListing.appendChild(awardList);
-	  }
+	  
+	  const descriptionText = document.createTextNode(`URL: ${resource['description']}`);
+	  resourceListing.appendChild(document.createElement('br'));
+	  resourceListing.appendChild(descriptionText);
 
 	  resourceList.appendChild(resourceListing);
 	});
