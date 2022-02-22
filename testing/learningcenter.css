@@ -86,14 +86,14 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 }
 #annie-mac-resource-center #resource-list ul li div:nth-of-type(1) {
 	width: 100%;
-	max-width: 285px;
-	height: 180px;
+	height: 192px;
 	margin: 0 auto;
 	float: none;
 	display: inline-block;
 	background: linear-gradient(14deg, rgba(0, 0, 0, 0.62) 30%, rgba(98, 90, 75, 0.28) 80%);
 	margin-bottom: 10px;
 	border-radius: 2px;
+	overflow: hidden;
 }
 #annie-mac-resource-center #resource-list ul li div img {
 	width: 100%;
