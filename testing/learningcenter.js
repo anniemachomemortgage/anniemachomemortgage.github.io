@@ -12,6 +12,8 @@ function buildResourceCenter(data) {
 	data.forEach(resource => {
 		const resourceListing = document.createElement('li');
 		const articleTitle = document.createElement('a');
+		const attributeLink = document.createAttribute("a");
+		document.getElementsByTagName("h1")[0].setAttributeNode(att);
 		const articleTitleText = document.createTextNode(resource['title']);
 		articleTitle.appendChild(articleTitleText);
 		resourceListing.appendChild(articleTitle);
@@ -19,6 +21,8 @@ function buildResourceCenter(data) {
 		const articleURL = document.createTextNode(resource['url']);
 		urlContainer.appendChild(articleURL);
 		resourceListing.appendChild(urlContainer);
+		attributeLink.value = articleURL;
+		articleTitle.setAttributeNode(attributeLink);
 		const articleSummary = document.createTextNode(`Summary: ${resource['description']}`);
 		resourceListing.appendChild(document.createElement('br'));
 		resourceListing.appendChild(articleSummary);
