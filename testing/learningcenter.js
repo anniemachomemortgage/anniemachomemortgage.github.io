@@ -36,8 +36,7 @@ function buildResourceCenter(data) {
 		li.appendChild(document.createElement('br'));
 		li.appendChild(summary);
 		li.appendChild(document.createElement('br'));
-		li.appendChild(span);
-		categories.appendChild(span);
+		li.appendChild(categories);
 		resourceList.appendChild(li);
 	});
 	selector.appendChild(resourceList);
