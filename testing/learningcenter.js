@@ -46,6 +46,11 @@ function buildResourceCenter(data) {
 			li.appendChild(categoryDiv);
 			const categoryText = document.createTextNode('Categories');
 			const categoryList = document.createElement('ul');
+			
+			const categoryULClass = document.createAttribute('class');
+			categoryULClass.value = "category-list-container";
+			categoryList.setAttributeNode(categoryULClass);
+			
 			resource['categories'].forEach(category => {
 				const categoryItem = document.createElement('li');
 				
