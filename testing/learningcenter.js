@@ -25,10 +25,6 @@ function buildResourceCenter(data) {
 		resourceList.appendChild(resourceListing);
 	});
 	selector.appendChild(resourceList);
-}
-loadResourceCenter('./learningcenter.json').then(buildResourceCenter);
-
-$(function() {
 	const list = $("li");
 	const listLinkAttribute = $("li a");
 	const URLstorage = $("li span");
@@ -37,4 +33,5 @@ $(function() {
 		$(listLinkAttribute).attr('href', URL);
 	});
 	URLstorage.remove();
-});
+}
+loadResourceCenter('./learningcenter.json').then(buildResourceCenter);
