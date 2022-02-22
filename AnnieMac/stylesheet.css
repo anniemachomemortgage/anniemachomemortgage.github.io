@@ -510,6 +510,7 @@ select {
 }
 .manager-biography p iframe {
 	display: block;
+	margin: 35px auto -15px;
 }
 #loan-originator-blurb-container h2 {
 	font-size: 35px;
@@ -2735,7 +2736,7 @@ div#flash-message {
   text-shadow: 1px 3px 3px rgba(0,0,0,.2);
 } */
 .team-member-information h4 a {
- 	font-weight: 600;
+	 font-weight: 600;
 }
 
 @media screen and (max-width: 1175px) {
