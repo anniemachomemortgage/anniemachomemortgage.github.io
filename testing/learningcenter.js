@@ -38,16 +38,19 @@ function buildResourceCenter(data) {
 		li.appendChild(summary);
 		if (resource['categories'] instanceof Array) {
 			li.appendChild(div);
-			const categoriesText = document.createTextNode('Categories: ');
-			li.appendChild(categoriesText);
-			div.appendChild(ul);
-			resource['categories'].forEach(award => {
-				const categoriesItem = document.createElement('li');
-				const categoriesItemText = document.createTextNode(category);
-				categoriesItem.appendChild(categoriesItemText);
-				ul.appendChild(categoriesItem);
-		  	});
+			const categoryText = document.createTextNode('Categories: ');
+			const categoryList = document.createElement('ul');
+			resource['categories'].forEach(category => {
+				const categoryItem = document.createElement('li');
+				const categoryItemText = document.createTextNode(category);
+				categoryItem.appendChild(categoryItemText);
+				categoryList.appendChild(categoryItem);
+			});
+			li.appendChild(document.createElement('br'));
+			li.appendChild(categoryText);
+			li.appendChild(categoryList);
 		}
+
 		resourceList.appendChild(li);
 	});
 	selector.appendChild(resourceList);
