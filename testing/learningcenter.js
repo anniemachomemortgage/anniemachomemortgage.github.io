@@ -36,7 +36,7 @@ function buildResourceCenter(data) {
 		li.appendChild(document.createElement('br'));
 		li.appendChild(summary);
 		if (resource['categories'] instanceof Array) {
-			li.appendChild(div);
+			li.appendChild(span);
 			const categoryText = document.createTextNode('Categories: ');
 			const categoryList = document.createElement('ul');
 			resource['categories'].forEach(category => {
@@ -45,8 +45,8 @@ function buildResourceCenter(data) {
 				categoryItem.appendChild(categoryItemText);
 				categoryList.appendChild(categoryItem);
 			});
-			div.appendChild(categoryText);
-			div.appendChild(categoryList);
+			span.appendChild(categoryText);
+			span.appendChild(categoryList);
 		}
 		resourceList.appendChild(li);
 	});
