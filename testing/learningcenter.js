@@ -21,7 +21,7 @@ function buildResourceCenter(data) {
 		listElement.appendChild(document.createElement('br'));
 		const resourceDescription = document.createTextNode(resource['description']);
 		listElement.appendChild(resourceDescription);
-		listElement.appendChild(document.createElement('br'));
+		// listElement.appendChild(document.createElement('br'));
 		if (resource['categories'] instanceof Array) {
 			const categoryText = document.createTextNode('Categories: ');
 			const categoryList = document.createElement('ul');
@@ -34,7 +34,7 @@ function buildResourceCenter(data) {
 			listElement.appendChild(document.createElement('br'));
 			listElement.appendChild(categoryText);
 			listElement.appendChild(categoryList);
-		  } 
+		} 
 		// const resourceCategories = document.createTextNode(resource['categories']);
 		// listElement.appendChild(resourceCategories);
 		// resourceList.appendChild(listElement);
