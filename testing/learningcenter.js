@@ -23,7 +23,6 @@ function buildResourceCenter(data) {
 		const categorySpan = document.createElement('span');
 		const href = document.createAttribute('href');
 		const src = document.createAttribute('src');
-		const class = document.createAttribute('class');
 		const title = document.createTextNode(resource['title']);
 		const summary = document.createTextNode(resource['description']);
 		const categories = document.createTextNode(resource['categories']);
@@ -47,10 +46,13 @@ function buildResourceCenter(data) {
 			li.appendChild(categoryDiv);
 			const categoryText = document.createTextNode('Categories');
 			const categoryList = document.createElement('ul');
-			class.value = 'category-list';
-			categoryList.setAttributeNode(class);
 			resource['categories'].forEach(category => {
 				const categoryItem = document.createElement('li');
+				
+				const categoryListClass = document.createAttribute('class');
+				categoryListClass.value = "category-list";
+				categoryItem.setAttributeNode(categoryListClass);
+				
 				const categoryItemText = document.createTextNode(category);
 				categoryItem.appendChild(categoryItemText);
 				categoryList.appendChild(categoryItem);
