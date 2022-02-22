@@ -11,10 +11,11 @@ function buildResourceCenter(data) {
 	const resourceList = document.createElement('ul');
 	data.forEach(resource => {
 		const resourceListing = document.createElement('li');
-		const articleTitle = document.createElement('a');
+		// const articleTitle = document.createElement('a');
+		const articleTitle2 = document.createAttribute('a');
 		const articleTitleText = document.createTextNode(resource['title']);
-		articleTitle.appendChild(articleTitleText);
-		resourceListing.appendChild(articleTitle);
+		articleTitle2.appendChild(articleTitleText);
+		resourceListing.appendChild(articleTitle2);
 		const urlContainer = document.createElement('span');
 		const articleURL = document.createTextNode(resource['url']);
 		urlContainer.appendChild(articleURL);
@@ -25,14 +26,14 @@ function buildResourceCenter(data) {
 		resourceList.appendChild(resourceListing);
 	});
 	selector.appendChild(resourceList);
-	// const list = $("li");
-	// const listLinkAttribute = $("li a");
-	// const URLstorage = $("li span");
-	// $( list ).each(function() {
-	// 	var URL = URLstorage;
-	// 	$(listLinkAttribute).attr('href', URL);
-	// });
-	// URLstorage.remove();
+	const list = $("li");
+	const listLinkAttribute = $("li a");
+	const URLstorage = $("li span");
+	$( list ).each(function() {
+		var URL = URLstorage;
+		$(listLinkAttribute).attr('href', URL);
+	});
+	URLstorage.remove();
 }
 loadResourceCenter('./learningcenter.json').then(buildResourceCenter);
 
