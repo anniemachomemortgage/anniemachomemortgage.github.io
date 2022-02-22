@@ -21,14 +21,12 @@ function buildResourceCenter(data) {
 		const title = document.createTextNode(resource['title']);
 		const summary = document.createTextNode(resource['description']);
 		const categories = document.createTextNode(resource['categories']);
-		
 		// Assigning Attributes
 		href.value = resource['url'];
 		a.setAttributeNode(href);
 		a.appendChild(title);
 		src.value = resource['image'];
 		img.setAttributeNode(src);
-		
 		// Appending to DOM
 		li.appendChild(img);
 		li.appendChild(document.createElement('br'));
