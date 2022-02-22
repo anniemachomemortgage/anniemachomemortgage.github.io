@@ -128,6 +128,11 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	padding: 20px 19px;
 	font-size: 20px;
 }
+#annie-mac-resource-center #resource-list ul li div:nth-of-type(2) span {
+	display: block;
+	border-bottom: 1px solid rgba(0,0,0,.05);
+	padding-bottom: 8px;
+}
 #annie-mac-resource-center #resource-list ul li div:nth-of-type(2) ul {
 	display: flex;
 	flex-direction: row;
