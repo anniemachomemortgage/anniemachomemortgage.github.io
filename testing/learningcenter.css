@@ -4,11 +4,11 @@ html, body {
 	background: #F7F7F7;
 	font-family: 'Inter', sans-serif;
 	box-sizing: border-box;
-	font-size: 15px;
-	font-weight: 300;
-	letter-spacing: 0.015em;
+	font-size: 15.75px;
+	font-weight: 400;
+	letter-spacing: 0.005em;
 	line-height: 1.6;
-	word-spacing: 0.2em;
+	word-spacing: 0.1em;
 }
 html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	padding: 0;
