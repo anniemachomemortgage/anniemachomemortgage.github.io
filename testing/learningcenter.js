@@ -11,7 +11,6 @@ function buildResourceCenter(data) {
 	const resourceList = document.createElement('ul');
 	data.forEach(resource => {
 		// Defining Elements
-		
 		const ul = document.createElement('ul');
 		const li = document.createElement('li');
 		const a = document.createElement('a');
