@@ -86,10 +86,23 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	font-weight: 300;
 }
 #annie-mac-resource-center #category-tags ul li {
-	/* background: #ededed; */
-	padding: 5px 33px;
+	padding: 5px 20px;
 	border-radius: 8px;
-	font-weight: 200;
+	font-weight: 700;
+	margin: 0 17px;
+	font-size: 15px;
+}
+#toggle1 {
+	background:#1893b1;
+}
+#toggle2 {
+	background: #5db118;
+}
+#toggle3 {
+	background: #ae18b1;
+}
+#toggle4 {
+	background: #b19918;
 }
 #annie-mac-resource-center #category-tags strong {
 	width: 125px;
