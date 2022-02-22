@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
 	box-sizing: border-box;
 }
@@ -84,7 +84,6 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	font-weight: 300;
 }
 #annie-mac-resource-center #category-tags ul li {
-	/* background: #ededed; */
 	padding: 5px 33px;
 	border-radius: 8px;
 	font-weight: 200;
@@ -104,18 +103,20 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	justify-content: space-between;
 }
 #annie-mac-resource-center #resource-list ul li {
-	margin: 10px 0 49px;
+	margin: 10px 0 50px;
 	display: flex;
-	flex-direction: row;
-	width: 100%;
-	flex-wrap: wrap;
-	align-items: stretch;
+	flex-direction: column;
+	max-width: 46%;
+	min-width: 46%;
 }
 #annie-mac-resource-center #resource-list ul li div:nth-of-type(1) {
+	width: 100%;
 	height: 225px;
-	flex: 1;
+	margin: 0 auto;
+	float: none;
 	position: relative;
 	background: linear-gradient(14deg, rgba(0, 0, 0, 0.62) 30%, rgba(98, 90, 75, 0.28) 80%);
+	margin-bottom: 25px;
 	border-radius: 2px;
 	overflow: hidden;
 	display: flex;
@@ -145,52 +146,30 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	text-shadow: 1px 2px 3px rgba(0,0,0,.61);
 	padding: 19px;
 }
-#annie-mac-resource-center #resource-list ul li div:nth-of-type(2) {
-	background: #f0eeee;
-	padding: 20px;
-	font-weight: 300;
-	order: 3;
-	width: 100%;
-	margin-top: 5px;
-	border-radius: 2px;
-}
-#annie-mac-resource-center #resource-list ul li div:nth-of-type(2) span {
-	display: block;
-	font-weight: 700;
-	font-size: 19px;
-}
 #annie-mac-resource-center #resource-list ul li div:nth-of-type(3)  {
+	margin: 27px 0;
 	font-weight: 800;
-	background: #135187;
-	padding: 14px 19px;
+	background: #f1eeee;
+	padding: 20px 19px;
 	font-size: 20px;
-	order: 1;
-	width: 190px;
-	margin-left: 5px;
-	color: #fff;
-	border-radius: 2px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	text-align: center;
 }
 #annie-mac-resource-center #resource-list ul li div:nth-of-type(3) span {
 	display: block;
-	padding-bottom: 6px;
+	border-bottom: 1px solid rgba(0,0,0,.035);
+	padding-bottom: 8px;
 }
 #annie-mac-resource-center #resource-list ul li div:nth-of-type(3) ul {
 	display: flex;
-	/* flex-direction: row; */
+	flex-direction: row;
 	font-weight: initial;
-	/* flex-wrap: wrap; */
-	/* text-align: center; */
+	flex-wrap: wrap;
 }
 #annie-mac-resource-center #resource-list ul li div:nth-of-type(3) ul li {
-	margin: 7px 0 0px;
+	margin: 17px 0 0px;
 	min-height: initial;
-	/* text-align: left; */
+	text-align: left;
 	min-width: 45%;
 	justify-content: space-between;
 	font-size: 16px;
 	font-weight: 300;
-}
+} */
