@@ -10,6 +10,8 @@ function buildResourceCenter(data) {
 	const selector = document.querySelector('#resource-list');
 	const resourceList = document.createElement('ul');
 	data.forEach(resource => {
+		// Defining Elements
+		
 		const ul = document.createElement('ul');
 		const li = document.createElement('li');
 		const a = document.createElement('a');
@@ -19,12 +21,17 @@ function buildResourceCenter(data) {
 		const title = document.createTextNode(resource['title']);
 		const summary = document.createTextNode(resource['description']);
 		const categories = document.createTextNode(resource['categories']);
+		
+		// Assigning Attributes
 		attr.value = resource['url'];
 		src.value = resource['image'];
 		a.setAttributeNode(attr);
 		img.setAttributeNode(src);
 		a.appendChild(title);
+		
+		// Appending to DOM
 		li.appendChild(img);
+		li.appendChild(document.createElement('br'));
 		li.appendChild(a);
 		li.appendChild(document.createElement('br'));
 		li.appendChild(summary);
