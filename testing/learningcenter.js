@@ -13,12 +13,12 @@ function buildResourceCenter(data) {
 		const listElement = document.createElement('li');
 		const anchorElement = document.createElement('a');
 		const attributeLink = document.createAttribute('href');
-		const anchorElementText = document.createTextNode(resource['title']);
+		const resourceTitle = document.createTextNode(resource['title']);
 		const resourceDescription = document.createTextNode(resource['description']);
 		attributeLink.value = resource['url'];
 		anchorElement.setAttributeNode(attributeLink);
-		anchorElement.appendChild(anchorElementText);
-		listElement.appendChild(articleTitle);
+		anchorElement.appendChild(resourceTitle);
+		listElement.appendChild(anchorElement);
 		listElement.appendChild(document.createElement('br'));
 		listElement.appendChild(resourceDescription);
 		resourceList.appendChild(listElement);
