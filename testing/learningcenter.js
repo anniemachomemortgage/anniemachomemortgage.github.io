@@ -15,6 +15,7 @@ function buildResourceCenter(data) {
 		const li = document.createElement('li');
 		const div = document.createElement('div');
 		const div2 = document.createElement('div');
+		const div3 = document.createElement('div');
 		const a = document.createElement('a');
 		const img = document.createElement('img');
 		const span = document.createElement('span');
@@ -33,7 +34,8 @@ function buildResourceCenter(data) {
 		li.appendChild(div);
 		div.appendChild(img);
 		div.appendChild(a);
-		li.appendChild(summary);
+		li.appendChild(div3);
+		div3.appendChild(summary);
 		if (resource['categories'] instanceof Array) {
 			li.appendChild(div2);
 			const categoryText = document.createTextNode('Categories: ');
