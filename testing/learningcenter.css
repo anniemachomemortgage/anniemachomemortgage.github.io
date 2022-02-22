@@ -29,13 +29,15 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 #annie-mac-resource-center h4 {
 	font-size: 29px;
 	font-weight: 800;
-	margin: 10px 0 -20px;
+	margin: 34px 0 -5px;
 	color: #5db118;
+	text-align: left;
+	align-self: flex-start;
 }
 #annie-mac-resource-center input {
 	font-size: 16px;
 	padding: 12px 10px;
-	min-width: 95%;
+	min-width: 98%;
 	border-radius: 5px;
 	outline: none;
 	border: 1px solid rgba(0,0,0,.31);
@@ -45,7 +47,7 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 #annie-mac-resource-center #category-tags {
 	display: flex;
 	justify-content: flex-start;
-	width: 97%;
+	width: 100%;
 	align-items: center;
 }
 #annie-mac-resource-center #category-tags ul {
@@ -102,7 +104,7 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 13%);
 	border-radius: 2px;
 	position: relative;
-	z-index: -1;
+	z-index: 1;
 	display: block;
 	object-fit: cover;
 }
