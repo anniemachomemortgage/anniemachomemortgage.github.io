@@ -14,6 +14,7 @@ function buildResourceCenter(data) {
 		const ul = document.createElement('ul');
 		const li = document.createElement('li');
 		const div = document.createElement('div');
+		const div22 = document.createElement('div');
 		const paragraph = document.createElement('p');
 		const categoryDiv = document.createElement('div');
 		const summaryDiv = document.createElement('div');
@@ -36,7 +37,7 @@ function buildResourceCenter(data) {
 		
 		// Appending to DOM
 		li.appendChild(div);
-		div.appendChild(div); // Newly added
+		div22.appendChild(div); 
 		div.appendChild(img);
 		div.appendChild(a);
 		li.appendChild(summaryDiv);
