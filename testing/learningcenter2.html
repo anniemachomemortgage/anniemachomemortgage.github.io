@@ -45,7 +45,6 @@
 				const titleText = document.createTextNode(resource['title']);
 				title.appendChild(titleText);
 				resourceListing.appendChild(title);
-				resourceListing.appendChild(document.createElement('br'));
 				const urlContainer = document.createElement('span');
 				const urlLink = document.createTextNode(resource['url']);
 				urlContainer.appendChild(urlLink);
@@ -62,10 +61,13 @@
 	<script>
 		$(function() {
 			const list = $("li");
+			const listLinkAttribute = $("li a");
+			const URLstorage = $("li span");
 			$( list ).each(function() {
-				var URL = $(this).find( "span" );
-				$("li a").attr('href', URL);
+				var URL = URLstorage;
+				$(listLinkAttribute).attr('href', URL);
 			});
+			URLstorage.remove();
 		});
 	</script>
 </head>
