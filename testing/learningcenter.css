@@ -15,19 +15,24 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	margin: 0;
 }
 #annie-mac-resource-center {
-	width: 80%;
-	margin: 50px auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
-#annie-mac-resource-center img {
+#annie-mac-resource-center #header-container {
+	background: red;
+}
+#annie-mac-resource-center #header-container img {
 	margin: 0 auto;
 }
-#annie-mac-resource-center h3 {
+#annie-mac-resource-center #header-container h3 {
 	font-size: 33px;
 	margin: 20px 0;
 	text-align: center;
+}
+.container {
+	width: 80%;
+	margin: 50px auto;
 }
 #annie-mac-resource-center h4 {
 	font-size: 34px;
@@ -64,11 +69,6 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	padding: 5px 10px;
 	border-radius: 8px;
 	font-weight: 500;
-}
-#annie-mac-resource-center #category-tags ul li:hover, .active-tag-selected {
-	background: #5db118;
-	color: #fff;
-	cursor: pointer;
 }
 #annie-mac-resource-center #category-tags strong {
 	width: 125px;
@@ -132,11 +132,6 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	background: #f1eeee;
 	padding: 20px 19px;
 	font-size: 20px;
-}
-#annie-mac-resource-center #resource-list ul li div:nth-of-type(2) span {
-	display: block;
-	border-bottom: 1px solid rgba(0,0,0,.05);
-	padding-bottom: 8px;
 }
 #annie-mac-resource-center #resource-list ul li div:nth-of-type(2) ul {
 	display: flex;
