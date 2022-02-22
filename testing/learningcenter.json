@@ -1,288 +1,494 @@
-[{
+[
+	{
 		"title": "Processing and Underwriting",
 		"description": "A description about the topic goes here.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/what-to-expect-at-a-mortgage-closing",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Loan Interest Rates",
 		"description": "A description about the topic goes here.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/loan-interest-rates",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "The Steps to Refinancing",
 		"description": "A description about the topic goes here.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/the-steps-to-refinancing",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Pre-qualification and Pre-approval Steps",
 		"description": "A description about the topic goes here.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/prequal-preapproval-steps",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "What to Expect at a Closing",
 		"description": "A description about the topic goes here.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/what-to-expect-at-a-mortgage-closing",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Fees and Closing Costs",
 		"description": "A description about the topic goes here.",
 		"url": "URLNEEDED",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Home Inspections",
 		"description": "A description about the topic goes here.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/home-inspections",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Home Appraisals",
 		"description": "A description about the topic goes here.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/home-appraisals-101",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "10 Quick Tips Every New Homebuyer Should Know",
 		"description": "A description about the topic goes here.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/10-tips-for-buying-a-new-home",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Can I Qualify for a Home Loan with Student Loan Debt",
 		"description": "A description about the topic goes here.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/qualify-with-student-loans",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Mortgage Myths",
 		"description": "A description about the topic goes here.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/mortgage-myths",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "15 vs 30 Year Mortgage",
 		"description": "A description about the topic goes here.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/15-vs-30-year-mortgage",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Mortgage Insurance",
 		"description": "A description about the topic goes here.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/mortgage-insurance",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Home Search Checklist",
 		"description": "A description about the topic goes here.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/home-search-checklist",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Understanding Credit Scores",
 		"description": "A description about the topic goes here.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/understanding-credit-scores",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Do's and Don'ts of Shopping for Mortgage Rates",
 		"description": "A description about the topic goes here.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/dos-and-donts-of-shopping-for-mortgage-rates",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Fixed Rate vs Adjustable Rate Mortgage",
 		"description": "A description about the topic goes here.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/fixed-rate-vs-adjustable-rate-mortgage",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Questions to Ask During a Home Tour",
 		"description": "A description about the topic goes here.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/questions-to-ask-on-a-home-tour",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "What to Know About VA Loans If You are a Spouse In the Military",
 		"description": "A description about the topic goes here.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/about-va-loans-spouse",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "When Is the Best time to Refinance",
 		"description": "A description about the topic goes here.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/when-is-best-to-refinance",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "How Often Can You Refinance Your Home",
 		"description": "A description about the topic goes here.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/how-often-refinance-your-home",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Tips to Improve Your Credit Score",
 		"description": "A description about the topic goes here.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/improving-credit-score",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Downpayments 101",
 		"description": "A description about the topic goes here.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/downpayments-101",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "How to Save Enough Money For a Downpayment",
 		"description": "A description about the topic goes here.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/save-for-down-payment",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "How Long Will Your Home Last",
 		"description": "A description about the topic goes here.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/how-long-will-your-home-last",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "How to Use a Mortgage Calculator",
 		"description": "A description about the topic goes here.",
 		"url": "URLNEEDED",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "What You Need to Know About Modular Homes",
 		"description": "A description about the topic goes here.",
 		"url": "URLNEEDED",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Should I Buy a Lake House",
 		"description": "A description about the topic goes here.",
 		"url": "URLNEEDED",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Mobile Home Lons",
 		"description": "A description about the topic goes here.",
 		"url": "URLNEEDED",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Houseboat Loans",
 		"description": "A description about the topic goes here.",
 		"url": "URLNEEDED",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Condo Loans",
 		"description": "A description about the topic goes here.",
 		"url": "URLNEEDED",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "What Is a Second Mortgage?",
 		"description": "A description about the topic goes here.",
 		"url": "URLNEEDED",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Questions to Ask When Refinancing Your Home Loan",
 		"description": "A description about the topic goes here.",
 		"url": "URLNEEDED",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Questions and Answers with Investment Topics",
 		"description": "A description about the topic goes here.",
 		"url": "URLNEEDED",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "What Is a Bridge Loan",
 		"description": "A description about the topic goes here.",
 		"url": "URLNEEDED",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Why Did My Credit Score Drop?",
 		"description": "A description about the topic goes here.",
 		"url": "URLNEEDED",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "How to Avoid a Gap Between Selling and Buying",
 		"description": "A description about the topic goes here.",
 		"url": "URLNEEDED",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Cash Out Refinance",
 		"description": "A description about the topic goes here.",
 		"url": "URLNEEDED",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Mortgage Rate Locks",
 		"description": "A description about the topic goes here.",
 		"url": "URLNEEDED",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Refinance Appraisal",
 		"description": "A description about the topic goes here.",
 		"url": "URLNEEDED",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	},
 	{
 		"title": "Documents Required For Purchasing a Home",
 		"description": "A description about the topic goes here.",
 		"url": "URLNEEDED",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/AMLogoTEST_2_1.png",
-		"categories": "advice"
+		"categories": [
+			"advice",
+			"purchase",
+			"home-ownership",
+			"refinance"
+		  ]
 	}
 ]
