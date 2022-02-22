@@ -74,9 +74,9 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	display: flex;
 	flex-direction: column;
 	min-height: 215px;
-	text-align: center;
 	max-width: 28%;
 	min-width: 28%;
+	justify-content: space-between;
 }
 #annie-mac-resource-center #resource-list ul li img {
 	max-width: 285px;
@@ -88,7 +88,6 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	font-size: 22px;
 	color: #016fa8;
 	font-weight: 800;
-	text-align: center;
 }
 #annie-mac-resource-center #resource-list ul li div  {
 	margin: 27px 0;
