@@ -25,18 +25,18 @@ function buildResourceCenter(data) {
 		resourceList.appendChild(resourceListing);
 	});
 	selector.appendChild(resourceList);
-	const list = $("li");
-	const listLinkAttribute = $("li a");
-	const URLstorage = $("li span");
-	$( list ).each(function() {
-		var URL = URLstorage;
-		$(listLinkAttribute).attr('href', URL);
-	});
-	URLstorage.remove();
+	// const list = $("li");
+	// const listLinkAttribute = $("li a");
+	// const URLstorage = $("li span");
+	// $( list ).each(function() {
+	// 	var URL = URLstorage;
+	// 	$(listLinkAttribute).attr('href', URL);
+	// });
+	// URLstorage.remove();
 }
 loadResourceCenter('./learningcenter.json').then(buildResourceCenter);
 
-$("#search-faq").keyup(function() {
+$("#search").keyup(function() {
 	if(event.keyCode == 13) {
 		event.preventDefault();
 	}
