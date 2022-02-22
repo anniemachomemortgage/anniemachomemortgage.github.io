@@ -23,10 +23,10 @@ function buildResourceCenter(data) {
 		listElement.appendChild(resourceDescription);
 		listElement.appendChild(document.createElement('br'));
 		resource['categories'].forEach(category => {
-		  const categoriesItem = document.createElement('li');
-		  const categoriesItemText = document.createTextNode(resource['categories']);
-		  categoriesItem.appendChild(categoriesItemText);
-		  listElement.appendChild(categoriesItem);
+			const categoryList = document.createElement('ul');
+			const categoriesItemText = document.createTextNode(resource['categories']);
+			listElement.appendChild(categoriesItemText);
+			categoryList.appendChild(listElement);
 		});
 		// const resourceCategories = document.createTextNode(resource['categories']);
 		// listElement.appendChild(resourceCategories);
