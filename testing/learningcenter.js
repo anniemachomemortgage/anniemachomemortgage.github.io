@@ -20,6 +20,7 @@ function buildResourceCenter(data) {
 		articleTitle.setAttributeNode(attributeLink);
 		articleTitle.appendChild(articleTitleText);
 		resourceListing.appendChild(articleTitle);
+		resourceListing.appendChild(document.createElement('br'));
 		resourceListing.appendChild(articleSummary);
 		resourceList.appendChild(resourceListing);
 	});
