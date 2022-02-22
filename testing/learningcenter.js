@@ -22,13 +22,15 @@ function buildResourceCenter(data) {
 		const resourceDescription = document.createTextNode(resource['description']);
 		listElement.appendChild(resourceDescription);
 		listElement.appendChild(document.createElement('br'));
-		data.forEach(resource['categories'] => {
-			listElement.appendChild(resourceCategories);
-			resourceList.appendChild(listElement);
+		const categoryList = resource.categories;
+		for (const category of categories) {
+			const listItem = document.createElement('li');
+			listItem.textContent = category;
+			resourceList.appendChild(listItem);
 		}
-		const resourceCategories = document.createTextNode(resource['categories']);
-		listElement.appendChild(resourceCategories);
-		resourceList.appendChild(listElement);
+		// const resourceCategories = document.createTextNode(resource['categories']);
+		// listElement.appendChild(resourceCategories);
+		// resourceList.appendChild(listElement);
 	});
 	selector.appendChild(resourceList);
 }
