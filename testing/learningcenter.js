@@ -1,3 +1,4 @@
+// Initial Resource Setup - all works as expected
 async function loadResourceCenter(requestURL) {
 	const response = await fetch(requestURL, {
 		headers: {
@@ -10,7 +11,7 @@ function buildResourceCenter(data) {
 	const selector = document.querySelector('#resource-list');
 	const resourceList = document.createElement('ul');
 	data.forEach(resource => {
-		// Defining Elements
+		// Defining Resource Elements - all works as expected
 		const ul = document.createElement('ul');
 		const li = document.createElement('li');
 		const div = document.createElement('div');
@@ -25,7 +26,7 @@ function buildResourceCenter(data) {
 		const summary = document.createTextNode(resource['description']);
 		const categories = document.createTextNode(resource['categories']);
 		const summaryText = document.createTextNode('Summary');
-		// Defining Attributes
+		// Defining Attributes - all works as expected
 		const src = document.createAttribute('src');
 		const href = document.createAttribute('href');
 		const ulClass = document.createAttribute('class');
@@ -33,21 +34,21 @@ function buildResourceCenter(data) {
 		const divClass = document.createAttribute('class');
 		const categoryDivClass = document.createAttribute('class');
 		const summaryDivClass = document.createAttribute('class');
-		// Assigning Attributes
+		// Assigning Attributes - all works as expected
 		src.value = resource['image'];
 		href.value = resource['url'];
 		divClass.value = "header-container";
 		liClass.value = "resource-main-container";
 		categoryDivClass.value = "category-container";
 		summaryDivClass.value = "summary-container";
-		// Applying Attributes
+		// Applying Attributes - all works as expected
 		div.setAttributeNode(divClass);
 		img.setAttributeNode(src);
 		a.setAttributeNode(href);
 		li.setAttributeNode(liClass);
 		categoryDiv.setAttributeNode(categoryDivClass);
 		summaryDiv.setAttributeNode(summaryDivClass);
-		// Appending to DOM
+		// Appending to DOM - all works as expected
 		li.appendChild(div);
 		div.appendChild(img);
 		a.appendChild(title);
@@ -82,3 +83,8 @@ function buildResourceCenter(data) {
 	selector.appendChild(resourceList);
 }
 loadResourceCenter('./learningcenter.json').then(buildResourceCenter);
+
+// TO DO FROM HERE:
+// 1. Index the category-list class innerHTML for each of the categories, then apply that category as a class.
+// 2. Add toggle functionality to the list of categories under the search bar to hide those that are not within that category.
+// 3. Add search functionality to the search box upon keyup, keydown to index the list of resources and hide ones that don't contain that text string.
