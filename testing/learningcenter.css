@@ -88,12 +88,14 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	font-size: 22px;
 	color: #016fa8;
 	font-weight: 800;
+	line-height: 1.35;
 }
 #annie-mac-resource-center #resource-list ul li div  {
 	margin: 27px 0;
 	font-weight: 800;
 	background: #f1eeee;
 	padding: 20px 19px;
+	font-size: 17px;
 }
 #annie-mac-resource-center #resource-list ul li div ul {
 	display: flex;
