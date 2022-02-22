@@ -41,7 +41,7 @@ function buildResourceCenter(data) {
 		const summaryText = document.createTextNode('Summary');
 		summarySpan.appendChild(summaryText);
 		summaryDiv.appendChild(paragraph);
-		summaryDiv.appendChild(summary);
+		paragraph.appendChild(summary);
 		if (resource['categories'] instanceof Array) {
 			li.appendChild(categoryDiv);
 			const categoryText = document.createTextNode('Categories');
