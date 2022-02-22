@@ -19,9 +19,6 @@ function buildResourceCenter(data) {
 		var linktoArticle = document.createElement('a');
 		linktoArticle.setAttribute('href',articleURL);
 		linktoArticle.innerHTML = articleTitleText;
-		const urlContainer = document.createElement('span');
-		urlContainer.appendChild(articleURL);
-		resourceListing.appendChild(urlContainer);
 		const articleSummary = document.createTextNode(`Summary: ${resource['description']}`);
 		resourceListing.appendChild(document.createElement('br'));
 		resourceListing.appendChild(articleSummary);
