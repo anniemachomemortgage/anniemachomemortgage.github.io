@@ -33,7 +33,7 @@ function buildResourceCenter(data) {
 		li.appendChild(div);
 		div.appendChild(img);
 		li.appendChild(document.createElement('br'));
-		li.appendChild(a);
+		div.appendChild(a);
 		li.appendChild(document.createElement('br'));
 		li.appendChild(summary);
 		if (resource['categories'] instanceof Array) {
