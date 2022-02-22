@@ -78,7 +78,10 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	min-width: 28%;
 	justify-content: space-between;
 }
-#annie-mac-resource-center #resource-list ul li img {
+#annie-mac-resource-center #resource-list ul li div:nth-of-type(1) {
+	
+}
+#annie-mac-resource-center #resource-list ul li div img {
 	max-width: 285px;
 	height: auto;
 	margin: 0 auto;
@@ -90,20 +93,23 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	font-weight: 800;
 	line-height: 1.35;
 }
-#annie-mac-resource-center #resource-list ul li div  {
+#annie-mac-resource-center #resource-list ul li div:nth-of-type(1) {
+	
+}
+#annie-mac-resource-center #resource-list ul li div:nth-of-type(2)  {
 	margin: 27px 0;
 	font-weight: 800;
 	background: #f1eeee;
 	padding: 20px 19px;
 	font-size: 17px;
 }
-#annie-mac-resource-center #resource-list ul li div ul {
+#annie-mac-resource-center #resource-list ul li div:nth-of-type(2) ul {
 	display: flex;
 	flex-direction: row;
 	font-weight: initial;
 	flex-wrap: wrap;
 }
-#annie-mac-resource-center #resource-list ul li div ul li {
+#annie-mac-resource-center #resource-list ul li div:nth-of-type(2) ul li {
 	margin: 17px 0 0px;
 	min-height: initial;
 	text-align: left;
