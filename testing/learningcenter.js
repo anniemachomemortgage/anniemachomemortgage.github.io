@@ -42,7 +42,7 @@ function buildResourceCenter(data) {
 			li.appendChild(categoriesText);
 			li.appendChild(div);
 			div.appendChild(ul);
-			book['categories'].forEach(award => {
+			resource['categories'].forEach(award => {
 			  const categoriesItem = document.createElement('li');
 		  	});
 			categoriesItem.appendChild(li);
