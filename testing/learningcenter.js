@@ -16,14 +16,14 @@ function buildResourceCenter(data) {
 		const a = document.createElement('a');
 		const img = document.createElement('img');
 		const span = document.createElement('span');
-		const attr = document.createAttribute('href');
+		const href = document.createAttribute('href');
 		const src = document.createAttribute('src');
 		const title = document.createTextNode(resource['title']);
 		const summary = document.createTextNode(resource['description']);
 		const categories = document.createTextNode(resource['categories']);
 		
 		// Assigning Attributes
-		attr.value = resource['url'];
+		href.value = resource['url'];
 		src.value = resource['image'];
 		a.setAttributeNode(attr);
 		img.setAttributeNode(src);
