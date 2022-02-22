@@ -11,17 +11,17 @@ function buildResourceCenter(data) {
 	const resourceList = document.createElement('ul');
 	data.forEach(resource => {
 		const resourceListing = document.createElement('li');
-		const title = document.createElement('a');
-		const titleText = document.createTextNode(resource['title']);
-		title.appendChild(titleText);
-		resourceListing.appendChild(title);
+		const articleTitle = document.createElement('a');
+		const articleTitleText = document.createTextNode(resource['title']);
+		articleTitle.appendChild(articleTitleText);
+		resourceListing.appendChild(articleTitle);
 		const urlContainer = document.createElement('span');
-		const urlLink = document.createTextNode(resource['url']);
-		urlContainer.appendChild(urlLink);
+		const articleURL = document.createTextNode(resource['url']);
+		urlContainer.appendChild(articleURL);
 		resourceListing.appendChild(urlContainer);
-		const summaryText = document.createTextNode(`Summary: ${resource['description']}`);
+		const articleSummary = document.createTextNode(`Summary: ${resource['description']}`);
 		resourceListing.appendChild(document.createElement('br'));
-		resourceListing.appendChild(summaryText);
+		resourceListing.appendChild(articleSummary);
 		resourceList.appendChild(resourceListing);
 	});
 	selector.appendChild(resourceList);
