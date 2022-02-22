@@ -6,24 +6,20 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<title>AnnieMac Learning Center</title>
 	<style>
+	html, body {
+		background: #F7F7F7;
+	}
 	html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 		padding: 0;
 		margin: 0;
 	}
-	#resource-list {
-		background: blue;
+	#annie-mac-resource-center {
+		width: 600px;
+		margin: 0 auto;
 	}
-	#resource-list ul {
-		background: green;
-	}
-	#resource-list li {
-		background: red;
-	}
-	#resource-list a {
-		background: yellow;
-	}
-	#resource-list span {
-		background: orange;
+	#annie-mac-resource-center #resource-list ul {
+		display: flex;
+		flex-direction: column;
 	}
 	</style>
 	<script id="jquery" src="https://code.jquery.com/jquery-latest.min.js"></script>
@@ -72,7 +68,7 @@
 	</script>
 </head>
 <body>
-  <div>
+  <div id="annie-mac-resource-center">
 	<h3>AnnieMac Resource Center</h3>
 	<div id="resource-list"></div>
   </div>
