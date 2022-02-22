@@ -13,7 +13,6 @@ function buildResourceCenter(data) {
 		const resourceListing = document.createElement('li');
 		const articleTitle = document.createElement('a');
 		const attributeLink = document.createAttribute("a");
-		document.getElementsByTagName("h1")[0].setAttributeNode(att);
 		const articleTitleText = document.createTextNode(resource['title']);
 		articleTitle.appendChild(articleTitleText);
 		resourceListing.appendChild(articleTitle);
