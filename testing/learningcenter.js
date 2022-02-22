@@ -35,6 +35,9 @@ function buildResourceCenter(data) {
 		div.appendChild(img);
 		div.appendChild(a);
 		li.appendChild(div3);
+		div3.appendChild(span);
+		const summaryText = document.createTextNode('Summary ');
+		span.appendChild(summaryText);
 		div3.appendChild(summary);
 		if (resource['categories'] instanceof Array) {
 			li.appendChild(div2);
