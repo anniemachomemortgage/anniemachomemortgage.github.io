@@ -115,7 +115,7 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	height: 280px;
 	position: relative;
 	background: linear-gradient(14deg, rgba(0, 0, 0, 0.62) 30%, rgba(98, 90, 75, 0.28) 80%);
-	border-radius: 2px;
+	border-radius: 2px 2px 0 0;
 	overflow: hidden;
 	display: flex;
 	justify-content: center;
@@ -160,13 +160,14 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	display: block;
 	font-weight: 700;
 	font-size: 19px;
+	margin-top: 4px;
 }
 #annie-mac-resource-center #resource-list ul li div:nth-of-type(3)  {
 	font-weight: 800;
 	background: #d9d9d9;
 	padding: 14px 19px;
 	font-size: 18px;
-	border-radius: 2px;
+	border-radius: 0 0 2px 2px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -182,6 +183,7 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	flex-direction: row;
 	font-weight: initial;
 	flex-wrap: wrap;
+	margin-top: 0;
 }
 #annie-mac-resource-center #resource-list ul li div:nth-of-type(3) ul li {
 	margin: 5px 0 0px;
