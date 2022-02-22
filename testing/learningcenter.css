@@ -154,6 +154,11 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	margin-top: 5px;
 	border-radius: 2px;
 }
+#annie-mac-resource-center #resource-list ul li div:nth-of-type(2) span {
+	display: block;
+	font-weight: 700;
+	font-size: 19px;
+}
 #annie-mac-resource-center #resource-list ul li div:nth-of-type(3)  {
 	font-weight: 800;
 	background: #135187;
