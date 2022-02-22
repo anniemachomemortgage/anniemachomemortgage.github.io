@@ -36,6 +36,29 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	letter-spacing: 1px;
 	margin: 18px 0 20px;
 }
+#annie-mac-resource-center #category-tags {
+	display: flex;
+	justify-content: flex-start;
+	width: 97%;
+	align-items: center;
+}
+#annie-mac-resource-center #category-tags ul {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	justify-content: space-between;
+	width: 525px;
+}
+#annie-mac-resource-center #category-tags ul li {
+	background: #ededed;
+	padding: 5px 10px;
+	border-radius: 8px;
+	font-weight: 500;
+}
+#annie-mac-resource-center #category-tags strong {
+	width: 125px;
+}
 #annie-mac-resource-center #resource-list {
 	margin-top: 30px;
 }
