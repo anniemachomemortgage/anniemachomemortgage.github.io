@@ -19,6 +19,7 @@ function buildResourceCenter(data) {
 		const a = document.createElement('a');
 		const img = document.createElement('img');
 		const span = document.createElement('span');
+		const span2 = document.createElement('span');
 		const href = document.createAttribute('href');
 		const src = document.createAttribute('src');
 		const title = document.createTextNode(resource['title']);
@@ -49,8 +50,8 @@ function buildResourceCenter(data) {
 				categoryItem.appendChild(categoryItemText);
 				categoryList.appendChild(categoryItem);
 			});
-			div2.appendChild(span);
-			span.appendChild(categoryText);
+			div2.appendChild(span2);
+			span2.appendChild(categoryText);
 			div2.appendChild(categoryList);
 		}
 		resourceList.appendChild(li);
