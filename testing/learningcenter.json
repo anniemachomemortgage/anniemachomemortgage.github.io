@@ -1,8 +1,8 @@
 [
 	{
 		"title": "Processing and Underwriting",
-		"description": "A description about the topic goes here.",
-		"url": "https://adminannie-mac.wmmortgageware.com/page/what-to-expect-at-a-mortgage-closing",
+		"description": "Once you have found a home and are under contract with the seller, your lender will send you a Loan Estimate. This form is the same for every lender and helps the applicant compare different offers.",
+		"url": "https://adminannie-mac.wmmortgageware.com/page/processing-and-underwriting",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
 		"categories": [
 			"advice",
@@ -60,18 +60,6 @@
 		  ]
 	},
 	{
-		"title": "Fees and Closing Costs",
-		"description": "A description about the topic goes here.",
-		"url": "URLNEEDED",
-		"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
-		"categories": [
-			"advice",
-			"purchase",
-			"home-ownership",
-			"refinance"
-		  ]
-	},
-	{
 		"title": "Home Inspections",
 		"description": "There are a few steps you need to take before officially purchasing a home, one of which includes the home inspection. Hiring an inspector helps make sure that the structure is sound and that there are no defects with the home.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/home-inspections",
@@ -97,7 +85,7 @@
 	},
 	{
 		"title": "10 Quick Tips Every New Homebuyer Should Know",
-		"description": "A description about the topic goes here.",
+		"description": ".",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/10-tips-for-buying-a-new-home",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
 		"categories": [

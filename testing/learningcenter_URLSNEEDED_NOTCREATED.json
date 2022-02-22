@@ -1,5 +1,17 @@
 ,
 {
+	"title": "Fees and Closing Costs",
+	"description": "A description about the topic goes here.",
+	"url": "URLNEEDED",
+	"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
+	"categories": [
+		"advice",
+		"purchase",
+		"home-ownership",
+		"refinance"
+	  ]
+},
+{
 	"title": "How to Use a Mortgage Calculator",
 	"description": "A description about the topic goes here.",
 	"url": "URLNEEDED",
