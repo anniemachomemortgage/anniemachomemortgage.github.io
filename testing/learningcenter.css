@@ -109,11 +109,10 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	flex-direction: row;
 	width: 100%;
 	flex-wrap: wrap;
-	align-items: center;
+	align-items: stretch;
 }
 #annie-mac-resource-center #resource-list ul li div:nth-of-type(1) {
 	height: 225px;
-	min-width: 69%;
 	flex: 1;
 	position: relative;
 	background: linear-gradient(14deg, rgba(0, 0, 0, 0.62) 30%, rgba(98, 90, 75, 0.28) 80%);
@@ -122,7 +121,6 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 19px;
 }
 #annie-mac-resource-center #resource-list ul li div img {
 	width: 100%;
@@ -147,29 +145,37 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	text-shadow: 1px 2px 3px rgba(0,0,0,.61);
 	padding: 19px;
 }
-#annie-mac-resource-center #resource-list ul li div:nth-of-type(2)  {
+#annie-mac-resource-center #resource-list ul li div:nth-of-type(2) {
+	background: #f0eeee;
+	padding: 20px;
+	font-weight: 300;
+	order: 3;
+	width: 100%;
+	margin-top: 5px;
+	border-radius: 2px;
+}
+#annie-mac-resource-center #resource-list ul li div:nth-of-type(3)  {
 	font-weight: 800;
-	background: #f1eeee;
+	background: #135187;
 	padding: 14px 19px;
 	font-size: 20px;
-	order: -1;
+	order: 1;
 	width: 190px;
-	margin-right: 17px;
-	margin-top: -20px;
+	margin-left: 5px;
+	color: #fff;
+	border-radius: 2px;
 }
-#annie-mac-resource-center #resource-list ul li div:nth-of-type(2) span {
+#annie-mac-resource-center #resource-list ul li div:nth-of-type(3) span {
 	display: block;
-	border-bottom: 1px solid rgba(0,0,0,.035);
-	padding-bottom: -1px;
 }
-#annie-mac-resource-center #resource-list ul li div:nth-of-type(2) ul {
+#annie-mac-resource-center #resource-list ul li div:nth-of-type(3) ul {
 	display: flex;
 	flex-direction: row;
 	font-weight: initial;
 	flex-wrap: wrap;
 }
-#annie-mac-resource-center #resource-list ul li div:nth-of-type(2) ul li {
-	margin: 15px 0 0px;
+#annie-mac-resource-center #resource-list ul li div:nth-of-type(3) ul li {
+	margin: 7px 0 0px;
 	min-height: initial;
 	text-align: left;
 	min-width: 45%;
@@ -177,10 +183,6 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	font-size: 16px;
 	font-weight: 300;
 }
-
-
-
-
 
 
 /* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
@@ -331,25 +333,25 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	text-shadow: 1px 2px 3px rgba(0,0,0,.61);
 	padding: 19px;
 }
-#annie-mac-resource-center #resource-list ul li div:nth-of-type(2)  {
+#annie-mac-resource-center #resource-list ul li div:nth-of-type(3)  {
 	margin: 27px 0;
 	font-weight: 800;
 	background: #f1eeee;
 	padding: 20px 19px;
 	font-size: 20px;
 }
-#annie-mac-resource-center #resource-list ul li div:nth-of-type(2) span {
+#annie-mac-resource-center #resource-list ul li div:nth-of-type(3) span {
 	display: block;
 	border-bottom: 1px solid rgba(0,0,0,.035);
 	padding-bottom: 8px;
 }
-#annie-mac-resource-center #resource-list ul li div:nth-of-type(2) ul {
+#annie-mac-resource-center #resource-list ul li div:nth-of-type(3) ul {
 	display: flex;
 	flex-direction: row;
 	font-weight: initial;
 	flex-wrap: wrap;
 }
-#annie-mac-resource-center #resource-list ul li div:nth-of-type(2) ul li {
+#annie-mac-resource-center #resource-list ul li div:nth-of-type(3) ul li {
 	margin: 17px 0 0px;
 	min-height: initial;
 	text-align: left;
