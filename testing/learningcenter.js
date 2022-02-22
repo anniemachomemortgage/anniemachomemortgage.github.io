@@ -22,13 +22,12 @@ function buildResourceCenter(data) {
 		const resourceDescription = document.createTextNode(resource['description']);
 		listElement.appendChild(resourceDescription);
 		listElement.appendChild(document.createElement('br'));
-		if (book['awards'] instanceof Array) {
-			const awardText = document.createTextNode('Awards: ');
+		if (book['categories'] instanceof Array) {
+			const awardText = document.createTextNode('Categories: ');
 			const awardList = document.createElement('ul');
-			book['awards'].forEach(award => {
-			  const awardItem = document.createElement('li');
+			book['categories'].forEach(award => {
 			  const awardItemText = document.createTextNode(award);
-			  awardItem.appendChild(awardItemText);
+			  listElement.appendChild(awardItemText);
 			  awardList.appendChild(awardItem);
 			});
 			bookItem.appendChild(document.createElement('br'));
