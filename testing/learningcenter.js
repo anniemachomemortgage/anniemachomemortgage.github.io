@@ -13,6 +13,7 @@ function buildResourceCenter(data) {
 		// Defining Elements
 		const ul = document.createElement('ul');
 		const li = document.createElement('li');
+		const div = document.createElement('div');
 		const a = document.createElement('a');
 		const img = document.createElement('img');
 		const span = document.createElement('span');
@@ -34,7 +35,8 @@ function buildResourceCenter(data) {
 		li.appendChild(document.createElement('br'));
 		li.appendChild(summary);
 		li.appendChild(document.createElement('br'));
-		li.appendChild(categories);
+		li.appendChild(div);
+		div.appendChild(categories);
 		resourceList.appendChild(li);
 	});
 	selector.appendChild(resourceList);
