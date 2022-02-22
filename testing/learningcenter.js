@@ -15,7 +15,7 @@ function buildResourceCenter(data) {
 		const li = document.createElement('li');
 		const a = document.createElement('a');
 		const img = document.createElement('img');
-		const div = document.createElement('div');
+		const span = document.createElement('span');
 		const attr = document.createAttribute('href');
 		const src = document.createAttribute('src');
 		const title = document.createTextNode(resource['title']);
@@ -28,7 +28,6 @@ function buildResourceCenter(data) {
 		a.setAttributeNode(attr);
 		img.setAttributeNode(src);
 		a.appendChild(title);
-		categories.appendChild(div);
 		
 		// Appending to DOM
 		li.appendChild(img);
@@ -37,7 +36,7 @@ function buildResourceCenter(data) {
 		li.appendChild(document.createElement('br'));
 		li.appendChild(summary);
 		li.appendChild(document.createElement('br'));
-		li.appendChild(span);
+		li.appendChild(categories);
 		resourceList.appendChild(li);
 	});
 	selector.appendChild(resourceList);
