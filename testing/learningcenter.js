@@ -24,10 +24,10 @@ function buildResourceCenter(data) {
 		resourceListing.appendChild(articleSummary);
 		resourceList.appendChild(resourceListing);
 	});
-	// selector.appendChild(resourceList);
+	selector.appendChild(resourceList);
 	// const list = $("li");
 	// const listLinkAttribute = $("li a");
-	// const URLstorage = $("li span").text();
+	// const URLstorage = $("li span");
 	// $( list ).each(function() {
 	// 	var URL = URLstorage;
 	// 	$(listLinkAttribute).attr('href', URL);
