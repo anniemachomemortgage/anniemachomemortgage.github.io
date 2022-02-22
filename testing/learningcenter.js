@@ -12,9 +12,7 @@ function buildResourceCenter(data) {
 	data.forEach(resource => {
 		// Defining Elements
 		const ul = document.createElement('ul');
-		const subul = document.createElement('ul');
 		const li = document.createElement('li');
-		const subli = document.createElement('li');
 		const div = document.createElement('div');
 		const a = document.createElement('a');
 		const img = document.createElement('img');
