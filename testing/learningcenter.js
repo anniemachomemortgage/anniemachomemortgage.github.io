@@ -12,7 +12,7 @@ function buildResourceCenter(data) {
 	data.forEach(resource => {
 		const resourceListing = document.createElement('li');
 		const articleTitle = document.createElement('a');
-		const attributeLink = document.createAttribute("a");
+		const attributeLink = document.createAttribute('href');
 		const articleTitleText = document.createTextNode(resource['title']);
 		articleTitle.appendChild(articleTitleText);
 		resourceListing.appendChild(articleTitle);
