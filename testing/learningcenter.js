@@ -12,7 +12,9 @@ function buildResourceCenter(data) {
 	data.forEach(resource => {
 		// Defining Elements
 		const ul = document.createElement('ul');
+		const subul = document.createElement('ul');
 		const li = document.createElement('li');
+		const subli = document.createElement('li');
 		const div = document.createElement('div');
 		const a = document.createElement('a');
 		const img = document.createElement('img');
@@ -34,9 +36,18 @@ function buildResourceCenter(data) {
 		li.appendChild(a);
 		li.appendChild(document.createElement('br'));
 		li.appendChild(summary);
-		li.appendChild(document.createElement('br'));
-		li.appendChild(div);
-		div.appendChild(categories);
+		if (resource['categories'] instanceof Array) {
+			const categoriesText = document.createTextNode('Categories: ');
+			li.appendChild(document.createElement('br'));
+			li.appendChild(categoriesText);
+			li.appendChild(div);
+			div.appendChild(ul);
+			book['categories'].forEach(award => {
+			  const categoriesItem = document.createElement('li');
+		  	});
+			categoriesItem.appendChild(li);
+			div.appendChild(categories);
+		}
 		resourceList.appendChild(li);
 	});
 	selector.appendChild(resourceList);
