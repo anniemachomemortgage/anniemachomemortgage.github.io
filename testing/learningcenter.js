@@ -14,12 +14,12 @@ function buildResourceCenter(data) {
 		const ul = document.createElement('ul');
 		const li = document.createElement('li');
 		const div = document.createElement('div');
-		const div2 = document.createElement('div');
-		const div3 = document.createElement('div');
+		const categoryDiv = document.createElement('div');
+		const summaryDiv = document.createElement('div');
 		const a = document.createElement('a');
 		const img = document.createElement('img');
-		const span = document.createElement('span');
-		const span2 = document.createElement('span');
+		const summarySpan = document.createElement('span');
+		const categorySpan = document.createElement('span');
 		const href = document.createAttribute('href');
 		const src = document.createAttribute('src');
 		const title = document.createTextNode(resource['title']);
@@ -35,13 +35,13 @@ function buildResourceCenter(data) {
 		li.appendChild(div);
 		div.appendChild(img);
 		div.appendChild(a);
-		li.appendChild(div3);
-		div3.appendChild(span);
+		li.appendChild(summaryDiv);
+		summaryDiv.appendChild(summarySpan);
 		const summaryText = document.createTextNode('Summary');
-		span.appendChild(summaryText);
-		div3.appendChild(summary);
+		summarySpan.appendChild(summaryText);
+		summaryDiv.appendChild(summary);
 		if (resource['categories'] instanceof Array) {
-			li.appendChild(div2);
+			li.appendChild(categoryDiv);
 			const categoryText = document.createTextNode('Categories');
 			const categoryList = document.createElement('ul');
 			resource['categories'].forEach(category => {
@@ -50,9 +50,9 @@ function buildResourceCenter(data) {
 				categoryItem.appendChild(categoryItemText);
 				categoryList.appendChild(categoryItem);
 			});
-			div2.appendChild(span2);
-			span2.appendChild(categoryText);
-			div2.appendChild(categoryList);
+			categoryDiv.appendChild(categorySpan);
+			categorySpan.appendChild(categoryText);
+			categoryDiv.appendChild(categoryList);
 		}
 		resourceList.appendChild(li);
 	});
