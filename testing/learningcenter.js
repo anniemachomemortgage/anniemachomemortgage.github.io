@@ -46,7 +46,6 @@ function buildResourceCenter(data) {
 				categoryItem.appendChild(categoryItemText);
 				categoryList.appendChild(categoryItem);
 			});
-			div.appendChild(document.createElement('br'));
 			div.appendChild(categoryText);
 			div.appendChild(categoryList);
 		}
