@@ -15,7 +15,7 @@ function buildResourceCenter(data) {
 		const li = document.createElement('li');
 		const a = document.createElement('a');
 		const img = document.createElement('img');
-		const span = document.createElement('span');
+		const spanElement = document.createElement('span');
 		const attr = document.createAttribute('href');
 		const src = document.createAttribute('src');
 		const title = document.createTextNode(resource['title']);
@@ -28,7 +28,7 @@ function buildResourceCenter(data) {
 		a.setAttributeNode(attr);
 		img.setAttributeNode(src);
 		a.appendChild(title);
-		categories.appendChild(span);
+		categories.appendChild(spanElement);
 		
 		// Appending to DOM
 		li.appendChild(img);
