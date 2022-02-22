@@ -11,11 +11,12 @@ function buildResourceCenter(data) {
 	const resourceList = document.createElement('ul');
 	data.forEach(resource => {
 		const resourceListing = document.createElement('li');
-		// const articleTitle = document.createElement('a');
+		const articleTitle = document.createElement('a');
 		const articleTitle2 = document.createAttribute('a');
 		const articleTitleText = document.createTextNode(resource['title']);
 		const urlContainer = document.createElement('span');
 		const articleURL = document.createTextNode(resource['url']);
+		articleTitle.value = articleURL;
 		articleTitle2.value = articleURL;
 		articleTitle2.appendChild(articleTitleText);
 		resourceListing.appendChild(articleTitle2);
