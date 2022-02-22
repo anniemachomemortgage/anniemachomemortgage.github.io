@@ -8,21 +8,21 @@ async function loadResourceCenter(requestURL) {
 }
 function buildResourceCenter(data) {
 	const selector = document.querySelector('#resource-list');
-	const resourceList = document.createElement('ul');
+	const resourceContainer = document.createElement('div');
 	data.forEach(resource => {
-		const resourceListing = document.createElement('li');
-		const articleTitle = document.createElement('a');
+		const divElement = document.createElement('div');
+		const listElement = document.createElement('li');
+		const anchorElement = document.createElement('a');
 		const attributeLink = document.createAttribute('href');
-		const articleTitleText = document.createTextNode(resource['title']);
-		const articleURL = document.createTextNode(resource['url']);
-		const articleSummary = document.createTextNode(`Summary: ${resource['description']}`);
+		const anchorElementText = document.createTextNode(resource['title']);
+		const resourceDescription = document.createTextNode(resource['description']);
 		attributeLink.value = resource['url'];
-		articleTitle.setAttributeNode(attributeLink);
-		articleTitle.appendChild(articleTitleText);
-		resourceListing.appendChild(articleTitle);
-		resourceListing.appendChild(document.createElement('br'));
-		resourceListing.appendChild(articleSummary);
-		resourceList.appendChild(resourceListing);
+		anchorElement.setAttributeNode(attributeLink);
+		anchorElement.appendChild(anchorElementText);
+		divElement.appendChild(anchorElement);
+		divElement.appendChild(document.createElement('br'));
+		divElement.appendChild(resourceDescription);
+		resourceContainer.appendChild(divElement);
 	});
 	selector.appendChild(resourceList);
 }
