@@ -25,7 +25,7 @@ function buildResourceCenter(data) {
 		const categoryList = resource['description'];
 		resource['categories'].forEach(category => {
 		  const categoriesItem = document.createElement('li');
-		  const categoriesItemText = document.createTextNode(categories);
+		  const categoriesItemText = document.createTextNode(resource['categories']);
 		  categoriesItem.appendChild(categoriesItemText);
 		  categoriesList.appendChild(categoriesItem);
 		});
