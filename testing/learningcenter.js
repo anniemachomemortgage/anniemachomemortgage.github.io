@@ -35,3 +35,19 @@ function buildResourceCenter(data) {
 	URLstorage.remove();
 }
 loadResourceCenter('./learningcenter.json').then(buildResourceCenter);
+
+$("#search-faq").keyup(function() {
+	if(event.keyCode == 13) {
+		event.preventDefault();
+	}
+	var filter = $(this).val(),
+	count = 0;
+	$('li').each(function() {
+		if ($(this).text().search(new RegExp(filter, "i")) < 0) {
+			$(this).hide();
+		} else {
+			$(this).show();
+			count++;
+		}
+	});
+});
