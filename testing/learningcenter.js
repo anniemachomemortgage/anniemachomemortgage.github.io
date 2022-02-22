@@ -28,6 +28,7 @@ function buildResourceCenter(data) {
 		a.setAttributeNode(attr);
 		img.setAttributeNode(src);
 		a.appendChild(title);
+		categories.appendChild(span);
 		
 		// Appending to DOM
 		li.appendChild(img);
@@ -36,7 +37,7 @@ function buildResourceCenter(data) {
 		li.appendChild(document.createElement('br'));
 		li.appendChild(summary);
 		li.appendChild(document.createElement('br'));
-		li.appendChild(categories);
+		li.appendChild(span);
 		resourceList.appendChild(li);
 	});
 	selector.appendChild(resourceList);
