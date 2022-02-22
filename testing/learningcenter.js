@@ -21,23 +21,23 @@ function buildResourceCenter(data) {
 		listElement.appendChild(document.createElement('br'));
 		const resourceDescription = document.createTextNode(resource['description']);
 		listElement.appendChild(resourceDescription);
-		// listElement.appendChild(document.createElement('br'));
-		if (resource['categories'] instanceof Array) {
-			const categoryText = document.createTextNode('Categories: ');
-			const categoryList = document.createElement('ul');
-			resource['categories'].forEach(category => {
-			  const categoryItem = document.createElement('li');
-			  const categoryItemText = document.createTextNode(category);
-			  categoryItem.appendChild(categoryItemText);
-			  categoryList.appendChild(categoryItem);
+		listElement.appendChild(document.createElement('br'));
+		if (book['awards'] instanceof Array) {
+			const awardText = document.createTextNode('Awards: ');
+			const awardList = document.createElement('ul');
+			book['awards'].forEach(award => {
+			  const awardItem = document.createElement('li');
+			  const awardItemText = document.createTextNode(award);
+			  awardItem.appendChild(awardItemText);
+			  awardList.appendChild(awardItem);
 			});
-			listElement.appendChild(document.createElement('br'));
-			listElement.appendChild(categoryText);
-			listElement.appendChild(categoryList);
-		} 
-		// const resourceCategories = document.createTextNode(resource['categories']);
-		// listElement.appendChild(resourceCategories);
-		// resourceList.appendChild(listElement);
+			bookItem.appendChild(document.createElement('br'));
+			bookItem.appendChild(awardText);
+			bookItem.appendChild(awardList);
+		  }
+		const resourceCategories = document.createTextNode(resource['categories']);
+		listElement.appendChild(resourceCategories);
+		resourceList.appendChild(listElement);
 	});
 	selector.appendChild(resourceList);
 }
