@@ -79,12 +79,26 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	justify-content: space-between;
 }
 #annie-mac-resource-center #resource-list ul li div:nth-of-type(1) {
-	
+	width: 100%;
+	max-width: 285px;
+	height: 180px;
+	margin: 0 auto;
+	float: none;
+	display: inline-block;
+	background: linear-gradient(14deg, rgba(0, 0, 0, 0.62) 30%, rgba(98, 90, 75, 0.28) 80%);
+	margin-bottom: 10px;
+	border-radius: 2px;
 }
 #annie-mac-resource-center #resource-list ul li div img {
-	max-width: 285px;
-	height: auto;
+	width: 100%;
 	margin: 0 auto;
+	height: 235px;
+	box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 13%);
+	border-radius: 2px;
+	position: relative;
+	z-index: -1;
+	display: block;
+	object-fit: cover;
 }
 #annie-mac-resource-center #resource-list ul li a {
 	text-decoration: none;
