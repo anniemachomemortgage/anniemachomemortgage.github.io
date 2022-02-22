@@ -54,7 +54,7 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 }
 #annie-mac-resource-center #resource-list ul li a {
 	text-decoration: none;
-	font-size: 23px;
+	font-size: 22px;
 	color: #016fa8;
 	font-weight: 800;
 	width: 331px;
@@ -65,17 +65,18 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	margin: 27px 0;
 	font-weight: 800;
 	background: #f1eeee;
-	width: 100%;
-	padding: 20px;
-	text-align: left;
+	padding: 20px 19px;
 }
 #annie-mac-resource-center #resource-list ul li div ul {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	font-weight: initial;
+	flex-wrap: wrap;
 }
 #annie-mac-resource-center #resource-list ul li div ul li {
-	margin: 10px 0 0;
+	margin: 17px 0 0px;
 	min-height: initial;
 	text-align: left;
+	width: 45%;
+	justify-content: space-between;
 }
