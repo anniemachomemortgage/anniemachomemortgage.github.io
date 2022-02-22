@@ -21,17 +21,21 @@ function buildResourceCenter(data) {
 		const img = document.createElement('img');
 		const summarySpan = document.createElement('span');
 		const categorySpan = document.createElement('span');
-		const href = document.createAttribute('href');
-		const src = document.createAttribute('src');
 		const title = document.createTextNode(resource['title']);
 		const summary = document.createTextNode(resource['description']);
 		const categories = document.createTextNode(resource['categories']);
 		// Assigning Attributes
+		const href = document.createAttribute('href');
 		href.value = resource['url'];
 		a.setAttributeNode(href);
 		a.appendChild(title);
+		const src = document.createAttribute('src');
 		src.value = resource['image'];
 		img.setAttributeNode(src);
+		const categoryDivClass = document.createAttribute('class');
+		categoryDiv.value = "category-container";
+		const summaryDivClass = document.createAttribute('class');
+		summaryDiv.value = "summary-container";
 		// Appending to DOM
 		li.appendChild(div);
 		div.appendChild(img);
@@ -46,18 +50,14 @@ function buildResourceCenter(data) {
 			li.appendChild(categoryDiv);
 			const categoryText = document.createTextNode('Categories');
 			const categoryList = document.createElement('ul');
-			
 			const categoryULClass = document.createAttribute('class');
 			categoryULClass.value = "category-list-container";
 			categoryList.setAttributeNode(categoryULClass);
-			
 			resource['categories'].forEach(category => {
 				const categoryItem = document.createElement('li');
-				
 				const categoryListClass = document.createAttribute('class');
 				categoryListClass.value = "category-list";
 				categoryItem.setAttributeNode(categoryListClass);
-				
 				const categoryItemText = document.createTextNode(category);
 				categoryItem.appendChild(categoryItemText);
 				categoryList.appendChild(categoryItem);
