@@ -46,11 +46,10 @@ function buildResourceCenter(data) {
 				categoryItem.appendChild(categoryItemText);
 				categoryList.appendChild(categoryItem);
 			});
-			li.appendChild(document.createElement('br'));
-			li.appendChild(categoryText);
-			li.appendChild(categoryList);
+			div.appendChild(document.createElement('br'));
+			div.appendChild(categoryText);
+			div.appendChild(categoryList);
 		}
-
 		resourceList.appendChild(li);
 	});
 	selector.appendChild(resourceList);
