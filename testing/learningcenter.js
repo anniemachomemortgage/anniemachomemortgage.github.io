@@ -8,33 +8,23 @@ async function loadResourceCenter(requestURL) {
 }
 function buildResourceCenter(data) {
 	const selector = document.querySelector('#resource-list');
-	const resourceList = document.createElement('div');
+	const resourceList = document.createElement('ul');
 	data.forEach(resource => {
-		const divElement = document.createElement('div');
+		const listElement = document.createElement('li');
 		const anchorElement = document.createElement('a');
 		const attributeLink = document.createAttribute('href');
+		const resourceTitle = document.createTextNode(resource['title']);
+		const resourceDescription = document.createTextNode(resource['description']);
+		const resourceCategories = document.createTextNode(resource['categories']);
 		attributeLink.value = resource['url'];
 		anchorElement.setAttributeNode(attributeLink);
-		const resourceTitle = document.createTextNode(resource['title']);
 		anchorElement.appendChild(resourceTitle);
-		divElement.appendChild(anchorElement);
-		divElement.appendChild(document.createElement('br'));
-		const resourceDescription = document.createTextNode(resource['description']);
-		divElement.appendChild(resourceDescription);
-		divElement.appendChild(document.createElement('br'));
-		const categoryText = document.createTextNode('Categories: ');
-		divElement.appendChild(categoryText);
-		// 	const categoryText = document.createTextNode('Categories: ');
-		// 	const categoryList = document.createElement('ul');
-		// 	const categoriesItemText = document.createTextNode(resource['categories']);
-		// 	divElement.appendChild(categoryText);
-		// 	divElement.appendChild(categoriesItemText);
-		// 	categoryList.appendChild(divElement);
-
-
-		// const resourceCategories = document.createTextNode(resource['categories']);
-		// divElement.appendChild(resourceCategories);
-		// resourceList.appendChild(divElement);
+		listElement.appendChild(anchorElement);
+		listElement.appendChild(document.createElement('br'));
+		listElement.appendChild(resourceDescription);
+		listElement.appendChild(document.createElement('br'));
+		listElement.appendChild(resourceCategories);
+		resourceList.appendChild(listElement);
 	});
 	selector.appendChild(resourceList);
 }
