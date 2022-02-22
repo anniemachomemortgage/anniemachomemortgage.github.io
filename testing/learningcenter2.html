@@ -59,6 +59,15 @@
 		}
 		loadResourceCenter('./learningcenter.json').then(buildResourceCenter);
   	</script>
+	<script>
+		$(function() {
+			const list = $("li");
+			$( list ).each(function() {
+				var URL = $(this).find( "span" );
+				$("li a").attr('href', URL);
+			});
+		});
+	</script>
 </head>
 <body>
   <div>
