@@ -13,7 +13,7 @@
 	},
 	{
 		"title": "Loan Interest Rates",
-		"description": "A description about the topic goes here.",
+		"description": "An interest rate is the percentage of your existing principal loan balance you pay your lender in exchange for borrowing money to purchase a home. The interest rate is used to calculate your monthly mortgage payment.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/loan-interest-rates",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
 		"categories": [
@@ -25,7 +25,7 @@
 	},
 	{
 		"title": "The Steps to Refinancing",
-		"description": "A description about the topic goes here.",
+		"description": "Owning a home is a serious investment. Refinancing is one way you can use your home to leverage your investment. When the time is right, refinancing is a great option to lower your monthly payments, get a better interest rate, or change your loan type to save money.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/the-steps-to-refinancing",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
 		"categories": [
@@ -37,7 +37,7 @@
 	},
 	{
 		"title": "Pre-qualification and Pre-approval Steps",
-		"description": "A description about the topic goes here.",
+		"description": "While shopping for a home, you may hear the words “pre-qualification” and “pre-approval” mentioned throughout the mortgage process. These two terms are very important to securing a home loan and purchasing your new house.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/prequal-preapproval-steps",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
 		"categories": [
@@ -49,7 +49,7 @@
 	},
 	{
 		"title": "What to Expect at a Closing",
-		"description": "A description about the topic goes here.",
+		"description": "The final step in the process of purchasing or refinancing a home is the home closing. This is when you finalize all the details of the transaction and make sure every document is signed.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/what-to-expect-at-a-mortgage-closing",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
 		"categories": [
@@ -73,7 +73,7 @@
 	},
 	{
 		"title": "Home Inspections",
-		"description": "A description about the topic goes here.",
+		"description": "There are a few steps you need to take before officially purchasing a home, one of which includes the home inspection. Hiring an inspector helps make sure that the structure is sound and that there are no defects with the home.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/home-inspections",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
 		"categories": [
@@ -84,8 +84,8 @@
 		  ]
 	},
 	{
-		"title": "Home Appraisals",
-		"description": "A description about the topic goes here.",
+		"title": "Home Appraisals 101",
+		"description": "Home appraisals play a key role in the home buying process. When purchasing a home, the appraisal is used to confirm whether the purchase price is a true market value.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/home-appraisals-101",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
 		"categories": [
@@ -109,7 +109,7 @@
 	},
 	{
 		"title": "Can I Qualify for a Home Loan with Student Loan Debt",
-		"description": "A description about the topic goes here.",
+		"description": "The simple answer to this commonly asked question is yes, you can qualify for a home loan despite having student loan debt. Student loan debt may impact your ability to qualify for a mortgage but does not make it impossible.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/qualify-with-student-loans",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
 		"categories": [
@@ -121,7 +121,7 @@
 	},
 	{
 		"title": "Mortgage Myths",
-		"description": "A description about the topic goes here.",
+		"description": "Mortgage myths are everywhere, which makes understanding the mortgage process much more difficult than it should be. Becoming a homeowner should be an amazing experience; not one that causes confusion and frustration.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/mortgage-myths",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
 		"categories": [
@@ -133,7 +133,7 @@
 	},
 	{
 		"title": "15 vs 30 Year Mortgage",
-		"description": "A description about the topic goes here.",
+		"description": "During the homebuying process, borrowers will have to choose between a 30-year fixed-rate mortgage or a 15-year fixed-rate mortgage. Most borrowers choose a 30-year fixed-rate mortgage, but there are many times where a 15-year loan is the best option.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/15-vs-30-year-mortgage",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
 		"categories": [
@@ -145,7 +145,7 @@
 	},
 	{
 		"title": "Mortgage Insurance",
-		"description": "A description about the topic goes here.",
+		"description": "Private mortgage insurance (PMI) is a type of insurance that a lender may require a borrower to purchase as a condition of a mortgage. This insurance lowers the risk to the lender when offering a loan to a borrower.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/mortgage-insurance",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
 		"categories": [
@@ -157,7 +157,7 @@
 	},
 	{
 		"title": "Home Search Checklist",
-		"description": "A description about the topic goes here.",
+		"description": "Shopping for a home can be both exciting and stressful. When you are looking at many different houses in a short amount of time, it can be difficult to remember each one and their features.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/home-search-checklist",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
 		"categories": [
@@ -169,7 +169,7 @@
 	},
 	{
 		"title": "Understanding Credit Scores",
-		"description": "A description about the topic goes here.",
+		"description": "The term “credit score” is frequently used when applying for a home loan, but it may not be widely understood. Understanding credit scores and their purpose will help you become a smarter home buyer and mortgage applicant.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/understanding-credit-scores",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
 		"categories": [
@@ -181,7 +181,7 @@
 	},
 	{
 		"title": "Do's and Don'ts of Shopping for Mortgage Rates",
-		"description": "A description about the topic goes here.",
+		"description": "Shopping for mortgage rates is one of the most important parts of the homebuying process. Finding a good mortgage rate can feel intimidating, but with help from your realtor and mortgage professionals, the right rate will be easier than ever to find.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/dos-and-donts-of-shopping-for-mortgage-rates",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
 		"categories": [
@@ -193,7 +193,7 @@
 	},
 	{
 		"title": "Fixed Rate vs Adjustable Rate Mortgage",
-		"description": "A description about the topic goes here.",
+		"description": "There are two primary mortgage types: fixed-rate mortgages and adjustable-rate mortgages. The mortgage industry offers varieties within these two categories, but the first step is always to determine which of the two loan types best suits your needs.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/fixed-rate-vs-adjustable-rate-mortgage",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
 		"categories": [
@@ -205,7 +205,7 @@
 	},
 	{
 		"title": "Questions to Ask During a Home Tour",
-		"description": "A description about the topic goes here.",
+		"description": "Once you have a successful relationship with your real estate agent and loan originator, it is time to tour houses and find the one you want to make an offer on, whether you are a first-time homebuyer or an experienced one.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/questions-to-ask-on-a-home-tour",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
 		"categories": [
@@ -217,7 +217,7 @@
 	},
 	{
 		"title": "What to Know About VA Loans If You are a Spouse In the Military",
-		"description": "A description about the topic goes here.",
+		"description": "If you or your spouse are affiliated with the military as either active duty or veteran status, you may be eligible for a VA home loan from the US Department of Veterans Affairs’ VA loan program.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/about-va-loans-spouse",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
 		"categories": [
@@ -229,7 +229,7 @@
 	},
 	{
 		"title": "When Is the Best time to Refinance",
-		"description": "A description about the topic goes here.",
+		"description": "Refinancing may seem like a daunting task, but our team at AnnieMac Home Mortgage will ensure that you understand what it is and how it works.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/when-is-best-to-refinance",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
 		"categories": [
@@ -241,7 +241,7 @@
 	},
 	{
 		"title": "How Often Can You Refinance Your Home",
-		"description": "A description about the topic goes here.",
+		"description": "Due to today’s low mortgage rate, you may be thinking about refinancing your home. Whether you have just purchased your home or have been in your home for many years, here is a complete guide on how often you can refinance your home.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/how-often-refinance-your-home",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
 		"categories": [
@@ -253,7 +253,7 @@
 	},
 	{
 		"title": "Tips to Improve Your Credit Score",
-		"description": "A description about the topic goes here.",
+		"description": "Are you ready to buy a home? Have you started to attend open houses? Before you get too deep into the process, remember to get pre-approved for a home loan first to see how much home you can afford.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/improving-credit-score",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
 		"categories": [
@@ -265,7 +265,7 @@
 	},
 	{
 		"title": "Downpayments 101",
-		"description": "A description about the topic goes here.",
+		"description": "When purchasing a home, you will typically make a down payment. This may sound daunting, but we are here to walk you through the process. Here is everything you need to know regarding down payments.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/downpayments-101",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
 		"categories": [
@@ -277,7 +277,7 @@
 	},
 	{
 		"title": "How to Save Enough Money For a Downpayment",
-		"description": "A description about the topic goes here.",
+		"description": "Saving for the down payment is one of the most challenging parts of potential homeownership, but if you start saving early, it is not only possible to save enough but can be less difficult than expected.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/save-for-down-payment",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
 		"categories": [
@@ -289,7 +289,7 @@
 	},
 	{
 		"title": "How Long Will Your Home Last",
-		"description": "A description about the topic goes here.",
+		"description": "A well-constructed home can last centuries, but the components inside the home may have a shorter lifespan and need repair or replacement to last longer.",
 		"url": "https://adminannie-mac.wmmortgageware.com/page/how-long-will-your-home-last",
 		"image": "https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg",
 		"categories": [
