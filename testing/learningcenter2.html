@@ -5,6 +5,15 @@
   	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<title>AnnieMac Learning Center</title>
+	<style>
+	html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
+		padding: 0;
+		margin: 0;
+	}
+	#resource-list {
+		
+	}
+	</style>
 	<script id="jquery" src="https://code.jquery.com/jquery-latest.min.js"></script>
   	<script>
 		async function loadResourceCenter(requestURL) {
@@ -25,7 +34,7 @@
 				title.appendChild(titleText);
 				resourceListing.appendChild(title);
 				resourceListing.appendChild(document.createElement('br'));
-				const urlContainer = document.createElement('h4');
+				const urlContainer = document.createElement('span');
 				const urlLink = document.createTextNode(resource['url']);
 				urlContainer.appendChild(urlLink);
 				resourceListing.appendChild(urlContainer);
