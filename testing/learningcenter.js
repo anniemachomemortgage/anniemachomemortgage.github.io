@@ -15,13 +15,14 @@ function buildResourceCenter(data) {
 		const attributeLink = document.createAttribute('href');
 		const articleTitleText = document.createTextNode(resource['title']);
 		const articleURL = document.createTextNode(resource['url']);
+		const summaryContainer = document.createElement('a');
 		const articleSummary = document.createTextNode(`Summary: ${resource['description']}`);
 		attributeLink.value = resource['url'];
 		articleTitle.setAttributeNode(attributeLink);
 		articleTitle.appendChild(articleTitleText);
 		resourceListing.appendChild(articleTitle);
-		resourceListing.appendChild(document.createElement('br'));
-		resourceListing.appendChild(articleSummary);
+		summaryContainer.appendChild(resourceListing);
+		articleSummary.appendChild(summaryContainer);
 		resourceList.appendChild(resourceListing);
 	});
 	selector.appendChild(resourceList);
