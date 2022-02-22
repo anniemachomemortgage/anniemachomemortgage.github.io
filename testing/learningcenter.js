@@ -14,6 +14,7 @@ function buildResourceCenter(data) {
 		const ul = document.createElement('ul');
 		const li = document.createElement('li');
 		const div = document.createElement('div');
+		const div2 = document.createElement('div');
 		const a = document.createElement('a');
 		const img = document.createElement('img');
 		const span = document.createElement('span');
@@ -36,7 +37,7 @@ function buildResourceCenter(data) {
 		li.appendChild(document.createElement('br'));
 		li.appendChild(summary);
 		if (resource['categories'] instanceof Array) {
-			li.appendChild(span);
+			li.appendChild(div2);
 			const categoryText = document.createTextNode('Categories: ');
 			const categoryList = document.createElement('ul');
 			resource['categories'].forEach(category => {
@@ -45,8 +46,8 @@ function buildResourceCenter(data) {
 				categoryItem.appendChild(categoryItemText);
 				categoryList.appendChild(categoryItem);
 			});
-			span.appendChild(categoryText);
-			span.appendChild(categoryList);
+			div2.appendChild(categoryText);
+			div2.appendChild(categoryList);
 		}
 		resourceList.appendChild(li);
 	});
