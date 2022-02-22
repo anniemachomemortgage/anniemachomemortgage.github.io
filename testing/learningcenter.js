@@ -33,9 +33,11 @@ function buildResourceCenter(data) {
 		src.value = resource['image'];
 		img.setAttributeNode(src);
 		const categoryDivClass = document.createAttribute('class');
-		categoryDiv.value = "category-container";
+		categoryDivClass.value = "category-container";
+		categoryDiv.setAttributeNode(categoryDivClass);
 		const summaryDivClass = document.createAttribute('class');
-		summaryDiv.value = "summary-container";
+		summaryDivClass.value = "summary-container";
+		summaryDiv.setAttributeNode(summaryDivClass);
 		// Appending to DOM
 		li.appendChild(div);
 		div.appendChild(img);
