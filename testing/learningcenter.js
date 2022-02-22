@@ -25,7 +25,7 @@ function buildResourceCenter(data) {
 		// Assigning Attributes
 		href.value = resource['url'];
 		src.value = resource['image'];
-		a.setAttributeNode(attr);
+		a.setAttributeNode(href);
 		img.setAttributeNode(src);
 		a.appendChild(title);
 		
