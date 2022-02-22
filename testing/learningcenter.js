@@ -36,6 +36,7 @@ function buildResourceCenter(data) {
 		
 		// Appending to DOM
 		li.appendChild(div);
+		div.appendChild(div);
 		div.appendChild(img);
 		div.appendChild(a);
 		li.appendChild(summaryDiv);
