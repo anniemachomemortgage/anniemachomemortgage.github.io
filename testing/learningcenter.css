@@ -107,9 +107,6 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	font-weight: 800;
 	line-height: 1.35;
 }
-#annie-mac-resource-center #resource-list ul li div:nth-of-type(1) {
-	
-}
 #annie-mac-resource-center #resource-list ul li div:nth-of-type(2)  {
 	margin: 27px 0;
 	font-weight: 800;
