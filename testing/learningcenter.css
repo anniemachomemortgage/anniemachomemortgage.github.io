@@ -65,6 +65,11 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	border-radius: 8px;
 	font-weight: 500;
 }
+#annie-mac-resource-center #category-tags ul li:hover, .active-tag-selected {
+	background: #5db118;
+	color: #fff;
+	cursor: pointer;
+}
 #annie-mac-resource-center #category-tags strong {
 	width: 125px;
 }
