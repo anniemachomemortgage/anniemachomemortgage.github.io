@@ -24,33 +24,35 @@ function buildResourceCenter(data) {
 		const title = document.createTextNode(resource['title']);
 		const summary = document.createTextNode(resource['description']);
 		const categories = document.createTextNode(resource['categories']);
-		// Assigning Attributes
-		const divClass = document.createAttribute('class');
-		divClass.value = "header-container";
-		div.setAttributeNode(divClass);
+		const summaryText = document.createTextNode('Summary');
+		// Defining Attributes
 		const src = document.createAttribute('src');
-		src.value = resource['image'];
-		img.setAttributeNode(src);
 		const href = document.createAttribute('href');
-		href.value = resource['url'];
-		a.setAttributeNode(href);
-		a.appendChild(title);
+		const divClass = document.createAttribute('class');
 		const listClass = document.createAttribute('class');
-		listClass.value = "resource-main-container";
-		li.setAttributeNode(listClass);
 		const categoryDivClass = document.createAttribute('class');
-		categoryDivClass.value = "category-container";
-		categoryDiv.setAttributeNode(categoryDivClass);
 		const summaryDivClass = document.createAttribute('class');
+		// Assigning Attributes
+		src.value = resource['image'];
+		href.value = resource['url'];
+		divClass.value = "header-container";
+		listClass.value = "resource-main-container";
+		categoryDivClass.value = "category-container";
 		summaryDivClass.value = "summary-container";
+		// Applying Attributes
+		div.setAttributeNode(divClass);
+		img.setAttributeNode(src);
+		a.setAttributeNode(href);
+		li.setAttributeNode(listClass);
+		categoryDiv.setAttributeNode(categoryDivClass);
 		summaryDiv.setAttributeNode(summaryDivClass);
 		// Appending to DOM
 		li.appendChild(div);
 		div.appendChild(img);
+		a.appendChild(title);
 		div.appendChild(a);
 		li.appendChild(summaryDiv);
 		summaryDiv.appendChild(summarySpan);
-		const summaryText = document.createTextNode('Summary');
 		summarySpan.appendChild(summaryText);
 		summaryDiv.appendChild(paragraph);
 		paragraph.appendChild(summary);
