@@ -7,7 +7,7 @@ async function loadResourceCenter(requestURL) {
 	return await response.json();
 }
 function buildResourceCenter(data) {
-	const selector = document.querySelector('#resource-list');
+	const resourceListingContainer = document.querySelector('#resource-list');
 	const resourceList = document.createElement('ul');
 	data.forEach(resource => {
 		const resourceListing = document.createElement('li');
@@ -25,6 +25,6 @@ function buildResourceCenter(data) {
 		articleSummary.appendChild(summaryContainer);
 		resourceList.appendChild(resourceListing);
 	});
-	selector.appendChild(resourceList);
+	resourceListingContainer.appendChild(resourceList);
 }
 loadResourceCenter('./learningcenter.json').then(buildResourceCenter);
