@@ -25,13 +25,19 @@ function buildResourceCenter(data) {
 		const summary = document.createTextNode(resource['description']);
 		const categories = document.createTextNode(resource['categories']);
 		// Assigning Attributes
+		const divClass = document.createAttribute('class');
+		divClass.value = "header-container";
+		div.setAttributeNode(divClass);
+		const src = document.createAttribute('src');
+		src.value = resource['image'];
+		img.setAttributeNode(src);
 		const href = document.createAttribute('href');
 		href.value = resource['url'];
 		a.setAttributeNode(href);
 		a.appendChild(title);
-		const src = document.createAttribute('src');
-		src.value = resource['image'];
-		img.setAttributeNode(src);
+		const listClass = document.createAttribute('class');
+		listClass.value = "resource-main-container";
+		li.setAttributeNode(listClass);
 		const categoryDivClass = document.createAttribute('class');
 		categoryDivClass.value = "category-container";
 		categoryDiv.setAttributeNode(categoryDivClass);
