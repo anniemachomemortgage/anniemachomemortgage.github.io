@@ -14,11 +14,14 @@ function buildResourceCenter(data) {
 		const articleTitle = document.createElement('a');
 		const articleDescription = document.createElement('div');
 		const attributeLink = document.createAttribute('href');
+		const descriptionClass = document.createAttribute('class');
 		const articleTitleText = document.createTextNode(resource['title']);
 		const articleURL = document.createTextNode(resource['url']);
 		const articleSummary = document.createTextNode(`Summary: ${resource['description']}`);
 		attributeLink.value = resource['url'];
+		descriptionClass.value = "description";
 		articleTitle.setAttributeNode(attributeLink);
+		articleDescription.setAttributeNode(descriptionClass);
 		articleTitle.appendChild(articleTitleText);
 		resourceListing.appendChild(articleTitle);
 		resourceListing.appendChild(articleDescription);
