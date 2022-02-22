@@ -20,7 +20,9 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	justify-content: center;
 }
 #annie-mac-resource-center #header-container {
-	background: red;
+	background: linear-gradient(177deg, rgb(23 16 5 / 52%) 30%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/main-background.jpeg);
+	background-position-y: 57%;
+	min-width: 300px;
 }
 #annie-mac-resource-center #header-container img {
 	margin: 0 auto;
