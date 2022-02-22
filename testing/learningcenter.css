@@ -19,3 +19,8 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 #annie-mac-resource-center #resource-list ul li {
 	margin: 10px 0;
 }
+#resource-list span {
+	display: block;
+	margin: 5px 0 0;
+	font-size: 5px;
+}
