@@ -40,7 +40,7 @@ html, body, h1, h2, h3, h4, h5, ul, li, span, a, p {
 	justify-content: space-between;
 }
 #annie-mac-resource-center #resource-list ul li {
-	margin: 10px 0;
+	margin: 10px 0 50px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
