@@ -29,7 +29,8 @@ function buildResourceCenter(data) {
 		src.value = resource['image'];
 		img.setAttributeNode(src);
 		// Appending to DOM
-		li.appendChild(img);
+		li.appendChild(div);
+		div.appendChild(img);
 		li.appendChild(document.createElement('br'));
 		li.appendChild(a);
 		li.appendChild(document.createElement('br'));
