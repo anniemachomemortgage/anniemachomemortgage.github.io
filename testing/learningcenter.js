@@ -7,24 +7,27 @@ async function loadResourceCenter(requestURL) {
 	return await response.json();
 }
 function buildResourceCenter(data) {
-	const resourceListingContainer = document.querySelector('#resource-list');
+	const selector = document.querySelector('#resource-list');
 	const resourceList = document.createElement('ul');
 	data.forEach(resource => {
 		const resourceListing = document.createElement('li');
 		const articleTitle = document.createElement('a');
+		const articleDescription = document.createElement('div');
 		const attributeLink = document.createAttribute('href');
 		const articleTitleText = document.createTextNode(resource['title']);
 		const articleURL = document.createTextNode(resource['url']);
-		const summaryContainer = document.createElement('a');
 		const articleSummary = document.createTextNode(`Summary: ${resource['description']}`);
 		attributeLink.value = resource['url'];
 		articleTitle.setAttributeNode(attributeLink);
 		articleTitle.appendChild(articleTitleText);
 		resourceListing.appendChild(articleTitle);
-		summaryContainer.appendChild(resourceListing);
-		articleSummary.appendChild(summaryContainer);
+		resourceListing.appendChild(articleDescription);
+		resourceListing.appendChild(document.createElement('br'));
+		resourceListing.appendChild(articleSummary);
+		articleSummary.appendChild(articleDescription);
+		articleDescription.appendChild(articleSummary);
 		resourceList.appendChild(resourceListing);
 	});
-	resourceListingContainer.appendChild(resourceList);
+	selector.appendChild(resourceList);
 }
 loadResourceCenter('./learningcenter.json').then(buildResourceCenter);
