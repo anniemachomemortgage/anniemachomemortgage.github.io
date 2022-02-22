@@ -16,8 +16,7 @@ function buildResourceCenter(data) {
 		const articleTitleText = document.createTextNode(resource['title']);
 		const articleURL = document.createTextNode(resource['url']);
 		const articleSummary = document.createTextNode(`Summary: ${resource['description']}`);
-		attributeLink.value = articleURL;
-		articleTitle.setAttributeNode(attributeLink);
+		articleTitle.setAttributeNode(resource['url']);
 		articleTitle.appendChild(articleTitleText);
 		resourceListing.appendChild(articleTitle);
 		resourceListing.appendChild(articleSummary);
