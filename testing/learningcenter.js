@@ -44,7 +44,7 @@ function buildResourceCenter(data) {
 			div.appendChild(ul);
 			resource['categories'].forEach(award => {
 				const categoriesItem = document.createElement('li');
-				const categoriesItemText = document.createTextNode(resource['categories']);
+				const categoriesItemText = document.createTextNode(category);
 				categoriesItem.appendChild(categoriesItemText);
 				ul.appendChild(categoriesItem);
 		  	});
