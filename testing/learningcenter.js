@@ -37,7 +37,6 @@ function buildResourceCenter(data) {
 		src.value = resource['image'];
 		href.value = resource['url'];
 		divClass.value = "header-container";
-		resourceListClass.value = "resources-container";
 		liClass.value = "resource-main-container";
 		categoryDivClass.value = "category-container";
 		summaryDivClass.value = "summary-container";
@@ -45,7 +44,6 @@ function buildResourceCenter(data) {
 		div.setAttributeNode(divClass);
 		img.setAttributeNode(src);
 		a.setAttributeNode(href);
-		resourceList.setAttributeNode(resourceListClass);
 		li.setAttributeNode(liClass);
 		categoryDiv.setAttributeNode(categoryDivClass);
 		summaryDiv.setAttributeNode(summaryDivClass);
