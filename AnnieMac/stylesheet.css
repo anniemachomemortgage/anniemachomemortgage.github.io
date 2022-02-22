@@ -508,6 +508,9 @@ select {
 .manager-biography iframe {
 	display: none;
 }
+.manager-biography p iframe {
+	display: block;
+}
 #loan-originator-blurb-container h2 {
 	font-size: 35px;
 }
