@@ -8,9 +8,8 @@ async function loadResourceCenter(requestURL) {
 }
 function buildResourceCenter(data) {
 	const selector = document.querySelector('#resource-list');
-	const resourceContainer = document.createElement('div');
+	const resourceList = document.createElement('ul');
 	data.forEach(resource => {
-		const divElement = document.createElement('div');
 		const listElement = document.createElement('li');
 		const anchorElement = document.createElement('a');
 		const attributeLink = document.createAttribute('href');
@@ -19,10 +18,10 @@ function buildResourceCenter(data) {
 		attributeLink.value = resource['url'];
 		anchorElement.setAttributeNode(attributeLink);
 		anchorElement.appendChild(anchorElementText);
-		divElement.appendChild(anchorElement);
-		divElement.appendChild(document.createElement('br'));
-		divElement.appendChild(resourceDescription);
-		resourceContainer.appendChild(divElement);
+		listElement.appendChild(articleTitle);
+		listElement.appendChild(document.createElement('br'));
+		listElement.appendChild(resourceDescription);
+		resourceList.appendChild(listElement);
 	});
 	selector.appendChild(resourceList);
 }
