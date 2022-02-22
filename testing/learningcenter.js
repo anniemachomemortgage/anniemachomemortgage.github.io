@@ -37,10 +37,9 @@ function buildResourceCenter(data) {
 		li.appendChild(document.createElement('br'));
 		li.appendChild(summary);
 		if (resource['categories'] instanceof Array) {
-			const categoriesText = document.createTextNode('Categories: ');
-			li.appendChild(document.createElement('br'));
-			li.appendChild(categoriesText);
 			li.appendChild(div);
+			const categoriesText = document.createTextNode('Categories: ');
+			li.appendChild(categoriesText);
 			div.appendChild(ul);
 			resource['categories'].forEach(award => {
 				const categoriesItem = document.createElement('li');
