@@ -2762,3 +2762,9 @@ div#flash-message {
 #csteam .team-member-information .team-member-portrait {
   background-position-y: 4% !important;
 }
+@media screen and (max-width: 675px) {
+	.team-member, .site-type-team .branch-manager-section, .branch-manager-section .manager-information {
+		width: 100% !important;
+	}
+
+}
