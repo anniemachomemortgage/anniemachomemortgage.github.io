@@ -2753,16 +2753,13 @@ div#flash-message {
   }
 }
 
-@media screen and (max-width: 950px) {
-  .team-member-information {
-	width: initial !important;
-  }
-}
-
 #csteam .team-member-information .team-member-portrait {
   background-position-y: 4% !important;
 }
-@media screen and (max-width: 675px) {
+@media screen and (max-width: 950px) {
+	.team-member-information {
+		width: initial !important;
+	  }
 	.team-member, .site-type-team .branch-manager-section, .branch-manager-section .manager-information {
 		width: 100% !important;
 	}
