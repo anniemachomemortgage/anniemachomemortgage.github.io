@@ -241,7 +241,7 @@ textsectional {
 textsectional h1 {
 	line-height: 80px;
 	width: 700px;
-	margin: 20px 0 25px;
+	margin: -10px 0 25px;
 	color: #fff;
 	font-size: 71px;
 }
