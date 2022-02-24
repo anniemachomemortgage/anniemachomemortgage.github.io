@@ -1164,7 +1164,10 @@ cardfeaturette a:hover {
 .information-officer-container {
   min-width: 212px;
 }
-
+.name-officer-container {
+  color: var(--bodytext);
+  font-weight: 800 !important;
+}
 @media only screen and (max-width: 870px) {
 	#annie-mac-logo {
 		width: 253px;
