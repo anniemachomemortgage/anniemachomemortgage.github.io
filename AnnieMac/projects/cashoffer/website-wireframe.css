@@ -1146,6 +1146,25 @@ cardfeaturette a:hover {
 	border-bottom: none;
 }
 
+
+.loan-officer-information {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #fff;
+  justify-content: space-between;
+}
+.photo-officer-container img {
+  width: auto;
+  height: 120px;
+}
+.photo-officer-container {
+  padding: 10px 10px 0;
+}
+.information-officer-container {
+  min-width: 212px;
+}
+
 @media only screen and (max-width: 870px) {
 	#annie-mac-logo {
 		width: 253px;
