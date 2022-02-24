@@ -1141,12 +1141,9 @@ stepnumber {
 	font-size: 22px;
 	margin-right: 15px;
 }
-
 cardfeaturette a:hover {
 	border-bottom: none;
 }
-
-
 .loan-officer-information {
   display: flex;
   flex-direction: row;
@@ -1167,7 +1164,7 @@ cardfeaturette a:hover {
 .name-officer-container {
   color: var(--bodytext);
   font-weight: 800 !important;
-}
+} 
 @media only screen and (max-width: 870px) {
 	#annie-mac-logo {
 		width: 253px;
