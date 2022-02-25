@@ -1148,7 +1148,7 @@ $(function() {
 	};
 	if ((window.location.href.indexOf("coreyscott") != -1) || (window.location.href.indexOf("csteam") != -1)) {
 			if ($('body').hasClass('page-page-detail')) {
-				if ((window.location.href.indexOf("cash2keys") > -1) || (window.location.href.indexOf("cash-2-keys") > -1) || (window.location.href.indexOf("cashbuyer-form") > -1) || (window.location.href.indexOf("buy-now-sell-later") > -1) || (window.location.href.indexOf("cash-offer") > -1)) {
+				if ((window.location.href.indexOf("cash2keys") < -1) || (window.location.href.indexOf("cash-2-keys") < -1) || (window.location.href.indexOf("cashbuyer-form") < -1) || (window.location.href.indexOf("buy-now-sell-later") < -1) || (window.location.href.indexOf("cash-offer") < -1)) {
 				} 
 				else {
 					var appendedContent = $(".content-detail").html();
