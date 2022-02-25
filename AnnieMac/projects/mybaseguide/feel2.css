@@ -179,7 +179,7 @@ h2#content-headling {
 	font-size: 35px;
 	margin-bottom: 35px;
 	text-align: center;
-	margin-top: -15px;
+	margin-top: 60px;
 }
 
 #content-subheadling {
@@ -211,6 +211,7 @@ button {
 	font-size: 22px;
 	border-radius: 3px;
 	text-transform: uppercase;
+	display: none;
 }
 
 .secondary-button {
@@ -252,7 +253,7 @@ main {
 	display: flex;
 	justify-content: space-around;
 	background: #fff;
-	margin: -119px auto 32px;
+	margin: -245px auto 32px;
 	padding: 51px;
 	width: 70%;
 	min-width: 500px;
@@ -270,7 +271,6 @@ main {
 .options-2 #cta1 {
 	position: absolute;
 	bottom: -100px;
-	display: none;
 }
 .options-2 {
 	position: relative;
@@ -298,7 +298,7 @@ button a:hover {
 }
 
 #contact-homepage-mybaseguide-homepage {
-	order: 1;
+	order: 3;
 }
 
 .sectional h2 {
@@ -422,8 +422,7 @@ footer {
 	flex-direction: column;
 	align-items: center;
 	margin-top: 40px;
-	margin-bottom: -20px;
-	order: 4;
+	display: none;
 }
 
 #visual-divider h3 {
@@ -729,7 +728,7 @@ select {
 
 .explore-products h3 {
 	font-size: 35px;
-	margin: 25px 0 50px;
+	margin: -70px 0 50px;
 	text-align: center;
 }
 
@@ -780,5 +779,5 @@ select {
 .explore-products {
 	position: relative;
 	margin: 20px 0;
-	order: 3;
+	order: 1;
 }
