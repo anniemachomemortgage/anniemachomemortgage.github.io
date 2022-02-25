@@ -1180,7 +1180,6 @@ $(function() {
 		// 		}
 		// 	}
 		// }
-	};
 
 	if ((window.location.href.indexOf("burlington.annie-mac.com") != -1)) {
 		if ($('body').hasClass('page-page-detail')) {
