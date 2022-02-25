@@ -1156,26 +1156,28 @@ $(function() {
 			$("#stylesheet-git").remove();
 			$('.front').load("https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/index.html", function() {
 		});
-		if ($('body').hasClass('page-page-detail')) {
-			if ((window.location.href.indexOf("cash2keys") > -1) || (window.location.href.indexOf("cash-2-keys") > -1) || (window.location.href.indexOf("cashbuyer-form") > -1) || (window.location.href.indexOf("buy-now-sell-later") > -1) || (window.location.href.indexOf("cash-offer") > -1)) {
-				var cash2keyspagestatus = true
-				} else {
-				var cash2keyspagestatus = false
-				}
-				if (cash2keyspagestatus == false) {
-				   var appendedContent = $(".content-detail").html();
-					$("head > link:nth-child(11)").remove();
-					$("#am-css").remove();
-					$("#am-styles").remove();
-					$("#am-responsive").remove();
-					$("#am-custom").remove();
-					$("#stylesheet-git").remove();
-					$('.page-page-detail').load("https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/blank.html", function() {
-						$(appendedContent).appendTo($( "#insertion-point" ));
-					});
-				}
-			}
-		}
+		// if ($('body').hasClass('page-page-detail')) {
+		// 	if ((window.location.href.indexOf("cash2keys") > -1) || (window.location.href.indexOf("cash-2-keys") > -1) || (window.location.href.indexOf("cashbuyer-form") > -1) || (window.location.href.indexOf("buy-now-sell-later") > -1) || (window.location.href.indexOf("cash-offer") > -1)) {
+		// 		var cash2keyspagestatus = true
+		// 		console.log(cash2keyspagestatus);
+		// 		} else {
+		// 		var cash2keyspagestatus = false
+		// 		console.log(cash2keyspagestatus);
+		// 		}
+		// 		if (cash2keyspagestatus == false) {
+		// 		   var appendedContent = $(".content-detail").html();
+		// 			$("head > link:nth-child(11)").remove();
+		// 			$("#am-css").remove();
+		// 			$("#am-styles").remove();
+		// 			$("#am-responsive").remove();
+		// 			$("#am-custom").remove();
+		// 			$("#stylesheet-git").remove();
+		// 			$('.page-page-detail').load("https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/blank.html", function() {
+		// 				$(appendedContent).appendTo($( "#insertion-point" ));
+		// 			});
+		// 		}
+		// 	}
+		// }
 	};
 
 	if ((window.location.href.indexOf("burlington.annie-mac.com") != -1)) {
