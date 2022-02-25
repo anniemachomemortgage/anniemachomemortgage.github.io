@@ -72,31 +72,33 @@ $(function() {
 		localStorage.setItem('minimizerealtor', 'registered');
 	};
 	if (window.location.href.indexOf("cash2keys-realtor") > -1) {
-		var currentDate = new Date();
-		currentDate.setHours(0,0,0,0);
-		localStorage.setItem('currentDateLog', currentDate);
-		if (localStorage.getItem("minimizerealtor") != "registered") {
-			if ((localStorage.minimizetime) > (localStorage.currentDateLog)) {
-				localStorage.setItem('minimizerealtor', 'load-realtor-popup');
+		if (window.location.href.indexOf("user=tx") !== -1) {
+			var currentDate = new Date();
+			currentDate.setHours(0,0,0,0);
+			localStorage.setItem('currentDateLog', currentDate);
+			if (localStorage.getItem("minimizerealtor") != "registered") {
+				if ((localStorage.minimizetime) > (localStorage.currentDateLog)) {
+					localStorage.setItem('minimizerealtor', 'load-realtor-popup');
+				}
+				if (localStorage.getItem("minimizetime") === null) {
+					localStorage.setItem('minimizerealtor', 'load-realtor-popup');
+				}
 			}
-			if (localStorage.getItem("minimizetime") === null) {
-				localStorage.setItem('minimizerealtor', 'load-realtor-popup');
+			if ((localStorage.minimizerealtor) == "load-realtor-popup") {
+				$('#minimized-realtor').removeClass('initial-hidden');
+			};
+			if (localStorage.minimizetime < localStorage.currentDateLog) {
+				$('#minimized-realtor').removeClass('initial-hidden');
+				localStorage.setItem('minimizetime', null)
 			}
+			$("#dismiss-button-forever").click(function(event) {
+				var minimizedDate = new Date();
+				minimizedDate.setHours(0,0,0,0);
+				localStorage.setItem('minimizerealtor', 'hide-realtor-popup');
+				localStorage.setItem('minimizetime', minimizedDate);
+				$('#minimized-realtor').hide();
+			});
 		}
-		if ((localStorage.minimizerealtor) == "load-realtor-popup") {
-			$('#minimized-realtor').removeClass('initial-hidden');
-		};
-		if (localStorage.minimizetime < localStorage.currentDateLog) {
-			$('#minimized-realtor').removeClass('initial-hidden');
-			localStorage.setItem('minimizetime', null)
-		}
-		$("#dismiss-button-forever").click(function(event) {
-			var minimizedDate = new Date();
-			minimizedDate.setHours(0,0,0,0);
-			localStorage.setItem('minimizerealtor', 'hide-realtor-popup');
-			localStorage.setItem('minimizetime', minimizedDate);
-			$('#minimized-realtor').hide();
-		});
 	};
 	if (window.location.href.indexOf("faq") > -1) {
 		$("#search-faq").keyup(function() {
