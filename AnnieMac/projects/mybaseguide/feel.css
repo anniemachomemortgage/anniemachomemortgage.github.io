@@ -413,10 +413,10 @@ footer {
 }
 
 #visual-divider {
-	background: linear-gradient(177deg, rgb(26 29 36 / 55%) 20%, rgb(26 29 36 / 50%) 80%), url(images/header_image2.jpg);
+	background: linear-gradient(177deg, rgb(26 29 36 / 55%) 20%, rgb(26 29 36 / 50%) 80%), url('images/footer_image.jpg');
 	min-height: 325px;
 	background-size: cover;
-	background-position-y: 23%;
+	background-position-y: 34%;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
