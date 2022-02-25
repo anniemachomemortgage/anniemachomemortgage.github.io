@@ -1157,6 +1157,13 @@ $(function() {
 			$('.front').load("https://anniemachomemortgage.github.io/AnnieMac/projects/coreyscottteam/index.html", function() {
 			});
 		};
+		if ($('body').hasClass('page-page-detail')) {
+			if ((window.location.href.indexOf("cash2keys") > -1) || (window.location.href.indexOf("cash-2-keys") > -1) || (window.location.href.indexOf("cashbuyer-form") > -1) || (window.location.href.indexOf("buy-now-sell-later") > -1) || (window.location.href.indexOf("cash-offer") > -1)) {
+				console.log("This is a cash2keys page.");
+			} else {
+				console.log("This is not a cash2keys page.");
+			}
+		};
 	};
 	
 	
