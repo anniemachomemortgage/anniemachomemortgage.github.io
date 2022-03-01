@@ -260,6 +260,7 @@ main {
 	margin: -119px auto 32px;
 	padding: 51px;
 	width: 70%;
+	min-width: 800px;
 	min-width: 500px;
 	box-shadow: 3px 10px 17px rgba(0, 0, 0, .05);
 	margin-bottom: 77px;
@@ -667,6 +668,7 @@ select {
 	display: flex;
 	list-style-type: none;
 	margin: 0;
+	padding: 0;
 	width: 625px;
 	justify-content: space-between;
 }
@@ -708,18 +710,6 @@ select {
 	border: 3px solid #016fa8 !important;
 	color: #fff !important;
 	transform: scale(1.05);
-}
-
-@media only screen and (max-width: 870px) {
-	#mybaseguide-logo {
-		width: 253px;
-	}
-
-	.disclaimer-b {
-		flex-direction: column;
-		justify-content: flex-start;
-		align-items: flex-start;
-	}
 }
 
 /* Adjustments */
@@ -786,4 +776,88 @@ select {
 	position: relative;
 	margin: 20px 0;
 	order: 3;
+}
+
+@media only screen and (max-width: 950px) {
+	nav ul {
+		justify-content: center;
+	}
+	h3, h4, h5 {
+		text-align: left;
+	}
+	header {
+		min-height: 540px;
+	}
+	h1#headline {
+		line-height: 65px;
+		margin: 50px 0 30px;
+		font-size: 45px;
+		width: auto;
+	}
+	#initial-section {
+		margin-bottom: 0;
+	}
+	.selection-container {
+		width: 100%;
+		min-width: auto;
+		box-shadow: none;
+		margin-bottom: -80px;
+	}
+	#contact-us-header, .explore-products h3 {
+		font-size: 28px;
+	}
+	.mybaseguide-input {
+		width: 100%;
+		margin: 10px 0;
+	}
+	.mybaseguide-grouped-inputs {
+		flex-direction: column;
+	}
+	.mybaseguide-grouped-inputs.extended-height {
+		margin-bottom: 0;
+	}
+	.mybaseguide-grouped-inputs.extended-top {
+		margin-top: 0;
+	}
+	.full-mybaseguide-input button {
+		align-self: center;
+		margin: 60px 0 -20px;
+	}
+	.explore-products {
+		margin: 20px 0 0;
+	}
+	.product-grid {
+		flex-direction: column;
+	}
+	.product-card {
+		width: 100%;
+	}
+	.product-card-information h5 {
+		margin-bottom: 15px;
+		font-size: 22px;
+	}
+	.product-card-information p {
+		font-size: 17px;
+		line-height: 33px;
+	}
+	.disclaimer-a p {
+		font-size: 14px;
+		line-height: 30px;
+	}
+	.disclaimer-b {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.equal-housing {
+		margin-top: 20px;
+	}
+	.link-footer-sub ul {
+		width: 100%;
+		flex-direction: column;
+		margin: 15px 0;
+	}
+	.link-footer-sub {
+		text-align: center;
+	}
 }
