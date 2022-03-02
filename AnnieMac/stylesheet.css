@@ -2,6 +2,16 @@
 #flash-message {
   display: none !important;
 }
+#more-reviews {
+	margin: 0 auto;
+	border: none;
+	position: absolute;
+	bottom: -41px;
+	right: 25px;
+}
+.review-grid.padding-40.flex.space-between {
+	position: relative;
+}
 .average-social-rating p:last-of-type {
   display: none;
 }
