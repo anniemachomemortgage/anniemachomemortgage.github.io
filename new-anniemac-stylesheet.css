@@ -1,0 +1,50 @@
+.updated-page-container {
+	margin: 0 auto 60px;
+	min-width: 500px;
+	z-index: 1;
+	width: 90%;
+	max-width: 1000px;
+	min-height: 300px;
+}
+
+.updated-page-container h3 {
+	text-align: left;
+	margin: 10px 0 15px;
+	font-size: 35px;
+	color: var(--resourcecenterh3);
+}
+
+.updated-page-container h4 {
+	margin: 25px 0 15px;
+	color: var(--resourcecenterh4);
+}
+
+.updated-page-container h5 {
+	line-height: 0.3;
+	font-size: 1.3rem;
+	margin: 30px 0 0;
+}
+
+.updated-page-container p {
+	font-size: 17px;
+	line-height: 33px;
+	margin: 18px 0;
+}
+
+.updated-page-container li {
+	font-size: 17px;
+	line-height: 33px;
+}
+
+.updated-page-container a {
+	color: var(--resourcecenterA);
+	font-weight: 800;
+	text-decoration: underline;
+}
+
+@media only screen and (max-width: 500px) {
+	.updated-page-container {
+		width: 90% !important;
+		min-width: initial;
+	}
+}
