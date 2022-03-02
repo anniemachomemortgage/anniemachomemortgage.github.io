@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-.lorem-highlight {
-	background: #ff2600 !important;
-	color: white !important;
+html>body>#site-navigation,
+html>body>header,
+html>body>footer,
+.edit-menu,
+#flash-message {
+	display: none;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
 	--mainbody: #798088;
@@ -109,7 +112,7 @@ li {
 }
 
 header {
-	background: linear-gradient(177deg, rgb(26 29 36 / 55%) 20%, rgb(26 29 36 / 50%) 80%), url(images/header_image.jpg);
+	background: linear-gradient(177deg, rgb(26 29 36 / 55%) 20%, rgb(26 29 36 / 50%) 80%), url(https://annie-mac.com/uploads/sites/10713/public/header_image.jpg);
 	background-position-y: 0;
 	position: relative;
 	background-size: cover;
@@ -156,7 +159,7 @@ nav ul {
 	background: white;
 	width: 100%;
 	box-shadow: 3px 10px 17px rgb(4 2 2 / 27%);
-	padding: 15px 30px;
+	padding: 15px 30px 10px;
 }
 
 h1#headline {
@@ -301,6 +304,7 @@ button a:hover {
 	padding: 35px 0;
 	margin-bottom: 50px;
 	order: -1;
+	z-index: 1;
 }
 
 #contact-homepage-mybaseguide-homepage {
@@ -388,7 +392,7 @@ footer {
 }
 
 #visual-divider-a {
-	background: linear-gradient(177deg, rgb(26 29 36 / 55%) 20%, rgb(26 29 36 / 50%) 80%), url('images/middle_image.jpg');
+	background: linear-gradient(177deg, rgb(26 29 36 / 55%) 20%, rgb(26 29 36 / 50%) 80%), url('https://annie-mac.com/uploads/sites/10713/public/middle_image.jpg');
 	min-height: 335px;
 	background-size: cover;
 	background-position-y: 55%;
@@ -419,7 +423,7 @@ footer {
 }
 
 #visual-divider {
-	background: linear-gradient(177deg, rgb(26 29 36 / 55%) 20%, rgb(26 29 36 / 50%) 80%), url('images/footer_image.jpg');
+	background: linear-gradient(177deg, rgb(26 29 36 / 55%) 20%, rgb(26 29 36 / 50%) 80%), url('https://annie-mac.com/uploads/sites/10713/public/footer_image.jpg');
 	min-height: 325px;
 	background-size: cover;
 	background-position-y: 34%;
@@ -442,9 +446,10 @@ footer {
 	width: 75%;
 	min-width: 300px;
 	color: #fff;
-	font-size: 20px;
+	font-size: 22px;
 	text-align: center;
-	font-weight: 200;
+	font-weight: 300;
+	line-height: 35px;
 }
 
 #visual-divider button {
@@ -766,16 +771,24 @@ select {
 }
 
 .product-card-information p {
-	line-height: 24px;
+	line-height: 29px;
 	font-weight: 300;
 	color: #4a4a4a;
-	font-size: 15px;
+	font-size: 16px;
 }
 
 .explore-products {
 	position: relative;
 	margin: 20px 0;
 	order: 3;
+}
+
+.node-168925 header {
+  min-height: 550px !important;
+  max-height: 55px !important;
+}
+.node-168925 #disclaimers-container {
+  margin-top: -70px;
 }
 
 @media only screen and (max-width: 950px) {
