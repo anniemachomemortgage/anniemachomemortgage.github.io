@@ -7428,7 +7428,7 @@ html {
 }
 
 #home-banner {
-	background: linear-gradient(40deg, rgba(0,39,60,.35) 70%, #78c2542b 80%), url(/uploads/sites/10713/public/pexel-family_1.jpeg) top right no-repeat;
+	background: linear-gradient(40deg, rgba(0,39,60,.35) 70%, #78c2542b 80%), url(https://annie-mac.com/uploads/sites/10713/public/pexel-family_1.jpeg) top right no-repeat;
 	background-size: cover;
 	background-position-y: 25%;
 	height: 670px;
@@ -7644,22 +7644,22 @@ section#home-provide .content-block-list {
 	text-shadow: 2px 0px 1px rgb(0, 0, 0);
 }
 #we-provide-more-1 {
-	background: linear-gradient(180deg, rgba(111, 111, 111, 0.35) 10%, #242424d1 80%), url(/uploads/sites/10713/public/more-resources.jpeg) top right no-repeat;
+	background: linear-gradient(180deg, rgba(111, 111, 111, 0.35) 10%, #242424d1 80%), url(https://annie-mac.com/uploads/sites/10713/public/more-resources.jpeg) top right no-repeat;
 	background-size: cover;
 	background-position-y: 100%;
 }
 #we-provide-more-2 {
-	background: linear-gradient(180deg, rgba(111, 111, 111, 0.35) 10%, #242424d1 80%), url(/uploads/sites/10713/public/more-support.jpeg) top right no-repeat;
+	background: linear-gradient(180deg, rgba(111, 111, 111, 0.35) 10%, #242424d1 80%), url(https://annie-mac.com/uploads/sites/10713/public/more-support.jpeg) top right no-repeat;
 	background-size: cover;
 	background-position-y: 100%;
 }
 #we-provide-more-3 {
-	background: linear-gradient(180deg, rgba(111, 111, 111, 0.35) 10%, #242424d1 80%), url(/uploads/sites/10713/public/more-solutions.jpeg) top right no-repeat;
+	background: linear-gradient(180deg, rgba(111, 111, 111, 0.35) 10%, #242424d1 80%), url(https://annie-mac.com/uploads/sites/10713/public/more-solutions.jpeg) top right no-repeat;
 	background-size: cover;
 	background-position-y: 60%;
 }
 #we-provide-more-4 {
-	background: linear-gradient(180deg, rgba(111, 111, 111, 0.35) 10%, #242424d1 80%), url(/uploads/sites/10713/public/more-humanity.jpeg) top right no-repeat;
+	background: linear-gradient(180deg, rgba(111, 111, 111, 0.35) 10%, #242424d1 80%), url(https://annie-mac.com/uploads/sites/10713/public/more-humanity.jpeg) top right no-repeat;
 	background-size: cover;
 	background-position-y: 60%;
 }
@@ -7768,17 +7768,17 @@ section#home-provide .content-block-list {
 	background: #006fa9;
 }
 div.blog-home-entry:nth-child(2) {
-	background: linear-gradient(180deg, rgba(193, 127, 127, 0.35) 20%, #171717cc 70%), url(/uploads/sites/10713/public/blog-1.jpeg);
+	background: linear-gradient(180deg, rgba(193, 127, 127, 0.35) 20%, #171717cc 70%), url(https://annie-mac.com/uploads/sites/10713/public/blog-1.jpeg);
 	background-size: auto, auto;
 	background-size: cover;
 }
 div.blog-home-entry:nth-child(3) {
-	background: linear-gradient(180deg, rgba(94, 96, 38, 0.35) 20%, #171717cc 70%), url(/uploads/sites/10713/public/blog-2.jpeg);
+	background: linear-gradient(180deg, rgba(94, 96, 38, 0.35) 20%, #171717cc 70%), url(https://annie-mac.com/uploads/sites/10713/public/blog-2.jpeg);
 	background-size: auto, auto;
 	background-size: cover;
 }
 div.blog-home-entry:nth-child(4) {
-	background: linear-gradient(180deg, rgba(127, 134, 193, 0.16) 20%, #171717cc 70%), url(/uploads/sites/10713/public/blog-3.jpeg);
+	background: linear-gradient(180deg, rgba(127, 134, 193, 0.16) 20%, #171717cc 70%), url(https://annie-mac.com/uploads/sites/10713/public/blog-3.jpeg);
 	background-size: auto, auto;
 	background-size: cover;
 }
@@ -7796,7 +7796,7 @@ div.blog-home-entry:nth-child(4) {
 	border: none;
 }
 .user-login > #product-banner, .member-registration > #product-banner {
-	background: linear-gradient(14deg, rgb(78 118 127 / 48%) 30%, rgb(28 85 107 / 28%) 80%), url(/uploads/sites/10713/public/login.jpeg) top left no-repeat;
+	background: linear-gradient(14deg, rgb(78 118 127 / 48%) 30%, rgb(28 85 107 / 28%) 80%), url(https://annie-mac.com/uploads/sites/10713/public/login.jpeg) top left no-repeat;
 	background-position-y: 0%, top;
 	background-size: auto, auto;
 	background-size: cover;
