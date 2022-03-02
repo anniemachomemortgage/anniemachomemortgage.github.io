@@ -18,7 +18,7 @@ h4 span {
 }
 
 #navigation-logo h1 {
-	background: url('/dev/themes/annie_mac/img/logobox-hor.png');
+	background: url('https://annie-mac.com/dev/themes/annie_mac/img/logobox-hor.png');
 	background-size: cover;
 	width: 250px;
 	height: 42px;
@@ -84,33 +84,33 @@ form button:hover,
 }
 
 #home-banner {
-	background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url(/dev/themes/annie_mac/img/indexbg.jpeg) top left no-repeat;
+	background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url(https://annie-mac.com/dev/themes/annie_mac/img/indexbg.jpeg) top left no-repeat;
 	background-size: cover;
 }
 
 #page-banner {
-	background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url(/dev/themes/annie_mac/img/gajok.jpeg) top left no-repeat;
+	background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url(https://annie-mac.com/dev/themes/annie_mac/img/gajok.jpeg) top left no-repeat;
 	background-size: cover;
 	background-position-y: 50%;
 	padding-bottom: 30px;
 }
 
 #product-banner {
-	background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url(/dev/themes/annie_mac/img/purchase.jpeg) top left no-repeat;
+	background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url(https://annie-mac.com/dev/themes/annie_mac/img/purchase.jpeg) top left no-repeat;
 	background-size: cover;
 	background-position-y: 37%;
 	padding-bottom: 30px;
 }
 
 #brand-banner {
-	background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url(/dev/themes/annie_mac/img/brandbackground.png) top left no-repeat;
+	background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url(https://annie-mac.com/dev/themes/annie_mac/img/brandbackground.png) top left no-repeat;
 	background-size: cover;
 	background-position-y: 37%;
 	padding-bottom: 30px;
 }
 
 #core-banner {
-	background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url(/dev/themes/annie_mac/img/couple.jpg) top left no-repeat;
+	background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url(https://annie-mac.com/dev/themes/annie_mac/img/couple.jpg) top left no-repeat;
 	background-size: cover;
 	background-position-y: 47%;
 	padding-bottom: 30px;
@@ -133,7 +133,7 @@ form button:hover,
 }
 
 #home-calculators {
-	background: linear-gradient(55deg, rgba(16, 77, 119, 0.51) 30%, rgba(12, 12, 7, 0.61) 80%), url(/dev/themes/annie_mac/img/calc.jpg);
+	background: linear-gradient(55deg, rgba(16, 77, 119, 0.51) 30%, rgba(12, 12, 7, 0.61) 80%), url(https://annie-mac.com/dev/themes/annie_mac/img/calc.jpg);
 	background-size: cover;
 }
 
@@ -2903,7 +2903,7 @@ button a {
 
 #quiz-callout-home {
 	width: 85%;
-	background: url(/dev/themes/annie_mac/img/svg/questions.svg) bottom left no-repeat;
+	background: url(https://annie-mac.com/dev/themes/annie_mac/img/svg/questions.svg) bottom left no-repeat;
 	background-size: 407px;
 	border-radius: 6px;
 	min-height: 200px;
@@ -2921,7 +2921,7 @@ button a {
 /*Beginning --> Calculators*/
 
 #our-calculators {
-	background: url(/dev/themes/annie_mac/img/svg//calculator.svg) bottom right no-repeat;
+	background: url(https://annie-mac.com/dev/themes/annie_mac/img/svg//calculator.svg) bottom right no-repeat;
 	background-size: 46.5%;
 	height: 50vw;
 	min-height: 400px;
@@ -3406,7 +3406,7 @@ ul li ol:focus {
 }
 
 .your-loan-portrait {
-	background: url(/dev/themes/annie_mac/img/svg//house.svg);
+	background: url(https://annie-mac.com/dev/themes/annie_mac/img/svg//house.svg);
 	background-size: cover; 
 	width: 175px; 
 	height: 150px; 
@@ -4127,7 +4127,7 @@ ul li ol:focus {
 }
 
 .calculator-callout-banner {
-	background: linear-gradient(180deg, rgba(0, 0, 0, 0.03) 20%, rgba(0, 0, 0, 0.3) 77%), url(/dev/themes/annie_mac/img/numbers.jpeg);
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.03) 20%, rgba(0, 0, 0, 0.3) 77%), url(https://annie-mac.com/dev/themes/annie_mac/img/numbers.jpeg);
 	background-size: cover;
 	height: 130px;
 	border-radius: 4px 4px 0 0;
@@ -5136,11 +5136,11 @@ footer #sitemap ul.menu.nav li ul {
 	}
 	#our-calculators {
 			margin-top: 12%;
-			background: url(/dev/themes/annie_mac/img/svg/calculator.svg) bottom center no-repeat;
+			background: url(https://annie-mac.com/dev/themes/annie_mac/img/svg/calculator.svg) bottom center no-repeat;
 			background-size: 500px;
 	}
 	#quiz-callout-home {
-		background: url(/dev/themes/annie_mac/img/svg/questions.svg) bottom center no-repeat;
+		background: url(https://annie-mac.com/dev/themes/annie_mac/img/svg/questions.svg) bottom center no-repeat;
 		background-size: 370px;
 		align-items: center;
 		margin-top: 33%;
