@@ -1,0 +1,10 @@
+<!-- Beginning Custom Block Links -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" id="am-css" href="https://www.annie-mac.com/dev/themes/annie_mac/annie_mac.css">
+<link rel="stylesheet" id="am-styles" href="https://www.annie-mac.com/dev/themes/annie_mac/styles.css">
+<link rel="stylesheet" id="am-responsive" href="https://www.annie-mac.com/dev/themes/annie_mac/responsiveness.css">
+<link rel="stylesheet" id="am-custom" href="https://www.annie-mac.com/dev/themes/annie_mac/custom.css">
+<link rel="stylesheet" id="stylesheet-git" type="text/css" href="https://anniemachomemortgage.github.io/AnnieMac/stylesheet.css">
