@@ -7446,6 +7446,13 @@ html {
 	margin-bottom: 15px;
 }
 
+.page-page-detail .text-content h5 {
+	font-size: 20px;
+	font-weight: 400;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
 .page-page-detail .text-content p {
 	margin: 0;
 	padding-bottom: 20px;
