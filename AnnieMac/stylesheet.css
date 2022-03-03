@@ -243,8 +243,6 @@ footer #copyrights {
 #lastvisitedoriginatornotice p:first-of-type {
 	margin-bottom: 0px;
 	margin-top: 0;
-	/* border-top: 1px solid rgba(255,255,255,.15);
-	padding-top: 17px; */
 }
 #lastvisitedoriginatornotice p a {
 	color: #fff;
@@ -275,17 +273,6 @@ footer #copyrights {
 #dismisslastvisitor:hover {
 	cursor: pointer;
 }
-#site-navigation ul li ul li {
-	
-}
-#site-navigation ul li ul li a:hover, #site-navigation ul li ul li:hover, #site-navigation ul li ul:hover {
-
-}
-#site-navigation ul#navigation_new_upper li a {
-}
-.sub-site-navigation-listing {
-	/* width: 200px; */
-}
 #list-switch {
 	display: none;
 }
@@ -308,8 +295,6 @@ h1.header-additional {
 #page-banner, #video-banner, #product-banner, #core-banner {
 	height: 23vw;
 	min-height: 404px;
-}
-#page-banner h2, #video-banner h2, #product-banner h2, #brand-banner h2, #core-banner h2 {
 }
 .site-type-team #branch-managers, .branch-manager-section {
 	padding: 10px 0 !important;
@@ -345,8 +330,6 @@ h1.header-additional {
 .calculations-primary {
 	margin: 0;
 }
-#we-provide-more-master h3 {
-}
 ul.menu.nav {
 	display: flex;
 }
@@ -368,7 +351,6 @@ ul.menu.nav {
 	margin: initial !important;
 }
 .team-member-section {
-   /* justify-content: space-around; */
    margin: 0 auto;
    width: 100%;
    max-width: 1200px;
@@ -419,7 +401,6 @@ select {
 	letter-spacing: 1px;
 }
 #navigation-sidebar a:hover {
-	font-weight: normal !important;
 }
 .option-listing-go i {
 	display: none;
@@ -536,8 +517,6 @@ select {
 	margin-top: 11px;
 	font-weight: bold;
 }
-#home-reviews {
-}
 #sitemap li#list_11563 {
 	display: none;
 }
@@ -625,86 +604,6 @@ footer #sitemap #list_11081, footer #sitemap #list_11344, footer #sitemap #list_
 }
 #branch-content h2 {
 }
-/* #add-co-borrower {
-	margin-top: 278px;
-} */
-.page-loan-apply #questions {
-	width: 80vw;
-	margin: 0 auto 20px;
-	min-height: 77vh;
-	padding: 0;
-}
-.delete-borrower-form {
-	margin-top: 200px;
-}
-#co-borrowers-wrapper {
-	margin-bottom: 250px;
-}
-.page-loan-apply #question-container {
-	width: 100%;
-	margin-top: -35px;
-}
-.page-loan-apply  #questions .question {
-	font-size: 20px;
-	font-weight: bold;
-	margin-top: 35px;
-}
-.page-loan-apply #questions .choiceButton {
-	border-radius: 3px;
-	padding: 15px;
-	width: 85%;
-	max-width: 600px;
-	font-size: 16px;
-	background: #006fa9;
-	text-align: center;
-}
-.graphicButton {
-	border-radius: 3px;
-	padding: 15px;
-	width: 85%;
-	max-width: 600px;
-	font-size: 16px;
-	background: #78c254;
-	text-align: center;
-}
-.graphicInput {
-	border-radius: 3px;
-	padding: 15px !important;
-	width: 85% !important;
-	max-width: 600px;
-	font-size: 16px !important;
-	margin: -1px 0 40px;
-	text-align: center;
-	border: 1px solid rgba(0,0,0,.2);
-	height: auto;
-	outline: none;
-}
-#options .choiceButton {
-	border-radius: 3px;
-	padding: 15px;
-	width: 85%;
-	max-width: 600px;
-	font-size: 16px;
-	background: #006fa9;
-	text-align: center;
-	margin: 6px auto;
-}
-.user-login #form .text-center {
-	display: none;
-}
-#not-consumer {
-	margin-bottom: -30px;
-	background: #a80303;
-	padding: 10px 20px;
-	line-height: 28px;
-	color: white;
-	width: 94%;
-}
-#not-consumer a {
-	color: #ffbcbc;
-	font-weight: bold;
-	text-decoration: underline;
-}
 .user-login #product-banner, .user-login footer {
 	display: none;
 }
@@ -732,78 +631,9 @@ footer #sitemap #list_11081, footer #sitemap #list_11344, footer #sitemap #list_
   width: 25%;
   margin: 0 auto;
 }
-#new-perk-plans {
-}
 .location-listing {
 	width: 50%;
 	margin: 24px 0 10px;
-}
-#paws-container {
-	height: 390px;
-	margin: 0 auto;
-	width: 800px;
-	border: 6px solid #088dc5;
-	font-family: 'Myriad Pro', system-ui, sans-serif;
-	position: relative;
-	background: #006BA7 url('right-dogs.png') bottom right no-repeat;
-	background-size: 200px;
-	margin-top: 120px;
-	margin-bottom: -40px;
-}
-#paws-motif {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background: url('left-dogs.png') bottom left no-repeat;
-	background-size: 200px;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-}
-#paws-motif h1 {
-	background: url('logo.png');
-	text-indent: -999vw;
-	margin: -10px 0 30px;
-	width: 490px;
-	height: 167px;
-	background-size: cover;
-}
-#paws-motif h3 {
-	color: #7FBB41;
-	font-weight: 200;
-	margin: 0 0 10px;
-	font-size: 22px;
-	letter-spacing: .8px;
-	text-transform: uppercase;
-}
-#paws-motif h4 {
-	order: -1;
-	margin: -1px 0 50px;
-	font-size: 18px;
-	text-transform: uppercase;
-	letter-spacing: 5px;
-	color: #fff;
-	font-weight: 200;
-}
-#paws-motif button {
-	background: #7FBB41;
-	border: 0;
-	outline: 0;
-	color: white;
-	font-size: 18px;
-	padding: 13px 20px;
-	border-radius: 3px;
-	text-transform: uppercase;
-	margin-top: 10px;
-}
-#paws-motif button:hover {
-	cursor: pointer;
-}
-#paws-motif button span {
-	font-weight: bold;
-	text-transform: uppercase;
-	margin: 0 2px;
 }
 @media screen and (max-width: 1110px) {
 	.site-type-team .branch-manager-section {
@@ -854,22 +684,6 @@ footer #sitemap #list_11081, footer #sitemap #list_11344, footer #sitemap #list_
 #team-site-warning {
 	margin-top: -40px;
 	margin-bottom: 40px;
-}
-#co-borrower-addressing {
-	background: #ffe7dc;
-	margin-bottom: -1px;
-	color: #a91202;
-	padding: 17px;
-	line-height: 27px;
-	text-align: left;
-	border-left: 8px solid #a91202;
-	border-radius: 0 3px 3px 0;
-	width: 80%;
-	margin: 20px auto 0;
-}
-.locked-account {
-	text-align: center;
-	margin: 0 0 -15px;
 }
 .site-type-branch nav #about-navigation .sub-menu-links li:nth-child(2) {
 	display: none;
@@ -1043,17 +857,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 .navigation-sidebar-sectional ul li {
 	display: block !important;
 }
-/* @media only screen and (max-width: 1114px) {
-	#inserted-banner {
-		display: none;
-	}
-} */
 
-h1, h2, h3, h4, h5, h6, p, li, a {
-}
-p, li, a {
-}
-/* BEGIN NEW CODE FOR LOAN OFFICERS */
 #annie_mac-loan-officer, #tmc-loan-officer, #lofidirect-loan-officer {
 	display: flex;
 	background: #fff;
@@ -1064,7 +868,6 @@ p, li, a {
 }
 #loan-originator-backdrop {
 	background: none;
-	/* background: linear-gradient(50deg, rgba(5, 6, 6, 0.61) 30%, rgba(107, 97, 28, 0.28) 80%), url(https://www.annie-mac.com/dev/themes/annie_mac/img/indexbg.jpeg) top left no-repeat; */
 	background: none;
 	background-position-y: 43.5%;
 	height: auto;
@@ -1258,20 +1061,20 @@ p, li, a {
 	background-size: 101%;
 }
 #inserted-banner.themortgagecompany #button-container-home > a:nth-child(1) {
-margin-left: 0;
-background: transparent;
-border-radius: 5px;
-color: white !important;
-margin-bottom: 10px;
-border: none;
-font-family: 'inter', sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 25px;
-order: -1;
-margin-top: -20px;
-width: 250px!important;
-text-shadow: 1px 2px 2px rgb(0 0 0 / 70%);
+	margin-left: 0;
+	background: transparent;
+	border-radius: 5px;
+	color: white !important;
+	margin-bottom: 10px;
+	border: none;
+	font-family: 'inter', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 25px;
+	order: -1;
+	margin-top: -20px;
+	width: 250px!important;
+	text-shadow: 1px 2px 2px rgb(0 0 0 / 70%);
 }
 #inserted-banner.themortgagecompany .container-section h3 span {
   font-size: 20px;
@@ -1343,9 +1146,6 @@ text-shadow: 1px 2px 2px rgb(0 0 0 / 70%);
 	font-size: 15px !important;
 	color: inherit !important;
 	line-height: inherit !improtant;
-}
-#accolades-originator {
-	/* margin-right: -460px; */
 }
 #accolates-originator #we-provide-more-master {
 	margin: 0;
@@ -1472,9 +1272,6 @@ text-shadow: 1px 2px 2px rgb(0 0 0 / 70%);
 		background: #02517b;
 	}
 }
-/* #accolades-originator #we-provide-more-master {
-	display: none;
-} */
 
 @media screen and (max-width: 1200px) {
 	#annie_mac-loan-officer, #tmc-loan-officer, #lofidirect-loan-officer {
@@ -1847,8 +1644,7 @@ footer #list_11344 > a, footer  #list_11343 > a, footer  #list_11350 > a {
 #site-navigation {
 	z-index: 1000;
 }
-#branch-banner {
-}
+
 .annapolis #branch-banner {
   background: linear-gradient(177deg, rgb(23 16 5 / 52%) 30%, rgb(29 27 18 / 54%) 80%), url('https://www.annie-mac.com/uploads/sites/10713/public/annapolis-branch.jpeg') center !important;
   background-size: cover !important;
@@ -1862,27 +1658,27 @@ footer #list_11344 > a, footer  #list_11343 > a, footer  #list_11350 > a {
 }
 
 @media screen and (max-width: 574px) {
-  #branch-banner {
-	background-size: cover !important;
-  }
-  .calculations-primary:nth-child(2) {
-	margin: 0;
-	padding: 0;
+  	#branch-banner {
+		background-size: cover !important;
+  	}
+  	.calculations-primary:nth-child(2) {
+		margin: 0;
+		padding: 0;
 	}
-  .branch-manager-section .manager-information {
-	width: 100% !important;
-}
-  .team-member {
-	width: auto;
-	margin: 20px 0 40px;
-}
-.team-member:last-of-type {
-  margin-left: 0;
-  margin: 0;
-}
-.team-member-section {
-  flex-direction: column;
-}
+  	.branch-manager-section .manager-information {
+		width: 100% !important;
+	}
+  	.team-member {
+		width: auto;
+		margin: 20px 0 40px;
+	}
+	.team-member:last-of-type {
+  		margin-left: 0;
+  		margin: 0;
+	}
+	.team-member-section {
+  		flex-direction: column;
+	}
 }
 #annie-mac-2021-redesign-container, .annie-mac-2021-redesign-section {
   width: initial !important;
