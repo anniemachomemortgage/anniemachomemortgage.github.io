@@ -273,8 +273,12 @@ footer #copyrights {
 #dismisslastvisitor:hover {
 	cursor: pointer;
 }
-#site-navigation ul li ul li {}
-#site-navigation ul li ul li a:hover, #site-navigation ul li ul li:hover, #site-navigation ul li ul:hover {color: #016fa8;}
+#site-navigation ul li ul li {
+	
+}
+#site-navigation ul li ul li a:hover, #site-navigation ul li ul li:hover, #site-navigation ul li ul:hover {
+
+}
 #site-navigation ul#navigation_new_upper li a {
 }
 .sub-site-navigation-listing {
