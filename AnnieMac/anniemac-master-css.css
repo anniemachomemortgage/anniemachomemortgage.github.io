@@ -178,7 +178,7 @@ form button:hover,
 }
 
 footer {
-	background: #0f4879;
+	background: #383838;
 	color: #ffffff;
 }
 
@@ -3203,9 +3203,6 @@ select:-moz-focusring {
 /*Beginning --> Footer Content*/
 
 footer #sitemap {
-	padding-bottom: 25px;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-	margin-bottom: 20px;
 }
 
 footer #copyrights {
@@ -7566,6 +7563,7 @@ section#home-provide .content-block-list {
 }
 #new-perk-plans {
 	margin: 125px auto 35px;
+	display: none;
 }
 #new-perk-plans a {
 	display: block;
@@ -7593,18 +7591,18 @@ section#home-provide .content-block-list {
 #what-we-provide {
 	display: flex;
 	flex-direction: row;
-	margin: 0 auto;
+	margin: 20px auto;
 	margin-left: auto;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 .we-provide-this {
 	color: white;
-	width: 40%;
+	width: 42%;
 	display: flex;
 	flex-direction: column;
 	padding: 50px 50px 35px 50px;
-	margin: 15px auto 20px;
+	margin: 3px 0;
 	background: #303335;
 }
 .provided-links {
