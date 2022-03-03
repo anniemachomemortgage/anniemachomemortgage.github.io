@@ -480,6 +480,7 @@ select {
 	text-align: left;
 	order: 4;
 	font-weight: 200;
+	display: none;
 }
 .container-fluid, .h-100 {
 	padding: 10px 0 150px 0;
