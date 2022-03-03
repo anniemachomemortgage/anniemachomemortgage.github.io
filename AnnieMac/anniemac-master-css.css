@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 h3 {
 	color: #7FC24A;
 }
@@ -2756,8 +2758,6 @@ button a {
 /*Beginning Index Banners*/
 
 #home-banner {
-	height: 50vw;
-	max-height: 800px;
 }
 
 #home-banner h2 {
@@ -7431,12 +7431,9 @@ html {
 	background: linear-gradient(40deg, rgba(0,39,60,.35) 70%, #78c2542b 80%), url(https://annie-mac.com/uploads/sites/10713/public/pexel-family_1.jpeg) top right no-repeat;
 	background-size: cover;
 	background-position-y: 25%;
-	height: 670px;
 	display: flex;
-	align-items: flex-start;
-	justify-content: flex-end;
-	padding: 0 0 155px 105px;
-	border-bottom: 10px solid #78c254;
+	align-items: center;
+	justify-content: center;
 	color: white;
 }
 #home-reviews {
@@ -7841,17 +7838,16 @@ div.blog-home-entry:nth-child(4) {
 	height: 30px;
 }
 #home-container {
-	width: 500px;
 	color: white;
-	justify-content: space-between;
+	justify-content: center;
 	display: flex;
 	flex-direction: column;
-	margin-left: -20px;
+	align-items: center;
 }
 .container-section {
 	display: flex;
-	flex-direction: row;
 	align-items: center;
+	justify-content: center;
 }
 .container-section h3 {
 	font-family: 'neue-haas-unica', sans-serif;
@@ -7866,6 +7862,7 @@ div.blog-home-entry:nth-child(4) {
 	font-size: 28px;
 	margin-top: 2px;
 	display: block;
+	text-align: center;
 }
 .container-section strong {
 	margin-top: -10px;
@@ -7877,7 +7874,6 @@ div.blog-home-entry:nth-child(4) {
 }
 #button-container-home {
 	margin: 0 !important;
-	width: 350px;
 	justify-content: flex-start;
 }
 #button-container-home > a  {
@@ -8320,4 +8316,8 @@ body > .main-content{
 	line-height: 1 !important;
 	padding: 30px 0 !important;
 	width: 100% !important;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li, section, main, header, nav, footer {
+font-family: 'inter', sans-serif;
 }
