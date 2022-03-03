@@ -4484,6 +4484,8 @@ ul li ol:focus {
 .team-member-information {
 	display: flex;
 	flex-direction: column;
+	margin: 0 50px;
+	padding: 20px 0;
 }
 
 .other-staff-section {
@@ -7591,7 +7593,8 @@ section#home-provide .content-block-list {
 	flex-wrap: wrap;
 	width: 94%;
 	position: relative;
-	margin: 25px auto 25px;
+	margin: 110px auto 25px;
+	padding-top: 20px;
 }
 #we-provide-more-master h3 {
 	font-size: 40px;
