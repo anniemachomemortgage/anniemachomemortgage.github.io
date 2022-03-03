@@ -7604,13 +7604,13 @@ section#home-provide .content-block-list {
 	margin-bottom: 20px;
 }
 .provided-links a {
-	background: #016fa8;
-	border: 3px solid #016fa8;
-	color: #fff;
+	background: #fff;
+	border: #fff;
+	color: #252525;
 	font-size: 14px;
 	letter-spacing: .045em;
 	text-align: center;
-	padding: 12px 17px;
+	padding: 16px 17px;
 	font-weight: 800;
 	margin-right: 15px;
 	text-transform: uppercase;
