@@ -2725,7 +2725,7 @@ button a {
 	margin: 15px auto 0;
 	font-size: 15px;
 	color: initial;
-	font-weight: 200;
+	font-weight: 300;
 }
 
 .review h4 {
@@ -5533,7 +5533,10 @@ footer #sitemap ul.menu.nav li ul {
 		margin: 0px 40px
 	}
 	.more-block {
-		width: 100%;
+		max-width: 1250px;
+		margin: 0 auto;
+		/* padding: 20px 0; */
+		width: 90%;
 	}
 	form span {
 		margin-top: -5px;
@@ -7490,7 +7493,7 @@ section#home-provide .content-block-list {
 }
 .we-provide-this {
 	color: white;
-	width: 42%;
+	width: 41%;
 	display: flex;
 	flex-direction: column;
 	padding: 50px 50px 35px 50px;
