@@ -2714,7 +2714,6 @@ div#flash-message {
 #site-navigation ul .navigation-sectional li img {
 	width: auto;
 	height: 40px;
-	margin: -8px 0 -4px;
 }
 #team-site > #team-display #branch-managers .branch-manager-section .manager-information .team-member-information h5:first-of-type {
   display: flex;
