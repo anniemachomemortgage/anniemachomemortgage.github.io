@@ -342,8 +342,7 @@ h1.header-additional {
 .calculations-primary {
 	margin: 0;
 }
-#we-provide-more-master h3 {
-}
+#we-provide-more-master h3 {}
 ul.menu.nav {
 	display: flex;
 }
@@ -480,7 +479,6 @@ select {
 	text-align: left;
 	order: 4;
 	font-weight: 200;
-	display: none;
 }
 .container-fluid, .h-100 {
 	padding: 10px 0 150px 0;
@@ -730,7 +728,6 @@ footer #sitemap #list_11081, footer #sitemap #list_11344, footer #sitemap #list_
   margin: 0 auto;
 }
 #new-perk-plans {
-	margin: 90px auto 50px;
 }
 .location-listing {
 	width: 50%;
@@ -1727,7 +1724,6 @@ thead {
 } */
 
 h1, h2, h3, h4, h5, h6, p, li, a {
-	font-family: font-family: -apple-system,BlinkMacSystemFont, 'inter', sans-serif !important;
 }
 p, li, a {
 }
