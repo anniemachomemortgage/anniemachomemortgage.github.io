@@ -7864,18 +7864,19 @@ div.blog-home-entry:nth-child(4) {
 	justify-content: center;
 }
 .container-section h3 {
-	line-height: 80px;
+	color: #fff;
+	line-height: 59px;
 	margin: 0px 0 14px;
 	color: #fff;
-	font-size: 70px;
+	font-size: 52px;
 	font-weight: 700;
 }
 .container-section h3 span {
-	font-weight: 600;
-	font-size: 36px;
+	font-weight: 300;
 	margin-top: 2px;
 	display: block;
 	text-align: center;
+	font-size: 30px;
 }
 .container-section strong {
 	margin-top: -10px;
