@@ -7581,7 +7581,6 @@ section#home-provide .content-block-list {
 #we-provide-more-master {
 	display: flex;
 	flex-wrap: wrap;
-	width: 94%;
 	position: relative;
 	margin: 25px auto 25px;
 }
@@ -7601,69 +7600,58 @@ section#home-provide .content-block-list {
 }
 .we-provide-this {
 	color: white;
-	text-shadow: 1px 1px 1px rgba(0,0,0,.9);
 	width: 40%;
 	display: flex;
 	flex-direction: column;
-	box-shadow: 1px 1px 6px rgba(0,0,0,.24);
 	padding: 50px 50px 35px 50px;
 	margin: 15px auto 20px;
-	border-radius: 4px;
+	background: #303335;
 }
 .provided-links {
 	padding-top: 20px;
 	margin-bottom: 20px;
 }
 .provided-links a {
-	background: white;
-	border-radius: 5px;
-	padding: 8px 15px;
-	text-shadow: none;
-	color: rgba(0,0,0,.8);
-	font-weight: bold;
-	letter-spacing: .09em;
-	box-shadow: 0px 1px 8px rgba(0,0,0,.31);
-	font-size: 16px;
-	margin-right: 10px;
-	opacity: .925;
+	background: #016fa8;
+	border: 3px solid #016fa8;
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: .045em;
+	text-align: center;
+	padding: 12px 17px;
+	font-weight: 800;
+	margin-right: 15px;
+	text-transform: uppercase;
 }
 .provided-links a:hover {
-	opacity: 1;
-	color: rgba(0,0,0,.95);
-	box-shadow: 0px 1px 8px rgba(0,0,0,.5);
+	/* opacity: 1; */
+	/* color: rgba(0,0,0,.95); */
+	/* box-shadow: 0px 1px 8px rgba(0,0,0,.5); */
 }
 .we-provide-this h4 {
 	color: white;
-	margin-top: 120px;
-	border-bottom: 1px solid rgba(255,255,255,.25);
-	padding-top: 30px;
-	font-weight: bold;
-	padding-bottom: 20px;
-	font-size: 2.4rem;
-	letter-spacing: .1em;
-	text-shadow: 2px 0px 1px rgb(0, 0, 0);
-}
-.we-provide-this p {
-	font-size: 1.1rem;
-	text-shadow: 2px 0px 1px rgb(0, 0, 0);
+	font-weight: 600;
+	font-size: 36px;
+	margin-top: 2px;
+	display: block;
 }
 #we-provide-more-1 {
-	background: linear-gradient(180deg, rgba(111, 111, 111, 0.35) 10%, #242424d1 80%), url(https://annie-mac.com/uploads/sites/10713/public/more-resources.jpeg) top right no-repeat;
+	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/more-resources.jpeg) top right no-repeat;
 	background-size: cover;
 	background-position-y: 100%;
 }
 #we-provide-more-2 {
-	background: linear-gradient(180deg, rgba(111, 111, 111, 0.35) 10%, #242424d1 80%), url(https://annie-mac.com/uploads/sites/10713/public/more-support.jpeg) top right no-repeat;
+	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/more-support.jpeg) top right no-repeat;
 	background-size: cover;
 	background-position-y: 100%;
 }
 #we-provide-more-3 {
-	background: linear-gradient(180deg, rgba(111, 111, 111, 0.35) 10%, #242424d1 80%), url(https://annie-mac.com/uploads/sites/10713/public/more-solutions.jpeg) top right no-repeat;
+	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/more-solutions.jpeg) top right no-repeat;
 	background-size: cover;
 	background-position-y: 60%;
 }
 #we-provide-more-4 {
-	background: linear-gradient(180deg, rgba(111, 111, 111, 0.35) 10%, #242424d1 80%), url(https://annie-mac.com/uploads/sites/10713/public/more-humanity.jpeg) top right no-repeat;
+	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/more-humanity.jpeg) top right no-repeat;
 	background-size: cover;
 	background-position-y: 60%;
 }
