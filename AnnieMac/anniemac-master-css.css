@@ -7451,7 +7451,7 @@ html {
 	width: 80%;
 	z-index: 2;
 	box-shadow: 1px 3px 9px rgba(0,0,0,.4);
-	margin: -77px auto 60px;
+	margin: -77px auto 0;
 	min-width: 500px;
 	z-index: 1;
 	width: 90%;
