@@ -1948,13 +1948,12 @@ p i {
 
 #site-navigation ul#navigation_new_upper li {
 	width: inherit;
-	font-family: protipo, -apple-system, "Helvetica Neue", Helvetica, "Hiragino Sans", sans-serif;
-	font-weight: 400;
-	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 13px;
 	padding: 0 12px;
 	line-height: .6;
 	position: relative;
+	font-weight: 600;
+	text-transform: uppercase;
 }
 
 #site-navigation ul#navigation_new_upper li a {}
@@ -2020,27 +2019,12 @@ p i {
 }
 
 #site-navigation ul li ul li {
-	font-weight: 300 !important;
-	text-transform: none;
-	font-size: 14px;
-	border-bottom: 1px solid rgba(255, 255, 255, .05);
-	padding-bottom: 12px;
-	padding-top: 3px;
-	width: 100%;
-	min-width: 120px;
 }
 
 #site-navigation ul li ul li:hover a {
-	font-weight: bold;
 }
 
 #site-navigation ul li ul li:last-of-type {
-	font-weight: 300 !important;
-	text-transform: none;
-	font-size: 14px;
-	border-bottom: none;
-	padding-bottom: 0px;
-	width: 100%;
 }
 
 .sub-site-navigation {
@@ -2049,26 +2033,19 @@ p i {
 
 
 .sub-site-navigation-listing {
-	background: radial-gradient(circle, rgba(15, 71, 119, 1) 0%, rgba(32, 104, 164, 1) 94%);
-	color: white;
-	width: 190px;
-	padding: 13px 5px;
-	border-radius: 3px;
+	background: white;
+	color: #000;
+	padding: 17px 5px 0;
+	border-radius: 0;
 	box-shadow: 0px 7px 4px rgba(0, 0, 0, .25);
-	border-top: .6px solid rgba(0, 0, 0, .065);
 }
 
-.sub-site-navigation li {
-	height: 15px;
-	margin: 15px 0;
-}
+.sub-site-navigation li {height: 31px;}
 
 .sub-site-navigation li:first-of-type {
-	margin: 7px 0 16px;
 }
 
 .sub-site-navigation li:last-of-type {
-	margin: 16px 0 3px;
 }
 
 #loan-originator-blurb-container {
@@ -2451,9 +2428,6 @@ p i {
 }
 
 #site-navigation ul#navigation_new_upper ul li ul li {
-	text-transform: capitalize;
-	font-weight: 400 !important;
-	font-family: protipo, -apple-system,"Helvetica Neue",Helvetica,"Hiragino Sans",sans-serif;
 }
 
 .option-listing ul {
