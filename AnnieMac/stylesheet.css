@@ -340,7 +340,6 @@ h1.header-additional {
 	margin: 0;
 }
 #we-provide-more-master h3 {
-	font-size: 48px;
 }
 ul.menu.nav {
 	display: flex;
@@ -527,7 +526,7 @@ select {
 }
 #home-reviews {
 	width: initial;
-	margin-top: -10px;
+	/* margin-top: -10px; */
 }
 #sitemap li#list_11563 {
 	display: none;
