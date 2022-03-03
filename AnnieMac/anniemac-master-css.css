@@ -4439,10 +4439,9 @@ ul li ol:focus {
 	cursor: pointer;
 }
 
-#team-display h3 {
-	padding-bottom: 15px;
-/*	border-bottom: 1px solid rgba(0,0,0,.075);
-*/}
+#team-display h3:first-of-type {
+	display: none;
+	}
 
 .team-member-section {
 	/* padding: 40px 0; */
@@ -4484,8 +4483,6 @@ ul li ol:focus {
 .team-member-information {
 	display: flex;
 	flex-direction: column;
-	margin: 0 50px;
-	padding: 20px 0;
 }
 
 .other-staff-section {
@@ -7593,8 +7590,7 @@ section#home-provide .content-block-list {
 	flex-wrap: wrap;
 	width: 94%;
 	position: relative;
-	margin: 110px auto 25px;
-	padding-top: 20px;
+	margin: 25px auto 25px;
 }
 #we-provide-more-master h3 {
 	font-size: 40px;

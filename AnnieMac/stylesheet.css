@@ -331,7 +331,7 @@ h1.header-additional {
 	margin: -40px 0 0;
 }
 #deserve-more-container-master {
-	margin: 50px auto -50px;
+	margin: 50px auto 30px;
 }
 .branch-manager-section .manager-information {
 	margin: 0 !important;
@@ -369,6 +369,7 @@ ul.menu.nav {
    margin: 0 auto;
    width: 100%;
    max-width: 1200px;
+   padding-top: 30px;
 }
 .team-member {
 	width: auto;
