@@ -3770,7 +3770,7 @@ ul li ol:focus {
 	min-width: 500px;
 	z-index: 1;
 	width: 90%;
-	max-width: 1000px;
+	max-width: 1200px;
 	min-height: 300px;
 }
 
@@ -7357,7 +7357,7 @@ html {
 	justify-content: center;
 	width: 60vw;
 	margin: 0 auto;
-	max-width: 1000px;
+	max-width: 1200px;
 	min-width: 600px;
 	text-align: center;
 }
@@ -7470,7 +7470,7 @@ html {
 	min-width: 500px;
 	z-index: 1;
 	width: 90%;
-	max-width: 1000px;
+	max-width: 1200px;
 }
 #perks-home, #home-deserve, section#home-blog {
 	display: none !important;
