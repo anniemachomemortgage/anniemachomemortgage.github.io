@@ -1631,16 +1631,8 @@ th {
 	}
 }
 
-
-/* Testimnonials */
-
-html,
-body {
-	margin: 0;
-	padding: 0;
-	font-family: 'neue-haas-unica', -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	overflow-x: hidden !important;
-}
+/* 
+Testimonials
 
 #review-social-section {
 	margin-top: 40px;
@@ -1743,7 +1735,7 @@ p i {
 	margin-top: 30px;
 	margin-bottom: -15px;
 	padding: 3px;
-}
+} */
 
 
 @media only screen and (max-width: 610px) {
@@ -2158,88 +2150,6 @@ p i {
 	color: #7FC24A;
 }
 
-#social-review-grid {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	width: 90%;
-	margin: 0 auto;
-}
-
-.social-review {
-	width: 45%;
-	min-width: 580px;
-	margin: 20px 10px;
-	border: 1px solid rgba(0, 0, 0, .15);
-	border-radius: 5px;
-	padding: 10px 20px;
-	box-shadow: 1px 1px 5px rgba(0, 0, 0, .16);
-}
-
-.social-review a {
-	text-decoration: none;
-	color: #2068a4;
-	font-weight: bold;
-}
-
-.social-review a:hover {
-	color: #006fa9;
-	text-decoration: underline;
-}
-
-.social-customer-review {
-	margin: 0;
-	font-weight: normal;
-}
-
-.social-loan-officer {
-	margin-top: 25px;
-	font-size: 18px;
-	font-family: protipo, sans-serif;
-	border-bottom: 1px solid rgba(0, 0, 0, .15);
-	padding: 35px 20px 15px;
-	margin: -20px;
-	text-align: center;
-}
-
-.review-social-rating {
-	text-align: center;
-}
-
-.review-social-rating i {
-	color: #7FC24A;
-	margin: 0 8px;
-	margin-left: 0;
-	font-size: 25px;
-	margin-top: 15px;
-	margin-bottom: 10px;
-}
-
-.social-review a i,
-p i {
-	color: #7FC24A;
-	margin: 0 3px;
-}
-
-.social-customer-review {
-	margin: 0;
-}
-
-.average-social-rating {
-	border-top: 1px solid rgba(0, 0, 0, .15);
-	line-height: 13px;
-	margin: -20px;
-	padding: 11px 20px 25px;
-	margin-top: 40px;
-}
-
-.social-review-survey {
-	line-height: 35px;
-	margin-top: 30px;
-	margin-bottom: -15px;
-	padding: 3px;
-}
-
 .hide {
 	display: none;
 }
@@ -2445,7 +2355,6 @@ p i {
 html, body, h1, h2, h3, h4, h5, h6, ul, ol, li {
 	margin: 0;
 	padding: 0;
-	font-family: 'neue-haas-unica', sans-serif;
 	line-height: 1.85rem;
 }
 
@@ -2965,7 +2874,6 @@ form label {
 	letter-spacing: .6px;
 	color: #626262;
 	display: block;
-	font-family: 'neue-haas-unica', sans-serif;
 }
 
 form input, form textarea {
@@ -2975,7 +2883,6 @@ form input, form textarea {
 	font-size: 1rem;
 	border: 1px solid rgba(0,0,0,.3);
 	outline: none;
-	font-family: 'neue-haas-unica', sans-serif;
 	width: 95%;
 } 
 
@@ -4919,7 +4826,6 @@ footer #sitemap ul.menu.nav li ul {
 	font-size: 1rem;
 	border: 1px solid rgba(0,0,0,.3);
 	outline: none;
-	font-family: 'neue-haas-unica', sans-serif;
 	width: 95%;
 }
 
@@ -7296,7 +7202,6 @@ html {
 	font-size: 1rem;
 	border: 1px solid rgba(0,0,0,.3);
 	outline: none;
-	font-family: 'neue-haas-unica', sans-serif;
 	width: 55%;
 }
 #faq h3 {
@@ -7899,7 +7804,6 @@ div.blog-home-entry:nth-child(4) {
 	font-size: 60px;
 	word-spacing: 50vw;
 	font-weight: normal;
-	font-family: 'neue-haas-unica', sans-serif;
 	line-height: 1.25;
 	margin: 0;
 	text-shadow: 8px 2px 9px rgba(0,0,0,.25);
