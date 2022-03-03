@@ -3818,6 +3818,7 @@ ul li ol:focus {
 	align-items: center;
 	flex-direction: column;
 	margin-left: 50px;
+	display: none;
 }
 
 .top-action {
