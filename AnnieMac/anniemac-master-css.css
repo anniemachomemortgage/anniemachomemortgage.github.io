@@ -7334,7 +7334,7 @@ html {
 	color: white;
 }
 #home-reviews {
-	max-width: 1200px;
+	max-width: 980px;
 	display: flex;
 	justify-content: space-around;
 	background: #fff;
@@ -7342,7 +7342,7 @@ html {
 	padding: 51px;
 	min-width: 500px;
 	box-shadow: 3px 10px 17px rgb(0 0 0 / 5%);
-	width: 65%;
+	width: 90%;
 }
 #perks-home, #home-deserve, section#home-blog {
 	display: none !important;
