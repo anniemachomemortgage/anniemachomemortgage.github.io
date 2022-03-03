@@ -4445,7 +4445,7 @@ ul li ol:focus {
 */}
 
 .team-member-section {
-	padding: 40px 0;
+	/* padding: 40px 0; */
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
@@ -4477,11 +4477,8 @@ ul li ol:focus {
 }
 
 .team-member-portrait {
-	background: rgba(0,0,0,.15);
 	height: 210px;
 	width: 240px;
-	margin-bottom: 20px;
-	border-radius: 6px;
 }
 
 .team-member-information {
@@ -4561,15 +4558,17 @@ ul li ol:focus {
 }
 
 .team-member-information h4 {
-	font-weight: bold;
+	font-weight: 300;
 	text-align: center;
+	font-size: 23px;
 }
 
 .team-member-information h5 {
-	font-size: 1rem;
+	margin: 5px 0 11px;
+	font-weight: 200;
 	text-align: center;
-	font-weight: normal;
-	padding-bottom: 15px;
+	font-size: 17px;
+	line-height: 31px;
 }
 
 .team-member-information h5:last-of-type {
@@ -5963,7 +5962,6 @@ footer #sitemap #list_11081, footer #sitemap #list_11344, footer #sitemap #list_
 }
 
 .team-member-portrait {
-	margin: 0 auto 20px;
 }
 .team-member-information button {
 	width: 240px;
@@ -5989,7 +5987,7 @@ footer #sitemap #list_11081, footer #sitemap #list_11344, footer #sitemap #list_
 }
 
 .team-member-section {
-	justify-content: flex-start;
+	justify-content: center;
 }
 
 .team-member-section::after {
