@@ -1957,10 +1957,7 @@ p i {
 	position: relative;
 }
 
-#site-navigation ul#navigation_new_upper li a {
-	color: inherit;
-	text-decoration: none;
-}
+#site-navigation ul#navigation_new_upper li a {}
 
 .navigation-sectional {
 	display: flex;
