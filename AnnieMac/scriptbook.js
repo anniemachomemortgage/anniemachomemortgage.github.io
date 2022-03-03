@@ -426,6 +426,9 @@ $(function() {
 	if (window.location.href.indexOf("joshvantil.annie-mac.com") != -1) {
 		$( "<h3 style='margin-top: -50px'>Josh's Certificates:</h3><img src='https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/CMA_Badge_of_Honor_2021.png' style='width: 200px; height: auto; margin-bottom: 60px;'>").prependTo( $( "#we-provide-more-master" ) );
 	};
+	if (window.location.href.indexOf("hopeprince.annie-mac.com") != -1) {
+		$( "<h3 style='margin-top: -50px'>Hope's Certificates:</h3><img src='https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/CMA_Badge_of_Honor_2021.png' style='width: 200px; height: auto; margin-bottom: 60px;'>").prependTo( $( "#we-provide-more-master" ) );
+	};
 	if (window.location.href.indexOf("chucktegano.annie-mac.com") != -1) {
 		$( "<h3 style='margin-top: -50px'>Charles's Certificates:</h3><img src='https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/CMA_Badge_of_Honor_2021.png' style='width: 200px; height: auto; margin-bottom: 60px;'>").prependTo( $( "#we-provide-more-master" ) );
 	};
