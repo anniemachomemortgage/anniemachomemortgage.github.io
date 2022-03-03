@@ -82,6 +82,7 @@ form button,
 	background: #78c254;
 	border: 1px solid #78c254;
 	color: #FFF;
+	text-align: left;
 }
 
 
@@ -2532,16 +2533,16 @@ footer {
 }
 
 button {
-	border-radius: 40px;
+	border-radius: 0;
 	border: none;
 	outline: none;
-	padding: 15px 20px;
-	display: block;
-	font-weight: normal;
-	margin: 0 auto;
-	width: auto;
+	padding: 17px 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
 	font-size: 13px;
-	letter-spacing: .13em;
+	letter-spacing: .045em;
+	text-align: center;
 }
 
 button a {
@@ -4592,7 +4593,6 @@ ul li ol:focus {
 .team-member-information button {
 	margin-top: 10px;
 	width: 99%;
-	border-radius: 5px;
 }
 
 #branch-welcome {
