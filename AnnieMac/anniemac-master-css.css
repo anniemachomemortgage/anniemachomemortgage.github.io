@@ -2851,6 +2851,7 @@ button a {
 
 .rating {
 	margin: 12px 0 0;
+	order: 0;
 }
 
 .rating i {

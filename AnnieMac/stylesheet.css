@@ -476,8 +476,10 @@ select {
 	min-height: 575px;
 }
 .review h4 {
-	font-size: 20px;
+	font-size: 17px;
 	text-align: left;
+	order: 4;
+	font-weight: 200;
 }
 .container-fluid, .h-100 {
 	padding: 10px 0 150px 0;
