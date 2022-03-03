@@ -7487,7 +7487,6 @@ html {
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
-	width: 90%;
 	margin: 0 auto 70px;
 }
 #deserve-more-container-master h3 {
@@ -7496,7 +7495,7 @@ html {
 	order: -1;
 	display: flex;
 	justify-content: center;
-	font-size: 50px;
+	font-size: 46px;
 }
 #deserve-more-container-master img {
 	width: 60%;
