@@ -7868,8 +7868,8 @@ div.blog-home-entry:nth-child(4) {
 #button-container-home > a:nth-child(1) {
 	margin: 20px 0 10px;
 	min-width: 217px;
-	background: #006fa9;
-	border: 3px solid #006fa9;
+	background: #7fc24a;
+	border: 3px solid #7fc24a;
 	color: #fff;
 	font-weight: 800;
 	text-transform: uppercase;
@@ -7882,8 +7882,7 @@ div.blog-home-entry:nth-child(4) {
 	margin-left: 20px;
 }
 #button-container-home > a:nth-child(1):hover {
-	background: #0f4777;
-	border: 3px solid #0f4777;
+	transform: scale(1.1);
 }
 #button-container-home > a:nth-child(2):hover {
 	background: #78c254;
