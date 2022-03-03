@@ -1989,9 +1989,12 @@ text-shadow: 1px 2px 2px rgb(0 0 0 / 70%);
 #inserted-banner .container-section h3 span {
 	font-size: 15px;
 }
-#inserted-banner #button-container-home > a:nth-child(1) {margin: 20px 0 10px;background: #7fc24a;border: 3px solid #7fc24a;color: #fff;font-weight: 800;text-transform: uppercase;font-size: 16px;letter-spacing: .05em;text-align: center;padding: 13px 20px;}
+#inserted-banner #button-container-home > a:nth-child(1) {margin: 20px 0 10px;background: #016fa7;border: 3px solid #016fa7;color: #fff;font-weight: 800;text-transform: uppercase;font-size: 15px;letter-spacing: .05em;text-align: center;padding: 3px 25px;min-width: initial !important;order: 6;}
 #tmc-loan-officer .manager-biography h2:first-of-type {
 	color: #40a051;
+}
+#inserted-banner #button-container-home > a:nth-child(1):hover {
+	transform: none;
 }
 #lofidirect-loan-officer .manager-biography h2:first-of-type {
 	color: #95c553;
@@ -2007,6 +2010,12 @@ text-shadow: 1px 2px 2px rgb(0 0 0 / 70%);
 }
 #originator .manager-biography {
 	margin-left: 0px;
+}
+#originator .manager-biography > p {
+	font-family: inherit !important;
+	font-size: 15px !important;
+	color: inherit !important;
+	line-height: inherit !improtant;
 }
 #accolades-originator {
 	/* margin-right: -460px; */
@@ -2372,7 +2381,7 @@ text-shadow: 1px 2px 2px rgb(0 0 0 / 70%);
 footer #list_11344 > a, footer  #list_11343 > a, footer  #list_11350 > a {
 	display: none;
 }
-#mobile-apply a {margin: 20px 0 10px;background: #7fc24a;border: 3px solid #7fc24a;color: #fff;font-weight: 800;text-transform: uppercase;font-size: 16px;letter-spacing: .05em;text-align: center;padding: 13px 20px;}
+#mobile-apply a {margin: 20px 0 10px;background: #7fc24a;border: 3px solid #7fc24a;color: #fff;font-weight: 800;text-transform: uppercase;font-size: 14px;letter-spacing: .05em;text-align: center;padding: 15px 41px;}
 #mobile-call a {
 	margin-left: 0;
 	background: #006fa9;
