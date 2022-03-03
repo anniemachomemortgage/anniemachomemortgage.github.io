@@ -3871,7 +3871,7 @@ ul li ol:focus {
 
 #state-list {
 	margin-top: -15px;
-	margin-bottom: 25px;
+	margin-bottom: -15px;
 }
 
 #state-list h4 {
