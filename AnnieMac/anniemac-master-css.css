@@ -7850,16 +7850,15 @@ div.blog-home-entry:nth-child(4) {
 	justify-content: center;
 }
 .container-section h3 {
-	font-family: 'neue-haas-unica', sans-serif;
-	color: white;
-	margin-bottom: 20px;
-	font-size: 50px;
-	letter-spacing: 1.5px;
-	text-shadow: 1px 2px 1px rgba(0,0,0,.50);
+	line-height: 80px;
+	margin: 30px 0 14px;
+	color: #fff;
+	font-size: 70px;
+	font-weight: 700;
 }
 .container-section h3 span {
-	font-weight: normal;
-	font-size: 28px;
+	font-weight: 600;
+	font-size: 36px;
 	margin-top: 2px;
 	display: block;
 	text-align: center;
@@ -7876,34 +7875,25 @@ div.blog-home-entry:nth-child(4) {
 	margin: 0 !important;
 	justify-content: flex-start;
 }
-#button-container-home > a  {
-	background: #78c254;
-	border: 1px solid #78c254;
-	color: #FFF;
-	border-radius: 10px;
-	outline: none;
-	padding: 12px 35px !important;
-	font-weight: normal;
-	width: auto;
-	font-size: 13px;
-	letter-spacing: .13em;
-	padding: 18px 35px;
-	font-weight: bold;
-	font-size: 15px;
-	border-radius: 8px;
-	background: transparent;
-}
 #button-container-home > a:nth-child(1) {
+	margin: 20px 0 10px;
+	min-width: 217px;
 	background: #006fa9;
-	margin-left: 0;
-	border: 1px solid #006fa9;
+	border: 3px solid #006fa9;
+	color: #fff;
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: .05em;
+	text-align: center;
+	padding: 12px 0px;
 }
 #button-container-home > a:nth-child(2){
 	margin-left: 20px;
 }
 #button-container-home > a:nth-child(1):hover {
 	background: #0f4777;
-	border: 1px solid #0f4777;
+	border: 4px solid #0f4777;
 }
 #button-container-home > a:nth-child(2):hover {
 	background: #78c254;
