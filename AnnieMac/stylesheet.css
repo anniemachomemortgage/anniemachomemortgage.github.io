@@ -283,7 +283,6 @@ footer #copyrights {
 	font-weight: normal !important;
 }
 #site-navigation ul#navigation_new_upper li a {
-	font-weight: normal !important;
 }
 .sub-site-navigation-listing {
 	width: 200px;
@@ -405,14 +404,15 @@ select {
 	color: white;
 	padding: 0 25px;
 }
-#button-container-home > a {
-}
 #list_12148 a, #list_12170 a {
 	background: #7FC24A;
-	padding: 10px;
-	border-radius: 5px;
-	color: white !important;
-	letter-spacing: 1px;
+	border: 3px solid #7FC24A;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: .045em;
+	text-align: center;
+	padding: 9px 17px;
+	font-weight: 500;
 }
 #list_12171 a {
 	background: #40a051;
@@ -2737,16 +2737,8 @@ div#flash-message {
   word-spacing: 1px;
 }
 .link-to-website-identify {
-/*  position: absolute;
- bottom: 5px;
- right: 16px;
- color: #fff; */
  display: none;
-}/* 
-.link-to-website-identify i {
-  font-size: 22px;
-  text-shadow: 1px 3px 3px rgba(0,0,0,.2);
-} */
+}
 .team-member-information h4 a {
 	 font-weight: 600;
 }
