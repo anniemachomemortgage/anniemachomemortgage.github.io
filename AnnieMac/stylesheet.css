@@ -477,6 +477,7 @@ select {
 }
 .review h4 {
 	font-size: 20px;
+	text-align: left;
 }
 .container-fluid, .h-100 {
 	padding: 10px 0 150px 0;

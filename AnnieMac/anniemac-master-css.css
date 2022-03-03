@@ -2840,9 +2840,9 @@ button a {
 }
 
 .review p {
-	width: 80%;
-	margin: 0 auto;
-	text-align: center;
+	/* width: 80%; */
+	/* margin: 0 auto; */
+	font-size: 15px;
 }
 
 .review h4 {
@@ -2850,7 +2850,7 @@ button a {
 }
 
 .rating {
-	margin: 25px auto;
+	margin: 12px 0 0;
 }
 
 .rating i {
@@ -2860,9 +2860,6 @@ button a {
 }
 
 #more-reviews i {
-	display: block;
-	font-size: 40px;
-	margin: 30px 0 0;
 }
 
 /*Beginning --> Deserve More*/
@@ -7470,11 +7467,7 @@ html {
 	align-items: center;
 }
 #more-reviews i {
-	display: block;
-	font-size: 40px;
-	margin: 0;
-	margin-left: 0px;
-	margin-left: 25px;
+	display: none;
 }
 #home-deserve {
 	display: flex;
