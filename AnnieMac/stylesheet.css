@@ -342,7 +342,8 @@ h1.header-additional {
 .calculations-primary {
 	margin: 0;
 }
-#we-provide-more-master h3 {}
+#we-provide-more-master h3 {
+}
 ul.menu.nav {
 	display: flex;
 }
