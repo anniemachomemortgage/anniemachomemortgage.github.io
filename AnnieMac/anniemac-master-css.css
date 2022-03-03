@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+:root {
+	--mainbody: #798088;
+	--bodytext: #333a40;
+	--hoverlink: #006fa9;
+	--linkblue: #0495f4;
+	--lightbackground: #f5f7fa;
+	--darkblue: #565b61;
+	--lightaccent: #c3c5c75e;
+	--fadedblue: #dee2e6;
+}
+
 h3 {
 	color: #7FC24A;
 }
@@ -2789,7 +2800,6 @@ button a {
 	font-size: 5vw;
 	line-height: 1.5;
 	text-align: center;
-	text-shadow: 2px 2px 4px rgba(0,0,0,.65);
 }
 
 #page-banner h4 , #video-banner h4, #product-banner h4, #brand-banner h4, #core-banner h4 {
@@ -4134,14 +4144,18 @@ ul li ol:focus {
 	width: 80px;
 }
 
+#locations h3 {
+	font-size: 32px;
+	border-bottom: 1px solid rgba(121, 128, 136, 0.17);
+	padding-bottom: 20px;
+	margin-top: 45px;
+	font-weight: 700;
+}
+
 .location-state-list {
 	display: flex;
+	justify-content: space-between;
 	flex-wrap: wrap;
-	flex-direction: row;
-	margin: 15px auto;
-	padding: 5px 0;
-	width: 100%;
-	border-top: 2px solid #cccccc;
 }
 
 .location-listing {
@@ -4155,6 +4169,43 @@ ul li ol:focus {
 .location-listing h4 {
 	font-size: 22px;
 	margin: 16px 0;
+}
+
+.location-listing h4 a {
+	margin-top: 25px;
+	margin-bottom: 10px;
+	color: var(--bodytext);
+	font-size: 21px;
+	font-weight: 300;
+}
+
+.location-listing a p {
+	color: var(--linkblue);
+	text-decoration: none;
+	font-weight: 600;
+	margin: 21px 0px;
+	line-height: 9px;
+	display: block;
+}
+
+.location-listing > p:nth-of-type(1) {
+	margin-top: 25px;
+}
+
+.location-listing > p:nth-of-type(2) {
+	margin-top: -18px;
+}
+
+.location-listing p strong {
+	color: var(--bodytext);
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.location-listing p a {
+	color: var(--linkblue);
+	font-size: 16px;
+	font-weight: 500;
 }
 
 
@@ -7782,13 +7833,13 @@ div.blog-home-entry:nth-child(4) {
 }
 #page-banner h2, #video-banner h2, #product-banner h2, #brand-banner h2, #core-banner h2 {
 	text-align: center;
-	text-shadow: 2px 2px 4px rgba(0,0,0,.65);
 	letter-spacing: 1.9px;
-	line-height: 80px;
 	margin: 0;
-	color: #fff;
-	font-size: 55px;
 	font-weight: 700;
+	line-height: 80px;
+	width: 700px;
+	color: rgb(255, 255, 255);
+	font-size: 71px;
 }
 .description-text {
 	height: 50px;
@@ -8288,4 +8339,11 @@ body > .main-content{
 
 html, body, h1, h2, h3, h4, h5, h6, p, ul, li, section, main, header, nav, footer {
 font-family: 'inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: var(--bodytext);
+	margin: 0px;
+	font-weight: 600;
+	padding: 0px;
 }
