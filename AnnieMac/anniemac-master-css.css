@@ -98,10 +98,13 @@ form button:hover,
 }
 
 #product-banner {
-	background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url(https://annie-mac.com/dev/themes/annie_mac/img/purchase.jpeg) top left no-repeat;
+	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/dev/themes/annie_mac/img/purchase.jpeg) top left no-repeat;
 	background-size: cover;
 	background-position-y: 37%;
-	padding-bottom: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
 }
 
 #brand-banner {
@@ -3753,8 +3756,12 @@ ul li ol:focus {
 }
 
 #conventional-purchase, #va-purchase, #fha-purchase, #usda-purchase, #renovation-purchase, #jumbo-purchase, #text-based {
-	width: 92%;
-	margin: 40px auto;
+	margin: 30px auto 60px;
+	min-width: 500px;
+	z-index: 1;
+	width: 90%;
+	max-width: 1000px;
+	min-height: 300px;
 }
 
 #conventional-content {
@@ -3778,8 +3785,6 @@ ul li ol:focus {
 }
 
 .text-content {
-	max-width: 70%;
-	flex: 1;
 }
 
 .full {
@@ -7381,7 +7386,6 @@ html {
 }
 
 .page-page-detail .text-content {
-	max-width: 64%;
 }
 .page-page-detail .text-content h3 {
 	margin-bottom: 15px;
@@ -7777,11 +7781,14 @@ div.blog-home-entry:nth-child(4) {
 	min-height: 305px;
 }
 #page-banner h2, #video-banner h2, #product-banner h2, #brand-banner h2, #core-banner h2 {
-	font-size: 60px;
-	line-height: 1.5;
 	text-align: center;
 	text-shadow: 2px 2px 4px rgba(0,0,0,.65);
 	letter-spacing: 1.9px;
+	line-height: 80px;
+	margin: 0;
+	color: #fff;
+	font-size: 55px;
+	font-weight: 700;
 }
 .description-text {
 	height: 50px;
