@@ -317,7 +317,7 @@ h1.header-additional {
 @media only screen and (min-width: 951px) {
 	.team-member {
 		margin: 20px 0 !important;
-		width: 25% !important;
+		width: 33% !important;
 	}
 	.team-member:last-of-type {
 		margin-left: 0 !important;
@@ -375,8 +375,7 @@ ul.menu.nav {
 	margin: 0 50px 50px;
 }
 .team-member-portrait {
-	border-radius: 3%;
-	width: 210px;
+	border-radius: 0;
 	position: relative;
 	background-position: top !important;
 }
@@ -434,7 +433,7 @@ select {
 }
 
 .branch-manager-section, .manager-information {
-	justify-content: initial !important;
+	justify-content: center;
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1200px;
@@ -442,7 +441,7 @@ select {
 
 .branch-manager-section .manager-information {
 	margin: 20px 0 !important;
-	width: 25% !important;
+	width: 33%;
 }
 #team-site .branch-manager-section .manager-information {
   margin: 20px 0 !important;
