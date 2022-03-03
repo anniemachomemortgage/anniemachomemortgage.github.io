@@ -3870,7 +3870,7 @@ ul li ol:focus {
 }
 
 #state-list {
-	margin-top: -50px;
+	margin-top: -15px;
 	margin-bottom: 25px;
 }
 
@@ -7409,7 +7409,7 @@ html {
 	padding: 0;
 }
 #state-list h4 {
-	margin: 40px 0 6px;
+	margin: 25px 0 2px;
 }
 .text-content ul {
 	margin-top: -15px;
@@ -7428,7 +7428,7 @@ html {
 }
 .page-page-detail .text-content h4 {
 	/* color: #006fa9; */
-	font-weight: bold;
+	font-weight: 300;
 	margin-top: 30px;
 	margin-bottom: 15px;
 }
@@ -7443,6 +7443,7 @@ html {
 .page-page-detail .text-content p {
 	margin: 0;
 	padding-bottom: 20px;
+	font-weight: 300;
 }
 
 #home-banner {
