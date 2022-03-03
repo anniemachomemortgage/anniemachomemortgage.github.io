@@ -7599,6 +7599,10 @@ section#home-provide .content-block-list {
 	margin: 3px 0;
 	background: #303335;
 }
+.we-provide-this p {
+	font-size: 15.5px;
+	line-height: 28px;
+}
 .provided-links {
 	padding-top: 20px;
 	margin-bottom: 20px;
