@@ -415,22 +415,17 @@ select {
 	color: white !important;
 	letter-spacing: 1px;
 }
-#navigation-sidebar a:hover {
-	font-weight: normal !important;
-}
+#navigation-sidebar a:hover {}
 .option-listing-go i {
 	display: none;
 }
 #apply-now-sidebar, #prequal-now-sidebar {
-	margin: -5px auto 10px;
-	background: #01436b;
-	width: 70%;
-	text-align: center;
-	padding: 4px 0;
-	border-radius: 6px;
-	color: #c2e8ff;
-	letter-spacing: 1.2px;
-	font-size: 13px;
+	font-size: 22px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+	margin-bottom: 32px;
 }
 
 .branch-manager-section, .manager-information {
@@ -455,9 +450,7 @@ select {
 	width: auto !important;
 }
 
-#loan-originator-blurb-container h4, #loan-originator-blurb-container h4 span, #navigation-sidebar h4, #navigation-sidebar .navigation-sidebar-sectional:nth-child(2) h4 span {
-	color: white;
-}
+#loan-originator-blurb-container h4, #loan-originator-blurb-container h4 span, #navigation-sidebar h4, #navigation-sidebar .navigation-sidebar-sectional:nth-child(2) h4 span {color: #fff;}
 .top-links-header {
 	align-items: end;
 	height: 15px;

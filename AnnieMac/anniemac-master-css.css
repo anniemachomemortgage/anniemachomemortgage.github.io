@@ -178,7 +178,7 @@ form button:hover,
 }
 
 footer {
-	background: #383838;
+	background: #3c3c3f;
 	color: #ffffff;
 }
 
@@ -1824,11 +1824,10 @@ p i {
 	width: 320px;
 	height: 80vh;
 	overflow-y: initial;
-	background: radial-gradient(circle, rgba(15, 71, 119, 1) 0%, rgba(32, 104, 164, 1) 94%);
+	background: #3c3c3f;
 	color: white;
 	box-shadow: 0px 7px 4px rgba(0, 0, 0, .25);
 	z-index: 100;
-	border-radius: 0 10px 10px 0;
 	-webkit-animation: slide 0.5s forwards;
 	-webkit-animation-delay: 2s;
 	animation: slide 0.5s forwards;
@@ -1836,23 +1835,10 @@ p i {
 }
 
 #navigation-sidebar a {
-	color: inherit;
 	text-decoration: none;
 }
 
-#navigation-sidebar h4 {
-	font-size: 19px;
-	display: flex;
-	justify-content: space-between;
-	align-items: baseline;
-	font-weight: normal;
-	text-transform: uppercase;
-	font-family: protipo, sans-serif;
-	border-bottom: 1px solid rgba(255, 255, 255, .25);
-	padding-bottom: 8px;
-	width: 94%;
-	margin: 15px auto 20px;
-}
+#navigation-sidebar h4 {font-size: 25px;margin: 11px 0px;}
 
 #navigation-sidebar h4 span {
 	font-size: 12px;
@@ -1873,30 +1859,13 @@ p i {
 
 #apply-now-sidebar,
 #prequal-now-sidebar {
-	margin: -5px auto 10px;
-	background: #01436b;
-	width: 70%;
-	text-align: center;
-	padding: 11px 0;
-	border-radius: 6px;
-	color: #c2e8ff;
-	letter-spacing: 1.2px;
-	font-size: 13px;
 }
 
 .navigation-sidebar-sectional {
 	margin-top: 25px;
 }
 
-#navigation-sidebar .navigation-sidebar-sectional:nth-child(2) h4 {
-	border-bottom: none;
-	font-size: 14px;
-	display: flex;
-	margin-bottom: 2px;
-	justify-content: flex-start;
-	align-items: center;
-	flex: 1;
-}
+#navigation-sidebar .navigation-sidebar-sectional:nth-child(2) h4 {font-size: 20px;font-weight: 200;margin: 0 0 0;}
 
 #navigation-sidebar .navigation-sidebar-sectional:nth-child(2) h4 span {
 	font-size: 25px;
@@ -1907,20 +1876,21 @@ p i {
 	margin-right: 10px;
 }
 
+#navigation-sidebar .navigation-sidebar-sectional:nth-child(2) h4 span i {
+	display: none;
+}
 .option-listing {
-	padding-bottom: 5px;
-	margin-bottom: 15px;
-	display: flex;
-	align-items: center;
-	padding: 0 10px;
+	margin: 7px 0px;
 }
 
 .option-listing a {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
-	height: 30px;
+	height: 40px;
 	align-items: center;
+	font-size: 16px;
+	font-weight: 200 !important;
 }
 
 .option-listing:last-of-type {
@@ -2432,7 +2402,7 @@ p i {
 
 
 .option-listing:last-of-type {
-	margin-bottom: 0;
+	margin-bottom: 10px;
 }
 
 .navigation-sidebar-sectional ul li ul li {
