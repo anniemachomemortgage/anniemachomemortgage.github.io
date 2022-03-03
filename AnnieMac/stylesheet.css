@@ -469,9 +469,8 @@ select {
 	margin-right: 10px;
 }
 #home-banner {
-	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://www.annie-mac.com/uploads/sites/10713/public/fall-image-reduced.jpg) top left no-repeat;
+	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/newbackground.jpeg) bottom center no-repeat;
 	background-size: cover !important;
-	background-position-y: 14% !important;
 	min-height: 575px;
 }
 .review h4 {
