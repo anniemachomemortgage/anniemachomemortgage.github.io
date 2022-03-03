@@ -406,8 +406,6 @@ select {
 	padding: 0 25px;
 }
 #button-container-home > a {
-	min-width: 130px;
-	text-align: center;
 }
 #list_12148 a, #list_12170 a {
 	background: #7FC24A;
@@ -1735,8 +1733,6 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 	font-family: font-family: -apple-system,BlinkMacSystemFont, 'inter', sans-serif !important;
 }
 p, li, a {
-	letter-spacing: normal !important;
-	font-weight: 400;
 }
 /* BEGIN NEW CODE FOR LOAN OFFICERS */
 #annie_mac-loan-officer, #tmc-loan-officer, #lofidirect-loan-officer {
