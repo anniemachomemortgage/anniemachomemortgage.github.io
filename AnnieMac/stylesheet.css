@@ -13,7 +13,7 @@ p {
 	bottom: 0;
 	right: 0;
 	padding: 0;
-	width: initial;
+	width: 100%;
 }
 .review-grid.padding-40.flex.space-between {
 	position: relative;
@@ -476,10 +476,8 @@ select {
 	min-height: 575px;
 }
 .review h4 {
-	font-size: 17px;
+	font-size: 20px;
 	text-align: left;
-	order: 4;
-	font-weight: 200;
 }
 .container-fluid, .h-100 {
 	padding: 10px 0 150px 0;
