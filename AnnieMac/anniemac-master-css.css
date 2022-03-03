@@ -7620,9 +7620,7 @@ section#home-provide .content-block-list {
 	text-transform: uppercase;
 }
 .provided-links a:hover {
-	/* opacity: 1; */
-	/* color: rgba(0,0,0,.95); */
-	/* box-shadow: 0px 1px 8px rgba(0,0,0,.5); */
+	box-shadow: 0px 1px 8px rgba(0,0,0,.5);
 }
 .we-provide-this h4 {
 	color: white;
