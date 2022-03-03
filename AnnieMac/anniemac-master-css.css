@@ -2851,7 +2851,6 @@ button a {
 
 .rating {
 	margin: 12px 0 0;
-	order: 0;
 }
 
 .rating i {
@@ -4737,8 +4736,9 @@ ul li ol:focus {
 	font-size: 20px;
 }
 .review {
-	padding-bottom: 40px;
+	padding-bottom: 42px;
 	border-bottom: 1px solid rgba(255,255,255,.05);
+	margin-top: -10px;
 }
 
 #branch-managers {
