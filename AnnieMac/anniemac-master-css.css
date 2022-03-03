@@ -4394,9 +4394,6 @@ ul li ol:focus {
 
 /*NEW*/
 #branch-banner {
-	height: 40vw;
-	max-height: 600px;
-	min-height: 450px;
 }
 
 #branch-content {
@@ -4413,20 +4410,11 @@ ul li ol:focus {
 	color: white;
 }
 
-#branch-content h2 {
-	margin-top: 50px;
-	font-size: 2.5rem;
-}
+#branch-content h2 {line-height: 71px;margin: auto;color: #fff;font-size: 53px;font-weight: 700;}
 
-#branch-content h3 {
-	margin: 15px 0;
-	font-size: .9rem;
-	letter-spacing: 0.073em;
-}
+#branch-content h3 {font-weight: 500;font-size: 21px;margin-top: 2px;display: block;text-align: center;}
 
-#branch-content h5 {
-	font-weight: normal;
-}
+#branch-content h5 {font-weight: 200;font-size: 18px;margin: 14px 0;display: block;text-align: center;}
 
 #branch-content button {
 	background: white;
@@ -7261,9 +7249,7 @@ html {
 .page-loan-apply form {
 	width: 80vw;
 }
-#branch-banner {
-	height: 600px;
-}
+#branch-banner {background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://www.annie-mac.com/uploads/sites/10713/public/fall-image-reduced.jpg) top left no-repeat !important;background-size: cover !important;background-position-y: 14% !important;min-height: 575px;}
 #branch-managers {
 	width: auto;
 }

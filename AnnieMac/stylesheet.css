@@ -618,8 +618,6 @@ footer #sitemap #list_11081, footer #sitemap #list_11344, footer #sitemap #list_
 	line-height: 2.5em;
 }
 #branch-content h2 {
-	margin-top: 0;
-	font-size: 2.5rem;
 }
 /* #add-co-borrower {
 	margin-top: 278px;
@@ -2546,8 +2544,6 @@ footer #list_11344 > a, footer  #list_11343 > a, footer  #list_11350 > a {
 	z-index: 1000;
 }
 #branch-banner {
-	/* background: linear-gradient(177deg, rgb(23 16 5 / 52%) 30%, rgb(29 27 18 / 54%) 80%), url('https://annie-mac.com/dev/themes/annie_mac/img/indexbg.jpeg') top left no-repeat !important; */
-	background: linear-gradient(177deg, rgb(23 16 5 / 52%) 30%, rgb(29 27 18 / 54%) 80%), url('https://annie-mac.com/uploads/sites/10713/public/sean-pollock.jpg') bottom center no-repeat !important;
 }
 .annapolis #branch-banner {
   background: linear-gradient(177deg, rgb(23 16 5 / 52%) 30%, rgb(29 27 18 / 54%) 80%), url('https://www.annie-mac.com/uploads/sites/10713/public/annapolis-branch.jpeg') center !important;
