@@ -214,30 +214,10 @@ footer {
 	padding: 20px 35px;
 }
 
-
-@media screen and (max-width: 750px) {
-	#home-refinance-button {
-		background: #7FC24A;
-	}
-}
-
 #navigation-logo {
 	width: 250px;
 	height: 42px;
 }
-
-
-@media screen and (max-width: 940px) {
-
-	#navigation-logo h1 {
-		width: 200px;
-		height: 33px;
-	}
-
-}
-
-/* CUSTOM CSS */
-
 
 .team-member-section {
 	justify-content: flex-start;
@@ -259,16 +239,6 @@ footer {
 .team-member {
 	width: 33%;
 	margin: 0 auto 50px;
-}
-
-@media only screen and (max-width: 860px) {
-	.team-member {
-		width: 49%;
-	}
-
-	.team-member:last-of-type {
-		margin-left: 14px;
-	}
 }
 
 .team-member-section {
@@ -317,101 +287,6 @@ footer {
 
 #more-blogs {
 	margin-top: 25px;
-}
-
-@media only screen and (max-width: 860px) {
-	.loan-app {
-		padding: 0px !important;
-		margin: 10px auto 0px;
-	}
-
-	.loan-app select,
-	#header-links-content a {
-		display: flex;
-		align-items: center;
-	}
-
-	.loan-app>p:first-of-type {
-		color: white;
-		font-weight: normal;
-		background: #7FC24A;
-		padding: 10px 12px;
-		border-radius: 0px;
-		line-height: 1.7;
-	}
-
-	#home-banner h2,
-	#home-banner h4 {
-		color: #ffffff;
-		text-align: center;
-	}
-
-	#product-banner h4 {
-		display: none;
-	}
-
-	#page-banner h2,
-	#video-banner h2,
-	#product-banner h2,
-	#brand-banner h2,
-	#core-banner h2 {
-		font-size: 5vw;
-	}
-
-	.product-block {
-		width: 33vw;
-	}
-
-	.borrower-employed {
-		display: flex !important;
-		flex-direction: column !important;
-	}
-}
-
-@media only screen and (max-width: 610px) {
-	#social-review-grid {
-		width: auto;
-	}
-
-	.social-review {
-		width: 100%;
-		min-width: 93%;
-		border: none;
-		border-radius: 0;
-		box-shadow: none;
-		border-top: 1px solid rgba(0, 0, 0, .1);
-	}
-
-	.average-social-rating {
-		border: none;
-		margin-top: 16px;
-		margin-bottom: -50px;
-	}
-
-	.average-social-rating p:last-of-type {
-		line-height: 20px;
-	}
-
-	.review-social-rating {
-		text-align: left;
-		margin-top: 15px;
-	}
-
-	.social-loan-officer {
-		text-align: left;
-		line-height: 29px;
-		margin-top: -30px;
-		border-bottom: none;
-		margin-bottom: -35px;
-	}
-
-	.social-review-survey {
-		padding: 0;
-	}
-
-	.social-loan-officer span {
-		display: block;
-	}
 }
 
 .hide {
@@ -773,118 +648,6 @@ footer {
 	padding: 0 25px;
 }
 
-@media only screen and (max-width: 1006px) {
-	.navigation-sectional:nth-of-type(3) li:last-of-type {
-		display: none;
-	}
-
-	.navigation-sectional:nth-of-type(3) li:nth-of-type(2) {
-		margin-right: 15px;
-	}
-
-	@media only screen and (max-width: 845px) {
-		#site-navigation ul li {
-			font-size: 12.5px;
-		}
-	}
-
-	@media only screen and (max-width: 800px) {
-		.navigation-sectional li:not(:first-of-type) {
-			display: none;
-		}
-
-		.navigation-sectional:nth-of-type(2) {
-			flex: 0;
-			float: left;
-			margin-right: -50px;
-		}
-
-		#loan-originator-backdrop {
-			justify-content: center;
-		}
-
-		.navigation-sectional:nth-child(3) {
-			display: none;
-		}
-
-		#loan-originator-backdrop {
-			height: 580px;
-		}
-
-		#loan-originator-blurb-container h2 {
-			font-size: 32px;
-		}
-
-		#originator-core-details-portrait img {
-			margin-right: 50px;
-			height: 120px;
-			width: 120px;
-		}
-
-		#originator-core-details {
-			flex-direction: row;
-			padding-right: 0;
-			border-right: none;
-			margin-right: 0;
-			margin-bottom: 15px;
-			padding-bottom: 15px;
-		}
-
-		#originator-main-details {
-			flex-direction: column;
-		}
-
-		#originator-social-details ul {
-			width: 500px;
-		}
-	}
-
-	@media only screen and (max-width: 610px) {
-		#social-review-grid {
-			width: auto;
-		}
-
-		.social-review {
-			width: 100%;
-			min-width: 93%;
-			border: none;
-			border-radius: 0;
-			box-shadow: none;
-			border-top: 1px solid rgba(0, 0, 0, .1);
-		}
-
-		.average-social-rating {
-			border: none;
-			margin-top: 16px;
-			margin-bottom: -50px;
-		}
-
-		.average-social-rating p:last-of-type {
-			line-height: 20px;
-		}
-
-		.review-social-rating {
-			text-align: left;
-			margin-top: 15px;
-		}
-
-		.social-loan-officer {
-			text-align: left;
-			line-height: 29px;
-			margin-top: -30px;
-			border-bottom: none;
-			margin-bottom: -35px;
-		}
-
-		.social-review-survey {
-			padding: 0;
-		}
-
-		.social-loan-officer span {
-			display: block;
-		}
-	}
-}
 .navigation-sidebar-sectional ul.menu.nav li {
 	display: block;
 	width: 100% !important;
