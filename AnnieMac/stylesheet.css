@@ -35,8 +35,6 @@ body.front.site-type-branch {
   max-width: 1485px;
   background: #e2e2e2;
 }
-#locations-page {
-}
 #flash-message { 
 	display: none !important;
 }
@@ -49,8 +47,6 @@ body.front.site-type-branch {
 textarea {
   letter-spacing: .8px;
   margin-top: 1px !important;
-}
-footer #copyrights {
 }
 #footer-branchlo-name {
   margin-top: 0;
@@ -337,8 +333,6 @@ h1.header-additional {
 #start-your-story {
 	margin: -40px 0 0;
 }
-#deserve-more-container-master {
-}
 .branch-manager-section .manager-information {
 	margin: 0 !important;
 }
@@ -417,8 +411,6 @@ select {
 	border-radius: 5px;
 	color: white !important;
 	letter-spacing: 1px;
-}
-#navigation-sidebar a:hover {
 }
 .option-listing-go i {
 	display: none;
@@ -618,8 +610,6 @@ footer #sitemap #list_12564 {display: none;}
 .site-type-loan_officer .manager-biography li {
 	padding-left: 0;
 	line-height: 2.5em;
-}
-#branch-content h2 {
 }
 .user-login #product-banner, .user-login footer {
 	display: none;
@@ -1720,8 +1710,6 @@ footer #list_11344 > a, footer  #list_11343 > a, footer  #list_11350 > a {
 
 div#flash-message {
   display: none !important;
-}
-#text-based {
 }
 
 #hannahkatz .team-member-portrait {
