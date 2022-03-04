@@ -3001,40 +3001,6 @@ section#home-provide .content-block-list .row-item {
 	flex-direction: row;
 }
 
-
-@media screen and (max-width: 1190px) and (min-width: 751px) {
-	section#home-provide .content-block-list {
-		flex-direction: column;
-	}
-}
-
-
-@media screen and (max-width: 750px) {
-	section#home-provide .content-block-list {
-		display: flex;
-		flex-direction: column;
-	}
-}
-
-
-
-/* footer #sitemap ul.menu.nav {
-	display: flex;
-	flex-direction: row;
-}
-
-
-footer #sitemap ul li {
-	justify-content: space-between;
-}
-
-footer #sitemap ul.menu.nav li ul {
-	display: flex;
-	flex-direction: column;
-}
- */
-
-
  footer #sitemap ul.menu.nav {
 	width: 100%;
 	display: -webkit-box;
