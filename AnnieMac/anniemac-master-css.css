@@ -425,6 +425,11 @@ footer {
 	align-items: center;
 }
 
+#site-navigation ul#navigation_new_upper li ul li {
+	padding: 5px 10px;
+	line-height: 17px;
+}
+
 .navigation-sectional {
 	display: flex;
 	flex-direction: row;
