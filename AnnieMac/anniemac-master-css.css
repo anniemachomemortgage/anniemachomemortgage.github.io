@@ -896,10 +896,7 @@ button a {
 	max-width: 1200px;
 }
 
-.width-85 {
-	width: 85%;
-	margin: 0 auto;
-}
+.width-85 {width: 85%;}
 
 .width-90 {
 	width: 90%;
@@ -1426,7 +1423,11 @@ select:-moz-focusring {
 
 /*Beginning --> Footer Content*/
 
-footer #sitemap {padding-bottom: 48px;}
+footer #sitemap {
+	padding-bottom: 48px;
+	/* width: 100% !important; */
+	margin: 0 auto;
+}
 
 footer #copyrights {
 	align-items: center;
@@ -3000,33 +3001,19 @@ section#home-provide .content-block-list .row-item {
 	flex-direction: row;
 }
 
- footer #sitemap ul.menu.nav {
-	width: 100%;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-box-pack: justify;
-	-webkit-justify-content: space-between;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
-
- }
-
  footer #sitemap ul.menu.nav li ul {
-	width: 100%;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-pack: justify;
-	-webkit-justify-content: space-between;
-	-ms-flex-pack: justify;
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-between;
-	flex-direction: column;
+	text-align: center;
+	margin: 10px 0 35px;
+	}
 
- }
-
+ footer #sitemap ul.menu.nav li ul li {
+	width: 33%;
+	height: 35px;
+	}
 
  #blog-entry-page {
 	margin-top: 100px;
@@ -4018,12 +4005,13 @@ footer #list_11081 {
 }
 
 footer #sitemap ul.menu.nav {
-	justify-content: flex-start;
+	flex-direction: column;
+	display: flex;
+	margin: 0 auto;
+	width: 100%;
 }
 
 footer #sitemap #list_11081, footer #sitemap #list_11344, footer #sitemap #list_11343, footer #sitemap #list_11350 {
-	width: 28%;
-	min-width: 200px;
 }
 
 #list_11344 > a, #list_11343 > a, #list_11350 > a {

@@ -528,9 +528,8 @@ select {
 #navigation-menu li:not(last-of-type) {
 	margin-right: 30px;
 }
-footer #sitemap #list_11081 a, footer #sitemap #list_11344 a, footer #sitemap #list_11343 a, footer #sitemap #list_12525 a, footer #sitemap #list_11350 a, footer #sitemap #list_12564 a {font-weight: 400;font-size: 15px;}
-footer #sitemap #list_11081, footer #sitemap #list_11344, footer #sitemap #list_11343, footer #sitemap #list_12525, footer #sitemap #list_11350, footer #sitemap #list_12564 {
-}
+footer #sitemap #list_11081 a, footer #sitemap #list_11344 a, footer #sitemap #list_11343 a, footer #sitemap #list_12525 a, footer #sitemap #list_11350 a, footer #sitemap #list_12564 a {font-weight: 200;font-size: 15px;text-align: center;}
+footer #sitemap #list_12564 {display: none;}
 @media screen and (max-width: 650px) {
 	#navigation-logo {
 		max-width: 200px !important;
