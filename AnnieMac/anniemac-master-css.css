@@ -5650,6 +5650,10 @@ html {
 	/* font-size: 23px; */
 	font-weight: 800;
 }
+#more-reviews > a:nth-child(1):hover {
+	background: #7fc24a;
+	border: 3px solid #7fc24a;
+}
 #more-reviews i {
 	display: none;
 }
