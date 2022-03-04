@@ -3026,7 +3026,7 @@ section#home-provide .content-block-list .row-item {
 	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin: 20px 0 55px;
+	margin: 6px 0 55px;
 	/* text-align: center; */
 	min-width: 23%;
 	}
@@ -3044,7 +3044,7 @@ section#home-provide .content-block-list .row-item {
 	text-transform: uppercase;
 	/* justify-content: center; */
 	/* align-items: center; */
-	margin: 5px 0;
+	margin: 2px 0;
 	padding: 4px 0;
 	}
 
