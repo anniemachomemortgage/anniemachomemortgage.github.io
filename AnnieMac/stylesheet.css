@@ -1966,3 +1966,19 @@ div#flash-message {
 		display: none;
 	}
 }
+
+.edit-group {
+	float: right;
+}
+
+.edit-menu {
+	display: flex;
+	width: 154px;
+	justify-content: space-between;
+	opacity: .4;
+}
+
+.edit-menu a {
+	font-weight: 200 !important;
+	color: #000 !important;
+}
