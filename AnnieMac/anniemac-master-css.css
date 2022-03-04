@@ -2002,6 +2002,11 @@ ul li ol:focus {
 	margin-bottom: 17px;
 }
 
+#text-based a {
+	color: #016fa8;
+	font-weight: 800;
+}
+
 #conventional-content {
 	display: flex;
 	flex-direction: row;
