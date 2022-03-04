@@ -5799,8 +5799,10 @@ section#home-provide .content-block-list {
 	margin-right: 15px;
 	text-transform: uppercase;
 }
-.provided-links a:hover {
+.provided-links a:hover, footer #sitemap ul.menu.nav li ul li:hover {
 	box-shadow: 0px 1px 8px rgba(0,0,0,.5);
+	background: #7fc24a;
+	color: white;
 }
 .we-provide-this h4 {
 	color: white;
@@ -5902,6 +5904,9 @@ section#home-provide .content-block-list {
 	text-align: center;
 	margin: 5px;
 	background-size: cover;
+}
+#home-blog .block ul li:hover {
+	background: #7FC24A;
 }
 #home-blog .block ul li a {
 	width: 200px;

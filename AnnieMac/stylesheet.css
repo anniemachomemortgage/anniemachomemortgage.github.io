@@ -412,6 +412,10 @@ select {
 	color: white !important;
 	letter-spacing: 1px;
 }
+#list_12148 a:hover, #list_12170 a:hover {
+	background: #016fa8;
+	border: 3px solid #016fa8;
+}
 .option-listing-go i {
 	display: none;
 }
