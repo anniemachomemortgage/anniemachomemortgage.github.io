@@ -1968,7 +1968,10 @@ div#flash-message {
 }
 
 .edit-group {
-	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+	opacity: 0;
 }
 
 .edit-menu {
