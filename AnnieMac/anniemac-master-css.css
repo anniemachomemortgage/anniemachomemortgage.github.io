@@ -319,7 +319,16 @@ footer {
 	text-decoration: none;
 }
 
-#navigation-sidebar h4 {font-size: 25px;margin: 11px 0px;}
+#navigation-sidebar h4 {
+	margin: 11px 0px;
+	letter-spacing: .65px;
+	position: relative;
+	font-weight: 200 !important;
+	text-transform: uppercase;
+	font-size: 21px !important;
+	border-bottom: 1px solid rgba(255,255,255,.035);
+	padding-bottom: 11px;
+}
 
 #navigation-sidebar h4 span {
 	font-size: 12px;
@@ -377,12 +386,6 @@ footer {
 .option-listing:last-of-type {
 	border-bottom: none;
 	margin-bottom: 30px;
-}
-
-.option-listing strong {
-	font-size: 14px;
-	font-family: protipo, sans-serif;
-	padding-bottom: 10px;
 }
 
 .option-listing p {
