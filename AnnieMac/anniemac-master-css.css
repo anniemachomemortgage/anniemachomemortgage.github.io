@@ -1330,7 +1330,9 @@ button a {
 }
 
 .more-block {
-	width: 33.3%;
+	max-width: 1250px;
+	margin: 0 auto;
+	width: 90%;
 }
 
 .more-block h4 {
@@ -4111,10 +4113,6 @@ footer #sitemap ul.menu.nav li ul {
 		margin: 0px 40px
 	}
 	.more-block {
-		max-width: 1250px;
-		margin: 0 auto;
-		/* padding: 20px 0; */
-		width: 90%;
 	}
 	form span {
 		margin-top: -5px;
