@@ -682,8 +682,8 @@ footer #sitemap #list_12564 {display: none;}
 	padding-bottom: 60px;
 }
 #copyrights .flex:first-of-type {
-	flex-direction: row;
-	display: inline-flex;
+	display: flex;
+	flex-direction: column;
 }
 #team-site-warning {
 	margin-top: -40px;

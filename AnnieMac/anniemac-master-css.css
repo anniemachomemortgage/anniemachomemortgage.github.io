@@ -4068,7 +4068,8 @@ footer #sitemap #list_11081, footer #sitemap #list_11344, footer #sitemap #list_
 	padding-bottom: 65px;
 }
 #home-provide {
-	width: 90%;
+	margin: 0 auto;
+	width: 100%;
 }
 #annie_mac-branch > #team-display {
 	order: 3;
