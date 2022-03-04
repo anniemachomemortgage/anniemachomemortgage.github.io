@@ -5839,7 +5839,7 @@ section#home-provide .content-block-list {
 	margin-right: 15px;
 	text-transform: uppercase;
 }
-.provided-links a:hover, footer #sitemap ul.menu.nav li ul li:hover {
+.provided-links a:hover {
 	box-shadow: 0px 1px 8px rgba(0,0,0,.5);
 	background: #7fc24a;
 	color: white;
