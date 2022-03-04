@@ -203,18 +203,18 @@ form button, .message-contents button, .go {
 }
 
 footer #copyrights {
-  border-top: 1px solid #7980882b;
+  border-bottom: 1px solid #7980882b;
   margin: 0 auto;
   align-items: center;
   flex-direction: column;
-  margin-top: -35px;
-  padding-top: 50px;
+  padding-bottom: 0;
   letter-spacing: .65px;
   color: #fff;
   position: relative;
   font-weight: 800 !important;
   text-transform: uppercase;
   font-size: 13px !important;
+  order: -1;
 }
 footer #copyrights ul {
   font-weight: 200;
