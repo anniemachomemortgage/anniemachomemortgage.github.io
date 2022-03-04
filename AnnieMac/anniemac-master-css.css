@@ -1421,7 +1421,7 @@ select:-moz-focusring {
 /*Beginning --> Footer Content*/
 
 footer #sitemap {
-	padding-bottom: 48px;
+	padding-top: 43px;
 	/* width: 100% !important; */
 	margin: 0 auto;
 }
@@ -3002,14 +3002,14 @@ section#home-provide .content-block-list .row-item {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-between;
-	margin: 10px 0 35px;
+	justify-content: flex-start;
+	margin: 21px 0 35px;
 	text-align: center;
 	}
 
  footer #sitemap ul.menu.nav li ul li {
-	width: 33%;
-	height: 35px;
+	height: 42px;
+	min-width: 305px;
 	}
 
  #blog-entry-page {

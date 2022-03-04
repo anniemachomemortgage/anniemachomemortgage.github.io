@@ -203,19 +203,18 @@ form button, .message-contents button, .go {
 }
 
 footer #copyrights {
-  font-size: 14px;
-  display: flex;
-  padding-top: 4px;
-  justify-content: center;
   border-top: 1px solid #7980882b;
   margin: 0 auto;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  align-items: center;
   flex-direction: column;
-  margin-bottom: 0;
-  height: 185px;
-  font-weight: 200;
-  margin-top: -30px;
+  margin-top: -35px;
+  padding-top: 50px;
+  letter-spacing: .65px;
+  color: #fff;
+  position: relative;
+  font-weight: 800 !important;
+  text-transform: uppercase;
+  font-size: 13px !important;
 }
 footer #copyrights ul {
   font-weight: 200;
@@ -699,9 +698,14 @@ footer #sitemap #list_12564 {display: none;}
 #copyrights .flex:first-of-type {
 	display: flex;
 	flex-direction: row;
-	width: 400px;
+	max-width: 400px;
 	justify-content: space-between;
 	justify-self: flex-end;
+	letter-spacing: initial;
+	text-transform: initial;
+	margin-top: 15px;
+	font-weight: 200;
+	font-size: 15px;
 }
 #team-site-warning {
 	margin-top: -40px;
