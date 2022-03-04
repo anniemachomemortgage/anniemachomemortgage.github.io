@@ -1424,6 +1424,7 @@ footer #sitemap {
 	padding-top: 20px;
 	/* width: 100% !important; */
 	margin: 0 auto;
+	padding-bottom: 21px;
 }
 
 footer #copyrights {
@@ -5906,9 +5907,10 @@ section#home-provide .content-block-list {
 #home-blog .block ul {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 #home-blog .block ul li {
-	width: 32.533%;
+	width: 18.2%;
 	min-height: 187px;
 	display: flex;
 	justify-content: center;
@@ -5921,9 +5923,9 @@ section#home-provide .content-block-list {
 }
 #home-blog .block ul li a {
 	width: 200px;
-	font-size: 19px;
-	line-height: 33px;
-	font-weight: 800;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 200;
 }
 #more-blogs a {
 	color: #fff;
