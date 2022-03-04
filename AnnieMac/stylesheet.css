@@ -205,15 +205,27 @@ form button, .message-contents button, .go {
 footer #copyrights {
   font-size: 14px;
   display: flex;
-  padding-top: 30px;
-  justify-content: space-between;
+  padding-top: 4px;
+  justify-content: center;
   border-top: 1px solid #7980882b;
   margin: 0 auto;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 0;
+  height: 185px;
+  font-weight: 200;
+  margin-top: -30px;
+}
+footer #copyrights ul {
+  font-weight: 200;
+	font-size: 14px;
+	width: 400px;
 }
 footer #social-media {
 	display: none;
+	height: 0px;
+	width: 0px;
 }
 .footer-directory-listing p {
   line-height: 13px;
@@ -683,7 +695,10 @@ footer #sitemap #list_12564 {display: none;}
 }
 #copyrights .flex:first-of-type {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	width: 400px;
+	justify-content: space-between;
+	justify-self: flex-end;
 }
 #team-site-warning {
 	margin-top: -40px;
