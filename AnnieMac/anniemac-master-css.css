@@ -1423,7 +1423,7 @@ select:-moz-focusring {
 /*Beginning --> Footer Content*/
 
 footer #sitemap {
-	padding-bottom: 4px;
+	padding: 35px 0;
 	/* width: 100% !important; */
 	margin: 0 auto;
 }
@@ -3005,13 +3005,25 @@ section#home-provide .content-block-list .row-item {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-start;
-	margin: 21px 0 35px;
+	margin: 20px 0 55px;
 	text-align: center;
 	}
 
  footer #sitemap ul.menu.nav li ul li {
 	height: 42px;
-	min-width: 305px;
+	min-width: 234px;
+	background: #fff;
+	border: #fff;
+	color: #252525;
+	letter-spacing: .045em;
+	text-align: center;
+	display: flex;
+	font-weight: 800;
+	text-transform: uppercase;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+	padding: 4px 0;
 	}
 
  #blog-entry-page {
