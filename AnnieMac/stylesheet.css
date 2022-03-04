@@ -203,17 +203,18 @@ form button, .message-contents button, .go {
 }
 
 footer #copyrights {
-  border-top: 1px solid #7980882b;
-  margin: 0 auto;
-  align-items: center;
   flex-direction: column;
   padding-top: 40px;
   letter-spacing: .65px;
   color: #fff;
-  position: relative;
   font-weight: 800 !important;
   text-transform: uppercase;
   font-size: 13px !important;
+  background: #27272b;
+  width: 100%;
+  height: 207px;
+  background-size: cover;
+  background-position-y: 40%;
 }
 footer #copyrights ul {
   font-weight: 200;
@@ -541,7 +542,7 @@ select {
 #navigation-menu li:not(last-of-type) {
 	margin-right: 30px;
 }
-footer #sitemap #list_11081 a, footer #sitemap #list_11344 a, footer #sitemap #list_11343 a, footer #sitemap #list_12525 a, footer #sitemap #list_11350 a, footer #sitemap #list_12564 a {font-weight: 200;font-size: 15px;text-align: center;}
+footer #sitemap #list_11081 a, footer #sitemap #list_11344 a, footer #sitemap #list_11343 a, footer #sitemap #list_12525 a, footer #sitemap #list_11350 a, footer #sitemap #list_12564 a {font-weight: 800;font-size: 13px;/* text-align: center; */}
 footer #sitemap #list_12564 {display: none;}
 @media screen and (max-width: 650px) {
 	#navigation-logo {
@@ -1531,9 +1532,11 @@ footer #list_11344 > a, footer  #list_11343 > a, footer  #list_11350 > a {
 	letter-spacing: .65px;
 	color: #fff;
 	position: relative;
-	font-weight: 800 !important;
+	font-weight: 200 !important;
 	text-transform: uppercase;
-	font-size: 13px !important;
+	font-size: 21px !important;
+	border-bottom: 1px solid rgba(255,255,255,.035);
+	padding-bottom: 11px;
 }
 #mobile-apply a {margin: 20px 0 10px;background: #7fc24a;border: 3px solid #7fc24a;color: #fff;font-weight: 500;text-transform: uppercase;font-size: 14px;letter-spacing: .05em;text-align: center;padding: 15px 41px;}
 #mobile-call a {

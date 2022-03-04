@@ -168,8 +168,10 @@ form button:hover,
 }
 
 footer {
-	background: #3c3c3f;
+	background: linear-gradient(177deg, rgb(26 29 36 / 94%) 20%, rgba(26 29 36 / 95%) 80%), url(https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/otherphoto.jpeg) center no-repeat;
 	color: #ffffff;
+	background-size: cover;
+	background-position-y: 170%;
 }
 
 .secondary-callout {
@@ -1421,6 +1423,8 @@ select:-moz-focusring {
 /*Beginning --> Footer Content*/
 
 footer #sitemap {
+	padding-bottom: 4px;
+	/* width: 100% !important; */
 	margin: 0 auto;
 }
 
@@ -4193,7 +4197,7 @@ footer #sitemap #list_11081, footer #sitemap #list_11344, footer #sitemap #list_
 }
 
 #more-blogs {
-	margin: 47px 0 0;
+	margin: -140px 0 0;
 	width: 269px;
 	align-self: flex-end;
 	padding: 30px;
@@ -5891,7 +5895,6 @@ section#home-provide .content-block-list {
 	background: #006fa9;
 }
 #home-blog {
-	margin: 100px auto 15px;
 	display: flex;
 	padding: 0;
 	width: 100%;
