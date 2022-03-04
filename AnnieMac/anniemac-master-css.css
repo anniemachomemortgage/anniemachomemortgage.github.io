@@ -112,11 +112,12 @@ form button:hover,
 #product-banner {
 	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/dev/themes/annie_mac/img/purchase.jpeg) top left no-repeat;
 	background-size: cover;
-	background-position-y: 37%;
+	background-position-y: 49%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	color: white;
+	margin-bottom: 20px;
 }
 
 #brand-banner {
@@ -6027,7 +6028,7 @@ div.blog-home-entry:nth-child(4) {
 	line-height: 80px;
 	width: 700px;
 	color: rgb(255, 255, 255);
-	font-size: 71px;
+	font-size: 60px;
 }
 .description-text {
 	height: 50px;
