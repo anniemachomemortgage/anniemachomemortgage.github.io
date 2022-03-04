@@ -319,7 +319,7 @@ h1.header-additional {
 	margin: -40px 0 0;
 }
 #deserve-more-container-master {
-	margin: 50px auto 30px;
+	margin: 75px auto 30px;
 }
 .branch-manager-section .manager-information {
 	margin: 0 !important;
@@ -1658,26 +1658,26 @@ footer #list_11344 > a, footer  #list_11343 > a, footer  #list_11350 > a {
 }
 
 @media screen and (max-width: 574px) {
-  	#branch-banner {
+	  #branch-banner {
 		background-size: cover !important;
-  	}
-  	.calculations-primary:nth-child(2) {
+	  }
+	  .calculations-primary:nth-child(2) {
 		margin: 0;
 		padding: 0;
 	}
-  	.branch-manager-section .manager-information {
+	  .branch-manager-section .manager-information {
 		width: 100% !important;
 	}
-  	.team-member {
+	  .team-member {
 		width: auto;
 		margin: 20px 0 40px;
 	}
 	.team-member:last-of-type {
-  		margin-left: 0;
-  		margin: 0;
+		  margin-left: 0;
+		  margin: 0;
 	}
 	.team-member-section {
-  		flex-direction: column;
+		  flex-direction: column;
 	}
 }
 #annie-mac-2021-redesign-container, .annie-mac-2021-redesign-section {
@@ -1863,7 +1863,7 @@ div#flash-message {
 		display: none !important;
 	}
 	#home-banner {
-		height: 370px;
+		height: 300px;
 		min-height: initial;
 	}
 	.container-section h3 {
