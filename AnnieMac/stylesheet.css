@@ -51,7 +51,6 @@ textarea {
   margin-top: 1px !important;
 }
 footer #copyrights {
-  align-items: flex-start !important;
 }
 #footer-branchlo-name {
   margin-top: 0;
@@ -210,6 +209,8 @@ footer #copyrights {
   justify-content: space-between;
   border-top: 1px solid #7980882b;
   margin: 0 auto;
+  align-items: center;
+  flex-wrap: wrap;
 }
 footer #social-media {
 	display: none;
@@ -531,7 +532,7 @@ select {
 #navigation-menu li:not(last-of-type) {
 	margin-right: 30px;
 }
-footer #sitemap #list_11081 a, footer #sitemap #list_11344 a, footer #sitemap #list_11343 a, footer #sitemap #list_12525 a, footer #sitemap #list_11350 a, footer #sitemap #list_12564 a {font-weight: 200;font-size: 15px;text-align: center;}
+footer #sitemap #list_11081 a, footer #sitemap #list_11344 a, footer #sitemap #list_11343 a, footer #sitemap #list_12525 a, footer #sitemap #list_11350 a, footer #sitemap #list_12564 a {font-weight: 200;font-size: 15px;}
 footer #sitemap #list_12564 {display: none;}
 @media screen and (max-width: 650px) {
 	#navigation-logo {
@@ -682,7 +683,7 @@ footer #sitemap #list_12564 {display: none;}
 }
 #copyrights .flex:first-of-type {
 	flex-direction: row;
-	display: flex;
+	display: inline-flex;
 }
 #team-site-warning {
 	margin-top: -40px;
