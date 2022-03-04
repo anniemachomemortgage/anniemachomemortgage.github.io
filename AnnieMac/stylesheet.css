@@ -1430,6 +1430,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	.we-provide-this {
 		margin: 8px 0;
 		border-radius: 0;
+		padding: 20px 40px;
 	}
 	.action-buttons-calcs {
 		flex-direction: column;
