@@ -1889,14 +1889,16 @@ div#flash-message {
 		display: none !important;
 	}
 	#home-banner {
-		height: 300px;
+		height: 318px;
 		min-height: initial;
+		justify-content: flex-start;
 	}
 	.container-section h3 {
 		font-size: 45px;
 	}
 	.container-section h3 span {
 		font-size: 22px;
+		margin-bottom: -25px;
 	}
 	.review-grid {
 		flex-direction: column;
@@ -1946,5 +1948,21 @@ div#flash-message {
 		display: inline-block;
 		width: 245px;
 		margin-top: 20px;
+	}
+	#home-blog .block ul {
+		flex-direction: column;
+	}
+	#home-blog .block ul li {
+		width: 100%;
+	}
+	#more-blogs {
+		margin: 40px auto 0;
+	}
+	footer {
+		background: transparent;
+		margin-top: -30px;
+	}
+	footer #sitemap {
+		display: none;
 	}
 }
