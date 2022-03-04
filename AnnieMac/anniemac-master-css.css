@@ -1426,8 +1426,7 @@ select:-moz-focusring {
 
 /*Beginning --> Footer Content*/
 
-footer #sitemap {
-}
+footer #sitemap {padding-bottom: 48px;}
 
 footer #copyrights {
 	align-items: center;
