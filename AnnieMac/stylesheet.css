@@ -339,7 +339,6 @@ h1.header-additional {
 	margin: -40px 0 0;
 }
 #deserve-more-container-master {
-	margin: 75px auto 30px;
 }
 .branch-manager-section .manager-information {
 	margin: 0 !important;
@@ -603,8 +602,12 @@ footer #sitemap #list_12564 {display: none;}
 	width: 280px;
 	margin: 0 23px 0 0;
 }
-.blog-home-entry, #home-blog h3 {
-	display: none;
+#home-blog .block h3 {
+	font-size: 35px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 35px;
+	display: block;
 }
 .site-type-loan_officer .manager-biography ul {
 	width: auto;
