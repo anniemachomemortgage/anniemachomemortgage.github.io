@@ -1974,3 +1974,17 @@ div#flash-message {
 	font-weight: 200 !important;
 	color: #000 !important;
 }
+
+html, body {
+	max-width: 1445px;
+	margin: 0 auto;
+}
+
+html {
+	background: #f1f1f1;
+}
+
+body {
+	background: #fff;
+	box-shadow: 3px 41px 24px rgb(0 0 0 / 10%);
+}
