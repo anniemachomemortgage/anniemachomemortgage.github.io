@@ -969,13 +969,13 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	border-bottom: none;
 	margin-bottom: 20px;
 	min-width: 362px;
-	padding-bottom: 44px;
 }
 #loan-originator-blurb-container h2 {
 	font-family: 'inter', sans-serif;
 	font-weight: 200;
 	text-align: left;
-	font-size: 23px;
+	font-size: 25px;
+	margin-bottom: -7px;
 }
 #loan-originator-blurb-container h4 {margin: 14px 0 11px;font-weight: 800;text-align: left;font-size: 15px;line-height: 14px;text-transform: uppercase;color: #000;}
 #originator-core-details-text h4 span {
@@ -991,13 +991,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	color: black;
 	opacity: .8;
 }
-#originator-address-details p {
-	text-align: left;
-	opacity: 1;
-	margin-bottom: 0;
-	font-size: 15px;
-	line-height: 22px;
-}
+#originator-address-details p {flex-direction: column;letter-spacing: .65px;font-weight: 800;text-transform: uppercase;font-size: 13px;text-align: left;line-height: 21px;margin: 30px 0 0;}
 #originator-core-details-portrait img {
 	background: transparent;
 	max-width: 210px;
