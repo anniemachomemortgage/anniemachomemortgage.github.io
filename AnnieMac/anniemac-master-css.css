@@ -549,16 +549,7 @@ footer {
 	text-shadow: 2px 3px 4px rgba(0, 0, 0, .85);
 }
 
-#originator-social-details ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	flex-wrap: wrap;
-	align-self: flex-end;
-	width: 250px;
-	margin-top: 0px;
-}
+#originator-social-details ul, #links-sidebar-full-width ul {display: flex;flex-direction: column;flex-wrap: wrap;justify-content: flex-start;margin: 0;text-align: center;}
 
 #originator-core-details {
 	display: flex;
@@ -580,19 +571,32 @@ footer {
 	margin-bottom: 20px;
 }
 
-#originator-social-details li {
+#originator-social-details li,
+#links-sidebar-full-width a {
+	height: 42px;
+	min-width: 234px;
+	background: #fff;
+	border: #fff;
+	color: #252525;
+	letter-spacing: .045em;
+	text-align: center;
 	display: flex;
-	flex-direction: column;
+	font-weight: 800;
+	text-transform: uppercase;
+	justify-content: flex-start;
 	align-items: center;
-	margin: 20px 15px 10px;
-	width: 95px;
-	font-size: 14px;
+	margin: 5px;
+	padding: 4px 0;
+	font-weight: 800;
+	font-size: 13px;
+}
+
+#links-sidebar-full-width a {
+	height: 20px;
+	margin: 5px 0;
 }
 
 #originator-social-details li i {
-	font-size: 23px;
-	margin-bottom: 10px;
-	text-shadow: 2px 2px 3px rgba(0, 0, 0, .65);
 }
 
 #review-social-section {

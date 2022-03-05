@@ -1031,39 +1031,15 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	margin: 0 auto;
 }
 #originator-social-details ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	flex-wrap: nowrap;
-	align-self: flex-end;
-	width: 100%;
-	margin-top: -21px;
-	flex-direction: column;
 }
 #originator-social-details ul a {
 	border-top: 1px solid rgba(0,0,0,.05);
 	width: 100%;
 }
 #originator-social-details li {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	margin: 0;
-	width: auto;
-	font-size: 15px;
-	height: 45px;
-	justify-content: flex-start;
-	color: #555;
 }
 #originator-social-details li i {
-	font-size: 18px;
-	margin-bottom: 0;
-	text-shadow: none;
-	width: 50px;
-	display: flex;
-	justify-content: center;
-	color: #036fa8;
+	display: none;
 }
 .site-type-loan_officer .manager-biography p {
 	width: auto;
@@ -1292,14 +1268,10 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 }
 @media screen and (min-width: 1201px) {
 	#originator-social-details a:first-of-type {
-		background: #036fa8;
-		border-radius: 2px;
 	}
 	#originator-social-details a:first-of-type li, #originator-social-details a:first-of-type li i {
-		color: white;
 	}
 	#originator-social-details a:first-of-type:hover {
-		background: #02517b;
 	}
 }
 
@@ -1351,18 +1323,27 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 #sidebar-apply-now a {
 	color: white !important;
 	min-width: 84px !important;
-	display: block;
-	margin: 20px 0 10px;
+	display: flex;
+	margin: 5px 0 51px;
 	background: #7fc24a;
 	border: 3px solid #7fc24a;
-	color: #fff;
 	font-weight: 800;
 	text-transform: uppercase;
 	font-size: 14px;
 	letter-spacing: .05em;
 	text-align: center;
-	padding: 15px;
+	padding: 21px;
+	justify-content: center;
 }
+#links-sidebar-full-width h4 {
+	margin-left: 0;
+	font-size: 21px;
+	display: block;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: .55px;
+	margin-bottom: 0px;
+	}
 @media screen and (min-width: 1200px) {
 	#links-sidebar-full-width {
 		display: block;
@@ -1371,11 +1352,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 		margin-bottom: 100px;
 		width: -webkit-fill-available;
 	}
-	#links-sidebar-full-width h4 {
-		font-size: 21px;
-		color: #333;
-		font-weight: bold;
-	}
+	
 	#links-sidebar-full-width a {
 		color: #036fa8;
 	}
