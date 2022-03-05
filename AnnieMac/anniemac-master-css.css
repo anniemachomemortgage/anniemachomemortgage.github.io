@@ -648,10 +648,6 @@ footer {
 	display: none;
 }
 
-.active {
-	display: block !important;
-}
-
 .option-listing:last-of-type {
 	margin-bottom: 10px;
 }
