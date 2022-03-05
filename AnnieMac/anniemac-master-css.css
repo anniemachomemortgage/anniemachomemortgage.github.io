@@ -598,7 +598,7 @@ footer {
 }
 
 #review-social-section {
-	margin-top: 40px;
+	margin-top: 0;
 }
 
 #review-social-section h3 {
@@ -676,7 +676,38 @@ footer {
 	border: none;
   }
 
-  /* testimonial link */
+
+.review-social-rating {
+	color: #f3ca22;
+	margin-top: 8px;
+	padding: 4px 0;
+	font-size: 24px;
+}
+
+p.social-review-survey {
+	font-size: 15px;
+	color: initial;
+	font-weight: 300;
+}
+
+h4.social-loan-officer {
+	margin: 12px 0 -9px !important;
+	font-size: 20px !important;
+	font-weight: 400;
+	padding: 0;
+}
+
+.average-social-rating {
+	display: none;
+}
+
+.social-review {width: 100%;margin-bottom: 34px;}
+
+div#social-review-grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
 
 .testimonial-highlight {
 	text-decoration: none;

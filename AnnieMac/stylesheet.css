@@ -1514,6 +1514,14 @@ div#flash-message {
 	.team-member {
 		width: 100%;
 	}
+	
+/* 	Reviews */
+	#social-review-grid {
+		flex-direction: column;
+	}
+	.social-review {
+		width: 100%;
+	}
 }
 
 .edit-group {
