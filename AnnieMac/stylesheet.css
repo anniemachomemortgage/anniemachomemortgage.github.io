@@ -920,7 +920,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 }
 #annie_mac-loan-officer > #originator, #tmc-loan-officer > #originator, #lofidirect-loan-officer > #originator {
 	margin-top: -28px;
-	margin-left: 25px;
+	margin-left: 0;
 	max-width: 1000px;
 }
 #originator .negative-60 {
@@ -972,27 +972,17 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	padding-bottom: 44px;
 }
 #loan-originator-blurb-container h2 {
-	font-size: 27px;
-	text-shadow: none;
-	text-align: left;
-	color: #333;
 	font-family: 'inter', sans-serif;
-}
-#loan-originator-blurb-container h4 {
-	letter-spacing: 1px;
-	font-size: 16px;
-	text-shadow: none;
-	display: flex;
-	flex-direction: column;
+	font-weight: 200;
 	text-align: left;
-	color: #333;
-	font-weight: normal;
+	font-size: 23px;
 }
+#loan-originator-blurb-container h4 {margin: 14px 0 11px;font-weight: 800;text-align: left;font-size: 15px;line-height: 14px;text-transform: uppercase;color: #000;}
 #originator-core-details-text h4 span {
-	margin-top: 5px;
-	font-weight: normal;
+	display: block;
+	text-align: left;
+	font-weight: 300;
 	color: inherit;
-	font-size: 12px;
 }
 #originator-address-details {
 	line-height: 30px;
@@ -1080,11 +1070,14 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	padding: 0;
 }
 .manager-biography h2:first-of-type {
-	font-size: 35px;
+	font-size: 26px;
 	margin: 25px auto 15px;
 	display: block;
 	text-align: left;
 	font-family: 'inter',sans-serif;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: .55px;
 }
 #inserted-banner {
 	height: 350px;
@@ -1093,7 +1086,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	justify-content: center;
 	text-align: center;
 	align-items: center;
-	padding-top: 60px;
+	padding: 32px 0;
 	background-position-y: 68%;
 	background-size: 101%;
 }
@@ -1700,6 +1693,13 @@ footer #list_11344 > a, footer  #list_11343 > a, footer  #list_11350 > a {
 }
 .site-type-loan_officer #we-provide-more-master h3 {
 	margin-left: 0;
+	font-size: 26px;
+	display: block;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: .55px;
+	margin-top: -30px;
+	margin-bottom: 0px;
 }
 
 @media screen and (max-width: 574px) {

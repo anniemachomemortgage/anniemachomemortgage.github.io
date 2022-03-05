@@ -533,21 +533,9 @@ footer {
 }
 
 #loan-originator-blurb-container h2 {
-	font-family: protipo, sans-serif;
-	font-size: 42px;
-	text-shadow: 2px 2px 5px rgba(0, 0, 0, .6);
-	letter-spacing: 2.3px;
-	text-align: center;
 }
 
 #loan-originator-blurb-container h4 {
-	letter-spacing: 1.2px;
-	font-size: 18px;
-	font-weight: normal;
-	text-shadow: 2px 3px 4px rgba(0, 0, 0, .85);
-	display: flex;
-	flex-direction: column;
-	text-align: center;
 }
 
 #loan-originator-blurb-container h4 span {
@@ -2649,11 +2637,11 @@ ul li ol:focus {
 	color: white;
 }
 
-#branch-content h2 {line-height: 74px;margin: auto;color: #fff;font-size: 48px;font-weight: 500;}
+#branch-content h2 {line-height: 71px;margin: auto;color: #fff;font-size: 53px;font-weight: 700;}
 
-#branch-content h3 {font-weight: 200;font-size: 21px;margin-top: 2px;display: block;text-align: center;}
+#branch-content h3 {font-weight: 500;font-size: 21px;margin-top: 2px;display: block;text-align: center;}
 
-#branch-content h5 {font-weight: 500;font-size: 14px;margin: 14px 0;display: block;text-align: center;}
+#branch-content h5 {font-weight: 200;font-size: 18px;margin: 14px 0;display: block;text-align: center;}
 
 #branch-content button {
 	background: white;
@@ -6080,14 +6068,7 @@ div.blog-home-entry:nth-child(4) {
 	align-items: center;
 	justify-content: center;
 }
-.container-section h3 {
-	color: #fff;
-	line-height: 59px;
-	margin: 0px 0 14px;
-	color: #fff;
-	font-size: 52px;
-	font-weight: 700;
-}
+.container-section h3 {line-height: 59px;margin: 0px 0 14px;color: #fff;font-size: 52px;font-weight: 700;}
 .container-section h3 span {
 	font-weight: 300;
 	margin-top: 2px;
