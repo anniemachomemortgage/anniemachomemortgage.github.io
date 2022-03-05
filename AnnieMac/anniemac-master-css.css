@@ -246,7 +246,6 @@ footer {
 }
 
 .team-member:last-of-type {
-	margin-left: 5px;
 }
 
 .header-links-content a {
@@ -2636,11 +2635,11 @@ ul li ol:focus {
 	color: white;
 }
 
-#branch-content h2 {line-height: 71px;margin: auto;color: #fff;font-size: 53px;font-weight: 700;}
+#branch-content h2 {line-height: 71px;margin: auto;color: #fff;font-size: 42px;font-weight: 700;}
 
 #branch-content h3 {font-weight: 500;font-size: 21px;margin-top: 2px;display: block;text-align: center;}
 
-#branch-content h5 {font-weight: 200;font-size: 18px;margin: 14px 0;display: block;text-align: center;}
+#branch-content h5 {font-weight: 200;font-size: 16px;margin: 27px 0 0;line-height: 22px;text-align: center;}
 
 #branch-content button {
 	background: white;
@@ -3311,7 +3310,7 @@ section#home-provide .content-block-list .row-item {
 		margin-top: 0;
 	}
 	.team-member-information {
-		width: 80%;
+		width: 100%;
 		margin: 0 auto;
 	}
 }
@@ -4094,7 +4093,7 @@ footer #sitemap ul.menu.nav > li {
 	order: 2;
 	padding-bottom: 65px;
 	background: #fff;
-	margin-bottom: -70px;
+	margin-bottom: -72px;
 }
 #home-provide {
 	margin: 0 auto;
@@ -4199,7 +4198,7 @@ footer #sitemap ul.menu.nav > li {
 }
 
 .team-member:last-of-type {
-	margin-left: 5px;
+	margin-left: 0;
 }
 
 .header-links-content a {

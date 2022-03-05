@@ -339,15 +339,6 @@ h1.header-additional {
 #team-display h3:nth-of-type(2) {
 	margin-top: 25px;
 }
-/* @media only screen and (min-width: 951px) {
-	.team-member {
-		margin: 20px 0 !important;
-		width: 33% !important;
-	}
-	.team-member:last-of-type {
-		margin-left: 0 !important;
-	}
-} */
 .team-member-section::after {
 	flex: initial !important;
 	content: initial !important;
@@ -391,7 +382,7 @@ ul.menu.nav {
 }
 .team-member {
 	width: auto;
-	margin: 0 50px 50px;
+	margin: 25px 0;
 }
 .team-member-portrait {
 	border-radius: 0;
@@ -562,40 +553,7 @@ select {
 footer #sitemap #list_11081 a, footer #sitemap #list_11344 a, footer #sitemap #list_11343 a, footer #sitemap #list_12525 a, footer #sitemap #list_11350 a, footer #sitemap #list_12564 a {font-weight: 800;font-size: 13px;/* text-align: center; */}
 footer #sitemap #list_12564 {display: none;}
 
-/* @media screen and (max-width: 650px) {
-	#navigation-logo {
-		max-width: 200px !important;
-	}
-	#navigation-logo > a > img {
-		margin-top: 5px;
-	}
-	#branch-banner {
-		height: 350px;
-		max-height: 351px;
-		min-height: 422px;
-	}
-	#covid-warning h4 {
-		font-size: 19px;
-	}
-	#covid-warning h4 span {
-		text-align: center;
-		width: 100px;
-	}
-	#covid-warning a {
-		margin-right: 6px;
-	}
-}
-@media screen and (max-width: 1390px) {
-	#button-container-home {
-		justify-content: center;
-	}
-}
-@media screen and (max-width: 980px) {
-	#calculations-and-numbers {
-		padding-bottom: 60px;
-		margin: 20px;
-	}
-} */
+
 .action-buttons-calcs {
 	/* width: 100%; */
 	display: flex;
@@ -668,11 +626,6 @@ footer #sitemap #list_12564 {display: none;}
 	width: 50%;
 	margin: 24px 0 10px;
 }
-/* @media screen and (max-width: 1110px) {
-	.site-type-team .branch-manager-section {
-		width: 37%;
-	}
-} */
 .site-type-team .branch-manager-section::after {
 	flex: auto;
 	content: "";
@@ -823,55 +776,6 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 #annie_mac-loan-officer #branch-content h2, #tmc-loan-officer #branch-content h2, .site-type-team #branch-content h2, #lofidirect-loan-officer #branch-content h2 {
 	margin-top: 0 !important;
 }
-/* 
-@media screen and (max-width: 750px) {
-	.site-type-team #navigation-bar {
-		justify-content: space-between;
-		padding: 7px 14px;
-	}
-	.site-type-team #navigation-logo {
-		order: -3;
-	}
-	#covid-warning {
-		margin-top: 50px;
-	}
-	#we-provide-more-3 {
-		order: -1;
-	}
-	.location-listing a p:first-of-type {
-		width: 80%;
-		line-height: 20px;
-	}
-	#calculations-and-numbers {
-		width: 90%;
-		display: flex;
-		margin: 60px auto 30px;
-		flex-direction: column;
-	}
-	#copyrights ul:nth-of-type(1) {
-		flex-direction: column;
-	}
-}
-@media screen and (max-width: 750px) {
-	#copyrights ul:nth-of-type(1) {
-		margin: 5px auto 10px;
-	}
-	#social-media {
-		display: none;
-	}
-}
-
-@media screen and (max-width: 1190px) { 
-	#list_11930 {
-		display: none;
-	}
-}
-
-@media screen and (max-width: 1006px) {
-	.navigation-sectional:nth-of-type(3) li:last-of-type {
-		display: block !important;
-	}
-} */
 
 .navigation-sidebar-sectional ul li {
 	display: block !important;
@@ -1275,168 +1179,6 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	letter-spacing: .55px;
 	margin-bottom: 0px;
 	}
-/* @media screen and (min-width: 1200px) {
-	#links-sidebar-full-width {
-		display: block;
-		margin-top: 50px;
-		margin-left: 12px;
-		margin-bottom: 100px;
-		width: -webkit-fill-available;
-	}
-	
-	#links-sidebar-full-width a {
-		color: #036fa8;
-	}
-	#links-sidebar-full-width ul {
-		margin-top: 16px;
-	}
-	#links-sidebar-full-width li {
-		height: 30px;
-	}
-	#accolades-originator #calculations-and-numbers {
-		display: none;
-	}
-}
-@media screen and (max-width: 994px) { 
-	#product-container-section {
-		flex-direction: column !important;
-		width: 100%;
-		margin-bottom: 30px;
-	}
-	.product-selectable {
-	   width: auto !important;
-	}
-	.product-selectable h3 {
-		text-align: left !important;
-	}
-	.product-selectable a {
-		position: revert;
-	}
-	.product-selectable button {
-		margin: 20px ​0 20px;
-	}
-	#grid1, #grid2, #grid3, #grid4 {
-		min-height: auto !important;
-		border: none !important;
-	}
-	#grid2, #grid3, #grid4 { 
-		border-top: 1px solid rgba(0,0,0,.2) !important;
-	}
-}
-@media screen and (max-width: 970px) { 
-	#inserted-banner {
-		margin-bottom: 0px;
-	}
-	#inserted-banner {
-		padding-top: 0px;
-	}
-	#inserted-banner > .container-section > h3 {
-		font-size: 35px !important;
-	}
-	#originator-core-details-text {
-		padding: 20px 0;
-	}
-	.calculations-primary:nth-child(2) {
-		margin-top: 50px;
-		margin: 0 50px;
-	}
-	#covid-warning {
-		width: auto;
-		margin-top: -45px;
-		padding: 30px 25px;
-		margin-bottom: 10px;
-	}
-	#loan-originator-backdrop {
-		margin-top: 0;
-	}
-	#loan-originator-blurb-container {
-		padding-bottom: 15px;
-		width: 100vw;
-	}
-	#originator > * {
-		margin: 10px auto;
-		padding: 10px;
-	}
-	#covid-warning {
-		padding: 20px 10px;
-		margin-top: -45px;
-		margin-bottom: 30px;
-	}
-	#accolades-originator #calculations-and-numbers {
-		margin: 0;
-	}
-	.we-provide-this {
-		margin: 8px 0;
-		border-radius: 0;
-		padding: 20px 40px;
-	}
-	.action-buttons-calcs {
-		flex-direction: column;
-	}
-	.calculations-primary:nth-child(2) {
-		margin-top: 30px;
-		margin: 0 25px;
-	}
-	.action-buttons-calcs button {
-		margin: 10px 0;
-		padding: 16px 0;
-	}
-	.manager-biography h2:first-of-type, .site-type-loan_officer #we-provide-more-master h3 {
-		text-align: center;
-		font-size: 30px;
-	}
-}
-@media screen and (max-width: 969px) { 
-	#inserted-banner {
-		min-height: 245px;
-		margin-bottom: 65px;
-		background-size: cover;
-	}
-	#originator-main-details {
-		flex-direction: column;
-		margin: 0 auto !important;
-	}
-	#loan-originator-backdrop {
-		margin-left: 0;
-		padding-left: 0;
-		margin-right: 0;
-		padding-right: 0;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-	#originator-social-details {
-		margin-left: 0;
-	}
-	#originator-social-details ul {
-		flex-wrap: wrap;
-		flex-direction: row;
-	}
-	#originator-social-details ul a {
-		width: 50%;
-		border-top: none;
-	}
-	#originator-social-details li {
-		font-size: 14px;
-		height: 80px;
-		flex-direction: column;
-	}
-	#originator-social-details li i {
-		font-size: 25px;
-		margin-bottom: 5px;
-	}
-	#originator-main-details {
-		margin-left: 0;
-		padding-left: 0;
-		width: unset;
-	}
-	#originator-core-details-portrait img {
-		padding: 0;
-		margin: 0;
-		margin-bottom: 30px;
-	}
-} */
 #product-containment {
 	display: none;
 }
@@ -1465,122 +1207,7 @@ footer #list_11344 > a, footer  #list_11343 > a, footer  #list_11350 > a {
 	display: block;
 	margin-top: 10px;
 }
-/* @media screen and (min-width: 800px) { 
-	#mobile-call {
-		display: none;
-	}
-	#lastvisitedoriginatornotice {
-	  position: fixed;
-	  bottom: 0;
-	  left: 0;
-	  display: flex;
-	  flex-direction: row;
-	  width: 400px;
-	  border-left: 0;
-	  border-bottom: 0;
-	  border-radius: 0;
-	  margin-bottom: 0;
-	  align-items: center;
-	}
-	#lastvisitedoriginatornotice img {
-	  height: 100px;
-	  width: 100px;
-	  margin-right: 20px;
-  }
-} */
 
-/*  @media screen and (max-width: 750px) {
-	#annie_mac-loan-officer .manager-biography p, #tmc-loan-officer .manager-biography p, #lofidirect-loan-officer .manager-biography p {
-		margin: 0;
-		padding: 0;
-	}
-	.site-type-loan_officer .manager-biography p {
-		width: 100%;
-	}
-	#originator #biography {
-		margin: 0;
-		padding: 0;
-		width: 98%;
-	}
-	#originator .manager-biography {
-		width: auto;
-		padding: 10px;
-	}
-	.site-type-corporate #home-banner {
-		min-height: 1px !important;
-		max-height: 350px;
-		padding: 0;
-		justify-content: center;
-		background-position-x: 59%;
-		border-bottom: 0;
-	}
-	.site-type-corporate #home-provide {
-		width: 100%;
-		padding: 0;
-		margin-top: 60px;
-	}
-	.site-type-corporate #home-provide iframe {
-		display: none;
-	}
-	.site-type-corporate #we-provide-more-master h3 {
-		font-size: 37px;
-	}
-	.site-type-corporate #home-reviews {
-		display: none;
-	}
-	.site-type-corporate #calculations-and-numbers {
-		margin-top: 0px;
-	}
-	.site-type-corporate .calculations-primary:nth-child(2) {
-		margin: 0;
-		margin-top: 30px;
-	}
-	.site-type-corporate #new-perk-plans {
-		margin: 0 !important;
-	}
-	#calculations-and-numbers {
-		padding-bottom: 0;
-	}
-	.site-type-corporate .action-buttons-calcs button {
-		width: 150px;   
-	}
-	#navigation_new_upper .menu {
-		display: none;
-	}
-	#start-your-story {
-		margin-top: 10px;
-	}
-	#sitemap {
-		display: flex;
-		flex-direction: column;
-	}
-	footer #copyrights {
-		align-items: flex-start;
-	}
-	#copyrights ul:nth-of-type(1) {
-		margin: 0;
-	}
-	footer #sitemap ul.menu.nav li ul {
-		margin: 10px 0px;
-	}
-	footer #sitemap ul.menu.nav {
-		justify-content: flex-start;
-		flex-direction: column;
-	}
-	.we-provide-this h4, .blog-home-entry h4 {
-		font-size: 26px;
-		text-align: left;
-		border: none;
-		padding-bottom: 0;
-		margin-top: 5px;
-	}
-	.we-provide-this p, .blog-home-entry p {
-		font-size: 16px;
-		text-align: left;
-		width: auto;
-		margin: 18px auto;
-	}
-} */
 .breadcrumb {
 	display: none;
 }
@@ -1610,29 +1237,6 @@ footer #list_11344 > a, footer  #list_11343 > a, footer  #list_11350 > a {
 	margin-bottom: 0px;
 }
 
-/* @media screen and (max-width: 574px) {
-	  #branch-banner {
-		background-size: cover !important;
-	  }
-	  .calculations-primary:nth-child(2) {
-		margin: 0;
-		padding: 0;
-	}
-	  .branch-manager-section .manager-information {
-		width: 100% !important;
-	}
-	  .team-member {
-		width: auto;
-		margin: 20px 0 40px;
-	}
-	.team-member:last-of-type {
-		  margin-left: 0;
-		  margin: 0;
-	}
-	.team-member-section {
-		  flex-direction: column;
-	}
-} */
 #annie-mac-2021-redesign-container, .annie-mac-2021-redesign-section {
   width: initial !important;
 }
@@ -1782,31 +1386,9 @@ div#flash-message {
 	 font-weight: 600;
 }
 
-/* @media screen and (max-width: 1175px) {
-  .team-member {
-	margin: 20px 0 !important;
-	width: 30% !important;
-  }
-  .branch-manager-section, .manager-information {
-	justify-content: center;
-	margin: 0 auto;
-	width: 100%;
-	max-width: 1200px;
-	align-items: center;
-  }
-} */
-
 #csteam .team-member-information .team-member-portrait {
   background-position-y: 4% !important;
 }
-/* @media screen and (max-width: 950px) {
-	.team-member-information {
-		width: initial !important;
-	  }
-	.team-member, .site-type-team .branch-manager-section, .branch-manager-section .manager-information {
-		width: 100% !important;
-	}
-} */
 
 @media screen and (max-width: 1050px) {
 	#site-navigation ul#navigation_new_upper li#list_12564 {
