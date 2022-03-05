@@ -1996,7 +1996,7 @@ ul li ol:focus {
 
 #conventional-purchase, #va-purchase, #fha-purchase, #usda-purchase, #renovation-purchase, #jumbo-purchase, #text-based {
 	margin: 30px auto 60px;
-	min-width: 500px;
+/* 	min-width: 500px; */
 	z-index: 1;
 	width: 90%;
 	max-width: 1200px;
@@ -2005,7 +2005,7 @@ ul li ol:focus {
 
 #conventional-purchase, #va-purchase, #fha-purchase, #usda-purchase, #renovation-purchase, #jumbo-purchase, #text-based {
 	margin: 30px auto 60px;
-	min-width: 500px;
+/* 	min-width: 500px; */
 	z-index: 1;
 	width: 90%;
 	max-width: 1200px;
@@ -4612,7 +4612,7 @@ html {
 	background: #fff;
 	margin: -85px auto 0;
 	padding: 51px;
-	min-width: 500px;
+/* 	min-width: 500px; */
 	box-shadow: 3px 10px 17px rgb(0 0 0 / 5%);
 	width: 90%;
 }
