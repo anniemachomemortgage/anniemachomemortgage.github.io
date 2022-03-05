@@ -54,6 +54,10 @@ textarea {
   font-size: 23px;
   font-weight: 800;
 }
+p#footer-branchlo-address {
+	width: 100%;
+	text-align: center;
+}
 .footer-directory-listing {
 	display: flex;
 	flex-wrap: wrap;
