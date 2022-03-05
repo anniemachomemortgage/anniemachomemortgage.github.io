@@ -49,7 +49,21 @@ textarea {
   margin-top: 1px !important;
 }
 #footer-branchlo-name {
-  margin-top: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 800;
+}
+.footer-directory-listing {
+	display: flex;
+	flex-wrap: wrap;
+	font-weight: 500;
+	width: 453px;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: initial;
+	margin-bottom: 20px;
 }
 .site-type-branch .branch-manager-section {
   margin-bottom: 40px;
@@ -95,7 +109,9 @@ body.front.site-type-branch .main-content, body.front.site-type-branch #site-nav
 }
 #annie_mac-branch > #team-display, #tmc-branch > #team-display {
   order: 1 !important;
-  margin-bottom: -103px;
+  margin-bottom: -55px;
+  margin-top: -15px !important;
+  padding-top: 0;
 }
 
 #tmc-branch #team-display h2 {
@@ -208,7 +224,7 @@ footer #copyrights {
   font-size: 13px !important;
   background: #144d7f;
   width: 100%;
-  height: 207px;
+  min-height: 207px;
   background-size: cover;
   background-position-y: 40%;
 }
