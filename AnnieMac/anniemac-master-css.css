@@ -1994,16 +1994,7 @@ ul li ol:focus {
 	display: block;
 }
 
-#conventional-purchase, #va-purchase, #fha-purchase, #usda-purchase, #renovation-purchase, #jumbo-purchase, #text-based {
-	margin: 30px auto 60px;
-/* 	min-width: 500px; */
-	z-index: 1;
-	width: 90%;
-	max-width: 1200px;
-	min-height: 300px;
-}
-
-#conventional-purchase, #va-purchase, #fha-purchase, #usda-purchase, #renovation-purchase, #jumbo-purchase, #text-based {
+#text-based {
 	margin: 30px auto 60px;
 /* 	min-width: 500px; */
 	z-index: 1;
