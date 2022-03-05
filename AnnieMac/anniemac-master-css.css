@@ -2795,21 +2795,23 @@ ul li ol:focus {
 }
 
 .team-member-information h4 {
-	font-weight: 300;
+	font-weight: 200;
 	text-align: center;
 	font-size: 23px;
 }
 
 .team-member-information h5 {
 	margin: 5px 0 11px;
-	font-weight: 200;
+	font-weight: 800;
 	text-align: center;
-	font-size: 17px;
+	font-size: 15px;
 	line-height: 31px;
+	text-transform: uppercase;
 }
 
 .team-member-information h5:last-of-type {
 	margin-top: -15px;
+	font-weight: 300;
 }
 
 .team-member-information .email {
@@ -4160,11 +4162,17 @@ footer #sitemap ul.menu.nav {
 	display: none;
 }
 .team-member-section {
-	justify-content: flex-start;
+	/* justify-content: flex-start; */
 }
 .team-member-information button {
 	width: 240px;
 	margin: 5px auto;
+	text-align: center !important;
+	justify-content: center;
+}
+
+.team-member-information button i {
+	display: none;
 }
 
 .manager-information .team-member-information {
@@ -4186,7 +4194,7 @@ footer #sitemap ul.menu.nav {
 }
 
 .team-member-section {
-	justify-content: center;
+	justify-content: space-between;
 }
 
 .team-member-section::after {
