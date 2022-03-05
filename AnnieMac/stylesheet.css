@@ -1035,7 +1035,8 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	width: 100%;
 	color: #036fa8;
 }
-#originator-social-details li {
+#originator-social-details a:first-of-type {
+	border-top: none;
 }
 #originator-social-details li i {
 	display: none;
@@ -1264,53 +1265,6 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 }
 #list_11344 > a, #list_11343 > a, #list_11350 > a {
 	display: block;
-}
-@media screen and (min-width: 1201px) {
-	#originator-social-details a:first-of-type {
-	}
-	#originator-social-details a:first-of-type li, #originator-social-details a:first-of-type li i {
-	}
-	#originator-social-details a:first-of-type:hover {
-	}
-}
-
-@media screen and (max-width: 1200px) {
-	#annie_mac-loan-officer, #tmc-loan-officer, #lofidirect-loan-officer {
-		flex-direction: column;
-	}
-	#annie_mac-loan-officer > #originator, #tmc-loan-officer > #originator, #lofidirect-loan-officer > #originator{
-		max-width: none;
-		margin: 0 auto;
-	}
-	#loan-originator-backdrop {
-		order: -1;
-	}
-	#accolades-originator #we-provide-more-master {
-		display: block;
-	}
-	#loan-originator-blurb-container {
-		border-right: none;
-		padding-right: 0;
-		border-bottom: 1px solid rgba(0,0,0,.15);
-		padding-bottom: 0px;
-	}
-	#originator-main-details {
-		flex-direction: row;
-		width: auto;
-		margin: 0 auto;
-	}
-	#originator-core-details-text {
-		min-width: auto;
-	}
-	#originator-social-details {
-		width: 300px;
-		margin: 0;
-		margin-left: 40px;
-	}
-	div.calculations-primary:nth-child(2) {
-		margin-top: 50px;
-		padding: 0 50px;
-	}
 }
 #links-sidebar-full-width { 
 	display: none;
