@@ -1962,6 +1962,7 @@ html, body {
 
 html {
 	background: #f1f1f1;
+	overflow-x: hidden !important;
 }
 
 body {
