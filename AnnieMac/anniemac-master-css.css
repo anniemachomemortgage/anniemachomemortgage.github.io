@@ -6205,6 +6205,7 @@ body > .main-content{
 }
 .site-type-loan_officer > .main-content {
 	padding-bottom: 0;
+	background: white;
 }
 .blog-image, #blog-entry-page .date {
 	display: none;

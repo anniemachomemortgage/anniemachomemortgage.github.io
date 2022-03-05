@@ -902,9 +902,10 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	justify-content: space-around;
 	margin: 0 auto;
 	max-width: 1500px;
+	flex-direction: column;
+	/* min-width: 100%; */
 }
 #loan-originator-backdrop {
-	background: none;
 	background: none;
 	background-position-y: 43.5%;
 	height: auto;
@@ -917,6 +918,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	min-width: 400px;
 	flex-direction: column;
 	margin-top: 25px;
+	margin-bottom: -75px;
 }
 #annie_mac-loan-officer > #originator, #tmc-loan-officer > #originator, #lofidirect-loan-officer > #originator {
 	margin-top: -28px;
@@ -959,7 +961,6 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	border-radius: 0px;
 	border: none;
 	box-shadow: none;
-	border-right: 1px solid rgba(0,0,0,.15);
 	padding-right: 20px;
 }
 #originator-core-details-text {
@@ -991,7 +992,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	color: black;
 	opacity: .8;
 }
-#originator-address-details p {flex-direction: column;letter-spacing: .65px;font-weight: 800;text-transform: uppercase;font-size: 13px;text-align: left;line-height: 21px;margin: 30px 0 0;}
+#originator-address-details p {flex-direction: column;letter-spacing: .45px;font-weight: 500;text-transform: uppercase;font-size: 13px;text-align: left;line-height: 21px;margin: 30px 0 0;}
 #originator-core-details-portrait img {
 	background: transparent;
 	max-width: 210px;
@@ -1005,7 +1006,6 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	width: 100%;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
 	color: white;
 	font-family: 'Inter', sans-serif;
 }
