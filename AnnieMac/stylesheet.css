@@ -22,7 +22,6 @@ p {
   display: none;
 }
 .testimonial-highlight {
-  display: none;
 }
 #review-social-section h3:first-of-type {
   display: none;
@@ -379,7 +378,6 @@ ul.menu.nav {
    width: 100%;
    max-width: 1200px;
    padding-top: 30px;
-   flex-wrap: wrap;
 }
 .team-member {
 	width: auto;
@@ -502,8 +500,7 @@ select {
 	background: #ffffff;
 }
 .social-loan-officer i.fas.fa-map-marker {
-	margin: 0 6px;
-	font-size: 18px;
+	display: none;
 }
 #biography .manager-information {
 	display: none;

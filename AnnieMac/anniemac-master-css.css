@@ -680,8 +680,8 @@ footer {
 
 .testimonial-highlight {
 	text-decoration: none;
-	color: #2068a4;
-	font-weight: bold;
+	font-weight: 700;
+	color: inherit;
 }
 
 /*Beginning --> Primary CSS Components*/
