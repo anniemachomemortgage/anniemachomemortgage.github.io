@@ -112,6 +112,8 @@ body.front.site-type-branch .main-content, body.front.site-type-branch #site-nav
   margin-bottom: -55px;
   margin-top: -15px !important;
   padding-top: 0;
+  background: #fff;
+  padding-top: 26px;
 }
 
 #tmc-branch #team-display h2 {
@@ -353,7 +355,6 @@ h1.header-additional {
 	margin: 0 !important;
 }
 .site-type-branch #home-reviews {
-	display: none;
 }
 .calculations-primary {
 	margin: 0;
