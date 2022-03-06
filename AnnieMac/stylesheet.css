@@ -1530,6 +1530,10 @@ div#flash-message {
 	}
 }
 
+@media screen and (max-width: 560px) {
+
+}
+
 .edit-group {
 	position: absolute;
 	top: 0;
