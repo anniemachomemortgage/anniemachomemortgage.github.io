@@ -799,10 +799,9 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	order: 0;
 	padding: 0 20px;
 	margin-right: 0px;
-	min-width: 400px;
 	flex-direction: column;
 	margin-top: 25px;
-	margin-bottom: -75px;
+	margin-bottom: -30px;
 }
 #annie_mac-loan-officer > #originator, #tmc-loan-officer > #originator, #lofidirect-loan-officer > #originator {
 	margin-top: -28px;
@@ -1511,8 +1510,8 @@ div#flash-message {
 	#mobile-apply {
 		margin-top: 30px;
 	}
-	#loan-originator-backdrop {
-		margin-bottom: -30px;
+	#loan-originator-blurb-container h2, #loan-originator-blurb-container h4, #originator-core-details-text h4 span, #originator-address-details p {
+		text-align: center;
 	}
 	#originator-main-details {
 		flex-direction: column;
