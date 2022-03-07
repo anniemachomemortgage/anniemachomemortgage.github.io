@@ -424,16 +424,16 @@ $(function() {
 		$("#originator-social-details > ul > a:nth-child(1)").remove();
 	};
 	if (window.location.href.indexOf("joshvantil.annie-mac.com") != -1) {
-		$( "<h3 style='margin-top: -30px'>Josh's Certificates:</h3><img src='https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/CMA_Badge_of_Honor_2021.png' style='width: 137px; height: auto; margin-bottom: 80px; margin-top: 25px;;'>").prependTo( $( "#we-provide-more-master" ) );
+		$( "<h3 style='margin-top: -20px'>Josh's Certificates:</h3><img src='https://annie-mac.com/uploads/sites/10713/public/CMA_Badge_of_Honor_2021.png' style='width: 137px; height: auto; margin-bottom: 50px; margin-top: 25px;'>").prependTo( $( "#we-provide-more-master" ) );
 	};
 	if (window.location.href.indexOf("hopeprince.annie-mac.com") != -1) {
-		$( "<h3 style='margin-top: -30px'>Hope's Certificates:</h3><img src='https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/CMA_Badge_of_Honor_2021.png' style='width: 137px; height: auto; margin-bottom: 80px; margin-top: 25px;;'>").prependTo( $( "#we-provide-more-master" ) );
+		$( "<h3 style='margin-top: -20px'>Hope's Certificates:</h3><img src='https://annie-mac.com/uploads/sites/10713/public/CMA_Badge_of_Honor_2021.png' style='width: 137px; height: auto; margin-bottom: 50px; margin-top: 25px;'>").prependTo( $( "#we-provide-more-master" ) );
 	};
 	if (window.location.href.indexOf("chucktegano.annie-mac.com") != -1) {
-		$( "<h3 style='margin-top: -30px'>Charles's Certificates:</h3><img src='https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/CMA_Badge_of_Honor_2021.png' style='width: 137px; height: auto; margin-bottom: 80px; margin-top: 25px;;'>").prependTo( $( "#we-provide-more-master" ) );
+		$( "<h3 style='margin-top: -20px'>Charles's Certificates:</h3><img src='https://annie-are.com/uploads/sites/10713/public/CMA_Badge_of_Honor_2021.png' style='width: 137px; height: auto; margin-bottom: 50px; margin-top: 25px;'>").prependTo( $( "#we-provide-more-master" ) );
 	};
 	if (window.location.href.indexOf("emmettmunson.annie-mac") != -1) {
-		$( "<h3 style='margin-top: -30px'>Emmett's Certificates:</h3><img src='https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/CMA_Badge_of_Honor_2021.png' style='width: 137px; height: auto; margin-bottom: 80px; margin-top: 25px;;'>").prependTo( $( "#we-provide-more-master" ) );
+		$( "<h3 style='margin-top: -20px'>Emmett's Certificates:</h3><img src='https://annie-mre.com/uploads/sites/10713/public/CMA_Badge_of_Honor_2021.png' style='width: 137px; height: auto; margin-bottom: 50px; margin-top: 25px;'>").prependTo( $( "#we-provide-more-master" ) );
 	};
 	// Hide branch management if no branch management are present.
 	if ($('.branch-manager-section > .manager-information').length < 1) {
