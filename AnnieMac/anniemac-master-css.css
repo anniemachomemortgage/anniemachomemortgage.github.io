@@ -1018,12 +1018,10 @@ button a {
 }
 
 /*Other Banners*/
-
 #page-banner, #video-banner, #product-banner, #core-banner {
-	height: 32vw;
-	min-height: 500px;
+	height: 23vw;
+	min-height: 345px;
 }
-
 #brand-banner {
 	height: 22vw;
 	min-height: 240px;
@@ -1043,11 +1041,6 @@ button a {
 	max-width: 80%;
 	font-weight: normal;
 }
-
-#page-banner h2, #video-banner h2, #product-banner h2, #brand-banner h2, #core-banner h2, #page-banner h4, #video-banner h4, #product-banner h4, #brand-banner h4, #core-banner h4 {
-	color: #ffffff;
-}
-
 
 /*Beginning --> Review Section*/
 
@@ -3447,10 +3440,6 @@ footer #sitemap ul.menu.nav > li {
 	display: none;
 }
 
-#page-banner h2, #video-banner h2, #product-banner h2, #brand-banner h2, #core-banner h2 {
-	font-size: 5vw;
-}
-
 .product-block {
 	width: 33vw;
 }
@@ -4971,14 +4960,16 @@ div.blog-home-entry:nth-child(4) {
 	min-height: 305px;
 }
 #page-banner h2, #video-banner h2, #product-banner h2, #brand-banner h2, #core-banner h2 {
-	text-align: center;
+	text-align: left;
 	letter-spacing: 1.9px;
-	margin: 0;
 	font-weight: 700;
 	line-height: 80px;
-	width: 700px;
+	max-width: 1250px;
+	width: 84%;
 	color: rgb(255, 255, 255);
 	font-size: 60px;
+	margin: 0 auto;
+	padding: 44px;
 }
 .description-text {
 	height: 50px;

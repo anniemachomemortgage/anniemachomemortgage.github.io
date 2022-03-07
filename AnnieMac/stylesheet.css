@@ -330,7 +330,7 @@ h1.header-additional {
 }
 #page-banner, #video-banner, #product-banner, #core-banner {
 	height: 23vw;
-	min-height: 404px;
+	min-height: 345px;
 }
 .site-type-team #branch-managers, .branch-manager-section {
 	padding: 10px 0 !important;
