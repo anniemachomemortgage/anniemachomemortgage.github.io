@@ -1018,10 +1018,13 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	background: white;
 	color: #016fa7;
 	min-width: 100%;
-}
-.action-buttons-calcs button {
 	margin-bottom: 10px;
 }
+.action-buttons-calcs button:hover {
+	background: #072c4b;
+	color: #fff;
+}
+
 .site-type-loan_officer .branch-manager-section {
 	width: initial;
 }
@@ -1039,9 +1042,11 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 .product-selectable a {
 	margin: 7px 0;
 }
-.product-selectable button {margin: 9px 0 0;}
+.product-selectable button {
+	margin: 9px 0 0;
+}
 .product-selectable button:hover {
-	background: #006fa9;
+	background: #7fc24a;
 }
 .product-selectable h3 {
 	font-size: 18px !important;
