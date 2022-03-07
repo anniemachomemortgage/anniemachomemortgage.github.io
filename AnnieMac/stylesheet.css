@@ -1730,6 +1730,10 @@ div#flash-message {
 	margin-bottom: 45px;
 }
 
+.disclosure.middle-disclosure {
+	margin: 20px 0 40px;
+}
+
 .important-disclosure {
 	background: #b53434;
 }
