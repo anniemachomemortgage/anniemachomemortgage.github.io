@@ -936,14 +936,13 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 }
 #inserted-banner {
 	height: 350px;
-	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://www.annie-mac.com/uploads/sites/10713/public/House-at-Dusk.jpeg) top left no-repeat;
+	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://www.annie-mac.com/uploads/sites/10713/public/House-at-Dusk.jpeg) center center no-repeat;
 	display: flex;
 	justify-content: center;
 	text-align: center;
 	align-items: center;
 	padding: 32px 0;
-	background-position-y: 68%;
-	background-size: 101%;
+	background-size: cover;
 }
 #inserted-banner.themortgagecompany #button-container-home > a:nth-child(1) {
 	margin-left: 0;
@@ -1529,7 +1528,22 @@ div#flash-message {
 	}
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 620px) {
+	#originator > * {
+	max-width: initial;
+}
+.footer-directory-listing {
+	flex-direction: column;
+	width: initial;
+}
+#copyrights .flex:first-of-type {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#originator-core-details-text {
+	min-width: initial;
+}
 
 }
 
