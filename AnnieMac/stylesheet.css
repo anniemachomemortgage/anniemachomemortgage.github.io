@@ -812,7 +812,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	font-size: 34px;
 	margin: 25px auto 5px;
 	color: #fff;
-	text-align: center;
+	text-align: left;
 	font-family: 'inter',sans-serif;
 	text-transform: uppercase;
 	font-weight: 200;
@@ -825,7 +825,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	color: #fff;
 	font-size: 16px;
 	letter-spacing: .045em;
-	text-align: center;
+	text-align: left;
 	font-weight: 800;
 	text-transform: uppercase;
 }
@@ -846,7 +846,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	font-weight: 300;
 	text-transform: uppercase;
 	font-size: 15px;
-	text-align: center;
+	text-align: left;
 	line-height: 25px;
 }
 #originator-core-details-portrait img {
