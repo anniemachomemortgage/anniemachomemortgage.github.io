@@ -174,14 +174,6 @@ $(function() {
 		$('#beginner-guide-to-mortgages').hide();
 		console.log('popup hidden for podcast');
 	};
-	$('#dismisscovid').click(function() {
-		$('#covid-warning').hide();
-		localStorage.setItem('covidwarninghidden', 'true');
-	});
-	if ((localStorage.covidwarninghidden) == "true") {
-		$('#covid-warning').hide();
-		console.log('covid warning hidden');
-	};
 	if ($('body').hasClass('site-type-branch')) {	
 		var subdomain =  window.location.host.split('.')[1] ? window.location.host.split('.')[0] : false;
 		$('body').addClass(subdomain);
@@ -204,16 +196,8 @@ $(function() {
 			if($this.html().replace(/\s|&nbsp;/g, '').length == 0)
 				$this.remove();
 		});
-		var covid = '<div id="covid-warning"><h4>To those affected by COVID-19 <span id="dismisscovid">Dismiss</span></h4><div id="covid-warning-container"><p>We are available to review your options with you and explain how to apply for relief. Borrowers interested in contacting AnnieMac to discuss payment assistance during the COVID19 pandemic can reach us using the options below.</p><a href="tel:877-204-1868">Call</a> <a href="mailto:CustomerService@annie-mac.com">Email</a></div></div>';
-		$(covid).insertBefore( $( "#biography" ) );
-		$('#dismisscovid').click(function() {
-			$('#covid-warning').hide();
-			localStorage.setItem('covidwarninghidden', 'true');
-		});
-		if ((localStorage.covidwarninghidden) == "true") {
-			$('#covid-warning').hide();
-			console.log('covid warning hidden');
-		};
+		let applyLinkinBanner = "<div id='applyheaderlo'><button id='loapplylink'><a href='/loan/apply'>Apply Now</a></button></div>";
+		$( applyLinkinBanner ).appendTo( $( "#originator-core-details" ) );
 		var fullwidthsidebarlinks = '<div id="links-sidebar-full-width"><div id="sidebar-apply-now"><a href="/loan/apply" id="loan-officer-sidebar-apply">Apply Now</a></div><h4>Important Links</h4><ul><a href="/page/buyer-guide"><li>First Time Home Buyer</li></a><a href="/page/faq"><li>Frequent Questions</li></a><a href="/mortgage/calculator/affordability"><li>Mortgage Affordability Calculator</li></a><a href="/mortgage/calculator/refinance"><li>Should I Refinance?</li></a><a href="/contact"><li>Contact Me</li></a></ul></div>';
 		$(fullwidthsidebarlinks).appendTo( $( "#loan-originator-backdrop" ) );
 		var loanoriginatornumber = document.querySelector("#footer-phone-number").innerText;
