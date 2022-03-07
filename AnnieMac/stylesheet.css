@@ -1383,6 +1383,12 @@ div#flash-message {
 		background-size: cover;
 		background-position-y: 25%;	
 	}
+	/* 	CCPA */
+	.node-47107 #product-banner {
+		background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/annie_mac_new_banner_ccpa.jpeg) top left no-repeat;
+		background-size: cover;
+		background-position-y: 53%;
+	}
 	/* Contact Us */
 	.node-127219 #product-banner {
 		background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/contact-us-header.jpg) center center no-repeat;
