@@ -852,7 +852,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 }
 #originator-core-details {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 	padding-right: 0;
