@@ -1008,7 +1008,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 }
 .calculations-primary {
 	background: linear-gradient(20deg, rgb(15, 71, 119) 0%, rgb(32, 104, 164) 64%);
-	padding: 10px 20px;
+	padding: 15px 20px 20px;
 	color: #fff;
 }
 .action-buttons-calcs {
