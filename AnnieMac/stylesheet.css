@@ -1677,6 +1677,17 @@ div#flash-message {
 	color: #000 !important;
 }
 
+.listing-element {
+	padding: 0 0 5px;
+}
+.listing-element p {
+	margin-top: -10px;
+}
+
+.listing-container {
+	padding: 5px 0 0;
+}
+
 b, strong {
 	font-weight: 800;
 }
