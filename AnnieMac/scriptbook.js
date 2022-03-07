@@ -196,7 +196,7 @@ $(function() {
 			if($this.html().replace(/\s|&nbsp;/g, '').length == 0)
 				$this.remove();
 		});
-		let applyLinkinBanner = "<div id='applyheaderlo'><button id='loapplylink'><a href='/loan/apply'>Apply Now</a></button></div>";
+		let applyLinkinBanner = "<div id='applyheaderlo'><button id='loapplylink'><a href='/loan/apply'>Apply Now</a></button><button id='testimonials'><a href='/testimonials'>Testimonials</a></button></div>";
 		$( applyLinkinBanner ).appendTo( $( "#originator-core-details" ) );
 		var fullwidthsidebarlinks = '<div id="links-sidebar-full-width"><div id="sidebar-apply-now"><a href="/loan/apply" id="loan-officer-sidebar-apply">Apply Now</a></div><h4>Important Links</h4><ul><a href="/page/buyer-guide"><li>First Time Home Buyer</li></a><a href="/page/faq"><li>Frequent Questions</li></a><a href="/mortgage/calculator/affordability"><li>Mortgage Affordability Calculator</li></a><a href="/mortgage/calculator/refinance"><li>Should I Refinance?</li></a><a href="/contact"><li>Contact Me</li></a></ul></div>';
 		$(fullwidthsidebarlinks).appendTo( $( "#loan-originator-backdrop" ) );

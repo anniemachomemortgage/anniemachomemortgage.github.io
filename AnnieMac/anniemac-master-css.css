@@ -5070,16 +5070,20 @@ body > .main-content{
 }
 
 #applyheaderlo {
-	width: 100%;
+	width: 99%;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	margin-top: 35px;
 }
 
-#loapplylink {
-	background: #7fc24a;
+#loapplylink, #testimonials {
 	transform: scale(1.2);
+}
+
+button#loapplylink {
+	background: #7fc24a;
+	margin-right: 42px;
 }
 
 #loapplylink:hover {
