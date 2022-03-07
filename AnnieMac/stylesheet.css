@@ -759,7 +759,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	/* width: 90%; */
 }
 #loan-originator-backdrop {
-	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/pexel-family_1.jpeg) center no-repeat !important;
+	background: linear-gradient(177deg, rgb(26 29 36 / 83%) 20%, rgba(26 29 36 / 83%) 80%), url(https://annie-mac.com/uploads/sites/10713/public/pexel-family_1.jpeg) center no-repeat !important;
 	background-size: cover !important;
 	display: flex;
 	flex-direction: column;
@@ -1459,13 +1459,6 @@ div#flash-message {
 	.team-member {
 		width: 100%;
 	}
-	.site-type-loan_officer .navigation-sectional:nth-of-type(1) {
-		flex: 0;
-	}
-	.site-type-loan_officer .navigation-sectional:nth-of-type(2) {
-		flex: 0;
-		order: 5;
-	}
 /* 	Reviews */
 	#social-review-grid {
 		flex-direction: column;
@@ -1474,7 +1467,15 @@ div#flash-message {
 		width: 100%;
 	}
 }
-
+@media screen and (max-width: 781px) {
+	.site-type-loan_officer .navigation-sectional:nth-of-type(1) {
+		flex: 0;
+	}
+	.site-type-loan_officer .navigation-sectional:nth-of-type(2) {
+		flex: 0;
+		order: 5;
+	}
+}
 @media screen and (max-width: 705px) {
 	#originator-core-details {
 		flex-direction: column;
@@ -1486,7 +1487,6 @@ div#flash-message {
 	#originator-social-details ul {
 		justify-content: center;
 	}
-	
 	.footer-directory-listing {
 		flex-direction: column;
 		width: initial;
@@ -1497,7 +1497,26 @@ div#flash-message {
 		align-items: center;
 	}
 }
-
+@media screen and (max-width: 600px) {
+	body > .main-content {
+		max-width: initial !important;
+		width: fit-content !important;
+	}
+	body {
+		width: fit-content;
+	}
+	#site-navigation ul#navigation_new_upper {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.site-type-loan_officer .navigation-sectional:nth-of-type(2) {
+		order: 0;
+	}
+	#site-navigation ul .navigation-sectional li img {
+		margin: 15px 0;
+	}
+}
 .edit-group {
 	position: absolute;
 	top: 0;
