@@ -1426,8 +1426,9 @@ select:-moz-focusring {
 
 footer #sitemap {
 	padding: 15px 0 0;
-	/* width: 100% !important; */
+	max-width: 1250px;
 	margin: 0 auto;
+	width: 90%;
 }
 
 footer #copyrights {
@@ -3283,7 +3284,7 @@ footer #sitemap ul.menu.nav > li {
 }
 
 #annie_mac-loan-officer > #originator {
-	margin-top: -45px;
+	margin-top: 0;
 }
 .manager-biography p:first-of-type {
 	margin-top: 45px;
@@ -4394,7 +4395,6 @@ html {
 	width: 100%;
 }
 .site-type-loan_officer .branch-manager-section {
-	width: 90%;
 }
 .site-type-loan_officer .manager-biography p {
 	width: 90%;

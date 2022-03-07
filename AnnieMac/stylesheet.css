@@ -441,10 +441,6 @@ select {
 }
 
 .branch-manager-section, .manager-information {
-	justify-content: center;
-	margin: 0 auto;
-	width: 100%;
-	max-width: 1200px;
 }
 
 .branch-manager-section .manager-information {
@@ -781,9 +777,10 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	color: #333;
 	justify-content: space-around;
 	margin: 0 auto;
-	max-width: 1500px;
 	flex-direction: column;
-	/* min-width: 100%; */
+	max-width: 1250px;
+	margin: 0 auto;
+	width: 90%;
 }
 #loan-originator-backdrop {
 	background: none;
@@ -800,9 +797,9 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	margin-bottom: -30px;
 }
 #annie_mac-loan-officer > #originator, #tmc-loan-officer > #originator, #lofidirect-loan-officer > #originator {
-	margin-top: 0;
-	margin-left: 0;
-	max-width: 1000px;
+	/* max-width: 1250px; */
+	/* margin: 0 auto; */
+	/* width: 90%; */
 }
 #originator .negative-60 {
 	width: initial;
