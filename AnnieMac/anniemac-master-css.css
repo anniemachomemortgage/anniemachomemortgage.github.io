@@ -4482,7 +4482,10 @@ html {
 .text-content ul {
 	margin-top: -15px;
 }
-
+.content-row {
+	display: flex;
+	flex-direction: column;
+}
 .page-page-detail .text-content h3 {
 	margin-bottom: 15px;
 }
