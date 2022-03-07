@@ -767,10 +767,11 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	/* width: 90%; */
 }
 #loan-originator-backdrop {
-	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://www.annie-mac.com/uploads/sites/10713/public/fall-image-reduced.jpg) top center  no-repeat !important;
+	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/pexel-family_1.jpeg) center no-repeat !important;
 	background-size: cover !important;
 	display: flex;
 	flex-direction: column;
+	background-position-y: 56% !important;
 }
 #annie_mac-loan-officer > #originator, #tmc-loan-officer > #originator, #lofidirect-loan-officer > #originator {
 	max-width: 1250px;
@@ -815,7 +816,6 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	box-shadow: none;
 }
 #originator-core-details-text {
-	min-width: 340px;
 }
 #loan-originator-blurb-container h2 {
 	font-family: 'inter', sans-serif;
@@ -838,8 +838,8 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	color: #fff;
 	opacity: 1;
 }
-#originator-address-details p {flex-direction: column;letter-spacing: .45px;font-weight: 500;text-transform: uppercase;font-size: 13px;text-align: center;line-height: 21px;margin: 30px 0;}
-#originator-core-details-portrait img {margin-bottom: 30px;border: 10px solid white;}
+#originator-address-details p {flex-direction: column;letter-spacing: .45px;font-weight: 300;/* text-transform: uppercase; */font-size: 15px;text-align: center;line-height: 21px;/* margin: 30px 0; */}
+#originator-core-details-portrait img {border: 10px solid white;}
 #originator-main-details {
 	display: flex;
 	width: 100%;
@@ -857,9 +857,9 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	align-items: center;
 	padding-right: 0;
 	border-right: none;
-	margin: 39px 0;
+	margin: 45px 0 80px;
 	text-align: center;
-	width: 45%;
+	width: 44%;
 	min-width: 475px;
 }
 #originator-social-details {
