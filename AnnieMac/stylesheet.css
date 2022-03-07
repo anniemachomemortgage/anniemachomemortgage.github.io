@@ -1352,6 +1352,72 @@ div#flash-message {
   background-position-y: 4% !important;
 }
 
+/* Specific Pages */
+
+	/* About Us */
+	.node-47106 #product-banner {
+		background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/annie_mac_new_banner_about.jpeg) center center no-repeat;
+		background-size: cover;
+		background-position-y: 43%;		
+	}
+
+	/* Licensing */
+	.node-163441 #product-banner {
+		background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/licensing.jpg) center center no-repeat;
+		background-size: cover;
+		background-position-y: 43%;	
+	}
+	
+	/* Privacy Policy */
+	.node-47111 #product-banner {
+		background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/privacypolicy.jpeg) center center no-repeat;
+		background-size: cover;
+		background-position-y: 43%;	
+	}
+	
+	/* Terms of Use */
+	.node-47115 #product-banner {
+		background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/termsofuse.jpeg) center center no-repeat;
+		background-size: cover;
+		background-position-y: 43%;	
+	}
+	
+	/* Contact Us */
+	.node-127219 #product-banner {
+		background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/contact-us-header.jpg) center center no-repeat;
+		background-size: cover;
+		background-position-y: 43%;	
+	}
+	
+	/* FHA */
+	.node-47108 #product-banner {
+		background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/fha-loans.jpeg) center center no-repeat;
+		background-size: cover;
+		background-position-y: 43%;
+	}
+	
+	/* Conventional */
+	.node-47105 #product-banner {
+		background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/conventional-loan.jpeg) center center no-repeat;
+		background-size: cover;
+		background-position-y: 43%;	
+	}
+	
+	/* VA */
+	.node-47117 #product-banner {
+		background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/va-loans.jpeg) center center no-repeat;
+		background-size: cover;
+		background-position-y: 43%;	
+	}
+	
+	/* USDA */
+	.node-47116 #product-banner {
+		background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/usda-loans_0.jpeg) center center no-repeat;
+		background-size: cover;
+		background-position-y: 43%;	
+	}
+
+
 @media screen and (max-width: 1050px) {
 	#site-navigation ul#navigation_new_upper li#list_12564 {
 		display: none;
