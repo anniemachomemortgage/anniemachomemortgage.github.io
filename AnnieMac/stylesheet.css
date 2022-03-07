@@ -1000,13 +1000,18 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	margin-bottom: 0 !important;
 }
 #accolades-originator #calculations-and-numbers {
-	margin: 22px 0 40px;
+	width: 35%;
+	margin-left: 84px;
 }
 .calculations-primary:first-of-type {
 	margin-bottom: 60px;
 }
-.action-buttons-calcs a:first-of-type {
-	margin-right: 14px;
+.action-buttons-calcs {
+	display: flex;
+	flex-direction: column;
+}
+.action-buttons-calcs button {
+	margin-bottom: 15px;
 }
 .site-type-loan_officer .branch-manager-section {
 	width: initial;
@@ -1073,10 +1078,17 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	font-weight: 800;
 	letter-spacing: .55px;
 	margin-bottom: 0px;
-	}
+}
+#products-and-calculators {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
 #product-containment {
 	display: flex;
 	flex-direction: column;
+	flex: 1;
 }
 #product-containment h3:first-of-type, .calculations-primary h3 {
 	font-size: 34px;
