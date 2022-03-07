@@ -4691,8 +4691,9 @@ section#home-provide .content-block-list {
 	background: #303335;
 }
 .we-provide-this p {
-	font-size: 15.5px;
+	font-size: 17px;
 	line-height: 28px;
+	font-weight: 200;
 }
 .provided-links {
 	padding-top: 20px;

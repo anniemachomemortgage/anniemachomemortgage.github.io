@@ -2,6 +2,7 @@
 p {
 	font-size: 17px;
 	line-height: 33px;
+	font-weight: 300;
 }
 #flash-message {
   display: none !important;
@@ -999,7 +1000,13 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	margin-bottom: 0 !important;
 }
 #accolades-originator #calculations-and-numbers {
-	display: none;
+	margin: 22px 0 40px;
+}
+.calculations-primary:first-of-type {
+	margin-bottom: 60px;
+}
+.action-buttons-calcs a:first-of-type {
+	margin-right: 14px;
 }
 .site-type-loan_officer .branch-manager-section {
 	width: initial;
@@ -1028,7 +1035,8 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 }
 .product-selectable p {
 	font-family: inherit !important;
-	font-size: 15px !important;
+	font-size: 17px !important;
+	font-weight: 300;
 	color: inherit !important;
 	margin: 0 0 10px !important;
 }
@@ -1070,7 +1078,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	display: flex;
 	flex-direction: column;
 }
-#product-containment h3:first-of-type {
+#product-containment h3:first-of-type, .calculations-primary h3 {
 	font-size: 34px;
 	margin: 25px 0 15px;
 	display: block;
