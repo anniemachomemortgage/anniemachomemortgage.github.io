@@ -1948,11 +1948,11 @@ ul li ol:focus {
 }
 
 #text-based h4, #text-based h5 {
-	font-size: 20px;
+	font-size: 18px;
 	display: block;
 	text-transform: uppercase;
 	font-weight: 800;
-	letter-spacing: .55px;
+	letter-spacing: .85px;
 	margin-bottom: 10px;
 }
 
@@ -4505,8 +4505,8 @@ html {
 
 .page-page-detail .text-content p {
 	margin: 0;
-	padding-bottom: 20px;
-	font-weight: 300;
+	padding-bottom: 5px;
+	font-weight: 200;
 }
 
 #home-banner {
