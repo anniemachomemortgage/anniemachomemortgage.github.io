@@ -1031,8 +1031,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 }
 #product-container-section {
 }
-.product-selectable {
-}
+.product-selectable {margin-bottom: 45px;}
 #grid1 {
 }
 #grid2 {
@@ -1050,13 +1049,9 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	margin: 15px 0 10px !important;
 }
 .product-selectable a {
-	position: absolute;
-	bottom: 20px;
+	margin: 7px 0;
 }
-.product-selectable button {
-	border-radius: 5px;
-	background: #7FC24A;
-}
+.product-selectable button {margin: 9px 0 0;}
 .product-selectable button:hover {
 	background: #006fa9;
 }
@@ -1065,9 +1060,10 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	margin: 10px 0 !important;
 }
 .product-selectable p {
+	font-family: inherit !important;
 	font-size: 15px !important;
-	opacity: .6;
-	line-height: 30px;
+	color: inherit !important;
+	margin: 0 0 10px !important;
 }
 #list_11344 > a, #list_11343 > a, #list_11350 > a {
 	display: block;
@@ -1104,7 +1100,8 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	margin-bottom: 0px;
 	}
 #product-containment {
-	display: none;
+	display: flex;
+	flex-direction: column;
 }
 footer #list_11344 > a, footer  #list_11343 > a, footer  #list_11350 > a {
 	letter-spacing: .65px;
