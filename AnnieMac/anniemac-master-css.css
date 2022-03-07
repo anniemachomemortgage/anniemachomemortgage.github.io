@@ -116,6 +116,8 @@ form button:hover,
 	display: flex;
 	color: white;
 	margin-bottom: 20px;
+	justify-content: flex-end;
+	align-items: flex-start;
 }
 
 #brand-banner {
@@ -4851,11 +4853,9 @@ div.blog-home-entry:nth-child(4) {
 	font-weight: 700;
 	line-height: 80px;
 	max-width: 1250px;
-	width: 84%;
 	color: rgb(255, 255, 255);
 	font-size: 60px;
-	margin: 0 auto;
-	padding: 44px;
+	padding: 13px 26px;
 }
 .description-text {
 	height: 50px;

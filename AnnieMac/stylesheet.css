@@ -1455,6 +1455,9 @@ div#flash-message {
 		flex: 0;
 		order: 5;
 	}
+	#page-banner, #video-banner, #product-banner, #core-banner {
+		height: 240px;
+	}
 }
 @media screen and (max-width: 705px) {
 	#originator-core-details {
@@ -1491,6 +1494,9 @@ div#flash-message {
 	}
 	#site-navigation ul .navigation-sectional li img {
 		margin: 15px 0;
+	}
+	.navigation-sectional:nth-of-type(2) {
+		top: 15px;
 	}
 }
 .edit-group {
