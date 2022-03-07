@@ -4853,9 +4853,11 @@ div.blog-home-entry:nth-child(4) {
 	font-weight: 700;
 	line-height: 80px;
 	max-width: 1250px;
+	width: 84%;
 	color: rgb(255, 255, 255);
 	font-size: 60px;
-	padding: 13px 26px;
+	margin: 0px auto;
+	padding: 44px;
 }
 .description-text {
 	height: 50px;
