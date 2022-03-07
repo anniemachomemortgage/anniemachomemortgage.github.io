@@ -1689,6 +1689,21 @@ div#flash-message {
 	padding: 5px 0 0;
 }
 
+.disclosure {
+	background: #7fc24a;
+	padding: 7px 30px 20px;
+	margin: 50px 0 15px;
+	color: #fff;
+	box-shadow: 3px 10px 17px rgb(0 0 0 / 5%);
+}
+
+#text-based .disclosure h3 {
+	font-size: 23px;
+	font-weight: 800;
+	color: #fff;
+	margin-bottom: -15px;
+}
+
 b, strong {
 	font-weight: 800;
 }
