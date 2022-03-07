@@ -21,8 +21,6 @@ p {
 .average-social-rating p:last-of-type {
   display: none;
 }
-.testimonial-highlight {
-}
 #review-social-section h3:first-of-type {
   display: none;
 }
@@ -344,14 +342,8 @@ h1.header-additional {
 .branch-manager-section .manager-information {
 	margin: 0 !important;
 }
-.site-type-branch #home-reviews {
-}
-.calculations-primary {
-}
 ul.menu.nav {
 	display: flex;
-}
-#calculations-and-numbers .calculations-primary:first-of-type {
 }
 .calculations-primary img {
 	display: none;
@@ -388,8 +380,6 @@ select {
 	letter-spacing: initial;
 	opacity: .8;
 	width: 99%;
-}
-#loan-originator-backdrop {
 }
 #list_12148 a, #list_12170 a {
 	background: #7FC24A;
@@ -487,8 +477,6 @@ select {
 #biography .manager-information {
 	display: none;
 }
-#originator-core-details-portrait img {
-}
 .manager-biography {
 	margin-top: 0;
 	margin-left: 0;
@@ -526,9 +514,6 @@ select {
 footer #sitemap #list_11081 a, footer #sitemap #list_11344 a, footer #sitemap #list_11343 a, footer #sitemap #list_12525 a, footer #sitemap #list_11350 a, footer #sitemap #list_12564 a {font-weight: 800;font-size: 13px;/* text-align: center; */}
 footer #sitemap #list_12564 {display: none;}
 
-
-.action-buttons-calcs {
-}
 .alert-error {
 	background: linear-gradient(#901e1e 0%, #ab1c1c 64%) !important;
 	padding: 20px !important;
@@ -541,8 +526,6 @@ footer #sitemap #list_12564 {display: none;}
 	border-radius: 0px;
 	width: 97%;
 	line-height: 1.7;
-}
-.action-buttons-calcs button {
 }
 #home-blog .block h3 {
 	font-size: 35px;
@@ -627,8 +610,6 @@ footer #sitemap #list_12564 {display: none;}
 	color: #a91202;
 	border-left: 8px solid #a91202;
 	border-radius: 0 3px 3px 0;
-}
-.calculations-primary:first-of-type {
 }
 #copyrights .flex:first-of-type {
 	display: flex;
@@ -877,8 +858,6 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	max-width: 1250px;
 	width: 95%;
 }
-#originator-social-details ul {
-}
 #originator-social-details ul a {
 	width: 129px;
 	background: #fff;
@@ -1021,22 +1000,8 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 .site-type-loan_officer .branch-manager-section {
 	width: initial;
 }
-.calculations-primary h3 {
-}
-.action-buttons-calcs {
-}
-.action-buttons-calcs button {
-}
-#product-container-section {
-}
-.product-selectable {margin-bottom: 45px;}
-#grid1 {
-}
-#grid2 {
-}
-#grid3 {
-}
-#grid4 {
+.product-selectable {
+	margin-bottom: 45px;
 }
 .product-selectable i {
 	font-size: 24px !important;

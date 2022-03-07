@@ -242,10 +242,6 @@ footer {
 	flex: auto;
 	content: "";
 }
-
-.team-member:last-of-type {
-}
-
 .header-links-content a {
 	display: flex;
 	align-items: center;
@@ -524,12 +520,6 @@ footer {
 	padding: 0;
 }
 
-#loan-originator-blurb-container h2 {
-}
-
-#loan-originator-blurb-container h4 {
-}
-
 #loan-originator-blurb-container h4 span {
 	font-weight: normal;
 	font-size: 15px;
@@ -543,11 +533,6 @@ footer {
 
 #originator-social-details ul, #links-sidebar-full-width ul {display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;margin: -23px 0px 50px;text-align: center;}
 
-#originator-core-details {
-}
-
-#originator-core-details-portrait img {
-}
 
 #originator-social-details li,
 #links-sidebar-full-width a {
@@ -561,9 +546,6 @@ footer {
 #links-sidebar-full-width a {
 	height: 20px;
 	margin: 5px 0;
-}
-
-#originator-social-details li i {
 }
 
 #review-social-section {
@@ -589,9 +571,6 @@ footer {
 
 .hide {
 	display: none;
-}
-
-#loan-originator-backdrop {
 }
 
 .navigation-sidebar-sectional ul.menu.nav li {
@@ -3383,9 +3362,6 @@ footer #sitemap ul.menu.nav > li {
 	content: "";
 }
 
-.team-member:last-of-type {
-}
-
 .header-links-content a {
 	display: flex;
 	align-items: center;
@@ -4355,8 +4331,6 @@ html {
 	padding: 44px 0;
 	width: 100%;
 }
-.site-type-loan_officer .branch-manager-section {
-}
 .site-type-loan_officer .manager-biography p {
 	width: 90%;
 }
@@ -4770,26 +4744,6 @@ section#home-provide .content-block-list {
 	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/more-humanity.jpeg) top right no-repeat;
 	background-size: cover;
 	background-position-y: 60%;
-}
-#calculations-and-numbers {
-}
-.calculations-primary {
-}
-.calculations-primary h3 {
-}
-.calculations-primary img {
-	order: -1;
-	width: 300px;
-	height: 253px;
-}
-.calculations-primary p {
-}
-.action-buttons-calcs {
-}
-.action-buttons-calcs button {
-}
-.action-buttons-calcs button:hover {
-	background: #006fa9;
 }
 #home-blog {
 	display: flex;
