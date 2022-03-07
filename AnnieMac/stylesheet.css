@@ -1730,6 +1730,10 @@ div#flash-message {
 	margin-bottom: 45px;
 }
 
+.important-disclosure {
+	background: #b53434;
+}
+
 #text-based .disclosure h3 {
 	font-size: 23px;
 	font-weight: 800;
