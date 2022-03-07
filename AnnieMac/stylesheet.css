@@ -839,7 +839,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	opacity: 1;
 }
 #originator-address-details p {flex-direction: column;letter-spacing: .45px;font-weight: 500;text-transform: uppercase;font-size: 13px;text-align: center;line-height: 21px;margin: 30px 0;}
-#originator-core-details-portrait img {margin-bottom: 30px;}
+#originator-core-details-portrait img {margin-bottom: 30px;border: 10px solid white;}
 #originator-main-details {
 	display: flex;
 	width: 100%;
@@ -857,8 +857,10 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	align-items: center;
 	padding-right: 0;
 	border-right: none;
-	margin: 50px 0;
+	margin: 39px 0;
 	text-align: center;
+	width: 45%;
+	min-width: 475px;
 }
 #originator-social-details {
 	margin: 0 auto;
