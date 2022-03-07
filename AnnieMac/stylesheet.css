@@ -429,7 +429,8 @@ select {
 	margin: 0 auto 40px;
 }
 
-.branch-manager-section, .manager-information {
+#annie_mac-branch .branch-manager-section.flex {
+	justify-content: center;
 }
 
 .branch-manager-section .manager-information {
@@ -1102,6 +1103,27 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 #product-containment {
 	display: flex;
 	flex-direction: column;
+}
+#product-containment h3:first-of-type {
+	font-size: 34px;
+	margin: 25px 0 15px;
+	display: block;
+	text-align: left;
+	font-family: 'inter',sans-serif;
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: .55px;
+}
+
+#product-container-section .product-selectable h3 {
+	margin-left: 0;
+	font-size: 22px;
+	display: block;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: .55px;
+	margin-top: -30px;
+	margin-bottom: 0px;
 }
 footer #list_11344 > a, footer  #list_11343 > a, footer  #list_11350 > a {
 	letter-spacing: .65px;
