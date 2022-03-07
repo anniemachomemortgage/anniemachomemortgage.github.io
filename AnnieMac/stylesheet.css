@@ -46,12 +46,19 @@ textarea {
   letter-spacing: .8px;
   margin-top: 1px !important;
 }
-#footer-branchlo-name {
+p#footer-branchlo-name {
   width: 100%;
   text-align: center;
   font-size: 25px !important;
   font-weight: 500;
   letter-spacing: .10em;
+  order: -1;
+}
+p#footer-nmls {
+	width: 100%;
+	text-align: center;
+	order: -1;
+	margin: 0px 0 23px;
 }
 p#footer-branchlo-address {
 	width: 100%;
@@ -243,6 +250,7 @@ footer #copyrights p {
 	line-height: 3px;
 	font-size: 15px;
 	text-transform: initial;
+	margin-bottom: 22px;
 }
 footer #social-media {
 	display: none;
