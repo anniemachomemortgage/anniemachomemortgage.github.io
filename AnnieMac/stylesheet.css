@@ -1020,10 +1020,10 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	margin: 1px 0;
 	background: white;
 	color: #016fa7;
-	min-width: 232px;
+	min-width: 100%;
 }
 .action-buttons-calcs button {
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 .site-type-loan_officer .branch-manager-section {
 	width: initial;
