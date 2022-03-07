@@ -49,8 +49,9 @@ textarea {
 #footer-branchlo-name {
   width: 100%;
   text-align: center;
-  font-size: 23px;
-  font-weight: 800;
+  font-size: 25px !important;
+  font-weight: 500;
+  letter-spacing: .10em;
 }
 p#footer-branchlo-address {
 	width: 100%;
@@ -236,6 +237,11 @@ footer #copyrights ul {
   font-weight: 200;
 	font-size: 14px;
 	width: 400px;
+}
+footer #copyrights p {
+	line-height: 3px;
+	font-size: 15px;
+	text-transform: initial;
 }
 footer #social-media {
 	display: none;
