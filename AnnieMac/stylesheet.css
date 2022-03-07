@@ -875,7 +875,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 #originator-social-details {
 	margin: 0 auto;
 	max-width: 1250px;
-	width: 100%;
+	width: 95%;
 }
 #originator-social-details ul {
 }
@@ -890,7 +890,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	padding: 16px 17px;
 	font-weight: 800;
 	text-transform: uppercase;
-	margin: 10px 0;
+	margin: 10px 3px;
 }
 #originator-social-details a:first-of-type {
 	border-top: none;
@@ -1462,7 +1462,18 @@ div#flash-message {
 	}
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 705px) {
+	#originator-core-details {
+		flex-direction: column;
+	}
+	#originator-core-details-text {
+		margin-left: 0;
+		margin-top: 60px;
+	}
+	#originator-social-details ul {
+		justify-content: center;
+	}
+	
 	.footer-directory-listing {
 		flex-direction: column;
 		width: initial;
