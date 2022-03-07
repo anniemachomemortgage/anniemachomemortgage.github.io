@@ -541,7 +541,7 @@ footer {
 	text-shadow: 2px 3px 4px rgba(0, 0, 0, .85);
 }
 
-#originator-social-details ul, #links-sidebar-full-width ul {display: flex;flex-direction: row;flex-wrap: wrap;justify-content: flex-start;margin: -23px 0px 50px;text-align: center;}
+#originator-social-details ul, #links-sidebar-full-width ul {display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;margin: -23px 0px 50px;text-align: center;}
 
 #originator-core-details {
 }
