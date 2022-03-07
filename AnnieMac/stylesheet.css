@@ -1618,6 +1618,7 @@ div#flash-message {
 		height: 240px;
 	}
 }
+
 @media screen and (max-width: 705px) {
 	#originator-core-details {
 		flex-direction: column;
