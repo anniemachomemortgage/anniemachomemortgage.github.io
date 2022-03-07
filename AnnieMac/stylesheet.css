@@ -513,7 +513,7 @@ select {
 	font-size: 35px;
 }
 #originator-core-details-text h4 span {
-	margin-top: 11px;
+	margin-top: 0;
 	font-weight: bold;
 }
 #sitemap li#list_11563 {
@@ -820,14 +820,14 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	margin-top: 0;
 }
 #loan-originator-blurb-container h4 {
-	margin: 20px 0;
-	line-height: 14px;
-	color: #fff;
-	font-size: 16px;
-	letter-spacing: .045em;
-	text-align: left;
-	font-weight: 800;
+	margin: 4px 0;
+	line-height: 24px;
+	font-size: 20px;
+	display: block;
 	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: .55px;
+	text-align: left;
 }
 #originator-core-details-text h4 span {
 	display: block;
