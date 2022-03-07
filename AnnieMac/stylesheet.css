@@ -852,6 +852,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	margin: 24px auto 50px;
 	max-width: 1250px;
 	width: 82%;
+	flex-wrap: wrap;
 }
 #originator-social-details {
 	margin: 0 auto;
