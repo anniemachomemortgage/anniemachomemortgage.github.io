@@ -484,10 +484,6 @@ select {
 	padding-left: 0;
 	padding-top: 0;
 }
-.site-type-loan_officer #we-provide-more-master h3 {
-	font-size: 35px;
-	text-align: left;
-}
 .manager-biography p:first-of-type {
 	margin-top: 0px;
 }
@@ -1168,8 +1164,20 @@ footer #list_11344 > a, footer  #list_11343 > a, footer  #list_11350 > a {
 	letter-spacing: .55px;
 	margin-top: -30px;
 	margin-bottom: 0px;
+	text-align: left;
 }
-
+.site-type-loan_officer #we-provide-more-master h3:last-of-type {
+	font-size: 35px;
+	text-align: left;
+	font-size: 34px;
+	margin: 0;
+	display: block;
+	text-align: left;
+	font-family: 'inter',sans-serif;
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: .55px;
+}
 #annie-mac-2021-redesign-container, .annie-mac-2021-redesign-section {
   width: initial !important;
 }
