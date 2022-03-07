@@ -1928,12 +1928,12 @@ ul li ol:focus {
 }
 
 #text-based {
-	margin: 30px auto 60px;
-/* 	min-width: 500px; */
+	margin: 10px auto 60px;
 	z-index: 1;
-	width: 90%;
-	max-width: 1200px;
 	min-height: 300px;
+	max-width: 1250px;
+	margin: 30px auto 60px;
+	width: 90%;
 }
 
 #text-based h3 {
@@ -4505,8 +4505,18 @@ html {
 
 .page-page-detail .text-content p {
 	margin: 0;
-	padding-bottom: 5px;
+	padding-bottom: 23px;
 	font-weight: 200;
+}
+
+.page-page-detail .text-content ul {
+	font-weight: 200;
+	padding-left: 8px;
+}
+
+.page-page-detail .text-content ul li {
+	padding: 0;
+	margin: 8px 0;
 }
 
 #home-banner {
