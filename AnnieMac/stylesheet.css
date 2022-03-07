@@ -789,7 +789,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	border: none;
 	box-shadow: none;
 }
-#originator-core-details-text {margin-left: 60px;}
+#originator-core-details-text {/* margin-left: 60px; */}
 #loan-originator-blurb-container h2 {
 	font-size: 34px;
 	margin: 25px auto 5px;
@@ -846,8 +846,8 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 }
 #originator-core-details {
 	display: flex;
-	flex-direction: row;
-	/* justify-content: space-between; */
+	flex-direction: row-reverse;
+	justify-content: space-between;
 	align-items: center;
 	padding-right: 0;
 	border-right: none;
