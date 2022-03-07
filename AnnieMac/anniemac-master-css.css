@@ -110,9 +110,9 @@ form button:hover,
 }
 
 #product-banner {
-	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/dev/themes/annie_mac/img/purchase.jpeg) top left no-repeat;
+	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/reduxed_process.jpg) center center no-repeat;
 	background-size: cover;
-	background-position-y: 49%;
+	background-position-y: 34%;
 	display: flex;
 	color: white;
 	margin-bottom: 20px;
@@ -960,7 +960,7 @@ button a {
 
 /*Other Banners*/
 #page-banner, #video-banner, #product-banner, #core-banner {
-	height: 345px;
+	height: 370px;
 }
 #brand-banner {
 	height: 345px;
