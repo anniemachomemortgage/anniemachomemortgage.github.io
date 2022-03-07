@@ -892,6 +892,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	padding: 16px 17px;
 	font-weight: 800;
 	text-transform: uppercase;
+	margin: 10px 0;
 }
 #originator-social-details a:first-of-type {
 	border-top: none;
@@ -1433,22 +1434,9 @@ div#flash-message {
 		width: 100%;
 	}
 /* 	loan officers */
-	.site-type-loan_officer #list_12148 a:first-of-type {
-		display: none;
-	}
-	#mobile-apply {
-		margin-top: 30px;
-	}
-	#loan-originator-blurb-container h2, #loan-originator-blurb-container h4, #originator-core-details-text h4 span, #originator-address-details p {
-		text-align: center;
-	}
-	#originator-main-details {
-		flex-direction: column;
-	}
-	#originator {
-		padding: 60px 20px !important;
-		width: initial !important;
-	}
+	
+	
+	
 /* 	Reviews */
 	#social-review-grid {
 		flex-direction: column;
@@ -1459,22 +1447,15 @@ div#flash-message {
 }
 
 @media screen and (max-width: 620px) {
-	#originator > * {
-	max-width: initial;
-}
-.footer-directory-listing {
-	flex-direction: column;
-	width: initial;
-}
-#copyrights .flex:first-of-type {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-#originator-core-details-text {
-	min-width: initial;
-}
-
+	.footer-directory-listing {
+		flex-direction: column;
+		width: initial;
+	}
+	#copyrights .flex:first-of-type {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 }
 
 .edit-group {
