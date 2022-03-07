@@ -1719,6 +1719,10 @@ div#flash-message {
 	padding-left: 20px;
 }
 
+.listing-element button {
+	margin: 5px 0 30px;
+}
+
 .listing-container {
 	padding: 5px 0 0;
 }
