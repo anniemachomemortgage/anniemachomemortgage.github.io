@@ -4353,7 +4353,12 @@ html {
 .page-loan-apply form {
 	width: 80vw;
 }
-#branch-banner {background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://www.annie-mac.com/uploads/sites/10713/public/fall-image-reduced.jpg) top left no-repeat !important;background-size: cover !important;background-position-y: 14% !important;min-height: 439px;}
+#branch-banner {
+	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/pexel-family_1.jpeg) center no-repeat !important;
+	background-size: cover !important;
+	background-position-y: 55% !important;
+	min-height: 439px;
+}
 #branch-managers {
 	width: auto;
 }
