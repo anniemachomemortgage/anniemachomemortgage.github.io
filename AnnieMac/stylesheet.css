@@ -846,12 +846,15 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 #originator-core-details {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 	align-items: center;
 	padding-right: 0;
 	border-right: none;
 	margin: 45px 0 80px;
 	text-align: center;
+	margin: 24px auto 50px;
+	max-width: 1250px;
+	width: 82%;
 }
 #originator-social-details {
 	margin: 0 auto;
