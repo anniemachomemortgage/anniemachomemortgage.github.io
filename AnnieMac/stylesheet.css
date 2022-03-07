@@ -1020,29 +1020,6 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	color: inherit !important;
 	line-height: inherit !improtant;
 }
-#accolates-originator #we-provide-more-master {
-	margin: 0;
-}
-#accolates-originator #what-we-provide {
-	flex-direction: column;
-}
-#accolades-originator .we-provide-more-master {
-	width: 100%;
-}
-#accolades-originator .we-provide-this {
-	width: 100%;
-}
-#accolades-originator .we-provide-this h4 {
-	color: white;
-	margin-top: 12px;
-}
-#accolades-originator .calculations-primary img {
-	display: none;
-}
-#annie_mac-loan-officer .manager-biography p, #tmc-loan-officer .manager-biography p, #lofidirect-loan-officer .manager-biography p {
-	text-align: justify;
-	margin: 8px 0;
-}
 #accolades-originator #calculations-and-numbers {
 	display: none;
 }
