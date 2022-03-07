@@ -1005,10 +1005,11 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 }
 .calculations-primary:first-of-type {
 	margin-bottom: 60px;
+	margin-top: 100px;
 }
 .calculations-primary {
 	background: linear-gradient(20deg, rgb(15, 71, 119) 0%, rgb(32, 104, 164) 64%);
-	padding: 15px 20px 20px;
+	padding: 10px 20px;
 	color: #fff;
 }
 .action-buttons-calcs {
@@ -1018,7 +1019,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 .action-buttons-calcs button {
 	margin: 1px 0;
 	background: white;
-	color: #17558a;
+	color: #016fa7;
 	min-width: 232px;
 }
 .action-buttons-calcs button {
