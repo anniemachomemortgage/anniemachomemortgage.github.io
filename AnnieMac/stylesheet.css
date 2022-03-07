@@ -805,7 +805,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	max-width: 1000px;
 }
 #originator .negative-60 {
-	width: 95%;
+	width: initial;
 	margin: 0 auto;
 }
 #originator .padding-60 {
@@ -915,13 +915,13 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	padding: 0;
 }
 .manager-biography h2:first-of-type {
-	font-size: 32px;
+	font-size: 34px;
 	margin: 25px auto 15px;
 	display: block;
 	text-align: left;
 	font-family: 'inter',sans-serif;
 	text-transform: uppercase;
-	font-weight: 800;
+	font-weight: 200;
 	letter-spacing: .55px;
 }
 #inserted-banner {
