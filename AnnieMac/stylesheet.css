@@ -1016,9 +1016,10 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	flex-direction: column;
 }
 .action-buttons-calcs button {
-	margin-bottom: 15px;
+	margin: 1px 0;
 	background: white;
 	color: #016fa7;
+	min-width: 232px;
 }
 .action-buttons-calcs button {
 	margin-bottom: 15px;
