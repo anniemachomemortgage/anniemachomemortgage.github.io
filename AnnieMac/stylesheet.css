@@ -1639,6 +1639,21 @@ div#flash-message {
 		flex-direction: column;
 		align-items: center;
 	}
+	#applyheaderlo {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		margin: 20px 0;
+	}
+	button#loapplylink {
+		background: #7fc24a;
+		margin-right: 0;
+	}
+	#loapplylink, #testimonials {
+		transform: scale(1.2);
+		min-width: 200px;
+		margin: 10px 0;
+	}
 }
 
 @media screen and (max-width: 600px) {

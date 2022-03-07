@@ -5073,6 +5073,7 @@ body > .main-content{
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 	align-items: center;
 	margin-top: 35px;
 }
