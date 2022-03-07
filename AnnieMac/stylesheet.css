@@ -807,8 +807,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	border: none;
 	box-shadow: none;
 }
-#originator-core-details-text {
-}
+#originator-core-details-text {margin-left: 60px;}
 #loan-originator-blurb-container h2 {
 	font-size: 34px;
 	margin: 25px auto 5px;
@@ -872,8 +871,6 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	border-right: none;
 	margin: 45px 0 80px;
 	text-align: center;
-	width: 44%;
-	min-width: 475px;
 }
 #originator-social-details {
 	margin: 0 auto;
