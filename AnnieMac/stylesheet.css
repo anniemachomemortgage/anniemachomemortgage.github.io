@@ -1685,6 +1685,19 @@ div#flash-message {
 	margin-top: -10px;
 }
 
+.listing-element li {
+	font-size: 17px;
+	line-height: 33px;
+	font-weight: 300;
+	padding-left: 10px;
+}
+
+.listing-element ul {
+	margin: 0 0 20px;
+	list-style-type: disc;
+	padding-left: 20px;
+}
+
 .listing-container {
 	padding: 5px 0 0;
 }
@@ -1692,7 +1705,7 @@ div#flash-message {
 .disclosure {
 	background: #7fc24a;
 	padding: 7px 30px 20px;
-	margin: 50px 0 15px;
+	margin: 35px 0 0px;
 	color: #fff;
 	box-shadow: 3px 10px 17px rgb(0 0 0 / 5%);
 }
