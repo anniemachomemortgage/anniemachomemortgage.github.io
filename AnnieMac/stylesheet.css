@@ -376,10 +376,12 @@ ul.menu.nav {
    width: 100%;
    max-width: 1200px;
    padding-top: 30px;
+   justify-content: flex-start;
 }
 .team-member {
 	width: auto;
 	margin: 25px 1px;
+	width: 33%;
 }
 .team-member-portrait {
 	border-radius: 0;
