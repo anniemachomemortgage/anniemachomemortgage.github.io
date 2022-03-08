@@ -1595,6 +1595,12 @@ article hr {
 		background-size: cover;
 		background-position-y: 43%;	
 	}
+	/* 	Jumbo */
+	.node-168982 #product-banner {
+		background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/jumbo-2.jpg) center center no-repeat;
+		background-size: cover;
+		background-position-y: 28%;	
+	}
 	/* VA */
 	.node-47117 #product-banner {
 		background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/va-loans.jpeg) center center no-repeat;
