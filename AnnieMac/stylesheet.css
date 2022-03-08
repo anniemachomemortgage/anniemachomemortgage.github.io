@@ -352,7 +352,7 @@ h1.header-additional {
 	margin: -40px 0 0;
 }
 .branch-manager-section .manager-information {
-	margin: 0 !important;
+	/* margin: 0 !important; */
 }
 ul.menu.nav {
 	display: flex;
@@ -370,6 +370,8 @@ ul.menu.nav {
 #branch-managers {
 	width: 100% !important;
 	margin: initial !important;
+	display: flex;
+	justify-content: center;
 }
 .team-member-section {
    margin: 0 auto 40px;
@@ -428,12 +430,12 @@ ul.menu.nav {
 }
 
 #annie_mac-branch .branch-manager-section.flex {
-	justify-content: center;
+	justify-content: flex-start;
 }
 
 .branch-manager-section .manager-information {
-	margin: 20px 0 !important;
-	width: 33%;
+	width: 298px;
+	margin: 40px 1px;
 }
 #team-site .branch-manager-section .manager-information {
   margin: 20px 0 !important;
