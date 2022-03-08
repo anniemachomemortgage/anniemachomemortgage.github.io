@@ -1820,6 +1820,10 @@ article hr {
 	#page-banner, #video-banner, #product-banner, #core-banner {
 		height: 240px;
 	}
+	#site-navigation ul .navigation-sectional li img {
+		width: auto;
+		height: 32px;
+	}
 }
 
 @media screen and (max-width: 705px) {
