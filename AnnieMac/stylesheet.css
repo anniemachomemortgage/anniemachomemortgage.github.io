@@ -1381,6 +1381,7 @@ div#flash-message {
 	order: 2;
 	width: 100%;
 	display: flex;
+	margin-top: 50px;
 }
 .page-blog-detail .flex.column.padding-20.items {
 	padding: 0;
