@@ -1777,7 +1777,20 @@ select {
 	color: #016fa8;
 	font-weight: 800;
 }
-
+#text-based p a {
+	color: #016fa8;
+	font-weight: 600;
+	line-height: 16px;
+	padding: 5px 8px;
+	border: 1px solid rgba(0,0,0,.06);
+	-webkit-box-decoration-break: clone;
+	border-radius: 3px;
+	background-color: white;
+	cursor: pointer;
+	margin: 0 6px;
+	text-transform: uppercase;
+	box-shadow: 1px 1px 1px rgb(0 0 0 / 2%);
+}
 #conventional-content {
 	display: flex;
 	flex-direction: row;
