@@ -451,31 +451,35 @@ $(function() {
 	if (window.location.href.indexOf("/forms/lead/b2b-broker") != -1) {
 		$('#product-banner').hide();
 	};
-	// For blogs
-	if ((window.location.href.indexOf("annie-mac.com/blog") != -1)) {
-		$('head').append('<link rel="stylesheet" id="new-stylesheet" href="https://anniemachomemortgage.github.io/Development/anniemac2021corporate.css" type="text/css" />');
-		if ($('body').hasClass('site-type-loan_officer')) {
-			$("#am-css").remove();
-			$("#am-styles").remove();
-			$("#am-responsive").remove();
-			$("#am-custom").remove();
-			$("#stylesheet-git").remove();
-		};  
-		if ($('body').hasClass('site-type-branch')){
-			$("#am-css").remove();
-			$("#am-styles").remove();
-			$("#am-responsive").remove();
-			$("#am-custom").remove();
-			$("#stylesheet-git").remove();
-		};
-		if ($('body').hasClass('site-type-corporate')) {
-			$("#am-css").remove();
-			$("#am-styles").remove();
-			$("#am-responsive").remove();
-			$("#am-custom").remove();
-			$("#stylesheet-git").remove();
-		};
-	};	
+	
+	
+	// Blog AnnieMac Redesign BETA - REMOVE EVENTUALLY
+	// if ((window.location.href.indexOf("annie-mac.com/blog") != -1)) {
+	// 	$('head').append('<link rel="stylesheet" id="new-stylesheet" href="https://anniemachomemortgage.github.io/Development/anniemac2021corporate.css" type="text/css" />');
+	// 	if ($('body').hasClass('site-type-loan_officer')) {
+	// 		$("#am-css").remove();
+	// 		$("#am-styles").remove();
+	// 		$("#am-responsive").remove();
+	// 		$("#am-custom").remove();
+	// 		$("#stylesheet-git").remove();
+	// 	};  
+	// 	if ($('body').hasClass('site-type-branch')){
+	// 		$("#am-css").remove();
+	// 		$("#am-styles").remove();
+	// 		$("#am-responsive").remove();
+	// 		$("#am-custom").remove();
+	// 		$("#stylesheet-git").remove();
+	// 	};
+	// 	if ($('body').hasClass('site-type-corporate')) {
+	// 		$("#am-css").remove();
+	// 		$("#am-styles").remove();
+	// 		$("#am-responsive").remove();
+	// 		$("#am-custom").remove();
+	// 		$("#stylesheet-git").remove();
+	// 	};
+	// };	
+	
+	
 	if($('body').hasClass('page-blog-list') || $('body').hasClass('page-blog-detail')) {
 		$('img').each(function() {
 			if(! $(this).attr('alt')) {
@@ -483,6 +487,9 @@ $(function() {
 				}
 		});
 	};
+	
+	
+	
 	if (window.location.href.indexOf("/page/broker") > -1) {
 		$("#site-navigation").remove();
 	};
