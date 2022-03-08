@@ -1692,6 +1692,19 @@ ul li ol:focus {
 	width: 90%;
 }
 
+.user-login #text-based {
+	flex: 1;
+	overflow: hidden;
+	min-height: 88vh;
+	background: white;
+}
+
+#account-related {
+	flex-direction: column;
+	display: flex;
+	margin-bottom: 30px;
+}
+
 #text-based h3 {
 	font-size: 34px;
 	margin: 25px auto 15px;
@@ -1743,7 +1756,7 @@ form label {
 	text-transform: uppercase;
 	font-size: 13px;
 }
-input[type="text"], input[type="name"], input[type="tel"], input[type="email"], select, option, textarea {
+input[type="text"], input[type="password"], input[type="name"], input[type="tel"], input[type="email"], select, option, textarea {
 	text-align: left;
 	font-size: 16px;
 	padding: 16px 15px;
