@@ -1692,11 +1692,8 @@ ul li ol:focus {
 	width: 90%;
 }
 
-.user-login #text-based {
-	flex: 1;
-	overflow: hidden;
-	min-height: 88vh;
-	background: white;
+.user-login #text-based p {
+	display: none;
 }
 
 #account-related {
