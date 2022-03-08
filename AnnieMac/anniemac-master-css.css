@@ -1745,7 +1745,7 @@ form {
 	display: flex;
 	flex-direction: column;
 }
-form label {
+form label, label {
 	letter-spacing: .65px;
 	color: #000;
 	position: relative;
@@ -1753,7 +1753,7 @@ form label {
 	text-transform: uppercase;
 	font-size: 13px;
 }
-input[type="text"], input[type="number"], input[type="password"], input[type="name"], input[type="tel"], input[type="email"], select, option, textarea {
+input[type="text"], input[type="number"], input[type="password"], input[type="name"], input[type="tel"], input[type="email"], select, option, textarea, input {
 	text-align: left;
 	font-size: 16px;
 	padding: 16px 15px;
