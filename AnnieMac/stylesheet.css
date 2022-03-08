@@ -1610,6 +1610,100 @@ article hr {
 		display: none;
 	}
 
+.listing-element {
+	padding: 0 0 5px;
+}
+.listing-element p {
+	margin-top: -10px;
+}
+
+.listing-element li {
+	font-size: 17px;
+	line-height: 33px;
+	font-weight: 300;
+	padding-left: 10px;
+}
+
+.listing-element ul {
+	margin: 0 0 20px;
+	list-style-type: disc;
+	padding-left: 20px;
+}
+
+.listing-element button {
+	margin: 5px 0 30px;
+}
+
+.listing-container {
+	padding: 5px 0 0;
+}
+
+.disclosure {
+	background: #73b73e;
+	padding: 7px 30px 20px;
+	margin: 35px 0 0px;
+	color: #fff;
+	box-shadow: 3px 10px 17px rgb(0 0 0 / 5%);
+}
+
+.form-disclosure {
+	background: transparent;
+	box-shadow: none;
+	padding: 0;
+	margin: 0 0 20px !important;
+}
+
+.form-disclosure p {
+	letter-spacing: .65px;
+	color: #000;
+	position: relative;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 13px;
+	line-height: 27px !important;
+}
+
+.disclosure.top-disclosure {
+	margin-top: 0;
+	margin-bottom: 45px;
+}
+
+.disclosure.middle-disclosure {
+	margin: 20px 0 40px;
+}
+
+.important-disclosure {
+	background: #b53434;
+}
+
+#text-based .disclosure h3 {
+	font-size: 19px;
+	font-weight: 800;
+	color: #fff;
+	margin-bottom: -10px;
+}
+
+#text-based .disclosure p {
+	font-size: 15px;
+	line-height: 26px;
+	font-weight: 400;
+}
+
+/* div#calculatorsList {
+	width: initial;
+	max-width: initial;
+	margin: 40px 0;
+}
+
+div#calculatorsList .responsive_columns div div div {
+	display: flex;
+	flex-direction: column;
+	justify-content: stretch;
+}
+
+div#calculatorsList .responsive_columns div div div div {
+	min-height: 233px;
+} */
 
 @media screen and (max-width: 1050px) {
 	#site-navigation ul#navigation_new_upper li#list_12564 {
@@ -1807,11 +1901,11 @@ article hr {
 	#text-based .capture-input-field {
 		width: 100% !important;
 	}
-	#text-based .disclosure p {
-		font-size: 13px;
-		font-weight: 400;
-		text-align: center;
-		margin: 10px auto 20px;
+	#text-based .form-disclosure p {
+		font-size: 13px !important;
+		font-weight: 400 !important;
+		text-align: center !important;
+		margin: 10px auto 20px !important;
 	}
 }
 @media screen and (max-width: 781px) {
@@ -1943,101 +2037,6 @@ article hr {
 	font-weight: 200 !important;
 	color: #000 !important;
 }
-
-.listing-element {
-	padding: 0 0 5px;
-}
-.listing-element p {
-	margin-top: -10px;
-}
-
-.listing-element li {
-	font-size: 17px;
-	line-height: 33px;
-	font-weight: 300;
-	padding-left: 10px;
-}
-
-.listing-element ul {
-	margin: 0 0 20px;
-	list-style-type: disc;
-	padding-left: 20px;
-}
-
-.listing-element button {
-	margin: 5px 0 30px;
-}
-
-.listing-container {
-	padding: 5px 0 0;
-}
-
-.disclosure {
-	background: #73b73e;
-	padding: 7px 30px 20px;
-	margin: 35px 0 0px;
-	color: #fff;
-	box-shadow: 3px 10px 17px rgb(0 0 0 / 5%);
-}
-
-.form-disclosure {
-	background: transparent;
-	box-shadow: none;
-	padding: 0;
-	margin: 0 0 20px !important;
-}
-
-.form-disclosure p {
-	letter-spacing: .65px;
-	color: #000;
-	position: relative;
-	font-weight: 600;
-	text-transform: uppercase;
-	font-size: 13px;
-	line-height: 27px !important;
-}
-
-.disclosure.top-disclosure {
-	margin-top: 0;
-	margin-bottom: 45px;
-}
-
-.disclosure.middle-disclosure {
-	margin: 20px 0 40px;
-}
-
-.important-disclosure {
-	background: #b53434;
-}
-
-#text-based .disclosure h3 {
-	font-size: 19px;
-	font-weight: 800;
-	color: #fff;
-	margin-bottom: -10px;
-}
-
-#text-based .disclosure p {
-	font-size: 15px;
-	line-height: 26px;
-	font-weight: 400;
-}
-
-/* div#calculatorsList {
-	width: initial;
-	max-width: initial;
-	margin: 40px 0;
-}
-
-div#calculatorsList .responsive_columns div div div {
-	display: flex;
-	flex-direction: column;
-	justify-content: stretch;
-}
-
-div#calculatorsList .responsive_columns div div div div {
-	min-height: 233px;
-} */
 
 b, strong {
 	font-weight: 800;
