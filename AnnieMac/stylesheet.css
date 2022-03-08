@@ -1802,11 +1802,11 @@ article hr {
 		margin-right: 10px;
 		min-width: 200px;
 	}
-	.capture-field-group {
-		flex-direction: column;
+	#text-based .capture-field-group {
+		flex-direction: column !important;
 	}
-	.capture-input-field {
-		width: 100%;
+	#text-based .capture-input-field {
+		width: 100% !important;
 	}
 }
 @media screen and (max-width: 781px) {
