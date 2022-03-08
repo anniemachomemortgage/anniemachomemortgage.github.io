@@ -1712,14 +1712,42 @@ ul li ol:focus {
 	margin-bottom: 10px;
 	
 }
-
+.capture-field-group {
+	display: flex;
+	justify-content: space-between;
+}
+.capture-input-field {
+	display: flex;
+	flex-direction: column;
+	width: 46%;
+}
+form {
+	display: flex;
+	flex-direction: column;
+}
 form label {
-	font-size: 16px;
-	display: block;
-	text-transform: uppercase;
-	font-weight: 800;
-	letter-spacing: .85px;
+	letter-spacing: .65px;
 	color: #000;
+	position: relative;
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+input[type="text"], input[type="name"], input[type="tel"], input[type="email"], select, option, textarea {
+	text-align: left;
+	font-size: 16px;
+	padding: 16px 15px;
+	-webkit-appearance: none;
+	border: 1px solid rgba(0, 0, 0, .15);
+	box-shadow: 1px 1px 1px rgb(0 0 0 / 3%);
+	outline: none;
+	margin: 3px 0 29px;
+}
+textarea {
+	height: 200px;
+}
+select {
+	background: #fff;
 }
 
 #text-based a {
