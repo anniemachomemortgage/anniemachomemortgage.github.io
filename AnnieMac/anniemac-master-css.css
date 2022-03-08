@@ -4600,6 +4600,46 @@ section#home-provide .content-block-list {
 	margin: 5px;
 	background-size: cover;
 }
+#home-blog .block ul li:nth-of-type(1) {
+	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://www.annie-mac.com/uploads/sites/10713/public/basement-floods.jpg);
+	background-size: cover;
+}
+#home-blog .block ul li:nth-of-type(1):hover {
+	background: linear-gradient(177deg, #4a811fc4 20%, #417517bf 80%), url(https://www.annie-mac.com/uploads/sites/10713/public/basement-floods.jpg);
+	background-size: cover;
+}
+#home-blog .block ul li:nth-of-type(2) {
+	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://www.annie-mac.com/uploads/sites/10713/public/home-safety-hazards.jpg);
+	background-size: cover;
+}
+#home-blog .block ul li:nth-of-type(2):hover {
+	background: linear-gradient(177deg, #1e5b81c4 20%, #1e5b81c4 80%), url(https://www.annie-mac.com/uploads/sites/10713/public/home-safety-hazards.jpg);
+	background-size: cover;
+}
+#home-blog .block ul li:nth-of-type(3) {
+	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://www.annie-mac.com/uploads/sites/10713/public/homebuying-tips-veterans.jpg);
+	background-size: cover;
+}
+#home-blog .block ul li:nth-of-type(3):hover {
+	background: linear-gradient(177deg, #1e5b81c4 20%, #1e5b81c4 80%), url(https://www.annie-mac.com/uploads/sites/10713/public/homebuying-tips-veterans.jpg);
+	background-size: cover;
+}
+#home-blog .block ul li:nth-of-type(4) {
+	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://www.annie-mac.com/uploads/sites/10713/public/bathroom.jpg);
+	background-size: cover;
+}
+#home-blog .block ul li:nth-of-type(4):hover {
+	background: linear-gradient(177deg, #1e5b81c4 20%, #1e5b81c4 80%), url(https://www.annie-mac.com/uploads/sites/10713/public/bathroom.jpg);
+	background-size: cover;
+}
+#home-blog .block ul li:nth-of-type(5) {
+	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg);
+	background-size: cover;
+}
+#home-blog .block ul li:nth-of-type(5):hover {
+	background: linear-gradient(177deg, #1e5b81c4 20%, #1e5b81c4 80%), url(https://www.annie-mac.com/uploads/sites/10713/public/neighborhood.jpg);
+	background-size: cover;
+}
 #home-blog .block ul li:hover {
 	background: #7FC24A;
 }
