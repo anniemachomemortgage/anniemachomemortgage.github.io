@@ -1854,6 +1854,45 @@ article hr {
 	body {
 		width: fit-content;
 	}
+	#home-banner {
+		padding-top: 20px;
+	}
+	.container-section h3 {
+		font-size: 40px;
+	}
+	.container-section h3 span {
+		margin-top: -10px;
+	}
+	#home-reviews h3 {
+		font-size: 30px;
+		margin-bottom: -15px;
+	}
+	#more-reviews {
+		margin: 30px auto;
+	}
+	#deserve-more-container-master {
+		padding: 45px 25px;
+	}
+	#deserve-more-container-master h3 {
+		margin-bottom: 35px;
+	}
+	#we-provide-more-master {
+		margin-top: 0;
+	}
+	.we-provide-this {
+		padding: 45px 25px 15px;
+	}
+	.we-provide-this h4 {
+		margin-top: 0;
+	}
+	.provided-links {
+		display: flex;
+		flex-direction: column;
+		margin-top: 0;
+	}
+	.provided-links a {
+		width: auto;
+	}
 	.site-type-loan_officer .navigation-sectional:nth-of-type(2) {
 		order: 0;
 	}
