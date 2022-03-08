@@ -1935,6 +1935,14 @@ article hr {
 	box-shadow: 3px 10px 17px rgb(0 0 0 / 5%);
 }
 
+.form-disclosure {
+	
+}
+
+.form-disclosure label {
+	
+}
+
 .disclosure.top-disclosure {
 	margin-top: 0;
 	margin-bottom: 45px;
