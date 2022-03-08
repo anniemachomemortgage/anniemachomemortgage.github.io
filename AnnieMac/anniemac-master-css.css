@@ -1710,7 +1710,17 @@ ul li ol:focus {
 	font-weight: 800;
 	letter-spacing: .85px;
 	margin-bottom: 10px;
-	
+}
+
+#text-based h6 {
+	font-size: 18px;
+	display: block;
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: .85px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid rgba(121, 128, 136, 0.17);
+	padding-bottom: 7px;
 }
 .capture-field-group {
 	display: flex;
