@@ -202,23 +202,19 @@ body.front.site-type-branch .main-content, body.front.site-type-branch #site-nav
 }
 form button, .message-contents button, .go {
   display: block;
-  max-width: 473px;
   margin: 0 auto;
   padding: 17px 41px;
 }
 #submit-overlay {
   position: relative;
 }
-
 #submit-overlayment h4 {
   display: none;
 }
-
 #submit-overlayment:hover {
   background: rgb(255 255 255 / 54%);
   cursor: not-allowed;
 }
-
 #submit-overlayment:hover h4 {
   display: block;
   font-weight: 600;
@@ -389,13 +385,6 @@ ul.menu.nav {
 	border-radius: 0;
 	position: relative;
 	background-position: top !important;
-}
-select {
-	text-transform: none;
-	font-weight: normal;
-	letter-spacing: initial;
-	opacity: .8;
-	width: 99%;
 }
 #list_12148 a, #list_12170 a {
 	background: #7FC24A;
