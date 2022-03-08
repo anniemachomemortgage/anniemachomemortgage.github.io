@@ -1769,7 +1769,10 @@ textarea {
 select {
 	background: #fff;
 }
-
+:checked+label {
+	background: #ece91645;
+	padding: 0px 10px;
+}
 #text-based a {
 	color: #016fa8;
 	font-weight: 800;
