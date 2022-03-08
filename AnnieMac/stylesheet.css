@@ -1802,6 +1802,12 @@ article hr {
 		margin-right: 10px;
 		min-width: 200px;
 	}
+	.capture-field-group {
+		flex-direction: column;
+	}
+	.capture-input-field {
+		width: 100%;
+	}
 }
 @media screen and (max-width: 781px) {
 	.site-type-loan_officer .navigation-sectional:nth-of-type(1) {
