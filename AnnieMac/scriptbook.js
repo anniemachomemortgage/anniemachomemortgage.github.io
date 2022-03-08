@@ -1,4 +1,5 @@
 $(function() {
+	console.log("Scriptbook Loaded");
 	$('#navigation-menu ul li ul').addClass('sub-menu-links');
 	$("#side-bar-navigation-toggle").click(function () {
 		$('#navigation-sidebar').toggleClass('hide');
