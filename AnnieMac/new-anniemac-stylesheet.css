@@ -1,27 +1,31 @@
 /* Blog Testing */
+.page-blog-list #product-banner {
+	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/anniemac-blog-header.jpg) center center no-repeat;
+	background-size: cover;
+	background-position-y: 53%;
+}
+.page-blog-detail header#product-banner {
+	display: inherit;
+}
 .blog .inner {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-
 .blog .clearfix {
 	order: 2;
 	display: flex;
 }
-
 .page-blog-detail .blog .clearfix {
 	order: 2;
 	width: 100%;
 	display: flex;
 }
-
 .page-blog-detail .content-list .media-body {
   max-width: 840px;
   margin: -80px 0;
   width: 90%;
 }
-
 .page-blog-detail .share-bar {
 	border-bottom: 1px solid #f5f7fa;
 	width: 100%;
@@ -29,7 +33,6 @@
 	justify-content: flex-end;
 	padding: 20px 0 20px;
 }
-
 .share-bar {
 	border-bottom: 1px solid #f5f7fa;
 	width: 100%;
@@ -37,7 +40,6 @@
 	padding: 20px 0 20px;
 	justify-content: flex-end;
 }
-
 .share-bar ul {
 	list-style: none;
 	margin: 40px 0 0;
@@ -45,50 +47,39 @@
 	width: 220px !important;
 	justify-content: space-between;
 }
-
 .google-plus,
 .pinterest {
 	display: none;
 }
-
 .blog .content-detail .pull-left img {
 	display: none;
 	height: auto;
 }
-
 .blog .content-detail .media {
 	width: 100%;
 }
-
 article hr {
 	display: none;
 }
-
 .media {
 	width: 350px;
 }
-
 .media a:hover {
 	border-bottom: none;
 }
-
 .media-body summary {
 	display: none;
 }
-
 .media-body header {
 	background: transparent !important;
 }
-
 .media-body .title {
 	margin-top: 0;
 	margin-bottom: 40px;
 }
-
 .media-body .title a {
 	font-weight: 300;
 }
-
 .page-blog-list .content-list.blog .inner>* .pull-left {
 	float: none;
 	display: inline-block;
@@ -97,7 +88,6 @@ article hr {
 	margin-bottom: 10px;
 	border-radius: 2px;
 }
-
 .page-blog-list .content-list.blog .inner>* .pull-left img {
 	width: 100%;
 	margin: 0 auto;
@@ -109,14 +99,12 @@ article hr {
 	display: block;
 	object-fit: cover;
 }
-
 .pagination ul {
 	display: flex;
 	justify-content: space-between;
 	list-style: none;
 	width: 600px;
 }
-
 .content-list.blog,
 .blog-index {
 	display: flex;
@@ -126,7 +114,6 @@ article hr {
 	padding: 20px 0;
 	flex-direction: column;
 }
-
 .pager {
 	border-bottom: 1px solid #f5f7fa;
 	width: 100%;
@@ -134,24 +121,20 @@ article hr {
 	justify-content: center;
 	padding: 20px 0 20px;
 }
-
 .sidebar_items {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
-
 .sidebar_items .block:nth-of-type(1),
 .sidebar_items .block:nth-of-type(3) {
 	width: 250px;
 }
-
 .sidebar_items ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
 }
-
 .sidebar_items .block h3 {
 	color: var(--bodytext);
 	margin-top: 20px;
@@ -160,24 +143,19 @@ article hr {
 	display: block;
 	margin-bottom: 5px;
 }
-
 .sidebar_items .block:nth-of-type(3) ul {
 	display: flex;
 	flex-direction: column-reverse;
 }
-
 .sidebar_items .block ul li {
 	color: transparent;
 }
-
 .sidebar_items .block ul li a {
 	font-weight: 400;
 }
-
 .sidebar_items .block:nth-of-type(3) ul li:nth-last-child(n+10) {
 	display: none;
 }
-
 .block.recent-blogs {
 	order: -1;
 }

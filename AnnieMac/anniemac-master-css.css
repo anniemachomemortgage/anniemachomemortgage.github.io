@@ -960,25 +960,10 @@ button a {
 
 /*Other Banners*/
 #page-banner, #video-banner, #product-banner, #core-banner {
-	height: 370px;
+	height: 440px;
 }
 #brand-banner {
 	height: 345px;
-}
-
-#page-banner h2 , #video-banner h2, #product-banner h2, #brand-banner h2, #core-banner h2 {
-	font-size: 5vw;
-	line-height: 1.5;
-	text-align: center;
-}
-
-#page-banner h4 , #video-banner h4, #product-banner h4, #brand-banner h4, #core-banner h4 {
-	font-size: 1.2rem;
-	letter-spacing: 1.4px;
-	margin: 0 auto 30px;
-	text-shadow: 1px 1px 2px rgba(0,0,0,.45);
-	max-width: 80%;
-	font-weight: normal;
 }
 
 /*Beginning --> Review Section*/
