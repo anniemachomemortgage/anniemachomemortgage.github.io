@@ -1746,8 +1746,8 @@ article hr {
 	}
 	.branch-manager-section {
 		display: flex;
-		justify-content: center;
 		align-items: center;
+		flex-direction: column;
 	}
 	.manager-information {
 		
