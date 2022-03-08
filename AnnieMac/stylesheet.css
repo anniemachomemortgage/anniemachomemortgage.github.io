@@ -1617,6 +1617,24 @@ article hr {
 		background-size: cover;
 		background-position-y: 100%;
 	}
+	
+/* 	Broker */
+	.node-152734 #product-banner {
+		align-items: center;
+		display: flex;
+		padding: 0 0 30px !important;
+		min-height: 200px !important;
+		max-height: 200px;
+	}
+	
+	.node-152734 #product-banner h2 {
+		width: 353px;
+		height: 30px;
+	}
+	
+	.node-152734 #product-banner h4 {
+		display: none;
+	}
 
 
 @media screen and (max-width: 1050px) {
