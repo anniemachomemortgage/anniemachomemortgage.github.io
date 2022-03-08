@@ -328,7 +328,7 @@ $(function() {
 		$('#kristinaneagu .team-member-information h5:first-of-type').append( "<div class='teamsitelocationdeclaration'><a href=''>Sparta, NJ</a></div>" );
 		$('#amirelshafiy .team-member-information h5:first-of-type').append( "<div class='teamsitelocationdeclaration'><a href=''>Brooklyn, NY</a></div>" );
 	};
-	if (window.location.href.indexOf("netcong") != -1) {
+	if ((window.location.href.indexOf("netcong") != -1) || (window.location.href.indexOf("flanders") != -1)) {
 		var teamMemberReassignedBranchManager = ['#kevindolan'];
 		for (i = 0; i < teamMemberReassignedBranchManager.length; i++) {
 			$(teamMemberReassignedBranchManager[i]).addClass("manager-information");
