@@ -1923,7 +1923,7 @@ article hr {
 }
 
 .disclosure {
-	background: #7fc24a;
+	background: #73b73e;
 	padding: 7px 30px 20px;
 	margin: 35px 0 0px;
 	color: #fff;
@@ -1961,10 +1961,16 @@ article hr {
 }
 
 #text-based .disclosure h3 {
-	font-size: 23px;
+	font-size: 19px;
 	font-weight: 800;
 	color: #fff;
 	margin-bottom: -10px;
+}
+
+#text-based .disclosure p {
+	font-size: 15px;
+	line-height: 26px;
+	font-weight: 400;
 }
 
 b, strong {
