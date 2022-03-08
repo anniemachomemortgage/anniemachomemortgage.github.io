@@ -2118,11 +2118,8 @@ select {
 }
 
 #locations h3 {
-	font-size: 32px;
 	border-bottom: 1px solid rgba(121, 128, 136, 0.17);
 	padding-bottom: 20px;
-	margin-top: 45px;
-	font-weight: 700;
 }
 
 .location-state-list {
@@ -2141,28 +2138,29 @@ select {
 
 .location-listing h4 {
 	font-size: 22px;
-	margin: 16px 0;
+	/* margin: 16px 0; */
 }
 
 .location-listing h4 a {
-	margin-top: 25px;
+	font-size: 18px;
+	display: block;
+	text-transform: uppercase;
+	letter-spacing: .85px;
 	margin-bottom: 10px;
-	color: var(--bodytext);
-	font-size: 21px;
-	font-weight: 300;
+	color: #000 !important;
 }
 
 .location-listing a p {
-	color: var(--linkblue);
+	color: #016fa8;
 	text-decoration: none;
-	font-weight: 600;
+	font-weight: 400;
 	margin: 21px 0px;
 	line-height: 9px;
 	display: block;
 }
 
 .location-listing > p:nth-of-type(1) {
-	margin-top: 25px;
+	/* margin-top: 25px; */
 }
 
 .location-listing > p:nth-of-type(2) {
@@ -2178,7 +2176,7 @@ select {
 .location-listing p a {
 	color: var(--linkblue);
 	font-size: 16px;
-	font-weight: 500;
+	font-weight: 400 !important;
 }
 
 
