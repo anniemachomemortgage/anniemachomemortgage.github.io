@@ -1973,6 +1973,22 @@ article hr {
 	font-weight: 400;
 }
 
+/* div#calculatorsList {
+	width: initial;
+	max-width: initial;
+	margin: 40px 0;
+}
+
+div#calculatorsList .responsive_columns div div div {
+	display: flex;
+	flex-direction: column;
+	justify-content: stretch;
+}
+
+div#calculatorsList .responsive_columns div div div div {
+	min-height: 233px;
+} */
+
 b, strong {
 	font-weight: 800;
 }
