@@ -1744,7 +1744,7 @@ input[type="text"], input[type="name"], input[type="tel"], input[type="email"], 
 	margin: 3px 0 29px;
 }
 textarea {
-	height: 200px;
+	height: 100px;
 }
 select {
 	background: #fff;
