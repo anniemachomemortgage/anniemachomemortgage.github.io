@@ -1576,9 +1576,12 @@ article hr {
 		background-position-y: 25%;	
 	}
 	/* 	Login */
+	.user-login #product-banner {
+		height: 268px;
+	}
 	.user-login > #product-banner, .member-registration > #product-banner {
 		background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url(https://www.annie-mac.com/uploads/sites/10713/public/careers.jpeg) top left no-repeat;
-		background-position-y: 39%;
+		background-position-y: 9%;
 		background-size: cover;
 	}
 	/* FHA */
