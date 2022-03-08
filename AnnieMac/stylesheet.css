@@ -1575,6 +1575,12 @@ article hr {
 		background-size: cover;
 		background-position-y: 25%;	
 	}
+	/* 	Login */
+	.user-login > #product-banner, .member-registration > #product-banner {
+		background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url(https://www.annie-mac.com/uploads/sites/10713/public/careers.jpeg) top left no-repeat;
+		background-position-y: 39%;
+		background-size: cover;
+	}
 	/* FHA */
 	.node-47108 #product-banner {
 		background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/fha-loans.jpeg) center center no-repeat;

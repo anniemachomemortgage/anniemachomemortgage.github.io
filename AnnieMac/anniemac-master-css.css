@@ -4658,13 +4658,6 @@ div.blog-home-entry:nth-child(4) {
 	letter-spacing: .10em;
 	border: none;
 }
-.user-login > #product-banner, .member-registration > #product-banner {
-	background: linear-gradient(14deg, rgb(78 118 127 / 48%) 30%, rgb(28 85 107 / 28%) 80%), url(https://annie-mac.com/uploads/sites/10713/public/login.jpeg) top left no-repeat;
-	background-position-y: 0%, top;
-	background-size: auto, auto;
-	background-size: cover;
-	background-position-y: 30%;
-}
 .alert-success {
 	display: none;
 }
