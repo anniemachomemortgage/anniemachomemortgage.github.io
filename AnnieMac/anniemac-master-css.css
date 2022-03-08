@@ -4641,13 +4641,13 @@ section#home-provide .content-block-list {
 	background-size: cover;
 }
 #home-blog .block ul li:hover {
-	background: #7FC24A;
+	background: #1e5b81;
 }
 #home-blog .block ul li a {
 	width: 200px;
-	font-size: 19px;
+	font-size: 21px;
 	line-height: 33px;
-	font-weight: 800;
+	font-weight: 200;
 }
 #more-blogs a {
 	color: #fff;
