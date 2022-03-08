@@ -1597,10 +1597,17 @@ article hr {
 	
 	.node-152734 #product-banner h2 {
 		width: 353px;
-		height: 30px;
+		height: 72px;
 	}
 	
 	.node-152734 #product-banner h4 {
+		display: none;
+	}
+	.node-152734 footer {
+		background: transparent;
+		
+	}
+	.node-152734 footer #sitemap, #footer-phone-number, #footer-email, #footer-nmls {
 		display: none;
 	}
 
