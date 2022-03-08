@@ -1873,10 +1873,6 @@ select {
 	margin-bottom: -15px;
 }
 
-#state-list h4 {
-	margin: 40px 0 -13px;
-}
-
 #privacy-policy button {
 	margin-top: 40px;
 	margin-bottom: 15px;
@@ -4292,7 +4288,17 @@ html {
 	padding: 0;
 }
 #state-list h4 {
-	margin: 25px 0 2px;
+	font-size: 27px;
+	margin: 22px auto 4px;
+	display: block;
+	text-align: left;
+	font-family: 'inter',sans-serif;
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: .55px;
+}
+#state-list p {
+	margin-bottom: -10px;
 }
 .text-content ul {
 	margin-top: -15px;
