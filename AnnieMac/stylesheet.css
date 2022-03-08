@@ -1368,7 +1368,7 @@ div#flash-message {
 .page-blog-detail header#product-banner {
 	display: inherit;
 }
-.blog .inner {
+.blog .inner, .blog-archive .inner {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -1426,6 +1426,8 @@ article hr {
 }
 .media {
 	width: 350px;
+	display: flex;
+	flex-direction: column;
 }
 .media a:hover {
 	border-bottom: none;
@@ -1440,14 +1442,17 @@ article hr {
 	margin-top: 0;
 	margin-bottom: 40px;
 }
-#text-based .media-body .title a {font-weight: 500;}
-.page-blog-list .content-list.blog .inner>* .pull-left {
+#text-based .media-body .title a {
+	font-weight: 500;
+}
+.page-blog-list .content-list.blog .inner>* .pull-left, .blog-archive .media .pull-left {
 	float: none;
 	display: inline-block;
 	background: linear-gradient(14deg, rgba(0, 0, 0, 0.62) 30%, rgba(98, 90, 75, 0.28) 80%);
 	width: 100%;
+	margin-bottom: 15px;
 }
-.page-blog-list .content-list.blog .inner>* .pull-left img {
+.page-blog-list .content-list.blog .inner>* .pull-left img, .blog-archive .media .pull-left img {
 	width: 100%;
 	margin: 0 auto;
 	height: 235px;
