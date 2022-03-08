@@ -1535,6 +1535,18 @@ article hr {
 		background-size: cover;
 		background-position-y: 25%;	
 	}
+	/* 	Glossary */
+	.node-56405 #product-banner {
+		background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/annie_mac_new_banner_glossary.jpeg) bottom no-repeat;
+		background-size: cover;
+		background-position-y: 53%;	
+	}
+	/* 	FAQ */
+	.node-56404 #product-banner {
+		background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/annie_mac_new_banner_faq.jpeg) bottom no-repeat;
+		background-size: cover;
+		background-position-y: 50%;	
+	}
 	/* 	CCPA */
 	.node-47107 #product-banner {
 		background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/annie_mac_new_banner_ccpa.jpeg) top left no-repeat;
@@ -1617,6 +1629,7 @@ article hr {
 }
 .listing-element p {
 	margin-top: -10px;
+	margin-bottom: 20px;
 }
 
 .listing-element li {
