@@ -960,7 +960,7 @@ button a {
 
 /*Other Banners*/
 #page-banner, #video-banner, #product-banner, #core-banner {
-	height: 440px;
+	height: 320px;
 }
 #brand-banner {
 	height: 345px;
@@ -4715,9 +4715,9 @@ div.blog-home-entry:nth-child(4) {
 	max-width: 1250px;
 	width: 100%;
 	color: rgb(255, 255, 255);
-	font-size: 60px;
+	font-size: 50px;
 	margin: 0px auto;
-	padding: 44px;
+	padding: 0 0 20px 0;
 }
 .description-text {
 	height: 50px;
