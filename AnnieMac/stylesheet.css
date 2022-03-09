@@ -858,6 +858,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 }
 #originator-core-details-portrait img {
 	border: 10px solid white;
+	max-width: 200px;
 }
 #originator-main-details {
 	display: flex;
