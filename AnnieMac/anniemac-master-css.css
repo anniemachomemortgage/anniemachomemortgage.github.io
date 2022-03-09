@@ -1779,6 +1779,8 @@ form label, label {
 	font-weight: 800;
 	text-transform: uppercase;
 	font-size: 13px;
+	line-height: 20px;
+	margin: 5px 0 10px;
 }
 input[type="text"], input[type="number"], input[type="password"], input[type="name"], input[type="tel"], input[type="email"], select, option, textarea, input {
 	text-align: left;
