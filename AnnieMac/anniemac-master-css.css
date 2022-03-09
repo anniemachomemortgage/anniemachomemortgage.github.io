@@ -1772,7 +1772,7 @@ ul li ol:focus {
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-	margin: 5px 0 20px;
+	margin: 5px 0 25px;
 	width: 300px;
 }
 .button-form-options button {
