@@ -591,6 +591,12 @@ footer #sitemap #list_12564 {
 	border: none !important;
 	box-shadow: none !important;
 }
+.location-listing > a p {
+	margin: 0;
+	padding: 0;
+	line-height: 26px;
+	font-size: 15px;
+}
 .site-type-team .branch-manager-section::after {
 	flex: auto;
 	content: "";
