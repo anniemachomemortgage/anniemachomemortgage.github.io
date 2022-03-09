@@ -1768,6 +1768,17 @@ ul li ol:focus {
 	flex-direction: column;
 	width: 46%;
 }
+.button-form-options {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	margin: 5px 0 20px;
+	width: 300px;
+}
+.button-form-options button {
+	width: 100%;
+	margin: 5px 0 2px;
+}
 form {
 	display: flex;
 	flex-direction: column;
