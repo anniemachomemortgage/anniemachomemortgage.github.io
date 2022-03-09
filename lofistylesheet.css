@@ -1870,6 +1870,9 @@ p, li, a {
 	text-align: center;
 	padding-top: 30px;
 }
+#applyheaderlo {
+	display: none;
+}
 #originator-social-details {
 	width: 96%;
 	margin: 0 auto;
