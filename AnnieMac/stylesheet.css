@@ -586,8 +586,13 @@ footer #sitemap #list_12564 {
   margin: 0 auto;
 }
 .location-listing {
-	width: 50%;
-	margin: 24px 0 10px;
+	width: 325px;
+	margin: 24px 0px 10px;
+}
+#text-based .location-listing p a, .location-listing > a p {
+	background: none !important;
+	border: none !important;
+	box-shadow: none !important;
 }
 .site-type-team .branch-manager-section::after {
 	flex: auto;
@@ -1925,6 +1930,12 @@ div#calculatorsList .responsive_columns div div div div {
 		text-align: center !important;
 		margin: 10px auto 20px !important;
 	}
+	.location-state-list {
+		flex-direction: column;
+	}
+	.location-listing {
+		width: 100%;
+	}
 }
 @media screen and (max-width: 781px) {
 	.site-type-loan_officer .navigation-sectional:nth-of-type(1) {
@@ -1998,8 +2009,10 @@ div#calculatorsList .responsive_columns div div div div {
 		margin-top: -10px;
 	}
 	#home-reviews h3 {
-		font-size: 30px;
-		margin-bottom: -15px;
+		padding-top: 0px;
+		font-size: 28px;
+		font-weight: 800;
+		margin-bottom: -10px;
 	}
 	#more-reviews {
 		margin: 30px auto;

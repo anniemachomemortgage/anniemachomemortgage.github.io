@@ -1819,7 +1819,7 @@ select {
 	color: #016fa8;
 	font-weight: 800;
 }
-#text-based p a {
+#text-based p a, .location-listing > a p {
 	color: #016fa8;
 	font-weight: 500;
 	line-height: 16px;
@@ -2200,6 +2200,7 @@ select {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	flex-direction: column;
 }
 
 .location-listing {
