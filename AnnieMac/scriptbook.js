@@ -224,8 +224,6 @@ $(function() {
 			var dropnumber = '<a href="tel:' + loanoriginatornumber + '" target="_self" rel="noreferrer noopener" style="margin-right: 5px; background: #8c8c8c;">Call Me</a>'
 			$( dropnumber ).prependTo( $( "#list_12171" ) );
 		}
-		
-		
 		var firstname = loanoriginatorname.split(" ");
 		$("#we-provide-more-master > h3").text(firstname[0] + ' Provides...');
 		$("#biography > div.manager-biography > h2").text('About ' + firstname[0]);
