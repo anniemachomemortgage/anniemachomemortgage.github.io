@@ -860,7 +860,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	border: 10px solid white;
 	max-width: 200px;
 }
-#originator-main-details {
+#originator-main-details { 
 	display: flex;
 	width: 100%;
 	justify-content: center;
@@ -888,6 +888,8 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 	margin: 0 auto;
 	max-width: 1250px;
 	width: 95%;
+	display: flex;
+	justify-content: center;
 }
 #originator-social-details ul a {
 	width: 129px;
