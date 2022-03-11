@@ -1743,6 +1743,7 @@ article hr {
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-between;
+	margin-top: 40px;
 }
 .right-content-side {
 	margin-left: 30px;
