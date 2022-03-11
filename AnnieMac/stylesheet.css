@@ -1723,6 +1723,22 @@ article hr {
 	font-weight: 400;
 }
 
+.list-element-inner-container {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 20px;
+}
+.list-element-image-content {
+	min-width: 100px;
+}
+.list-element-image {
+	width: 65px;
+	height: auto;
+}
+.list-element-content h5 {
+	margin-bottom: 10px !important;
+}
+
 /* div#calculatorsList {
 	width: initial;
 	max-width: initial;
