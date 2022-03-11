@@ -1939,6 +1939,9 @@ div#calculatorsList .responsive_columns div div div div {
 	.social-review {
 		width: 100%;
 	}
+	.right-content-side {
+		display: none;
+	}
 }
 @media screen and (max-width: 875px) {
 	#products-and-calculators {
@@ -2056,9 +2059,8 @@ div#calculatorsList .responsive_columns div div div div {
 	}
 	.left-content-side h3 {
 		margin-top: inherit !important;
-	}
-	.right-content-side {
-		display: none;
+		width: initial !important;
+		margin-left: initial !important;
 	}
 }
 
