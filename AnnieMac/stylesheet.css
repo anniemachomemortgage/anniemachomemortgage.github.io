@@ -1722,6 +1722,20 @@ article hr {
 	line-height: 26px;
 	font-weight: 400;
 }
+
+.annie-mac-promise {
+	background: linear-gradient(20deg, rgb(15, 71, 119) 0%, rgb(32, 104, 164) 64%);
+	margin-top: 0;
+}
+
+.annie-mac-promise a button {
+	background: white;
+	color: #1e639e;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+
 .list-element-inner-container {
 	display: flex;
 	align-items: flex-start;
