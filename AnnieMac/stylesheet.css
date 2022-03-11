@@ -1722,11 +1722,13 @@ article hr {
 	line-height: 26px;
 	font-weight: 400;
 }
-
 .list-element-inner-container {
 	display: flex;
 	align-items: flex-start;
 	margin-bottom: 20px;
+}
+.listing-element:first-of-type .list-element-inner-container:nth-of-type(1) {
+	margin-top: 10px;
 }
 .list-element-image-content {
 	min-width: 75px;
@@ -1746,13 +1748,13 @@ article hr {
 	margin: 20px 0;
 }
 .right-content-side {
-	margin-left: 30px;
+	margin-left: 45px;
 }
 .left-content-side {
 	flex: 1;
 }
 .right-side-image {
-	width: 315px;
+	width: 303px;
 }
 .left-content-side h3 {
 	margin-top: -10px !important;
