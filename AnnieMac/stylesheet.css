@@ -1739,7 +1739,23 @@ article hr {
 .list-element-content h5 {
 	margin-bottom: 10px !important;
 }
-
+.side-by-side-image-right {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.right-content-side {
+	margin-left: 30px;
+}
+.left-content-side {
+	flex: 1;
+}
+.right-side-image {
+	width: 415px;
+}
+.left-content-side h3 {
+	margin-top: 0 !important;
+}
 /* div#calculatorsList {
 	width: initial;
 	max-width: initial;
