@@ -637,6 +637,7 @@ p.social-review-survey {
 	font-size: 17px;
 	color: initial;
 	font-weight: 300;
+	margin-top: 0;
 }
 
 h4.social-loan-officer {
@@ -644,6 +645,7 @@ h4.social-loan-officer {
 	font-size: 20px !important;
 	font-weight: 400;
 	padding: 0;
+	display: none !important;
 }
 
 .average-social-rating {
