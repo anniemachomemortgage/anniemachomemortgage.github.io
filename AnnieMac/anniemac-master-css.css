@@ -3187,9 +3187,9 @@ footer #sitemap ul.menu.nav > li {
 	border-bottom: none;
 	flex: 1;
 }
-.review:first-of-type {
+/* .review:first-of-type {
 	display: none;
-}
+} */
 #home-reviews h3 {
 	padding-top: 15px;
 	font-size: 36px;
