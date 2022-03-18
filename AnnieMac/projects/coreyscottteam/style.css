@@ -521,6 +521,13 @@ commentcontainer h4 {
 	width: 100%;
 	margin: -20px 0 0;
 }
+.divided-in-half {
+	display: flex;
+	align-items: center;
+}
+.first-half {
+	margin-right: 10px;
+}
 .testimonial-sectional .blocked-sectional-half {
 	width: 46%;
 }
@@ -1575,7 +1582,7 @@ commentcontainer h4 {
 	}
 	.specific span {
 	  width: 80%;
-  	}
+	  }
 }
 .Main__Container-sc-1n4ud0o-0.jvOzNe > a:last-of-type {
 	visibility: hidden !important;

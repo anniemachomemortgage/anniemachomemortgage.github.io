@@ -1,4 +1,6 @@
-/* Remove edit toggle for logged in admin. Remove after prototyping is complete. */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 .edit-group {
 	display: none !important;
 }
@@ -6,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
-	--mainbody: #798088;
+	--mainbody: #3a3a3a;
 	--bodytext: #333a40;
 	--linking: #7d7d7d;
 	--hoverlink: #2e2c2d;
@@ -39,7 +41,7 @@ main,
 header,
 nav,
 footer {
-	font-family: 'inter', sans-serif;
+	font-family: 'poppins', sans-serif;
 	font-size: 16px;
 	line-height: 30px;
 	font-weight: 400;
@@ -109,11 +111,11 @@ li {
 }
 
 header {
-	background: linear-gradient(177deg, rgb(96 1 0 / 47%) 20%, rgb(96 1 0 / 68%) 80%), url(https://images.unsplash.com/photo-1606787364397-a9c1d754a531?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
-	background-position-y: 48%;
+	background: linear-gradient(171deg, rgb(220 3 1 / 79%) 20%, rgb(159 2 0 / 87%) 80%), url(https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+	background-position-y: 16%;
 	position: relative;
 	background-size: cover;
-	min-height: 566px;
+	min-height: 670px;
 }
 
 .front header {
@@ -121,8 +123,7 @@ header {
 }
 
 logo {
-	width: 360px;
-	margin-top: -6px;
+	margin-top: -10px;
 	border-radius: 2px;
 	top: 15px;
 	left: 58px;
@@ -147,6 +148,11 @@ logo img:hover, #home-navigation-bar:hover, #loans-navigation-bar:hover, #resour
 	text-align: center;
 }
 
+.title-containers {
+	display: flex;
+	flex-direction: column;
+}
+
 .header-content:last-of-type {
 	padding-bottom: 53px;
 }
@@ -157,7 +163,6 @@ logo img:hover, #home-navigation-bar:hover, #loans-navigation-bar:hover, #resour
 }
 
 nav {
-	margin-bottom: 30px;
 }
 
 nav ul {
@@ -168,7 +173,6 @@ nav ul {
 	position: relative;
 	background: white;
 	width: 100%;
-	box-shadow: 3px 10px 17px rgb(4 2 2 / 27%);
 	padding: 0px 20px;
 	margin-bottom: 77px;
 }
@@ -180,20 +184,17 @@ nav ul {
 #navigation {
 	justify-content: space-between;
 	align-items: center;
-	padding: 0px 10px 0px 96px;
 	background: white;
-	border-radius: 40px 0 0 40px;
-	height: 75px;
-	width: 650px;
+	width: 740px;
 }
 
 #navigation li {
 	letter-spacing: .65px;
 	color: #000;
 	position: relative;
-	font-weight: 800;
+	font-weight: 600;
 	text-transform: uppercase;
-	font-size: 13px;
+	font-size: 14px;
 }
 
 nav ul li ul {
@@ -237,17 +238,6 @@ nav ul li ul li a:hover {
 	border-bottom: none;
 }
 
-#pin-toggle,
-#home-navigation-bar,
-#loans-navigation-bar,
-#resources-navigation-bar {
-	display: none;
-}
-
-#navigation:hover {
-	width: 650px;
-}
-
 #navigation:hover #home-navigation-bar,
 #navigation:hover #loans-navigation-bar,
 #navigation:hover #resources-navigation-bar,
@@ -256,13 +246,14 @@ nav ul li ul li a:hover {
 }
 
 #apply-navigation-bar {
-	border-radius: 2px;
+	border-radius: 5px;
 	outline: none;
 	padding: 5px 30px;
 	width: fit-content;
 	background: #d00705;
 	border: 3px solid #d00705;
-	color: #FFF !important;
+	color: #fff;
+	font-weight: 700;
 }
 
 #apply-navigation-bar:hover {
@@ -438,17 +429,25 @@ initalcallout {
 }
 
 h1#headline {
-	line-height: 80px;
-	margin: 30px 0 25px;
+	line-height: 82px;
 	color: #fff;
-	font-size: 70px;
-	font-weight: 700;
+	font-size: 81px;
+	font-weight: 400;
+	text-transform: uppercase;
+	width: 651px;
+	margin: 50px auto;
 }
 
-h2#content-headling {
-	font-size: 40px;
-	margin-bottom: 45px;
+h2#sub-headline {
+	font-size: 24px;
 	text-align: center;
+	color: #fff;
+	font-weight: 600;
+	border-bottom: 1px solid;
+	display: inline-block;
+	width: 260px;
+	margin: 0 auto;
+	letter-spacing: 2.6px;
 }
 
 #contact-us-header {
@@ -475,16 +474,17 @@ button {
 	width: fit-content;
 }
 
-#cta1 button {
-	padding: 22px 50px;
-	margin: 20px 0 10px;
-	min-width: 230px;
-	background: #d00705;
-	border: 3px solid #d00705;
-	color: #FFF;
+.button-containers button {
+	padding: 16px 0;
+	margin: 0 10px 0;
+	min-width: 180px;
+	background: #fff;
+	border: 3px solid #fff;
+	color: #111;
 	font-weight: 800;
 	text-transform: uppercase;
 	font-size: 14px;
+	border-radius: 3px;
 }
 
 .secondary-button {
@@ -531,18 +531,31 @@ main {
 
 .homepage-initial-container,
 .alternation {
-	background: #f5f5f5;
+	background: #f3f6fb;
 }
 
 .selection-container {
 	display: flex;
-	justify-content: space-around;
+	flex-direction: column;
 	background: #fff;
-	margin: -126px auto 32px;
+	margin: -122px auto 60px;
 	padding: 51px;
-	width: 48%;
+	width: 68%;
 	min-width: 500px;
 	box-shadow: 3px 10px 17px rgba(0, 0, 0, .05);
+	border-radius: 3px;
+}
+
+.selection-grid-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.intro-blurb p {
+	font-size: 15.8px;
+	text-align: center;
+	margin: -10px 0 42px;
 }
 
 .solidlinedivider {
@@ -563,22 +576,21 @@ main {
 }
 
 .contained-option-icons {
-	width: 50px;
-	margin: 7px 0;
+	width: 76px;
+	margin: 11px 0 26px;
+	order: -1;
 }
 
-.contained-option button {
-	padding: 20px 35px;
+.contained-option button, .callout-ending-container button {
+	padding: 20px 25px;
 	margin-top: 30px;
 	min-width: 195px;
 	text-transform: uppercase;
 	font-size: 14px;
-	background: #2e2c2d;
-	border: 3px solid #2e2c2d;
+	background: #d00705;
+	border: 3px solid #d00705;
 	color: #fff;
-	/* padding: 22px 50px; */
-	/* font-size: 23px; */
-	font-weight: 200;
+	border-radius: 6px;
 }
 
 
@@ -625,7 +637,10 @@ button a:hover {
 
 #join-annie-mac h2,
 .sectional h2 {
-	margin: 0 0 13px;
+	margin: 0 0 15px;
+	font-weight: 700;
+	font-size: 25px;
+	color: black;
 }
 
 #primary-callout {
@@ -868,6 +883,16 @@ commentcontainer h4 {
 	margin-right: 45px;
 }
 
+.navigation-contain {
+	max-width: 1250px;
+	margin: 0 auto;
+	padding: 14px 0;
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
 .contain {
 	max-width: 1250px;
 	margin: 0 auto;
@@ -914,7 +939,9 @@ commentcontainer h4 {
 }
 
 footer {
-	background: var(--lightbackground);
+	background: #2e2c2d;
+	color: #fff;
+	min-height: 140px;
 }
 
 #form footer section:first-of-type {
@@ -1065,21 +1092,45 @@ details[open] summary i {
 }
 
 #visual-divider {
-	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://images.unsplash.com/photo-1606788075819-9574a6edfab3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2068&q=80);
-	min-height: 325px;
+	background: linear-gradient(171deg, rgb(220 3 1 / 79%) 20%, rgb(159 2 0 / 87%) 80%), url(https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+	min-height: 215px;
 	background-size: cover;
-	background-position-y: 64%;
+	background-position-y: 50%;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 40px;
 }
 
 #visual-divider h3 {
 	margin: 0 auto 30px;
 	color: #fff;
 	font-size: 45px;
+}
+
+
+.statistics-grid h4, .statistics-grid h5 {
+	color: #fff !important;
+}
+
+.statistics-grid .solidlinedivider {
+	width: 0.1px;
+	background: #fff;
+}
+
+.statistics-grid div {
+	width: 245px;
+}
+
+.statistics-grid h4 {
+	font-size: 48px;
+	font-weight: 800;
+	margin-bottom: 22px;
+}
+
+.statistics-grid h5 {
+	font-size: 15px;
+	font-weight: 500;
 }
 
 #visual-divider button {
@@ -1092,6 +1143,26 @@ details[open] summary i {
 	font-weight: 800;
 	text-transform: uppercase;
 	font-size: 14px;
+}
+
+.callout-ending-container {
+	display: flex;
+	justify-content: space-between;
+	width: 68%;
+	min-width: 500px;
+	margin: 0 auto 27px;
+	align-items: center;
+}
+
+.callout-ending-headers h4 {
+	font-size: 33px;
+	font-weight: 700;
+}
+
+.callout-ending-headers h5 {
+	font-size: 19px;
+	font-weight: 600;
+	margin-bottom: -10px;
 }
 
 #district-mortgage-bottom-contact {
@@ -1461,6 +1532,7 @@ top: 30px; */
 
 .disclaimer-a p {
 	margin-bottom: 25px;
+	color: #fff;
 }
 
 .disclaimer-b {
@@ -1508,8 +1580,8 @@ top: 30px; */
 }
 
 .contained-option button:hover, #visual-divider-a button:hover, #read-more-testimonials:hover, .homepage-image-background-section button:hover, .full-district-mortgage-input button:hover {
-	background: #d00705 !important;
-	border: 3px solid #d00705 !important;
+	background: #2e2c2d !important;
+	border: 3px solid #2e2c2d !important;
 	transform: scale(1.05);
 }
 
@@ -1619,8 +1691,6 @@ top: 30px; */
 
 /* Adjustments */
 #cta2 {
-	margin-left: 25px;
-	display: none;
 }
 
 .district-mortgage-redesign {
@@ -1631,7 +1701,7 @@ top: 30px; */
 	display: flex;
 	list-style-type: none;
 	padding: 0;
-	margin: 0;
+	margin: 5px 0;
 	justify-content: space-between;
 }
 
@@ -1641,11 +1711,10 @@ top: 30px; */
 
 .sitemap-section strong {
 	letter-spacing: .65px;
-	color: #000;
+	color: #fff;
 	position: relative;
-	font-weight: 800;
-	text-transform: uppercase;
-	font-size: 13px;
+	font-weight: 500;
+	font-size: 17px;
 }
 
 .sitemap-section ul li ul {
@@ -2223,247 +2292,4 @@ padding-bottom: 5px; */
 	display: block;
 	position: absolute;
 	right: 0;
-}
-
-/* Conventional */
-.node-160875 header {
-	background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url('https://images.pexels.com/photos/7578904/pexels-photo-7578904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-	background-position-y: 43%;
-	background-size: cover;
-}
-
-#conventional-block-callout-a {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1609220136736-443140cffec6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80') center;
-	background-size: cover;
-	color: #fff;
-	font-size: 16px;
-	margin-top: 0;
-	margin-left: 50px;
-	margin-bottom: 25px;
-	max-height: 450px;
-}
-
-#conventional-block-callout-b {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1601758003122-53c40e686a19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80') center;
-	background-size: cover;
-	color: #fff;
-	font-size: 16px;
-	margin-top: 15px;
-	margin-left: 50px;
-	margin-bottom: 25px;
-	max-height: 450px;
-}
-
-#conventional-block-callout-c {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1576089073624-b5751a8f4de9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1625&q=80') center;
-	background-size: cover;
-	color: #fff;
-	font-size: 16px;
-	margin-top: 15px;
-	margin-left: 50px;
-	margin-bottom: 25px;
-	max-height: 450px;
-}
-
-/* VA */
-.node-160876 header {
-	background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url('https://images.pexels.com/photos/1550342/pexels-photo-1550342.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-	background-size: cover;
-	background-position-y: 66%;
-}
-
-#va-block-callout-a {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1609220136736-443140cffec6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80') center;
-	background-size: cover;
-	color: #fff;
-	font-size: 16px;
-	margin-top: 0;
-	margin-left: 50px;
-	margin-bottom: 25px;
-	max-height: 450px;
-}
-
-#va-block-callout-b {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1601758003122-53c40e686a19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80') center;
-	background-size: cover;
-	color: #fff;
-	font-size: 16px;
-	margin-top: 15px;
-	margin-left: 50px;
-	margin-bottom: 25px;
-	max-height: 450px;
-}
-
-#va-block-callout-c {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1576089073624-b5751a8f4de9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1625&q=80') center;
-	background-size: cover;
-	color: #fff;
-	font-size: 16px;
-	margin-top: 15px;
-	margin-left: 50px;
-	margin-bottom: 25px;
-	max-height: 450px;
-}
-
-/* USDA */
-.node-160877 header {
-	background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url('https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-	background-size: cover;
-	background-position-y: 100%;
-}
-
-#usda-block-callout-a {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1609220136736-443140cffec6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80') center;
-	background-size: cover;
-	color: #fff;
-	font-size: 16px;
-	margin-top: 0;
-	margin-left: 50px;
-	margin-bottom: 25px;
-	max-height: 450px;
-}
-
-#usda-block-callout-b {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1601758003122-53c40e686a19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80') center;
-	background-size: cover;
-	color: #fff;
-	font-size: 16px;
-	margin-top: 15px;
-	margin-left: 50px;
-	margin-bottom: 25px;
-	max-height: 450px;
-}
-
-#usda-block-callout-c {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1576089073624-b5751a8f4de9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1625&q=80') center;
-	background-size: cover;
-	color: #fff;
-	font-size: 16px;
-	margin-top: 15px;
-	margin-left: 50px;
-	margin-bottom: 25px;
-	max-height: 450px;
-}
-
-/* FHA */
-.node-160878 header {
-	background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url('https://images.pexels.com/photos/129112/pexels-photo-129112.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-	background-position-y: 54%;
-	background-size: cover;
-}
-
-#fha-block-callout-a {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1609220136736-443140cffec6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80') center;
-	background-size: cover;
-	color: #fff;
-	font-size: 16px;
-	margin-top: 0;
-	margin-left: 50px;
-	margin-bottom: 25px;
-	max-height: 450px;
-}
-
-#fha-block-callout-b {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1601758003122-53c40e686a19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80') center;
-	background-size: cover;
-	color: #fff;
-	font-size: 16px;
-	margin-top: 15px;
-	margin-left: 50px;
-	margin-bottom: 25px;
-	max-height: 450px;
-}
-
-#fha-block-callout-c {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1576089073624-b5751a8f4de9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1625&q=80') center;
-	background-size: cover;
-	color: #fff;
-	font-size: 16px;
-	margin-top: 15px;
-	margin-left: 50px;
-	margin-bottom: 25px;
-	max-height: 450px;
-}
-
-/* Blog Listing */
-.page-blog-list header,
-.page-blog-detail header {
-	background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url('https://images.unsplash.com/photo-1543269664-56d93c1b41a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
-	background-position-y: 38%;
-	background-size: cover;
-}
-
-/* Branch Listing */
-.page-branch-list header {
-	background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url('https://annie-mac.com/uploads/sites/10713/public/annie_mac_new_banner_branches.jpeg') top left no-repeat;
-	background-size: cover;
-	background-position-y: 17%;
-}
-
-/* About Us */
-.node-160703 header {
-	background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url(https://annie-mac.com/uploads/sites/10713/public/annie_mac_new_banner_about.jpeg) top center no-repeat;
-	background-size: cover;
-	background-position-y: 5%;
-}
-
-#about-block-callout-a {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1609220136736-443140cffec6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80') center;
-	background-size: cover;
-	color: #fff;
-	font-size: 16px;
-	margin-top: 0;
-	margin-left: 50px;
-	margin-bottom: 25px;
-	max-height: 450px;
-}
-
-#about-block-callout-b {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1601758003122-53c40e686a19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80') center;
-	background-size: cover;
-	color: #fff;
-	font-size: 16px;
-	margin-top: 15px;
-	margin-left: 50px;
-	margin-bottom: 25px;
-	max-height: 450px;
-}
-
-#about-block-callout-c {
-	background: linear-gradient(177deg, rgba(0, 0, 0, 0.22) 30%, rgba(22, 26, 28, 0.87) 80%), url('https://images.unsplash.com/photo-1576089073624-b5751a8f4de9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1625&q=80') center;
-	background-size: cover;
-	color: #fff;
-	font-size: 16px;
-	margin-top: 15px;
-	margin-left: 50px;
-	margin-bottom: 25px;
-	max-height: 450px;
-}
-
-/* Contact Us */
-.node-160882 header {
-	background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url(https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) top center no-repeat;
-	background-size: cover;
-	background-position-y: 17%;
-}
-
-/* Privacy Policy */
-.node-47111 header {
-	background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url(https://annie-mac.com/uploads/sites/10713/public/annie_mac_new_banner_privacy.jpeg) top left no-repeat;
-	background-size: cover;
-	background-position-y: 56%;
-}
-
-/* Terms of Use */
-.node-47115 header {
-	background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url(https://annie-mac.com/uploads/sites/10713/public/annie_mac_new_banner_terms.jpeg) top left no-repeat;
-	background-size: cover;
-	background-position-y: 76%;
-}
-
-/* Licensing */
-.node-47110 header {
-	background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url(https://annie-mac.com/uploads/sites/10713/public/annie_mac_new_banner_licensing.jpeg) top left no-repeat;
-	background-size: cover;
-	background-position-y: 89%;
 }
