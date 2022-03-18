@@ -1404,6 +1404,12 @@ commentcontainer h4 {
 	.meet-the-team-header {
 		display: none;
 	}
+	.divided-in-half {
+		flex-direction: column-reverse;
+	}
+	.second-half {
+		margin: 20px;
+	}
 	.staff-block {
 		width: 50%;
 		margin: 0;
