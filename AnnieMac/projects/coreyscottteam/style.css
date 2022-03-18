@@ -556,6 +556,10 @@ commentcontainer h4 {
 	margin-top: 12px;
 	padding-right: 20px;
 }
+.primary-text-accent {
+	color: #000;
+	font-weight: 500;
+}
 .product-half-header {
 	margin: 0;
 }
@@ -1363,6 +1367,10 @@ commentcontainer h4 {
 }
 
 @media only screen and (max-width: 1046px) {
+	.primary-text-accent {
+		color: inherit;
+		font-weight: inherit;
+	}
 	.body-background {
 		background-size: cover;
 		min-height: initial;
