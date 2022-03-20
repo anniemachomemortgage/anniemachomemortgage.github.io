@@ -2312,6 +2312,7 @@ li.review-card-container {
 	font-size: 22px;
 	padding: 18px 0;
 	border-radius: 0 0 4px 4px;
+	letter-spacing: .58px;
 }
 
 li.review-card-container:nth-of-type(2) .card-review h5 {
