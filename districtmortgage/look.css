@@ -298,6 +298,13 @@ main {
 	justify-content: space-around;
 }
 
+.statistics-grid {
+	  max-width: 1250px;
+	  margin: 0 auto;
+	  padding: 20px 0;
+	  width: 75%;
+	}
+	
 .intro-blurb p {
 	font-size: 15.8px;
 	text-align: center;
@@ -517,7 +524,7 @@ footer {
 }
 
 .statistics-grid .solidlinedivider {
-	width: 1px;
+	width: 1.1px;
 	background: rgba(255,255,255,.2);
 }
 
@@ -539,10 +546,11 @@ footer {
 .callout-ending-container {
 	display: flex;
 	justify-content: space-between;
-	width: 68%;
 	min-width: 500px;
 	margin: 0 auto 60px;
 	align-items: center;
+	max-width: 1250px;
+	width: 75%;
 }
 
 .callout-ending-headers h4 {
