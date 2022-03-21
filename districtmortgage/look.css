@@ -1028,7 +1028,11 @@ footer {
 @media only screen and (max-width: 980px) {
 #mobile-navigation-only {
 	display: block;
-	  margin-right: 50px;
+	margin-right: 50px;
+	position: absolute;
+	top: 1%;
+	left: 9px;
+	font-size: 20px;
 	}
   #navigation {
 	display: none;
@@ -1055,6 +1059,7 @@ nav {
 }
 logo {
 	flex: 1;
+	margin-left: 10px;
 }
 	h1#headline {
 		  font-size: 59px;
