@@ -215,6 +215,10 @@ nav ul {
 	cursor: pointer;
 }
 
+#apply-navigation-bar a:hover {
+	border-bottom: 0;
+}
+
 h1#headline {
 	line-height: 82px;
 	color: #fff;
@@ -834,9 +838,17 @@ li.review-card-container:nth-of-type(2) .card-review h5 {
 	border-radius: 0 0 0 4px;
 }
 
+.card-links a:first-of-type:hover {
+	background: #b5100b;
+}
+
 .card-links a:last-of-type {
 	background: #323232;
 	border-radius: 0 0 4px 0;
+}
+
+.card-links a:last-of-type:hover {
+	background: #222;
 }
 
 .card-image-container img {
