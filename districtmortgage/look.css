@@ -1059,6 +1059,7 @@ logo {
 	h1#headline {
 		  font-size: 59px;
 		  margin: 20px auto 40px;
+		  width: 100%;
 	  }
 header .button-containers {
 	justify-content: space-between;
