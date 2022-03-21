@@ -1061,6 +1061,9 @@ logo {
 	flex: 1;
 	margin-left: 10px;
 }
+#apply-navigation-bar {
+	  padding: 5px 20px;
+  }
 	h1#headline {
 		  font-size: 59px;
 		  margin: 20px auto 40px;
