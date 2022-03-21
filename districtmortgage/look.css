@@ -469,7 +469,7 @@ button a:hover {
 }
 
 .process-step-of-loan + .process-step-of-loan::after {
-	background-image: url(https://cdn-icons.flaticon.com/png/512/2252/premium/2252540.png?token=exp=1647871383~hmac=5d47597fb5f8bb3b41030eed7de5a386);
+	background-image: url(images/arrow.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100% auto;
