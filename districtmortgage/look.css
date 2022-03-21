@@ -955,6 +955,9 @@ footer {
 	color: inherit;
 	font-weight: 200;
 	}
+	.footer-main-container ul li ul li a:hover {
+		border-bottom: 1px solid white;
+	}
 .footer-logo {
 	width: 200px;
 	margin-bottom: 25px;
