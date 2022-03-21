@@ -480,6 +480,7 @@ button a:hover {
 	position: absolute;
 	top: 35%;
 	left: -17px;
+	opacity: .45;
 }
 
 footer {
