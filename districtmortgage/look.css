@@ -431,6 +431,17 @@ button a:hover {
 	color: #d00705;
 	font-weight: 500;
 	margin-top: -10px !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.description-text-header::after {
+	content: '';
+	display: inline-block;
+	min-height: 3px;
+	min-width: 35px;
+	background: #d00705;
+	margin-left: 20px;	
 }
 
 .header-text-h2 {
@@ -776,7 +787,8 @@ li.review-card-container:nth-of-type(2) .card-review h5 {
 }
 
 .column-2-content h3 {
-	text-align: left;
+	text-align: left !important;
+	justify-content: flex-start;
 }
 
 .column-2-content h2 {
