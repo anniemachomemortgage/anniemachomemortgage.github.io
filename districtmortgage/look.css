@@ -439,12 +439,18 @@ button a:hover {
 	border-radius: 100%;
 	box-shadow: 3px 6px 17px rgb(0 0 0 / 10%);
 	border: 4px solid white;
+	color: white;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
 }
 	
 .process-step-of-loan>h4 {
 	font-size: 18px;
 	line-height: 20px;
 }
+
 
 .process-step-of-loan>span {
 	font-size: 13px;
