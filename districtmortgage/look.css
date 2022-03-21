@@ -427,7 +427,7 @@ button a:hover {
 
 .process-step-of-loan {
 	text-align: center;
-	width: 25%;
+	width: 23%;
 }
 
 .process-step-of-loan .image-contain {
@@ -520,7 +520,7 @@ footer {
 	justify-content: space-between;
 	width: 68%;
 	min-width: 500px;
-	margin: 0 auto 27px;
+	margin: 0 auto 60px;
 	align-items: center;
 }
 
