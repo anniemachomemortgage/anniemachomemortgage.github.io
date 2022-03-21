@@ -286,6 +286,7 @@ main {
 	margin: -122px auto 60px;
 	padding: 51px;
 	width: 68%;
+	max-width: 980px;
 	min-width: 500px;
 	box-shadow: 3px 10px 17px rgba(0, 0, 0, .05);
 	border-radius: 3px;
@@ -350,11 +351,6 @@ button a:hover {
 
 #initial-section {
 	padding: 35px 0;
-	margin-bottom: 50px;
-}
-
-.negative-top {
-	/* margin-top: -12px; */
 }
 
 .negative-top .left-side-container>h3:first-of-type {
@@ -464,7 +460,7 @@ footer {
 	min-height: 140px;
 }
 
-#what-people-say-about-us {
+.sectional {
 	padding-top: 50px;
 }
 
