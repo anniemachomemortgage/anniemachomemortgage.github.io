@@ -5,6 +5,7 @@
 	<link rel="stylesheet" id="wireframe" href="look.css" type="text/css">
 	<script src="https://kit.fontawesome.com/97dedd64e8.js" crossorigin="anonymous"></script>
 	<script id="jquery-link" src="https://code.jquery.com/jquery-latest.min.js"></script>
+	<script id="script" src="think.js"></script>
 	<meta name="viewport" content="width=device-width">
 </head>
 
@@ -15,10 +16,13 @@
 			<nav>
 				<ul class="row-display">
 					<div class="navigation-contain">
+						<li id="mobile-navigation-only">
+							<i class="fa-solid fa-bars"></i>
+						</li>
 						<logo>
 							<img id="district-mortgage-logo" src="images/district-mortgage-logo.png">
 						</logo>
-						<div id="navigation" class="row-display fixed-menu">
+						<div id="navigation" class="mobile-hide row-display fixed-menu">
 							<li><a href="">Why District</a></li>
 							<li><a href="">Our Process</a></li>
 							<li><a href="">Purchase</a></li>
@@ -248,7 +252,7 @@
 						<li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
 					</ul>
 				</li>
-				<li> About
+				<li class="sub-menu-footer"> About
 					<ul>
 						<li><a href="">About Us</a></li>
 						<li><a href="">Licensing</a></li>
@@ -260,7 +264,7 @@
 						<li><a href="">Contact Us</a></li>
 					</ul>
 				</li>
-				<li> Loans
+				<li class="sub-menu-footer"> Loans
 					<ul>
 						<li><a href="">Conventional Loans</a></li>
 						<li><a href="">FHA Loans</a></li>
@@ -271,7 +275,7 @@
 						<li><a href="">Construction</a></li>
 					</ul>
 				</li>
-				<li> Resources
+				<li class="sub-menu-footer"> Resources
 					<ul>
 						<li><a href="">First Time Home Buyer</a></li>
 						<li><a href="">Affordability Calculator</a></li>
