@@ -518,7 +518,7 @@ footer {
 
 .statistics-grid .solidlinedivider {
 	width: 1px;
-	background: #fff;
+	background: rgba(255,255,255,.2);
 }
 
 .statistics-grid div {
