@@ -155,7 +155,7 @@ form button:hover,
 	background-size: cover;
 }
 
-.rating i {
+.rating i, .rating svg {
 	color: #f3ca22;
 }
 .link {
@@ -180,12 +180,12 @@ footer {
 	background: #7fc24a;
 }
 
-#success i,
+#success i, #success svg
 #success h3 {
 	color: #006fa9;
 }
 
-#success i {
+#success i, #success svg {
 	border: 6px solid #006fa9;
 }
 
@@ -194,17 +194,17 @@ footer {
 	color: #c70303;
 }
 
-#general_error i {
+#general_error i, #general_error svg {
 	border: 6px solid #c70303;
 	padding: 20px 35px;
 }
 
-#no_page i,
+#no_page i, #no_page svg,
 #no_page h3 {
 	color: #006fa9;
 }
 
-#no_page i {
+#no_page i, #no_page svg {
 	border: 6px solid #006fa9;
 	padding: 20px 35px;
 }
@@ -325,7 +325,7 @@ footer {
 	opacity: .6;
 }
 
-#close-navigation-side i {
+#close-navigation-side i, #close-navigation-side svg {
 	float: right;
 	font-size: 20px;
 }
@@ -355,7 +355,7 @@ footer {
 	margin-right: 10px;
 }
 
-#navigation-sidebar .navigation-sidebar-sectional:nth-child(2) h4 span i {
+#navigation-sidebar .navigation-sidebar-sectional:nth-child(2) h4 span i, #navigation-sidebar .navigation-sidebar-sectional:nth-child(2) h4 span svg {
 	display: none;
 }
 .option-listing {
@@ -390,7 +390,7 @@ footer {
 	justify-content: center;
 }
 
-.option-listing-go i {
+.option-listing-go i, .option-listing-go svg {
 	font-size: 20px;
 }
 
@@ -1014,7 +1014,7 @@ button a {
 	margin: 0px auto 0;
 }
 
-.rating i {
+.rating i, .rating svg {
 	margin-top: 8px;
 	padding: 4px;
 	font-size: 24px;
@@ -1336,7 +1336,7 @@ ul li ol:focus {
 	margin-bottom: 25px;
 }
 
-#your-loan-details i {
+#your-loan-details i, #your-loan-details svg {
 	color: black;
 	opacity: .5;
 	margin-left: 10px;
@@ -1390,7 +1390,7 @@ ul li ol:focus {
 	cursor: pointer;
 }
 
-#uploader i {
+#uploader i, #uploader svg {
 	font-size: 30px;
 	display: block;
 	margin-bottom: 20px;
@@ -1507,7 +1507,7 @@ ul li ol:focus {
 	width: 50%;
 }
 
-.specle i {
+.specle i, .specle svg {
 	font-size: 2rem;
 	margin-right: 20px;
 	width: 50px;
@@ -1642,18 +1642,11 @@ ul li ol:focus {
 	margin: 0 5px;
 }
 
-.spec h4 i {
+.spec h4 i, .spec h4 svg {
 	opacity: .4;
 	color: #000;
 	font-size: 1.8rem;
 	margin: 10px;
-}
-
-.question h4 i {
-	opacity: .4;
-	color: #000;
-	font-size: 1.8rem;
-	margin-left: 20px;
 }
 
 .question h4:hover {
@@ -1668,7 +1661,7 @@ ul li ol:focus {
 	background: rgba(247, 247, 247, 0.45);
 }
 
-.question:hover h4 i {
+.question:hover h4 i, .question:hover h4 svg {
 	opacity: .7;
 }
 
@@ -2123,7 +2116,7 @@ select {
 	font-size: 1.7rem;
 }
 
-.stage-step i {
+.stage-step i, .stage-step svg {
 	font-size: 1.8rem;
 	margin-right: 10px;
 	opacity: .8;
@@ -2707,12 +2700,12 @@ select {
 	justify-content: space-between;
 }
 
-#accolades-toggle i {
+#accolades-toggle i, #accolades-toggle svg {
 	opacity: .7;
 	color: #666;
 }
 
-#accolades-toggle:hover i {
+#accolades-toggle:hover i, #accolades-toggle:hover svg {
 	opacity: .9;
 }
 
@@ -2797,7 +2790,7 @@ select {
 	font-weight: normal;
 	margin: 0 5px;
 }
-#review-head .rating i {
+#review-head .rating i, #review-head .rating svg {
 	font-size: 20px;
 }
 .review {
@@ -3223,7 +3216,7 @@ footer #sitemap ul.menu.nav > li {
 	justify-content: center;
 }
 
-.team-member-information button i {
+.team-member-information button i, .team-member-information button svg {
 	display: none;
 }
 
@@ -4452,7 +4445,7 @@ html {
 	background: #7fc24a;
 	border: 3px solid #7fc24a;
 }
-#more-reviews i {
+#more-reviews i, #more-reviews svg {
 	display: none;
 }
 #home-deserve {
