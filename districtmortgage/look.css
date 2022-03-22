@@ -292,7 +292,7 @@ main {
 
 .homepage-initial-container,
 .alternation {
-	background: #f3f6fb;
+	background: #f3f6fb !important;
 }
 
 .selection-container {
@@ -768,6 +768,10 @@ li.column-layout-3x3 {
 	border-radius: 0 0 4px 4px;
 	letter-spacing: .75px;
 }
+
+.containing-calculator-types {
+		margin-top: -35px;
+	}
 
 h5.calculator-header:hover {
 	color: #d00705 !important;
