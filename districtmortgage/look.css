@@ -350,6 +350,14 @@ main {
 	order: -1;
 }
 
+.expanded-image-bigger {
+		width: 160px;
+	}
+
+.expanded-image {
+	width: 120px;
+}
+
 .contained-option button,
 .callout-ending-container button {
 	padding: 20px 25px;
@@ -527,6 +535,17 @@ button a:hover {
 
 #visual-divider {
 	background: linear-gradient(171deg, rgb(220 3 1 / 79%) 20%, rgb(159 2 0 / 87%) 80%), url(https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+	min-height: 215px;
+	background-size: cover;
+	background-position-y: 50%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+section#visual-divider.review-section-callouts {
+	background: linear-gradient(171deg, rgb(220 3 1 / 79%) 20%, rgb(159 2 0 / 87%) 80%), url(https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 	min-height: 215px;
 	background-size: cover;
 	background-position-y: 50%;
