@@ -990,6 +990,13 @@ li.review-card-container:nth-of-type(even) .card-review h5 {
 	font-weight: 700;
 }
 
+.disclaimation-block {
+	background: #fff;
+	padding: 40px 40px;
+	margin: 60px auto;
+	border-radius: 3px;
+}
+
 #form-insert {
 	background: #fff;
 	padding: 40px 40px 50px;
