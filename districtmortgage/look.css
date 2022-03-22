@@ -806,9 +806,15 @@ li.column-layout-3x3:nth-of-type(even) .card-container-3x3 h5 {
 	margin-bottom: 25px;
 }
 
-#why-choose-us {
+#why-choose-us, #about-us {
 	background: #f3f6fa;
 }
+
+#about-us-expanded {
+		background: #fff;
+		margin-top: -25px;
+		padding-top: 30px;
+	}
 
 .column-1 {
 	background: #d00705;
@@ -852,7 +858,7 @@ li.column-layout-3x3:nth-of-type(even) .card-container-3x3 h5 {
 
 .column-2-content h2 {
 	text-align: left;
-	margin-top: 20px;
+	line-height: 43px;
 }
 
 .column-2-content p {
@@ -866,6 +872,11 @@ li.column-layout-3x3:nth-of-type(even) .card-container-3x3 h5 {
 
 #provide-more .card-container-3x3 {
 	flex-direction: column;
+}
+
+.card-container-3x3 img {
+	margin: 41px auto 4px;
+	width: 54px;
 }
 
 #provide-more .card-container-3x3 h5 {
