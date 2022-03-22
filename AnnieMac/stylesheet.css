@@ -1775,9 +1775,12 @@ article hr {
 	width: 560px;
 	margin-left: 0 !important;
 }
+#conventional-sides {
+	align-items: center;
+}
 h3#conventional-best {
-		width: 100%;
-	}
+	width: 100%;
+}
 /* div#calculatorsList {
 	width: initial;
 	max-width: initial;
