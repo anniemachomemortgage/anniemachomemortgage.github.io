@@ -176,7 +176,6 @@ nav ul {
 	justify-content: space-between;
 	align-items: center;
 	background: white;
-	width: 740px;
 }
 
 #navigation li a {
@@ -186,6 +185,7 @@ nav ul {
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: 14px;
+	margin: 0 14px;
 }
 
 #navigation li a:hover {
@@ -1026,6 +1026,12 @@ footer {
 	display: none;
 }
 
+@media only screen and (max-width: 1160px) {
+	.secondary-importance {
+		display: none;
+	}
+}
+
 @media only screen and (max-width: 980px) {
 	#mobile-navigation-only {
 		display: block;
@@ -1036,6 +1042,10 @@ footer {
 		font-size: 20px;
 	}
 
+	.secondary-importance {
+		display: initial !important;
+	}
+	
 	#navigation {
 		display: none;
 	}
