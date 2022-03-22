@@ -693,13 +693,13 @@ button a:hover {
 	z-index: 1;
 }
 
-li.review-card-container {
+li.column-layout-3x3 {
 	margin: 65px 30px 30px;
 	width: 25%;
 	min-width: 300px;
 }
 
-.card-review {
+.card-container-3x3 {
 	background: #fff;
 	display: flex;
 	flex-direction: column-reverse;
@@ -708,23 +708,54 @@ li.review-card-container {
 	position: relative;
 }
 
+.card-container-3x3 a:hover {
+	border-bottom: none;
+}
+
 .thumb-container {
 	position: absolute;
 	top: -15px;
 	right: -20px;
-	background: #323232;
+	background: #d00705;
 	width: 45px;
 	height: 45px;
 	display: flex;
 	align-items: center;
 	border-radius: 100%;
 	justify-content: center;
-	font-size: 17px;
+	font-size: 20px;
 	box-shadow: 3px 6px 17px rgba(0, 0, 0, 0.1);
 	color: #fff;
 }
 
-.card-review h5 {
+.thumb-container:hover {
+	background: #111;
+	transform: scale(1.05);
+}
+
+.testimonial-ratings {
+	order: 1;
+}
+
+.testimonial-ratings ul {
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	margin: 30px auto -8px;
+	list-style: none;
+	width: 188px;
+}
+
+.testimonial-ratings ul li {
+	
+}
+
+.testimonial-ratings ul li i, .testimonial-ratings ul li svg {
+	font-size: 25px;
+	color: #f3ca22;
+}
+	
+.card-container-3x3 h5 {
 	color: #fff;
 	font-weight: 700;
 	text-align: center;
@@ -738,11 +769,15 @@ li.review-card-container {
 	letter-spacing: .75px;
 }
 
-li.review-card-container:nth-of-type(even) .card-review h5 {
+h5.calculator-header:hover {
+	color: #d00705 !important;
+}
+
+li.column-layout-3x3:nth-of-type(even) .card-container-3x3 h5 {
 	background: #d00705;
 }
 
-.card-review p {
+.card-container-3x3 p {
 	line-height: 29px;
 	font-weight: 400;
 	padding: 20px 20px 0;
@@ -825,21 +860,21 @@ li.review-card-container:nth-of-type(even) .card-review h5 {
 	margin-bottom: -10px;
 }
 
-#provide-more .card-review {
+#provide-more .card-container-3x3 {
 	flex-direction: column;
 }
 
-#provide-more .card-review h5 {
+#provide-more .card-container-3x3 h5 {
 	margin-bottom: -10px;
 }
 
-#provide-more .card-review p {
-	margin-bottom: 5px;
+#provide-more .card-container-3x3 p {
+	margin-bottom: 25px;
 	min-height: 165px;
 }
 
-#provide-more .card-review h5,
-#provide-more li.review-card-container:nth-of-type(2) .card-review h5 {
+#provide-more .card-container-3x3 h5,
+#provide-more li.column-layout-3x3:nth-of-type(2) .card-container-3x3 h5 {
 	color: initial;
 	background: none;
 	padding: initial;
@@ -867,7 +902,6 @@ li.review-card-container:nth-of-type(even) .card-review h5 {
 	display: flex;
 	width: 100%;
 	justify-content: space-around;
-	margin-top: 20px;
 }
 
 .card-links a {
@@ -907,7 +941,7 @@ li.review-card-container:nth-of-type(even) .card-review h5 {
 	border-radius: 4px;
 }
 
-#provide-more .review-card-container:nth-of-type(3) .card-review .card-links a {
+#provide-more .column-layout-3x3:nth-of-type(3) .card-container-3x3 .card-links a {
 	border-radius: 0 0 4px 4px;
 }
 
@@ -1299,12 +1333,12 @@ footer {
 		flex-direction: column;
 	}
 
-	li.review-card-container {
+	li.column-layout-3x3 {
 		margin: 45px auto 20px;
 		width: 75%;
 	}
 
-	.card-review p {
+	.card-container-3x3 p {
 		text-align: left;
 	}
 
@@ -1360,7 +1394,7 @@ footer {
 		text-align: center;
 	}
 
-	#provide-more .card-review p {
+	#provide-more .card-container-3x3 p {
 		margin-bottom: 15px;
 		min-height: initial;
 	}
