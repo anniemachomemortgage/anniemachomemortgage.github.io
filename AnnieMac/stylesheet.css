@@ -412,7 +412,7 @@ ul.menu.nav {
 	background: #016fa8;
 	border: 3px solid #016fa8;
 }
-.option-listing-go i {
+.option-listing-go i, .option-listing-go svg {
 	display: none;
 }
 #apply-now-sidebar, #prequal-now-sidebar {
@@ -907,7 +907,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 #originator-social-details a:first-of-type {
 	border-top: none;
 }
-#originator-social-details li i {
+#originator-social-details li i, #originator-social-details li svg {
 	display: none;
 }
 .site-type-loan_officer .manager-biography p {
