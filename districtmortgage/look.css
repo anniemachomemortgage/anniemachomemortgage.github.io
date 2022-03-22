@@ -893,7 +893,7 @@ li.column-layout-3x3:nth-of-type(even) .card-container-3x3 h5 {
 	flex-direction: column;
 }
 
-.card-container-3x3 img {
+#about-us-expanded .card-container-3x3 img {
 	margin: 41px auto 4px;
 	width: 54px;
 }
