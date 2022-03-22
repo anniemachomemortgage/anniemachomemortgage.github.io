@@ -832,7 +832,7 @@ li.column-layout-3x3:nth-of-type(even) .card-container-3x3 h5 {
 #about-us-expanded {
 		background: #fff;
 		margin-top: -25px;
-		padding-top: 30px;
+		padding: 60px 0;
 	}
 
 .column-1 {
