@@ -593,7 +593,8 @@ button a:hover {
 #read-more-testimonials:hover,
 .homepage-image-background-section button:hover,
 .full-district-mortgage-input button:hover,
-#get-approved button:hover {
+#get-approved button:hover,
+#form-insert button:hover {
 	background: #2e2c2d !important;
 	border: 3px solid #2e2c2d !important;
 	transform: scale(1.05);
@@ -847,20 +848,20 @@ li.review-card-container:nth-of-type(even) .card-review h5 {
 }
 
 .pagination ul {
-		display: flex;
-		flex-direction: row ;
-		justify-content: space-between;
-		max-width: 1050px;
-		margin: 0 auto;
-		padding: 20px 0;
-		width: 85%;
-		list-style-type: none;
-	}
-	
-	.pagination ul li {
-	  padding: 0;
-	  margin: 0;
-	}
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	max-width: 1050px;
+	margin: 0 auto;
+	padding: 20px 0;
+	width: 85%;
+	list-style-type: none;
+}
+
+.pagination ul li {
+	padding: 0;
+	margin: 0;
+}
 
 .card-links {
 	display: flex;
@@ -936,6 +937,143 @@ li.review-card-container:nth-of-type(even) .card-review h5 {
 	border-radius: 6px;
 }
 
+
+.initial-contacts-container {
+	display: flex;
+	justify-content: space-around;
+	margin: 60px 0 80px;
+}
+
+.initial-contact {
+	background: #fff;
+	display: flex;
+	width: 40%;
+	box-shadow: 3px 6px 17px rgb(0 0 0 / 10%);
+	border-radius: 4px;
+}
+
+.contact-block-type {
+	background: #d00705;
+	width: 139px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-weight: 800;
+	border-radius: 4px 0 0 4px;
+}
+
+.contact-block-type svg {
+	font-size: 45px;
+}
+
+.contact-details {
+	padding: 20px;
+}
+
+.contact-details h5 {
+	margin: 0 0 5px;
+	font-size: 15px;
+	font-weight: 600;
+	color: #d00705;
+}
+
+.contact-details p {
+	font-weight: 500;
+	line-height: 25px;
+	font-size: 15px;
+}
+
+#contact-phone-number p {
+	font-size: 30px;
+	margin-top: 15px;
+	font-weight: 700;
+}
+
+#form-insert {
+	background: #fff;
+	padding: 40px 40px 50px;
+	margin: 60px auto;
+	display: flex;
+	flex-direction: column;
+	border-radius: 3px;
+}
+
+.row-options {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.row-option {
+	width: 48.5%;
+	display: flex;
+	flex-direction: column;
+	margin: 5px 0;
+}
+
+#form-insert label {
+	font-size: 15px;
+	margin: 0 0 0px;
+	color: #000;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#form-insert input[type="text"],
+#form-insert input[type="email"],
+#form-insert input[type="tel"],
+#form-insert select,
+#form-insert textarea {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border: 1px solid #e3e3e3;
+	outline: none;
+	border-radius: 3px;
+	font-size: 17px;
+	font-weight: 400;
+	padding: 15px 16px;
+	letter-spacing: .65px;
+	color: #333;
+	background: #fefefe;
+	margin: 10px 0 26px;
+	min-height: 55px;
+}
+
+#form-insert textarea {
+	min-height: 120px !important;
+}
+
+#form-insert .disclosure {
+	background: #f3f6fb;
+	padding: 20px;
+	margin: 20px 0;
+	border-radius: 4px;
+}
+
+.submit-disclaimer-text {
+	  font-size: 13px;
+	  letter-spacing: .61px;
+	  line-height: 25px;
+	  font-weight: 400;
+	}
+
+#form-insert button {
+	font-weight: 800;
+	margin: 40px auto 10px;
+	display: block;
+	text-transform: uppercase;
+	padding: 20px 25px;
+	margin-top: 30px;
+	min-width: 195px;
+	font-size: 14px;
+	background: #d00705;
+	border: 3px solid #d00705;
+	color: #fff;
+	border-radius: 6px;
+}
 
 footer {
 	background: #2e2c2d;
@@ -1062,7 +1200,7 @@ footer {
 	.secondary-importance {
 		display: initial !important;
 	}
-	
+
 	#navigation {
 		display: none;
 	}

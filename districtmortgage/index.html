@@ -287,11 +287,14 @@
 				</ul>
 			</div>
 		</section>
-		<section id="contact-us" class="sectional">
+		<section id="contact-us" class="alternation sectional">
 			<div class="contain">
+				<h3 class="description-text-header">Contact Us</h3>
+				<h2 id="" class="header-text-h2">Reach Out Today</h2>
 				<div class="initial-contacts-container">
 					<div class="initial-contact">
 						<div class="contact-block-type">
+							<i class="fa-solid fa-map-pin"></i>
 						</div>
 						<div id="contact-address-listing" class="contact-details">
 							<h5>Address</h5>
@@ -301,6 +304,7 @@
 					</div>
 					<div class="initial-contact">
 						<div class="contact-block-type">
+							<i class="fa-solid fa-phone-office"></i>
 						</div>
 						<div id="contact-phone-number" class="contact-details">
 							<h5>Phone</h5>
@@ -310,30 +314,41 @@
 				</div>
 				<section id="form-content">
 					<div class="primary-container">
-						<form action="./lead-sent" method="POST">
+						<form id="form-insert" action="/page/cash-2-keys-thanks">
 							<input type="hidden" id="TargetURL" value="https://anniemac.mortgageiqcrm.com/client">
 							<input type="hidden" id="Filter" value="CostCenter">
-							<input id="leadSource" type="hidden" data-xml-node="LeadSourceId" value="AnnieMacWebsiteContactForm">
+												<input id="leadSource" type="hidden" value="Q6UJ9A1MZAAJ" data-xml-node="LeadSourceId">
 							<input type="hidden" id="Entity" value="PreQual">
-							<input type="hidden" id="UserId" name="UserId" value="U6UJ9A0003CK">
-							<input type="hidden" id="Lead Import" value="true">
+												<input type="hidden" id="Lead Import" value="true">
 							<input type="hidden" id="Notification" value="New Lead">
-							<div class="capture-field-group">
-								<div class="capture-input-field">
-									<label for="name" class="primary-label">Name</label>
-									<input type="name" data-xml-node="BorrowerFullName" name="name">
+							<input type="hidden" id="LeadSourceID" data-xml-node="LeadSourceId" value="">
+							<input type="hidden" id="Picklist" data-custom-map="Select" data-xml-node="Processing.Picklist4" value="">
+							<div class="row-options">
+								<div class="row-option">
+									<label>First Name</label>
+									<input type="text" placeholder="" data-xml-node="FirstName">
 								</div>
-								<div class="capture-input-field">
-									<label for="email-address" class="primary-label">Email</label>
-									<input type="email" data-xml-node="Email" name="email-address">
+								<div class="row-option">
+									<label>Last Name</label>
+									<input type="text" placeholder="" data-xml-node="LastName">
 								</div>
 							</div>
-							<div class="capture-field-group">
-								<div class="capture-input-field">
-									<label for="state" class="primary-label">State</label>
-									<input type="hidden" data-xml-node="State" name="state">
-									<select id="state-selection">
-										<option>select a state from below</option>
+							<div class="row-options">
+								<div class="row-option">
+									<label>Email Address</label>
+									<input type="email" placeholder="" data-xml-node="Email">
+								</div>
+								<div class="row-option">
+									<label>Phone Number</label>
+									<input type="tel" placeholder="" data-xml-node="MobilePhone">
+								</div>
+							</div>
+							<div class="row-options">
+								<div class="row-option">
+									<label>State</label>
+									<input type="hidden" data-xml-node="PropertyState">
+									<select id="property-state-selection" autocomplete="off">
+										<option value="false">Select Option</option>
 										<option value="AL">Alabama</option>
 										<option value="AK">Alaska</option>
 										<option value="AZ">Arizona</option>
@@ -387,9 +402,8 @@
 										<option value="WY">Wyoming</option>
 									</select>
 								</div>
-								<div class="capture-input-field">
-									<label for="phone-number" class="primary-label">Phone</label>
-									<input type="tel" data-xml-node="MobilePhone" name="phone-number" required>
+								<div class="row-option">
+									<input type="hidden" data-xml-node="PropertyState" value="false">
 								</div>
 							</div>
 							<label for="additional-comments" class="primary-label">Add Remarks</label>
@@ -398,20 +412,15 @@
 							<input type="hidden" id="Personals">
 							<input type="hidden" id="Comments" data-xml-node="Comments">
 							<div class="disclosure form-disclosure top-disclosure">
-								<p>By submitting, I am authorizing American Neighborhood Mortgage Acceptance Company, LLC (d/b/a AnnieMac Home Mortgage, LoFiDirect and The Mortgage Company) to deliver telemarketing calls and text messages to my cell phone using an auto-dialer, text message, or a prerecorded message. I also understand that I am not required to provide this authorization as a condition to doing business with American Neighborhood Mortgage Acceptance Company, LLC (d/b/a AnnieMac Home Mortgage, LoFiDirect and The Mortgage Company). Standard text message calling rates will apply.</p>
+								<p class="submit-disclaimer-text">By submitting, I am authorizing American Neighborhood Mortgage Acceptance Company, LLC (d/b/a AnnieMac Home Mortgage, LoFiDirect and The Mortgage Company) to deliver telemarketing calls and text messages to my cell phone using an auto-dialer, text message, or a prerecorded message. I also understand that I am not required to provide this authorization as a condition to doing business with American Neighborhood Mortgage Acceptance Company, LLC (d/b/a AnnieMac Home Mortgage, LoFiDirect and The Mortgage Company). Standard text message calling rates will apply.</p>
 							</div>
-							<div id="submit-overlay">
-								<div id="submit-overlayment">
-									<h4>Please complete the form above before attempting to submit.</h4>
-								</div>
-
-								<button data-qlf-submit="" id="toggle-captcha" class="g-recaptcha" data-sitekey="6LdDJPoUAAAAAMi9pjPYdfetUKDQk4AIRE4UdSL6" data-callback="onSubmit" data-action="submit">Submit</button>
-
-							</div>
+							<button data-qlf-submit="" id="toggle-captcha" class="g-recaptcha" data-sitekey="6LdDJPoUAAAAAMi9pjPYdfetUKDQk4AIRE4UdSL6" data-callback="onSubmit" data-action="submit">Submit</button>
 							<script src='https://anniemac.mortgageiqcrm.com/client/Libraries/MortgageIQ/jscript/qlf.core.js'></script>
 						</form>
 					</div>
 				</section>
+			</div>
+		</section>
 				<section id="calculator-listing" class="sectional">
 					<div class="contain">
 						<div class="calculator-primary-note-section">
