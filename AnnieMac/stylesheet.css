@@ -1747,7 +1747,7 @@ article hr {
 	padding-top: 5px;
 }
 .extended-image-content {
-	width: 155px !important;
+	min-width: 155px !important;
 }
 .list-element-image {
 	width: 50px;
