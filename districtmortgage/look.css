@@ -812,6 +812,8 @@ li.column-layout-3x3:nth-of-type(even) .card-container-3x3 h5 {
 	display: flex;
 	flex-direction: column;
 	width: 73%;
+	align-items: flex-end;
+	justify-content: flex-end;
 }
 
 .sub-with-image svg {
@@ -854,12 +856,12 @@ li.column-layout-3x3:nth-of-type(even) .card-container-3x3 h5 {
 
 #about-us .column-1 {
 	background: #feeff0;
-	justify-content: center;
+	justify-content: flex-end;
 	align-items: center;
 }
 
 #about-us .column-1 img {
-	border-radius: 12px;
+	border-radius: 12px 12px 0 0;
 }
 
 #about-us .column-2 {
@@ -875,9 +877,9 @@ li.column-layout-3x3:nth-of-type(even) .card-container-3x3 h5 {
 }
 
 .column-1 img {
-	width: 100%;
+	width: 510px;
 	align-self: flex-end;
-	border-radius: 5px 0 0 0;
+	justify-self: flex-end;
 }
 
 .column-2 {
@@ -1297,8 +1299,8 @@ footer {
 
 .process-image-symbol {
 	position: absolute;
-	background: #d00705;
-	right: 0;
+	background: #fff;
+	right: -20px;
 	top: 29%;
 	width: 75px;
 	height: 70px;
@@ -1306,7 +1308,9 @@ footer {
 	align-items: center;
 	justify-content: center;
 	font-size: 32px;
-	color: #fff;
+	color: #d00705;
+	border: 6px solid #d00705;
+	border-radius: 4px;
 }
 
 .process-step-header-image img {
@@ -1316,23 +1320,26 @@ footer {
 
 .process-step-header {
 	background: #f3f6fa;
-	padding: 5px 20px;
+	padding: 5px 44px;
 	flex: 1;
 	border-left: 10px solid #d00705;
 	border-radius: 0 4px 4px 0;
+	align-items: center;
 }
 
 .process-step-header h5 {
 	color: #d00705;
 	font-weight: 500;
-	font-size: 17px;
+	font-size: 20px;
+	margin-top: 36px;
+	text-transform: uppercase;
 }
 
 .process-step-header h3 {
-	margin-bottom: 23px;
 	text-transform: uppercase;
 	font-size: 29px;
 	letter-spacing: 2px;
+	margin-top: 10px;
 }
 
 .process-step-body-container {
