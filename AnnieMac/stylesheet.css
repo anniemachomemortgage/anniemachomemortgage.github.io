@@ -1752,6 +1752,10 @@ article hr {
 	width: 50px;
 	height: auto;
 }
+.extended-image {
+	width: 118px !important;
+	margin-right: 30px;
+}
 .list-element-content h5 {
 	margin-bottom: 10px !important;
 }
