@@ -1734,8 +1734,6 @@ article hr {
 	margin-bottom: 10px;
 	margin-top: 0;
 }
-
-
 .list-element-inner-container {
 	display: flex;
 	align-items: flex-start;
@@ -1747,6 +1745,9 @@ article hr {
 .list-element-image-content {
 	min-width: 75px;
 	padding-top: 5px;
+}
+.extended-image-content {
+	width: 155px !important;
 }
 .list-element-image {
 	width: 50px;
