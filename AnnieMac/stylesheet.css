@@ -2193,3 +2193,9 @@ html {
 .team-member-section.branches-other-team {
 	justify-content: center !important;
 }
+
+#nmg-insertion-point {
+	z-index: 1;
+	margin-top: -151px;
+	background: #fff;
+}
