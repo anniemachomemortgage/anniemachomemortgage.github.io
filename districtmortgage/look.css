@@ -1601,8 +1601,8 @@ font-size: 18px;
 	.column-1 img {
 		width: auto;
 		align-self: center;
-		border-radius: 5px 5px 0 0;
 		height: 300px;
+		border-radius: 12px 12px 0 0;
 		margin-top: 30px;
 	}
 
@@ -1768,6 +1768,23 @@ font-size: 18px;
 	}
 	#form-insert {
 		padding: 40px 20px 50px;
+		margin: 60px auto 0;
+	}
+	#about-us-expanded #provide-more .card-container-3x3 {
+		box-shadow: none;
+		margin: 0 auto !important;
+		padding: 20px 0 0;
+	}
+	#about-us-expanded #provide-more .column-layout-3x3 {
+		margin: 0 auto;
+	}
+	#about-us-expanded #provide-more {
+		margin: 0;
+	}
+	.containing-calculator-types {
+		margin-top: 10px;
+	}
+	.disclaimation-block {
 		margin: 60px auto 0;
 	}
 	.process-step-header {
