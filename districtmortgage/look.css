@@ -206,14 +206,17 @@ nav ul {
 }
 
 #apply-navigation-bar {
-	border-radius: 5px;
 	outline: none;
-	padding: 5px 30px;
 	width: fit-content;
 	background: #d00705;
 	border: 3px solid #d00705;
 	color: #fff;
 	font-weight: 700;
+	border-radius: 3px;
+	padding: 10px 25px;
+	text-transform: uppercase;
+	font-size: 15px;
+	letter-spacing: .05em;
 }
 
 #apply-navigation-bar a {
@@ -259,7 +262,7 @@ button {
 	border: 3px solid #d00705;
 	outline: none;
 	padding: 13px 15px;
-	border-radius: ;
+	border-radius: 3px;
 	font-size: inherit;
 	font-weight: 600;
 	letter-spacing: .05em;
@@ -384,7 +387,7 @@ main {
 	background: #d00705;
 	border: 3px solid #d00705;
 	color: #fff;
-	border-radius: 6px;
+	border-radius: 3px;
 }
 
 .contained-option button a {
@@ -916,7 +919,7 @@ li.column-layout-3x3:nth-of-type(even) .card-container-3x3 h5 {
 
 .column-2-content h2 {
 	text-align: left;
-	line-height: 43px;
+	line-height: 51px;
 }
 
 .column-2-content p {
@@ -953,6 +956,7 @@ li.column-layout-3x3:nth-of-type(even) .card-container-3x3 h5 {
 	padding: initial;
 	letter-spacing: 0.85px;
 	font-weight: 600;
+	font-size: 21px;
 }
 
 .pagination ul {
@@ -1041,7 +1045,7 @@ li.column-layout-3x3:nth-of-type(even) .card-container-3x3 h5 {
 	background: #323232;
 	border: 3px solid #323232;
 	color: #fff;
-	border-radius: 6px;
+	border-radius: 3px;
 }
 
 
@@ -1056,7 +1060,7 @@ li.column-layout-3x3:nth-of-type(even) .card-container-3x3 h5 {
 	display: flex;
 	width: 40%;
 	box-shadow: 3px 6px 17px rgb(0 0 0 / 10%);
-	border-radius: 4px;
+	border-radius: 3px;
 }
 
 .contact-block-type {
@@ -1067,7 +1071,7 @@ li.column-layout-3x3:nth-of-type(even) .card-container-3x3 h5 {
 	align-items: center;
 	color: #fff;
 	font-weight: 800;
-	border-radius: 4px 0 0 4px;
+	border-radius: 3px 0 0 3px;
 }
 
 .contact-block-type svg {
