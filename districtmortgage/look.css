@@ -851,7 +851,7 @@ li.column-layout-3x3:nth-of-type(even) .card-container-3x3 h5 {
 
 #about-us-expanded {
 	background: #fff;
-	margin-top: -25px;
+	margin-top: -115px;
 	padding: 60px 50px;
 }
 
@@ -867,7 +867,7 @@ li.column-layout-3x3:nth-of-type(even) .card-container-3x3 h5 {
 
 #about-us .two-columnul {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	width: 100%;
 	justify-content: space-between;
 }
@@ -1118,13 +1118,13 @@ li.column-layout-3x3:nth-of-type(even) .card-container-3x3 h5 {
 
 .row-options {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 }
 
 .row-option {
-	width: 48.5%;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	margin: 5px 0;
@@ -1560,10 +1560,6 @@ font-size: 18px;
 		width: 100%;
 	}
 
-	.card-container-3x3 p {
-		text-align: left;
-	}
-
 	.two-columnul {
 		flex-direction: column;
 	}
@@ -1634,6 +1630,17 @@ font-size: 18px;
 		margin-top: 10px;
 		padding-top: 25px;
 	}
+	
+	.initial-contacts-container {
+		flex-direction: column;
+		justify-content: space-between;
+		height: 280px;
+	}
+	
+	.initial-contacts-container .initial-contact {
+		width: 100%;
+		min-height: 128px;
+	}
 
 	#provide-more .card-container-3x3 p {
 		margin-bottom: 50px;
@@ -1643,6 +1650,12 @@ font-size: 18px;
 	.statistics-grid {
 		flex-direction: row !important;
 		flex-wrap: wrap;
+	}
+	
+	section#visual-divider.review-section-callouts .statistics-grid {
+		flex-direction: column !important;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.statistics-grid div {
