@@ -1766,6 +1766,9 @@ font-size: 18px;
 	#loan-process-timeline {
 		margin: 45px 0 20px;
 	}
+	#form-insert {
+		padding: 40px 20px 50px;
+	}
 	.process-step-header {
 		border-top: 5px solid #d00705;
 		border-left: 0;
