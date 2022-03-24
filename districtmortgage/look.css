@@ -1730,6 +1730,17 @@ font-size: 18px;
 }
 
 @media only screen and (max-width: 650px) {
+	#mobile-navigation-only {
+		left: 15px;
+	}
+	h6#sub-headline {
+		font-size: 20px;
+		margin-top: -40px;
+	}
+	h1#headline {
+		font-size: 45px;
+		line-height: 53px;
+	}
 	.header-text-h2 {
 		line-height: 48px;
 	}
@@ -1740,10 +1751,21 @@ font-size: 18px;
 	.process-step-header-image {
 		display: none;
 	}
+	#loan-process-timeline {
+		margin: 45px 0 20px;
+	}
 	.process-step-header {
 		border-top: 5px solid #d00705;
 		border-left: 0;
 		padding: 5px 20px;
+	}
+	.process-step-of-loan {
+		width: 100%;
+		min-height: 0;
+		margin: 8px 0;
+	}
+	.process-step-of-loan+.process-step-of-loan::after {
+		background-image: none;
 	}
 	.process-step-header h5 {
 		margin-top: 10px;
