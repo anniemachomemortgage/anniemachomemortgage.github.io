@@ -102,6 +102,8 @@ ul,
 li {
 	line-height: 30px;
 	margin: 0;
+	font-weight: 400;
+	font-size: 15px;
 }
 
 header {
@@ -819,9 +821,7 @@ li.column-layout-3x3:nth-of-type(even) .card-container-3x3 h5 {
 
 .card-container-3x3 p {
 	line-height: 29px;
-	font-weight: 400;
 	padding: 20px 20px 0;
-	font-size: 15px;
 	text-align: center;
 	color: #575656;
 }
@@ -852,7 +852,7 @@ li.column-layout-3x3:nth-of-type(even) .card-container-3x3 h5 {
 #about-us-expanded {
 	background: #fff;
 	margin-top: -25px;
-	padding: 60px 0;
+	padding: 60px 50px;
 }
 
 .column-1 {
@@ -1227,9 +1227,7 @@ footer {
 
 #footer-with-logo p {
 	color: #fff;
-	font-size: 15px;
 	line-height: 23px;
-	font-weight: 200;
 }
 
 .telephone-footer-link {
@@ -1432,6 +1430,18 @@ font-size: 18px;
 @media only screen and (max-width: 1250px) {
 	.secondary-importance {
 		display: none;
+	}
+	.selection-container {
+		width: 96%;
+		min-width: initial;
+		max-width: initial;
+	}
+	.reviews-and-statements {
+		justify-content: flex-start;
+	}
+	li.column-layout-3x3 {
+		width: 44%;
+		margin: 50px 30px 0;
 	}
 }
 
