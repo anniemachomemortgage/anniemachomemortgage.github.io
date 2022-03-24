@@ -232,10 +232,10 @@ nav ul {
 }
 
 h1#headline {
-	line-height: 82px;
+	line-height: 90px;
 	color: #fff;
 	font-size: 81px;
-	font-weight: 400;
+	font-weight: 600;
 	text-transform: uppercase;
 	width: 651px;
 	margin: 50px auto;
@@ -245,12 +245,12 @@ h2#sub-headline {
 	font-size: 24px;
 	text-align: center;
 	color: #fff;
-	font-weight: 600;
-	border-bottom: 1px solid;
+	font-weight: 200;
+	/* border-bottom: 1px solid; */
 	display: inline-block;
 	width: 260px;
 	margin: 0 auto;
-	letter-spacing: 2.6px;
+	letter-spacing: 0.6px;
 }
 
 button {
@@ -1259,7 +1259,9 @@ footer {
 
 .footer-main-container ul li ul li a {
 	color: inherit;
-	font-weight: 200;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 31px;
 }
 
 .footer-main-container ul li ul li a:hover {
@@ -1341,16 +1343,16 @@ footer {
 
 .process-step-header h5 {
 	color: #d00705;
-	font-weight: 500;
-	font-size: 20px;
+	font-weight: 600;
+	font-size: 16px;
 	margin-top: 36px;
 	text-transform: uppercase;
 }
 
 .process-step-header h3 {
 	text-transform: uppercase;
-	font-size: 35px;
-	letter-spacing: 2px;
+	font-size: 30px;
+	letter-spacing: 1px;
 	margin-top: 10px;
 }
 
