@@ -163,7 +163,7 @@ logo img:hover,
 }
 
 .header-content:last-of-type {
-	padding-bottom: 53px;
+	padding-bottom: 30px;
 }
 
 .headercontain {
@@ -1503,7 +1503,7 @@ font-size: 18px;
 	h1#headline {
 		font-size: 59px;
 		margin: 20px auto 40px;
-		width: 100%;
+		width: 75%;
 	}
 
 	header .button-containers {
@@ -1511,6 +1511,7 @@ font-size: 18px;
 		height: 175px;
 		flex-direction: column;
 		margin-bottom: 100px !important;
+		padding-bottom: 30px;
 	}
 
 	.button-containers button {
@@ -1556,7 +1557,7 @@ font-size: 18px;
 
 	li.column-layout-3x3 {
 		margin: 45px auto 20px;
-		width: 75%;
+		width: 100%;
 	}
 
 	.card-container-3x3 p {
@@ -1569,7 +1570,7 @@ font-size: 18px;
 
 	.sub-column {
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		width: 100%;
 		justify-content: space-between;
 		align-items: center;
@@ -1590,9 +1591,10 @@ font-size: 18px;
 
 	.column-1 img {
 		width: auto;
-		align-self: flex-end;
-		border-radius: 0;
+		align-self: center;
+		border-radius: 5px 5px 0 0;
 		height: 300px;
+		margin-top: 30px;
 	}
 
 	.column-2 {
@@ -1614,9 +1616,27 @@ font-size: 18px;
 	.column-2-content h2 {
 		text-align: center;
 	}
+	
+	.process-step-body-container {
+		flex-direction: column;
+	}
+	
+	.process-step-header h3 {
+		font-size: 24px;
+	}
+	
+	.process-step-keys {
+		width: 100%;
+		margin-left: 0;
+		padding-left: 0;
+		border-left: 0;
+		border-top: 1px solid rgba(0, 0, 0, .1);
+		margin-top: 10px;
+		padding-top: 25px;
+	}
 
 	#provide-more .card-container-3x3 p {
-		margin-bottom: 15px;
+		margin-bottom: 50px;
 		min-height: initial;
 	}
 
