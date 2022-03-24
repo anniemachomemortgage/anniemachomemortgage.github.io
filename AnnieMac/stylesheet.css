@@ -573,7 +573,7 @@ footer #sitemap #list_12564 {
 	display: none;
 }
 .site-type-team #branch-banner {
-	height: 460px;
+	min-height: 370px !important;
 }
 .site-type-team #team-display {
 	margin-top: -100px;
