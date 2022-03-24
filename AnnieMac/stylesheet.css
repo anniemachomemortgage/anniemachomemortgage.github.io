@@ -4,12 +4,12 @@ p {
 	line-height: 33px;
 	font-weight: 300;
 }
-.site-type-team section#branch-welcome, .site-type-team section#text-based-branch {
+/* .site-type-team section#branch-welcome, .site-type-team section#text-based-branch {
 	display: none;
-}
-.site-type-team > .main-content {
+} */
+/* .site-type-team > .main-content {
 	background: #fff;
-}
+} */
 #flash-message {
   display: none !important;
 }
@@ -2188,4 +2188,8 @@ body {
 html {
 	background: #f1f1f1;
 	overflow-x: hidden !important;
+}
+
+.team-member-section.branches-other-team {
+	justify-content: center !important;
 }
