@@ -1757,6 +1757,9 @@ font-size: 18px;
 		line-height: 40px;
 		width: 300px;
 	}
+	#what-people-say-about-us .pagination {
+		display: none !important;
+	}
 	.process-step-header-image {
 		display: none;
 	}
