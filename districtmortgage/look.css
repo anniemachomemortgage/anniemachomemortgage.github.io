@@ -1452,7 +1452,7 @@ font-size: 18px;
 		margin-right: 50px;
 		position: absolute;
 		top: 31%;
-		left: 26px;
+		right: -10px;
 		font-size: 24px;
 	}
 
@@ -1499,6 +1499,7 @@ font-size: 18px;
 
 	#apply-navigation-bar {
 		padding: 5px 20px;
+		margin-right: 34px;
 	}
 
 	h1#headline {
