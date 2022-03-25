@@ -305,6 +305,15 @@ $(function() {
 		$('<div style="font-weight: 600;">AnnieMac Home Mortgage is not endorsed or sponsored by the United State Department of Veterans Affairs or any government agency.</span>').appendTo( $( "#biography .manager-biography" ) );
 	}
 	if (window.location.href.indexOf("miamilakes") != -1) {
+		var teamMemberReassignedBranchManager = ['#julianabotero'];
+		for (i = 0; i < teamMemberReassignedBranchManager.length; i++) {
+			$(teamMemberReassignedBranchManager[i]).removeClass("manager-information");
+			$(teamMemberReassignedBranchManager[i]).addClass("team-member");
+			$(teamMemberReassignedBranchManager[i]).prependTo("#team-display > div:nth-child(5)");
+		}
+		$("#team-display > h3:nth-child(2)").remove();
+		$("#branch-managers").remove();
+		$( '<div class="team-member" id="nicolasduque"><div id="" class="team-member-information"><a class="loan-officer-h4-link" href="https://nicolasduque.annie-mac.com"><h4>Nicolas Duque</h4></a><h5>Mortgage Loan Originator</h5><h5>NMLS: 839110</h5><a href="https://nicolasduque.annie-mac.com"><div id="" class="team-member-portrait" style="background: url(/uploads/sites/10713/public/NicolasDuque.jpeg); background-size: cover; background-position: center center; background-repeat: no-repeat;"></div></a><button class="go flex space-between align-center loan-officer-apply-link"><a href="https://nicolasduque.annie-mac.com/loan/apply" class="btn button-main ">Apply Now</a><button class="flex space-between align-center loan-officer-phone">(786) 651-2144 <i class="fas fa-mobile-alt"></i></button><button class="flex space-between align-center"><a href="mailto: nduque@annie-mac.com">Email Me</a><i class="fas fa-envelope"></i></button></div></div>').appendTo( $( "#team-display > div:nth-child(3)" ) );
 		$( '<h3 class="text-center">Loan Partners</h3><div id="" class="team-member-section"><div class="team-member" id="carolinaramos"><div id="" class="team-member-information"><h4>Carolina Ramos</h4><h5>Loan Partner</h5><h5></h5><div id="" class="team-member-portrait"></div><button class="flex space-between align-center">786-206-7473 <i class="fas fa-mobile-alt"></i></button><button class="flex space-between align-center"><a href="mailto: CRamos@Annie-Mac.com">Email Me</a><i class="fas fa-envelope"></i></button></div></div></div>' ).appendTo( $( "#team-display" ) );
 	}
 	if (window.location.href.indexOf("brooklyn") != -1) {
