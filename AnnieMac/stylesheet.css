@@ -254,11 +254,11 @@ footer #copyrights p {
 	text-transform: initial;
 	margin-bottom: 22px;
 }
-footer #social-media {
+/* footer #social-media {
 	display: none;
 	height: 0px;
 	width: 0px;
-}
+} */
 .footer-directory-listing p {
   line-height: 13px;
   font-size: 14px;
