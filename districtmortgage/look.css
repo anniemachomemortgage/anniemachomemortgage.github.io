@@ -1740,9 +1740,6 @@ font-size: 18px;
 	.header-content:last-of-type {
 		padding-bottom: 0px;
 	}
-	#mobile-navigation-only {
-		left: 15px;
-	}
 	h6#sub-headline {
 		font-size: 20px;
 		margin-top: -40px;
