@@ -1063,7 +1063,7 @@ html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inne
 }
 
 .site-type-loan_officer .branch-manager-section {
-	width: initial;
+	width: 100%;
 }
 .product-selectable {
 	margin-bottom: 45px;
