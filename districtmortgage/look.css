@@ -1452,7 +1452,7 @@ font-size: 18px;
 		margin-right: 50px;
 		position: absolute;
 		top: 31%;
-		right: -25px;
+		right: -27.5px;
 		font-size: 24px;
 	}
 
@@ -1495,6 +1495,10 @@ font-size: 18px;
 	logo {
 		flex: 1;
 		margin-left: 10px;
+	}
+	
+	#district-mortgage-mobile {
+		margin-left: -15px;
 	}
 
 	#apply-navigation-bar {
