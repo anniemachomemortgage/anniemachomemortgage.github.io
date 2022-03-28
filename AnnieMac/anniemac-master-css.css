@@ -2450,17 +2450,9 @@ select {
 	margin-bottom: 50px;
 }
 
-#branch-content {
-	z-index: 1;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin-top: 20px;
-}
-
 #branch-content h1, #branch-content h2, #branch-content h3, #branch-content h4, #branch-content h5, #branch-content svg {
 	color: white;
+	text-align: center;
 }
 
 #branch-content h2 {line-height: 71px;margin: auto;color: #fff;font-size: 42px;font-weight: 700;}
