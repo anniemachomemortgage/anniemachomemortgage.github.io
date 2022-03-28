@@ -1,5 +1,6 @@
 $(function() {
 	// Is this even updating?
+	
 	console.log("Scriptbook Loaded");
 	$('#navigation-menu ul li ul').addClass('sub-menu-links');
 	$("#side-bar-navigation-toggle").click(function () {
