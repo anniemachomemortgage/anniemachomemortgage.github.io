@@ -113,7 +113,7 @@ a,
 input,
 textarea,
 select {
-	font-family: proxima-nova, sans-serif;
+	font-family: 'proxima-nova', Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 header {
@@ -472,7 +472,7 @@ button a:hover {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-family: 'proxima-nova', sans-serif;
+	font-family: 'proxima-nova', Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .description-text-header::after {
@@ -1364,7 +1364,7 @@ footer {
 	font-size: 16px;
 	margin-top: 36px;
 	text-transform: uppercase;
-	font-family: 'proxima-nova', sans-serif;
+	font-family: 'proxima-nova', Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .process-step-header h3 {
@@ -1382,8 +1382,6 @@ footer {
 
 .process-step-outline {
 	flex: 1;
-
-
 }
 
 .process-step-outline p {
@@ -1392,7 +1390,7 @@ footer {
 }
 
 .process-step-outline small {
-	font-family: 'proxima-nova', sans-serif;
+	font-family: 'proxima-nova', Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	font-size: inherit;
 }
