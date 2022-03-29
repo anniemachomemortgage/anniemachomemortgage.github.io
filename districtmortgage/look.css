@@ -1392,8 +1392,9 @@ footer {
 }
 
 .process-step-outline small {
-	font-size: inherit;
+	font-family: 'proxima-nova', sans-serif;
 	font-weight: 400;
+	font-size: inherit;
 }
 
 .process-step-outline small ul {
