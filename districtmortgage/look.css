@@ -467,11 +467,12 @@ button a:hover {
 	font-size: 18px;
 	letter-spacing: 2.5px;
 	color: #d00705;
-	font-weight: 500;
+	font-weight: 600;
 	margin-top: -10px !important;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	font-family: 'proxima-nova', sans-serif;
 }
 
 .description-text-header::after {
@@ -1363,6 +1364,7 @@ footer {
 	font-size: 16px;
 	margin-top: 36px;
 	text-transform: uppercase;
+	font-family: 'proxima-nova', sans-serif;
 }
 
 .process-step-header h3 {
