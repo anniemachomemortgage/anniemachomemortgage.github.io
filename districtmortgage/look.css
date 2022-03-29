@@ -103,7 +103,17 @@ li {
 	line-height: 30px;
 	margin: 0;
 	font-weight: 400;
-	font-size: 15px;
+	font-size: 16px;
+}
+
+p,
+ul,
+li,
+a,
+input,
+textarea,
+select {
+	font-family: proxima-nova, sans-serif;
 }
 
 header {
@@ -925,7 +935,7 @@ li.column-layout-3x3:nth-of-type(even) .card-container-3x3 h5 {
 .column-2-content p {
 	line-height: 29px;
 	font-weight: 400;
-	font-size: 15px;
+	font-size: 16px;
 	color: #575656;
 	margin-top: 25px;
 	margin-bottom: -10px;
