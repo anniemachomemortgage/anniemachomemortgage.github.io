@@ -1689,6 +1689,12 @@ div li {
 	box-shadow: 1px 3px 5px rgba(0, 0, 0, .13);
 }
 
+
+.apply-with-team-member button a {
+	color: inherit;
+	text-decoration: none;
+}
+
 #toggle-to-conventional button,
 #toggle-to-jumbo button,
 #toggle-to-fha button,
