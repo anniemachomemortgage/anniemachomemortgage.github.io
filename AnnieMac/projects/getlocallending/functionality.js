@@ -252,6 +252,26 @@ $(document).ready(function() {
 			}, 600);
 		}
 	});
+	$("#footer-toggle-jumbo").click(function(event) {
+		$("#index_only").addClass('hidden');
+		$("#loan-products-section-display").removeClass('hidden');
+		$('#conventional-toggled').hide();
+		$('#jumbo-toggled').show();
+		$('#fha-toggled').hide();
+		$('#va-toggled').hide();
+		$('#usda-toggled').hide();
+		$('#refinance-toggled').hide();
+		if (window.matchMedia('(min-width: 1047px)').matches) {
+			$("html, body").animate({
+				scrollTop: 840
+			}, 600);
+		}
+		if (window.matchMedia('(max-width: 1046px)').matches) {
+			$("html, body").animate({
+				scrollTop: 1620
+			}, 600);
+		}
+	});
 	$("#footer-toggle-va").click(function(event) {
 		$("#index_only").addClass('hidden');
 		$("#loan-products-section-display").removeClass('hidden');
