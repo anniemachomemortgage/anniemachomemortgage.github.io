@@ -186,6 +186,15 @@ $(document).ready(function() {
 	});
 	$("#button-to-conventional").click(function(event) {
 		$('#conventional-toggled').show();
+		$('#jumbo-toggled').hide();
+		$('#fha-toggled').hide();
+		$('#va-toggled').hide();
+		$('#usda-toggled').hide();
+		$('#refinance-toggled').hide();
+	});
+	$("#button-to-jumbo").click(function(event) {
+		$('#conventional-toggled').hide();
+		$('#jumbo-toggled').show();
 		$('#fha-toggled').hide();
 		$('#va-toggled').hide();
 		$('#usda-toggled').hide();
@@ -193,6 +202,7 @@ $(document).ready(function() {
 	});
 	$("#button-to-fha").click(function(event) {
 		$('#conventional-toggled').hide();
+		$('#jumbo-toggled').hide();
 		$('#fha-toggled').show();
 		$('#va-toggled').hide();
 		$('#usda-toggled').hide();
@@ -200,6 +210,7 @@ $(document).ready(function() {
 	});
 	$("#button-to-va").click(function(event) {
 		$('#conventional-toggled').hide();
+		$('#jumbo-toggled').hide();
 		$('#fha-toggled').hide();
 		$('#va-toggled').show();
 		$('#usda-toggled').hide();
@@ -207,6 +218,7 @@ $(document).ready(function() {
 	});
 	$("#button-to-usda").click(function(event) {
 		$('#conventional-toggled').hide();
+		$('#jumbo-toggled').hide();
 		$('#fha-toggled').hide();
 		$('#va-toggled').hide();
 		$('#usda-toggled').show();
@@ -214,6 +226,7 @@ $(document).ready(function() {
 	});
 	$("#button-to-refinance").click(function(event) {
 		$('#conventional-toggled').hide();
+		$('#jumbo-toggled').hide();
 		$('#fha-toggled').hide();
 		$('#va-toggled').hide();
 		$('#usda-toggled').hide();
@@ -223,6 +236,7 @@ $(document).ready(function() {
 		$("#index_only").addClass('hidden');
 		$("#loan-products-section-display").removeClass('hidden');
 		$('#conventional-toggled').show();
+		$('#jumbo-toggled').hide();
 		$('#fha-toggled').hide();
 		$('#va-toggled').hide();
 		$('#usda-toggled').hide();
@@ -242,6 +256,7 @@ $(document).ready(function() {
 		$("#index_only").addClass('hidden');
 		$("#loan-products-section-display").removeClass('hidden');
 		$('#conventional-toggled').hide();
+		$('#jumbo-toggled').hide();
 		$('#fha-toggled').hide();
 		$('#va-toggled').show();
 		$('#usda-toggled').hide();
@@ -261,6 +276,7 @@ $(document).ready(function() {
 		$("#index_only").addClass('hidden');
 		$("#loan-products-section-display").removeClass('hidden');
 		$('#conventional-toggled').hide();
+		$('#jumbo-toggled').hide();
 		$('#fha-toggled').hide();
 		$('#va-toggled').hide();
 		$('#usda-toggled').show();
@@ -280,6 +296,7 @@ $(document).ready(function() {
 		$("#index_only").addClass('hidden');
 		$("#loan-products-section-display").removeClass('hidden');
 		$('#conventional-toggled').hide();
+		$('#jumbo-toggled').hide();
 		$('#fha-toggled').show();
 		$('#va-toggled').hide();
 		$('#usda-toggled').hide();
@@ -299,6 +316,7 @@ $(document).ready(function() {
 		$("#index_only").addClass('hidden');
 		$("#loan-products-section-display").removeClass('hidden');
 		$('#conventional-toggled').hide();
+		$('#jumbo-toggled').hide();
 		$('#fha-toggled').hide();
 		$('#va-toggled').hide();
 		$('#usda-toggled').hide();

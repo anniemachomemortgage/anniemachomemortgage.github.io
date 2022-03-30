@@ -71,7 +71,7 @@ p#footer-branchlo-address {
 	width: 100%;
 	font-weight: 800;
 	text-align: center;
-}
+line-height: 30px;}
 .footer-directory-listing {
 	display: flex;
 	flex-wrap: wrap;
@@ -250,7 +250,7 @@ footer #copyrights ul {
 	width: 400px;
 }
 footer #copyrights p {
-	line-height: 3px;
+	
 	font-size: 15px;
 	text-transform: initial;
 	margin-bottom: 22px;
