@@ -1690,6 +1690,7 @@ div li {
 }
 
 #toggle-to-conventional button,
+#toggle-to-jumbo button,
 #toggle-to-fha button,
 #toggle-to-va button,
 #toggle-to-usda button,
@@ -1710,6 +1711,7 @@ div li {
 
 .apply-with-team-member button:hover,
 #toggle-to-conventional button:hover,
+#toggle-to-jumbo button:hover,
 #toggle-to-fha button:hover,
 #toggle-to-va button:hover,
 #toggle-to-usda button:hover,
