@@ -33,6 +33,10 @@
 	--biggreen: #6BB747;
 }
 
+.front {
+	opacity: 1 !important;
+}
+
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
