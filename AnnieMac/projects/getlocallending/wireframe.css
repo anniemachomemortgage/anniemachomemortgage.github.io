@@ -34,6 +34,7 @@
 }
 
 .front {
+	max-height: initial !important;
 	opacity: 1 !important;
 }
 
