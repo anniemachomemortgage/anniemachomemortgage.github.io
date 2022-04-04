@@ -215,7 +215,7 @@ $(function() {
 			$( dropnumber ).prependTo( $( "#list_12148" ) );
 		}
 		if (window.location.href.indexOf("lofidirect.com") > -1) {
-			var dropbanner = '<div id="inserted-banner"><div class="container-section"><h3>' + loanoriginatorname + '<span>' + loanoriginatornmls + '</span></h3><div id="button-container-home" class="container-section"><a href="/testimonial">Testimonials</a><div id="mobile-apply"><a href="/loan/apply" id="loan-officer-header-apply">Apply Now</a></div><div id="mobile-call"><a href="tel:' + loanoriginatornumber + '" id="loan-officer-header-call">Call Now</a></div></div></div></div>';
+			var dropbanner = '<div id="inserted-banner"><div class="container-section"><h3>' + loanoriginatorname + '<span>NMLS:' + loanoriginatornmls + '</span></h3><div id="button-container-home" class="container-section"><a href="/testimonial">Testimonials</a><div id="mobile-apply"><a href="/loan/apply" id="loan-officer-header-apply">Apply Now</a></div><div id="mobile-call"><a href="tel:' + loanoriginatornumber + '" id="loan-officer-header-call">Call Now</a></div></div></div></div>';
 			$(dropbanner).insertBefore( $( "#lofidirect-loan-officer" ) );
 			var dropnumber = '<a href="tel:' + loanoriginatornumber + '" target="_self" rel="noreferrer noopener" style="margin-right: 5px; background: #8c8c8c;">Call Me</a>'
 			$( dropnumber ).prependTo( $( "#list_12170" ) );
@@ -1195,7 +1195,7 @@ $(function() {
 			}
 		};
 	};
-	if ((window.location.href.indexOf("burlington.annie-mac.com") != -1)) {
+	if ((window.location.href.indexOf("burlington") != -1)) {
 		if ($('body').hasClass('front')) {
 			$("head > link:nth-child(11)").remove();
 			$("#am-css").remove();
