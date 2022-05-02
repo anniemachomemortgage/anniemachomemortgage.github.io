@@ -1319,7 +1319,7 @@ footer {
 .process-step-header-container {
 	display: flex;
 	flex: 1;
-}
+border-bottom: 1px solid rgba(0, 0, 0, .1);}
 
 .process-step-header-image {
 	position: relative;
@@ -1345,11 +1345,11 @@ footer {
 }
 
 .process-step-header {
-	background: #f9f9f9;
+	/* background: #f9f9f9; */
 	padding: 5px 44px;
 	flex: 1;
 	border-left: 10px solid var(--secondary);
-	align-items: center;
+	align-items: flex-end;
 }
 
 .process-step-header h5 {
