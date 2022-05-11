@@ -400,7 +400,7 @@ footer {
 	border-bottom: none;
 	text-decoration: none;
 }
-.sitemaps ul li {
+.sitemaps ul li, .sitemaps ul li svg {
 	font-size: 15px;
 	color: var(--darkergray);
 }

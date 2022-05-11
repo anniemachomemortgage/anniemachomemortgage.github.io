@@ -1,0 +1,489 @@
+<style>
+#product-banner {
+	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/supplies.jpeg) center center no-repeat;
+	background-position-y: 63% !important;
+	background-size: cover;
+}
+#search-results h3 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+ul.search-results-resources {
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 60px 0;
+}
+.card-information-search {
+	background: #f9f9f9;
+	margin-bottom: 15px;
+	display: flex;
+	align-items: center;
+	border-radius: 3px;
+}
+.card-information-text-container {
+	margin-left: 5px;
+	padding-top: 20px;
+}
+.card-image-container {
+	margin-right: 12px;
+	display: flex;
+}
+.card-image-container img {
+	height: 100%;
+	width: 230px;
+	object-fit: cover;
+}
+.card-information-search h4 {
+	margin-top: 0 !important;
+	margin-bottom: -12px !important;
+	letter-spacing: initial !important;
+	font-weight: 700 !important;
+	font-size: 19px !important;
+	line-height: 28px !important;
+	color: inherit;
+}
+.card-information-search h4 svg, .card-information-search h4 i {
+	margin-left: 5px;
+}
+.card-information-search p {
+	font-size: 16px;
+	line-height: 23px;
+	margin: 20px 5px 20px 0;
+}
+h3#most-popular-resources {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+h3#most-popular-resources span {
+	color: #016fa8;
+	font-size: 17px;
+	font-weight: 700;
+	text-transform: none;
+}
+ ul.subsection-sub-listing {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 25px 0 0 0;
+	padding: 0;
+	list-style-type: none;
+}
+ul.most-popular-articles {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 25px 0 0 0;
+	list-style-type: none;
+	border-bottom: 1px solid rgba(0,0,0,.05);
+	padding: 0 0 35px;
+}
+.most-popular-articles li, ul.subsection-sub-listing li {
+	background: #f9f9f9;
+	width: 28.6%;
+	margin: 4px;
+	padding: 5px 23px;
+	border-radius: 3px;
+	display: flex;
+	justify-content: space-between;
+}
+.most-popular-articles li a, ul.subsection-sub-listing li a {
+	color: #444444 !important;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+ul.resource-main-categories {
+	list-style-type: none;
+	padding: 0;
+	margin: 40px 0 0 0;
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+}
+ul.resource-main-categories li {
+	width: 30%;
+}
+.mortgage-category-section {
+	margin-top: 55px;
+}
+.card-information-category {
+	background: #f9f9f9;
+	border-radius: 2%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+	min-height: 300px;
+}
+.card-information-image-container {
+	float: none;
+	display: inline-block;
+	width: 100px;
+	margin-bottom: 15px;
+}
+.card-information-image-container img {
+	width: 100%;
+	margin: 0 auto;
+	height: 100px;
+	position: relative;
+	display: block;
+	object-fit: cover;
+	margin-top: 12px;
+}
+.card-information-category h4 {
+	color: inherit;
+	margin-top: 18px !important;
+	font-weight: 300 !important;
+	font-size: 18px !important;
+	line-height: 30px;
+}
+.card-information-category h4 span {
+	display: block;
+	color: inherit;
+	font-weight: 800;
+	font-size: 22px;
+}
+.card-information-category p {
+	line-height: 24px;
+	font-weight: 300;
+	font-size: 16px;
+}
+.active-selection-category .card-information-category {
+	background: #78c253;
+	box-shadow: 0px 3px 21px rgb(0 0 0 / 13%);
+	color: #fff !important;
+}
+.mortgage-category-subsection {
+	margin: 70px 0;
+}
+ul.subsection-main-listing {
+	list-style-type: none;
+	margin: 0 0 20px 0;
+	display: flex;
+	border-bottom: 1px solid rgba(0,0,0,.05);
+	padding: 10px 0 35px;
+	flex-direction: column;
+}
+ul.subsection-main-listing > li {
+	font-weight: 600 !important;
+	font-size: 20px;
+	min-width: 25%;
+}
+img.subsect-image {
+	width: 34px;
+	margin-top: 30px;
+	margin-right: 19px;
+	margin-bottom: -8px;
+}
+.subsection-heading {
+	font-weight: 800 !important;
+	font-size: 27px !important;
+}
+p.subsection-main-summary {
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: -7px;
+	font-weight: 200;
+}
+ul.subsection-sub-listing {
+	list-style-type: none;
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+ul.subsection-sub-listing li {
+	font-size: 16px;
+	position: relative;
+}
+li.active-hover {
+	background: #dfdcdc !important;
+}
+ul.hover-over-list-item {
+	position: absolute;
+	top: -80px;
+	left: 311px;
+	overflow: hidden;
+	z-index: 1;
+	box-shadow: -3px 15px 16px rgb(0 0 0 / 30%);
+	margin: 0;
+	padding: 0;
+	border-radius: 3px;
+}
+.tooltip-information-text-container {
+	padding: 10px 17px 29px;
+}
+.tooltip-information-text-container h4 {
+	font-size: 18px !important;
+	margin: 16px 0 -10px !important;
+	font-weight: 800 !important;
+}
+.tooltip-information-text-container p {
+	font-size: 16px !important;
+	margin: 20px 0 20px !important;
+	font-weight: 300 !important;
+	line-height: 30px !important;
+}
+.tooltip-information-text-container button {
+	width: 100%;
+}
+.resource-information-tooltip-container {
+	display: flex;
+	flex-direction: column;
+	width: 370px;
+	border: 1px solid #f9f7f7;
+	border-radius: 3px;
+	background: #fff;
+}
+.tooltip-image-container {
+	width: auto;
+	height: 100%;
+	overflow: hidden;
+	margin-bottom: -11px;
+	display: none;
+}
+.tooltip-image-container img {
+	object-fit: cover;
+	width: auto;
+	height: 300px;
+}
+.view-all-articles span {
+	color: #016fa8;
+	font-size: 17px;
+	font-weight: 700;
+	text-transform: none;
+	float: right;
+}
+.call-to-action-resource-main {
+	background: #f9f9f9;
+	border-radius: 1%;
+	padding: 30px;
+}
+.call-to-action-resource-main p {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 28px;
+	margin: 0 0 20px;
+}
+button#go-to-contact {
+	background: #78c253;
+}
+</style>
+<div id="resource-center-hud">
+<form>
+  <input type="text" placeholder="Search our resource center.">
+</form>
+<div id="search-results">
+	<h3>Search Results <i class="fa-solid fa-xmark"></i></h3>
+	<ul class="search-results-resources">
+		<li>
+			<div class="card-information-search">
+				<div class="card-image-container">
+					<img src="https://images.unsplash.com/photo-1562564055-71e051d33c19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="search-result-image">
+				</div>
+				<div class="card-information-text-container">
+					<a href=""><h4>Processing and Underwriting <i class="fa-regular fa-arrow-up-right"></i></h4></a>
+					<p>Mortgage processing is when your personal financial information is collected and analyzed to ensure that all proper documentation is in place before the loan paperwork is sent to underwriting. Underwriting is a thorough evaluation of your personal financial information and supporting documentation by a licensed underwriter.</p>
+				</div>
+			</div>
+		</li>
+		<li>
+			<div class="card-information-search">
+				<div class="card-image-container">
+					<img src="https://images.unsplash.com/photo-1561414927-6d86591d0c4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1673&q=80" class="search-result-image">
+				</div>
+				<div class="card-information-text-container">
+					<a href=""><h4>Loan Interest Rates <i class="fa-regular fa-arrow-up-right"></i></h4></a>
+					<p>An interest rate is the percentage of your existing principal loan balance you pay your lender in exchange for borrowing money to purchase a home. The interest rate is used to calculate your monthly mortgage payment. The higher the interest rate, the higher your monthly payment will be.</p>
+				</div>
+			</div>
+		</li>
+		<li>
+			<div class="card-information-search">
+				<div class="card-image-container">
+					<img src="https://images.unsplash.com/photo-1500496733680-167c3db69389?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1641&q=80" class="search-result-image">
+				</div>
+				<div class="card-information-text-container">
+					<a href=""><h4>The Steps to Refinancing <i class="fa-regular fa-arrow-up-right"></i></h4></a>
+					<p>Refinancing your mortgage is simply the process of receiving a new loan for your home. When you refinance your current home loan, the new mortgage loan pays off the old one, leaving you with one loan and one monthly payment.</p>
+				</div>
+			</div>
+		</li>
+		<li>
+			<div class="card-information-search">
+				<div class="card-image-container">
+					<img src="https://images.unsplash.com/photo-1579621970795-87facc2f976d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="search-result-image">
+				</div>
+				<div class="card-information-text-container">
+					<a href=""><h4>Prequal & Preappoval Steps <i class="fa-regular fa-arrow-up-right"></i></h4></a>
+					<p>Pre-qualification is one of the initial steps in your home buying journey, usually done prior to beginning the home-buying process. Mortgage pre-approval is as close as you can get to confirming your credit and financial stability without having a contract in place. Once you complete a mortgage application, your lender will verify the information you provide and conduct a credit check.</p>
+				</div>
+			</div>
+		</li>
+	</ul>
+</div>
+  <h3 id="most-popular-resources">Most Popular 
+	  <!-- <span>View All</span> -->
+  </h3>
+  <ul class="most-popular-articles">
+	<li><a href="">Improving Credit Score <i class="fa-solid fa-link"></i></a></li>
+	<li><a href="">Mortgage Lingo <i class="fa-solid fa-link"></i></a></li>
+	<li><a href="">Loan Interest Rates <i class="fa-solid fa-link"></i></a></li>
+	<li><a href="">Mortgage Myths <i class="fa-solid fa-link"></i></a></li>
+	<li><a href="">What to Expect at Closing <i class="fa-solid fa-link"></i></a></li>
+	<li><a href="">Homeownership Benefits <i class="fa-solid fa-link"></i></a></li>
+	<li><a href="">Home Search Checklist <i class="fa-solid fa-link"></i></a></li>
+	<li><a href="">Cash Out Refinance <i class="fa-solid fa-link"></i></a></li>
+  </ul>
+  <div class="mortgage-category-section">
+	  <h3 id="mortgage-categories-resources">Mortgage Categories</h3>
+	  <ul class="resource-main-categories">
+		<li id="mortgage-101" class="active-selection-category">
+			<div class="card-information-category">
+				<div class="card-information-image-container">
+					<img src="https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/101.png" alt="Mortgage Image">
+				</div>
+				<h4>Mortgage 101: <span>First Time Homebuyer</span></h4>
+				<p>Topics relating to buying your first home.</p>
+			</div>
+		</li>
+		<li id="mortgage-102">
+			<div class="card-information-category">
+				<div class="card-information-image-container">
+					<img src="https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/102.png" alt="Mortgage Image">
+				</div>
+				<h4>Mortgage 102: <span>Current Homeowners</span></h4>
+				<p>Topics relating to refinancing, buying another property, etc.</p>
+			</div>
+		</li>
+		<li id="mortgage-103">
+			<div class="card-information-category">
+				<div class="card-information-image-container">
+					<img src="https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/103.png" alt="Mortgage Image">
+				</div>
+				<h4>Mortgage 103: <span>Investment Properties</span></h4>
+				<p>Topics relating to other mortgage topics.</p>
+			</div>
+		</li>
+	  </ul>
+	  <div class="mortgage-category-subsection">
+		  <div id="mortgage-101-subsection">
+			  <h4 id="mortgage-categories-resources" class="subsection-heading">Mortgage 101: The First Time Homebuyer</h4>
+			  <p class="subsection-main-summary">This is a really short description summary of what is to be expected in the category expansion. Its really helpful for people to be able to see at a glance what information the section is going to contain and at a glance know if its something they are interested in reading or need to read.</p>
+			  <ul class="subsection-main-listing">
+				  <li><img src="https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/key.png" class="subsect-image">
+					  Purchasing
+					<ul class="subsection-sub-listing">
+						<li class="active-hover"><a href="">Processing and Underwriting <i class="fa-regular fa-magnifying-glass-plus"></i></a>
+							<ul class="hover-over-list-item">
+								<div class="resource-information-tooltip-container">
+									<div class="tooltip-image-container">
+										<img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="search-result-image">
+									</div>
+									<div class="tooltip-information-text-container">
+										<h4>Processing and Underwriting</h4>
+										<p>Mortgage processing is when your personal financial information is collected and analyzed to ensure that all proper documentation is in place before the loan paperwork is sent to underwriting. Underwriting is a thorough evaluation of your personal financial information and supporting documentation by a licensed underwriter. </p>
+										<button>Read More</button>
+									</div>
+								</div>
+							</ul>
+						</li>
+						<li><a href="">Pre-qualification and Pre-approval Steps <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+						<li><a href="">What to Expect at a Closing <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+						<li><a href="">Fees and Closing Costs <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+						<li><a href="">Home Inspections <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+						<li><a href="">Home Appraisals <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+						<li><a href="">Tips for New Home Buyers <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+						<li><a href="">Mortgage Myths <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+						<li><a href="">15 year vs. 30 Year Mortgage <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+						<li><a href="">Mortgage Insurance <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+						<li><a href="">Home Search Checklist <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+					</ul>
+				  </li>
+				  <li><img src="https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/credit.png" class="subsect-image">
+					  Credit
+					<ul class="subsection-sub-listing">
+						<li><a href="">Improving Credit Score <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+						<li><a href="">Loan Interest Rates <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+						<li><a href="">Student Loan Debt <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+						<li><a href="">Understanding Credit Scores <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+						<li><a href="">Why Did My Credit Score Drop? <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+					</ul>
+				  </li>
+			  </ul>
+			  <!-- <a class="view-all-articles"><span>View All</span></a> -->
+		  </div>
+		  <div id="mortgage-102-subsection" style="display: none;">
+				<h4 id="mortgage-categories-resources" class="subsection-heading">Mortgage 102: Current Homeowners</h4>
+				<p class="subsection-main-summary">This is a really short description summary of what is to be expected in the category expansion. Its really helpful for people to be able to see at a glance what information the section is going to contain and at a glance know if its something they are interested in reading or need to read.</p>
+				<ul class="subsection-main-listing">
+					<li><img src="https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/current.png" class="subsect-image">
+						Homeownership
+						<ul class="subsection-sub-listing">
+							<li><a href="">Improving Credit Score <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							<li><a href="">Mortgage Lingo <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							<li><a href="">Loan Interest Rates <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							<li><a href="">Mortgage Myths <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							<li><a href="">What to Expect at Closing <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							<li><a href="">Homeownership Benefits <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							<li><a href="">Home Search Checklist <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							<li><a href="">Cash Out Refinance <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+						</ul>
+					</li>
+					<li><img src="https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/moving.png" class="subsect-image">
+						Refinancing
+						<ul class="subsection-sub-listing">
+							<li><a href="">The Steps to Refinancing <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							<li><a href="">Mortgage Lingo <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							<li><a href="">Loan Interest Rates <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							<li><a href="">Mortgage Myths <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							<li><a href="">What to Expect at Closing <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							<li><a href="">Homeownership Benefits <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							<li><a href="">Home Search Checklist <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							<li><a href="">Cash Out Refinance <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+						</ul>
+					</li>
+				</ul>
+				<!-- <a class="view-all-articles"><span>View All</span></a> -->
+			</div>
+			<div id="mortgage-103-subsection" style="display: none;">
+				  <h4 id="mortgage-categories-resources" class="subsection-heading">Mortgage 103: Investment Properties</h4>
+				  <p class="subsection-main-summary">This is a really short description summary of what is to be expected in the category expansion. Its really helpful for people to be able to see at a glance what information the section is going to contain and at a glance know if its something they are interested in reading or need to read.</p>
+				  <ul class="subsection-main-listing">
+					  <li><img src="https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/homes-more.png" class="subsect-image">
+						  Additions
+						  <ul class="subsection-sub-listing">
+							  <li><a href="">Improving Credit Score <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							  <li><a href="">Mortgage Lingo <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							  <li><a href="">Loan Interest Rates <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							  <li><a href="">Mortgage Myths <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							  <li><a href="">What to Expect at Closing <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							  <li><a href="">Homeownership Benefits <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							  <li><a href="">Home Search Checklist <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							  <li><a href="">Cash Out Refinance <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+						  </ul>
+					  </li>
+					  <li><img src="https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/invest.png" class="subsect-image">
+						  Investing
+						  <ul class="subsection-sub-listing">
+							  <li><a href="">Improving Credit Score <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							  <li><a href="">Mortgage Lingo <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							  <li><a href="">Loan Interest Rates <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							  <li><a href="">Mortgage Myths <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							  <li><a href="">What to Expect at Closing <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							  <li><a href="">Homeownership Benefits <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							  <li><a href="">Home Search Checklist <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+							  <li><a href="">Cash Out Refinance <i class="fa-regular fa-magnifying-glass-plus"></i></a></li>
+						  </ul>
+					  </li>
+				  </ul>
+				  <!-- <a class="view-all-articles"><span>View All</span></a> -->
+			  </div>
+	  </div>
+  </div>
+  <div class="call-to-action-resource-main">
+	  <p>Our goal is to provide comprehensive and thorough resources to new homeowners as well as those looking to purchase a second one, or even an investment property. If you are here looking to learn more and find that you have a question, comment, or concern, we would like to hear from you. Please feel free to reach out to us at any time.</p>
+	  <button id="go-to-contact">Contact Us</button>
+  </div>
+</div>
