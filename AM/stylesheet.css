@@ -1,0 +1,2210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+p {
+	font-size: 17px;
+	line-height: 33px;
+	font-weight: 300;
+}
+.site-type-team section#branch-welcome, .site-type-team section#text-based-branch {
+	display: none;
+}
+.site-type-team > .main-content {
+	background: #fff;
+}
+#flash-message {
+  display: none !important;
+}
+#more-reviews {
+	margin: 0 auto;
+	border: none;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 0;
+	width: 100%;
+}
+.review-grid.padding-40.flex.space-between {
+	position: relative;
+}
+.average-social-rating p:last-of-type {
+  display: none;
+}
+#review-social-section h3:first-of-type {
+  display: none;
+}
+.social-loan-officer {
+  padding: 20px 20px 15px;
+  }
+body.front.site-type-branch {
+  margin: 0 auto !important;
+  max-width: 1485px;
+  background: #e2e2e2;
+}
+#flash-message { 
+	display: none !important;
+}
+#questionThree .text-muted small, .text-info i.fas.fa-arrow-right {
+  display: none;
+}
+#navigation-sidebar #list_12564:hover {
+  cursor: pointer;
+}
+textarea {
+  letter-spacing: .8px;
+  margin-top: 1px !important;
+}
+p#footer-branchlo-name {
+  width: 100%;
+  text-align: center;
+  font-size: 25px !important;
+  font-weight: 500;
+  letter-spacing: .10em;
+  order: -1;
+}
+p#footer-nmls {
+	width: 100%;
+	text-align: center;
+	order: -1;
+	margin: 0px 0 23px;
+}
+p#footer-branchlo-address {
+	width: 100%;
+	font-weight: 800;
+	text-align: center;
+line-height: 30px;}
+.footer-directory-listing {
+	display: flex;
+	flex-wrap: wrap;
+	font-weight: 500;
+	width: 453px;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: initial;
+	margin-bottom: 20px;
+}
+.site-type-branch .branch-manager-section {
+  margin-bottom: 40px;
+}
+
+/*Renovation photos width.*/
+.node-124158 #text-based {
+	width: 100%;
+}
+
+body.front.site-type-branch .main-content, body.front.site-type-branch #site-navigation {
+  background: #fff;
+}
+
+#branch-content {
+  margin-top: 0;
+}
+
+.site-type-branch #we-provide-more-2 .provided-links a:last-of-type {
+  display: none;
+}
+
+#branch-content > a:nth-of-type(1) {
+  display: flex;
+  justify-content: center;
+}
+
+#branch-content button {
+  margin: 20px 5px 1px;
+}
+
+#branch-content button {
+  background: #156faa;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+#apply-now-branch {
+  color: white !important;
+  background: #7fc24a !important;
+}
+#team-display {
+  order: 1 !important;
+  margin-bottom: -55px;
+  margin-top: -15px;
+  padding-top: 0;
+  background: #fff;
+  padding-top: 26px;
+}
+
+#tmc-branch #team-display h2 {
+  color: #40a051 !important;
+}
+#tmc-branch #branch-content button {
+  background: #40a051;
+}
+.site-type-branch #deserve-more-container-master {
+  display: none;
+}
+
+.calc-group {
+  display: flex;
+  margin: 20px auto;
+  width: 90%;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.calc-group .item {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  padding: 10px;
+  margin: 0 0px;
+}
+
+.calc-group .item img {
+  opacity: 0;
+  visibility: hidden;
+  max-height: 1px;
+  max-width: 1px;
+}
+
+.calc-group .item h6 a {
+  font-weight: bold;
+}
+
+.calc-group .item h6 {
+  text-align: center;
+}
+
+.calc-group .item p {
+  width: 95%;
+  margin: 8px auto;
+}
+
+.page-mortgage-calculator h2 {
+  font-size: 26px;
+  text-align: center;
+  margin: 15px 0 30px;
+}
+
+.page-mortgage-calculator header {
+  display: none;
+}
+
+.page-mortgage-calculator .inner-layout {
+  padding: 30px 0 0;
+}
+#submit-overlayment {
+  position: absolute;
+  width: 100%;
+  min-height: 110px;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background .75s;
+}
+form button, .message-contents button, .go {
+  display: block;
+  margin: 0 auto;
+  padding: 17px 41px;
+}
+#submit-overlay {
+  position: relative;
+}
+#submit-overlayment h4 {
+  display: none;
+}
+#submit-overlayment:hover {
+  background: rgb(255 255 255 / 54%);
+  cursor: not-allowed;
+}
+#submit-overlayment:hover h4 {
+  display: block;
+  font-weight: 600;
+}
+.option-listing .menu li strong a:hover {
+  color: white !important;
+}
+
+footer #copyrights {
+  flex-direction: column;
+  padding-top: 40px;
+  letter-spacing: .65px;
+  color: #fff;
+  font-weight: 800 !important;
+  text-transform: uppercase;
+  font-size: 13px !important;
+  background: #144d7f;
+  width: 100%;
+  min-height: 207px;
+  background-size: cover;
+  background-position-y: 40%;
+}
+footer #copyrights ul {
+  font-weight: 200;
+	font-size: 14px;
+	width: 400px;
+}
+footer #copyrights p {
+	
+	font-size: 15px;
+	text-transform: initial;
+	margin-bottom: 22px;
+}
+footer #social-media {
+	margin: -20px auto 15px;
+	display: flex;
+	justify-content: space-around;
+}
+.footer-directory-listing p {
+  line-height: 13px;
+  font-size: 14px;
+}
+#lastvisitedoriginatornotice {
+	position: fixed;
+	bottom: 8.4%;
+	z-index: 500;
+	right: -3px;
+	display: flex;
+	flex-direction: column;
+	font-size: 16px;
+	width: 200px;
+	border-radius: 4px;
+	margin-bottom: 12px;
+	color: rgba(255,255,255,.8);
+	border: 1px solid rgba(0,0,0,0.1);
+	background: linear-gradient(0deg, rgb(39, 48, 64) 0%, rgb(46, 54, 68) 100%);
+	padding: 20px;
+	border-left: 3px solid rgb(59, 67, 83);
+	border-bottom: 1px solid rgb(55, 64, 81);
+	box-shadow: -2px 0px 13px #171d287d;
+}
+#lastvisitedoriginatornotice img {
+   height: 160px;
+   width: 160px;
+   margin: 0 auto 20px;
+   border-radius: 100%;
+}
+#lastvisitedoriginatornotice p {
+	line-height: 27px;
+	font-weight: 300;
+}
+#lastvisitedoriginatornotice p:first-of-type {
+	margin-bottom: 0px;
+	margin-top: 0;
+}
+#lastvisitedoriginatornotice p a {
+	color: #fff;
+	font-weight: bold;
+}
+#gotherenowtid {
+	display: block;
+	font-size: 16px;
+	text-align: left;
+	border-top: 1px solid rgba(255,255,255,.15);
+	padding-top: 15px;
+	text-transform: uppercase;
+	font-weight: 400 !important;
+	letter-spacing: 2px !important;
+	margin-top: 18px;
+ }
+#dismisslastvisitor {
+	display: block;
+	font-size: 12px;
+	text-align: left;
+	border-top: 1px solid rgba(255,255,255,.15);
+	padding-top: 15px;
+	text-transform: uppercase;
+	font-weight: 400 !important;
+	letter-spacing: 2px !important;
+	margin-top: 18px;
+}
+#dismisslastvisitor:hover {
+	cursor: pointer;
+}
+#list-switch {
+	display: none;
+}
+.location-listing {
+	padding: 0;
+}
+h1.header-additional {
+	float: left;
+	text-indent: -40000vw;
+	height: 0px;
+	width: 0px;
+}
+#blog-entry-page a {
+	font-weight: bold;
+	color: #036fa8;
+}
+#tmg-branch-listing, #outofstatereferral-branch-listing, #perkplans-branch-listing, #welcome-branch-listing, #welcometo-branch-listing {
+	display: none;
+}
+.site-type-team #branch-managers, .branch-manager-section {
+	padding: 10px 0 !important;
+}
+#team-display h3:nth-of-type(2) {
+	margin-top: 25px;
+}
+.team-member-section::after {
+	flex: initial !important;
+	content: initial !important;
+}
+#start-your-story {
+	margin: -40px 0 0;
+}
+.branch-manager-section .manager-information {
+	/* margin: 0 !important; */
+}
+ul.menu.nav {
+	display: flex;
+}
+.calculations-primary img {
+	display: none;
+}
+#navigation-sidebar > div:nth-child(2) > a:nth-child(2) {
+	display: none;
+}
+#navigation-sidebar ul.menu.nav {
+	display: flex;
+	flex-direction: column;
+}
+#branch-managers {
+	width: 100% !important;
+	margin: initial !important;
+	display: flex;
+	justify-content: center;
+}
+.team-member-section {
+   margin: 0 auto 40px;
+   width: 100%;
+   max-width: 1200px;
+   padding-top: 15px;
+   justify-content: flex-start;
+   align-items: flex-start;
+}
+.team-member {
+	width: 298px;
+	margin: 25px 1px;
+}
+.team-member-portrait {
+	border-radius: 0;
+	position: relative;
+	background-position: center !important;
+	background: #f3f2f2;
+}
+#list_12148 a, #list_12170 a {
+	background: #7FC24A;
+	border: 3px solid #7FC24A;
+	color: #fff;
+	font-size: 13px;
+	letter-spacing: .045em;
+	text-align: center;
+	padding: 13px 17px;
+	font-weight: 500;
+}
+#list_12171 a {
+	background: #40a051;
+	padding: 10px;
+	border-radius: 5px;
+	color: white !important;
+	letter-spacing: 1px;
+}
+#list_12148 a:hover, #list_12170 a:hover {
+	background: #016fa8;
+	border: 3px solid #016fa8;
+}
+.option-listing-go i, .option-listing-go svg {
+	display: none;
+}
+#apply-now-sidebar, #prequal-now-sidebar {
+	max-width: 153px;
+	background: #7fc24a;
+	border: 3px solid #7fc24a;
+	color: #fff;
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: .05em;
+	text-align: center;
+	padding: 2px 0px;
+	margin: 0 auto 40px;
+}
+
+#annie_mac-branch .branch-manager-section.flex {
+	margin: 0 auto 40px;
+	width: 100%;
+	max-width: 1200px;
+	padding-top: 15px;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.branch-manager-section .manager-information {
+	width: 298px;
+	margin: 40px 1px;
+}
+#team-site .branch-manager-section .manager-information {
+  margin: 20px 0 !important;
+  min-width: 330px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.manager-information .team-member-information {
+	width: auto !important;
+}
+
+#loan-originator-blurb-container h4, #loan-originator-blurb-container h4 span, #navigation-sidebar h4, #navigation-sidebar .navigation-sidebar-sectional:nth-child(2) h4 span {
+	color: white;
+}
+.top-links-header {
+	align-items: end;
+	height: 15px;
+}
+.header-links-content {
+	margin-top: -17px;
+}
+.header-links-content button {
+	border: none !important;
+	margin-right: 10px;
+}
+#home-banner {
+	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/header-background-min.jpeg) top center no-repeat;
+	background-size: cover !important;
+	min-height: 525px;
+	background-position-y: 88%;
+}
+.review h4 {
+	font-size: 17px;
+	text-align: left;
+	order: 4;
+	font-weight: 200;
+	display: none;
+}
+.container-fluid, .h-100 {
+	padding: 10px 0 150px 0;
+}
+.page-testimonial .inner-layout {
+	background: #ffffff;
+}
+.social-loan-officer i.fas.fa-map-marker {
+	display: none;
+}
+#biography .manager-information {
+	display: none;
+}
+.manager-biography {
+	margin-top: 0;
+	margin-left: 0;
+	padding-left: 0;
+	padding-top: 0;
+}
+.manager-biography p:first-of-type {
+	margin-top: 0px;
+}
+.manager-biography iframe {
+	display: none;
+}
+.manager-biography p iframe {
+	display: block;
+	margin: 35px auto -15px;
+}
+#loan-originator-blurb-container h2 {
+	font-size: 35px;
+}
+#originator-core-details-text h4 span {
+	margin-top: 0;
+	font-weight: bold;
+}
+#sitemap li#list_11563 {
+	display: none;
+}
+
+#navigation-menu li:not(last-of-type) {
+	margin-right: 30px;
+}
+
+footer #sitemap #list_11081 a, footer #sitemap #list_11344 a, footer #sitemap #list_11343 a, footer #sitemap #list_12525 a, footer #sitemap #list_11350 a, footer #sitemap #list_12564 a {
+	font-weight: 500;
+	font-size: 13px;
+}
+
+footer #sitemap #list_12564 {
+	display: none;
+}
+
+.alert-error {
+	background: linear-gradient(#901e1e 0%, #ab1c1c 64%) !important;
+	padding: 20px !important;
+}
+.loan-app > p:first-of-type {
+	color: white;
+	font-weight: bold;
+	background: #006FA9;
+	padding: 10px 12px;
+	border-radius: 0px;
+	width: 97%;
+	line-height: 1.7;
+}
+#home-blog .block h3 {
+	font-size: 35px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 35px;
+	display: block;
+}
+.site-type-loan_officer .manager-biography ul {
+	width: auto;
+	margin: 0 !important;
+	padding-left: 0 !important;
+	list-style-type: none;
+	margin-top: 20px !important;
+}
+.site-type-loan_officer .manager-biography li {
+	padding-left: 0;
+	line-height: 2.5em;
+}
+.site-type-team #apply-navigation, .site-type-team #branch-steps, .site-type-team #home-provide, .site-type-team #home-reviews, .site-type-team #branch-banner button, .site-type-team #branch-banner .branch-content ul {
+	display: none;
+}
+.site-type-team #branch-banner {
+	min-height: 370px !important;
+}
+.site-type-team #team-display {
+	margin-top: -100px;
+}
+.site-type-team #branch-content h2 {
+	margin-top: 0 !important;
+}
+.site-type-team #branch-managers {
+	padding: 40px 0 0 10px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+.site-type-team .branch-manager-section {
+  width: 25%;
+  margin: 0 auto;
+}
+.location-listing {
+	width: 325px;
+	margin: 24px 0px 10px;
+}
+#text-based .location-listing p a, .location-listing > a p {
+	background: none !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+.location-listing > a p {
+	margin: 0;
+	padding: 0;
+	line-height: 26px;
+	font-size: 15px;
+}
+.site-type-team .branch-manager-section::after {
+	flex: auto;
+	content: "";
+}
+#team-site header ul {
+	display: none !important;
+}
+.page-loan-apply #product-banner, .page-loan-apply footer {
+	display: none;
+}
+.page-loan-apply .inner-layout {
+	padding-top: 80px;
+}
+.user-login .inner-layout #form div.alert.alert-error {
+	background: #ffe7dc;
+	margin-bottom: -1px;
+	padding: 17px;
+	line-height: 27px;
+	height: auto;
+	text-align: left;
+	color: white;
+	border-left: 8px solid #a91202;
+	border-radius: 0 3px 3px 0;
+}
+#team-site-warning {
+	background: #ffe7dc;
+	margin-bottom: -1px;
+	padding: 17px;
+	line-height: 27px;
+	height: auto;
+	text-align: left;
+	color: #a91202;
+	border-left: 8px solid #a91202;
+	border-radius: 0 3px 3px 0;
+}
+#copyrights .flex:first-of-type {
+	display: flex;
+	flex-direction: row;
+	max-width: 400px;
+	justify-content: space-between;
+	justify-self: flex-end;
+	letter-spacing: initial;
+	text-transform: initial;
+	margin-top: 15px;
+	font-weight: 200;
+	font-size: 15px;
+}
+#team-site-warning {
+	margin-top: -40px;
+	margin-bottom: 40px;
+}
+.site-type-branch nav #about-navigation .sub-menu-links li:nth-child(2) {
+	display: none;
+}
+. site-type-loan_officer nav #about-navigation .sub-menu-links li:nth-child(2) {
+	display: none;
+}
+#navigation-logo {
+	width: auto;
+	max-width: 250px;
+}
+.hide {
+	display: none !important;
+}
+html body.page-loan-apply-complete.logged-in.site-type-loan_officer section.inner-layout section#text-based p a.btn.btn-default {
+	background: #006fa9;
+	color: #fff;
+	font-weight: bold;
+	display: inline-block;
+	border-radius: 4px;
+	padding: 10px 12px;
+	padding-top: 120px;
+	text-align: center;
+}
+.government-monitoring p {
+	width: 100%;
+	margin: 20px auto;
+}
+#navigation-logo > a > img {
+	max-height: 42px;
+}
+.page-branch-list > #product-banner {
+	background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url('https://annie-mac.com/uploads/sites/10713/public/annie_mac_new_banner_branches.jpeg') top left no-repeat;
+	background-size: cover;
+	background-position-y: 53%;
+}
+.page-loan-apply-complete > #product-banner {
+	background: linear-gradient(14deg, rgba(5, 6, 6, 0.51) 30%, rgba(107, 97, 28, 0.28) 80%), url('https://annie-mac.com/uploads/sites/10713/public/complete.jpeg') top left no-repeat;
+	background-size: cover;
+	background-position-y: 32%;
+}
+#covid-warning {
+	background: #ffe7dc;
+	color: #a91202;
+	padding: 14px 25px;
+	line-height: 1.6;
+	margin: 15px auto !important;
+	display: none !important;
+}
+#covid-warning h4 {
+	font-size: 24px;
+	margin: 0;
+	font-weight: bold;
+	color: #a91202;
+	display: flex;
+	align-items: center;
+}
+#covid-warning h4 span {
+	font-size: 13px;
+	margin-left: 15px;
+	color: rgb(169 19 5);
+	border: 1px solid #a91305;
+	padding: 5px 12px;
+	border-radius: 6px;
+}
+#covid-warning h4 span:hover {
+	cursor: pointer;
+}
+#covid-warning p {
+	margin: 8px 0;
+}
+#covid-warning-container {
+	padding-bottom: 10px;
+}
+#covid-warning a {
+	background: #a91202;
+	color: #fff;
+	font-weight: bold;
+	display: inline-block;
+	border-radius: 4px;
+	padding: 10px 12px;
+	width: 160px;
+	margin-top: 10px;
+	text-align: center;
+	margin-right: 30px;
+}
+#covid-warning a:hover {
+	opacity: .8;
+}
+#annie_mac-loan-officer > #branch-banner, #tmc-loan-officer > #branch-banner, #lofidirect-loan-officer > #branch-banner {
+	background: url('https://annie-mac.com/uploads/sites/10713/public/originator-background-image.jpeg') top left no-repeat;
+	background-size: cover;
+	background-position-y: 63%;
+}
+#annie_mac-loan-officer #branch-content h2, #tmc-loan-officer #branch-content h2, .site-type-team #branch-content h2, #lofidirect-loan-officer #branch-content h2 {
+	margin-top: 0 !important;
+}
+
+.navigation-sidebar-sectional ul li {
+	display: block !important;
+}
+
+#annie_mac-loan-officer, #tmc-loan-officer, #lofidirect-loan-officer {
+	display: flex;
+	background: #fff;
+	color: #333;
+	justify-content: space-around;
+	margin: 0 auto;
+	flex-direction: column;
+	width: 100%;
+	margin: 0 auto;
+	/* width: 90%; */
+}
+#loan-originator-backdrop {
+	background: linear-gradient(177deg, rgb(26 29 36 / 83%) 20%, rgba(26 29 36 / 83%) 80%), url(https://annie-mac.com/uploads/sites/10713/public/pexel-family_1.jpeg) center no-repeat !important;
+	background-size: cover !important;
+	display: flex;
+	flex-direction: column;
+	background-position-y: 56% !important;
+}
+#annie_mac-loan-officer > #originator, #tmc-loan-officer > #originator, #lofidirect-loan-officer > #originator {
+	max-width: 1250px;
+	margin: 0 auto;
+	width: 90%;
+}
+#originator .negative-60 {
+	/* width: initial; */
+	margin: 0 auto;
+}
+#originator .padding-60 {
+	padding: 0;
+}
+#originator  > #we-provide-more-master {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+#covid-warning {
+	background: #ffe7dc;
+	margin-bottom: -1px;
+	color: #a91202;
+	padding: 14px 25px;
+	line-height: 1.6;
+	margin-top: 0;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	margin: 30px auto -15px;
+}
+#loan-originator-blurb-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	text-shadow: 0 0 black;
+	width: 100%;
+	background: transparent;
+	border-radius: 0px;
+	border: none;
+	box-shadow: none;
+}
+#originator-core-details-text {/* margin-left: 60px; */}
+#loan-originator-blurb-container h2 {
+	font-size: 34px;
+	margin: 25px auto 5px;
+	color: #fff;
+	text-align: left;
+	font-family: 'inter',sans-serif;
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: .55px;
+	margin-top: 0;
+}
+#loan-originator-blurb-container h4 {
+	margin: 4px 0;
+	line-height: 24px;
+	font-size: 20px;
+	display: block;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: .55px;
+	text-align: left;
+}
+#originator-core-details-text h4 span {
+	display: block;
+	font-weight: 300;
+	color: inherit;
+}
+#originator-address-details {
+	line-height: 30px;
+	font-size: 16px;
+	text-shadow: none;
+	color: #fff;
+	opacity: 1;
+	font-family: 'inter',sans-serif;
+}
+#originator-address-details p {
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 15px;
+	text-align: left;
+	line-height: 25px;
+}
+#originator-core-details-portrait img {
+	border: 10px solid white;
+	max-width: 200px;
+}
+#originator-main-details { 
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-family: 'Inter', sans-serif;
+	margin-top: 25px;
+	flex-direction: column;
+}
+#originator-core-details {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 0;
+	border-right: none;
+	margin: 45px 0 80px;
+	text-align: center;
+	margin: 24px auto 50px;
+	max-width: 1250px;
+	width: 82%;
+	flex-wrap: wrap;
+}
+#originator-social-details {
+	margin: 0 auto;
+	max-width: 1250px;
+	width: 95%;
+	display: flex;
+	justify-content: center;
+}
+#originator-social-details ul a {
+	width: 129px;
+	background: #fff;
+	border: #fff;
+	color: #252525;
+	font-size: 14px;
+	letter-spacing: .045em;
+	text-align: center;
+	padding: 16px 17px;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin: 10px 3px;
+}
+#originator-social-details a:first-of-type {
+	border-top: none;
+}
+#originator-social-details li i, #originator-social-details li svg {
+	display: none;
+}
+.site-type-loan_officer .manager-biography p {
+	width: auto;
+	padding: 0;
+}
+.manager-biography h2:first-of-type {
+	font-size: 34px;
+	margin: 25px auto 15px;
+	display: block;
+	text-align: left;
+	font-family: 'inter',sans-serif;
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: .55px;
+}
+#inserted-banner {
+	height: 350px;
+	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://www.annie-mac.com/uploads/sites/10713/public/fall-image-reduced.jpg) center right  no-repeat !important;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	padding: 32px 0;
+	background-size: 101%;
+	background-position-y: 6% !important;
+	background-position-x: 61% !important;
+	display: none;
+}
+#inserted-banner.themortgagecompany #button-container-home > a:nth-child(1) {
+	margin-left: 0;
+	background: transparent;
+	border-radius: 5px;
+	color: white !important;
+	margin-bottom: 10px;
+	border: none;
+	font-family: 'inter', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 25px;
+	order: -1;
+	margin-top: -20px;
+	width: 250px!important;
+	text-shadow: 1px 2px 2px rgb(0 0 0 / 70%);
+}
+#inserted-banner.themortgagecompany .container-section h3 span {
+  font-size: 20px;
+  margin: 10px 0 20px;
+  font-weight: 600;
+}
+#inserted-banner.themortgagecompany {
+  height: 365px;
+  background: linear-gradient(177deg, rgb(23 16 5 / 52%) 30%, rgb(29 27 18 / 54%) 80%), url('https://www.annie-mac.com/uploads/sites/10713/public/tmc.jpeg') bottom center no-repeat !important;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: flex-start;
+  padding-top: 95px;
+  background-position-y: 40% !important;
+  background-size: cover;
+}
+.jamiehannigan #inserted-banner {
+	background: linear-gradient(177deg, rgba(23, 16, 5, 0.21) 30%, rgba(29, 27, 18, 0.6) 80%), url("https://annie-mac.com/uploads/sites/10713/public/JH_header2_redux.jpg");
+	background-position-y: 21% !important;
+	background-size: cover;
+}
+.tmc-header-links {
+  color: #fff;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.tmc-header-links a#loan-officer-header-apply {
+  background: #40a051;
+  padding: 2px 10px;
+  border-radius: 5px;
+  color: white !important;
+}
+#tmc-header-call {
+  margin-top: -23px;
+  margin-bottom: 20px;
+  text-shadow: 1px 2px 2px rgb(0 0 0 / 70%);
+}
+#inserted-banner .container-section {
+	flex-direction: column;
+}
+#inserted-banner .container-section h3 span {
+	font-size: 15px;
+}
+#inserted-banner #button-container-home > a:nth-child(1) {margin: 20px 0 10px;background: #016fa7;border: 3px solid #016fa7;color: #fff;font-weight: 500;text-transform: uppercase;font-size: 15px;letter-spacing: .05em;text-align: center;padding: 3px 25px;min-width: initial !important;order: 6;}
+#tmc-loan-officer .manager-biography h2:first-of-type {
+	color: #40a051;
+}
+#inserted-banner #button-container-home > a:nth-child(1):hover {
+	transform: none;
+}
+#lofidirect-loan-officer .manager-biography h2:first-of-type {
+	color: #95c553;
+}
+#tmc-loan-officer > #inserted-banner #button-container-home > a:nth-child(1) {
+	background: #40a051;
+}
+#lofidirect-loan-officer > #inserted-banner #button-container-home > a:nth-child(1) {
+	background: #95c553;
+}
+#inserted-banner > #button-container-home > a:nth-child(1):hover {
+	border: none;
+}
+#originator .manager-biography {
+	margin-left: 0px;
+}
+#originator .manager-biography > p {
+	font-family: inherit !important;
+	font-size: 17px !important;
+	color: inherit !important;
+	margin: 0 0 10px !important;
+	font-weight: 300;
+}
+#originator .manager-biography > p:last-of-type {
+	margin-bottom: 0 !important;
+}
+#accolades-originator #calculations-and-numbers {
+	width: 363px;
+	margin-left: 84px;
+}
+.calculations-primary:first-of-type {
+	margin-bottom: 60px;
+	margin-top: 70px;
+}
+.calculations-primary {
+	background: linear-gradient(20deg, rgb(15, 71, 119) 0%, rgb(32, 104, 164) 64%);
+	padding: 10px 30px 20px;
+	color: #fff; 
+}
+.action-buttons-calcs {
+	display: flex;
+	flex-direction: column;
+}
+.action-buttons-calcs button {
+	margin: 1px 0;
+	background: white;
+	color: #016fa7;
+	min-width: 100%;
+	margin-bottom: 10px;
+}
+.action-buttons-calcs button:hover {
+	background: #072c4b;
+	color: #fff;
+}
+
+.site-type-loan_officer .branch-manager-section {
+	width: 100%;
+}
+.product-selectable {
+	margin-bottom: 45px;
+}
+.product-selectable i {
+	font-size: 24px !important;
+	background: #0f4777;
+	color: white;
+	border-radius: 5px;
+	padding: 8px;
+	margin: 15px 0 10px !important;
+}
+.product-selectable a {
+	margin: 7px 0;
+}
+.product-selectable button {
+	margin: 9px 0 0;
+}
+.product-selectable button:hover {
+	background: #7fc24a;
+}
+.product-selectable h3 {
+	font-size: 18px !important;
+	margin: 10px 0 !important;
+}
+.product-selectable p {
+	font-family: inherit !important;
+	font-size: 17px !important;
+	font-weight: 300;
+	color: inherit !important;
+	margin: 0 0 10px !important;
+}
+#list_11344 > a, #list_11343 > a, #list_11350 > a {
+	display: block;
+}
+#links-sidebar-full-width { 
+	display: none;
+}
+#sidebar-apply-now {
+	display: block;
+	margin: -30px auto 30px;
+}
+#sidebar-apply-now a {
+	color: white !important;
+	min-width: 84px !important;
+	display: flex;
+	margin: 5px 0 51px;
+	background: #7fc24a;
+	border: 3px solid #7fc24a;
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: .05em;
+	text-align: center;
+	padding: 21px;
+	justify-content: center;
+}
+#links-sidebar-full-width h4 {
+	margin-left: 0;
+	font-size: 21px;
+	display: block;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: .55px;
+	margin-bottom: 0px;
+}
+#products-and-calculators {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+#product-containment {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+#product-containment h3:first-of-type, .calculations-primary h3 {
+	font-size: 34px;
+	margin: 25px 0 15px;
+	display: block;
+	text-align: left;
+	font-family: 'inter',sans-serif;
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: .55px;
+}
+.calculations-primary h3 {
+	color: white;
+	margin: 10px 0 -7px;
+}
+#product-container-section .product-selectable h3 {
+	margin-left: 0;
+	font-size: 22px;
+	display: block;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: .55px;
+	margin-top: -30px;
+	margin-bottom: 0px;
+}
+footer #list_11344 > a, footer  #list_11343 > a, footer  #list_11350 > a {
+	letter-spacing: .65px;
+	color: #fff;
+	position: relative;
+	font-weight: 200 !important;
+	text-transform: uppercase;
+	font-size: 21px !important;
+	/* border-bottom: 1px solid rgba(255,255,255,.035); */
+	/* padding-bottom: 11px; */
+}
+#mobile-apply a {margin: 20px 0 10px;background: #7fc24a;border: 3px solid #7fc24a;color: #fff;font-weight: 500;text-transform: uppercase;font-size: 14px;letter-spacing: .05em;text-align: center;padding: 15px 41px;}
+#mobile-call a {
+	display: none;
+}
+
+.breadcrumb {
+	display: none;
+}
+.site-type-branch #covid-warning {
+	margin-top: 10px !important;
+}
+#site-navigation {
+	z-index: 1000;
+}
+
+.annapolis #branch-banner {
+  background: linear-gradient(177deg, rgb(23 16 5 / 52%) 30%, rgb(29 27 18 / 54%) 80%), url('https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/annapolis-header.jpg') center !important;
+  background-size: cover !important;
+  background-position-y: 46% !important;
+}
+#branch-overlay {
+	background: transparent;
+}
+.site-type-loan_officer #we-provide-more-master h3 {
+	margin-left: 0;
+	font-size: 22px;
+	display: block;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: .55px;
+	margin-top: -30px;
+	margin-bottom: 0px;
+	text-align: left;
+}
+.site-type-loan_officer #we-provide-more-master h3:last-of-type {
+	font-size: 35px;
+	text-align: left;
+	font-size: 34px;
+	margin: 0;
+	display: block;
+	text-align: left;
+	font-family: 'inter',sans-serif;
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: .55px;
+}
+#annie-mac-2021-redesign-container, .annie-mac-2021-redesign-section {
+  width: initial !important;
+}
+
+div#flash-message {
+  display: none !important;
+}
+
+#hannahkatz .team-member-portrait {
+  background-position-y: 12% !important;
+}
+
+#mattmiller .team-member-portrait {
+  background-position-y: -1% !important;
+}
+
+#andrewquinn .team-member-portrait {
+  background-position-y: 24% !important;
+}
+
+#aaronjacobson .team-member-portrait {
+  background-position-y: 10% !important;
+}
+
+#form_builder {
+  margin: 30px auto 60px;
+  min-width: auto;
+  width: 95%;
+  max-width: 1000px;
+}
+
+#form_builder .text {
+  padding: 20px 30px;
+  margin: 35px 0;
+  background: #0f4879;
+  color: #ffffff;
+  box-shadow: 0 1px 2px 3px rgb(0 0 0 / 7%);
+}
+
+#form_builder .form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+#form_builder input.btn.button-main.previous {
+  background: #8d8d8d !important;
+  /* order: 3; */
+}
+
+#form_builder .next-contaner {
+  display: flex;
+  flex-direction: column;
+}
+
+#form_builder input[type="submit"], #form_builder input[type="button"] {
+  background: #7FC24A;
+  padding: 28px 35px;
+  border-radius: 6px;
+  color: white;
+  font-weight: 400;
+  margin-top: 45px;
+  font-size: 20px;
+  box-shadow: 1px 1px 3px rgb(0 0 0 / 12%);
+  text-transform: capitalize;
+  outline: none;
+  border: none;
+}
+
+#form_builder input[type="submit"]:hover, #form_builder input[type="button"]:hover {
+  border: none;
+  background: #016fa8;
+  outline: none;
+}
+
+#form_builder .g-recaptcha {
+  margin-top: 45px;
+}
+
+#form_builder .error_label {
+  margin-top: -32px;
+}
+
+#form_builder .next-contaner {
+  margin-top: 30px;
+}
+
+#form_builder input:focus, #form_builder input:active, #form_builder input:hover, #form_builder select:focus, #form_builder select:active, #form_builder select:hover {
+  border: 1px solid #4d9fcb;
+}
+
+#site-navigation ul .navigation-sectional li img {
+	width: auto;
+	height: 40px;
+}
+#team-site > #team-display #branch-managers .branch-manager-section .manager-information .team-member-information h5:first-of-type {
+  display: flex;
+  flex-direction: column-reverse;
+}
+#team-site > #team-display #branch-managers .branch-manager-section .manager-information .team-member-information h5:last-of-type {
+  margin-top: -20px;
+}
+.teamsitelocationdeclaration a {
+  color: #006fa9;
+  font-weight: 300;
+  font-size: 17px;
+  margin: -6px;
+  display: block;
+  word-spacing: 1px;
+}
+.link-to-website-identify {
+ display: none;
+}
+.team-member-information h4 a {
+	 font-weight: 600;
+}
+
+#csteam .team-member-information .team-member-portrait {
+  background-position-y: 4% !important;
+}
+
+/* Blog Testing */
+.page-blog-list #product-banner {
+	background: linear-gradient(177deg, rgba(26, 29, 36, 0.77) 20%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/anniemac-blog-header.jpg) center center no-repeat;
+	background-size: cover;
+	background-position-y: 53%;
+}
+.page-blog-detail header#product-banner {
+	display: inherit;
+}
+.blog .inner, .blog-archive .inner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.blog .clearfix {
+	order: 2;
+	display: flex;
+}
+.page-blog-detail .blog .clearfix {
+	order: 2;
+	width: 100%;
+	display: flex;
+	margin-top: 50px;
+}
+.page-blog-detail .flex.column.padding-20.items {
+	padding: 0;
+}
+.page-blog-detail .content-list .media-body {
+  margin: -80px 0;
+}
+.page-blog-detail .share-bar {
+	border-bottom: 1px solid #f5f7fa;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	padding: 20px 0 20px;
+}
+.share-bar {
+	border-bottom: 1px solid #f5f7fa;
+	width: 100%;
+	display: flex;
+	padding: 20px 0 20px;
+	justify-content: flex-end;
+}
+.share-bar ul {
+	list-style: none;
+	margin: 40px 0 0;
+	padding: 0;
+	width: 220px !important;
+	justify-content: space-between;
+}
+.google-plus,
+.pinterest {
+	display: none;
+}
+.blog .content-detail .pull-left img {
+	display: none;
+	height: auto;
+}
+.blog .content-detail .media {
+	width: 100%;
+}
+article hr {
+	display: none;
+}
+.media {
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+}
+.media a:hover {
+	border-bottom: none;
+}
+.media-body summary {
+	display: none;
+}
+.media-body header {
+	background: transparent !important;
+}
+.media-body .title {
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+#text-based .media-body .title a {
+	font-weight: 500;
+}
+.page-blog-list .content-list.blog .inner>* .pull-left, .blog-archive .media .pull-left {
+	float: none;
+	display: inline-block;
+	background: linear-gradient(14deg, rgba(0, 0, 0, 0.62) 30%, rgba(98, 90, 75, 0.28) 80%);
+	width: 100%;
+	margin-bottom: 15px;
+}
+.page-blog-list .content-list.blog .inner>* .pull-left img, .blog-archive .media .pull-left img {
+	width: 100%;
+	margin: 0 auto;
+	height: 235px;
+	box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 13%);
+	border-radius: 2px;
+	position: relative;
+	z-index: -1;
+	display: block;
+	object-fit: cover;
+}
+.pagination ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	width: 600px;
+}
+.blog-index {
+	display: flex; 
+	justify-content: center;
+	max-width: 1250px;
+	margin: 25px auto 0;
+	padding: 20px 0;
+	flex-direction: column;
+}
+.pager {
+	border-bottom: 1px solid #f5f7fa;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 20px 0 20px;
+}
+.sidebar_items {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+.sidebar_items .block:nth-of-type(1),
+.sidebar_items .block:nth-of-type(3) {
+	width: 250px;
+}
+.sidebar_items ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.sidebar_items .block h3 {
+	color: var(--bodytext);
+	margin-top: 20px;
+	font-weight: 400;
+	font-size: 17px;
+	display: block;
+	margin-bottom: 5px;
+}
+.sidebar_items .block:nth-of-type(3) ul {
+	display: flex;
+	flex-direction: column-reverse;
+}
+.sidebar_items .block ul li {
+	color: transparent;
+	font-size: 16px;
+}
+.sidebar_items .block ul li a {
+	font-weight: 400;
+}
+.sidebar_items .block:nth-of-type(3) ul li:nth-last-child(n+10) {
+	display: none;
+}
+#text-based .media-body h3.title {
+	font-size: 23px;
+	margin: 0 0 40px;
+	text-transform: none;
+}
+#text-based .block h3.title {
+	font-size: 22px;
+}
+#text-based .block ul li a {
+	font-weight: 300;
+}
+.page-blog-detail #text-based {
+	margin-top: 50px;
+}
+.page-blog-detail #text-based .media-body .content ul {
+	font-size: 17px;
+	line-height: 33px;
+	font-weight: 300;
+	margin: 0 0 20px;
+	list-style-type: disc;
+	padding-left: 20px;
+}
+.page-blog-detail #text-based .media-body .content li {
+	font-size: 17px;
+	line-height: 33px;
+	font-weight: 300;
+	padding-left: 10px;
+}
+.block.recent-blogs {
+	order: -1;
+}
+
+/* Specific Pages */
+	/* About Us */
+	.node-47106 #product-banner {
+		background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/annie_mac_new_banner_about.jpeg) center center no-repeat;
+		background-size: cover;
+		background-position-y: 12%;		
+	}
+	/* Licensing */
+	.node-163441 #product-banner {
+		background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/licensing.jpg) bottom no-repeat;
+		background-size: cover;
+	}
+	/* Privacy Policy */
+	.node-47111 #product-banner {
+		background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/privacypolicy.jpeg) center center no-repeat;
+		background-size: cover;
+		background-position-y: 57%;	
+	}
+	/* Terms of Use */
+	.node-47115 #product-banner {
+		background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/termsofuse.jpeg) bottom no-repeat;
+		background-size: cover;
+		background-position-y: 25%;	
+	}
+	/* 	Glossary */
+	.node-56405 #product-banner {
+		background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/annie_mac_new_banner_glossary.jpeg) bottom no-repeat;
+		background-size: cover;
+		background-position-y: 53%;	
+	}
+	/* 	FAQ */
+	.node-56404 #product-banner {
+		background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/annie_mac_new_banner_faq.jpeg) bottom no-repeat;
+		background-size: cover;
+		background-position-y: 50%;	
+	}
+	/* 	CCPA */
+	.node-47107 #product-banner {
+		background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/annie_mac_new_banner_ccpa.jpeg) top left no-repeat;
+		background-size: cover;
+		background-position-y: 53%;
+	}
+	/* Contact Us */
+	.node-127219 #product-banner {
+		background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/contact-us-header.jpg) center center no-repeat;
+		background-size: cover;
+		background-position-y: 25%;	
+	}
+	/* 	Login */
+	.user-login #product-banner {
+		height: 268px;
+	}
+	.user-login > #product-banner, .member-registration > #product-banner {
+		background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url(https://www.annie-mac.com/uploads/sites/10713/public/careers.jpeg) top left no-repeat;
+		background-position-y: 9%;
+		background-size: cover;
+	}
+	/* FHA */
+	.node-47108 #product-banner {
+		background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/fha-loans.jpeg) center center no-repeat;
+		background-size: cover;
+		background-position-y: 43%;
+	}
+	/* Conventional */
+	.node-47105 #product-banner {
+		background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/conventional-loan.jpeg) center center no-repeat;
+		background-size: cover;
+		background-position-y: 43%;	
+	}
+	/* 	Jumbo */
+	.node-168982 #product-banner {
+		background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/jumbo-2.jpg) center center no-repeat;
+		background-size: cover;
+		background-position-y: 28%;	
+	}
+	/* VA */
+	.node-47117 #product-banner {
+		background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/va-loans.jpeg) center center no-repeat;
+		background-size: cover;
+		background-position-y: 66%;	
+	}
+	/* USDA */
+	.node-47116 #product-banner {
+		background: linear-gradient(177deg, rgba(23, 16, 5, 0.52) 30%, rgba(26, 29, 36, 0.83) 80%), url(https://annie-mac.com/uploads/sites/10713/public/usda-loans_0.jpeg) bottom center no-repeat;
+		background-size: cover;
+		background-position-y: 100%;
+	}
+	
+/* 	Broker */
+	.node-152734 #product-banner {
+		align-items: center;
+		display: flex;
+		padding: 0 0 30px !important;
+		min-height: 200px !important;
+		max-height: 200px;
+	}
+	
+	.node-152734 #product-banner h2 {
+		width: 353px;
+		height: 72px;
+	}
+	
+	.node-152734 #product-banner h4 {
+		display: none;
+	}
+	.node-152734 footer {
+		background: transparent;
+		
+	}
+	.node-152734 footer #sitemap, #footer-phone-number, #footer-email, #footer-nmls {
+		display: none;
+	}
+
+.listing-element {
+	padding: 0 0 5px;
+}
+.listing-element p {
+	
+	margin-bottom: 20px;
+}
+
+.listing-element li {
+	font-size: 17px;
+	line-height: 33px;
+	font-weight: 300;
+	padding-left: 10px;
+}
+
+.listing-element ul {
+	margin: 0 0 20px;
+	list-style-type: disc;
+	padding-left: 20px;
+}
+
+.listing-element button {
+	margin: 5px 0 30px;
+}
+
+.listing-container {
+	padding: 5px 0 0;
+}
+
+.disclosure {
+	background: #73b73e;
+	padding: 7px 30px 20px;
+	margin: 35px 0 0px;
+	color: #fff;
+	box-shadow: 3px 10px 17px rgb(0 0 0 / 5%);
+}
+
+.form-disclosure {
+	background: transparent;
+	box-shadow: none;
+	padding: 0;
+	margin: 0 0 20px !important;
+}
+
+.form-disclosure p {
+	letter-spacing: .65px;
+	color: #000;
+	position: relative;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 13px;
+	line-height: 27px !important;
+}
+
+.disclosure.top-disclosure {
+	margin-top: 0;
+	margin-bottom: 45px;
+}
+
+.disclosure.middle-disclosure {
+	margin: 20px 0 40px;
+}
+
+.important-disclosure {
+	background: #b53434;
+}
+
+#text-based .disclosure h3 {
+	font-size: 19px;
+	font-weight: 800;
+	color: #fff;
+	margin-bottom: -10px; 
+}
+
+#text-based .disclosure p {
+	font-size: 15px;
+	line-height: 26px;
+	font-weight: 400;
+}
+
+.annie-mac-promise {
+	background: linear-gradient(20deg, rgb(15, 71, 119) 0%, rgb(32, 104, 164) 64%);
+	margin-top: 0;
+}
+
+.annie-mac-promise a button {
+	background: white;
+	color: #1e639e;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+.list-element-inner-container {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 20px;
+}
+.listing-element:first-of-type .list-element-inner-container:nth-of-type(1) {
+	margin-top: 10px;
+}
+.list-element-image-content {
+	min-width: 75px;
+	padding-top: 5px;
+}
+.extended-image-content {
+	min-width: 155px !important;
+}
+.list-element-image {
+	width: 50px;
+	height: auto;
+}
+.extended-image {
+	width: 118px !important;
+	margin-right: 30px;
+}
+.list-element-content h5 {
+	margin-bottom: 10px !important;
+}
+.side-by-side-image-right {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+.right-content-side {
+	margin-left: 45px;
+}
+.left-content-side {
+	flex: 1;
+}
+.right-side-image {
+	width: 303px;
+}
+.left-content-side h3 {
+	margin-top: -10px !important;
+	width: 560px;
+	margin-left: 0 !important;
+}
+#conventional-sides {
+	align-items: center;
+}
+h3#conventional-best {
+	width: 100%;
+}
+/* div#calculatorsList {
+	width: initial;
+	max-width: initial;
+	margin: 40px 0;
+}
+
+div#calculatorsList .responsive_columns div div div {
+	display: flex;
+	flex-direction: column;
+	justify-content: stretch;
+}
+
+div#calculatorsList .responsive_columns div div div div {
+	min-height: 233px;
+} */
+
+@media screen and (max-width: 1050px) {
+	#site-navigation ul#navigation_new_upper li#list_12564 {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	#site-navigation ul#navigation_new_upper {
+		margin: 25px 0 0;
+	}
+	#site-navigation ul#navigation_new_upper li {
+		width: inherit;
+		font-size: 17px;
+	}
+	#site-navigation ul .navigation-sectional li img {
+		width: auto;
+		height: 40px;
+	}
+	.navigation-sectional:nth-of-type(1) {
+		flex: 0;
+	}
+	.navigation-sectional:nth-of-type(2) {
+		position: absolute;
+		top: 11px;
+		left: 11px;
+	}
+	#site-navigation #navigation_new_upper .navigation-sectional:nth-of-type(2) .menu:first-of-type {
+		display: none !important;
+	}
+	#home-banner {
+		height: 318px;
+		min-height: initial;
+		justify-content: flex-start;
+	}
+	.container-section h3 {
+		font-size: 45px;
+	}
+	.container-section h3 span {
+		font-size: 22px;
+		margin-bottom: -25px;
+	}
+	.review-grid {
+		flex-direction: column;
+	}
+	#home-provide {
+		width: 100%;
+		margin-top: -180px;
+	}
+	.review {
+		margin-bottom: 0;
+	}
+	.review p {
+		font-size: 16px;
+		width: 100%;
+		text-align: center;
+	}
+	.review:nth-of-type(3) {
+		margin-bottom: 60px;
+	}
+	.more-block {
+		width: 100%;
+		margin: -59px 0;
+	}
+	#deserve-more-container-master {
+		padding: 45px;
+	}
+	#deserve-more-container-master h3 {
+		margin-bottom: 55px;
+	}
+	#we-provide-more-master {
+		margin-top: 40px;
+	}
+	.we-provide-this {
+		width: 100%;
+	}
+	.we-provide-this h4 {
+		margin-top: 30px;
+	}
+	.we-provide-this p {
+		font-size: 18px;
+		line-height: 32px;
+		font-weight: 200;
+	}
+	.provided-links {
+		padding-top: 0;
+	}
+	.provided-links a {
+		display: inline-block;
+		width: 245px;
+		margin-top: 20px;
+	}
+	#home-blog .block ul {
+		flex-direction: column;
+	}
+	#home-blog .block ul li {
+		width: 100%;
+	}
+	#more-blogs {
+		margin: 40px auto 0;
+	}
+	footer {
+		background: transparent;
+		margin-top: -40px;
+	}
+	footer #sitemap {
+		display: none;
+	}
+	
+/* 	Branches */
+	.branch-manager-section .manager-information {
+		margin: 20px 0 !important;
+		width: initial;
+	}
+	#branch-banner {
+		height: 388px;
+		min-height: initial;
+	}
+	#branch-content h2 {
+		margin-top: -15px;
+		font-size: 45px;
+	}
+	#branch-content h3 {
+		font-size: 19px;
+		margin-top: -3px;
+	}
+	#branch-content h5 {
+		font-size: 16px;
+		margin: 18px 0 10px;
+		line-height: 22px;
+	}
+	#home-reviews {
+		padding: 60px 0;
+		width: 100%;
+		border-bottom: 50px solid whitesmoke;
+	}
+	#team-display {
+		margin-top: -95px;
+		margin-bottom: 180px;
+	}
+	.branch-manager-section {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	.manager-information {
+		
+	}
+	.team-member-section {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.team-member {
+		width: 100%;
+	}
+/* 	Reviews */
+	#social-review-grid {
+		flex-direction: column;
+	}
+	.social-review {
+		width: 100%;
+	}
+	.right-content-side {
+		display: none;
+	}
+}
+@media screen and (max-width: 875px) {
+	body {
+		min-width: 100%;
+	}
+	#products-and-calculators {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	#accolades-originator #calculations-and-numbers {
+		width: 100%;
+		margin-left: 0;
+		margin-bottom: 30px;
+	}
+	.calculations-primary {
+		padding: 25px 30px;
+	}
+	.calculations-primary:first-of-type {
+		margin-bottom: 30px;
+		margin-top: 0;
+	}
+	.action-buttons-calcs {
+		display: flex;
+		flex-direction: row;
+	}
+	.action-buttons-calcs button {
+		margin-bottom: 10px;
+		margin-right: 10px;
+		min-width: 200px;
+	}
+	#text-based .capture-field-group {
+		flex-direction: column !important;
+	}
+	#text-based .capture-input-field {
+		width: 100% !important;
+	}
+	#text-based .form-disclosure p {
+		font-size: 13px !important;
+		font-weight: 400 !important;
+		text-align: center !important;
+		margin: 10px auto 20px !important;
+	}
+	.location-state-list {
+		flex-direction: column;
+	}
+	.location-listing {
+		width: 100%;
+	}
+	.page-blog-detail header#product-banner, .page-blog-detail .share-bar {
+		display: none;
+	}
+	.sidebar_items {
+		flex-direction: column;
+	}
+}
+@media screen and (max-width: 781px) {
+	.site-type-loan_officer .navigation-sectional:nth-of-type(1) {
+		flex: 0;
+	}
+	.site-type-loan_officer .navigation-sectional:nth-of-type(2) {
+		flex: 0;
+		order: 5;
+	}
+	#page-banner, #video-banner, #product-banner, #core-banner {
+		height: 240px;
+	}
+	#site-navigation ul .navigation-sectional li img {
+		width: auto;
+		height: 32px;
+	}
+}
+
+@media screen and (max-width: 705px) {
+	#originator-core-details {
+		flex-direction: column;
+	}
+	#originator-core-details-text {
+		margin-left: 0;
+		margin-top: 25px;
+	}
+	#originator-social-details ul {
+		justify-content: center;
+	}
+	.footer-directory-listing {
+		flex-direction: column;
+		width: initial;
+	}
+	#copyrights .flex:first-of-type {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	#applyheaderlo {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		margin: 20px 0;
+	}
+	button#loapplylink {
+		background: #7fc24a;
+		margin-right: 0;
+	}
+	#loapplylink, #testimonials {
+		transform: scale(1.2);
+		min-width: 200px;
+		margin: 10px 0;
+	}
+	.list-element-inner-container {
+		margin-bottom: 10px;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	.list-element-image-content {
+		padding-top: 0;
+		margin-bottom: 15px;
+	}
+	.list-element-image {
+		width: 65px;
+	}
+	.side-by-side-image-right {
+		flex-direction: column;
+	}
+	.left-content-side h3 {
+		margin-top: inherit !important;
+		width: initial !important;
+		margin-left: initial !important;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	body > .main-content {
+		max-width: initial !important;
+		width: fit-content !important;
+	}
+	body {
+		width: fit-content;
+	}
+	#home-banner {
+		padding-top: 20px;
+	}
+	.container-section h3 {
+		font-size: 40px;
+	}
+	.container-section h3 span {
+		margin-top: -10px;
+	}
+	#home-reviews h3 {
+		padding-top: 0px;
+		font-size: 28px;
+		font-weight: 800;
+		margin-bottom: -10px;
+	}
+	#more-reviews {
+		margin: 30px auto;
+	}
+	#deserve-more-container-master {
+		padding: 45px 25px;
+	}
+	#deserve-more-container-master h3 {
+		margin-bottom: 35px;
+	}
+	#we-provide-more-master {
+		margin-top: 0;
+	}
+	.we-provide-this {
+		padding: 45px 25px 15px;
+	}
+	.we-provide-this h4 {
+		margin-top: 0;
+	}
+	.provided-links {
+		display: flex;
+		flex-direction: column;
+		margin-top: 0;
+	}
+	.provided-links a {
+		width: auto;
+	}
+	.site-type-loan_officer .navigation-sectional:nth-of-type(2) {
+		order: 0;
+	}
+	#site-navigation ul .navigation-sectional li img {
+		margin: 15px 0;
+	}
+	.navigation-sectional:nth-of-type(2) {
+		top: 15px;
+	}
+}
+.edit-group {
+	position: absolute;
+	top: 0;
+	right: 0;
+	opacity: 0;
+}
+
+.edit-menu {
+	display: flex;
+	width: 154px;
+	justify-content: space-between;
+	opacity: .4;
+}
+
+.edit-menu a {
+	font-weight: 200 !important;
+	color: #000 !important;
+}
+
+b, strong {
+	font-weight: 800;
+}
+
+body {
+	max-width: 1445px;
+	margin: 0 auto;
+	background: #fff;
+	box-shadow: 3px 41px 24px rgb(0 0 0 / 10%);
+	width: 100%;
+}
+
+html {
+	background: #f1f1f1;
+	overflow-x: hidden !important;
+}
+
+.team-member-section.branches-other-team {
+	justify-content: space-around !important;
+}
+
+#nmg-insertion-point {
+	z-index: 1;
+	margin-top: -151px;
+	background: #fff;
+}
