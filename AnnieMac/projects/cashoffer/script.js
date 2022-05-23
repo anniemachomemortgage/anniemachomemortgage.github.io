@@ -181,7 +181,7 @@ $(function() {
 					if ($(this).hasClass("cash")) {
 						$(this).removeAttr('open');
 					};
-				});
+				})
 			};
 			if ($("#toggle-general").hasClass("active-filter")) {
 				// console.log("has active filter.")
@@ -193,7 +193,7 @@ $(function() {
 						$(this).show();
 						$(this).attr('open', '');
 					};
-				});
+				})
 			};
 		});
 		$("#toggle-bnsl").click(function(){
