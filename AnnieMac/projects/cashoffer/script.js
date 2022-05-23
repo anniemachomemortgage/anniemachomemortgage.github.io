@@ -144,32 +144,6 @@ $(function() {
 				});
 			};
 		});
-		$("#toggle-realtor").click(function(){
-			$(this).toggleClass('active-filter');
-			if (!$("#toggle-realtor").hasClass("active-filter")) {
-				// console.log("Doesn't have active filter.")
-				$('details').each(function() {
-					if (!$(this).hasClass("realtor")) {
-						$(this).show();
-					};
-					if ($(this).hasClass("realtor")) {
-						$(this).removeAttr('open');
-					};
-				});
-			};
-			if ($("#toggle-realtor").hasClass("active-filter")) {
-				// console.log("has active filter.")
-				$('details').each(function() {
-					if (!$(this).hasClass("realtor")) {
-						$(this).hide();
-					};
-					if ($(this).hasClass("realtor")) {
-						$(this).show();
-						$(this).attr('open', '');
-					};
-				});
-			};
-		});
 		$("#toggle-general").click(function(){
 			$(this).toggleClass('active-filter');
 			if (!$("#toggle-general").hasClass("active-filter")) {
@@ -177,10 +151,10 @@ $(function() {
 				$('details').each(function() {
 					if (!$(this).hasClass("cash")) {
 						$(this).show();
-					};
+					}
 					if ($(this).hasClass("cash")) {
 						$(this).removeAttr('open');
-					};
+					}
 				});
 			};
 			if ($("#toggle-general").hasClass("active-filter")) {
@@ -188,11 +162,11 @@ $(function() {
 				$('details').each(function() {
 					if (!$(this).hasClass("cash")) {
 						$(this).hide();
-					};
+					}
 					if ($(this).hasClass("cash")) {
 						$(this).show();
 						$(this).attr('open', '');
-					};
+					}
 				});
 			};
 		});
@@ -203,10 +177,10 @@ $(function() {
 				$('details').each(function() {
 					if (!$(this).hasClass("sell")) {
 						$(this).show();
-					};
+					}
 					if ($(this).hasClass("sell")) {
 						$(this).removeAttr('open');
-					};
+					}
 				});
 			};
 			if ($("#toggle-bnsl").hasClass("active-filter")) {
@@ -214,11 +188,11 @@ $(function() {
 				$('details').each(function() {
 					if (!$(this).hasClass("sell")) {
 						$(this).hide();
-					};
+					}
 					if ($(this).hasClass("sell")) {
 						$(this).show();
 						$(this).attr('open', '');
-					};
+					}
 				});
 			};
 		});
