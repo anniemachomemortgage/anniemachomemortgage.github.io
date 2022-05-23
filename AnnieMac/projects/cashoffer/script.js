@@ -207,7 +207,7 @@ $(function() {
 					if ($(this).hasClass("sell")) {
 						$(this).removeAttr('open');
 					};
-				});
+				})
 			};
 			if ($("#toggle-bnsl").hasClass("active-filter")) {
 				// console.log("has active filter.")
@@ -219,7 +219,7 @@ $(function() {
 						$(this).show();
 						$(this).attr('open', '');
 					};
-				});
+				})
 			};
 		});
 	};
