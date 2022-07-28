@@ -1399,13 +1399,15 @@ section#originator {
 	}
 }
 /* Status Video Pages */
-.node-171781, .node-171778, .node-171782, .node-171779, .node-171780, .node-171777, .node-171775, .node-171776 {
+/* Status Video Pages */
+.node-171781, .node-171778, .node-171782, .node-171779, .node-171780, .node-171777, .node-171775, .node-171776, .node-208255 {
 	box-shadow: none;
 	background: #f1f1f1;
 }
-.node-171781 #product-banner, .node-171778 #product-banner, .node-171782 #product-banner, .node-171779 #product-banner, .node-171780 #product-banner, .node-171777 #product-banner, .node-171775 #product-banner, .node-171776 #product-banner, .node-171781 footer , .node-171778 footer , .node-171782 footer , .node-171779 footer , .node-171780 footer , .node-171777 footer , .node-171775 footer , .node-171776 footer {
+.node-171781 #product-banner, .node-171778 #product-banner, .node-171782 #product-banner, .node-171779 #product-banner, .node-171780 #product-banner, .node-171777 #product-banner, .node-171775 #product-banner, .node-171776 #product-banner, .node-208255 #product-banner, .node-208255 footer .node-171781 footer , .node-171778 footer , .node-171782 footer , .node-171779 footer , .node-171780 footer , .node-171777 footer , .node-171775 footer , .node-171776 footer {
 	display: none;
 }
+
 .video-update-status-container iframe {
 	border: none;
 	width: 100%;
