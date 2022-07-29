@@ -800,12 +800,21 @@ section#originator {
 
 .divided-listing .loan-officer-information {
 	margin-top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
-.loan-officer-information h4 {
+.loan-officer-information h5 {
 	font-family: inherit;
 	color: #000;
 	font-size: 11px;
+	margin: 0;
+}
+
+.loan-officer-information img {
+	width: 100px;
+	order: -1;
 }
 
 .loan-officer-information p, .loan-officer-information p a {
