@@ -106,6 +106,15 @@ li#navigation-logo {
 	width: 303px;
 	margin: 0 0 10px;
 }
+#navigation-logo span {
+	color: white;
+	font-size: 10px;
+	position: absolute;
+	bottom: -27px;
+	right: 0;
+	visibility: visible;
+	text-indent: initial;
+}
 .main-site-background {
 	/* position: relative; */
 	display: flex;
