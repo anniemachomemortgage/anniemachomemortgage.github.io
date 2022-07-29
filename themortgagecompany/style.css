@@ -789,6 +789,16 @@ section#originator {
 	margin-top: 20px;
 }
 
+.divided-listing .loan-officer-information {
+	margin-top: 0;
+}
+
+.loan-officer-information h4 {
+	font-family: inherit;
+	color: #000;
+	font-size: 11px;
+}
+
 .loan-officer-information p, .loan-officer-information p a {
 	line-height: 29px;
 	margin: 0;
