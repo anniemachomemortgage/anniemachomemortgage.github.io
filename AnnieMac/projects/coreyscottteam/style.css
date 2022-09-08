@@ -1385,7 +1385,7 @@ commentcontainer h4 {
 	margin: 35px 0 -30px !important;
 	margin-bottom: 0;
 	display: flex !important;
-	align-items: stretch;
+	align-items: flex-start;
 	flex-direction: row-reverse;
 }
 
@@ -1409,10 +1409,15 @@ div#cash2keys-information-graphic {
 	align-items: center;
 	min-width: 395px;
 	background-size: 170%;
+	min-height: 395px;
 }
 
 div#cash2keys-information-detail {
 	padding: 0 0 0 50px;
+}
+
+div#cash2keys-information-detail h4:first-of-type {
+	margin-top: 0;
 }
 
 #cash2keys-callout-verification a {
