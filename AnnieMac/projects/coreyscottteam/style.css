@@ -1415,6 +1415,9 @@ div#cash2keys-information-detail {
 	padding: 0 0 0 50px;
 }
 
+#cash2keys-callout-verification a {
+	text-decoration: none;
+}
 #cash2keys-callout-verification a button {
 	margin: 36px 0 25px;
 	display: block;
