@@ -626,6 +626,9 @@ li.disabled, li.active {
   font-size: 16px;
   line-height: 20px;
 }
+#static-content .social-review h4 svg {
+	display: none;
+}
 #static-content .social-review-survey {
   font-size: 15px;
   margin: 9px 0px;

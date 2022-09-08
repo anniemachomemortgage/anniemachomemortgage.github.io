@@ -1609,3 +1609,46 @@ commentcontainer h4 {
 	text-transform: capitalize !important;
 	margin-top: -30px !important;
 }
+
+#cash2keys-callout-verification {
+	margin: 35px 0 -30px !important;
+	margin-bottom: 0;
+	display: flex !important;
+	align-items: stretch;
+	flex-direction: row-reverse;
+}
+
+#cash2keys-callout-verification img {
+	width: 388px !important;
+	height: auto !important;
+}
+
+#cash2keys-callout-verification h3 {
+	font-size: 35px;
+	text-align: left;
+	text-transform: capitalize;
+	margin: 0 0 10px !important;
+	font-weight: 600 !important;
+}
+
+div#cash2keys-information-graphic {
+	background: linear-gradient(181deg, rgb(119 194 84 / 85%) 30%, rgb(119 194 84 / 85%) 80%), url(https://annie-mac.wmmortgageware.com/uploads/sites/10713/public/cash2keys_background_image.jpg) right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: 450px;
+	background-size: 140%;
+}
+
+div#cash2keys-information-detail {
+	padding: 0 0 0 50px;
+}
+
+#cash2keys-callout-verification a button {
+	margin: 36px 0 25px;
+	display: block;
+	font-weight: 800;
+	background: #006fa9;
+	padding: 20px 35px;
+	float: right;
+}
