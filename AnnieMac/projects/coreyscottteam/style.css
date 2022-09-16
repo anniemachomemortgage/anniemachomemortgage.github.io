@@ -404,6 +404,9 @@ footer {
 	font-size: 15px;
 	color: var(--darkergray);
 }
+.sitemaps ul li svg:hover {
+	color: #086da4;
+}
 .footerlist-title {
 	font-size: 20px !important;
 	margin-bottom: 8px;
