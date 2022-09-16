@@ -1670,3 +1670,19 @@ div#cash2keys-information-detail h4:first-of-type {
 		float: initial;
 	}
 }
+
+h5.footer-subtitle {
+	font-size: 18px !important;
+	margin-bottom: 8px;
+	font-family: 'Lora', serif !important;
+	color: var(--darkergray);
+	font-weight: 800 !important;
+}
+ul#download-apps {
+	display: flex;
+	width: 65px;
+	justify-content: space-between;
+}
+ul#download-apps li svg {
+	font-size: 19px;
+}
