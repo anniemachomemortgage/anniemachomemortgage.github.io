@@ -252,6 +252,7 @@ nav ul {
 	background: white;
 	width: 100%;
 	padding: 0px 20px;
+	max-height: 65px;
 }
 
 #navigation {
@@ -1511,8 +1512,8 @@ font-size: 18px;
 		display: block;
 		margin-right: 50px;
 		position: absolute;
-		top: 31%;
-		right: -27.5px;
+		top: 5px;
+		/* right: -27.5px; */
 		font-size: 24px;
 	}
 
@@ -1545,11 +1546,17 @@ font-size: 18px;
 	}
 	
 	.mobile-show {
-		display: initial;
+		display: block;
+		width: 47px;
+		height: 65px;
+		position: absolute;
+		top: 0;
+		left: 0;
 	}
 
 	.navigation-contain {
 		justify-content: flex-start;
+		position: relative;
 	}
 
 	logo {
