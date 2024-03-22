@@ -135,12 +135,12 @@ logo {
 	left: 58px;
 flex: 1;}
 
-#lofi-direct-logo {
+#ovm-logo {
 	width: 255px;
 	margin-top: 12px;
 }
 
-#lofi-direct-mobile {
+#ovm-mobile {
 	width: 53px;
 	float: left;
 	margin-top: 4px;
@@ -664,7 +664,7 @@ section#visual-divider.review-section-callouts {
 #visual-divider-a button:hover,
 #read-more-testimonials:hover,
 .homepage-image-background-section button:hover,
-.full-lofi-direct-input button:hover,
+.full-ovm-input button:hover,
 #get-approved button:hover,
 #form-insert button:hover {
 	background: #2e2c2d !important;
@@ -738,7 +738,7 @@ section#visual-divider.review-section-callouts {
 	text-align: center;
 }
 
-.lofi-direct-reviews-statements {
+.ovm-reviews-statements {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -747,7 +747,7 @@ section#visual-divider.review-section-callouts {
 	justify-content: space-between;
 }
 
-.lofi-direct-review-card {
+.ovm-review-card {
 	height: auto;
 	padding: 0;
 	margin: 0 0 20px;
@@ -1502,7 +1502,7 @@ font-size: 18px;
 		margin-left: 10px;
 	}
 	
-	#lofi-direct-mobile {
+	#ovm-mobile {
 		margin-left: -15px;
 	}
 
