@@ -1802,7 +1802,7 @@ font-size: 18px;
 
 @media only screen and (max-width: 650px) {
 	header {
-		min-height: 592px;
+		/* min-height: 592px; */
 	}
 	header .button-containers {
 		height: 145px;
