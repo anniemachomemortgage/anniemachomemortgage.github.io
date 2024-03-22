@@ -206,14 +206,8 @@ nav ul {
 }
 
 #navigation li a {
-	
-	
-	
-	
-	
-	
 	margin: 0 14px;
-letter-spacing: .65px;
+	letter-spacing: .65px;
 	color: #000;
 	position: relative;
 	font-weight: 800;
@@ -229,8 +223,8 @@ letter-spacing: .65px;
 	outline: none;
 	padding: 5px 30px;
 	width: fit-content;
-	background: #fecf31;
-	border: 3px solid #fecf31;
+	background: #00a551;
+	border: 3px solid #00a551;
 	color: #000;
 	font-weight: 800;
 	text-transform: uppercase;
@@ -279,11 +273,10 @@ h6#sub-headline {
 
 button {
 	color: #fff;
-	background: #64a445;
-	border: 3px solid #64a445;
+	background: #19244e;
+	border: 3px solid #19244e;
 	outline: none;
 	padding: 20px 25px;
-	
 	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: .05em;
