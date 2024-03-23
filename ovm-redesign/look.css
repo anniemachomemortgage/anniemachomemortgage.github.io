@@ -23,7 +23,7 @@
 
 html {
 	font-size: 62.5%;
-    background: #f4f4f4;
+	background: #f4f4f4;
 }
 
 html,
@@ -396,10 +396,10 @@ a button:hover {
 main {
 	background: white;
 	background: url(https://amweb.azureedge.net/ovm/tree%20overlay.png) no-repeat;
-	background-size: 43%;
+	background-size: 660px;
 	background-position: bottom right;
 	background-attachment: fixed;
-	background-position-y: 178%;
+	background-position-y: 220px;
 	z-index: 1;
 }
 
@@ -1080,9 +1080,9 @@ li.column-layout-3x3:nth-of-type(even) .card-container-3x3 h5 {
 }
 
 .provide-button:hover {
-    color: #fff;
-    border: 3px solid #323232;
-    background: #323232;
+	color: #fff;
+	border: 3px solid #323232;
+	background: #323232;
 	cursor: pointer;
 }
 
