@@ -1515,7 +1515,7 @@ border-bottom: 1px solid rgba(0, 0, 0, .1);}
 font-size: 18px;
 }
 
-@media only screen and (max-width: 1250px) {
+/* @media only screen and (max-width: 1250px) {
 	.secondary-importance {
 		display: none;
 	}
@@ -1915,4 +1915,4 @@ font-size: 18px;
 		height: auto;
 		width: 100%;
 	}
-}
+} */
