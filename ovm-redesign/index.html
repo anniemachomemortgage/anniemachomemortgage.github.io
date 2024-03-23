@@ -5,7 +5,7 @@
 	<link rel="stylesheet" id="wireframe" href="look.css" type="text/css">
 	<link rel="stylesheet" href="https://use.typekit.net/lny8sfe.css">
 	<link id="fonts" rel="stylesheet" href="https://use.typekit.net/lie2pzo.css">
-	<script src="https://kit.fontawesome.com/97dedd64e8.js" crossorigin="anonymous"></script>
+	<script id="fontawesome" src="https://kit.fontawesome.com/97dedd64e8.js" crossorigin="anonymous"></script>
 	<script id="jquery-link" src="https://code.jquery.com/jquery-latest.min.js"></script>
 	<script id="script" src="think.js"></script>
 	<meta name="viewport" content="width=device-width">
@@ -40,7 +40,7 @@
 		</div>
 	</header>
 	<div class="header-section">
-		<video id="background-video" autoplay loop muted poster="https://amweb.azureedge.net/ovm/ovm-still.jpg">
+		<video id="background-video" autoplay muted poster="https://amweb.azureedge.net/ovm/ovm-still.jpg">
 			<source src="https://amweb.azureedge.net/ovm/dancing-man.mp4" type="video/mp4">
 		</video>
 		<div class="cover-overflowlay"></div>
@@ -48,8 +48,8 @@
 			<h1 id="headline">Your Journey Starts Here!</h1>
 		</div>
 		<div class="header-content button-containers">
-			<a id="cta1" href="/page/purchase"><button class="">Learn More</button></a>
-			<a id="cta2" href="/loan/apply"><button class="">Apply Now</button></a>
+			<a id="cta2" href="/loan/apply"><button class="">Get Moving</button></a>
+			<a href="" class="standard-link">Contact Now</a>
 		</div>
 	</div>
 	<main>
@@ -58,15 +58,19 @@
 				<div class="selection-container">
 					<div class="selection-grid-container">
 						<div class="contained-option">
-							<h2>Buy a Home</h2>
-							<img src="https://anniemachomemortgage.github.io/lofi/images/home-purchase.png" class="contained-option-icons">
+							<i class="fa-solid fa-key"></i>
+							<h2>Cash2Keys</h2>
 							<button class=""><a>Learn More</a></button>
 						</div>
-						<div class="solidlinedivider"></div>
 						<div class="contained-option">
-							<h2>Refinance Now</h2>
-							<img src="https://anniemachomemortgage.github.io/lofi/images/refinance.png" class="contained-option-icons">
-							<button class=""><a>Learn More</a></button>
+							<i class="fa-solid fa-building-magnifying-glass"></i>
+							<h2>Branches</h2>
+							<button class=""><a>Find Branch</a></button>
+						</div>
+						<div class="contained-option">
+							<i class="fa-solid fa-user-magnifying-glass"></i>
+							<h2>Loan Officers</h2>
+							<button class=""><a>Find Originator</a></button>
 						</div>
 					</div>
 				</div>
@@ -228,72 +232,60 @@
 				<button id="read-more-testimonials">Read More Reviews</button>
 			</div>
 		</section>
-		<section id="why-choose-us" class="sectional">
-			<div class="reject-main-container">
-				<div class="two-columnul">
-					<div class="column-1 inline-video-container">
-						<div class="cover-overflowlay"></div>
-						<video class="inline-background-video" autoplay loop muted poster="https://amweb.azureedge.net/ovm/ovm-still.jpg">
-							<source src="https://amweb.azureedge.net/ovm/dancing-couple.mp4" type="video/mp4">
-						</video>
+		<div class="contain">
+			<section id="why-choose-us" class="sectional">
+				<div class="reject-main-container">
+					<div class="two-columnul">
+						<div class="column-2">
+							<div class="column-2-content">
+								<h3 class="description-text-header">We Provide</h3>
+								<h2 id="content-headling" class="header-text-h2">More Resources</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec risus non ex venenatis euismod. Integer tristique eros sit amet dui tempus semper. Phasellus odio nunc, faucibus vel sapien eget, aliquet malesuada ligula.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec risus non ex venenatis euismod. Integer tristique eros sit amet dui tempus semper. Phasellus odio nunc, faucibus vel sapien eget, aliquet malesuada ligula.</p>
+							</div>
+						</div>
+						<div class="column-1 inline-video-container">
+							<div class="cover-overflowlay"></div>
+							<video class="inline-background-video" autoplay loop muted poster="https://amweb.azureedge.net/ovm/ovm-still.jpg">
+								<source src="https://amweb.azureedge.net/ovm/dancing-couple.mp4" type="video/mp4">
+							</video>
+						</div>
 					</div>
-					<div class="column-2">
-						<div class="column-2-content">
-							<h3 class="description-text-header">Our Benefits</h3>
-							<h2 id="content-headling" class="header-text-h2">Why Choose Us</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec risus non ex venenatis euismod. Integer tristique eros sit amet dui tempus semper. Phasellus odio nunc, faucibus vel sapien eget, aliquet malesuada ligula.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec risus non ex venenatis euismod. Integer tristique eros sit amet dui tempus semper. Phasellus odio nunc, faucibus vel sapien eget, aliquet malesuada ligula.</p>
+					<div class="two-columnul">
+						<div class="column-1 inline-video-container">
+							<div class="cover-overflowlay"></div>
+							<video class="inline-background-video" autoplay="" loop="" muted="" poster="https://amweb.azureedge.net/ovm/ovm-still.jpg">
+								<source src="https://amweb.azureedge.net/ovm/dancing-couple.mp4" type="video/mp4">
+							</video>
+						</div>
+						<div class="column-2">
+							<div class="column-2-content">
+								<h3 class="description-text-header">We Provide</h3>
+								<h2 id="content-headling" class="header-text-h2">More Support</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec risus non ex venenatis euismod. Integer tristique eros sit amet dui tempus semper. Phasellus odio nunc, faucibus vel sapien eget, aliquet malesuada ligula.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec risus non ex venenatis euismod. Integer tristique eros sit amet dui tempus semper. Phasellus odio nunc, faucibus vel sapien eget, aliquet malesuada ligula.</p>
+							</div>
+						</div>
+					</div>
+					<div class="two-columnul">
+						<div class="column-2">
+							<div class="column-2-content">
+								<h3 class="description-text-header">We Provide</h3>
+								<h2 id="content-headling" class="header-text-h2">More Solutions</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec risus non ex venenatis euismod. Integer tristique eros sit amet dui tempus semper. Phasellus odio nunc, faucibus vel sapien eget, aliquet malesuada ligula.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec risus non ex venenatis euismod. Integer tristique eros sit amet dui tempus semper. Phasellus odio nunc, faucibus vel sapien eget, aliquet malesuada ligula.</p>
+							</div>
+						</div>
+						<div class="column-1 inline-video-container">
+							<div class="cover-overflowlay"></div>
+							<video class="inline-background-video" autoplay loop muted poster="https://amweb.azureedge.net/ovm/ovm-still.jpg">
+								<source src="https://amweb.azureedge.net/ovm/dancing-couple.mp4" type="video/mp4">
+							</video>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-		<section id="we-provide-more" class="sectional">
-			<div class="contain">
-				<h3 class="description-text-header">Our Products</h3>
-				<h2 id="" class="header-text-h2">We Provide More</h2>
-				<ul id="provide-more" class="reviews-and-statements">
-					<li class="column-layout-3x3">
-						<div class="card-container-3x3">
-							<div class="card-image-container">
-								<img src="https://images.unsplash.com/photo-1609220136736-443140cffec6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="provide-more-feature-card-image">
-							</div>
-							<h5>More Resources</h5>
-							<p>From blogs to guides and access to our mobile app, you'll always be armed with the knowledge you need to stay well-informed about your loan.</p>
-							<div class="card-links">
-								<a href="">Buyer Guide</a>
-								<a href="">FAQ</a>
-							</div>
-						</div>
-					</li>
-					<li class="column-layout-3x3">
-						<div class="card-container-3x3">
-							<div class="card-image-container">
-								<img src="https://images.unsplash.com/photo-1601758003122-53c40e686a19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="provide-more-feature-card-image">
-							</div>
-							<h5>More Support</h5>
-							<p>Our mission is to provide you with industry-leading customer service each and every day. Reach out to us, even after your loan is signed, sealed and delivered!</p>
-							<div class="card-links">
-								<a href="">Contact Us</a>
-								<a href="">Find a Branch</a>
-							</div>
-						</div>
-					</li>
-					<li class="column-layout-3x3">
-						<div class="card-container-3x3">
-							<div class="card-image-container">
-								<img src="https://images.unsplash.com/photo-1576089073624-b5751a8f4de9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1625&q=80" class="provide-more-feature-card-image">
-							</div>
-							<h5>More Solutions</h5>
-							<p>Mortgage loans come in many varieties, just like our customers. That's why we offer a wide assortment of products with unique benefits, terms, and requirements.</p>
-							<div class="card-links">
-								<a href="">View Your Options</a>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</section>
+			</section>
+		</div>
 		<section id="contact-us" class="alternation sectional">
 			<div class="contain">
 				<h3 class="description-text-header">Contact Us</h3>
@@ -428,55 +420,6 @@
 				</section>
 			</div>
 		</section>
-		
-		<section id="about-us" class="sectional">
-			<div class="reject-main-container">
-				<div class="two-columnul">
-					<div class="column-1 inline-video-container">
-						<div class="cover-overflowlay"></div>
-						<video class="inline-background-video" autoplay loop muted poster="https://amweb.azureedge.net/ovm/ovm-still.jpg">
-							<source src="https://amweb.azureedge.net/ovm/dancing-couple.mp4" type="video/mp4">
-						</video>
-					</div>
-					<div class="column-2">
-						<div class="column-2-content">
-							<h3 class="description-text-header">About Us</h3>
-							<h2 id="content-headling" class="header-text-h2">A Simple and Rewarding Home Loan Experience</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec risus non ex venenatis euismod. Integer tristique eros sit amet dui tempus semper. Phasellus odio nunc, faucibus vel sapien eget, aliquet malesuada ligula.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec risus non ex venenatis euismod. Integer tristique eros sit amet dui tempus semper. Phasellus odio nunc, faucibus vel sapien eget, aliquet malesuada ligula.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="about-us-expanded">
-				<div class="container">
-					<ul id="provide-more" class="reviews-and-statements">
-					<li class="column-layout-3x3">
-						<div class="card-container-3x3">
-							<img src="images/community.png" class="contained-option-icons">
-							<h5>Part of the Community</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec risus non ex venenatis euismod. Integer tristique eros sit amet dui tempus semper.</p>
-						</div>
-					</li>
-					<li class="column-layout-3x3">
-						<div class="card-container-3x3">
-							<img src="images/tailored.png" class="contained-option-icons">
-							<h5>Tailored Solutions</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec risus non ex venenatis euismod. Integer tristique eros sit amet dui tempus semper.</p>
-						</div>
-					</li>
-					<li class="column-layout-3x3">
-						<div class="card-container-3x3">
-							<img src="images/tech.png" class="contained-option-icons">
-							<h5>Technology That Simplifies</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec risus non ex venenatis euismod. Integer tristique eros sit amet dui tempus semper.</p>
-						</div>
-					</li>
-				</div>
-			</div>
-			</div>
-		</section>
-		
 		<section id="visual-divider" class="review-section-callouts">
 			<div class="selection-grid-container statistics-grid">
 				<div class="contained-option">
@@ -491,290 +434,7 @@
 				</div>
 			</div>
 		</section>
-		
-		<section id="our-process" class="alternation sectional">
-			<div class="contain">
-				<h3 class="description-text-header">Our Process</h3>
-				<h2 id="" class="header-text-h2">The Steps to Home Ownership</h2>
-				<div class="disclaimation-block">
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat libero voluptatum quas aut possimus deleniti recusandae accusantium, eum incidunt iusto molestias quia consequatur reiciendis quaerat quisquam velit nam natus. Suscipit?</p>
-				</div>
-				<div class="process-outline">
-					<div class="process-step">
-						<div class="process-step-header-container">
-							<div class="process-step-header-image">
-								<div class="process-image-symbol">
-									<i class="fa-solid fa-magnifying-glass"></i>
-								</div>
-								<img src="https://images.pexels.com/photos/268460/pexels-photo-268460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="process-image">
-							</div>
-							<div class="process-step-header">
-								<h5>Step 1:</h5>
-								<h3>Prequalification</h3>
-							</div>
-						</div>
-						<div class="process-step-body-container">
-							<div class="process-step-outline">
-								<p>Your licensed mortgage originator can get you a prequalification letter that says how much house you’re qualified to buy. You’ll probably need to put together some paperwork — two years of tax returns and W-2 forms verifying your employment and income, etc. But it’s an important step, because it will make the whole process easier. Some real estate professionals won’t even show you a home without this letter.</p>
-							</div>
-							<!-- <div class="process-step-keys">
-								<h4>Milestones</h4>
-								<ul>
-									<li>Lorem ipsum dolor sit amet</li>
-									<li>Lorem ipsum dolor sit amet</li>
-									<li>Lorem ipsum dolor sit amet</li>
-									<li>Lorem ipsum dolor sit amet</li>
-									<li>Lorem ipsum dolor sit amet</li>
-								</ul>
-							</div> -->
-						</div>
-					</div>
-					<div class="process-step">
-						<div class="process-step-header-container">
-							<div class="process-step-header-image">
-								<div class="process-image-symbol">
-									<i class="fa-solid fa-thumbs-up"></i>
-								</div>
-								<img src="https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="process-image">
-							</div>
-							<div class="process-step-header">
-								<h5>Step 2:</h5>
-								<h3>Preapproval</h3>
-							</div>
-						</div>
-						<div class="process-step-body-container">
-							<div class="process-step-outline">
-								<p>A preapproval goes further than a prequalification and can be an enormous advantage when you’re looking for a home. It means that a mortgage lender has done a thorough examination of your finances, including your income, debts, and assets, and has determined you’re qualified to borrow a certain loan amount at a certain rate. While it’s not an actual guarantee that the lender will approve the loan, it still gives you substantial advantages when you’re shopping for a home.</p>
-								<p>You have an enormous advantage over potential buyers who haven’t taken that step, because sellers and real estate agents know you’re likely to be able to make the payment, so they’ll take your offer more seriously.</p>
-							</div>
-							<!-- <div class="process-step-keys">
-								<h4>Milestones</h4>
-								<ul>
-									<li>Lorem ipsum dolor sit amet</li>
-									<li>Lorem ipsum dolor sit amet</li>
-									<li>Lorem ipsum dolor sit amet</li>
-									<li>Lorem ipsum dolor sit amet</li>
-									<li>Lorem ipsum dolor sit amet</li>
-								</ul>
-							</div> -->
-						</div>
-					</div>
-					<div class="process-step">
-						<div class="process-step-header-container">
-							<div class="process-step-header-image">
-								<div class="process-image-symbol">
-									<i class="fa-solid fa-file-contract"></i>
-								</div>
-								<img src="https://images.pexels.com/photos/955389/pexels-photo-955389.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="process-image">
-							</div>
-							<div class="process-step-header">
-								<h5>Step 3:</h5>
-								<h3>Application</h3>
-							</div>
-						</div>
-						<div class="process-step-body-container">
-							<div class="process-step-outline">
-								<p>Your licensed mortgage originator will help you through the application process, much of which consists of gathering and reviewing of documents.</p>
-								<small>Your lender will provide you with a loan estimate that includes fees and closing costs, including:
-									<ul>
-										<li>Mortgage application fee</li>
-										<li>Loan origination and document preparation fee</li>
-									</ul>
-								</small>
-							</div>
-							<div class="process-step-keys">
-								<h4>Those documents will include:</h4>
-								<ul>
-									<li>Recent W-2s</li>
-									<li>Recent pay stubs</li>
-									<li>Recent bank statements</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="process-step">
-						<div class="process-step-header-container">
-							<div class="process-step-header-image">
-								<div class="process-image-symbol">
-									<i class="fa-solid fa-gears"></i>
-								</div>
-								<img src="https://images.pexels.com/photos/2058128/pexels-photo-2058128.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="process-image">
-							</div>
-							<div class="process-step-header">
-								<h5>Step 4:</h5>
-								<h3>Processing</h3>
-							</div>
-						</div>
-						<div class="process-step-body-container">
-							<div class="process-step-outline">
-								<p>Your licensed mortgage originator will organize all the paperwork and send the information to the processor, who will in turn send all the information to you so you can review it and make sure it’s accurate.</p>
-								<p>Your processor will begin processing your loan. In a nutshell, he or she will gather everything up in a neat little package to hand off to the underwriter.</p>
-								<p>While all this is happening, your property will be appraised to safeguard you against spending more on the refinance than it is worth</p>
-							</div>
-							<div class="process-step-keys">
-								<h4>Milestones</h4>
-								<ul>
-									<li>Lorem ipsum dolor sit amet</li>
-									<li>Lorem ipsum dolor sit amet</li>
-									<li>Lorem ipsum dolor sit amet</li>
-									<li>Lorem ipsum dolor sit amet</li>
-									<li>Lorem ipsum dolor sit amet</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="process-step">
-						<div class="process-step-header-container">
-							<div class="process-step-header-image">
-								<div class="process-image-symbol">
-									<i class="fa-solid fa-signature"></i>
-								</div>
-								<img src="https://images.pexels.com/photos/210661/pexels-photo-210661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="process-image">
-							</div>
-							<div class="process-step-header">
-								<h5>Step 5:</h5>
-								<h3>Underwriting</h3>
-							</div>
-						</div>
-						<div class="process-step-body-container">
-							<div class="process-step-outline">
-								<p>Underwriting will verify all the information you provided. The underwriter is responsible for analyzing and validating your income, assets, credit history and the home appraisal.</p>
-								<p>The first thing they will do is compile and review your documentation to see your full financial picture. Next, they will reconstruct your loan scenario to ensure it meets all qualification guidelines and that it is the best loan to fit your financial needs.</p>
-								<p>Finally, your underwriter will take steps to verify your information is accurate and meets the ever-changing mortgage guidelines. You may be asked to provide additional documentation, depending on the requirements of your loan.</p>
-							</div>
-							<div class="process-step-keys">
-								<h4>Milestones</h4>
-								<ul>
-									<li>Lorem ipsum dolor sit amet</li>
-									<li>Lorem ipsum dolor sit amet</li>
-									<li>Lorem ipsum dolor sit amet</li>
-									<li>Lorem ipsum dolor sit amet</li>
-									<li>Lorem ipsum dolor sit amet</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="process-step">
-						<div class="process-step-header-container">
-							<div class="process-step-header-image">
-								<div class="process-image-symbol">
-									<i class="fa-solid fa-circle-check"></i>
-								</div>
-								<img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="process-image">
-							</div>
-							<div class="process-step-header">
-								<h5>Step 6:</h5>
-								<h3>Closing</h3>
-							</div>
-						</div>
-						<div class="process-step-body-container">
-							<div class="process-step-outline">
-								<p>Once your loan has been approved, we’ll schedule your closing. This is much simpler than it was when you purchased your home, and the closing had to be done at a title company or attorney’s office. For a refinance, it can be done at your home and will only take a short while for you to sign some paperwork</p>
-							</div>
-							<!-- <div class="process-step-keys">
-								<h4>Milestones</h4>
-								<ul>
-									<li>Lorem ipsum dolor sit amet</li>
-									<li>Lorem ipsum dolor sit amet</li>
-									<li>Lorem ipsum dolor sit amet</li>
-									<li>Lorem ipsum dolor sit amet</li>
-									<li>Lorem ipsum dolor sit amet</li>
-								</ul>
-							</div> -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		
-		<section id="calculator-listing" class="sectional">
-			<div class="contain">
-				<h3 class="description-text-header">Calculations</h3>
-				<h2 id="" class="header-text-h2">Crunch the Numbers</h2>
-				<div class="disclaimation-block alternation">
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat libero voluptatum quas aut possimus deleniti recusandae accusantium, eum incidunt iusto molestias quia consequatur reiciendis quaerat quisquam velit nam natus. Suscipit?</p>
-				</div>
-				<div class="containing-calculator-types">
-					<ul id="provide-more" class="reviews-and-statements">
-						<li class="column-layout-3x3">
-							<div class="card-container-3x3">
-								<a href=""><div class="thumb-container"><i class="fa-solid fa-calculator"></i></div></a>
-								<div class="card-image-container">
-									<img src="https://images.unsplash.com/photo-1628527304948-06157ee3c8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="provide-more-feature-card-image">
-								</div>
-								<a href=""><h5 class="calculator-header">Payments</h5></a>
-								<p class="calculator-description">From blogs to guides and access to our mobile app, you'll always be armed with the knowledge you need to stay well-informed about your loan.</p>
-							</div>
-						</li>
-						<li class="column-layout-3x3">
-							<div class="card-container-3x3">
-								<a href=""><div class="thumb-container"><i class="fa-solid fa-calculator"></i></div></a>
-								<div class="card-image-container">
-									<img src="https://images.unsplash.com/photo-1500496733680-167c3db69389?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1641&q=80" class="provide-more-feature-card-image">
-								</div>
-								<a href=""><h5 class="calculator-header">Refinance</h5></a>
-								<p class="calculator-description">From blogs to guides and access to our mobile app, you'll always be armed with the knowledge you need to stay well-informed about your loan.</p>
-							</div>
-						</li>
-						<li class="column-layout-3x3">
-							<div class="card-container-3x3">
-								<a href=""><div class="thumb-container"><i class="fa-solid fa-calculator"></i></div></a>
-								<div class="card-image-container">
-									<img src="https://images.unsplash.com/photo-1615404420216-cc423164563f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="provide-more-feature-card-image">
-								</div>
-								<a href=""><h5 class="calculator-header">Renting vs Buying</h5></a>
-								<p class="calculator-description">From blogs to guides and access to our mobile app, you'll always be armed with the knowledge you need to stay well-informed about your loan.</p>
-							</div>
-						</li>
-						<li class="column-layout-3x3">
-							<div class="card-container-3x3">
-								<a href=""><div class="thumb-container"><i class="fa-solid fa-calculator"></i></div></a>
-								<div class="card-image-container">
-									<img src="https://images.unsplash.com/photo-1459257831348-f0cdd359235f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="provide-more-feature-card-image">
-								</div>
-								<a href=""><h5 class="calculator-header">Affordability</h5></a>
-								<p class="calculator-description">From blogs to guides and access to our mobile app, you'll always be armed with the knowledge you need to stay well-informed about your loan.</p>
-							</div>
-						</li>
-						<li class="column-layout-3x3">
-							<div class="card-container-3x3">
-								<a href=""><div class="thumb-container"><i class="fa-solid fa-calculator"></i></div></a>
-								<div class="card-image-container">
-									<img src="https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="provide-more-feature-card-image">
-								</div>
-								<a href=""><h5 class="calculator-header">Discount Points</h5></a>
-								<p class="calculator-description">Our mission is to provide you with industry-leading customer service each and every day. Reach out to us, even after your loan is signed, sealed and delivered!</p>
-							</div>
-						</li>
-						<li class="column-layout-3x3">
-							<div class="card-container-3x3">
-								<a href=""><div class="thumb-container"><i class="fa-solid fa-calculator"></i></div></a>
-								<div class="card-image-container">
-									<img src="https://images.unsplash.com/photo-1528092744838-b91de0a10615?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="provide-more-feature-card-image">
-								</div>
-								<a href=""><h5 class="calculator-header">Fixed vs Adjustable</h5></a>
-								<p class="calculator-description">Mortgage loans come in many varieties, just like our customers. That's why we offer a wide assortment of products with unique benefits, terms, and requirements.</p>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</section>
-		
-		
-		
-		<!-- <section id="about-us" class="sectional">
-			<div class="contain">
-			</div>
-		</section>
-		
-		
-		
-		<section id="testimonial-grid" class="sectional">
-			<div class="contain">
-			</div>
-		</section> -->
-		<section id="visual-divider">
+		<!-- <section id="visual-divider">
 			<div class="selection-grid-container statistics-grid">
 				<div class="contained-option">
 					<h4>99%</h4>
@@ -782,21 +442,21 @@
 				</div>
 				<div class="solidlinedivider"></div>
 				<div class="contained-option">
-					<h4>$90k</h4>
+					<h4>$90k+</h4>
 					<h5>Daily Payments</h5>
 				</div>
 				<div class="solidlinedivider"></div>
 				<div class="contained-option">
-					<h4>8,900</h4>
+					<h4>8,900+</h4>
 					<h5>Happy Customers</h5>
 				</div>
 				<div class="solidlinedivider"></div>
 				<div class="contained-option">
-					<h4>346</h4>
+					<h4>346+</h4>
 					<h5>Staff Members</h5>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<section id="get-approved" class="sectional">
 			<div class="contain">
 				<div class="callout-ending-container">
@@ -814,9 +474,9 @@
 			<ul>
 				<li id="footer-with-logo">
 					<!-- <img src="./images/district-mort-white.png" class="footer-logo"> -->
-					<p>700 East Gate Drive</p>
-					<p>Mount Laurel, NJ 08054</p>
-					<a class="telephone-footer-link" href="tel:"><i class="fa-solid fa-mobile-retro"></i> 555-555-5555</a>
+					<p>5040 Corporate Woods Dr Suite 100</p>
+					<p>Virginia Beach, VA 23462</p>
+					<a class="telephone-footer-link" href="tel:"><i class="fa-solid fa-mobile-retro"></i> 757-330-6810</a>
 					<ul id="social-media-links">
 						<li><img id="equal-housing-logo" src="./images/equal-housing-white.png"></li>
 						<li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
