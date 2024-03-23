@@ -1260,7 +1260,9 @@ flex-direction: column;}
 	margin: 60px auto;
 	display: flex;
 	flex-direction: column;
-	width: 65%;
+	width: 96%;
+	background: #fff;
+	border-radius: 5px;
 }
 
 .row-options {
