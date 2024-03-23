@@ -252,8 +252,7 @@ logo img:hover,
 	font-weight: 800;
 }
 .button-containers .standard-link:hover {
-	text-decoration: none;
-	border-bottom: none;
+	border-bottom: 1px solid var(--lightaccent);
 }
 .headercontain {
 	display: flex;
