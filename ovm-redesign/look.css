@@ -945,10 +945,8 @@ li.column-layout-3x3:nth-of-type(even) .card-container-3x3 h5 {
 }
 
 .card-container-3x3 p {
-	line-height: 25px;
-	color: #575656;
-	font-size: 17px;
-	font-weight: 300;
+	line-height: 22px;
+	font-size: 15px;
 }
 
 .sub-column {
@@ -1072,14 +1070,14 @@ li.column-layout-3x3:nth-of-type(even) .card-container-3x3 h5 {
 	background: var(--secondary);
 	border: 3px solid var(--secondary);
 	outline: none;
-	padding: 11px 25px;
+	padding: 16px 25px;
 	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: .05em;
 	border-radius: 5px;
 	margin: 5px 0;
 	font-size: 14px;
-	width: 200px;
+	width: 86%;
 	text-align: center;
 }
 
@@ -1610,8 +1608,7 @@ font-size: 18px;
 		grid-template-columns: repeat(1, 1fr);
 	}
 	.provide-button {
-		padding: 14px 25px;
-		width: 250px;
+		width: 100%;
 	}
 }
 @media (width <= 1135px) {
