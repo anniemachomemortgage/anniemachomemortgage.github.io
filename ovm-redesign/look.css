@@ -413,6 +413,10 @@ main {
 	margin-top: 30px;
 	min-width: 195px;
 }
+.callout-ending-container button {
+	background: var(--primary);
+	border: 3px solid var(--primary);
+}
 .contained-option button a {
 	color: inherit;
 	font-weight: 600;
