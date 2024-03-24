@@ -534,6 +534,16 @@ button a:hover {
 	color: #6d6d6d;
 	height: 95px;
 }
+.guesswork-button {
+	background:#323232;
+	border: 3px solid #323232;
+}
+.guesswork-button:hover, #read-more-testimonials:hover {
+	color: #fff;
+    background: var(--primary);
+    border: 3px solid var(--primary);
+    cursor: pointer;
+}
 .process-step-of-loan+.process-step-of-loan::after {
 	background-image: url(images/arrow.png);
 	background-repeat: no-repeat;
@@ -628,7 +638,6 @@ section#visual-divider.review-section-callouts {
 }
 .contained-option button:hover,
 #visual-divider-a button:hover,
-#read-more-testimonials:hover,
 .homepage-image-background-section button:hover,
 .full-ovm-input button:hover,
 #get-approved button:hover,
