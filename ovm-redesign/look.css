@@ -642,8 +642,8 @@ section#visual-divider.review-section-callouts {
 .full-ovm-input button:hover,
 #get-approved button:hover,
 #form-insert button:hover {
-	background: #2e2c2d !important;
-	border: 3px solid #2e2c2d !important;
+	background: var(--primary);
+	border: 3px solid var(--primary);
 	transform: scale(1.05);
 }
 #cta1 button:hover,
