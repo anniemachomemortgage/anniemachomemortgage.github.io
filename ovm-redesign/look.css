@@ -1237,6 +1237,7 @@ flex-direction: column;}
 }
 
 .contact-details h5 {
+	text-align: left;
 	margin: 0 0 5px;
 	font-size: 15px;
 	font-weight: 600;
