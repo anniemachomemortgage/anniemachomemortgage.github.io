@@ -214,10 +214,12 @@ logo img:hover,
 	flex-direction: column;
 }
 .button-containers .standard-link {
-	margin-top: 10px;
-	color: white;
-	letter-spacing: .8px;
-	font-weight: 800;
+    margin-top: 10px;
+    color: white;
+    letter-spacing: .8px;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: 'proxima-nova', Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .button-containers .standard-link:hover {
 	border-bottom: 1px solid var(--lightaccent);
@@ -614,6 +616,7 @@ section#visual-divider.review-section-callouts {
 	font-weight: 700;
 }
 .callout-ending-headers h5 {
+	text-align: left;
 	font-size: 19px;
 	font-weight: 600;
 	margin-bottom: -10px;
