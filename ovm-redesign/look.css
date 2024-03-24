@@ -539,10 +539,10 @@ button a:hover {
 	border: 3px solid #323232;
 }
 .guesswork-button:hover, #read-more-testimonials:hover {
-	color: #fff;
     background: var(--primary);
     border: 3px solid var(--primary);
     cursor: pointer;
+	transform: scale(1.05);
 }
 .process-step-of-loan+.process-step-of-loan::after {
 	background-image: url(images/arrow.png);
@@ -918,9 +918,10 @@ li.column-layout-3x3:nth-of-type(even) .card-container-3x3 h5 {
 }
 .provide-button:hover {
 	color: #fff;
-	border: 3px solid #323232;
-	background: #323232;
+	border: 3px solid var(--primary);
+	background: var(--primary);
 	cursor: pointer;
+	transform: scale(1.05);
 }
 #provide-more .card-container-3x3 {
 	flex-direction: column;
