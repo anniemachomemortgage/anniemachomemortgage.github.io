@@ -1497,5 +1497,13 @@ border-bottom: 1px solid rgba(0, 0, 0, .1);}
 	}
 	.header-text-h2 {
 		line-height: 41px;
+		font-size: 32px !important;
+		margin-top: 10px !important;
+	}
+	.provide-button-container {
+		margin-top: 20px;
+	}
+	.contact-block-type {
+		display: none;
 	}
 }
