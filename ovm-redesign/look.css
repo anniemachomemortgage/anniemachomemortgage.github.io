@@ -1099,12 +1099,11 @@ li.column-layout-3x3:nth-of-type(even) .card-container-3x3 h5 {
 	margin: 5px 0;
 }
 #form-insert label {
-	font-size: 15px;
 	margin: 0 0 0px;
 	color: #000;
 	font-weight: 600;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+	line-height: 22px;
+	font-size: 15px;
 }
 #form-insert input[type="text"],
 #form-insert input[type="email"],
