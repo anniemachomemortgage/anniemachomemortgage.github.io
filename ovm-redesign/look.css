@@ -214,12 +214,12 @@ logo img:hover,
 	flex-direction: column;
 }
 .button-containers .standard-link {
-    margin-top: 10px;
-    color: white;
-    letter-spacing: .8px;
-    font-size: 19px;
-    font-weight: 600;
-    font-family: 'proxima-nova', Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-top: 10px;
+	color: white;
+	letter-spacing: .8px;
+	font-size: 19px;
+	font-weight: 600;
+	font-family: 'proxima-nova', Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .button-containers .standard-link:hover {
 	border-bottom: 1px solid var(--lightaccent);
@@ -279,14 +279,14 @@ nav ul {
 	border-bottom: 0;
 }
 h1#headline {
-    text-transform: uppercase;
-    max-width: clamp(100%, 600px, 90%);
-    margin: 5px auto 40px;
-    line-height: 86px;
-    color: #fff;
-    font-size: 70px;
-    font-weight: 700;
-    text-align: center;
+	text-transform: uppercase;
+	max-width: clamp(100%, 600px, 90%);
+	margin: 5px auto 40px;
+	line-height: 86px;
+	color: #fff;
+	font-size: 70px;
+	font-weight: 700;
+	text-align: center;
 }
 h6#sub-headline {
 	font-size: 24px;
@@ -344,12 +344,10 @@ a button:hover {
 	cursor: pointer;
 }
 main {
-	background: white;
-	background: url(https://amweb.azureedge.net/ovm/tree%20overlay.png) no-repeat;
-	background-size: 660px;
+	background: url(https://amweb.azureedge.net/ovm/ovm-icon-bkg.svg) no-repeat;
+	background-size: clamp(500px, 50%, 50%);
 	background-position: bottom right;
 	background-attachment: fixed;
-	background-position-y: 220px;
 	z-index: 1;
 }
 .selection-container {
@@ -549,9 +547,9 @@ button a:hover {
 	border: 3px solid #323232;
 }
 .guesswork-button:hover, #read-more-testimonials:hover {
-    background: var(--primary);
-    border: 3px solid var(--primary);
-    cursor: pointer;
+	background: var(--primary);
+	border: 3px solid var(--primary);
+	cursor: pointer;
 	transform: scale(1.05);
 }
 .process-step-of-loan+.process-step-of-loan::after {
@@ -1336,7 +1334,7 @@ border-bottom: 1px solid rgba(0, 0, 0, .1);}
 	list-style-type: '>';
 }
 .process-step-keys ul li::marker {
-  	color: var(--primary);
+	  color: var(--primary);
 	font-size: 18px;
 }
 @media (width <= 905px) {
