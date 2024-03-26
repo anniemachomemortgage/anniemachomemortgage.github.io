@@ -545,6 +545,19 @@ button a:hover {
 .guesswork-button {
 	background:#323232;
 	border: 3px solid #323232;
+	position: relative;
+}
+.guesswork-button::before {
+	position: absolute;
+	background: transparent;
+	width: 90%;
+	height: 85%;
+	content: " ";
+	border-radius: 4px;
+	border: 2px solid white;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 .guesswork-button:hover, #read-more-testimonials:hover {
 	background: var(--primary);
