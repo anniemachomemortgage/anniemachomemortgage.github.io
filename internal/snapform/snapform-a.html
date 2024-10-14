@@ -1,0 +1,535 @@
+<html><!-- Last Updated: Wednesday, October 9, 2024 @ 12:20:09 AM --><head>
+	<title>Snapform</title>
+	<link rel="icon" sizes="16x16" href="./favicon.png">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="resource-type" content="document">
+	<meta name="publisher" content="AnnieMac Home Mortgage">
+	<meta http-equiv="Content-Language" content="EN">
+	<meta name="author" content="AnnieMac Home Mortgage">
+	<meta name="copyright" content="Copyright 2024 AnnieMac Home Mortgage">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://annie-mac.com">
+	<meta name="twitter:url" content="https://annie-mac.com">
+	<meta property="og:title" content="AnnieMac Home Mortgage">
+	<meta name="twitter:title" content="AnnieMac Home Mortgage">
+	<meta property="og:image" content="https://amweb.azureedge.net/anniemac-home-mortgage-2024/web_images/annie-mac-logo-share.png">
+	<meta name="twitter:image" content="https://amweb.azureedge.net/anniemac-home-mortgage-2024/web_images/annie-mac-logo-share.png">
+	<link id="fonts" rel="stylesheet" href="https://use.typekit.net/lie2pzo.css">
+	<link rel="stylesheet" href="snapform-a.css">
+</head>
+
+<body>
+    <div class="header-content">
+        <nav class="loan-officer-association-bar">
+            <ul class="loan-officer-association-information">
+                <li class="associated-name">Rick Dionne</li>
+                <li class="associated-phone">860-922-6555</li>
+                <li class="associated-portrait">
+                    <img alt="Headshot" src="https://amweb.azureedge.net/anniemac-home-mortgage-2024/momentum/rick-headshot.png">
+                </li>
+            </ul>
+        </nav>
+        <header>
+            <hgroup>
+                <h1>Cash2Keys Title</h1>
+                <p>Start now by filling out the form below: 
+                    <span>Or call Rick Dionne at 860-922-6555</span></p>
+                <svg xmlns="http://www.w3.org/2000/svg" id="Layer_3" viewBox="0 0 68.29 87.07">
+                    <defs>
+                        <style>
+                            .cls-1{fill:#fff;}
+                            .cls-2{fill:#00a551;}
+                        </style>
+                    </defs>
+                    <polygon class="cls-2" points="34.61 45.86 1 83.14 10.06 83.14 34.61 56.68 59.18 83.14 68.29 83.14 34.61 45.86"></polygon>
+                    <polygon class="cls-1" points="22.23 53.71 34.84 23.21 47.41 54.15 63.76 72.24 35.06 3.35 5.68 72.07 22.23 53.71"></polygon>
+                </svg>
+            </hgroup>
+        </header>
+        <div class="progress">
+            <ul id="progress-bar" class="progress-tabs">
+                <li id="progress-stepA" class="step-tab">
+                    <div class="progress-step-number"><span>Step</span> 1 of 5</div>
+                    <div class="progress-step-percentage">20%</div> 
+                </li>
+                <li id="progress-stepB" class="step-tab">
+                    <div class="progress-step-number"><span>Step</span> 2 of 5</div>
+                    <div class="progress-step-percentage">40%</div> 
+                </li>
+                <li id="progress-stepC" class="step-tab">
+                    <div class="progress-step-number"><span>Step</span> 3 of 5</div>
+                    <div class="progress-step-percentage">60%</div> 
+                </li>
+                <li id="progress-stepD" class="step-tab">
+                    <div class="progress-step-number"><span>Step</span> 4 of 5</div>
+                    <div class="progress-step-percentage">80%</div> 
+                </li>
+                <li id="progress-stepE" class="step-tab">
+                    <div class="progress-step-number"><span>Step</span> 5 of 5</div>
+                    <div class="progress-step-percentage">100%</div> 
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="lead-information">
+        <div class="lead-summary">
+            <p>Summary:</p>
+            <ul>
+                <li id="pending">Pending Responses</li>
+                <li id="summary1" class="initial-hide">I <strong id="summ1"></strong> shopping for a new home.</li>
+                <li id="summary2" class="initial-hide">I <strong id="summ2"></strong> been pre-qualified or pre-approved.</li>
+                <li id="summary3" class="initial-hide">I <strong id="summ3"></strong> lost offers.</li>
+                <li id="summary4" class="initial-hide">I <strong id="summ4"></strong> have a home I want to make an offer on.</li>
+                <li id="summary5" class="initial-hide">I <strong id="summ5"></strong> a home I need to sell.</li>
+                <li id="summary6" class="initial-hide">I <strong id="summ6"></strong> have a downpayment.</li>
+                <li id="summary7" class="initial-hide">I <strong id="summ7"></strong> a first time home buyer.</li>
+            </ul>
+        </div>
+        <div class="container">
+            <p id="question-text">Questions:</p>
+            <div id="startSlide" class="slide active-slide">
+                <div class="internal-slide-content">
+                    <div class="inner-slide-content">
+                        <div class="navigation-buttons">
+                            <div id="nav-prev" class="button previous-button invalid-button"></div>
+                            <div id="nav-next" class="button next-button inactive-button">Next</div>
+                        </div>
+                        <div class="questions-container">
+                            <div class="question-container">
+                                <label>Are you currently out shopping for a new home?</label>
+                                <select id="shopping" name="Shopping For Home">
+                                    <option value="" disabled="" selected="">Select yes or no</option>
+                                    <option value="Yes">Yes</option>
+                                    <option value="No">No</option>
+                                </select>
+                            </div>
+                            <div class="question-container">
+                                <label>Have you been pre-qualified or approved with a lender or bank?</label>
+                                <select id="prequal" name="Prequalified Status">
+                                    <option value="" disabled="" selected="">Select yes or no</option>
+                                    <option value="Yes">Yes</option>
+                                    <option value="No">No</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="slideA" class="slide inactive-slide">
+                <div class="internal-slide-content">
+                    <div class="inner-slide-content">
+                        <div class="navigation-buttons">
+                            <div id="nav-prev-a" class="button previous-button">Previous</div>
+                            <div id="nav-next-a" class="button next-button inactive-button">Next</div>
+                        </div>
+                        <div class="questions-container">
+                            <div class="question-container">
+                                <label>Have you lost out on any offers on homes?</label>
+                                <select id="offers" name="Shopping For Home">
+                                    <option value="" disabled="" selected="">Select yes or no</option>
+                                    <option value="Yes">Yes</option>
+                                    <option value="No">No</option>
+                                </select>
+                            </div>
+                            <div class="question-container">
+                                <label>Do you have a house in mind you want to make an offer on?</label>
+                                <select id="prospective" name="Shopping For Home">
+                                    <option value="" disabled="" selected="">Select yes or no</option>
+                                    <option value="Yes">Yes</option>
+                                    <option value="No">No</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="slideB" class="slide inactive-slide">
+                <div class="internal-slide-content">
+                    <div class="inner-slide-content">
+                        <div class="navigation-buttons">
+                            <div id="nav-prev-b" class="button previous-button">Previous</div>
+                            <div id="nav-next-b" class="button next-button inactive-button">Next</div>
+                        </div>
+                        <div class="questions-container">
+                            <div class="question-container">
+                                <label>Do you have a home you need to sell?</label>
+                                <select id="sell" name="Shopping For Home">
+                                    <option value="" disabled="" selected="">Select yes or no</option>
+                                    <option value="Yes">Yes</option>
+                                    <option value="No">No</option>
+                                </select>
+                            </div>
+                            <div class="question-container">
+                                <label>Do you have a down payment?</label>
+                                <select id="downpayment" name="Shopping For Home">
+                                    <option value="" disabled="" selected="">Select yes or no</option>
+                                    <option value="Yes">Yes</option>
+                                    <option value="No">No</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="slideC" class="slide inactive-slide">
+                <div class="internal-slide-content">
+                    <div class="inner-slide-content">
+                        <div class="navigation-buttons">
+                            <div id="nav-prev-c" class="button previous-button">Previous</div>
+                        <div id="nav-next-c" class="button next-button inactive-button">Next</div>
+                        </div>
+                        <div class="questions-container">
+                            <div class="question-container">
+                                <label>Are you a first time buyer?</label>
+                                <select id="first" name="Shopping For Home">
+                                    <option value="" disabled="" selected="">Select yes or no</option>
+                                    <option value="Yes">Yes</option>
+                                    <option value="No">No</option>
+                                </select>
+                            </div>
+                            <div class="question-container">
+                                <label>What else can you tell us that could help us to understand how we can best help you?</label>
+                                <textarea id="notes" name="Notes" placeholder="Enter additional comments."></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="slideD" class="slide inactive-slide">
+                <div class="internal-slide-content">
+                    <div class="inner-slide-content">
+                        <div class="navigation-buttons">
+                            <div id="nav-prev-d" class="button previous-button">Previous</div>
+                            <div id="nav-next-d" class="button next-button inactive-button">Next</div>
+                        </div>
+                        <div class="questions-container">
+                            <div class="question-container">
+                                <label>First Name:</label>
+                                <input type="text" id="firstname" name="First Name" placeholder="Enter first name." required="true">
+                            </div>
+                            <div class="question-container">
+                                <label>Last Name:</label>
+                                <input type="text" id="lastname" name="Last Name" onkeyup="fieldvaluetest(this)" placeholder="Enter last name." required="true">
+                            </div>
+                            <div class="question-container">
+                                <label>Phone:</label>
+                                <input type="tel" id="phone" name="Mobile Phone" placeholder="Enter phone." required="true">
+                            </div>
+                            <div class="question-container">
+                                <label>Email:</label>
+                                <input type="email" id="email" name="Email" placeholder="Enter email." required="true">
+                            </div>
+                            <!-- <div class="question-container">
+                                <label>Do you have a preferred contact method?</label>
+                                <input type="text">
+                            </div> -->
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <div id="endslide" class="slide inactive-slide">
+                <div class="internal-slide-content">
+                    <div class="inner-slide-content">
+                    Thanks!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+<script>
+    // VARIABLE DECLARATIONS
+        const selectBox = document.querySelectorAll("select");
+        let questionText = document.getElementById('question-text');
+        // Progress Steps
+            let progressStepA = document.getElementById('progress-stepA');
+            let progressStepB = document.getElementById('progress-stepB');
+            let progressStepC = document.getElementById('progress-stepC');
+            let progressStepD = document.getElementById('progress-stepD');
+            let progressStepE = document.getElementById('progress-stepE');
+        // Slide Declarations
+            let startSlide = document.getElementById('startslide');
+            let slideA = document.getElementById('slideA');
+            let slideB = document.getElementById('slideB');
+            let slideC = document.getElementById('slideC');
+            let slideD = document.getElementById('slideD');
+            let endSlide = document.getElementById('endslide');
+        // Summary List
+            let pending = document.getElementById('pending');
+            let summary1 = document.getElementById('summary1');    
+            let summary2 = document.getElementById('summary2');     
+            let summary3 = document.getElementById('summary3');  
+            let summary4 = document.getElementById('summary4');
+            let summary5 = document.getElementById('summary5');
+            let summary6 = document.getElementById('summary6');
+            let summary7 = document.getElementById('summary7');
+        // Summary Values
+            let summ1 = document.getElementById('summ1');
+            let summ2 = document.getElementById('summ2');
+            let summ3 = document.getElementById('summ3');
+            let summ4 = document.getElementById('summ4');
+            let summ5 = document.getElementById('summ5');
+            let summ6 = document.getElementById('summ6');
+            let summ7 = document.getElementById('summ7');
+        // Prev Navigations
+            let navPreva = document.getElementById('nav-prev-a');
+            let navPrevb = document.getElementById('nav-prev-b');
+            let navPrevc = document.getElementById('nav-prev-c');
+            let navPrevd = document.getElementById('nav-prev-d');
+        // Next Navigations
+            let navNext = document.getElementById('nav-next');
+            let navNexta = document.getElementById('nav-next-a');
+            let navNextb = document.getElementById('nav-next-b');
+            let navNextc = document.getElementById('nav-next-c');
+            let navNextd = document.getElementById('nav-next-d');
+    
+    // !FUNCTIONALITY
+
+    let answerStatus = 0;
+
+    document.getElementById('shopping').onchange = function() {
+        let response = this.value;
+        if (this.value !== null) {
+            pending.classList.add("initial-hide");
+            summary1.classList.remove("initial-hide");
+            console.log(response);
+            if (this.value === 'Yes') {
+                summ1.innerText = "am"
+            }
+            if (this.value === 'No') {
+                summ1.innerText = "am not"
+            }
+        }  
+        answerStatus = answerStatus + 1;
+        console.log(answerStatus)
+        if (answerStatus >= 2) {
+            navNext.classList.remove("inactive-button");
+            navNext.classList.add("active");
+        } else {
+            navNext.classList.add("inactive-button");
+            navNext.classList.remove("active");
+        }
+    };
+    document.getElementById('prequal').onchange = function() {
+        let response = this.value;
+        if (this.value !== null) {
+            pending.classList.add("initial-hide");
+            summary2.classList.remove("initial-hide");
+            console.log(response);
+            if (this.value === 'Yes') {
+                summ2.innerText = "have"
+            }
+            if (this.value === 'No') {
+                summ2.innerText = "have not"
+            }
+        }  
+        answerStatus = answerStatus + 1;
+        console.log(answerStatus)
+        if (answerStatus >= 2) {
+            navNext.classList.remove("inactive-button");
+            navNext.classList.add("active");
+        } else {
+            navNext.classList.add("inactive-button");
+            navNext.classList.remove("active");
+        }
+    };
+
+    navPreva.onclick = function() {
+        document.getElementById('startSlide').classList.remove('inactive-slide');
+        document.getElementById('startSlide').classList.add('active-slide');
+        document.getElementById('slideA').classList.remove('active-slide');
+        document.getElementById('slideA').classList.add('inactive-slide');  
+    };
+    navNext.onclick = function() {
+        if (navNext.classList.contains('active')) {
+            document.getElementById('startSlide').classList.remove('active-slide');
+            document.getElementById('startSlide').classList.add('inactive-slide');
+            document.getElementById('slideA').classList.remove('inactive-slide');
+            progressStepA.classList.add('current-step');
+        }   
+    };
+    
+    
+
+
+
+    document.getElementById('offers').onchange = function() {
+        let response = this.value;
+        if (this.value !== null) {
+            pending.classList.add("initial-hide");
+            summary3.classList.remove("initial-hide");
+            console.log(response);
+            if (this.value === 'Yes') {
+                summ3.innerText = "have"
+            }
+            if (this.value === 'No') {
+                summ3.innerText = "have not"
+            }
+        }  
+        answerStatus = answerStatus + 1;
+        console.log(answerStatus)
+        if (answerStatus >= 4) {
+            navNexta.classList.remove("inactive-button");
+            navNexta.classList.add("active");
+        } else {
+            navNexta.classList.add("inactive-button");
+            navNexta.classList.remove("active");
+        }
+    };
+    document.getElementById('prospective').onchange = function() {
+        let response = this.value;
+        if (this.value !== null) {
+            pending.classList.add("initial-hide");
+            summary4.classList.remove("initial-hide");
+            console.log(response);
+            if (this.value === 'Yes') {
+                summ4.innerText = "do"
+            }
+            if (this.value === 'No') {
+                summ4.innerText = "do not"
+            }
+        } 
+        answerStatus = answerStatus + 1;
+        console.log(answerStatus)
+        if (answerStatus >= 4) {
+            navNexta.classList.remove("inactive-button");
+            navNexta.classList.add("active");
+        } else {
+            navNexta.classList.add("inactive-button");
+            navNexta.classList.remove("active");
+        } 
+    };
+    navPrevb.onclick = function() {
+        document.getElementById('slideA').classList.remove('inactive-slide');
+        document.getElementById('slideA').classList.add('active-slide');
+        document.getElementById('slideB').classList.remove('active-slide');
+        document.getElementById('slideB').classList.add('inactive-slide');  
+    };
+    navNexta.onclick = function() {
+        if (navNexta.classList.contains('active')) {
+            document.getElementById('slideA').classList.remove('active-slide');
+            document.getElementById('slideA').classList.add('inactive-slide');
+            document.getElementById('slideB').classList.remove('inactive-slide');
+            progressStepA.classList.remove('current-step');
+            progressStepA.classList.add('previous-step');
+            progressStepB.classList.add('current-step');
+        }   
+    };
+
+    document.getElementById('sell').onchange = function() {
+        let response = this.value;
+        if (this.value !== null) {
+            pending.classList.add("initial-hide");
+            summary5.classList.remove("initial-hide");
+            console.log(response);
+            if (this.value === 'Yes') {
+                summ5.innerText = "do"
+            }
+            if (this.value === 'No') {
+                summ5.innerText = "do not"
+            }
+        } 
+        answerStatus = answerStatus + 1;
+        console.log(answerStatus) 
+        if (answerStatus >= 6) {
+            navNextb.classList.remove("inactive-button");
+            navNextb.classList.add("active");
+        } else {
+            navNextb.classList.add("inactive-button");
+            navNextb.classList.remove("active");
+        } 
+    };
+    document.getElementById('downpayment').onchange = function() {
+        let response = this.value;
+        if (this.value !== null) {
+            pending.classList.add("initial-hide");
+            summary6.classList.remove("initial-hide");
+            console.log(response);
+            if (this.value === 'Yes') {
+                summ6.innerText = "do"
+            }
+            if (this.value === 'No') {
+                summ6.innerText = "do not"
+            }
+        }  
+        answerStatus = answerStatus + 1;
+        console.log(answerStatus)
+        if (answerStatus >= 6) {
+            navNextb.classList.remove("inactive-button");
+            navNextb.classList.add("active");
+        } else {
+            navNextb.classList.add("inactive-button");
+            navNextb.classList.remove("active");
+        } 
+    };
+    navPrevc.onclick = function() {
+        document.getElementById('slideB').classList.remove('inactive-slide');
+        document.getElementById('slideB').classList.add('active-slide');
+        document.getElementById('slideC').classList.remove('active-slide');
+        document.getElementById('slideC').classList.add('inactive-slide');  
+    };
+    navNextb.onclick = function() {
+        if (navNextb.classList.contains('active')) {
+            document.getElementById('slideB').classList.remove('active-slide');
+            document.getElementById('slideB').classList.add('inactive-slide');
+            document.getElementById('slideC').classList.remove('inactive-slide');
+            progressStepB.classList.remove('current-step');
+            progressStepB.classList.add('previous-step');
+            progressStepC.classList.add('current-step');
+            questionText.innerText = "Just a bit more..."
+        }   
+    };
+    document.getElementById('first').onchange = function() {
+        let response = this.value;
+        if (this.value !== null) {
+            pending.classList.add("initial-hide");
+            summary7.classList.remove("initial-hide");
+            console.log(response);
+            if (this.value === 'Yes') {
+                summ7.innerText = "am"
+            }
+            if (this.value === 'No') {
+                summ7.innerText = "am not"
+            }
+        }  
+        answerStatus = answerStatus + 1;
+        console.log(answerStatus)
+        if (answerStatus >= 7) {
+            navNextc.classList.remove("inactive-button");
+            navNextc.classList.add("active");
+        } else {
+            navNextc.classList.add("inactive-button");
+            navNextc.classList.remove("active");
+        } 
+    };
+    navPrevc.onclick = function() {
+        document.getElementById('slideB').classList.remove('inactive-slide');
+        document.getElementById('slideB').classList.add('active-slide');
+        document.getElementById('slideC').classList.remove('active-slide');
+        document.getElementById('slideC').classList.add('inactive-slide'); 
+        questionText.innerText = "Questions:"
+    };
+    navNextc.onclick = function() {
+        if (navNextc.classList.contains('active')) {
+            document.getElementById('slideC').classList.remove('active-slide');
+            document.getElementById('slideC').classList.add('inactive-slide');
+            document.getElementById('slideD').classList.remove('inactive-slide');
+            progressStepC.classList.remove('current-step');
+            progressStepC.classList.add('previous-step');
+            progressStepD.classList.add('current-step');
+            questionText.innerText = "Great, almost done. How can I contact you?"
+        }   
+    };
+    navPrevd.onclick = function() {
+        document.getElementById('slideC').classList.remove('inactive-slide');
+        document.getElementById('slideC').classList.add('active-slide');
+        document.getElementById('slideD').classList.remove('active-slide');
+        document.getElementById('slideD').classList.add('inactive-slide');  
+        
+    };
+</script>
+
+</html>
