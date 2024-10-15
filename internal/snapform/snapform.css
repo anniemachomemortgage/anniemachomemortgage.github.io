@@ -706,6 +706,15 @@ hgroup.secondary-hgroup p {
         padding: 20px 30px;
     }
 }
+.multi-layered-question {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 30px;
+}
+.question-inner-layer {
+    display: flex;
+    flex-direction: column;
+}
 .submitting-lead, .submitting-complete-lead {
     display: none;
 }
@@ -723,6 +732,7 @@ fieldset.form-question textarea, fieldset.form-question input[type="text"], fiel
     width: 100%;
     margin: 20px 0 25px;
     border: none;
+    font-family: var(--primary-font-stack);
 }
 fieldset.form-question textarea {
     min-height: 200px;
