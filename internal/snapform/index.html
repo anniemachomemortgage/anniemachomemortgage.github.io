@@ -18,7 +18,7 @@
 	<meta property="og:image" content="https://amweb.azureedge.net/anniemac-home-mortgage-2024/web_images/annie-mac-logo-share.png">
 	<meta name="twitter:image" content="https://amweb.azureedge.net/anniemac-home-mortgage-2024/web_images/annie-mac-logo-share.png">
 	<link id="fonts" rel="stylesheet" href="https://use.typekit.net/lie2pzo.css">
-	<link id="localstyle" rel="stylesheet" href="snapform.css">
+	<!-- <link id="localstyle" rel="stylesheet" href="snapform.css"> -->
     <link id="remotestyle" rel="stylesheet" href="https://anniemachomemortgage.github.io/internal/snapform/snapform.css">
 </head>
 <body>
@@ -224,31 +224,39 @@
                                 <legend>What else can you tell us that could help us to understand how we can best help you?</legend>
                                 <textarea name="comments" id="comments"></textarea>
                                 <div class="tabular-navigations">
-                                    <span>Navigation:</span>
+                                    <!-- <span>Navigation:</span> -->
                                     <a name="nextBtn_textarea" onclick="questionToggle(1)" class="landing-page-nav tabular-navigation">Next</a>
                                 </div>
                             </fieldset>
                         </div>
                         <div class="tab form-question-set">
-                            <fieldset class="form-question">
-                                <legend>What's your first name?</legend>
-                                <input type="text" name="first_name">
-                                <legend>What's your last name?</legend>
-                                <input type="text" name="last_name">
+                            <fieldset class="form-question multi-layered-question">
+                                <div class="question-inner-layer">
+                                    <legend>What's your first name?</legend>
+                                    <input type="text" name="first_name">
+                                </div>
+                                <div class="question-inner-layer">
+                                    <legend>What's your last name?</legend>
+                                    <input type="text" name="last_name">
+                                </div>
                                 <div class="tabular-navigations">
-                                    <span>Navigation:</span>
+                                    <!-- <span>Navigation:</span> -->
                                     <a name="nextBtn_name" onclick="questionToggle(1)" class="landing-page-nav tabular-navigation">Next</a>
                                 </div>
                             </fieldset>
                         </div>
                         <div class="tab form-question-set">
-                            <fieldset class="form-question">
-                                <legend>What's your phone?</legend>
-                                <input type="tel" name="phone">
-                                <legend>What's your email?</legend>
-                                <input type="email" name="email">
+                            <fieldset class="form-question multi-layered-question">
+                                <div class="question-inner-layer">
+                                    <legend>What's your phone?</legend>
+                                    <input type="tel" name="phone">
+                                </div>
+                                <div class="question-inner-layer">
+                                    <legend>What's your email?</legend>
+                                    <input type="email" name="email">
+                                </div>
                                 <div class="tabular-navigations">
-                                    <span>Navigation:</span>
+                                    <!-- <span>Navigation:</span> -->
                                     <a name="nextBtn_contact" onclick="questionToggle(1)" class="landing-page-nav tabular-navigation">Next</a>
                                 </div>
                             </fieldset>
@@ -289,30 +297,6 @@
     </div>
 
 </body>
-<script>
-    var currentQuestion = 0;
-    showQuestion(currentQuestion);
-    function showQuestion(n) {
-        var x = document.getElementsByClassName("tab");
-        x[n].classList.add("tab-display");
-        trackingProgressMeter(n)
-    }
-    function questionToggle(n) {
-        let currentActiveTargetName = event.target.name;
-        currentQuestion = currentQuestion + n;
-        showQuestion(currentQuestion);
-        window.scrollTo(0,document.body.scrollHeight);
-        var i, x = document.getElementsByName(currentActiveTargetName);
-        for (i = 0; i < x.length; i++) {
-            x[i].removeAttribute('onclick')
-        }
-    }
-    function trackingProgressMeter(n) {
-        var i, x = document.getElementsByClassName("step");
-        for (i = 0; i < x.length; i++) {
-            x[i].className = x[i].className.replace("indicator", "prevind");
-        }
-        x[n-1].classList.add("indicator");
-    }
-</script>
+<script id="appends" src="https://anniemachomemortgage.github.io/internal/snapform/script.js"></script>
+<script src=""></script>
 </html>
