@@ -237,7 +237,7 @@ body {
     overflow: auto;
     height: 100%;
     justify-content: start;
-    padding: 40px 0;
+    padding: 25px 0;
 }
 
 .landing-slide {
@@ -631,13 +631,78 @@ hgroup.secondary-hgroup p {
 }
 
 @media (width <=980px) {
-    .loan-officer-contact-card-container {
-        display: none
+    .track-percentage {
+        display: none;
+    }
+    hgroup {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 30px;
+    }
+    hgroup.primary-hgroup p {
+        font-size: 2.3rem;
+    }
+    hgroup.primary-hgroup svg {
+        margin-bottom: 1rem;
+    }
+    .landing-page-slides {
+        padding-bottom: 0;
+    }
+    .inner-slide-text-content.standard-slide-grid {
+        margin-left: 0;
+    }
+    .inner-slide-text-content {
+        padding-left: 0;
+    }
+    .standard-slide-grid {
+        gap: 0;
+    }
+    .tab-display {
+        margin: 0;
+        padding: 20px 30px;
     }
     .standard-slide-grid {
         padding-right: 0;
     }
     .secondary-hgroup {
         display: none;
+    }
+    @keyframes tabload {
+        0% {
+            opacity: 0;
+            transform: translateY(80%);
+            background: transparent;
+        }
+    
+        10% {
+            opacity: 1;
+            transform: translateY(0%);
+            background: rgb(0 127 255 / 12%);
+        }
+    
+        100% {
+            background: transparent;
+        }
+    }
+    .loan-officer-contact-card-container {
+        position: initial;
+        order: -1;
+        margin-top: -25px;
+        margin-bottom: 0;
+        box-shadow: none;
+        width: 100%;
+        animation: none;
+    }
+    .loan-officer-contact-card {
+        grid-template-columns: 1fr 100px;
+    } 
+    .loan-officer-notification-headshot {
+        order: 2;
+        border-radius: 0;
+    }
+    .loan-officer-notification-text {
+        order: 1;
+        padding: 20px 30px;
     }
 }
