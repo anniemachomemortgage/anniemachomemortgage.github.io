@@ -1,4 +1,4 @@
-/* Monday, October 14, 2024 @ 08:32:36 PM */
+/* Tuesday, October 15, 2024 @ 12:33:15 PM */
 /* Foundation */
 *,
 :after,
@@ -733,6 +733,7 @@ fieldset.form-question textarea, fieldset.form-question input[type="text"], fiel
     margin: 20px 0 25px;
     border: none;
     font-family: var(--primary-font-stack);
+    letter-spacing: .1rem;
 }
 fieldset.form-question textarea {
     min-height: 200px;
