@@ -1,4 +1,4 @@
-<!-- Monday, October 14, 2024 @ 05:26:30 PM -->
+<!-- Tuesday, October 15, 2024 @ 12:28:27 AM -->
 <html>
 <head>
 	<title>Snapform</title>
@@ -18,7 +18,8 @@
 	<meta property="og:image" content="https://amweb.azureedge.net/anniemac-home-mortgage-2024/web_images/annie-mac-logo-share.png">
 	<meta name="twitter:image" content="https://amweb.azureedge.net/anniemac-home-mortgage-2024/web_images/annie-mac-logo-share.png">
 	<link id="fonts" rel="stylesheet" href="https://use.typekit.net/lie2pzo.css">
-	<link rel="stylesheet" href="snapform.css">
+	<link id="localstyle" rel="stylesheet" href="snapform.css">
+    <link id="remotestyle" rel="stylesheet" href="https://anniemachomemortgage.github.io/internal/snapform/snapform.css">
 </head>
 <body>
     <div class="progress-bar">
@@ -221,7 +222,7 @@
                         <div class="tab form-question-set">
                             <fieldset class="form-question">
                                 <legend>What else can you tell us that could help us to understand how we can best help you?</legend>
-                                <!-- <textarea name="" id=""></textarea> -->
+                                <textarea name="" id=""></textarea>
                                 click next
                                 <div class="tabular-navigations">
                                     <span>Navigation:</span>
@@ -231,9 +232,10 @@
                         </div>
                         <div class="tab form-question-set">
                             <fieldset class="form-question">
-                                <legend>What's your name?</legend>
-                                <!-- <textarea name="" id=""></textarea> -->
-                                click next
+                                <legend>What's your first name?</legend>
+                                <input type="text" name="first_name">
+                                <legend>What's your last name?</legend>
+                                <input type="text" name="last_name">
                                 <div class="tabular-navigations">
                                     <span>Navigation:</span>
                                     <a name="nextBtn_name" onclick="questionToggle(1)" class="landing-page-nav tabular-navigation">Next</a>
@@ -242,9 +244,10 @@
                         </div>
                         <div class="tab form-question-set">
                             <fieldset class="form-question">
-                                <legend>How can I contact you?</legend>
-                                <!-- <textarea name="" id=""></textarea> -->
-                                 click next
+                                <legend>What's your phone?</legend>
+                                <input type="tel" name="phone">
+                                <legend>What's your email?</legend>
+                                <input type="email" name="email">
                                 <div class="tabular-navigations">
                                     <span>Navigation:</span>
                                     <a name="nextBtn_contact" onclick="questionToggle(1)" class="landing-page-nav tabular-navigation">Next</a>
@@ -252,9 +255,22 @@
                             </fieldset>
                         </div>
                         <div class="tab form-question-set">
-                            submit
+                            <input type="hidden" name="value-home-shopping">
+                            <input type="hidden" name="value-pre-qualify">
+                            <input type="hidden" name="value-lost-offer">
+                            <input type="hidden" name="value-found-home">
+                            <input type="hidden" name="value-home-selling">
+                            <input type="hidden" name="value-down-payment">
+                            <input type="hidden" name="value-first-time">
+                            <input type="submit" id="submit-lead">
                         </div>
                     </div>
+                </div>
+                <div class="submitting-lead">
+                    <p>Your lead is being submitted.</p>
+                </div>
+                <div class="submitting-complete-lead">
+                    <p>Your lead has been successfully sent to the loan officer.</p>
                 </div>
                 <div class="loan-officer-contact-card-container bounce-down">
                     <div class="loan-officer-contact-card">
