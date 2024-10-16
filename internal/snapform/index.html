@@ -164,13 +164,32 @@
                                 <legend>Do you have a house in mind you want to make an offer on?</legend>
                                 <div class="question-answer-selection">
                                     <div class="question-answer-set affirmative-answer-set">
-                                        <input type="radio" onclick="questionToggle(1)" name="found-home" value="yes">
+                                        <input type="radio" onclick="subquestionToggle()" name="found-home" value="yes">
                                         <label for="yes">Yes</label>
                                     </div>
                                     <div class="question-answer-set negative-answer-set">
                                         <input type="radio" onclick="questionToggle(1)" name="found-home" value="no">
                                         <label for="no">No</label>
                                     </div>
+                                </div>
+                                <div id="offer-house-toggle" class="sub-question-content hidden-conditional-status">
+                                    <fieldset class="multi-layered-question">
+                                        <div class="question-inner-layer">
+                                            <legend>What's your phone?</legend>
+                                            <input type="tel" name="phone">
+                                        </div>
+                                        <div class="question-inner-layer">
+                                            <legend>What's your phone?</legend>
+                                            <input type="tel" name="phone">
+                                        </div><div class="question-inner-layer">
+                                            <legend>What's your phone?</legend>
+                                            <input type="tel" name="phone">
+                                        </div>
+                                        <div class="question-inner-layer">
+                                            <legend>What's your email?</legend>
+                                            <input type="email" name="email">
+                                        </div> 
+                                    </fieldset>
                                 </div>
                             </fieldset>
                         </div>

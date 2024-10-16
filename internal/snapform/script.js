@@ -24,3 +24,7 @@ function trackingProgressMeter(n) {
     }
     x[n-1].classList.add("indicator");
 }
+function subquestionToggle() {
+    document.getElementById('offer-house-toggle').classList.remove('hidden-conditional-status');
+    window.scrollTo(0,document.body.scrollHeight);
+}
