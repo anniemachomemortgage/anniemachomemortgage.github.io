@@ -1,5 +1,7 @@
 // Wednesday, October 16, 2024 @ 04:01:51 PM
-// Last update log: Pushing page to top on SubmitEvent.
+// Last update log: 
+// Smooth scroll to top.
+// Pushing page to top on SubmitEvent.
 
 var currentQuestion = 0;
 showQuestion(currentQuestion);
@@ -30,6 +32,10 @@ function formHandling() {
     let currentActiveTargetName = event.target.id;
     console.log(currentActiveTargetName);
     document.getElementById("submit-lead").setAttribute("disabled", "true");
-    window.scrollTo(0,0);
+    window.scroll({
+        top: 0,
+        left: 0,
+        behavior: "smooth",
+    });
     document.getElementById("on-submit").classList.remove("hidden-conditional-status");
 }
