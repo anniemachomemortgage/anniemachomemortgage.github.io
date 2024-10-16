@@ -715,8 +715,55 @@ hgroup.secondary-hgroup p {
     display: flex;
     flex-direction: column;
 }
-.submitting-lead, .submitting-complete-lead {
-    display: none;
+.submitting-lead-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8rem;
+    z-index: 2;
+    background: linear-gradient(-45deg, var(--primary), var(--secondary), var(--accent));
+    background-size: 400% 400%;
+    animation: bringtofront 3s ease, movingGradient 12s ease infinite;
+    pointer-events: none;
+}
+@keyframes bringtofront {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+        background: transparent;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+        background: linear-gradient(-45deg, var(--primary), var(--secondary), var(--accent));
+        background-size: 400% 400%;
+    }
+}
+.submitting-lead-container p {
+    animation: slidetextup 6s ease;
+    text-align: center;
+}
+.submitting-lead-container p span {
+    display: block;
+    font-size: 2rem;
+    margin: 3px 0;
+}
+@keyframes slidetextup {
+    0% {
+        transform: translateY(300%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 fieldset.form-question textarea, fieldset.form-question input[type="text"], fieldset.form-question input[type="tel"], fieldset.form-question input[type="email"] {
     color: var(--default);
@@ -752,6 +799,10 @@ fieldset.form-question textarea {
     display: inline-block;
     text-align: center;
     border: none;
+}
+.form-question-set input[type="submit"]:disabled {
+    background: #818a94;
+    opacity: .7;
 }
 .sub-question-content {
     margin-top: 5rem;

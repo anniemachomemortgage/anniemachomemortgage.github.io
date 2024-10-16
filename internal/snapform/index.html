@@ -86,8 +86,8 @@
                 </li>
             </ul>
         </div>
-<div class="landing-page-outer-container">
-        <form class="inner-landing-page">
+        <div class="landing-page-outer-container">
+        <form id="landing-page-lead-form" action="" onsubmit="formHandling()" class="inner-landing-page" name="landing-page-lead-form">
             <header>
                 <a class="return-home landing-page-nav">Return Home</a>
                 <div class="inner-slide-text-content">
@@ -164,7 +164,7 @@
                                 <legend>Do you have a house in mind you want to make an offer on?</legend>
                                 <div class="question-answer-selection">
                                     <div class="question-answer-set affirmative-answer-set">
-                                        <input type="radio" onclick="subquestionToggle()" name="found-home" value="yes">
+                                        <input type="radio" onclick="questionToggle(1)" name="found-home" value="yes">
                                         <label for="yes">Yes</label>
                                     </div>
                                     <div class="question-answer-set negative-answer-set">
@@ -172,25 +172,25 @@
                                         <label for="no">No</label>
                                     </div>
                                 </div>
-                                <div id="offer-house-toggle" class="sub-question-content hidden-conditional-status">
+                                <!-- <div id="offer-house-toggle" class="sub-question-content hidden-conditional-status">
                                     <fieldset class="multi-layered-question">
                                         <div class="question-inner-layer">
-                                            <legend>What's your phone?</legend>
-                                            <input type="tel" name="phone">
+                                            <legend>lorem?</legend>
+                                            <input type="text" name="address-added">
                                         </div>
                                         <div class="question-inner-layer">
-                                            <legend>What's your phone?</legend>
-                                            <input type="tel" name="phone">
+                                            <legend>lorem?</legend>
+                                            <input type="text" name="address-added">
                                         </div><div class="question-inner-layer">
-                                            <legend>What's your phone?</legend>
-                                            <input type="tel" name="phone">
+                                            <legend>lorem?</legend>
+                                            <input type="text" name="address-added">
                                         </div>
                                         <div class="question-inner-layer">
-                                            <legend>What's your email?</legend>
-                                            <input type="email" name="email">
+                                            <legend>lorem?</legend>
+                                            <input type="text" name="address-added">
                                         </div> 
                                     </fieldset>
-                                </div>
+                                </div> -->
                             </fieldset>
                         </div>
                         <div class="tab form-question-set">
@@ -206,6 +206,25 @@
                                         <label for="no">No</label>
                                     </div>
                                 </div>
+                                <!-- <div id="home-sale-toggle" class="sub-question-content hidden-conditional-status">
+                                    <fieldset class="multi-layered-question">
+                                        <div class="question-inner-layer">
+                                            <legend>lorem?</legend>
+                                            <input type="text" name="address-added">
+                                        </div>
+                                        <div class="question-inner-layer">
+                                            <legend>lorem?</legend>
+                                            <input type="text" name="address-added">
+                                        </div><div class="question-inner-layer">
+                                            <legend>lorem?</legend>
+                                            <input type="text" name="address-added">
+                                        </div>
+                                        <div class="question-inner-layer">
+                                            <legend>lorem?</legend>
+                                            <input type="text" name="address-added">
+                                        </div> 
+                                    </fieldset>
+                                </div> -->
                             </fieldset>
                         </div>
                         <div class="tab form-question-set">
@@ -277,23 +296,17 @@
                                 </div>
                             </fieldset>
                         </div>
+                        <!-- put submit back here start -->
                         <div class="tab form-question-set">
-                            <input type="hidden" name="value-home-shopping">
-                            <input type="hidden" name="value-pre-qualify">
-                            <input type="hidden" name="value-lost-offer">
-                            <input type="hidden" name="value-found-home">
-                            <input type="hidden" name="value-home-selling">
-                            <input type="hidden" name="value-down-payment">
-                            <input type="hidden" name="value-first-time">
                             <input type="submit" id="submit-lead">
                         </div>
+                        <!-- put submit back here end -->
                     </div>
                 </div>
-                <div id="on-submit" class="submitting-lead">
-                    <p>Your lead is being submitted.</p>
-                </div>
-                <div id="success-submit" class="submitting-complete-lead">
-                    <p>Your lead has been successfully sent to the loan officer.</p>
+                <div id="on-submit" class="hidden-conditional-status submitting-lead-container">
+                        <p>Your information is being submitted to your loan originator. 
+                            <span>Please wait.</span>
+                        </p>
                 </div>
                 <div class="loan-officer-contact-card-container bounce-down">
                     <div class="loan-officer-contact-card">

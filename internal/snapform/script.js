@@ -1,4 +1,4 @@
-// Tuesday, October 15, 2024 @ 11:44:22 AM
+// Wednesday, October 16, 2024 @ 02:51:35 PM
 
 var currentQuestion = 0;
 showQuestion(currentQuestion);
@@ -14,7 +14,7 @@ function questionToggle(n) {
     window.scrollTo(0,document.body.scrollHeight);
     var i, x = document.getElementsByName(currentActiveTargetName);
     for (i = 0; i < x.length; i++) {
-        x[i].removeAttribute('onclick')
+        x[i].removeAttribute("onclick")
     }
 }
 function trackingProgressMeter(n) {
@@ -24,7 +24,10 @@ function trackingProgressMeter(n) {
     }
     x[n-1].classList.add("indicator");
 }
-function subquestionToggle() {
-    document.getElementById('offer-house-toggle').classList.remove('hidden-conditional-status');
-    window.scrollTo(0,document.body.scrollHeight);
+function formHandling() {
+    event.preventDefault();
+    let currentActiveTargetName = event.target.id;
+    console.log(currentActiveTargetName);
+    document.getElementById("submit-lead").setAttribute("disabled", "true");
+    document.getElementById("on-submit").classList.remove("hidden-conditional-status");
 }
