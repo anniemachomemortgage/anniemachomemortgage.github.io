@@ -1,5 +1,6 @@
-/* Wednesday, October 16, 2024 @ 04:00:23 PM */
+/* Wednesday, October 16, 2024 @ 04:04:49 PM */
 /* Last update log: 
+Removing bottom padding on next button
 Minifying reset CSS
 Adjusting absolute position to fixed for module popup on submit. */
 
@@ -183,7 +184,6 @@ body {
     justify-content: start;
     gap: 1rem;
     align-items: center;
-    padding-bottom: 17px;
 }
 
 .tabular-navigations span {
