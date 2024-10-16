@@ -1,4 +1,4 @@
-/* Tuesday, Wednesday, October 16, 2024 @ 03:57:12 PM */
+/* Wednesday, October 16, 2024 @ 04:00:23 PM */
 /* Foundation */
 *,
 :after,
@@ -716,7 +716,7 @@ hgroup.secondary-hgroup p {
     flex-direction: column;
 }
 .submitting-lead-container {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     color: #fff;

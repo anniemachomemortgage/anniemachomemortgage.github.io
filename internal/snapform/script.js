@@ -29,5 +29,6 @@ function formHandling() {
     let currentActiveTargetName = event.target.id;
     console.log(currentActiveTargetName);
     document.getElementById("submit-lead").setAttribute("disabled", "true");
+    window.scrollTo(0,0);
     document.getElementById("on-submit").classList.remove("hidden-conditional-status");
 }
