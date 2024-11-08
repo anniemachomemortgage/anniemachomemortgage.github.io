@@ -707,6 +707,9 @@ fieldset.form-question textarea {
     padding: 4rem 3rem 3rem;
     border-radius: 5px;
 }
+.sub-question-content small {
+    margin-bottom: 20px;
+}
 .hidden-conditional-status {
     display: none;
 }

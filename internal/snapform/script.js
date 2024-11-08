@@ -1,8 +1,37 @@
-// Wednesday, October 16, 2024 @ 04:07:56 PM
-// Last update log: 
-// Smooth scroll to top.
-// Pushing page to top on SubmitEvent.
-
+function ready(fn) {
+	if (document.readyState === 'complete' || document.readyState === 'interactive') {
+		setTimeout(fn, 1);
+		document.removeEventListener('DOMContentLoaded', fn);
+	} else {
+		document.addEventListener('DOMContentLoaded', fn);
+	}
+}
+ready(function() {
+    const selectionFoundHome = document.querySelectorAll('input[name="found-home"]');
+    [].forEach.call(selectionFoundHome, function (item, index) {
+    item.addEventListener("change", () => {
+        let value = item.value
+        console.log(value)
+        if (value === "yes") {
+            document.getElementById("offer-house-toggle").classList.remove("hidden-conditional-status");
+        } else {
+            document.getElementById("offer-house-toggle").classList.add("hidden-conditional-status");
+        }
+    });
+    });
+    const selectionHomeSelling = document.querySelectorAll('input[name="home-selling"]');
+    [].forEach.call(selectionHomeSelling, function (item, index) {
+        item.addEventListener("change", () => {
+            let value = item.value
+            console.log(value)
+            if (value === "yes") {
+                document.getElementById("home-sale-toggle").classList.remove("hidden-conditional-status");
+            } else {
+                document.getElementById("home-sale-toggle").classList.add("hidden-conditional-status");
+            }
+        });
+    });
+})
 var currentQuestion = 0;
 showQuestion(currentQuestion);
 function showQuestion(n) {

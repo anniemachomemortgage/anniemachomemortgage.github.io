@@ -149,11 +149,11 @@
                                 <legend>Have you lost out on any offers on homes?</legend>
                                 <div class="question-answer-selection">
                                     <div class="question-answer-set affirmative-answer-set">
-                                        <input type="radio" onclick="questionToggle(1)" name="lost-offer" value="yes">
+                                        <input type="radio" onclick="questionToggle(1)" name="lost-offer" class="lostoffer" value="yes">
                                         <label for="yes">Yes</label>
                                     </div>
                                     <div class="question-answer-set negative-answer-set">
-                                        <input type="radio" onclick="questionToggle(1)" name="lost-offer" value="no">
+                                        <input type="radio" onclick="questionToggle(1)" name="lost-offer" class="lostoffer" value="no">
                                         <label for="no">No</label>
                                     </div>
                                 </div>
@@ -172,25 +172,26 @@
                                         <label for="no">No</label>
                                     </div>
                                 </div>
-                                <!-- <div id="offer-house-toggle" class="sub-question-content hidden-conditional-status">
+                                <div id="offer-house-toggle" class="sub-question-content hidden-conditional-status">
+                                    <small style="margin-bottom: 30px; display: block; font-size: 2.2rem;">You indicated you have a home you are interested in. Please input the property details below. These fields are not required, but appreciated.</small>
                                     <fieldset class="multi-layered-question">
                                         <div class="question-inner-layer">
-                                            <legend>lorem?</legend>
+                                            <legend>Address Line 1</legend>
                                             <input type="text" name="address-added">
                                         </div>
                                         <div class="question-inner-layer">
-                                            <legend>lorem?</legend>
+                                            <legend>City</legend>
                                             <input type="text" name="address-added">
                                         </div><div class="question-inner-layer">
-                                            <legend>lorem?</legend>
+                                            <legend>State</legend>
                                             <input type="text" name="address-added">
                                         </div>
                                         <div class="question-inner-layer">
-                                            <legend>lorem?</legend>
+                                            <legend>Zip Code</legend>
                                             <input type="text" name="address-added">
                                         </div> 
                                     </fieldset>
-                                </div> -->
+                                </div>
                             </fieldset>
                         </div>
                         <div class="tab form-question-set">
@@ -202,29 +203,30 @@
                                         <label for="yes">Yes</label>
                                     </div>
                                     <div class="question-answer-set negative-answer-set">
-                                        <input type="radio" onclick="questionToggle(1)" name="home-selling" value="no">
-                                        <label for="no">No</label>
+                                        <input type="radio" onclick="questionToggle(1)" name="home-selling" value="nosell">
+                                        <label for="nosell">No</label>
                                     </div>
                                 </div>
-                                <!-- <div id="home-sale-toggle" class="sub-question-content hidden-conditional-status">
+                                <div id="home-sale-toggle" class="sub-question-content hidden-conditional-status">
+                                    <small style="margin-bottom: 30px; display: block; font-size: 2.2rem;">You indicated you have a home you would like to sell. Please input the property details below. These fields are not required, but appreciated.</small>
                                     <fieldset class="multi-layered-question">
                                         <div class="question-inner-layer">
-                                            <legend>lorem?</legend>
+                                            <legend>Address Line 1</legend>
                                             <input type="text" name="address-added">
                                         </div>
                                         <div class="question-inner-layer">
-                                            <legend>lorem?</legend>
+                                            <legend>City</legend>
                                             <input type="text" name="address-added">
                                         </div><div class="question-inner-layer">
-                                            <legend>lorem?</legend>
+                                            <legend>State</legend>
                                             <input type="text" name="address-added">
                                         </div>
                                         <div class="question-inner-layer">
-                                            <legend>lorem?</legend>
+                                            <legend>Zip Code</legend>
                                             <input type="text" name="address-added">
                                         </div> 
                                     </fieldset>
-                                </div> -->
+                                </div>
                             </fieldset>
                         </div>
                         <div class="tab form-question-set">
@@ -326,6 +328,6 @@
     </div>
 
 </body>
-<!-- <script id="functionality-script" src="script.js"></script> -->
-<script id="functionality-script" src="https://anniemachomemortgage.github.io/internal/snapform/script.js"></script>
+<script id="functionality-script" src="script.js"></script>
+<!-- <script id="functionality-script" src="https://anniemachomemortgage.github.io/internal/snapform/script.js"></script> -->
 </html>
